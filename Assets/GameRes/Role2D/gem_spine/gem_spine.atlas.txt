@@ -1,0 +1,209 @@
+
+gem_spine.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ae/png/sg_00000
+  rotate: true
+  xy: 2, 81
+  size: 25, 30
+  orig: 118, 102
+  offset: 1, 56
+  index: -1
+ae/png/sg_00001
+  rotate: true
+  xy: 84, 72
+  size: 39, 46
+  orig: 118, 102
+  offset: 0, 45
+  index: -1
+ae/png/sg_00002
+  rotate: false
+  xy: 232, 86
+  size: 50, 60
+  orig: 118, 102
+  offset: 1, 38
+  index: -1
+ae/png/sg_00003
+  rotate: true
+  xy: 165, 114
+  size: 55, 65
+  orig: 118, 102
+  offset: 1, 36
+  index: -1
+ae/png/sg_00004
+  rotate: true
+  xy: 237, 148
+  size: 59, 66
+  orig: 118, 102
+  offset: 1, 35
+  index: -1
+ae/png/sg_00005
+  rotate: false
+  xy: 172, 230
+  size: 64, 73
+  orig: 118, 102
+  offset: 1, 28
+  index: -1
+ae/png/sg_00006
+  rotate: true
+  xy: 2, 167
+  size: 68, 74
+  orig: 118, 102
+  offset: 2, 25
+  index: -1
+ae/png/sg_00007
+  rotate: true
+  xy: 88, 166
+  size: 70, 75
+  orig: 118, 102
+  offset: 3, 25
+  index: -1
+ae/png/sg_00008
+  rotate: true
+  xy: 325, 202
+  size: 70, 85
+  orig: 118, 102
+  offset: 5, 16
+  index: -1
+ae/png/sg_00009
+  rotate: true
+  xy: 325, 274
+  size: 68, 88
+  orig: 118, 102
+  offset: 9, 13
+  index: -1
+ae/png/sg_00010
+  rotate: true
+  xy: 337, 426
+  size: 82, 91
+  orig: 118, 102
+  offset: 13, 9
+  index: -1
+ae/png/sg_00011
+  rotate: true
+  xy: 240, 347
+  size: 80, 92
+  orig: 118, 102
+  offset: 19, 8
+  index: -1
+ae/png/sg_00012
+  rotate: true
+  xy: 240, 429
+  size: 79, 95
+  orig: 118, 102
+  offset: 25, 3
+  index: -1
+ae/png/sg_00013
+  rotate: false
+  xy: 430, 424
+  size: 78, 84
+  orig: 118, 102
+  offset: 28, 0
+  index: -1
+ae/png/sg_00014
+  rotate: false
+  xy: 334, 344
+  size: 80, 80
+  orig: 118, 102
+  offset: 32, 0
+  index: -1
+ae/png/sg_00015
+  rotate: true
+  xy: 240, 269
+  size: 76, 83
+  orig: 118, 102
+  offset: 36, 0
+  index: -1
+ae/png/sg_00016
+  rotate: true
+  xy: 416, 349
+  size: 73, 84
+  orig: 118, 102
+  offset: 39, 0
+  index: -1
+ae/png/sg_00017
+  rotate: true
+  xy: 416, 275
+  size: 72, 84
+  orig: 118, 102
+  offset: 40, 0
+  index: -1
+ae/png/sg_00018
+  rotate: true
+  xy: 415, 202
+  size: 71, 84
+  orig: 118, 102
+  offset: 42, 0
+  index: -1
+ae/png/sg_00019
+  rotate: true
+  xy: 2, 237
+  size: 66, 84
+  orig: 118, 102
+  offset: 46, 0
+  index: -1
+ae/png/sg_00020
+  rotate: true
+  xy: 88, 238
+  size: 65, 82
+  orig: 118, 102
+  offset: 50, 0
+  index: -1
+ae/png/sg_00021
+  rotate: true
+  xy: 2, 108
+  size: 57, 80
+  orig: 118, 102
+  offset: 60, 0
+  index: -1
+ae/png/sg_00022
+  rotate: true
+  xy: 238, 209
+  size: 58, 76
+  orig: 118, 102
+  offset: 60, 0
+  index: -1
+ae/png/sg_00023
+  rotate: true
+  xy: 165, 171
+  size: 57, 70
+  orig: 118, 102
+  offset: 61, 0
+  index: -1
+ae/png/sg_00024
+  rotate: true
+  xy: 84, 113
+  size: 51, 62
+  orig: 118, 102
+  offset: 67, 3
+  index: -1
+ae/png/sg_00025
+  rotate: true
+  xy: 148, 75
+  size: 37, 50
+  orig: 118, 102
+  offset: 81, 13
+  index: -1
+ae/png/sg_00027
+  rotate: false
+  xy: 200, 77
+  size: 26, 35
+  orig: 118, 102
+  offset: 92, 23
+  index: -1
+ae/png/sg_00026
+  rotate: false
+  xy: 200, 77
+  size: 26, 35
+  orig: 118, 102
+  offset: 92, 23
+  index: -1
+gem
+  rotate: false
+  xy: 2, 305
+  size: 236, 203
+  orig: 246, 236
+  offset: 1, 31
+  index: -1

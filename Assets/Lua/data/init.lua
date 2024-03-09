@@ -1,0 +1,8 @@
+require "data.MsgData"
+require "data.ResData"
+require "data.BuildData"
+require "data.ItemData"
+require "data.HeroData"
+require "data.WarShipData"
+require "data.ResPlanetData"
+require "data.BattleData"

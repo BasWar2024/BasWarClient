@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LoginAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: cf09e74631f759c48a49d4cd3b704901, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2955a190d5a68e645ab9aa02a1f9964f, type: 3}
+  - {fileID: 21300000, guid: f6b49891ae421be4f92fad9a76f0efc3, type: 3}
+  - {fileID: 21300000, guid: d7ddc4b5ede43d94d85a63e67c9966b6, type: 3}
+  - {fileID: 21300000, guid: c13950d5c911165438c135cf45880308, type: 3}
+  - {fileID: 21300000, guid: b87ccc47d98ba04429a8cf70287eeb66, type: 3}
+  - {fileID: 21300000, guid: 48072c980d62e284dbe6457d3324d867, type: 3}
+  - {fileID: 21300000, guid: 26f8838a9087e674b9f668a0e5e2e6eb, type: 3}
+  - {fileID: 21300000, guid: 88253cea6ea21dc449c153f9f0342dc6, type: 3}
+  - {fileID: 21300000, guid: c19ada0bb7804f54e82652c89278f956, type: 3}
+  - {fileID: 21300000, guid: 8c791a5b22ba99a4993b45b0763400d4, type: 3}
+  - {fileID: 21300000, guid: 67c9c5ecacaf49442a9439b7efa2b73e, type: 3}
+  - {fileID: 21300000, guid: 14d2b47dca9c39d45998e3add14bd03e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - thread_img
+  - input field_text box
+  - twitter_button
+  - switch_button_A
+  - general click_button_com
+  - email_icon
+  - switch_button_B
+  - background plate_img
+  - youtube_button
+  - recommended click_button_com
+  - password_icon
+  - facebook_button
+  m_Tag: LoginAtlas
+  m_IsVariant: 0

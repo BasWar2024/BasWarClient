@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RegisterAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 0e72e4e6f506321488ce03f0512491d6, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 83d49d600c74c8e49b21ed22d6ca3157, type: 3}
+  - {fileID: 21300000, guid: 2686cff13d01b6e4daa62f1b17317543, type: 3}
+  - {fileID: 21300000, guid: 5e21f433b2342284c8ccea7d200d8c04, type: 3}
+  - {fileID: 21300000, guid: fbf099c5323a73b4581f896446b205d7, type: 3}
+  - {fileID: 21300000, guid: 719063b7cc954d3479741d00b116b160, type: 3}
+  - {fileID: 21300000, guid: 37f1216b0c51eb2438112c9e35f2298d, type: 3}
+  - {fileID: 21300000, guid: a447b6aeeb97d4544a3ad36ffd169296, type: 3}
+  - {fileID: 21300000, guid: f1337e6f762cbd44ea49639aca07860e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - password_icon
+  - email_icon
+  - captcha_icon
+  - bottom plate_img_com
+  - send code_button
+  - input field_text box
+  - choose_button_B
+  - choose_button_A
+  m_Tag: RegisterAtlas
+  m_IsVariant: 0

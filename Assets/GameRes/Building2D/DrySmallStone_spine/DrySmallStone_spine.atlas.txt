@@ -1,0 +1,13 @@
+
+DrySmallStone_spine.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/body1
+  rotate: false
+  xy: 2, 19
+  size: 129, 112
+  orig: 133, 112
+  offset: 0, 0
+  index: -1

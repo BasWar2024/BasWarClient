@@ -1,0 +1,73 @@
+Shader "Hidden/GTEffectTemplate"
+{
+	Properties
+	{
+		// Cull
+		[Enum(UnityEngine.Rendering.CullMode)] _CullMode("Cull Mode", Float) = 2.0
+
+		// ZTest
+		[Enum(UnityEngine.Rendering.CompareFunction)] _ZTest("Z Test", Float) = 4.0
+
+		// ZWrite
+		[Enum(Off, 0, On, 1)] _ZWrite("Z Write", Float) = 1.0
+
+
+		// Blend
+		[HideInInspector] _BlendMode("BlendMode", Float) = 0.0
+		[HideInInspector] _SrcBlend("__src", Float) = 5.0
+		[HideInInspector] _DstBlend("__dst", Float) = 10.0
+
+		//To do Custom Thing
+		_MainTex ("Texture", 2D) = "white" {}
+	}
+	SubShader
+	{	
+		Cull[_CullMode]
+		ZWrite[_ZWrite]
+		ZTest[_ZTest]
+		Blend[_SrcBlend][_DstBlend]
+		
+		Pass
+		{
+			CGPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
+			
+			#include "../Common/GTCommon.cginc"
+
+			float _BlendMode;
+			
+			//To do Custom Thing
+			sampler2D _MainTex;
+			float4 _MainTex_ST;
+
+			struct VertexInput
+			{
+				float4 vertex : POSITION;
+				float2 uv : TEXCOORD0;
+			};
+
+			struct VertexOutput {
+				float4 pos : SV_POSITION;
+				float2 uv : TEXCOORD0;
+			};
+
+			
+			VertexOutput vert (VertexInput v)
+			{
+				VertexOutput o;
+				o.pos = UnityObjectToClipPos(v.vertex);
+				o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+				return o;
+			}
+			
+			fixed4 frag (VertexOutput i) : SV_Target
+			{
+				fixed4 col = tex2D(_MainTex, i.uv);
+				return col;
+			}
+			ENDCG
+		}
+	}
+	CustomEditor "GTEffectShaderGUI"
+}

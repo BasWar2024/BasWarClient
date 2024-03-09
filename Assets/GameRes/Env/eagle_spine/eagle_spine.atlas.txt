@@ -1,0 +1,20 @@
+
+eagle_spine.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/alphs
+  rotate: false
+  xy: 2, 170
+  size: 227, 99
+  orig: 242, 112
+  offset: 7, 6
+  index: -1
+res/body
+  rotate: false
+  xy: 2, 271
+  size: 388, 119
+  orig: 394, 124
+  offset: 3, 3
+  index: -1

@@ -1,0 +1,13 @@
+
+Gaslibrary_spine.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/body
+  rotate: false
+  xy: 2, 40
+  size: 243, 205
+  orig: 245, 205
+  offset: 0, 0
+  index: -1

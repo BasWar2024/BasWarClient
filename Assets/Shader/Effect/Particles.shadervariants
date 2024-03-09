@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Particles
+  m_Shaders:
+  - first: {fileID: 4800000, guid: c11d306fa7f60eb4fae45acc55f28347, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: INSTANCING_ON
+        passType: 4
+      - keywords: UNITY_UI_CLIP_RECT
+        passType: 4

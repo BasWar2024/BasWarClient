@@ -1,0 +1,13 @@
+
+Gasminingtower_spine.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/body
+  rotate: false
+  xy: 2, 90
+  size: 260, 172
+  orig: 263, 172
+  offset: 0, 0
+  index: -1

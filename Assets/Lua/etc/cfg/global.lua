@@ -1,0 +1,141 @@
+-- cfgId                            string                           
+-- intValue                         int                              
+-- floatValue                       float                            
+-- tableValue                       json                             table
+-- stringValue                      string                           string
+
+return {
+	["ItemBagUpCost"] = {
+		cfgId = "ItemBagUpCost",
+		intValue = 666,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ItemBagUpCostRate"] = {
+		cfgId = "ItemBagUpCostRate",
+		intValue = 1000,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ItemBagExpandSpace"] = {
+		cfgId = "ItemBagExpandSpace",
+		intValue = 5,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ItemBagInitSpace"] = {
+		cfgId = "ItemBagInitSpace",
+		intValue = 50,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ProductTotal5"] = {
+		cfgId = "ProductTotal5",
+		intValue = 999,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ProductTotal4"] = {
+		cfgId = "ProductTotal4",
+		intValue = 9999,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ProductTotal3"] = {
+		cfgId = "ProductTotal3",
+		intValue = 99999,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ProductTotal2"] = {
+		cfgId = "ProductTotal2",
+		intValue = 999999,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ComposeCount"] = {
+		cfgId = "ComposeCount",
+		intValue = 3,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["RepairCostPerLife"] = {
+		cfgId = "RepairCostPerLife",
+		intValue = 1,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["RepairTimePerLife"] = {
+		cfgId = "RepairTimePerLife",
+		intValue = 600,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["RepairSpeedCost"] = {
+		cfgId = "RepairSpeedCost",
+		intValue = 5,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ResPlanetMakeResTime"] = {
+		cfgId = "ResPlanetMakeResTime",
+		intValue = 1800,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ResPlanetSettleTime"] = {
+		cfgId = "ResPlanetSettleTime",
+		intValue = 86400,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["AttackResPlanetWinResRate"] = {
+		cfgId = "AttackResPlanetWinResRate",
+		intValue = 3000,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["SpeedUpPerMinute"] = {
+		cfgId = "SpeedUpPerMinute",
+		intValue = 5,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ResPlanetFightRealTime"] = {
+		cfgId = "ResPlanetFightRealTime",
+		intValue = 90,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ResPlanetFightEndTime"] = {
+		cfgId = "ResPlanetFightEndTime",
+		intValue = 150,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+	["ComposeSpeedCostPerHour"] = {
+		cfgId = "ComposeSpeedCostPerHour",
+		intValue = 2,
+		floatValue = 0,
+		tableValue = nil,
+		stringValue = "",
+	},
+}

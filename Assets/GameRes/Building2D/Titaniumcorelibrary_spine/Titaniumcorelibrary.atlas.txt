@@ -1,0 +1,13 @@
+
+Titaniumcorelibrary.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/body
+  rotate: false
+  xy: 2, 44
+  size: 217, 175
+  orig: 217, 175
+  offset: 0, 0
+  index: -1

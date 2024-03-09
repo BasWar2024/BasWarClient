@@ -1,0 +1,14 @@
+{
+  "name": "gypsymagic.frameanimation",
+  "version": "0.1.0",
+  "displayName": "Frame Animation System",
+  "description": "A frame-by-frame animation system.",
+  "unity": "2019.3",
+  "keywords": [
+	"2d",
+	"frame",
+	"sprite",
+	"animation"
+  ],
+  "type": "tool"
+}

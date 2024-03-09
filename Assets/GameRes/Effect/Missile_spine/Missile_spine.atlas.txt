@@ -1,0 +1,146 @@
+
+Missile_spine.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ae/png/_00001
+  rotate: false
+  xy: 2, 1484
+  size: 406, 403
+  orig: 410, 410
+  offset: 4, 4
+  index: -1
+ae/png/_00002
+  rotate: false
+  xy: 390, 700
+  size: 385, 385
+  orig: 410, 410
+  offset: 12, 14
+  index: -1
+ae/png/_00003
+  rotate: false
+  xy: 410, 1490
+  size: 397, 397
+  orig: 410, 410
+  offset: 7, 6
+  index: -1
+ae/png/_00004
+  rotate: false
+  xy: 806, 1097
+  size: 389, 391
+  orig: 410, 410
+  offset: 12, 9
+  index: -1
+ae/png/_00005
+  rotate: true
+  xy: 809, 1499
+  size: 388, 394
+  orig: 410, 410
+  offset: 12, 10
+  index: -1
+ae/png/_00006
+  rotate: false
+  xy: 2, 699
+  size: 386, 386
+  orig: 410, 410
+  offset: 12, 12
+  index: -1
+ae/png/_00007
+  rotate: true
+  xy: 806, 706
+  size: 389, 388
+  orig: 410, 410
+  offset: 6, 16
+  index: -1
+ae/png/_00008
+  rotate: false
+  xy: 777, 321
+  size: 383, 383
+  orig: 410, 410
+  offset: 6, 21
+  index: -1
+ae/png/_00009
+  rotate: false
+  xy: 384, 317
+  size: 376, 380
+  orig: 410, 410
+  offset: 12, 22
+  index: -1
+ae/png/_00010
+  rotate: true
+  xy: 2, 312
+  size: 385, 380
+  orig: 410, 410
+  offset: 6, 23
+  index: -1
+ae/png/_00011
+  rotate: false
+  xy: 1404, 1111
+  size: 388, 383
+  orig: 410, 410
+  offset: 15, 16
+  index: -1
+ae/png/_00012
+  rotate: true
+  xy: 1196, 700
+  size: 395, 384
+  orig: 410, 410
+  offset: 8, 19
+  index: -1
+ae/png/_00013
+  rotate: true
+  xy: 1404, 1496
+  size: 391, 384
+  orig: 410, 410
+  offset: 13, 13
+  index: -1
+ae/png/_00014
+  rotate: false
+  xy: 2, 1087
+  size: 391, 395
+  orig: 410, 410
+  offset: 12, 7
+  index: -1
+ae/png/_00015
+  rotate: false
+  xy: 410, 1090
+  size: 394, 398
+  orig: 410, 410
+  offset: 9, 3
+  index: -1
+ae/png/_00016
+  rotate: true
+  xy: 1162, 326
+  size: 372, 397
+  orig: 410, 410
+  offset: 19, 6
+  index: -1
+res/Flare_001
+  rotate: false
+  xy: 1197, 1448
+  size: 205, 49
+  orig: 205, 49
+  offset: 0, 0
+  index: -1
+res/fog
+  rotate: true
+  xy: 1561, 351
+  size: 347, 326
+  orig: 350, 329
+  offset: 2, 3
+  index: -1
+res/keng
+  rotate: false
+  xy: 1197, 1241
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+res/laser_impulse_impact_ring_002
+  rotate: false
+  xy: 1197, 1105
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1

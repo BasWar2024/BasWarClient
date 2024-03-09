@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Icon-Institute
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Icon-Institute
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1f03f774b9b99f0469ac4d77b43424b2
+  m_SerializeEntries:
+  - m_GUID: 72f667a4266f7374f88d5498a23b1cda
+    m_Address: HighExplosivemayflymines_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2100bbc53ec7e5540874f5d4dcd7618b
+    m_Address: Mayfliesray_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3d98503217c43a347bc9442fa7d47443
+    m_Address: Soldier1_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: da410d2113c2dd941a76dcc4af164288
+    m_Address: Soldierplate_img
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 298cf069d7b14fb4b912e4a7bff07acc
+    m_Address: Unlockedsoldier1_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e3ce8e8f088e10049ac2ed872654b350
+    m_Address: Unlockedsoldier_img
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2465ed2af658eab43a2a43a4a30210a3, type: 2}
+    - {fileID: 11400000, guid: 5ffbd9ee6c463b24eb2248c85e011c42, type: 2}

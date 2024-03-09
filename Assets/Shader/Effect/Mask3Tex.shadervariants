@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mask3Tex
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 7bdf89bfc89b46c4cb1989dfe1a3c470, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: _MultiColor
+        passType: 4

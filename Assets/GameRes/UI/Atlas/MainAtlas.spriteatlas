@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9e1ef0416c76f7d40afa6fccde9f0122, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a10f6a121f5ad9e4286ee1792e1e0c4b, type: 3}
+  - {fileID: 3300892255357475343, guid: 264c3052628269441897cb45e2f688fc, type: 3}
+  - {fileID: 1817637709602375902, guid: 264c3052628269441897cb45e2f688fc, type: 3}
+  - {fileID: 6877472121736261367, guid: 264c3052628269441897cb45e2f688fc, type: 3}
+  - {fileID: 21300000, guid: 3adaea52835ba26438db4af062e52cd9, type: 3}
+  - {fileID: 21300000, guid: d52a607293d6b9a43b22f7283e4d86a5, type: 3}
+  - {fileID: 21300000, guid: 77362b92e4add5140bd5633628d9af5f, type: 3}
+  - {fileID: 21300000, guid: 48f9445398c514f44a02ff972c08594b, type: 3}
+  - {fileID: 21300000, guid: 49ccac245bf45894e82bb95a6362216f, type: 3}
+  - {fileID: 21300000, guid: bea13846769ab6944bcff392dae358b2, type: 3}
+  - {fileID: 21300000, guid: 46c8cc3739b9163449e590c991bb5ac7, type: 3}
+  - {fileID: 21300000, guid: 573952c79649e3940a57f91a5076757e, type: 3}
+  - {fileID: 21300000, guid: b247333847693e440841c0aef06c2193, type: 3}
+  - {fileID: 21300000, guid: 60580a98e03d99546b185f3bd7a18f56, type: 3}
+  - {fileID: 21300000, guid: cc9004f878e05304a80144f1e388c9a7, type: 3}
+  - {fileID: 21300000, guid: ddf5bc793d617ff4cb7d9803af94b478, type: 3}
+  - {fileID: 21300000, guid: 5f2606b936baab5448d969a6e366db0e, type: 3}
+  - {fileID: 21300000, guid: 3e7de00ab9d6f6f4c974496537a36416, type: 3}
+  - {fileID: 21300000, guid: 590f9dca63701cf4991b4c12b383774b, type: 3}
+  - {fileID: 8523238218996221493, guid: 531d82fa59d79e741ba2623a000cec74, type: 3}
+  - {fileID: -645183427774137005, guid: 531d82fa59d79e741ba2623a000cec74, type: 3}
+  - {fileID: -9010641602721817746, guid: 531d82fa59d79e741ba2623a000cec74, type: 3}
+  - {fileID: 21300000, guid: 75b0164cdb01c324a9be117e24344668, type: 3}
+  - {fileID: 21300000, guid: b1e1ec9c98e0e9f4287a900d7e05ff41, type: 3}
+  - {fileID: -8718040724612813574, guid: 00fc0ccc04de2f34395da57ae78608dc, type: 3}
+  - {fileID: 665375046813377505, guid: 00fc0ccc04de2f34395da57ae78608dc, type: 3}
+  - {fileID: -323757527432876786, guid: 00fc0ccc04de2f34395da57ae78608dc, type: 3}
+  - {fileID: 21300000, guid: 6b99e52df7c44f642a71fc9977e371c8, type: 3}
+  - {fileID: 21300000, guid: 72895d9d108459c41b2daa0d60d4e637, type: 3}
+  - {fileID: 21300000, guid: c8dcc83ee1e9483428c45de630d44b2a, type: 3}
+  - {fileID: 21300000, guid: 9bd8ee3ea186ab844be77ef53386fca2, type: 3}
+  - {fileID: 21300000, guid: b0d8c55f38ddee949b4e0fc198d7b59a, type: 3}
+  - {fileID: 21300000, guid: f41a356f0f1db7248b29f77826f7ff18, type: 3}
+  - {fileID: 21300000, guid: 840198af916406c49b99e621a9c719b7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - head frame_img_B
+  - Resource box_icon 1_0
+  - Resource box_icon 1_1
+  - Resource box_icon 1_2
+  - Hydroxyl group_icon
+  - Naming_img
+  - make friends_button
+  - facilities_button
+  - shop_button
+  - element_text box_A
+  - leaderboard_button
+  - Gasmine_icon
+  - mark_icon_com
+  - Titaniumgold_icon
+  - mit_text box_A
+  - element_text box_B
+  - mit_text box_B
+  - head frame_img_A
+  - Starcoin_icon
+  - Resource box_icon_C_2
+  - Resource box_icon_C_1
+  - Resource box_icon_C_0
+  - activities_button
+  - Icemine_icon
+  - Resource box_icon_B_2
+  - Resource box_icon_B_0
+  - Resource box_icon_B_1
+  - replenish our forces_button
+  - match_button
+  - chat window_button
+  - set up_button
+  - achievements and tasks_button
+  - invest money_button
+  - big map_button
+  m_Tag: MainAtlas
+  m_IsVariant: 0

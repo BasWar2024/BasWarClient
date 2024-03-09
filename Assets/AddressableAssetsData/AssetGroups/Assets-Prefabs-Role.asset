@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-Role
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-Role
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f06736f7304b1c346b7500d46f0c16ff
+  m_SerializeEntries:
+  - m_GUID: 73da6f85ee4814548b92145d23bdd73b
+    m_Address: 01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3833564635c5e5e4e8fe2126daa75f51
+    m_Address: Liberatorwarship
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1d949f42ef2a3a141b8b441b7476cfc3
+    m_Address: shadow_role_A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: de7647925b93b3648a0f5ad64923e2e0
+    m_Address: Sincetheballblasting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 801963542dd01bc498e9f6ffbcd65137
+    m_Address: ResBoat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dfc59ac25a94f8a42b6fcd35a5ea0520, type: 2}
+    - {fileID: 11400000, guid: bead1235e9bf75c48bf4554433eb27cc, type: 2}

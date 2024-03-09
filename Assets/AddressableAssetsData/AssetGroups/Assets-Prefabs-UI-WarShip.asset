@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-WarShip
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-WarShip
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6bfb9c9d56b8503449e6f8f35b001469
+  m_SerializeEntries:
+  - m_GUID: 1bd25027f628de340ae95e3450d03dd2
+    m_Address: BtnWarShipSkill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e82e3f92202232140b368b35422dad43
+    m_Address: PnlWarShip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3bba50c8efd76814f8f954a1403d1447, type: 2}
+    - {fileID: 11400000, guid: 150a6dc7084ab9941be11e0b6439ed0e, type: 2}

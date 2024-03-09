@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tree-Vtx-Ani
+  m_Shaders:
+  - first: {fileID: 4800000, guid: b52d5050ec99749fa9d9ef221fd92a0d, type: 3}
+    second:
+      variants:
+      - keywords: FOG_LINEAR LIGHTMAP_ON
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_ON
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_ON SHADER_LOD_MID
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_LOD_MID
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_ON SHADER_LOD_LOW
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_LOD_LOW
+        passType: 4
+      - keywords: LIGHTMAP_OFF
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_LOW
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_LOW UseSelfLightMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF UseSelfLightMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF UseAlphaClip UseBakeShadow UseSelfLightMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_MID UseAlphaClip UseBakeShadow
+          UseSelfLightMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_LOW UseAlphaClip UseBakeShadow
+          UseSelfLightMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF UseBakeShadow UseSelfLightMap UseShadowMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF UseBakeShadow UseSelfLightMap UseShadowMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_MID UseBakeShadow UseSelfLightMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_MID UseBakeShadow UseSelfLightMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_MID UseBakeShadow UseSelfLightMap UseShadowMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_MID UseBakeShadow UseSelfLightMap
+          UseShadowMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_LOW UseBakeShadow UseSelfLightMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_LOW UseBakeShadow UseSelfLightMap
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_ON UseAlphaClip
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_LOD_MID UseAlphaClip
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_LOD_LOW UseAlphaClip
+        passType: 4
+      - keywords: LIGHTMAP_OFF UseAlphaClip
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF UseAlphaClip
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_LOW UseAlphaClip
+        passType: 4
+      - keywords: LIGHTMAP_OFF UseAlphaClip UseSelfLightMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_LOW UseAlphaClip UseSelfLightMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_ON UseAlphaClip UseBakeShadow
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_ON UseAlphaClip UseBakeShadow UseShadowMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_ON SHADER_LOD_MID UseAlphaClip UseBakeShadow
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_ON SHADER_LOD_MID UseAlphaClip UseBakeShadow
+          UseShadowMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF UseAlphaClip UseBakeShadow UseSelfLightMap UseShadowMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF UseAlphaClip UseBakeShadow UseSelfLightMap
+          UseShadowMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_MID UseAlphaClip UseBakeShadow UseSelfLightMap
+          UseShadowMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_MID UseAlphaClip UseBakeShadow
+          UseSelfLightMap UseShadowMap
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON LIGHTMAP_OFF UseAlphaClip
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_MID UseAlphaClip
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_LOW UseAlphaClip
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON LIGHTMAP_OFF UseAlphaClip UseShadowMap
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_ON SHADER_LOD_LOW UseAlphaClip UseBakeShadow
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_MID UseAlphaClip UseBakeShadow UseSelfLightMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_LOW UseAlphaClip UseBakeShadow UseSelfLightMap
+        passType: 4
+      - keywords: LIGHTMAP_OFF UseAlphaClip VectorBillBoard
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_LOW UseAlphaClip VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON LIGHTMAP_OFF UseAlphaClip VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON LIGHTMAP_OFF UseAlphaClip UseShadowMap
+          VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_MID UseAlphaClip
+          VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_LOW UseAlphaClip
+          VectorBillBoard
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_OFF UseAreaColor VectorBillBoard
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF UseAreaColor VectorBillBoard
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_MID UseAreaColor
+          VectorBillBoard
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF SHADER_LOD_LOW UseAreaColor
+          VectorBillBoard
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_ON UseAreaColor UseBakeShadow VectorBillBoard
+        passType: 4
+      - keywords: Interaction LIGHTMAP_OFF UseAlphaClip VectorBillBoard
+        passType: 4
+      - keywords: Interaction LIGHTMAP_OFF SHADER_LOD_LOW UseAlphaClip VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON Interaction LIGHTMAP_OFF UseAlphaClip
+          VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON Interaction LIGHTMAP_OFF UseAlphaClip
+          UseShadowMap VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON Interaction LIGHTMAP_OFF SHADER_LOD_MID
+          UseAlphaClip VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON Interaction LIGHTMAP_OFF SHADER_LOD_LOW
+          UseAlphaClip VectorBillBoard
+        passType: 4
+      - keywords: INSTANCING_ON Interaction LIGHTMAP_OFF UseAreaColor UseBakeShadow
+          VectorBillBoard
+        passType: 4
+      - keywords: INSTANCING_ON Interaction LIGHTMAP_OFF UseAreaColor UseBakeShadow
+          UseShadowMap VectorBillBoard
+        passType: 4
+      - keywords: INSTANCING_ON Interaction LIGHTMAP_OFF UseAlphaClip UseAreaColor
+          UseBakeShadow VectorBillBoard
+        passType: 4
+      - keywords: INSTANCING_ON Interaction LIGHTMAP_OFF SHADER_LOD_MID UseAlphaClip
+          UseAreaColor UseBakeShadow VectorBillBoard
+        passType: 4
+      - keywords: INSTANCING_ON Interaction LIGHTMAP_OFF SHADER_LOD_LOW UseAlphaClip
+          UseAreaColor UseBakeShadow VectorBillBoard
+        passType: 4
+      - keywords: INSTANCING_ON Interaction LIGHTMAP_OFF UseAlphaClip UseAreaColor
+          UseBakeShadow UseShadowMap VectorBillBoard
+        passType: 4
+      - keywords: INSTANCING_ON Interaction LIGHTMAP_OFF SHADER_LOD_MID UseAlphaClip
+          UseAreaColor UseBakeShadow UseShadowMap VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON Interaction LIGHTMAP_OFF RecvShadow
+          UseAreaColor VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON Interaction LIGHTMAP_OFF RecvShadow
+          UseAreaColor UseShadowMap VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON Interaction LIGHTMAP_OFF RecvShadow
+          UseAlphaClip UseAreaColor VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON Interaction LIGHTMAP_OFF RecvShadow
+          UseAlphaClip UseAreaColor UseShadowMap VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON Interaction LIGHTMAP_OFF RecvShadow
+          SHADER_LOD_MID UseAlphaClip UseAreaColor VectorBillBoard
+        passType: 4
+      - keywords: GTCloudShadow INSTANCING_ON Interaction LIGHTMAP_OFF RecvShadow
+          SHADER_LOD_LOW UseAlphaClip UseAreaColor VectorBillBoard
+        passType: 4
+      - keywords: 
+        passType: 8

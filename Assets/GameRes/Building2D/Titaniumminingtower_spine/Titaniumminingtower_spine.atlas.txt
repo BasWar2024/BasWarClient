@@ -1,0 +1,13 @@
+
+Titaniumminingtower_spine.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/body
+  rotate: false
+  xy: 2, 7
+  size: 220, 215
+  orig: 235, 216
+  offset: 0, 1
+  index: -1

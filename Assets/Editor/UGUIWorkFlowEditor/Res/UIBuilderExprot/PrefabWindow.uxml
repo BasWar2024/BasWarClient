@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Root" style="flex-direction: row; width: 100%; height: 100%;">
+        <Style src="Prefabs_WinUss.uss" />
+        <ui:VisualElement name="Left" style="width: 50%;">
+            <ui:Label text="selectObjs" style="align-items: auto; justify-content: space-around; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+            <ui:VisualElement style="height: 20px; flex-direction: row;">
+                <ui:Button text="ADD All Selections" name="addAllSelections" />
+            </ui:VisualElement>
+            <ui:VisualElement name="L_ScrollRoot" style="height: 100%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" style="width: 50%;">
+            <ui:Label text="BringObj" />
+            <ui:VisualElement style="height: 20px;" />
+            <ui:VisualElement name="R_ScrollRoot" style="height: 100%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="ItemRoot" style="height: 40px; flex-direction: column; background-color: rgb(32, 32, 32); border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-left-color: rgb(56, 56, 56); border-right-color: rgb(56, 56, 56); border-top-color: rgb(56, 56, 56); border-bottom-color: rgb(56, 56, 56);">
+        <ui:Label text="Name" name="ItemName" />
+        <ui:VisualElement name="ButtonGroup" style="flex-direction: row;">
+            <ui:Button text="Open" name="Open" />
+            <ui:VisualElement style="width: 48.33334px;" />
+            <ui:Button text="Delete" name="Delete" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Icon-Attribute
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Icon-Attribute
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d4a14830cf1073d458f80c4cdd663ded
+  m_SerializeEntries:
+  - m_GUID: 1c398e5d2f235774492c82bb1e804328
+    m_Address: Attack power_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cd5f0cf26168f8b41a33317689081eb4
+    m_Address: Attack speed_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fa87beb2e884f814c95289a9547745cb
+    m_Address: Damage_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c2ee5d4d7e8cd8c418efd1e85dc6658d
+    m_Address: Moving speed_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a2d973e74dc384441906c9709a6dfa3a
+    m_Address: Skill duration_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 82d374771d833b748bd3d62be144f363
+    m_Address: Treatment_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c5e77dcff3cf4dc41a6ac74618d03a59, type: 2}
+    - {fileID: 11400000, guid: ab6cd4231d6475945964475100b81500, type: 2}

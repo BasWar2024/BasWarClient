@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Icon-ItemBag-temporary
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Icon-ItemBag-temporary
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3892375d69d953542bd70c831fc4204c
+  m_SerializeEntries:
+  - m_GUID: 8bc44e02539c69248b338385e36c3ca9
+    m_Address: icon_6101001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1a562fbf9391bfc4188595cc3d3a3f88
+    m_Address: icon_6102001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b7998f9f16222334a8ba6bb0a57a15c5
+    m_Address: icon_6103001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b75df141ac5411641b5a2d82825f4a6c
+    m_Address: icon_6104001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c00689defe6d20646a5d6abb45659274
+    m_Address: icon_6201001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 104505a670011554c950a86e6626749d
+    m_Address: icon_6202001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 013eb06d2f7820c469d0135ff4287ef7
+    m_Address: icon_6203001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ad18bdcf214e25549acd1a7964eddc52
+    m_Address: icon_6204001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cb707222efc87bd4d94e1eb57c60d39a
+    m_Address: icon_6205001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 797dc39cda990b14f97e232b01752be2
+    m_Address: icon_6206001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cc01a78bd2f5b6845ad35798c463946f
+    m_Address: icon_6207001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c27fec53dbce66f49bfce173ce639129
+    m_Address: icon_6208001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c3b522469a1dfb9468e845e7990ea0c1
+    m_Address: icon_6209001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 539f796e501b0c740a5ac74c9ff9d0df
+    m_Address: icon_6210001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2c62bb9c1c283cf44b46b39bad9f5416
+    m_Address: icon_6211001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f5a05fc17dc5b6744a344bfa6a9d31d7
+    m_Address: icon_6212001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ee83eac81dcd4db459c1a4e0ff86d596
+    m_Address: icon_6213001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 010deeffb667c424489263a7761e8f4d
+    m_Address: icon_6214001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 31dd72eb98a1fa9479fd2fc002f2b17c
+    m_Address: icon_6215001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d087a91984e25d8489774bf02ee3a251
+    m_Address: icon_6216001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f71b943e6cacb6c4690d5b9206144680
+    m_Address: icon_6217001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ab317896d3486994b94cf046e92f0783
+    m_Address: icon_6218001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e6c14d38cea48c24c9d717c7ea77eafe
+    m_Address: icon_6219001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1787d0930ba031d4bbc0373aaa62e169
+    m_Address: icon_6220001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e004cd94fe2f4a34392e5889d7d52399
+    m_Address: icon_6221001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2352819e6a2a0a0468287f18e8d6eb4d
+    m_Address: icon_6222001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f29ad12353b02724b8a364b44926cf4b
+    m_Address: icon_6223001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b55ce50d04df0b44090aa4a85887c9da
+    m_Address: icon_6224001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: efa6c22ad7fe3a947883cdb09b8026aa
+    m_Address: icon_6225001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a67ba42050a6cd2478ff283f9aa3cee4
+    m_Address: icon_6226001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3c138c2bf917f214f8c9a30e05ee2ba0
+    m_Address: icon_6227001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0ec9b0226642e7841a56b36828c492dd
+    m_Address: icon_6228001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ebd267656faa3924d888cf61aed9234c
+    m_Address: icon_6301001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ad240eeb76297d749a96eb6e0f666b45
+    m_Address: icon_6302001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 890be9f7157e03a418f462b18cbc8709
+    m_Address: icon_6303001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fb77181cd9ceaff4c8045c35ccf72324
+    m_Address: icon_6304001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0bc4d7b748552b1409330100f33f63d0
+    m_Address: icon_6305001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 66c160931d31055449de56c06800ae7d
+    m_Address: icon_6401001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 07d3ca5fcf3c17341a6d291b853a27ad
+    m_Address: icon_6402001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7cd6bfab4f9a342499715e9da38fca42
+    m_Address: icon_6403001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 98c6f29abbf770a43b3f95e540e37192
+    m_Address: icon_6404001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 827a99554f08a904ba60e85968d08ec9
+    m_Address: icon_6405001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6938d84d8cb537b4f9990f32f44b6887
+    m_Address: icon_6501001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 649b797f8410c9248b39266e9b7ef1d8
+    m_Address: icon_6502001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5f0e4b3257e5e28428dac26cc1e3e31c
+    m_Address: icon_6503001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7783da799d53ed742afdc75db22d1925
+    m_Address: icon_6504001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: eb1cb46919de7094fb6cfe3f6117289f
+    m_Address: icon_6505001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 43c021815f3734049ae2ab1497d66819
+    m_Address: icon_6506001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7553ef838f8fbce4e93e8b5b240c85ce
+    m_Address: icon_6507001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 983737556fb16014799b5d5771793756
+    m_Address: icon_6508001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9e12b726d37deca4192d8f7895166793, type: 2}
+    - {fileID: 11400000, guid: 56bf896c0642a0d48b6cf31020cc8419, type: 2}

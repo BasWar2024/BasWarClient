@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit-Transparent
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 144ebe8541476994db147a2d8430ee89, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: FOG_LINEAR
+        passType: 4
+      - keywords: INSTANCING_ON
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON
+        passType: 4
+      - keywords: SHADER_LOD_LOW
+        passType: 4
+      - keywords: FOG_LINEAR SHADER_LOD_LOW
+        passType: 4
+      - keywords: INSTANCING_ON SHADER_LOD_LOW
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON SHADER_LOD_LOW
+        passType: 4

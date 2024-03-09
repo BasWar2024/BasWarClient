@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Icon-Skill
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Icon-Skill
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3844748f24956c447ad1494297528ef0
+  m_SerializeEntries:
+  - m_GUID: 2d87d64816057df4ba706c07336f1aa4
+    m_Address: icon_Skill_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: de75d84cf86c53a4abff74347736b265
+    m_Address: icon_Skill_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ae15ab87e58f96646ac9cda302491131
+    m_Address: icon_Skill_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ec1b33cdeb72d074aa32d8ddf12df94b, type: 2}
+    - {fileID: 11400000, guid: 716457259ecca9545a70c18b29bb3545, type: 2}

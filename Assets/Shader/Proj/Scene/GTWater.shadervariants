@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GTWater
+  m_Shaders:
+  - first: {fileID: 4800000, guid: adf7220a8672c114386c3048b3706a34, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: FOG_LINEAR
+        passType: 4
+      - keywords: SHADER_LOD_MID
+        passType: 4
+      - keywords: FOG_LINEAR SHADER_LOD_MID
+        passType: 4
+      - keywords: SHADER_LOD_LOW
+        passType: 4
+      - keywords: FOG_LINEAR SHADER_LOD_LOW
+        passType: 4
+      - keywords: FOG_LINEAR UseRefraction
+        passType: 4
+      - keywords: FOG_LINEAR SHADER_LOD_MID UseRefraction
+        passType: 4
+      - keywords: SHADER_LOD_LOW UseRefraction
+        passType: 4
+      - keywords: FOG_LINEAR SHADER_LOD_LOW UseRefraction
+        passType: 4

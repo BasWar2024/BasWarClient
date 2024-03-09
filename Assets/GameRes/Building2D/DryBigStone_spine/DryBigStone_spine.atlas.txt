@@ -1,0 +1,13 @@
+
+DryBigStone_spine.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/DryBigStone_spine
+  rotate: false
+  xy: 2, 2
+  size: 255, 263
+  orig: 262, 263
+  offset: 1, 0
+  index: -1

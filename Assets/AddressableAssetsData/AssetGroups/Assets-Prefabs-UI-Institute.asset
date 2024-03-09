@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Institute
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Institute
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1185b8c35ae211641a1d9373fc4dfaff
+  m_SerializeEntries:
+  - m_GUID: 27433e1ef32d0c848b1600a04fe3fa8b
+    m_Address: InstitueForceCostItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ce9276af41972f44fbfefedc8c69d7fa
+    m_Address: InstituteDrawItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 182f058a2cd44f044ac5d9068d859ab8
+    m_Address: InstituteForceItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e0718e4f4b9453448be881bd4a2a232d
+    m_Address: InstituteForceScrollItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: beb40f4a6df8ec5429edcb07e90afd26
+    m_Address: InstituteMineItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0b234e9f9dad4904d813e21821d29302
+    m_Address: InstituteMineScrollItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 06e17a76b2fdc1c4997386e64e81d2bf
+    m_Address: PnlDrawSet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9af65948eb0745f46a5d6a6e5ffa5124
+    m_Address: PnlForceUpgrade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9f22a8a6982d1464688d7ad779e91181
+    m_Address: PnlInstitute
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bec5c6ea4b968f5428d640d27820241e, type: 2}
+    - {fileID: 11400000, guid: 51c5538c3fc100540b8ecc78fbe7826d, type: 2}

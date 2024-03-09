@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{ECE38AA4-D0E5-4F6A-841B-D3B51F19079C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LockStepSimpleFramework</RootNamespace>
+    <AssemblyName>LockStepSimpleFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\LockStepSimpleFramework.exe" />
+    <Content Include="bin\Debug\LockStepSimpleFramework.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="battle\NewBattle\AStart\ASPoint.cs" />
+    <Compile Include="battle\NewBattle\AStart\AStar.cs" />
+    <Compile Include="battle\NewBattle\AStart\BuildingAroundPoint.cs" />
+    <Compile Include="battle\NewBattle\AStart\FindPathComd.cs" />
+    <Compile Include="battle\NewBattle\Base\EntityBase.cs" />
+    <Compile Include="battle\NewBattle\Base\GameObjectBase.cs" />
+    <Compile Include="battle\NewBattle\Base\IFightingUnits.cs" />
+    <Compile Include="battle\NewBattle\Buff\Buff.cs" />
+    <Compile Include="battle\NewBattle\Buff\BuffBase.cs" />
+    <Compile Include="battle\NewBattle\Building\BuildingBase.cs" />
+    <Compile Include="battle\NewBattle\Building\DefenseTower.cs" />
+    <Compile Include="battle\NewBattle\Building\NormalBuilding.cs" />
+    <Compile Include="battle\NewBattle\Bullet\BulletBase.cs" />
+    <Compile Include="battle\NewBattle\Bullet\ParabolaBullet.cs" />
+    <Compile Include="battle\NewBattle\Bullet\StraightBullet.cs" />
+    <Compile Include="battle\NewBattle\Effect\EffectBase.cs" />
+    <Compile Include="battle\NewBattle\Enum\EnumScripts.cs" />
+    <Compile Include="battle\NewBattle\Factory\BuffFactory.cs" />
+    <Compile Include="battle\NewBattle\Factory\BuildingFactory.cs" />
+    <Compile Include="battle\NewBattle\Factory\BulletsFactory.cs" />
+    <Compile Include="battle\NewBattle\Factory\EffectFactory.cs" />
+    <Compile Include="battle\NewBattle\Factory\GameObjFactory.cs" />
+    <Compile Include="battle\NewBattle\Factory\HeroFactory.cs" />
+    <Compile Include="battle\NewBattle\Factory\SkillFactory.cs" />
+    <Compile Include="battle\NewBattle\Factory\SoliderFactory.cs" />
+    <Compile Include="battle\NewBattle\Factory\TrapFactory.cs" />
+    <Compile Include="battle\NewBattle\Fix64.cs" />
+    <Compile Include="battle\NewBattle\Fsm\AirSolider\EntitAirSoliderReverseFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\AirSolider\EntityCarpetAtkFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityArriveFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityAtkFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityDeadFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityFindBuildingFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityFindSignalFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityFindSoliderFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityIdleFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityKillSelfFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityMoveFlashFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityMoveFlatThrowFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityMoveFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityMoveSignalFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityMoveSignalLockBuildingFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityMoveStraightFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Common\EntityReturnStraighFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\FsmCompent.cs" />
+    <Compile Include="battle\NewBattle\Fsm\FsmState.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Skill\SkillCommonDoGroupFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Skill\SkillMoveStraightFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Skill\SkillOverFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Skill\SkillSignalBoobFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Trap\TrapDelayAtkFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\Trap\TrapIdleFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\WarShip\WarShipFightWallFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\WarShip\WarShipMoveFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\WarShip\WarShipOverFsm.cs" />
+    <Compile Include="battle\NewBattle\Fsm\WarShip\WarShipReadyFsm.cs" />
+    <Compile Include="battle\NewBattle\Hero\LandHero.cs" />
+    <Compile Include="battle\NewBattle\LockStepLogic.cs" />
+    <Compile Include="battle\NewBattle\Manager\EntityManager.cs" />
+    <Compile Include="battle\NewBattle\Manager\FightManager.cs" />
+    <Compile Include="battle\NewBattle\Model\BattleInfo.cs" />
+    <Compile Include="battle\NewBattle\Model\BuffModel.cs" />
+    <Compile Include="battle\NewBattle\Model\BuildingModel.cs" />
+    <Compile Include="battle\NewBattle\Model\BulletModel.cs" />
+    <Compile Include="battle\NewBattle\Model\HeroModel.cs" />
+    <Compile Include="battle\NewBattle\Model\HeroSkillModel.cs" />
+    <Compile Include="battle\NewBattle\Model\InitBattleModel.cs" />
+    <Compile Include="battle\NewBattle\Model\MainShipModel.cs" />
+    <Compile Include="battle\NewBattle\Model\SkillModel.cs" />
+    <Compile Include="battle\NewBattle\Model\SoliderModel.cs" />
+    <Compile Include="battle\NewBattle\Model\TrapModel.cs" />
+    <Compile Include="battle\NewBattle\NewBattleLogic.cs" />
+    <Compile Include="battle\NewBattle\NewGameData.cs" />
+    <Compile Include="battle\NewBattle\OperInfo.cs" />
+    <Compile Include="battle\NewBattle\Skill\HeroSkill.cs" />
+    <Compile Include="battle\NewBattle\Skill\SignalBombSkill.cs" />
+    <Compile Include="battle\NewBattle\Skill\SkillBase.cs" />
+    <Compile Include="battle\NewBattle\Skill\SmokeBombSkill.cs" />
+    <Compile Include="battle\NewBattle\Skill\WarShipBuffSkill.cs" />
+    <Compile Include="battle\NewBattle\Skill\WarShipMissileSkill.cs" />
+    <Compile Include="battle\NewBattle\Soldier\AirSolider.cs" />
+    <Compile Include="battle\NewBattle\Soldier\LandingShip.cs" />
+    <Compile Include="battle\NewBattle\Soldier\LandSolider.cs" />
+    <Compile Include="battle\NewBattle\Soldier\SoliderBase.cs" />
+    <Compile Include="battle\NewBattle\SRandom.cs" />
+    <Compile Include="battle\NewBattle\Trap\NormalTrap.cs" />
+    <Compile Include="battle\NewBattle\Trap\TrapBase.cs" />
+    <Compile Include="battle\NewBattle\UnityTools.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="SimpleJson.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="battle\LICENSE" />
+    <None Include="battle\LICENSE.meta" />
+    <None Include="battle\NewBattle.meta" />
+    <None Include="battle\NewBattle\AStart.meta" />
+    <None Include="battle\NewBattle\AStart\ASPoint.cs.meta" />
+    <None Include="battle\NewBattle\AStart\AStar.cs.meta" />
+    <None Include="battle\NewBattle\AStart\BuildingAroundPoint.cs.meta" />
+    <None Include="battle\NewBattle\AStart\FindPathComd.cs.meta" />
+    <None Include="battle\NewBattle\Base.meta" />
+    <None Include="battle\NewBattle\Base\EntityBase.cs.meta" />
+    <None Include="battle\NewBattle\Base\GameObjectBase.cs.meta" />
+    <None Include="battle\NewBattle\Base\IFightingUnits.cs.meta" />
+    <None Include="battle\NewBattle\Buff.meta" />
+    <None Include="battle\NewBattle\Buff\Buff.cs.meta" />
+    <None Include="battle\NewBattle\Buff\BuffBase.cs.meta" />
+    <None Include="battle\NewBattle\Building.meta" />
+    <None Include="battle\NewBattle\Building\BuildingBase.cs.meta" />
+    <None Include="battle\NewBattle\Building\DefenseTower.cs.meta" />
+    <None Include="battle\NewBattle\Building\NormalBuilding.cs.meta" />
+    <None Include="battle\NewBattle\Bullet.meta" />
+    <None Include="battle\NewBattle\Bullet\BulletBase.cs.meta" />
+    <None Include="battle\NewBattle\Bullet\ParabolaBullet.cs.meta" />
+    <None Include="battle\NewBattle\Bullet\StraightBullet.cs.meta" />
+    <None Include="battle\NewBattle\Effect.meta" />
+    <None Include="battle\NewBattle\Effect\EffectBase.cs.meta" />
+    <None Include="battle\NewBattle\Enum.meta" />
+    <None Include="battle\NewBattle\Enum\EnumScripts.cs.meta" />
+    <None Include="battle\NewBattle\Factory.meta" />
+    <None Include="battle\NewBattle\Factory\BuffFactory.cs.meta" />
+    <None Include="battle\NewBattle\Factory\BuildingFactory.cs.meta" />
+    <None Include="battle\NewBattle\Factory\BulletsFactory.cs.meta" />
+    <None Include="battle\NewBattle\Factory\EffectFactory.cs.meta" />
+    <None Include="battle\NewBattle\Factory\GameObjFactory.cs.meta" />
+    <None Include="battle\NewBattle\Factory\HeroFactory.cs.meta" />
+    <None Include="battle\NewBattle\Factory\SkillFactory.cs.meta" />
+    <None Include="battle\NewBattle\Factory\SoliderFactory.cs.meta" />
+    <None Include="battle\NewBattle\Factory\TrapFactory.cs.meta" />
+    <None Include="battle\NewBattle\Fix64.cs.meta" />
+    <None Include="battle\NewBattle\Fsm.meta" />
+    <None Include="battle\NewBattle\Fsm\AirSolider.meta" />
+    <None Include="battle\NewBattle\Fsm\AirSolider\EntitAirSoliderReverseFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\AirSolider\EntityCarpetAtkFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityArriveFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityAtkFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityDeadFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityFindBuildingFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityFindSignalFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityFindSoliderFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityIdleFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityKillSelfFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityMoveFlashFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityMoveFlatThrowFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityMoveFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityMoveSignalFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityMoveSignalLockBuildingFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityMoveStraightFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Common\EntityReturnStraighFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\FsmCompent.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\FsmState.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Skill.meta" />
+    <None Include="battle\NewBattle\Fsm\Skill\SkillCommonDoGroupFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Skill\SkillMoveStraightFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Skill\SkillOverFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Skill\SkillSignalBoobFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Trap.meta" />
+    <None Include="battle\NewBattle\Fsm\Trap\TrapDelayAtkFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\Trap\TrapIdleFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\WarShip.meta" />
+    <None Include="battle\NewBattle\Fsm\WarShip\WarShipFightWallFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\WarShip\WarShipMoveFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\WarShip\WarShipOverFsm.cs.meta" />
+    <None Include="battle\NewBattle\Fsm\WarShip\WarShipReadyFsm.cs.meta" />
+    <None Include="battle\NewBattle\Hero.meta" />
+    <None Include="battle\NewBattle\Hero\LandHero.cs.meta" />
+    <None Include="battle\NewBattle\LockStepLogic.cs.meta" />
+    <None Include="battle\NewBattle\Manager.meta" />
+    <None Include="battle\NewBattle\Manager\EntityManager.cs.meta" />
+    <None Include="battle\NewBattle\Manager\FightManager.cs.meta" />
+    <None Include="battle\NewBattle\Model.meta" />
+    <None Include="battle\NewBattle\Model\BattleInfo.cs.meta" />
+    <None Include="battle\NewBattle\Model\BuffModel.cs.meta" />
+    <None Include="battle\NewBattle\Model\BuildingModel.cs.meta" />
+    <None Include="battle\NewBattle\Model\BulletModel.cs.meta" />
+    <None Include="battle\NewBattle\Model\HeroModel.cs.meta" />
+    <None Include="battle\NewBattle\Model\HeroSkillModel.cs.meta" />
+    <None Include="battle\NewBattle\Model\InitBattleModel.cs.meta" />
+    <None Include="battle\NewBattle\Model\MainShipModel.cs.meta" />
+    <None Include="battle\NewBattle\Model\SkillModel.cs.meta" />
+    <None Include="battle\NewBattle\Model\SoliderModel.cs.meta" />
+    <None Include="battle\NewBattle\Model\TrapModel.cs.meta" />
+    <None Include="battle\NewBattle\NewBattleLogic.cs.meta" />
+    <None Include="battle\NewBattle\NewGameData.cs.meta" />
+    <None Include="battle\NewBattle\OperInfo.cs.meta" />
+    <None Include="battle\NewBattle\Skill.meta" />
+    <None Include="battle\NewBattle\Skill\HeroSkill.cs.meta" />
+    <None Include="battle\NewBattle\Skill\SignalBombSkill.cs.meta" />
+    <None Include="battle\NewBattle\Skill\SkillBase.cs.meta" />
+    <None Include="battle\NewBattle\Skill\SmokeBombSkill.cs.meta" />
+    <None Include="battle\NewBattle\Skill\WarShipBuffSkill.cs.meta" />
+    <None Include="battle\NewBattle\Skill\WarShipMissileSkill.cs.meta" />
+    <None Include="battle\NewBattle\Soldier.meta" />
+    <None Include="battle\NewBattle\Soldier\AirSolider.cs.meta" />
+    <None Include="battle\NewBattle\Soldier\LandingShip.cs.meta" />
+    <None Include="battle\NewBattle\Soldier\LandSolider.cs.meta" />
+    <None Include="battle\NewBattle\Soldier\SoliderBase.cs.meta" />
+    <None Include="battle\NewBattle\SRandom.cs.meta" />
+    <None Include="battle\NewBattle\Trap.meta" />
+    <None Include="battle\NewBattle\Trap\NormalTrap.cs.meta" />
+    <None Include="battle\NewBattle\Trap\TrapBase.cs.meta" />
+    <None Include="battle\NewBattle\UnityTools.cs.meta" />
+    <None Include="battle\README.md" />
+    <None Include="battle\README.md.meta" />
+    <None Include="Other\Bullet2Wall.cs.meta" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

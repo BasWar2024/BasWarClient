@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-Bullet
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-Bullet
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 110c36901486bd147a3cb6d86682efc9
+  m_SerializeEntries:
+  - m_GUID: d5530d0003eca6646b587acbb7a94c3d
+    m_Address: Bullet_Missile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 433cd2d99196c8344931f294c91557a5
+    m_Address: Bullet_Particlegunner
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fe2dcdc1de1b160479cc73007286148f
+    m_Address: Bullet_Thelasergun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d49d6eecb044bc047a163210fefc1b2f
+    m_Address: Sonicemitter_Bullet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ed7309b523bbf6c4b87360caa3a2500c, type: 2}
+    - {fileID: 11400000, guid: 12b2b18b8ec408c479fb71edc91862fe, type: 2}

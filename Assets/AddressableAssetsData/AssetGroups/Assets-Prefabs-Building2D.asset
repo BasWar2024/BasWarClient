@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-Building2D
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-Building2D
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9329e25516ba3f84384d7fb0c293c92f
+  m_SerializeEntries:
+  - m_GUID: 0d6c4af7dfbb7184c89151821afe1204
+    m_Address: Base_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 16486120f8cb0e944bcab4e885457263
+    m_Address: Blastmayflymines_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0fd39913c017b80498d4fd44dbacbb5e
+    m_Address: Building2D
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 75ce4b4c87f2c5b4c98b5745d3be33de
+    m_Address: BuildingList
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 06610fdb01e05ad4bbeb6a84effbc54f
+    m_Address: DryBigStone_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a63259100070e9a40a976801c2cd97a5
+    m_Address: DryMiddleStone_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 77435a8214972a84d9699e23a10bba91
+    m_Address: DrySmallStone_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b513af8dafd5579479bccbfc891b4b81
+    m_Address: Gaslibrary_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: df5484613d3994b448055a51f7beaafe
+    m_Address: Gasminingtower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 18cb3ee47c318c541bbccf2542ddfb25
+    m_Address: High-explosivemayflymines_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4242e2bd1df98ea4d8ac33350fd60fdb
+    m_Address: Icecorelibrary_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7cfcf1e32fa605a40b458a007263753b
+    m_Address: Iceminingtower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 332b98eb0e82fac4ba95c13b0f5814ab
+    m_Address: Mayfliesray_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a5b522b9076ec0c409f0ad459e9bc72f
+    m_Address: miningmachine_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e8ee0dc5eee8f5e43a2405173bd00121
+    m_Address: Thelasergun_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f73d3536076688043903549ad5119f5f
+    m_Address: Titaniumcorelibrary_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1269caae3088a494eafadc13423b6170
+    m_Address: Titaniumminingtower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1db87f969ea723141a4ec71dd611faf9
+    m_Address: Sonicemitter_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: af501d1d0e9fce640993505b55a2213a
+    m_Address: Interstellarbank_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: af2408cd17b95114c9fe6d2e0cb2ac53, type: 2}
+    - {fileID: 11400000, guid: 893249b67c59bcc4eabe83ccdb135e83, type: 2}

@@ -1,0 +1,5 @@
+require "scene.building.Building"
+require "scene.building.BuildingView"
+require "scene.building.BuildingManager"
+require "scene.building.BuildingScene"
+require "scene.building.BuildUtil"

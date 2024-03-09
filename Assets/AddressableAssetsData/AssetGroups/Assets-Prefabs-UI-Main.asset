@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Main
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Main
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1b3ee7f6f80b7e84fa3e0ae8381b0135
+  m_SerializeEntries:
+  - m_GUID: 17b18c3fe5ce3054184176ada5654b69
+    m_Address: BubbleRes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8289fea454462d74cb71f27cfe9817d6
+    m_Address: CardModle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 654d7c6d129993143a75afab7d30d47a
+    m_Address: PnlMain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 268d1a7c09abcff41a48dd53f15df694
+    m_Address: PnlPlayerInformation
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 30aef000636d3b54fa704e9cddfa4e4f, type: 2}
+    - {fileID: 11400000, guid: e4d6ccfd921117345b3727ed332f9d61, type: 2}

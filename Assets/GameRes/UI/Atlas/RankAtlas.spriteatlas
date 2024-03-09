@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RankAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: c4c43c9cc489f3649b01ed0f082d5f0b, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e7a54f31568d16244b5c0f2a434e0616, type: 3}
+  - {fileID: 21300000, guid: cf6cb581fc3d43143bbdd68c03d2e94d, type: 3}
+  - {fileID: 21300000, guid: 8c743fd69ef54f541911d8367029a9ce, type: 3}
+  - {fileID: 21300000, guid: 91ceac6a718a7804693be200f3ff7c45, type: 3}
+  - {fileID: 21300000, guid: c2cfbcfadda3b55489466bcacbd6cf4f, type: 3}
+  - {fileID: 21300000, guid: fb21b17f8a7988e42bc789229a523149, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - horizontal plate_img
+  - up_icon
+  - head frame_img_B
+  - same_icon
+  - half background plate_img
+  - down_icon
+  m_Tag: RankAtlas
+  m_IsVariant: 0

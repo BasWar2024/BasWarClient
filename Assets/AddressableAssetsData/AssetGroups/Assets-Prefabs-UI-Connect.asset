@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Connect
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Connect
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 782e1c09bbc49a247804d3fc423ea027
+  m_SerializeEntries:
+  - m_GUID: 20daa2033bd5f8044aa9ae10bc4d541e
+    m_Address: PnlConnect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0ffcc6863f615c640b3d65fbdf24ee03, type: 2}
+    - {fileID: 11400000, guid: 101d60e9b8b14a741a5a7b06802cc815, type: 2}

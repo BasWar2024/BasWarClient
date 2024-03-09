@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Login
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Login
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b285a50cfca798d43b18a801c1acabaf
+  m_SerializeEntries:
+  - m_GUID: dcc1ec645089cf7499f80285a497b9db
+    m_Address: PnlLogin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b2d1f48883b85fb4d8b55c9b69333b1c
+    m_Address: PnlRegister
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8af81c86acbb6f845952449bd2a48289, type: 2}
+    - {fileID: 11400000, guid: f0613e37805371d4d9dd86e272fd3248, type: 2}

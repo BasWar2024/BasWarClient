@@ -1,0 +1,174 @@
+
+Icecorelibrary_spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/body
+  rotate: false
+  xy: 564, 2
+  size: 364, 235
+  orig: 540, 540
+  offset: 135, 129
+  index: -1
+res/sg/ (1)
+  rotate: true
+  xy: 188, 613
+  size: 173, 179
+  orig: 256, 256
+  offset: 46, 42
+  index: -1
+res/sg/ (11)
+  rotate: true
+  xy: 188, 430
+  size: 178, 184
+  orig: 256, 256
+  offset: 36, 37
+  index: -1
+res/sg/ (13)
+  rotate: true
+  xy: 551, 787
+  size: 168, 181
+  orig: 256, 256
+  offset: 41, 40
+  index: -1
+res/sg/ (15)
+  rotate: true
+  xy: 185, 788
+  size: 167, 179
+  orig: 256, 256
+  offset: 48, 42
+  index: -1
+res/sg/ (17)
+  rotate: true
+  xy: 369, 610
+  size: 176, 178
+  orig: 256, 256
+  offset: 42, 43
+  index: -1
+res/sg/ (19)
+  rotate: true
+  xy: 743, 425
+  size: 182, 183
+  orig: 256, 256
+  offset: 37, 38
+  index: -1
+res/sg/ (21)
+  rotate: true
+  xy: 749, 239
+  size: 184, 185
+  orig: 256, 256
+  offset: 36, 35
+  index: -1
+res/sg/ (23)
+  rotate: true
+  xy: 2, 254
+  size: 183, 184
+  orig: 256, 256
+  offset: 36, 35
+  index: -1
+res/sg/ (25)
+  rotate: true
+  xy: 2, 439
+  size: 177, 184
+  orig: 256, 256
+  offset: 38, 35
+  index: -1
+res/sg/ (27)
+  rotate: true
+  xy: 734, 787
+  size: 168, 183
+  orig: 256, 256
+  offset: 41, 36
+  index: -1
+res/sg/ (29)
+  rotate: true
+  xy: 366, 788
+  size: 167, 183
+  orig: 256, 256
+  offset: 47, 38
+  index: -1
+res/sg/ (3)
+  rotate: false
+  xy: 559, 427
+  size: 182, 180
+  orig: 256, 256
+  offset: 39, 41
+  index: -1
+res/sg/ (31)
+  rotate: true
+  xy: 549, 609
+  size: 176, 179
+  orig: 256, 256
+  offset: 43, 42
+  index: -1
+res/sg/ (33)
+  rotate: false
+  xy: 374, 428
+  size: 183, 179
+  orig: 256, 256
+  offset: 38, 42
+  index: -1
+res/sg/ (35)
+  rotate: true
+  xy: 2, 66
+  size: 186, 184
+  orig: 256, 256
+  offset: 35, 37
+  index: -1
+res/sg/ (37)
+  rotate: false
+  xy: 376, 51
+  size: 186, 186
+  orig: 256, 256
+  offset: 35, 35
+  index: -1
+res/sg/ (39)
+  rotate: true
+  xy: 374, 242
+  size: 183, 186
+  orig: 256, 256
+  offset: 35, 35
+  index: -1
+res/sg/ (41)
+  rotate: true
+  xy: 730, 609
+  size: 176, 186
+  orig: 256, 256
+  offset: 36, 35
+  index: -1
+res/sg/ (43)
+  rotate: true
+  xy: 2, 618
+  size: 168, 184
+  orig: 256, 256
+  offset: 41, 37
+  index: -1
+res/sg/ (45)
+  rotate: true
+  xy: 2, 789
+  size: 166, 181
+  orig: 256, 256
+  offset: 50, 40
+  index: -1
+res/sg/ (5)
+  rotate: false
+  xy: 562, 239
+  size: 185, 184
+  orig: 256, 256
+  offset: 36, 37
+  index: -1
+res/sg/ (7)
+  rotate: false
+  xy: 188, 54
+  size: 186, 186
+  orig: 256, 256
+  offset: 35, 35
+  index: -1
+res/sg/ (9)
+  rotate: false
+  xy: 188, 243
+  size: 184, 185
+  orig: 256, 256
+  offset: 35, 36
+  index: -1

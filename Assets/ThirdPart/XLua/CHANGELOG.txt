@@ -1,0 +1,486 @@
+v2.1.15 2020624
+
+1
+2delegatebridge
+3unity 2019.2
+
+
+
+bug
+1delegate
+2structPackAsTable
+3wrap
+4unityandroidbugcrash
+5chunkname
+6
+7A,B1luaB
+8sbyte[].net 4pushlua
+9
+10Assembly-CSharpout
+11xlua.private_accessible
+12ceciloffset
+
+
+v2.1.14 2019227
+
+1nintento switch
+2unity 2018
+3android arm64
+4visual studio 2017
+5XLua/Generate Minimize Code
+6dll
+7lua_pushstringNATIVE_LUA_PUSHSTRING
+
+
+1windowvisual studio 2017
+
+bug
+1GCOptimizeLuaCallCSharpcrash
+2Edtitor
+3UWP
+4
+5extension
+6Nullablenilnil
+
+
+v2.1.13 2018125
+
+1AdaptByDelegate
+2xlua.get_generic_method
+3CS.System.Collections.Generic.List(CS.System.Int32)
+4base
+5lua
+6luajitgc64
+73264
+8lua
+9delegatedelegate4CSharpCallLualua
+10util.print_func_ref_by_csharpC#lua
+11CS
+
+
+
+1lua5.3.4 -> lua5.3.5luajit2.1b2 -> luajit2.1b3
+2delegate bridge
+3PostProcessBuild
+4xcode 10osx32bit
+5
+6CStablexlua
+7Windowslibvs 2015cmakevs 2017
+8Blacklist
+
+bug
+1
+2TypeExtensionsLuaCallCSharpluaIsValueType
+3
+4Item
+5attribute
+6Enum
+7unityandroidcrashbug
+8Assignableobjnull
+9ObsoleteObsolete
+10inlinelua
+11xlua.private_accessiblepublicBug
+12[Out]out
+13
+14get_Itemset_Item
+15IntKeyxlua.private_accessible
+
+
+v2.1.12 201879
+
+1Nullable
+2Assembly-CSharpdllbeta
+3xlua.hotfixprivate
+4xlua.private_accessible12
+5xlua.util.statec#
+6this[string field]this[object field]get_Itemset_Item
+7error
+8interfaceCSharpCallLua
+9unity5.5WARNING: The runtime version supported by this application is unavailable
+
+
+1Statefulxlua.util.state
+2
+
+bug
+1
+2Hotfixbase
+3
+4params byte[]
+5private eventxlua.private_accessible
+6branchRetbranchRet
+7
+8delegateCS.namespace.classname
+9EditorUtil
+10override
+11enum
+12uwpil2cpp
+13hotfixparams
+14LuaBaseLuaGetHashCode
+15[Out]
+16+
+
+v2.1.11 2018320
+
+1xlua.private_accessible
+2xlua.releaseluac#
+3
+4classxlua.private_accessibleC#Type
+5pairsIEnumerable
+6overrideoverridec# base
+
+
+1property
+
+bug
+1ios 11system
+2interfacestructgc
+3emit.net
+4emitulongconst
+5interfaceinterfaceinterfaceinterface
+6
+7ICollectio
+
+v2.1.10 2017918
+
+1DoNotGen
+2wrapperemit
+3webgl
+4luainterfaceinterface
+5windowandroidxdestiny110
+6Generate Code
+
+
+1	async_to_syncresume
+2il2cpp
+3lua5.3.42017-9-1patch
+
+bug
+1C#delegateMulticastDelegatelua functioncrash
+2windowxpdll
+
+v2.1.9 2017810
+
+1GEN_CODE_MINIMIZE50%text
+2xlua.util.createdelegateluaC#delegatelua
+3xlua.private_accessiblepublic int Prop { get; private set; }
+4	xlua.getmetatablexlua.setmetatablexlua.setclassxlua.genaccessorluaC#lua
+5
+6lua53C#luaenum&|
+
+
+1travis
+
+
+1LuaCallCSharp
+2THREAD_SAFTTHREAD_SAFE
+3GenFlag.GCOptimize
+4GenConfig
+
+bug
+1window phoneapi
+2struct
+3unity2017 .net 4.6
+
+v2.1.8 2017627
+
+1HotfixValueTypeBoxingIgnorePropertyIgnoreNotPublicInlineIntKey
+2Hotfixtext
+3HotfixEditortext
+4object
+5ObsoleteEditorwarning
+
+
+
+bug
+1pinvokeInOut
+2xLua
+
+v2.1.7 2017517
+
+1UWPHoloLensXbox oneWin10 MobileWin10 PC
+2luaras+sha1
+3Toolsplease install the Tools
+4linxu
+5bitcode
+6struct
+7delegatep0pnhotfix
+8C#
+9util.loadpackagerequiresearchercachepackage.loaded
+10
+11
+12refout
+13
+
+
+1this[object field]
+2
+3
+
+bug
+1UnitybugList<CustomType>CustomType.NetType.GetTypeUnity
+2null
+3protected
+4luajitdlopendlsym
+5
+6
+7delegateapiLuaEnv.Dispose
+8C
+9hotfix
+10nestedpublicpublic
+11
+12publicdelegate
+13Extension methodbug2.1.6
+14hotfix
+15il2cppbugunity5.4""iosdefault valueReflection.Missing
+16tableList<>table
+17ldargil2cpp124255ldarg.s
+18System.DelegateCSCallLuacrash
+19
+20delegate
+21unity4lua53nullIsNull
+22lua_tostringUTF8
+
+v2.1.6 201731
+
+1by forsakenyang
+2Unity.net
+3cecilcecilUnityVS
+4Hotfix
+5Unityhotfix
+6hotfix
+7LuaTableForEachLength
+8cmake
+9DisposeLuaEnvDisposecallback
+10Hotfix
+
+
+1lua
+2this[string field]
+3
+
+bug
+1get_xxxx
+2struct
+3Utils
+4delegate
+5interface
+6il2cppManifestModule
+7Unity4bugDistroyUnityEngine.ObjectUnity5luajit
+8xlua_setglobal32
+9delegaterefout
+
+v2.1.5 2017113
+
+
+1
+2THREAD_SAFT
+3XLua\DocXLua.doc
+4Dispose
+5delegateLuaFunctionLuaTablelua tableC#interfacegc
+6
+7luaclone C#
+8LuaFunctiongcapi
+
+
+1delegate[CSharpCallLua]C#luadelegate
+2string/number
+
+bug
+1userdata
+2System.TypeSystem.Type
+3lua_setglobal,lua_getglobalC#C#catchlua error
+
+
+v2.1.4 20161129
+
+1ReflectionUselink.xmlil2cppstripping
+2
+3GetInPathSetInPathC# gc
+4lua tableGCOptimizec# gc
+
+
+1__CastFrom
+2LuaInterfaceXLua
+3LuaTablegcapiObsolete
+4number
+
+bug
+1intlongdecimalluadecimal
+2
+3+
+4LuaCallCSharpExtension methodEditor
+
+v2.1.3 20161109
+
+1LuaTableGet<TKey, TValue>Set<TKey, TValue>tablegc
+2decimalluagc
+3LuaEnv.LoadString<T>delegate
+4HelloworldGCLua
+5enumluagcintstringgc
+6event+/-gc
+7
+
+
+1uintlua53lua_Integer
+2StreamingAssets
+
+bug
+1LuaTableLuaFunctionnull
+2lua5.3
+3struct
+4lua53Length
+
+v2.1.2 20161008
+
+1lua5.3bitcode64utf8
+2CMake
+3gc
+4C#lualua gc
+5
+6gc
+7ObjectPool
+8luagc
+9LuaTableCastLuaTableinterface
+10LuaFunctionCastLuaFunctiondelegate
+
+
+1lua64
+2Extension MethodReflectionUse
+
+bug
+1ObjectPoolDestroyUnityEngine.Object
+25.3.3Unitybug
+3LuaTableLuaFunctiondelegate
+
+v2.1.1 20160829
+
+1
+2IntPtr
+3ObjectPoolDestroyUnityEngine.Object
+4LuaEnvlua_gc
+
+bug
+1LuaFunctionLuaTableluaC#Luatable
+2
+3interfaceCSharpCallLuainterfaceindexer
+4Editornewxluabug
+5bug
+6socketbug
+
+
+
+1
+2i64fade_id
+3tdrfrom_file
+
+v2.1.0 20160808
+
+1structluagcstruct
+a. structstructstructbytesbyteshortushortintuintlongulongfloatdouble
+b. structstructLuaCallCSharpGCOptimize
+2
+a. extension methodsEnum.__CastFrom
+b. iosevent
+c. 
+d. gc
+3Generate Minimum
+4Editor
+
+
+1luajit2.1.0b2
+2luasocket
+3stringbyte[]nil
+4
+5structreflua
+6
+7
+8tdr
+9StreamingAssetslua
+
+bug
+1
+2
+3Clearwarning
+4profileri64
+
+v2.0.5 20160518
+
+1util.async_to_syncluawww
+2
+bug
+1lua gcweak table__gcpushC#userdata
+2lua
+3
+
+v2.0.4 20160504
+
+1
+2lua
+3lua64
+
+1delegateclousreclousredelegate
+bug
+1tdr1{[1] = {a = 1}}{{a=1}}
+2tdrint-1
+
+v2.0.3 20160413
+
+1Advanced Gen
+2Static pusher
+
+1LuaTableInterfaceBirdagemetatable
+2Extension Methods
+3ValueType
+bug
+1Extension Methods
+2ulong
+3
+4C#lua
+
+v2.0.2 20160406
+
+1
+2enum
+3
+4
+5bug
+
+
+lib
+1XLua
+2xlua_v2.0.2.zipAssets
+3
+
+v2.0.1 20160324
+1C# extension methods
+2lua
+3androidrequireluabug
+4TDR 4 Lua
+5
+
+v2.0.0 20160308
+1
+2luatdr
+364
+4luaC#pcall
+5
+6bug
+
+1.0.2 20151209
+15.2streamAssetsPathbug
+2windows x64
+3web
+4+
+54.6api
+
+v1.0.1 20151130
+1pcallC#
+2castinternalinterface
+3interfaceeventbug
+4interfaceObsoletebug
+5privategeter/setterbug
+6bug
+7bridge
+
+v1.0.0 20150330

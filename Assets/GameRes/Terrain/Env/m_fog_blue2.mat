@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m_fog_blue2
+  m_Shader: {fileID: 4800000, guid: ae7107024167305479dbb0b232df64f8, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f89f1af89c867514ab5f777610a1915c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bias: 0
+    - _BlinkingTimeOffsScale: 1
+    - _FadeOutDistFar: 999
+    - _FadeOutDistNear: 250
+    - _MaxGrowSize: 0
+    - _Multiplier: 1
+    - _NoiseAmount: 0.2846154
+    - _SizeGrowEndDist: 40
+    - _SizeGrowStartDist: 1
+    - _TimeOffDuration: 0
+    - _TimeOnDuration: 10
+    - _VerticalBillboarding: 1
+    - _ViewerOffset: 0
+    m_Colors:
+    - _Color: {r: 0.10588233, g: 0.22374718, b: 0.49411765, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

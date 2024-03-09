@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 11500000, guid: 0b1a8c6810b20464ebb74bea6980babb, type: 3}
+  m_Name: AddressableImportSettings
+  m_EditorClassIdentifier: 
+  allowGroupCreation: 1
+  rules:
+  - path: Assets/GameResources/Prefab/UI/*.prefab
+    matchType: 0
+    groupName: UIPanel
+    LabelMode: 0
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: b0d4400dedcbee141bbe11cf6952bdd1, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 1
+    addressReplacement: 
+  - path: ^Assets/Lua/.*\.lua$
+    matchType: 1
+    groupName: LuaScript
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: LuaScript
+    groupTemplate: {fileID: 11400000, guid: b0d4400dedcbee141bbe11cf6952bdd1, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/GameResources/Building2D/*.spriteatlas
+    matchType: 0
+    groupName: SpriteAtlas
+    LabelMode: 0
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: b0d4400dedcbee141bbe11cf6952bdd1, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 1
+    addressReplacement: 
+  - path: Assets/GameResources/Character2D/*.spriteatlas
+    matchType: 0
+    groupName: SpriteAtlas
+    LabelMode: 0
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: b0d4400dedcbee141bbe11cf6952bdd1, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 1
+    addressReplacement: 
+  - path: Assets/Lua/etc/map/*.bytes
+    matchType: 0
+    groupName: MapCfg
+    LabelMode: 0
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: b0d4400dedcbee141bbe11cf6952bdd1, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 1
+    addressReplacement: 
+  - path: Assets/GameResources/Character2D/CharacterPrefab/*.prefab
+    matchType: 0
+    groupName: Character
+    LabelMode: 0
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: b0d4400dedcbee141bbe11cf6952bdd1, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 1
+    addressReplacement: 
+  - path: Assets/GameResources/Building2D/BuildingPrefab/*.prefab
+    matchType: 0
+    groupName: Character
+    LabelMode: 0
+    labelRefs: []
+    groupTemplate: {fileID: 11400000, guid: b0d4400dedcbee141bbe11cf6952bdd1, type: 2}
+    groupTemplateApplicationMode: 0
+    simplified: 1
+    addressReplacement: 

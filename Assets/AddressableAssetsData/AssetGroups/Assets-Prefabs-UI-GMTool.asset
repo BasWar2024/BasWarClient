@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-GMTool
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-GMTool
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d3309bbf44aebef488e94e83f084e45f
+  m_SerializeEntries:
+  - m_GUID: 74b4e7f84b5803348b2a64cbc5393446
+    m_Address: PnlGMTool
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d46841b025ff4664ea889bf7ae37ed77, type: 2}
+    - {fileID: 11400000, guid: 00a71f3bda22f4b48814b93b218b4422, type: 2}

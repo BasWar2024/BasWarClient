@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Icon-Warship
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Icon-Warship
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1c9ec79e46375f54883ffeab1b7fa7df
+  m_SerializeEntries:
+  - m_GUID: e86f2b1aae99f624e803582babb53cc2
+    m_Address: Level1_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f229760cdb8c2fc409faf890924279e2
+    m_Address: Level2_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: eac77f28c5c93d34497e951c3f849846
+    m_Address: Level3_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 92868e2e4959a2e47815a8c9e19c8a21
+    m_Address: Level4_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c9fb54f56dc15a141899ced7da66b694
+    m_Address: Level5_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bcea0003e1ef456489a4e3cdc60d3397
+    m_Address: Level6_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d4e7a3fb81031c948b5df05edb31fcbb
+    m_Address: Upgrade_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c54215d1e9f08704fb18b1dc3adcd4ce, type: 2}
+    - {fileID: 11400000, guid: ab7849db662dadd4b80760a25a0bb0b0, type: 2}

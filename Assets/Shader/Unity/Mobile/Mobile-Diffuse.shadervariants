@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mobile-Diffuse
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 10a2723672ee0435190fa434dc5ddc91, type: 3}
+    second:
+      variants:
+      - keywords: LIGHTMAP_ON
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_ON
+        passType: 4
+      - keywords: LIGHTMAP_ON SHADER_LOD_MID
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_ON SHADER_LOD_MID
+        passType: 4
+      - keywords: LIGHTMAP_ON SHADER_LOD_LOW
+        passType: 4
+      - keywords: LIGHTMAP_OFF
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_OFF
+        passType: 4
+      - keywords: LIGHTMAP_ON SHADER_LOD_MID
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_ON SHADER_LOD_MID
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_ON SHADER_LOD_LOW
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_OFF
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_MID
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_OFF SHADER_LOD_MID
+        passType: 4
+      - keywords: LIGHTMAP_ON SHADER_LOD_LOW
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_ON SHADER_LOD_LOW
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_MID
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_OFF SHADER_LOD_MID
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_LOW
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_OFF SHADER_LOD_LOW
+        passType: 4
+      - keywords: GTCloudShadow LIGHTMAP_ON
+        passType: 4
+      - keywords: GTCloudShadow LIGHTMAP_ON SHADER_LOD_MID
+        passType: 4
+      - keywords: GTCloudShadow LIGHTMAP_ON SHADER_LOD_LOW
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_ON UseVerticalFog
+        passType: 4

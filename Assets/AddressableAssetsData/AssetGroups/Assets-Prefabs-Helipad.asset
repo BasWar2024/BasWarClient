@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-Helipad
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-Helipad
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5917b9d77bfef124b9b72776aff54a99
+  m_SerializeEntries:
+  - m_GUID: 50af354cd75802d4d94cf7d557163e48
+    m_Address: Helipad
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 654754a7ddd76614bb7d8e1a854b94ba, type: 2}
+    - {fileID: 11400000, guid: 284b25bfa5e154a4f8ee4ed5d6318e5d, type: 2}

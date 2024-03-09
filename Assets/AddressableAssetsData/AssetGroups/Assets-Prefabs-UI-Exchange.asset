@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Exchange
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Exchange
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 67237562b8a3a9d47bbe5e4e6d3c7c3f
+  m_SerializeEntries:
+  - m_GUID: ec97503f78d30c1449bf21888a6c7706
+    m_Address: BtnRes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 00f52aad02b7f464a9e71cd480e619a0
+    m_Address: ExchangeMitItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 84a63910b993ba84fb9d1c652d155564
+    m_Address: ExchangeScrollItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6cc4a89d268a81946ba46148fb03d31c
+    m_Address: PnlExchange
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 56587637e3b386141ad4d9adc5431779, type: 2}
+    - {fileID: 11400000, guid: 80fe1c25260540c459670f2b595647a5, type: 2}

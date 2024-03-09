@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Common
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Common
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9a1b72bcef3fd9543937ebb87e43e5c8
+  m_SerializeEntries:
+  - m_GUID: 3fbebaa4ea5dd964683f0caf57b0f2c3
+    m_Address: CommonAttrItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e4e79a2fe79a59342824a7bffed91b33
+    m_Address: ImgCommonRedPoint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: dba83416fc7ab2c4aad7dc1d572e4f8e
+    m_Address: PnlPromptMsg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 991d9ac618618d74e9e147683de831ae
+    m_Address: PnlTip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 59a1f115c80d7c84aa0f9bdb187833f5
+    m_Address: UIRoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e7c8a00502d728d4c91b4468357f8ec2
+    m_Address: ViewBg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fe2600307e858fa4c92f0d9c7e4d4583
+    m_Address: CommonAttrItem2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 796509ce7d561c445a9aea94c9f9a2ae
+    m_Address: CommonUpgradeBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: dbbe70c7f8769774da79d9affc7f9a56
+    m_Address: PnlStatement
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: aee0d370b8982664b8ea1e2324f7f274, type: 2}
+    - {fileID: 11400000, guid: c5736c5e9ccab544aa6496b722313fdf, type: 2}

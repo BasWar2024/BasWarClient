@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Fix
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Fix
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ef7b2fa4f9e55ea4b8d141e4670dc60b
+  m_SerializeEntries:
+  - m_GUID: 18d792687980f2f449d90b73e9f3727a
+    m_Address: FixItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 01e2beaa58460db48894432d90edf896
+    m_Address: FixScrollItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 83d23af6ac3533e4fb55e6df2cd033c5
+    m_Address: PnlFix
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e9e3b38ebf61b304abff2bebc898dc71, type: 2}
+    - {fileID: 11400000, guid: 5faa82abb9c80a24f8592d705f513864, type: 2}

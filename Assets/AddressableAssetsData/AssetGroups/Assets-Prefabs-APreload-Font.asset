@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-APreload-Font
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-APreload-Font
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 579f84d096f7d3e4888bc12ae9fe9dc6
+  m_SerializeEntries:
+  - m_GUID: 3820aa7123738f940839417ec59be742
+    m_Address: NotoSans-Regular
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 67ce54a48a8b97841a756a9e7657bbca, type: 2}
+    - {fileID: 11400000, guid: 9775e75cbe6f1f8428dfdb8234a424aa, type: 2}

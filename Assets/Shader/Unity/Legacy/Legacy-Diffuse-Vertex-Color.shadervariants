@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Legacy-Diffuse-Vertex-Color
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 4a95f5213037c492bb51e3b9c730db5c, type: 3}
+    second:
+      variants:
+      - keywords: LIGHTMAP_ON
+        passType: 4
+      - keywords: LIGHTMAP_ON SHADER_LOD_MID
+        passType: 4
+      - keywords: LIGHTMAP_ON SHADER_LOD_LOW
+        passType: 4
+      - keywords: LIGHTMAP_OFF
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_LOW
+        passType: 4
+      - keywords: LIGHTMAP_OFF SHADER_LOD_MID
+        passType: 4
+      - keywords: LIGHTMAP_ON OBJBlend
+        passType: 4
+      - keywords: LIGHTMAP_ON OBJBlend SHADER_LOD_MID
+        passType: 4
+      - keywords: LIGHTMAP_ON OBJBlend SHADER_LOD_LOW
+        passType: 4
+      - keywords: LIGHTMAP_OFF OBJBlend
+        passType: 4
+      - keywords: LIGHTMAP_OFF OBJBlend SHADER_LOD_LOW
+        passType: 4
+      - keywords: LIGHTMAP_OFF OBJBlend SHADER_LOD_MID
+        passType: 4

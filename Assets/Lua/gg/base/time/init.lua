@@ -1,0 +1,1 @@
+gg.time = require "gg.base.time.time"

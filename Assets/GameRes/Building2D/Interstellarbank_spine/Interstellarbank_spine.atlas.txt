@@ -1,0 +1,230 @@
+
+Interstellarbank_spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/body
+  rotate: false
+  xy: 2, 543
+  size: 460, 477
+  orig: 460, 477
+  offset: 0, 0
+  index: -1
+res/gold/gold_00000
+  rotate: true
+  xy: 2, 2
+  size: 23, 93
+  orig: 105, 105
+  offset: 42, 10
+  index: -1
+res/gold/gold_00001
+  rotate: false
+  xy: 99, 49
+  size: 27, 92
+  orig: 105, 105
+  offset: 39, 10
+  index: -1
+res/gold/gold_00002
+  rotate: false
+  xy: 134, 449
+  size: 35, 92
+  orig: 105, 105
+  offset: 35, 10
+  index: -1
+res/gold/gold_00003
+  rotate: true
+  xy: 190, 5
+  size: 43, 91
+  orig: 105, 105
+  offset: 31, 11
+  index: -1
+res/gold/gold_00004
+  rotate: false
+  xy: 168, 258
+  size: 51, 89
+  orig: 105, 105
+  offset: 27, 11
+  index: -1
+res/gold/gold_00005
+  rotate: false
+  xy: 215, 168
+  size: 59, 88
+  orig: 105, 105
+  offset: 23, 11
+  index: -1
+res/gold/gold_00006
+  rotate: false
+  xy: 171, 368
+  size: 67, 85
+  orig: 105, 105
+  offset: 19, 12
+  index: -1
+res/gold/gold_00007
+  rotate: false
+  xy: 240, 370
+  size: 73, 83
+  orig: 105, 105
+  offset: 16, 13
+  index: -1
+res/gold/gold_00008
+  rotate: true
+  xy: 290, 288
+  size: 80, 79
+  orig: 105, 105
+  offset: 13, 14
+  index: -1
+res/gold/gold_00009
+  rotate: false
+  xy: 283, 2
+  size: 86, 75
+  orig: 105, 105
+  offset: 10, 15
+  index: -1
+res/gold/gold_00010
+  rotate: true
+  xy: 140, 151
+  size: 90, 73
+  orig: 105, 105
+  offset: 8, 15
+  index: -1
+res/gold/gold_00011
+  rotate: true
+  xy: 68, 143
+  size: 94, 70
+  orig: 105, 105
+  offset: 6, 15
+  index: -1
+res/gold/gold_00012
+  rotate: true
+  xy: 64, 339
+  size: 98, 67
+  orig: 105, 105
+  offset: 4, 15
+  index: -1
+res/gold/gold_00013
+  rotate: true
+  xy: 2, 129
+  size: 100, 64
+  orig: 105, 105
+  offset: 3, 15
+  index: -1
+res/gold/gold_00014
+  rotate: true
+  xy: 2, 439
+  size: 102, 61
+  orig: 105, 105
+  offset: 2, 15
+  index: -1
+res/gold/gold_00015
+  rotate: true
+  xy: 2, 335
+  size: 102, 60
+  orig: 105, 105
+  offset: 2, 15
+  index: -1
+res/gold/gold_00016
+  rotate: true
+  xy: 2, 231
+  size: 102, 60
+  orig: 105, 105
+  offset: 2, 15
+  index: -1
+res/gold/gold_00017
+  rotate: true
+  xy: 2, 27
+  size: 100, 64
+  orig: 105, 105
+  offset: 3, 15
+  index: -1
+res/gold/gold_00018
+  rotate: true
+  xy: 65, 443
+  size: 98, 67
+  orig: 105, 105
+  offset: 4, 15
+  index: -1
+res/gold/gold_00019
+  rotate: true
+  xy: 96, 243
+  size: 94, 70
+  orig: 105, 105
+  offset: 6, 15
+  index: -1
+res/gold/gold_00020
+  rotate: true
+  xy: 128, 50
+  size: 91, 72
+  orig: 105, 105
+  offset: 8, 15
+  index: -1
+res/gold/gold_00021
+  rotate: true
+  xy: 171, 455
+  size: 86, 75
+  orig: 105, 105
+  offset: 10, 15
+  index: -1
+res/gold/gold_00022
+  rotate: true
+  xy: 276, 198
+  size: 81, 79
+  orig: 105, 105
+  offset: 13, 14
+  index: -1
+res/gold/gold_00023
+  rotate: false
+  xy: 248, 459
+  size: 75, 82
+  orig: 105, 105
+  offset: 16, 13
+  index: -1
+res/gold/gold_00024
+  rotate: false
+  xy: 221, 281
+  size: 67, 85
+  orig: 105, 105
+  offset: 20, 12
+  index: -1
+res/gold/gold_00025
+  rotate: false
+  xy: 257, 79
+  size: 61, 87
+  orig: 105, 105
+  offset: 23, 12
+  index: -1
+res/gold/gold_00026
+  rotate: false
+  xy: 202, 60
+  size: 53, 89
+  orig: 105, 105
+  offset: 27, 11
+  index: -1
+res/gold/gold_00027
+  rotate: true
+  xy: 97, 2
+  size: 45, 91
+  orig: 105, 105
+  offset: 31, 11
+  index: -1
+res/gold/gold_00028
+  rotate: false
+  xy: 133, 349
+  size: 36, 92
+  orig: 105, 105
+  offset: 36, 10
+  index: -1
+res/gold/gold_00029
+  rotate: false
+  xy: 68, 49
+  size: 29, 92
+  orig: 105, 105
+  offset: 39, 10
+  index: -1
+res/text
+  rotate: false
+  xy: 64, 239
+  size: 30, 98
+  orig: 32, 98
+  offset: 1, 0
+  index: -1

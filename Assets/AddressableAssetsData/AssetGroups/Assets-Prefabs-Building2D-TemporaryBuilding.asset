@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-Building2D-TemporaryBuilding
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-Building2D-TemporaryBuilding
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4a213a573d0f9814caba98bce8ba3384
+  m_SerializeEntries:
+  - m_GUID: 4f40b283a9d0da942912bb3d967cdbb8
+    m_Address: Blackholerepositories_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c8a88a9ac6a76ff43ba0eb4519ed735d
+    m_Address: Carboxyllibrary_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c6b18b5478277d1439741385ff48b8a5
+    m_Address: Carboxylminingtower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cfd276d7b80218744b9a5c3c322fb247
+    m_Address: Energyrubikscube_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6d9126076b8151a459e423374315b189
+    m_Address: Hyperspaceresearch_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0345b45398946a84492e40b9fb78c5f0
+    m_Address: Liberatorwarship_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fdafe811067625b40afdae6339d2c536
+    m_Address: Planetaryeye_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6d4000c570138c74dba6e4dd8e7dfdb8
+    m_Address: ServingStation_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7c66497c2dfc2214194cd721a5f2a641
+    m_Address: StarAllianceships_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 45705b7742db0344ebad39f83e864926
+    m_Address: Thealliance_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6507cdb1a00d7dd43994e18f0b216b3a
+    m_Address: Theheropavilion_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d0ad401442236ae47beaf1f8d39116bc
+    m_Address: Theuniverseblackmarket_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2745a9da39feafc47bafb385913b80fa
+    m_Address: Unlimitedpowercollectiontower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 725815f8786ed0742b2ccdb1c7ae76b7
+    m_Address: Anti-aircraftmissilegun_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a6dd0b92308fc4443a79e18097a021b4
+    m_Address: EMP_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e7c7227b27667ec4483a0befd6955ec7
+    m_Address: Lightbeadheavyartillery_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: aedd045363bc42041a9d91a52ec43fa8
+    m_Address: Remotelightparticletower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1bd49f2db5c0dd345aae9c380a990a62
+    m_Address: Tinyblackholes_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d22c674d161006d44bfb31399deb5a73
+    m_Address: Two-dimensionalfoils_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 284a92166d3cf4941b49f8846a65d7a6
+    m_Address: MobileGasCollectionStation_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6b6000a8d0784b74ab3892469f1f380b
+    m_Address: MobileIceCollectionStation_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7c793cc09787bcd4c8e6eaddfa97adbe, type: 2}
+    - {fileID: 11400000, guid: a3b0451320ceac94e82977e0a702576b, type: 2}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BuildShopAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 2b5a5bafdbebbeb45b3b8add9dd29bc2, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d046e7c1540da6640a1482dc1e0a0095, type: 3}
+  - {fileID: 21300000, guid: 22e5d782a42095a4582eec56b8c57d9c, type: 3}
+  - {fileID: 21300000, guid: dd8627f4f886c814db985f9f7bd9825c, type: 3}
+  - {fileID: 21300000, guid: 84c475154a1345747954ef198dfabce7, type: 3}
+  - {fileID: 21300000, guid: 13d86185f4fc4b240a8381353cab492a, type: 3}
+  - {fileID: 21300000, guid: 68b955d53000dab4ab3ea5beed818661, type: 3}
+  - {fileID: 21300000, guid: aff6b9d5052dceb4aaace5e62c1f9773, type: 3}
+  - {fileID: 21300000, guid: de04cb56d23169748bf1cd31f7027c61, type: 3}
+  - {fileID: 21300000, guid: a8ccc81a8d14e7645aeeb37a72d00355, type: 3}
+  - {fileID: 21300000, guid: 07bcdf9b22845bc4abded24c1cd19c47, type: 3}
+  - {fileID: 21300000, guid: 30bd4b5cd3b55f143830451eaa4475d2, type: 3}
+  - {fileID: 21300000, guid: 6762609caa0c5164ab047de6ac71219f, type: 3}
+  - {fileID: 21300000, guid: b9b35edcafeedc5438591b9743206443, type: 3}
+  - {fileID: 21300000, guid: 0f59d68e3a1aa67408bb31c674160324, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - mining machine_img_B
+  - run-through plate_A
+  - icemining tower_img_A
+  - tap_button_A
+  - element_text box_B
+  - tap_button_B
+  - cards_img_A
+  - mit_text box_B
+  - titaniummining tower_img_A
+  - mit_icon_com
+  - black hole repositories_img_B
+  - gasmining tower_img_A
+  - carboxylmining tower_img_B
+  - cards_img_B
+  m_Tag: BuildShopAtlas
+  m_IsVariant: 0

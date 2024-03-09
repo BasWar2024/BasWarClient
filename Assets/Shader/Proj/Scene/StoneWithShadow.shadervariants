@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StoneWithShadow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 8458a646b9cc0d5438b80fc2ab234c7e, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON ROOTOFF_BLENDOFF_KEEPUV2
+        passType: 0
+      - keywords: INSTANCING_ON ROOTOFF_BLENDOFF_KEEPUV2 SHADER_LOD_MID
+        passType: 0
+      - keywords: INSTANCING_ON ROOTOFF_BLENDOFF_KEEPUV2 SHADER_LOD_LOW
+        passType: 0
+      - keywords: INSTANCING_ON ROOTOFF_BLENDOFF_KEEPUV2 _DayNight
+        passType: 4

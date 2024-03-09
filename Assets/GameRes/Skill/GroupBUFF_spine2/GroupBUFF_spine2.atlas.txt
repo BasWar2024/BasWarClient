@@ -1,0 +1,27 @@
+
+GroupBUFF_spine2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/body
+  rotate: false
+  xy: 2, 2
+  size: 819, 819
+  orig: 819, 819
+  offset: 0, 0
+  index: -1
+res/pos
+  rotate: false
+  xy: 2, 831
+  size: 804, 804
+  orig: 819, 819
+  offset: 8, 7
+  index: -1
+res/
+  rotate: false
+  xy: 808, 823
+  size: 812, 812
+  orig: 819, 819
+  offset: 4, 3
+  index: -1

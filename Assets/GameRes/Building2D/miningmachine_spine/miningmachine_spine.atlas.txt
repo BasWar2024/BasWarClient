@@ -1,0 +1,391 @@
+
+miningmachine_spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/body
+  rotate: false
+  xy: 2, 692
+  size: 355, 330
+  orig: 355, 330
+  offset: 0, 0
+  index: -1
+res/body/miningmachine_00000
+  rotate: true
+  xy: 843, 590
+  size: 57, 79
+  orig: 160, 160
+  offset: 50, 38
+  index: -1
+res/body/miningmachine_00001
+  rotate: true
+  xy: 582, 517
+  size: 55, 79
+  orig: 160, 160
+  offset: 52, 38
+  index: -1
+res/body/miningmachine_00002
+  rotate: true
+  xy: 924, 585
+  size: 53, 79
+  orig: 160, 160
+  offset: 54, 38
+  index: -1
+res/body/miningmachine_00003
+  rotate: true
+  xy: 761, 637
+  size: 50, 80
+  orig: 160, 160
+  offset: 57, 37
+  index: -1
+res/body/miningmachine_00004
+  rotate: true
+  xy: 838, 538
+  size: 50, 79
+  orig: 160, 160
+  offset: 57, 38
+  index: -1
+res/body/miningmachine_00005
+  rotate: true
+  xy: 746, 526
+  size: 50, 79
+  orig: 160, 160
+  offset: 57, 38
+  index: -1
+res/body/miningmachine_00006
+  rotate: true
+  xy: 663, 512
+  size: 50, 79
+  orig: 160, 160
+  offset: 57, 38
+  index: -1
+res/body/miningmachine_00007
+  rotate: true
+  xy: 675, 623
+  size: 50, 80
+  orig: 160, 160
+  offset: 57, 37
+  index: -1
+res/body/miningmachine_00008
+  rotate: true
+  xy: 592, 625
+  size: 50, 81
+  orig: 160, 160
+  offset: 57, 36
+  index: -1
+res/body/miningmachine_00009
+  rotate: true
+  xy: 514, 792
+  size: 51, 82
+  orig: 160, 160
+  offset: 56, 35
+  index: -1
+res/body/miningmachine_00010
+  rotate: true
+  xy: 678, 675
+  size: 54, 81
+  orig: 160, 160
+  offset: 53, 36
+  index: -1
+res/body/miningmachine_00011
+  rotate: true
+  xy: 509, 675
+  size: 56, 81
+  orig: 160, 160
+  offset: 51, 36
+  index: -1
+res/body/miningmachine_00012
+  rotate: true
+  xy: 790, 689
+  size: 57, 82
+  orig: 160, 160
+  offset: 50, 35
+  index: -1
+res/body/miningmachine_00013
+  rotate: true
+  xy: 598, 736
+  size: 57, 81
+  orig: 160, 160
+  offset: 50, 36
+  index: -1
+res/body/miningmachine_00014
+  rotate: true
+  xy: 874, 649
+  size: 57, 82
+  orig: 160, 160
+  offset: 50, 35
+  index: -1
+res/body/miningmachine_00015
+  rotate: true
+  xy: 512, 733
+  size: 57, 81
+  orig: 160, 160
+  offset: 50, 36
+  index: -1
+res/body/miningmachine_00016
+  rotate: true
+  xy: 359, 662
+  size: 57, 81
+  orig: 160, 160
+  offset: 50, 36
+  index: -1
+res/body/miningmachine_00017
+  rotate: true
+  xy: 359, 855
+  size: 57, 82
+  orig: 160, 160
+  offset: 50, 35
+  index: -1
+res/body/miningmachine_00018
+  rotate: true
+  xy: 595, 677
+  size: 57, 81
+  orig: 160, 160
+  offset: 50, 36
+  index: -1
+res/body/miningmachine_00019
+  rotate: true
+  xy: 359, 796
+  size: 57, 82
+  orig: 160, 160
+  offset: 50, 35
+  index: -1
+res/body/miningmachine_00020
+  rotate: false
+  xy: 442, 605
+  size: 57, 80
+  orig: 160, 160
+  offset: 50, 37
+  index: -1
+res/body/miningmachine_00021
+  rotate: true
+  xy: 757, 578
+  size: 57, 79
+  orig: 160, 160
+  offset: 50, 38
+  index: -1
+res/body/miningmachine_00022
+  rotate: true
+  xy: 665, 564
+  size: 57, 79
+  orig: 160, 160
+  offset: 50, 38
+  index: -1
+res/body/miningmachine_00023
+  rotate: true
+  xy: 501, 616
+  size: 57, 80
+  orig: 160, 160
+  offset: 50, 37
+  index: -1
+res/eff/flame_01 (1)
+  rotate: true
+  xy: 727, 797
+  size: 90, 93
+  orig: 102, 102
+  offset: 5, 0
+  index: -1
+res/eff/flame_01 (10)
+  rotate: true
+  xy: 958, 640
+  size: 66, 64
+  orig: 102, 102
+  offset: 18, 0
+  index: -1
+res/eff/flame_01 (11)
+  rotate: true
+  xy: 611, 852
+  size: 66, 94
+  orig: 102, 102
+  offset: 17, 0
+  index: -1
+res/eff/flame_01 (12)
+  rotate: true
+  xy: 443, 765
+  size: 74, 67
+  orig: 102, 102
+  offset: 14, 0
+  index: -1
+res/eff/flame_01 (13)
+  rotate: false
+  xy: 443, 841
+  size: 69, 71
+  orig: 102, 102
+  offset: 18, 0
+  index: -1
+res/eff/flame_01 (14)
+  rotate: true
+  xy: 359, 721
+  size: 73, 81
+  orig: 102, 102
+  offset: 15, 0
+  index: -1
+res/eff/flame_01 (15)
+  rotate: true
+  xy: 913, 785
+  size: 67, 84
+  orig: 102, 102
+  offset: 19, 0
+  index: -1
+res/eff/flame_01 (16)
+  rotate: true
+  xy: 919, 512
+  size: 71, 74
+  orig: 102, 102
+  offset: 16, 0
+  index: -1
+res/eff/flame_01 (17)
+  rotate: true
+  xy: 940, 854
+  size: 73, 82
+  orig: 102, 102
+  offset: 15, 0
+  index: -1
+res/eff/flame_01 (18)
+  rotate: true
+  xy: 514, 845
+  size: 73, 95
+  orig: 102, 102
+  offset: 15, 0
+  index: -1
+res/eff/flame_01 (19)
+  rotate: true
+  xy: 737, 962
+  size: 60, 102
+  orig: 102, 102
+  offset: 20, 0
+  index: -1
+res/eff/flame_01 (2)
+  rotate: false
+  xy: 737, 889
+  size: 101, 71
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+res/eff/flame_01 (20)
+  rotate: true
+  xy: 611, 795
+  size: 55, 93
+  orig: 102, 102
+  offset: 23, 0
+  index: -1
+res/eff/flame_01 (21)
+  rotate: true
+  xy: 822, 802
+  size: 52, 89
+  orig: 102, 102
+  offset: 23, 0
+  index: -1
+res/eff/flame_01 (22)
+  rotate: false
+  xy: 442, 687
+  size: 65, 76
+  orig: 102, 102
+  offset: 18, 0
+  index: -1
+res/eff/flame_01 (23)
+  rotate: true
+  xy: 908, 708
+  size: 75, 83
+  orig: 102, 102
+  offset: 11, 0
+  index: -1
+res/eff/flame_01 (24)
+  rotate: true
+  xy: 501, 539
+  size: 75, 79
+  orig: 102, 102
+  offset: 12, 0
+  index: -1
+res/eff/flame_01 (25)
+  rotate: false
+  xy: 840, 856
+  size: 98, 88
+  orig: 102, 102
+  offset: 4, 0
+  index: -1
+res/eff/flame_01 (3)
+  rotate: false
+  xy: 841, 946
+  size: 101, 76
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+res/eff/flame_01 (4)
+  rotate: true
+  xy: 944, 929
+  size: 93, 77
+  orig: 102, 102
+  offset: 3, 0
+  index: -1
+res/eff/flame_01 (5)
+  rotate: true
+  xy: 706, 731
+  size: 64, 82
+  orig: 102, 102
+  offset: 23, 0
+  index: -1
+res/eff/flame_01 (6)
+  rotate: true
+  xy: 822, 748
+  size: 52, 84
+  orig: 102, 102
+  offset: 27, 1
+  index: -1
+res/eff/flame_01 (7)
+  rotate: true
+  xy: 827, 491
+  size: 45, 72
+  orig: 102, 102
+  offset: 29, 1
+  index: -1
+res/eff/flame_01 (8)
+  rotate: true
+  xy: 583, 574
+  size: 49, 80
+  orig: 102, 102
+  offset: 25, 0
+  index: -1
+res/eff/flame_01 (9)
+  rotate: false
+  xy: 744, 472
+  size: 56, 52
+  orig: 102, 102
+  offset: 23, 0
+  index: -1
+res/eff_guang
+  rotate: false
+  xy: 359, 914
+  size: 153, 108
+  orig: 160, 113
+  offset: 3, 3
+  index: -1
+res/fog
+  rotate: false
+  xy: 633, 920
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+res/so1
+  rotate: true
+  xy: 707, 880
+  size: 38, 18
+  orig: 38, 18
+  offset: 0, 0
+  index: -1
+res/so2
+  rotate: true
+  xy: 901, 464
+  size: 46, 52
+  orig: 46, 52
+  offset: 0, 0
+  index: -1
+res/
+  rotate: true
+  xy: 514, 920
+  size: 102, 117
+  orig: 102, 117
+  offset: 0, 0
+  index: -1

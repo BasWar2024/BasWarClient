@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Icon-Common
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Icon-Common
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3160112772509eb4d9b4e94a8c42ad3c
+  m_SerializeEntries:
+  - m_GUID: 1c4035efe89aebc4b86cb5ae776f712a
+    m_Address: button_select_blue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b8769083ab63f864c91346b07a31bc41
+    m_Address: button_select_gray
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 58e4e2c02bdcf55469bfd9e0a4350e02
+    m_Address: button_select_green
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c6b3f11c37441d345833ab89e2ae0895
+    m_Address: button_select_yellow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f6d54250fc2e2084a898906001549af7
+    m_Address: Level_icon_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 05b89029b6ff6754b955ece7599b1705
+    m_Address: Level_icon_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5a60f97f34d3b134295d7bdf94ee8edd
+    m_Address: Level_icon_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 89b31b25d9481694cb3b37cefcfac97f
+    m_Address: Level_icon_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4e74d92a8a57abc449ff3d3420bfec98
+    m_Address: Level_icon_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 761cfcd950b800c41a033550f86ac765
+    m_Address: Level_icon_6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2869a9c6d90c23f4dbf85149f1dbb863
+    m_Address: mit_icon_com
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1a823b030de7eb847bf1507bb423a5bf
+    m_Address: star coin_com
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7accfe9cb0af799498e5c78dee195db5
+    m_Address: tap_button_A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8464e75131e475e4eb4911b11dd80864
+    m_Address: tap_button_B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f7cd6cd249964fb438d2a3c48aa9f5d4
+    m_Address: Upgrade_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9fac5ee3a828ad1438885728add1c932
+    m_Address: Durability_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d93fe21c9f0dbfc46865d59379a5055d
+    m_Address: gas mine_icon_com
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: de25fa289a3463441a757cfec16aacfc
+    m_Address: hydroxyl group__com
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1b7e1e3dd7d5e0949bd83161ab715871
+    m_Address: ice mine_icon_com
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d5969c54f0aad4d4386e75913ede0780
+    m_Address: titanium gold_icon_com
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4719d4754d72216488c1612791fa6d3c
+    m_Address: icon_gas_50
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 23e58bdd7fbffb640a88e1afd94b241d
+    m_Address: icon_hydroxyl_50
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b2641e09ea88b3e458d7a4cb1d4916b1
+    m_Address: icon_ice_50
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cb0a6957210e4ee439894e2151e5d999
+    m_Address: icon_starcoin_50
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fb9a41c1488b9e34b9024bc4c296d328
+    m_Address: icon_titanium_50
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 05d4d72be82745a49bfa57cf4de17a46
+    m_Address: Addition_icon_A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 23750940eb72cc749af61d0441b0261b
+    m_Address: Addition_icon_B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0c030e717258a3f47b44e286b675bbd1, type: 2}
+    - {fileID: 11400000, guid: 8630c613de4ad0543a81a59eccb6c9e8, type: 2}

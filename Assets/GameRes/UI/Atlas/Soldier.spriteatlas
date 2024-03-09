@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Soldier
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e2407453f30ca3d48904fab71359d5f4, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6167b6702c2325444bac192d30748ba6, type: 3}
+  - {fileID: 21300000, guid: 1b3ff9d09aa86ee489b2fcb284b4126a, type: 3}
+  - {fileID: 21300000, guid: f5af4131d94674e498c48c22c71d19d9, type: 3}
+  - {fileID: 21300000, guid: 44936182c11879644ab8df0196a8475f, type: 3}
+  - {fileID: 21300000, guid: 196913932ba54a64e8fef4a38562d840, type: 3}
+  - {fileID: 21300000, guid: 6f274cc3f1d2d954b892b2017e56e25b, type: 3}
+  - {fileID: 21300000, guid: 27bccdd31ca50cd4ba4432202ad21cff, type: 3}
+  - {fileID: 21300000, guid: c0a32117f9c0d5941875c0d4a91ff676, type: 3}
+  - {fileID: 21300000, guid: 21b32167acf82d0419d62e1b3bee154b, type: 3}
+  - {fileID: 21300000, guid: 7c850197526b57244b3882070ffb47ca, type: 3}
+  - {fileID: 21300000, guid: f4b2b738f72a9f24db44788f12a721e6, type: 3}
+  - {fileID: 21300000, guid: 52901d58a0483144d93127a617ec2aee, type: 3}
+  - {fileID: 21300000, guid: 7d75b1b9b63530645974431b1f89db80, type: 3}
+  - {fileID: 21300000, guid: d21511f97ca5a3e48a311b4fd1cdc165, type: 3}
+  - {fileID: 21300000, guid: e7bca68a86a3cc649a9e0b32a9240682, type: 3}
+  - {fileID: 21300000, guid: b756cf2c5884f9d498e9c2c5c2201660, type: 3}
+  - {fileID: 21300000, guid: a23fcc5deca645a478c6a3a78442b9d4, type: 3}
+  - {fileID: 21300000, guid: c12d9a0f52f4b9743bb311b98cf0c5e5, type: 3}
+  - {fileID: 21300000, guid: dc5fc71f14e23c74e9ff25603c676518, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Unknown_icon
+  - Unlockedsoldier1_icon
+  - Soldier_icon
+  - Unlockedsoldier_img
+  - Subtitlebottomplate_img
+  - Unlockedsoldier2_icon
+  - Soldierplate_img
+  - Unlockedsoldier5_icon
+  - Unlockedsoldier8_icon
+  - Unlockedsoldier4_icon
+  - Unlockedsoldier9_icon
+  - Information_icon
+  - Soldiercard_icon
+  - Smalltextboard_icon
+  - Unlockedsoldier6_icon
+  - Soldier1_icon
+  - Riflemen_img
+  - Unlockedsoldier3_icon
+  - Unlockedsoldier7_icon
+  m_Tag: Soldier
+  m_IsVariant: 0

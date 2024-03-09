@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-UI-Map
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-UI-Map
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1d4e4956775af0f40b3a85019e761f65
+  m_SerializeEntries:
+  - m_GUID: 426cb1d857ae5424b980b573e316a8b4
+    m_Address: PnlMap
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cc12621b60a4d184eba42e14b7f12c46
+    m_Address: PnlPlanet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 801f21f70064fc64e9dd4000a5e2793c, type: 2}
+    - {fileID: 11400000, guid: 6f80d31fb827bfe4fa9be1f9c9d4c8f4, type: 2}

@@ -1,0 +1,489 @@
+
+Thelasergun_spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ae/aepng/gun/gun_00000
+  rotate: false
+  xy: 767, 676
+  size: 173, 106
+  orig: 187, 168
+  offset: 9, 58
+  index: -1
+ae/aepng/gun/gun_00001
+  rotate: false
+  xy: 471, 580
+  size: 167, 110
+  orig: 187, 168
+  offset: 17, 54
+  index: -1
+ae/aepng/gun/gun_00002
+  rotate: false
+  xy: 452, 463
+  size: 154, 115
+  orig: 187, 168
+  offset: 28, 48
+  index: -1
+ae/aepng/gun/gun_00003
+  rotate: false
+  xy: 668, 321
+  size: 136, 121
+  orig: 187, 168
+  offset: 41, 38
+  index: -1
+ae/aepng/gun/gun_00004
+  rotate: true
+  xy: 170, 600
+  size: 117, 126
+  orig: 187, 168
+  offset: 51, 28
+  index: -1
+ae/aepng/gun/gun_00005
+  rotate: true
+  xy: 269, 353
+  size: 120, 134
+  orig: 187, 168
+  offset: 52, 20
+  index: -1
+ae/aepng/gun/gun_00006
+  rotate: true
+  xy: 269, 216
+  size: 123, 143
+  orig: 187, 168
+  offset: 54, 12
+  index: -1
+ae/aepng/gun/gun_00007
+  rotate: true
+  xy: 850, 193
+  size: 126, 145
+  orig: 187, 168
+  offset: 53, 8
+  index: -1
+ae/aepng/gun/gun_00008
+  rotate: true
+  xy: 704, 194
+  size: 125, 144
+  orig: 187, 168
+  offset: 53, 5
+  index: -1
+ae/aepng/gun/gun_00009
+  rotate: true
+  xy: 806, 321
+  size: 121, 139
+  orig: 187, 168
+  offset: 54, 5
+  index: -1
+ae/aepng/gun/gun_00010
+  rotate: true
+  xy: 2, 381
+  size: 118, 128
+  orig: 187, 168
+  offset: 51, 8
+  index: -1
+ae/aepng/gun/gun_00011
+  rotate: false
+  xy: 405, 341
+  size: 125, 120
+  orig: 187, 168
+  offset: 48, 12
+  index: -1
+ae/aepng/gun/gun_00012
+  rotate: false
+  xy: 608, 453
+  size: 147, 117
+  orig: 187, 168
+  offset: 33, 19
+  index: -1
+ae/aepng/gun/gun_00013
+  rotate: false
+  xy: 765, 563
+  size: 162, 111
+  orig: 187, 168
+  offset: 21, 27
+  index: -1
+ae/aepng/gun/gun_00014
+  rotate: false
+  xy: 594, 692
+  size: 171, 105
+  orig: 187, 168
+  offset: 12, 34
+  index: -1
+ae/aepng/gun/gun_00015
+  rotate: false
+  xy: 420, 701
+  size: 172, 103
+  orig: 187, 168
+  offset: 7, 36
+  index: -1
+ae/aepng/gun/gun_00016
+  rotate: false
+  xy: 2, 615
+  size: 166, 107
+  orig: 187, 168
+  offset: 5, 31
+  index: -1
+ae/aepng/gun/gun_00017
+  rotate: false
+  xy: 296, 475
+  size: 154, 114
+  orig: 187, 168
+  offset: 7, 22
+  index: -1
+ae/aepng/gun/gun_00018
+  rotate: false
+  xy: 132, 360
+  size: 135, 119
+  orig: 187, 168
+  offset: 12, 15
+  index: -1
+ae/aepng/gun/gun_00019
+  rotate: true
+  xy: 640, 572
+  size: 118, 123
+  orig: 187, 168
+  offset: 20, 9
+  index: -1
+ae/aepng/gun/gun_00020
+  rotate: true
+  xy: 532, 331
+  size: 120, 134
+  orig: 187, 168
+  offset: 16, 6
+  index: -1
+ae/aepng/gun/gun_00021
+  rotate: true
+  xy: 414, 206
+  size: 123, 142
+  orig: 187, 168
+  offset: 12, 5
+  index: -1
+ae/aepng/gun/gun_00022
+  rotate: true
+  xy: 2, 108
+  size: 127, 146
+  orig: 187, 168
+  offset: 9, 6
+  index: -1
+ae/aepng/gun/gun_00023
+  rotate: true
+  xy: 558, 195
+  size: 124, 144
+  orig: 187, 168
+  offset: 11, 10
+  index: -1
+ae/aepng/gun/gun_00024
+  rotate: true
+  xy: 129, 237
+  size: 121, 138
+  orig: 187, 168
+  offset: 14, 16
+  index: -1
+ae/aepng/gun/gun_00025
+  rotate: true
+  xy: 166, 481
+  size: 117, 128
+  orig: 187, 168
+  offset: 20, 24
+  index: -1
+ae/aepng/gun/gun_00026
+  rotate: false
+  xy: 2, 255
+  size: 125, 124
+  orig: 187, 168
+  offset: 15, 33
+  index: -1
+ae/aepng/gun/gun_00027
+  rotate: false
+  xy: 757, 444
+  size: 147, 117
+  orig: 187, 168
+  offset: 8, 44
+  index: -1
+ae/aepng/gun/gun_00028
+  rotate: false
+  xy: 2, 501
+  size: 162, 112
+  orig: 187, 168
+  offset: 5, 52
+  index: -1
+ae/aepng/gun/gun_00029
+  rotate: false
+  xy: 298, 591
+  size: 171, 108
+  orig: 187, 168
+  offset: 5, 56
+  index: -1
+ae/aepng/gun_b/gun_b_00000
+  rotate: true
+  xy: 193, 952
+  size: 43, 78
+  orig: 96, 83
+  offset: 26, 5
+  index: -1
+ae/aepng/gun_b/gun_b_00001
+  rotate: true
+  xy: 97, 894
+  size: 57, 78
+  orig: 96, 83
+  offset: 20, 5
+  index: -1
+ae/aepng/gun_b/gun_b_00002
+  rotate: true
+  xy: 2, 827
+  size: 68, 74
+  orig: 96, 83
+  offset: 16, 7
+  index: -1
+ae/aepng/gun_b/gun_b_00003
+  rotate: false
+  xy: 406, 812
+  size: 80, 71
+  orig: 96, 83
+  offset: 11, 8
+  index: -1
+ae/aepng/gun_b/gun_b_00004
+  rotate: false
+  xy: 786, 879
+  size: 87, 64
+  orig: 96, 83
+  offset: 8, 11
+  index: -1
+ae/aepng/gun_b/gun_b_00005
+  rotate: false
+  xy: 257, 891
+  size: 91, 58
+  orig: 96, 83
+  offset: 5, 13
+  index: -1
+ae/aepng/gun_b/gun_b_00006
+  rotate: false
+  xy: 800, 945
+  size: 92, 50
+  orig: 96, 83
+  offset: 4, 17
+  index: -1
+ae/aepng/gun_b/gun_b_00007
+  rotate: false
+  xy: 5, 953
+  size: 92, 42
+  orig: 96, 83
+  offset: 4, 21
+  index: -1
+ae/aepng/gun_b/gun_b_00008
+  rotate: false
+  xy: 450, 949
+  size: 92, 46
+  orig: 96, 83
+  offset: 4, 21
+  index: -1
+ae/aepng/gun_b/gun_b_00009
+  rotate: false
+  xy: 894, 941
+  size: 92, 54
+  orig: 96, 83
+  offset: 4, 16
+  index: -1
+ae/aepng/gun_b/gun_b_00010
+  rotate: false
+  xy: 444, 885
+  size: 90, 62
+  orig: 96, 83
+  offset: 6, 11
+  index: -1
+ae/aepng/gun_b/gun_b_00011
+  rotate: false
+  xy: 78, 824
+  size: 83, 68
+  orig: 96, 83
+  offset: 9, 7
+  index: -1
+ae/aepng/gun_b/gun_b_00012
+  rotate: false
+  xy: 564, 806
+  size: 75, 74
+  orig: 96, 83
+  offset: 13, 4
+  index: -1
+ae/aepng/gun_b/gun_b_00013
+  rotate: true
+  xy: 536, 883
+  size: 62, 77
+  orig: 96, 83
+  offset: 18, 2
+  index: -1
+ae/aepng/gun_b/gun_b_00014
+  rotate: true
+  xy: 544, 947
+  size: 48, 79
+  orig: 96, 83
+  offset: 24, 1
+  index: -1
+ae/aepng/gun_b/gun_b_00015
+  rotate: true
+  xy: 273, 951
+  size: 44, 80
+  orig: 96, 83
+  offset: 28, 0
+  index: -1
+ae/aepng/gun_b/gun_b_00016
+  rotate: true
+  xy: 177, 893
+  size: 57, 78
+  orig: 96, 83
+  offset: 20, 1
+  index: -1
+ae/aepng/gun_b/gun_b_00017
+  rotate: true
+  xy: 163, 822
+  size: 69, 74
+  orig: 96, 83
+  offset: 13, 4
+  index: -1
+ae/aepng/gun_b/gun_b_00018
+  rotate: false
+  xy: 324, 818
+  size: 80, 70
+  orig: 96, 83
+  offset: 7, 6
+  index: -1
+ae/aepng/gun_b/gun_b_00019
+  rotate: false
+  xy: 875, 874
+  size: 87, 65
+  orig: 96, 83
+  offset: 3, 9
+  index: -1
+ae/aepng/gun_b/gun_b_00020
+  rotate: false
+  xy: 350, 890
+  size: 92, 58
+  orig: 96, 83
+  offset: 0, 13
+  index: -1
+ae/aepng/gun_b/gun_b_00021
+  rotate: false
+  xy: 625, 946
+  size: 93, 49
+  orig: 96, 83
+  offset: 0, 19
+  index: -1
+ae/aepng/gun_b/gun_b_00022
+  rotate: false
+  xy: 99, 953
+  size: 92, 42
+  orig: 96, 83
+  offset: 2, 22
+  index: -1
+ae/aepng/gun_b/gun_b_00023
+  rotate: false
+  xy: 355, 950
+  size: 93, 45
+  orig: 96, 83
+  offset: 1, 19
+  index: -1
+ae/aepng/gun_b/gun_b_00024
+  rotate: false
+  xy: 2, 897
+  size: 93, 54
+  orig: 96, 83
+  offset: 0, 15
+  index: -1
+ae/aepng/gun_b/gun_b_00025
+  rotate: false
+  xy: 615, 882
+  size: 90, 62
+  orig: 96, 83
+  offset: 2, 12
+  index: -1
+ae/aepng/gun_b/gun_b_00026
+  rotate: false
+  xy: 239, 820
+  size: 83, 69
+  orig: 96, 83
+  offset: 5, 9
+  index: -1
+ae/aepng/gun_b/gun_b_00027
+  rotate: false
+  xy: 488, 809
+  size: 74, 72
+  orig: 96, 83
+  offset: 10, 8
+  index: -1
+ae/aepng/gun_b/gun_b_00028
+  rotate: true
+  xy: 707, 881
+  size: 63, 77
+  orig: 96, 83
+  offset: 17, 6
+  index: -1
+ae/aepng/gun_b/gun_b_00029
+  rotate: true
+  xy: 720, 946
+  size: 49, 78
+  orig: 96, 83
+  offset: 25, 5
+  index: -1
+body
+  rotate: false
+  xy: 150, 76
+  size: 224, 138
+  orig: 227, 139
+  offset: 1, 1
+  index: -1
+eff/d01
+  rotate: true
+  xy: 2, 728
+  size: 94, 99
+  orig: 102, 102
+  offset: 3, 3
+  index: -1
+eff/d02
+  rotate: true
+  xy: 744, 799
+  size: 78, 97
+  orig: 102, 102
+  offset: 11, 2
+  index: -1
+eff/d03
+  rotate: true
+  xy: 103, 724
+  size: 96, 97
+  orig: 102, 102
+  offset: 1, 0
+  index: -1
+eff/d04
+  rotate: true
+  xy: 317, 710
+  size: 100, 101
+  orig: 102, 102
+  offset: 2, 1
+  index: -1
+eff/d05
+  rotate: true
+  xy: 641, 802
+  size: 77, 101
+  orig: 102, 102
+  offset: 16, 0
+  index: -1
+eff/d06
+  rotate: false
+  xy: 843, 784
+  size: 95, 88
+  orig: 102, 102
+  offset: 7, 3
+  index: -1
+eff/ef_com_alpha
+  rotate: false
+  xy: 2, 994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+eff/eff_flame2
+  rotate: false
+  xy: 202, 719
+  size: 113, 99
+  orig: 115, 106
+  offset: 0, 2
+  index: -1

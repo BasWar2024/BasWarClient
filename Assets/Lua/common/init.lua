@@ -1,0 +1,4 @@
+require "common.constant.init"
+require "common.CsToLua.init"
+require "common.gg.init"
+require "common.tools.init"

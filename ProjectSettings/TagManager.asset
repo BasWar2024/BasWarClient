@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - UISuiteCamera
+  - Ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - BattleGround
+  - BaseGround
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Tilt
+  - Terrain
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Util_Body
+    uniqueID: 3054312851
+    locked: 0
+  - name: UICommon
+    uniqueID: 2474278865
+    locked: 0
+  - name: HUD
+    uniqueID: 3814162271
+    locked: 0
+  - name: WarObj
+    uniqueID: 207752733
+    locked: 0
+  - name: Effect
+    uniqueID: 441957169
+    locked: 0

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Prefabs-Effect
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Prefabs-Effect
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4ab4c7411b3960c45916eba27762a649
+  m_SerializeEntries:
+  - m_GUID: d38a130239016e9439e2e28a04a7f070
+    m_Address: Eff_BuildingDie_1x1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e7a7caec574ed4147bd18673343c6342
+    m_Address: Eff_BuildingDie_2x2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1ca3014eee2fe1944a9dab337f30b8d0
+    m_Address: Eff_BuildingDie_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c71d1831793f9264ab3e2de96e5f698a
+    m_Address: Eff_BuildingDie_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a803f68aa0c98f2438870d57ba910726
+    m_Address: Eff_BuildingDie_5x5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9d62f441fb1b66840b3da0a63451722e
+    m_Address: LandPoint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 212a42ace7f5f24448a2db8f7330b05b
+    m_Address: Missile_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 97d80b1ab6425314ca353224efb2232f, type: 2}
+    - {fileID: 11400000, guid: f22abb9f0e9a22646b112df0ae4e78aa, type: 2}

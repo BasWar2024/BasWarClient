@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Scenes-Art-TerrainScenes
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Scenes-Art-TerrainScenes
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a0630260536e0c840aba640968296aa6
+  m_SerializeEntries:
+  - m_GUID: 67846cfe728276b4587a45a03764047f
+    m_Address: Lightmap-0_comp_dir
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 00b1e13e7f302df4cbd79bc97f8b0af2
+    m_Address: Lightmap-1_comp_dir
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a43ba3f42ad83004e8ee7f2a64251fdf, type: 2}
+    - {fileID: 11400000, guid: b4c61859e39f0bc4b90ae16718b688e8, type: 2}

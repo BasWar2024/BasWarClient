@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 9e0d91d5565244280a6e825c0f9153dc, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON LIGHTMAP_OFF NO_SKIN
+        passType: 4
+      - keywords: LIGHTMAP_OFF NO_SKIN _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_OFF NO_SKIN _DayNight
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF NO_SKIN _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF NO_SKIN _DayNight
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF NO_SKIN SHADER_LOD_MID
+        passType: 4
+      - keywords: LIGHTMAPARR LIGHTMAP_OFF NO_SKIN _DayNight
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAPARR LIGHTMAP_OFF NO_SKIN _DayNight
+        passType: 4
+      - keywords: LIGHTMAP_OFF NO_SKIN SHADER_LOD_MID _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_OFF NO_SKIN SHADER_LOD_MID _DayNight
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF NO_SKIN SHADER_LOD_MID _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF NO_SKIN SHADER_LOD_MID _DayNight
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF NO_SKIN SHADER_LOD_LOW
+        passType: 4
+      - keywords: LIGHTMAP_OFF NO_SKIN SHADER_LOD_LOW _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR LIGHTMAP_OFF NO_SKIN SHADER_LOD_LOW _DayNight
+        passType: 4
+      - keywords: LIGHTMAPARR LIGHTMAP_OFF NO_SKIN SHADER_LOD_MID _DayNight
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAPARR LIGHTMAP_OFF NO_SKIN SHADER_LOD_MID _DayNight
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAP_OFF NO_SKIN SHADER_LOD_LOW _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF NO_SKIN SHADER_LOD_LOW _DayNight
+        passType: 4
+      - keywords: LIGHTMAPARR LIGHTMAP_OFF NO_SKIN SHADER_LOD_LOW _DayNight
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTMAPARR LIGHTMAP_OFF NO_SKIN SHADER_LOD_LOW _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR HightSkinQuality INSTANCING_ON LIGHTMAP_OFF ROOTOFF_BLENDOFF_KEEPUV2
+          _DayNight
+        passType: 0
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF ROOTOFF_BLENDOFF_KEEPUV2 _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF ROOTOFF_BLENDOFF_KEEPUV2 SHADER_LOD_MID
+          _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR INSTANCING_ON LIGHTMAP_OFF ROOTOFF_BLENDOFF_KEEPUV2 SHADER_LOD_LOW
+          _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR HightSkinQuality INSTANCING_ON LIGHTMAP_OFF ROOTOFF_BLENDOFF_KEEPUV2
+          _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR HightSkinQuality INSTANCING_ON LIGHTMAP_OFF ROOTOFF_BLENDOFF_KEEPUV2
+          SHADER_LOD_MID _DayNight
+        passType: 4
+      - keywords: FOG_LINEAR HightSkinQuality INSTANCING_ON LIGHTMAP_OFF ROOTOFF_BLENDOFF_KEEPUV2
+          SHADER_LOD_LOW _DayNight
+        passType: 4
+      - keywords: 
+        passType: 8

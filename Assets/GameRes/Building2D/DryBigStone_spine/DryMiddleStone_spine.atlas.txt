@@ -1,0 +1,13 @@
+
+DryMiddleStone_spine.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/body2
+  rotate: false
+  xy: 2, 30
+  size: 191, 163
+  orig: 199, 167
+  offset: 2, 4
+  index: -1
