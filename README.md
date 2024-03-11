@@ -1,4 +1,4 @@
-GalaxyblitzClient is the source code of Galaxyblitz. The game development engine is Unity 3D, and the engine version used is Unity 2019.4.21f1 (64-bit).
+BasWar is the source code of BasWar. The game development engine is Unity 3D, and the engine version used is Unity 2019.4.21f1 (64-bit).
 The game fighting logic is written in C#, and the functional logic is written in Lua. The game communication protocol uses Google Protobuf.  
 
 The Assets directory corresponds to the Assets directory of the Unity project. Keep this directory structure and put it in your Unity project.  
