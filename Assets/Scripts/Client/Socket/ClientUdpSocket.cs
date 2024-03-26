@@ -26,7 +26,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         public void Connect(string host, int port) {
             if (this.Connected) {
@@ -62,7 +62,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         public void Close() {
             if (!this.Connected) {
@@ -76,7 +76,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         public void Send(byte[] message) {
             if (!this.Connected) {
@@ -89,7 +89,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         private void OnConnect() {
             this.client.BeginReceive(new AsyncCallback(this.OnRead), null);
@@ -99,9 +99,9 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="message">""</param>
         private void OnMessage(byte[] message) {
             if (this.onMessage != null) {
                 this.onMessage(message);
@@ -109,16 +109,16 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
-        /// <param name="msg"></param>
+        /// ""
+        /// <param name="msg">""</param>
         /// </summary>
         private void OnClose(string msg) {
             Debug.LogErrorFormat("id={0},Connection was closed by the server: ",this.id,msg);
-            this.Close();   //
+            this.Close();   //""
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         private void OnRead(IAsyncResult asr) {
             byte[] receiveBytes = null;
@@ -129,7 +129,7 @@ namespace GG.Net {
                 lock(this.client) {
                     receiveBytes = this.client.EndReceive(asr,ref this.localEndPoint);
                 }
-                if (receiveBytes.Length < 1) {                //
+                if (receiveBytes.Length < 1) {                //""，""
                     this.OnClose("server close");
                     return;
                 }
@@ -146,7 +146,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         private void OnWrite(IAsyncResult r) {
             try {

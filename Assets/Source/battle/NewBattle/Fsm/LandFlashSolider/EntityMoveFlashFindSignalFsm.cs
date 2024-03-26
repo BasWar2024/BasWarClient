@@ -3,10 +3,6 @@ namespace Battle
 {
     public class EntityMoveFlashFindSignalFsm : FsmState<EntityBase>
     {
-        public override void OnInit(EntityBase owner)
-        {
-            base.OnInit(owner);
-        }
 
         public override void OnEnter(EntityBase owner)
         {
@@ -35,10 +31,10 @@ namespace Battle
             }
             else
             {
-                owner.LockedAttackEntity = NewGameData._SignalBomb;
+                owner.LockedAttackEntity = NewGameData._SignalBomb.Entity;
 
                 if (FixVector3.Distance(owner.Fixv3LogicPosition, NewGameData._SignalBomb.Fixv3LogicPosition) <=
-                    owner.Radius + NewGameData._SignalBomb.Radius)
+                    owner.Radius + NewGameData._SignalBomb.IntArg3)
                 {
                     owner.SignalState = SignalState.ReachSignal;
                     owner.Fsm.ChangeFsmState<EntityFindBuildingFsm>();

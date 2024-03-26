@@ -5,17 +5,13 @@ namespace Battle
 
     public class EntityFindSignalFsm : FsmState<EntityBase>
     {
-         private EntityBase m_Owner;
-        public override void OnInit(EntityBase owner)
-        {
-            base.OnInit(owner);
-
-            m_Owner = owner;
-        }
+        private EntityBase m_Owner;
 
         public override void OnEnter(EntityBase owner)
         {
             base.OnEnter(owner);
+
+            m_Owner = owner;
 
             if (owner.BuildAroundPoint != null)
             {
@@ -34,20 +30,20 @@ namespace Battle
                     return;
                 }
 
-                NewGameData._AStar.PushFindMovePathComd(owner, FindPathType.FindSignalLockBuilding, FindMoveSignalLockBuildingCallBack);
+                //NewGameData._AStar.PushFindMovePathComd(owner, FindPathType.FindSignalLockBuilding, FindMoveSignalLockBuildingCallBack);
             }
             else
             {
-                if (FixVector3.Distance(owner.Fixv3LogicPosition, NewGameData._SignalBomb.Fixv3LogicPosition) <=
-                    owner.Radius + NewGameData._SignalBomb.Radius)
+                if (FixVector3.Distance(owner.Fixv3LogicPosition, NewGameData._SignalBomb.Entity.Fixv3LogicPosition) <=
+                    owner.Radius + NewGameData._SignalBomb.IntArg3)
                 {
-                    owner.LockedAttackEntity = NewGameData._SignalBomb;
+                    owner.LockedAttackEntity = NewGameData._SignalBomb.Entity;
                     owner.SignalState = SignalState.ReachSignal;
                     owner.Fsm.ChangeFsmState<EntityFindBuildingFsm>();
                     return;
                 }
 
-                NewGameData._AStar.PushFindMovePathComd(owner, FindPathType.FindSignal, FindMoveSignalCallBack);
+                //NewGameData._AStar.PushFindMovePathComd(owner, FindPathType.FindSignal, FindMoveSignalCallBack);
             }
         }
 

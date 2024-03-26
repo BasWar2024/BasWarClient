@@ -3,44 +3,51 @@ local WarShipView = class("WarShipView")
 function WarShipView:ctor()
     self.obj = nil
     self.warShip = nil
+    self.cubeCollider = nil
     self.buttonUi = nil
     self.timeBar = nil
     self.operPoint = nil
 end
 
-function WarShipView:loadGameObject(modelName, callback)
+function WarShipView:loadGameObject(cfg, callback)
     ResMgr:LoadGameObjectAsync("BuildingWarShip", function(obj)
         self.obj = obj
         obj.name = "BuildingWarShip"
-        obj.transform:SetParent(gg.buildingManager.ownBase.transform)
-        obj.transform.position = Vector3(-13, 0, 24)
+        -- print(table.dump(gg.buildingManager.ownBase.transform))
+        obj:FastSetParent(gg.buildingManager.ownBase.transform, false)
+        obj.transform.position = Vector3(-13.25, 0, 27.98)
         obj.transform.rotation = Quaternion.Euler(0, 0, 0)
         self.buttonUi = obj.transform:Find("ButtonUi")
-        self.timeBar = obj.transform:Find("TimeBar/TimeBar")
 
-        self.buttonOnBuild = self.timeBar.parent.transform:Find("ButtonOnBuild").gameObject
-        self.btnBuildSpeedUp = self.buttonOnBuild.transform:Find("BtnBuildSpeedUp").gameObject
-        self.txtBuildSpeedUpCost = self.btnBuildSpeedUp.transform:Find("TxtBuildSpeedUpCost"):GetComponent("TextMesh")
-        self.operPoint = obj.transform:Find("OperPoint").gameObject
-        self:loadWarShipObj(modelName, function()
+        self.buildingButtonUiBox = BuildingButtonUiBox.new(obj.transform:Find("BuildingButtonUiBox"))
+        self.buildingTimeBarBox = BuildingTimeBarBox.new(obj.transform:Find("TimeBar"))
 
+        self.operPoint = self.buildingButtonUiBox.namePoint -- obj.transform:Find("OperPoint").gameObject
+        self:loadWarShipObj(cfg, function()
             if callback then
                 callback()
             end
-
         end)
-
         return true
-    end)
+    end, true)
 end
 
-function WarShipView:loadWarShipObj(modelName, callback)
+function WarShipView:loadWarShipObj(cfg, callback)
     self:unLoadWarShip()
-    ResMgr:LoadGameObjectAsync(modelName, function(go)
+    ResMgr:LoadGameObjectAsync(cfg.model, function(go)
         self.warShip = go
+        self.cubeCollider = go.transform:Find("BuildingWarShipCube").gameObject
         go.transform:SetParent(self.obj.transform, false)
-        go.transform.localPosition = Vector3(0, 0, 0)
-        go.transform.localRotation = Quaternion.Euler(0, 0, 0)
+        go.transform.position = Vector3(cfg.worldPos.x, cfg.worldPos.y, cfg.worldPos.z)
+        go.transform.localRotation = Quaternion.Euler(0, 180, 0)
+
+        -- local bodyObj = go.transform:Find("Body")
+        -- local count = bodyObj.childCount
+        -- for i = 0, count - 1, 1 do
+        --     bodyObj:GetChild(i).transform:GetComponent("MeshRenderer").material =
+        --         bodyObj:GetChild(i).transform:GetComponent("GradualChange").Mat2
+        -- end
+
         if callback then
             callback()
         end
@@ -49,31 +56,15 @@ function WarShipView:loadWarShipObj(modelName, callback)
     end, true)
 end
 
-function WarShipView:showTimeBar(bool)
-    self.buttonOnBuild:SetActiveEx(bool)
-    self.timeBar.gameObject:SetActive(bool)
-end
-
-function WarShipView:setTimeBar(percent, sec)
-    -- percent 0~1
-    if not self.timeBar then
-        return
-    end
-    self.timeBar:GetComponent("SpriteRenderer").size = Vector2.New(percent * 1.48, 0.21)
-    local str = gg.time:hms_string(sec)
-    self.timeBar:Find("BgBar/TxtTime"):GetComponent("TextMesh").text = str
-end
-
---
+-- ""
 function WarShipView:unLoadWarShip()
     if self.warShip then
         ResMgr:ReleaseAsset(self.warShip)
         self.warShip = nil
-
     end
 end
 
---obj
+-- ""obj
 function WarShipView:onDestory()
     self:unLoadWarShip()
     if self.obj then
@@ -83,6 +74,11 @@ function WarShipView:onDestory()
     self.operPoint = nil
     self.buttonUi = nil
     self.timeBar = nil
+    self.buildingTimeBarBox:release()
+    self.buildingTimeBarBox = nil
+
+    self.buildingButtonUiBox:release()
+    self.buildingButtonUiBox = nil
 end
 
 return WarShipView

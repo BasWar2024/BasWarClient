@@ -1,12 +1,12 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
 public static class HexColor {
-	const string regStr = "^[0-9A-FA-Fa-f]{8}$"; //#
+	const string regStr = "^[0-9A-FA-Fa-f]{8}$"; //""#""
 	/// <summary>
-	/// color hex
+	/// color ""hex
 	/// </summary>
 	/// <param name="color"></param>
 	/// <returns></returns>
@@ -20,7 +20,7 @@ public static class HexColor {
 	}
 
 	/// <summary>
-	/// hexcolor #  
+	/// hex""color ""# "" ""
 	/// </summary>
 	/// <param name="hex"></param>
 	/// <returns></returns>
@@ -28,12 +28,12 @@ public static class HexColor {
 
 		// #if UNITY_EDITOR
 		// 		if (!IsHexColor (hex)) {
-		// 			//Debug.LogError ("   " + hex);
+		// 			//Debug.LogError ("""   " + hex);
 		// 			return Color.white;
 		// 		}
 		// #endif
 		if (!IsHexColor (hex)) {
-			Debug.LogError ("   " + hex);
+			Debug.LogError ("""   " + hex);
 			return Color.white;
 		}
 

@@ -32,7 +32,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         public void Connect(string host, int port) {
             if (this.Connected) {
@@ -80,13 +80,12 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         public void Close() {
-            if (!this.Connected) {
-                return;
+            if (this.Connected) {
+                this.client.Close();
             }
-            this.client.Close();
             this.client = null;
             if (this.onClose != null) {
                 this.onClose(this);
@@ -94,7 +93,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         public void Send(byte[] message) {
             if (!this.Connected) {
@@ -110,7 +109,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         private void OnConnectBack(IAsyncResult asr) {
             try{
@@ -141,9 +140,9 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="message">""</param>
         private void OnMessage(byte[] message) {
             if (this.onMessage != null) {
                 this.onMessage(message);
@@ -151,16 +150,16 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
-        /// <param name="msg"></param>
+        /// ""
+        /// <param name="msg">""</param>
         /// </summary>
         private void OnClose(string msg) {
             Debug.LogErrorFormat("id={0},Connection was closed by the server: ",this.id,msg);
-            this.Close();   //
+            this.Close();   //""
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         private void OnRead(IAsyncResult asr) {
             int bytesRead = 0;
@@ -168,17 +167,17 @@ namespace GG.Net {
                 if (!this.Connected) {
                     return;
                 }
-                lock (this.client.GetStream()) {         //
+                lock (this.client.GetStream()) {         //""
                     bytesRead = this.client.GetStream().EndRead(asr);
                 }
-                if (bytesRead < 1) {                //
+                if (bytesRead < 1) {                //""，""
                     this.OnClose("server close");
                     return;
                 }
-                this.OnReceive(this.readBuffer, bytesRead);   //
+                this.OnReceive(this.readBuffer, bytesRead);   //""，""
                 if (this.client != null) {
-                    lock (this.client.GetStream()) {         //
-                        Array.Clear(this.readBuffer, 0, this.readBuffer.Length);   //
+                    lock (this.client.GetStream()) {         //""，""
+                        Array.Clear(this.readBuffer, 0, this.readBuffer.Length);   //""
                         this.client.GetStream().BeginRead(this.readBuffer, 0, MESSAGE_MAX_SIZE, new AsyncCallback(this.OnRead), null);
                     }
                 }
@@ -189,7 +188,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         private void OnWrite(IAsyncResult r) {
             try {
@@ -202,7 +201,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         private void OnReceive(byte[] bytes, int length) {
             this.memStream.Seek(0, SeekOrigin.End);
@@ -227,7 +226,7 @@ namespace GG.Net {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         private long RemainingBytes() {
             return this.memStream.Length - this.memStream.Position;

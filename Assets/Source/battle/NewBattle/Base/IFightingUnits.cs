@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Battle
 {
-    //
+    //""
     public interface IFightingUnits
     {
     }

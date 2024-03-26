@@ -3,7 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 
 namespace GG.Net {
-    // 
+    // ""
     public class ByteStream {
 
         private static Queue<ByteStream> pool = new Queue<ByteStream>();
@@ -57,7 +57,10 @@ namespace GG.Net {
                     capcity = capcity * 2;
                 }
                 byte [] newBuffer = new byte[capcity];
-                Array.Copy(newBuffer,0,this.buffer,0,oldCapacity);
+                
+                // Array.Copy(newBuffer,0,this.buffer,0,oldCapacity);
+                Array.Copy(this.buffer,0,newBuffer,0,oldCapacity);
+
                 this.buffer = newBuffer;
             }
         }

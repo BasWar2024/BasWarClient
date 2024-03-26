@@ -11,20 +11,14 @@ namespace Battle
 
         private FixVector3 m_FixMoveStartPosition;
         private FixVector3 m_FixMoveEndPosition;
-        private Fix64 m_FixMoveElpaseTime = Fix64.Zero;
-        private Fix64 m_FixMoveTime = Fix64.Zero;
-        private FixVector3 m_Fixv3MoveDistance = new FixVector3(Fix64.Zero, Fix64.Zero, Fix64.Zero);
+        private Fix64 m_FixMoveElpaseTime;
+        private Fix64 m_FixMoveTime;
+        private FixVector3 m_Fixv3MoveDistance;
 
         private Fix64 m_FixSignalBuildingDistance;
 
         private Fix64 m_RandomRadius;
-        private Fix64 m_RandomRad;
-
-
-        public override void OnInit(EntityBase owner)
-        {
-            base.OnInit(owner);
-        }
+        //private Fix64 m_RandomRad;
 
         public override void OnEnter(EntityBase owner)
         {
@@ -36,25 +30,31 @@ namespace Battle
             m_FixMoveElpaseTime = Fix64.Zero;
             m_FixMoveTime = Fix64.Zero;
 
-            m_FixSignalBuildingDistance = owner.AtkRange + NewGameData._SignalLockBuilding.Radius + (owner.IsInTheSky ? NewGameData.AirHigh : (Fix64)0);
+            m_FixSignalBuildingDistance = owner.AtkRange + NewGameData._SignalLockBuilding.Radius;// + (owner.IsInTheSky ? NewGameData.AirHigh : (Fix64)0)
 
-            m_RandomRad = NewGameData._Srand.Range(Fix64.Zero, 2 * Fix64.PI);
+            //m_RandomRad = NewGameData._Srand.Range(Fix64.Zero, 2 * Fix64.PI);
             m_RandomRadius = NewGameData._Srand.Range(Fix64.Zero, (Fix64)1);
-            //
+            //""
             CalMovePoint();
             //m_FixMoveEndPosition = m_MovePath[m_CurrMovePathId].GetFixLogicPosition(owner.IsInTheSky);
 
             m_Fixv3MoveDistance = new FixVector3(m_FixMoveEndPosition.x - owner.Fixv3LogicPosition.x, Fix64.Zero, m_FixMoveEndPosition.z - owner.Fixv3LogicPosition.z);
             m_FixMoveStartPosition = owner.Fixv3LogicPosition;
 
-            m_FixMoveTime = FixVector3.Distance(owner.Fixv3LogicPosition, m_FixMoveEndPosition) / owner.MoveSpeed;
+            m_FixMoveTime = FixVector3.Distance(owner.Fixv3LogicPosition, m_FixMoveEndPosition) / owner.GetFixMoveSpeed();
         }
 
         public override void OnUpdate(EntityBase owner)
         {
             base.OnUpdate(owner);
 
-            if (NewGameData._SignalBomb == null)
+            if (m_MovePath == null)
+            {
+                owner.Fsm.ChangeFsmState<EntityIdleFsm>();
+                return;
+            }
+
+            if (NewGameData._SignalBomb == null || NewGameData._SignalLockBuilding == null)
             {
                 owner.Fsm.ChangeFsmState<EntityFindBuildingFsm>();
                 return;
@@ -88,9 +88,9 @@ namespace Battle
                     return;
                 }
 
-                //
+                //""
                 m_FixMoveStartPosition = owner.Fixv3LogicPosition;
-                //
+                //""
                 CalMovePoint();
                 //m_FixMoveEndPosition = m_MovePath[m_CurrMovePathId].GetFixLogicPosition(owner.IsInTheSky);
 
@@ -101,7 +101,7 @@ namespace Battle
                  m_FixMoveEndPosition.z - owner.Fixv3LogicPosition.z);
 
                 //m_FixMoveTime = FixVector3.Distance(owner.Fixv3LogicPosition, m_MovePath[m_CurrMovePathId].GetFixLogicPosition(owner.IsInTheSky)) / owner.MoveSpeed;
-                m_FixMoveTime = FixVector3.Distance(owner.Fixv3LogicPosition, m_FixMoveEndPosition) / owner.MoveSpeed;
+                m_FixMoveTime = FixVector3.Distance(owner.Fixv3LogicPosition, m_FixMoveEndPosition) / owner.GetFixMoveSpeed();
                 m_FixMoveElpaseTime = Fix64.Zero;
             }
 
@@ -119,10 +119,26 @@ namespace Battle
 
             owner.Fixv3LogicPosition = m_FixMoveStartPosition + elpaseDistance;
 
+            //owner.UpdateSpineRenderRotation(AnimType.Move);
+            //owner.SpineAnim.SpineAnimPlay(owner, "move", true);
+            if (owner.ModelType == ModelType.Model2D)
+            {
+                owner.AngleY = owner.UpdateSpineRenderRotation(AnimType.Move);
 #if _CLIENTLOGIC_
-            owner.UpdateSpineRenderRotation(AnimType.Move);
-            owner.SpineAnim.SpineAnimPlayAuto8Turn(owner, "move", true);
+                owner.SpineAnim.SpineAnimPlay(owner, "move", true);
 #endif
+            }
+            else if (owner.ModelType == ModelType.Model2D_Tank)
+            {
+                Tank tank = owner as Tank;
+                //tank.GunAngleY = owner.UpdateSpineRenderRotation(AnimType.Idle);
+                tank.AngleY = owner.UpdateSpineRenderRotation(AnimType.Move);
+
+#if _CLIENTLOGIC_
+                tank.GunSpineAnim.SpineTankAnimPlay((float)tank.GunAngleY, "idle", true);
+                tank.SpineAnim.SpineTankAnimPlay((float)tank.AngleY, "move", true);
+#endif
+            }
         }
 
         private void CalMovePoint()

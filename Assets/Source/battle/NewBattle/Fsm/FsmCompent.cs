@@ -64,13 +64,16 @@ namespace Battle
 
         public void ReleaseAllFsmState()
         {
-            //if(states != null)
-            //    Array.Clear(states, 0, states.Length);
-
             owner = null;
             currFsmState = null;
             if (stateDict != null)
+            {
+                foreach (var state in stateDict)
+                {
+                    NewGameData._PoolManager.Push(state.Value);
+                }
                 stateDict.Clear();
+            }
         }
     }
 }

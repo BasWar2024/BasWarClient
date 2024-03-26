@@ -62,7 +62,7 @@ public class NotchScreen : Singleton<NotchScreen>
             }
 
 #elif UNITY_ANDROID
-            //AndroidO,
+            //""AndroidO,""
             _phoneType = PhoneType.AndroidO;
 
             //SDKManager.GetInstance().CallNotchParam();
@@ -130,7 +130,7 @@ public class NotchScreen : Singleton<NotchScreen>
                 _rightValue = left * scaleFactor;
             }
         }
-        else //expand
+        else //""expand""
         {
             float scaleFactor = Mathf.Min(screenSize.x / camera.pixelWidth, screenSize.y / camera.pixelHeight);
 

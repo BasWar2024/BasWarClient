@@ -1,50 +1,55 @@
 
 
+# if _CLIENTLOGIC_
+using UnityEngine;
+#endif
 namespace Battle
 {
+    using System;
+
     public class BuffFactory
     {
-
-        public BuffBase CreateBuff(SkillBase originSkill, EntityBase target)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="buffId"></param>
+        /// <param name="originEntity">""BUFF""</param>
+        /// <param name="targetEntity">""BUFF""</param>
+        /// <returns></returns>
+        public Buff CreateBuff(int buffId, EntityBase originEntity, EntityBase targetEntity)
         {
-            var model = originSkill.BuffModel;
-
+            BuffModel model = NewGameData._BuffModelDict[buffId];
             if (model == null)
                 return null;
 
-            Buff buff = new Buff();
-            SetAttr(buff, model);
-            buff.Init(originSkill, target);
-            NewGameData._BuffList.Add(buff);
+            Buff buff = NewGameData._PoolManager.Pop<Buff>();
+            buff.SkillEffId = model.skillEffectCfgId;
+            buff.Init();
+            SetAttr(buff, model, originEntity, targetEntity);
+            //buff.Start();
             return buff;
         }
 
-        public BuffBase CreateBuff(BuffModel model, EntityBase target)
+        //""BUFF
+        public Buff CreateTempBuff()
         {
-            if (model == null)
-                return null;
-
-            Buff buff = new Buff();
-            SetAttr(buff, model);
-            buff.Init(null, target);
-            NewGameData._BuffList.Add(buff);
+            Buff buff = NewGameData._PoolManager.Pop<Buff>();
+            buff.SkillEffId = 0;
+            buff.Init();
             return buff;
         }
 
-        private void SetAttr(Buff buff, BuffModel model)
+        private void SetAttr(Buff buff, BuffModel model, EntityBase originEntity, EntityBase targetEntity)
         {
-            //buff.SId = NewGameData._SId;
-            buff.ResPath = model.model;
-            //buff.EffectResPath = model.;
-            buff.Hurt = (Fix64)model.atk;
-            buff.Cure = (Fix64)model.cure;
-            buff.AddAtk = (Fix64)model.addAtk / 1000;
-            buff.AddAtkSpeed = (Fix64)model.addAtkSpeed / 1000;
-            buff.AddMoveSpeed = (Fix64)model.addMoveSpeed / 1000;
-            buff.StopAction = (Fix64)model.stopAction;
+            buff.CfgId = model.cfgId;
+            buff.Name = model.name;
+            buff.Model = model.model;
+
             buff.LifeTime = (Fix64)model.lifeTime / 1000;
             buff.Frequency = (Fix64)model.frequency / 1000;
-            buff.LifeType = model.lifeType;
+
+            buff.OriginEntity = originEntity;
+            buff.TargetEntity = targetEntity;
         }
     }
 }

@@ -17,9 +17,9 @@ namespace Battle
 
         //F = G + H
         public Fix64 F;
-        //H  B  (H ,  )
+        //H "" B "" (H "", "" "")
         public Fix64 H;
-        //G  A  ()
+        //G "" A "" ("")
         public Fix64 G;
 
         public Fix64 X;
@@ -31,13 +31,14 @@ namespace Battle
         {
             X = x;
             Z = z;
-//#if _CLIENTLOGIC_
-//            var cubeAssets = Resources.Load("Cube") as GameObject;
-//            PointGameObject = GameObject.Instantiate(cubeAssets);
-//            PointGameObject.transform.position = new Vector3((int)X, 0, (int)Z);
-//            PointGameObject.transform.SetParent(GameObject.Find("Cube").transform);
-//            PointGameObject.name = $"{X},{Z}";
-//#endif
+#if _CLIENTLOGIC_
+            //PointGameObject = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+            ////PointGameObject = GameObject.Instantiate(cubeAssets);
+            //PointGameObject.transform.position = new Vector3((int)X, 0, (int)Z);
+            //PointGameObject.transform.localScale = Vector3.one * 0.5f;
+            ////PointGameObject.transform.SetParent(GameObject.Find("Cube").transform);
+            //PointGameObject.name = $"{X},{Z}";
+#endif
         }
 
         public void UpdateParent(ASPoint parent, Fix64 g)
@@ -47,9 +48,19 @@ namespace Battle
             F = G + H;
         }
 
-        public FixVector3 GetFixLogicPosition(bool isInTheSky = false)
+        public FixVector3 GetFixLogicPosition()
         {
-            return new FixVector3(X, isInTheSky ? NewGameData.AirHigh : Fix64.Zero, Z);
+            return new FixVector3(X, Fix64.Zero, Z); //isInTheSky ? NewGameData.AirHigh : 
+        }
+
+        public FixVector2 GetFixLogicPosition2D()
+        {
+            return new FixVector2(X, Z); //isInTheSky ? NewGameData.AirHigh : 
+        }
+
+        public void Release()
+        {
+            Parent = null;
         }
     }
 }

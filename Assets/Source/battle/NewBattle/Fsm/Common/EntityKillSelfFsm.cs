@@ -3,11 +3,6 @@ namespace Battle
 {
     public class EntityKillSelfFsm : FsmState<EntityBase>
     {
-        public override void OnInit(EntityBase owner)
-        {
-            base.OnInit(owner);
-        }
-
         public override void OnEnter(EntityBase owner)
         {
             base.OnEnter(owner);

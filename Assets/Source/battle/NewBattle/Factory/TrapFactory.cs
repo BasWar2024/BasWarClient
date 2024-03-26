@@ -10,20 +10,22 @@ namespace Battle
     {
         public TrapBase CreateTrap(TrapModel model)
         {
-            NormalTrap trap = new NormalTrap();
+            NormalTrap trap = NewGameData._PoolManager.Pop<NormalTrap>(); //new NormalTrap();
 
+            trap.Init();
+            trap.CfgId = model.cfgId;
             trap.ResPath = model.model;
             trap.EffectResPath = model.explosionEffect;
             trap.Fixv3LogicPosition = new FixVector3((Fix64)model.x, (Fix64)0, (Fix64)model.z);
-            trap.BuffModel = model.buffCfgId == 0 ? null : NewGameData._OperBuffDict[model.buffCfgId];
+            //trap.BuffModel = model.buffCfgId == 0 ? null : NewGameData._OperBuffDict[model.buffCfgId];
+            trap.BuffId = model.buffCfgId;
             trap.AlertRange = (Fix64)model.alertRange / 1000;
             trap.AtkRange = (Fix64)model.atkRange / 1000;
             trap.Radius = (Fix64)model.radius / 1000;
             trap.DelayTime = (Fix64)model.delayExplosionTime / 1000;
+            trap.Start();
 
-            trap.Init();
-
-            NewGameData._TrapList.Add(trap);
+            //NewGameData._TrapList.Add(trap);
 
             return trap;
         }

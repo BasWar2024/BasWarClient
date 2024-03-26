@@ -18,6 +18,10 @@ function Player:getPid()
     return self.pid
 end
 
+function Player:getInviteCode()
+    return self.inviteCode
+end
+
 function Player:getLevel()
     return self.level
 end
@@ -25,5 +29,7 @@ end
 function Player:getName()
     return self.name
 end
+
+
 
 return Player

@@ -7,18 +7,30 @@ namespace Battle
         public override void Init()
         {
             base.Init();
+        }
+
+        public override void Start()
+        {
+            base.Start();
+
 
             LoadProperties();
 
-            Fsm = new FsmCompent<EntityBase>();
-            Fsm.CreateFsm(this, new EntityFindSoliderFsm(), new EntityIdleFsm(), new EntityDeadFsm());
+            Fsm = NewGameData._PoolManager.Pop<FsmCompent<EntityBase>>();
+
+            Fsm.CreateFsm(this,
+                NewGameData._PoolManager.Pop<EntityFindSoliderFsm>(),
+                NewGameData._PoolManager.Pop<EntityIdleFsm>(),
+                NewGameData._PoolManager.Pop<EntityDeadFsm>(),
+                NewGameData._PoolManager.Pop<EntityStopActionFsm>()
+                );
         }
 
         public override void UpdateLogic()
         {
             base.UpdateLogic();
 
-            Fsm.OnUpdate(this);
+            Fsm?.OnUpdate(this);
         }
     }
 }

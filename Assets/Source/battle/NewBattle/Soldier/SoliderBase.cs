@@ -2,21 +2,21 @@
 
 namespace Battle
 {
-    using System;
     using System.Collections.Generic;
+
     public class SoliderBase : EntityBase, IFightingUnits
     {
-        public int IsAtkAndReturn = 0;
-        public Int64 uuid = 0; 
+        public OperOrder OperOrder;
+        public int IsMedical;
+        public int IsDeminer;
 
-        public new virtual void Init()
+        public override void Init()
         {
             base.Init();
 
             ObjType = ObjectType.Soldier;
-            Group = GroupType.PlayerGroup; //
-
-            ListMovePath = new List<ASPoint>();
+            Group = GroupType.PlayerGroup; //""
+            OperOrder = OperOrder.None;
         }
     }
 }

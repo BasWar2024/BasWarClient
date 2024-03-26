@@ -8,35 +8,47 @@ namespace Battle
         {
             base.Init();
 
-            ModelType = ModelType.Model3D;
+            SignalState = SignalState.NoReachSignal;
             IsInTheSky = true;
+            Direction = 16;
+        }
+
+        public override void Start()
+        {
+            base.Start();
+
 
             LoadProperties();
-
 #if _CLIENTLOGIC_
             CreateFromPrefab(ResPath, null);
 #endif
 
-            Fsm = new FsmCompent<EntityBase>();
-            if (IsAtkAndReturn == 0)
-            {
-                SignalState = SignalState.NoReachSignal;
-                Fsm.CreateFsm(this, new EntityMoveStraightFsm(), new EntityArriveFsm(), new EntityFindBuildingFsm(), new EntityMoveFsm(), new EntityAtkFsm(), new EntityDeadFsm(),
-                    new EntityMoveSignalFsm());
-            }
-            else
-            {
-                Fsm.CreateFsm(this, new EntityMoveStraightFsm(), new EntityArriveFsm(), new EntityCarpetAtkFsm(), new EntitAirSoliderReverseFsm(), new EntityReturnStraighFsm(),
-                    new EntityDeadFsm());
-            }
+
+            Fsm = NewGameData._PoolManager.Pop<FsmCompent<EntityBase>>();
+
+            Fsm.CreateFsm(this,
+                NewGameData._PoolManager.Pop<EntityBirthFsm>(),
+                NewGameData._PoolManager.Pop<EntityFindBuildingFsm>(),
+                NewGameData._PoolManager.Pop<EntityMoveFsm>(),
+                NewGameData._PoolManager.Pop<EntityAtkFsm>(),
+                NewGameData._PoolManager.Pop<EntityDeadFsm>(),
+                NewGameData._PoolManager.Pop<EntityMoveSignalFsm>(),
+                NewGameData._PoolManager.Pop<EntityFindSignalFsm>(),
+                NewGameData._PoolManager.Pop<EntityIdleFsm>(),
+                NewGameData._PoolManager.Pop<EntityMoveSignalLockBuildingFsm>(),
+                NewGameData._PoolManager.Pop<EntityDisappearFsm>(),
+                NewGameData._PoolManager.Pop<EntityStopActionFsm>()
+
+                );
+
+            Fsm.OnStart<EntityBirthFsm>();
         }
 
         public override void UpdateLogic()
         {
             base.UpdateLogic();
 
-            Fsm.OnUpdate(this);
-            //UnityTools.Log("" + Fixv3LogicPosition + "" + NewGameData._UGameLogicFrame);
+            Fsm?.OnUpdate(this);
         }
     }
 }

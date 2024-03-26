@@ -4,15 +4,15 @@ namespace Battle
     using System;
     using System.Collections.Generic;
 
-    public class FindPathComd //
+    public class FindPathComd //""
     {
         public EntityBase Entity;
-        public FindPathType FindPathType;
+        public EntityBase Building;
         public Action<List<ASPoint>> CallBack;
-        public FindPathComd(EntityBase entity, FindPathType findPathType, Action<List<ASPoint>> callBack)
+        public FindPathComd(EntityBase entity, EntityBase build, Action<List<ASPoint>> callBack)
         {
             Entity = entity;
-            FindPathType = findPathType;
+            Building = build;
             CallBack = callBack;
         }
 

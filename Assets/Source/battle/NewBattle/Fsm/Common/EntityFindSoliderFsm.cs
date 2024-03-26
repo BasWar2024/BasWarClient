@@ -3,19 +3,18 @@ namespace Battle
 {
     public class EntityFindSoliderFsm : FsmState<EntityBase>
     {
-        public override void OnInit(EntityBase owner)
-        {
-            base.OnInit(owner);
-        }
-
+        //""，""，""
+        private int m_FindSoldierFrameLen = 5;
+        private int m_CurrFrameLen;
         public override void OnEnter(EntityBase owner)
         {
             base.OnEnter(owner);
 
+            m_CurrFrameLen = 5;
             if (owner is BuildingBase)
             {
                 var building = owner as BuildingBase;
-                if (building.Type == BuildingType.NorDevelop || building.Type == BuildingType.NorEconomy)
+                if (building.Type == BuildingType.NorDevelop || building.Type == BuildingType.NorEconomy || building.IsConstruct)
                 {
                     owner.Fsm.ChangeFsmState<EntityIdleFsm>();
                     return;
@@ -27,39 +26,93 @@ namespace Battle
         {
             base.OnUpdate(owner);
 
-            if (owner.FixAtk == Fix64.Zero)
+            if (owner.GetFixAtk() == Fix64.Zero)
                 return;
 
-#if _CLIENTLOGIC_
-            owner.UpdateSpineRenderRotation(AnimType.Atk);
-            if (owner.ObjType == ObjectType.Soldier)
-                owner.SpineAnim.SpineAnimPlayAuto8Turn(owner, "idle", true);
-            else if (owner.ObjType == ObjectType.Tower)
-                owner.SpineAnim.SpineAnimPlayAuto30Turn(owner, "idle", true);
-#endif
+            m_CurrFrameLen++;
 
+            if (m_CurrFrameLen <= m_FindSoldierFrameLen)
+                return;
+            else
+                m_CurrFrameLen = 0;
+
+            Fix64 minLandDistance = (Fix64)999999999999;
+            Fix64 minAirDistance = (Fix64)999999999999;
+            EntityBase nearestLandObj = null; //""
+            EntityBase nearestAirObj = null; //""
             foreach (var solider in NewGameData._SoldierList)
             {
-                if (solider.IsInTheSky && owner.AtkType == AtkType.AtkLand)
+                if (solider.IsInvisible() || solider.IsCloak() || solider.IsSmoke())
                     continue;
 
-                if (!solider.IsInTheSky && owner.AtkType == AtkType.AtkAir)
+                if (!GameTools.AirDefenseDetected(solider, owner))
                     continue;
 
-                if (FixVector3.Distance(solider.Fixv3LogicPosition, owner.Fixv3LogicPosition) <= owner.AtkRange + solider.Radius)
+                var distance = FixVector3.SqrMagnitude(solider.Fixv3LogicPosition - owner.Fixv3LogicPosition);
+                if (distance <= Fix64.Square(owner.AtkRange + solider.Radius))
                 {
-                    NewGameData.EntityLockEntity(owner, solider);
-                    owner.Fsm.ChangeFsmState<EntityAtkFsm>();
-                    return;
+                    if (owner.InAtkRange != Fix64.Zero && distance < Fix64.Square(owner.InAtkRange))
+                    {
+                        continue;
+                    }
+
+                    if (solider.IsInTheSky)
+                    {
+                        if (distance < minAirDistance)
+                        {
+                            minAirDistance = distance;
+                            nearestAirObj = solider;
+                        }
+                    }
+                    else
+                    {
+                        if (distance < minLandDistance)
+                        {
+                            minLandDistance = distance;
+                            nearestLandObj = solider;
+                        }
+                    }
                 }
-            }
 
-            if(NewGameData._Hero != null)
-            {
-                if (FixVector3.Distance(NewGameData._Hero.Fixv3LogicPosition, owner.Fixv3LogicPosition) <= owner.AtkRange + NewGameData._Hero.Radius)
+                EntityBase nearestObj = null;
+                if (owner.FirstAtk == 0)
                 {
-                    NewGameData.EntityLockEntity(owner, NewGameData._Hero);
-                    owner.Fsm.ChangeFsmState<EntityAtkFsm>();
+                    if (minLandDistance > minAirDistance)
+                    {
+                        nearestObj = nearestAirObj;
+                    }
+                    else
+                    {
+                        nearestObj = nearestLandObj;
+                    }
+                }
+                else if (owner.FirstAtk == 1)
+                {
+                    if (nearestLandObj != null)
+                    {
+                        nearestObj = nearestLandObj;
+                    }
+                    else
+                    {
+                        nearestObj = nearestAirObj;
+                    }
+                }
+                else if (owner.FirstAtk == 2)
+                {
+                    if (nearestAirObj != null)
+                    {
+                        nearestObj = nearestAirObj;
+                    }
+                    else
+                    {
+                        nearestObj = nearestLandObj;
+                    }
+                }
+
+                if (nearestObj != null)
+                {
+                    NewGameData._FightManager.EntityLockEntity(owner, nearestObj);
+                    owner.Fsm.ChangeFsmState<Entity2AtkFsm>();
                 }
             }
         }

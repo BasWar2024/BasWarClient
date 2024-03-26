@@ -1,91 +1,77 @@
-
-
-
 namespace Battle
 {
 #if _CLIENTLOGIC_
     using UnityEngine;
     using Spine.Unity;
     using System.Collections.Generic;
-
+    using System;
+    //using static Spine.AnimationState;
+    
     public class EffectFactory
     {
-        public List<GameObject> EffectObjList = new List<GameObject>();
-        public void CreateEffect(string path, SkillBase originEntity)
+        //public List<GameObject> EffectObjList = new List<GameObject>();
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="path"></param>
+        /// <param name="pos"></param>
+        /// <param name="size">""0"",""</param>
+        /// <param name="lifeTime"></param>
+        /// <param name="callBack"></param>
+        public Effect CreateEffect(string path, FixVector3 pos, Fix64 size, Fix64 lifeTime, Action<GameObject, Effect> callBack = null)
+        {
+            if (string.IsNullOrEmpty(path))
+                return null;
+
+            var effect = NewGameData._PoolManager.Pop<Effect>();
+
+            LoadGameObjectAsync(path, effect, pos, size, lifeTime, callBack);
+
+            return effect;
+        }
+
+        private void LoadGameObjectAsync(string path, Effect effect, FixVector3 pos, Fix64 size, Fix64 lifeTime, Action<GameObject, Effect> callBack = null)
         {
             GG.ResMgr.instance.LoadGameObjectAsync(path, (obj) =>
             {
-                obj.transform.position = originEntity.TargetPos.ToVector3();
-
+                obj.SetActive(false);
+                effect.Init(obj.transform, pos);
                 obj.transform.SetParent(NewGameData.BattleMono);
+                effect.Show(obj.transform, pos, size, lifeTime);
 
-                if (originEntity.EffectSizeEqualRange)
-                    obj.transform.localScale = new Vector3((float)originEntity.AtkRange * 2, 0, (float)originEntity.AtkRange * 2);
+                callBack?.Invoke(obj, effect);
 
-                if (originEntity.IsLoopEffect)
-                    originEntity.EffectGameObj = obj;
-                else
-                {
-                    obj.transform.Find("Spine").GetComponent<SkeletonAnimation>().AnimationState.Complete += (entry) => {
-                        ReleaseEffect(obj);
-                    };
-                }
+                NewGameData._EffectList.Add(effect);
 
                 return true;
-            }, true);
+            }, true, null, NewGameData._AssetOriginPos);
         }
 
-        public void CreateEffect(string path, EntityBase originEntity)
+        public Effect CreateBuffEffect(string path, FixVector3 pos, Fix64 size, Fix64 lifeTime, Action<GameObject, Effect> callBack = null)
+        {
+            if (string.IsNullOrEmpty(path))
+                return null;
+
+            var effect = NewGameData._PoolManager.Pop<Effect>();
+
+            LoadBuffGameObjectAsync(path, effect, pos, size, lifeTime, callBack);
+
+            return effect;
+        }
+
+        private void LoadBuffGameObjectAsync(string path, Effect effect, FixVector3 pos, Fix64 size, Fix64 lifeTime, Action<GameObject, Effect> callBack = null)
         {
             GG.ResMgr.instance.LoadGameObjectAsync(path, (obj) =>
             {
-                EffectObjList.Add(obj);
-                obj.transform.position = originEntity.TargetPos.ToVector3();
+                obj.SetActive(false);
+                effect.Init(obj.transform, pos);
+                effect.Show(obj.transform, pos, size, lifeTime);
 
-                obj.transform.SetParent(NewGameData.BattleMono);
-
-                obj.transform.Find("Spine").GetComponent<SkeletonAnimation>().AnimationState.Complete += (entry) => {
-                    ReleaseEffect(obj);
-                };
+                callBack?.Invoke(obj, effect);
 
                 return true;
-            }, true);
-        }
-
-        public void CreateEffect(string path, FixVector3 targetPos)
-        {
-            GG.ResMgr.instance.LoadGameObjectAsync(path, (obj) =>
-            {
-                EffectObjList.Add(obj);
-                obj.transform.position = targetPos.ToVector3();
-
-                obj.transform.SetParent(NewGameData.BattleMono);
-
-                obj.transform.Find("Spine").GetComponent<SkeletonAnimation>().AnimationState.Complete += (entry) => {
-                    ReleaseEffect(obj);
-                };
-
-                return true;
-            }, true);
-        }
-
-
-        public void ReleaseEffect(GameObject GameObj)
-        {
-            if (GameObj != null)
-            {
-                EffectObjList.Remove(GameObj);
-                GG.ResMgr.instance.ReleaseAsset(GameObj);
-            }
-        }
-
-        public void ReleaseAllEffect()
-        {
-            for (int i = EffectObjList.Count - 1; i >= 0; i--)
-            {
-                ReleaseEffect(EffectObjList[i]);
-            }
-            EffectObjList.Clear();
+            }, true, null, NewGameData._AssetOriginPos);
         }
     }
 #endif

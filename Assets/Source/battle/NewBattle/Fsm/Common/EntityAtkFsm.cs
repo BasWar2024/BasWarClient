@@ -3,27 +3,139 @@ namespace Battle
 {
     public class EntityAtkFsm : FsmState<EntityBase>
     {
-        private Fix64 m_AtkElpaseTime;
+        //private Fix64 m_AtkElpaseTime;
 
-        public override void OnInit(EntityBase owner)
-        {
-            base.OnInit(owner);
-        }
+        private bool m_IsAtk; //true:""atk false:return
+        private Fix64 m_ReadyAtkElpaseTime; //""
+        private FixVector3 m_TargetCenter;
 
         public override void OnEnter(EntityBase owner)
         {
             base.OnEnter(owner);
-            m_AtkElpaseTime = owner.AtkSpeed;
+
+            //if (CheckIsInSmoke(owner)) {
+            //    return;
+            //}
+
+            m_IsAtk = false;
+            m_ReadyAtkElpaseTime = Fix64.Zero;
 
 #if _CLIENTLOGIC_
-            //DrawTool.DrawCircle(owner.GameObj.transform, owner.Fixv3LogicPosition.ToVector3(), (float)owner.AttackRange);
+            SetSpineAnimTimeScale(owner);
 #endif
+            InitAtkAnim(owner);
         }
 
         public override void OnUpdate(EntityBase owner)
         {
             base.OnUpdate(owner);
 
+            //if (CheckIsInSmoke(owner)) {
+            //    return;
+            //}
+
+            if (owner.AtkElpaseTime >= owner.GetFixAtkSpeed())
+            {
+                if (!CheckLockTarget(owner))
+                    return;
+
+                owner.AtkElpaseTime = Fix64.Zero;
+
+#if _CLIENTLOGIC_
+                SetSpineAnimTimeScale(owner);
+#endif
+                if (owner.ModelType == ModelType.Model2D)
+                {
+                    if (owner is SoliderBase || owner is BuildingBase)
+                    {
+                        owner.AngleY = owner.UpdateSpineRenderRotation(AnimType.Atk);
+#if _CLIENTLOGIC_
+                        owner.SpineAnim.SpineAnimPlay(owner, "attack", false, 0, "idle_attack");
+#endif
+                    }
+                }
+                else if (owner.ModelType == ModelType.Model2D_Tank)
+                {
+                    Tank tank = owner as Tank;
+                    tank.GunAngleY = owner.UpdateSpineRenderRotation(AnimType.Atk);
+#if _CLIENTLOGIC_
+                    tank.GunSpineAnim.SpineTankAnimPlay((float)tank.GunAngleY, "attack", false, 0, "idle_attack");
+                    tank.SpineAnim.SpineTankAnimPlay((float)tank.AngleY, "idle", true, 0, "idle");
+#endif
+                }
+
+                m_IsAtk = true;
+            }
+
+
+            if(m_IsAtk)
+            {
+                m_ReadyAtkElpaseTime += NewGameData._FixFrameLen;
+
+                if (!CheckLockTarget(owner))
+                    return;
+
+                var atkSpeed = owner.GetFixAtkSpeed();
+                if (m_ReadyAtkElpaseTime >= (atkSpeed >= Fix64.One ? owner.AtkReadyTime : owner.AtkReadyTime * owner.GetFixAtkSpeed()))
+                {
+                    m_IsAtk = false;
+                    m_ReadyAtkElpaseTime = Fix64.Zero;
+                    owner.BeforeAtkAction?.Invoke();
+
+#if _CLIENTLOGIC_
+                    AudioFmodMgr.instance.ActionPlayBattleAudio?.Invoke(owner.CfgId, BattleAudioType._AttackAudio, owner.Trans);
+#endif
+                    if (owner is SoliderBase)
+                    {
+                        var i = (int)NewGameData._Srand.Range(0, 10);
+                        m_TargetCenter = owner.LockedAttackEntity.Fixv3LogicPosition + NewGameData._RandomAtkPoint[i];
+                    }
+                    else
+                    {
+                        m_TargetCenter = owner.LockedAttackEntity.Fixv3LogicPosition + owner.LockedAttackEntity.Center;
+                    }
+
+                    var angle = owner.AngleY;
+                    if (owner.ModelType == ModelType.Model2D_Tank)
+                    {
+                        Tank tank = owner as Tank;
+                        angle = tank.GunAngleY;
+                    }
+
+                    var model = NewGameData._SkillModelDict[owner.AtkSkillId];
+                    if ((SkillType)model.type == SkillType.Laser)
+                    {
+                        if (owner.AtkLaserSkill == null)
+                        {
+                            var skill = CreateSkill(owner, angle, model);
+                            owner.AtkLaserSkill = skill;
+                        }
+                    }
+                    else
+                    {
+                        CreateSkill(owner, angle, model);
+                    }
+
+                    if (owner.IsDetonate)
+                    {
+                        NewGameData._EntityManager.BeKill(owner);
+                        return;
+                    }
+
+                }
+            }
+        }
+
+        private SkillBase CreateSkill(EntityBase owner, Fix64 angle, SkillModel model)
+        {
+            FixVector3 entityCenter = owner.Fixv3LogicPosition + owner.Center +
+                owner.AtkSkillShowRadius * FixMath.Vector3Rotate(NewGameData._FixForword, angle);
+
+            return NewGameData._SkillFactory.CreateSkill(entityCenter, m_TargetCenter, owner, owner.LockedAttackEntity, model);
+        }
+
+        private bool CheckLockTarget(EntityBase owner)
+        {
             if (owner.LockedAttackEntity == null || owner.LockedAttackEntity.BKilled)
             {
                 if (owner is SoliderBase)
@@ -35,57 +147,118 @@ namespace Battle
                     owner.Fsm.ChangeFsmState<EntityFindSoliderFsm>();
                 }
 
-                return;
+                return false;
             }
 
-            if (NewGameData._SignalBomb != null && owner.SignalState == SignalState.NoReachSignal)
+            Fix64 distance = FixVector3.SqrMagnitude(owner.LockedAttackEntity.Fixv3LogicPosition - owner.Fixv3LogicPosition);
+            if (distance > Fix64.Square(owner.AtkRange + owner.LockedAttackEntity.Radius))
             {
-                owner.Fsm.ChangeFsmState<EntityFindSignalFsm>();
-                return;
+                if (owner is BuildingBase)
+                {
+                    owner.LockedAttackEntity = null;
+                    return false;
+                }
             }
 
-            if (FixVector3.Distance(owner.LockedAttackEntity.Fixv3LogicPosition, owner.Fixv3LogicPosition) > owner.AtkRange + owner.LockedAttackEntity.Radius)
+            if (owner.InAtkRange != Fix64.Zero)
             {
-                owner.LockedAttackEntity = null;
-                return;
+                if (distance < Fix64.Square(owner.InAtkRange))
+                {
+                    owner.LockedAttackEntity = null;
+                    return false;
+                }
             }
 
-            m_AtkElpaseTime += NewGameData._FixFrameLen;
+            return true;
+        }
 
-            if (m_AtkElpaseTime >= owner.AtkSpeed)
-            {
-                m_AtkElpaseTime -= owner.AtkSpeed;
-
+        //private bool CheckIsInSmoke(EntityBase owner)
+        //{
+        //    if (owner.BuffBag.BuffAttrDict.TryGetValue(BuffAttr.Smoke, out BuffValueBag buffValueBag))
+        //    {
+        //        owner.Fsm.ChangeFsmState<EntityIdleFsm>();
+        //        return true;
+        //    }
+        //    return false;
+        //}
 #if _CLIENTLOGIC_
-                owner.UpdateSpineRenderRotation(AnimType.Atk);
-                if(owner.ObjType == ObjectType.Soldier)
-                    owner.SpineAnim.SpineAnimPlayAuto8Turn(owner, "attack", false);
-                else if (owner.ObjType == ObjectType.Tower)
-                    owner.SpineAnim.SpineAnimPlayAuto30Turn(owner, "attack", false);
-#endif
+        private void SetSpineAnimTimeScale(EntityBase owner)
+        {
+            if (owner.SpineAnim == null)
+                return;
 
-                if (owner.BulletId != 0)
-                {
-                    FixVector3 entityCenter = new FixVector3(owner.Fixv3LogicPosition.x, owner.Fixv3LogicPosition.y + owner.Radius, owner.Fixv3LogicPosition.z);
-                    var target = owner.LockedAttackEntity;
-                    FixVector3 targetCenter = new FixVector3(target.Fixv3LogicPosition.x, target.Fixv3LogicPosition.y, target.Fixv3LogicPosition.z);
-                    NewGameData._BulletFactory.CreateBullet(owner, owner.LockedAttackEntity, entityCenter, targetCenter);
-                }
-                else
-                {
-                    NewGameData._FightManager.Attack(owner.FixAtk, owner.LockedAttackEntity);
-                }
-
-                if (owner.IsDetonate)
-                {
-                    NewGameData._EntityManager.BeKill(owner);
-                }
+            if (owner.GetFixAtkSpeed() < Fix64.One)
+            {
+                owner.SpineAnim.timeScale = 1 / (float)owner.GetFixAtkSpeed();
+            }
+            else
+            {
+                owner.SpineAnim.timeScale = 1;
             }
         }
+#endif
+
+        private void InitAtkAnim(EntityBase owner)
+        {
+
+            if (owner.ModelType == ModelType.Model2D)
+            {
+                if (owner is SoliderBase || owner is BuildingBase)
+                {
+                    owner.AngleY = owner.UpdateSpineRenderRotation(AnimType.Atk);
+#if _CLIENTLOGIC_
+                    if (owner.SpineAnim != null)
+                        owner.SpineAnim.SpineAnimPlay(owner, "idle_attack", true, 0);
+#endif
+                }
+            }
+            else if (owner.ModelType == ModelType.Model2D_Tank)
+            {
+                Tank tank = owner as Tank;
+                tank.GunAngleY = owner.UpdateSpineRenderRotation(AnimType.Atk);
+#if _CLIENTLOGIC_
+                if (tank.GunSpineAnim != null)
+                    tank.GunSpineAnim.SpineTankAnimPlay((float)tank.GunAngleY, "idle_attack", false, 0);
+                if (tank.SpineAnim != null)
+                    tank.SpineAnim.SpineTankAnimPlay((float)tank.AngleY, "idle", true, 0);
+#endif
+            }
+        }
+
         public override void OnLeave(EntityBase owner)
         {
             base.OnLeave(owner);
+
+            if (owner.AtkLaserSkill != null)
+            {
+                NewGameData._EntityManager.BeKill(owner.AtkLaserSkill);
+                owner.AtkLaserSkill = null;
+            }
+
+#if _CLIENTLOGIC_
+            if (owner.SpineAnim != null)    
+                owner.SpineAnim.timeScale = 1;
+#endif
+            if (owner.ModelType == ModelType.Model2D)
+            {
+                if (owner is SoliderBase || owner is BuildingBase)
+                {
+                    //owner.AngleY = owner.UpdateSpineRenderRotation(AnimType.Atk);
+#if _CLIENTLOGIC_
+                    owner.SpineAnim.SpineAnimPlay(owner, "idle", true, 0);
+#endif
+                }
+            }
+            else if (owner.ModelType == ModelType.Model2D_Tank)
+            {
+                Tank tank = owner as Tank;
+#if _CLIENTLOGIC_
+                if (tank.GunSpineAnim != null)
+                    tank.GunSpineAnim.SpineTankAnimPlay((float)tank.GunAngleY, "idle_attack", false, 0);
+                if (tank.SpineAnim != null)
+                    tank.SpineAnim.SpineTankAnimPlay((float)tank.AngleY, "idle", true, 0);
+#endif
+            }
         }
     }
-
 }

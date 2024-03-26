@@ -22,11 +22,32 @@ public class DrawTool
         lr.SetPosition(1, end);
     }
 
-    //    
+    public static void DrawLine(Transform t, Vector3 start, Vector3 end, float width)
+    {
+        LineRenderer lr = GetLineRenderer(t);
+        lr.SetVertexCount(2);
+        lr.SetPosition(0, start);
+        lr.SetPosition(1, end);
+        lr.startWidth = width;
+        lr.endWidth = width;
+    }
+
+    public static void DrawRectangle(Transform t, Vector3 p1, Vector3 p2, Vector3 p3, Vector3 p4)
+    {
+        LineRenderer lr = GetLineRenderer(t);
+        lr.SetVertexCount(5);
+        lr.SetPosition(0, p1);
+        lr.SetPosition(1, p2);
+        lr.SetPosition(2, p3);
+        lr.SetPosition(3, p4);
+        lr.SetPosition(4, p1);
+    }
+
+    //""    
     public static void DrawSector(Transform t, Vector3 center, float angle, float radius)
     {
         LineRenderer lr = GetLineRenderer(t);
-        int pointAmount = 100;//    
+        int pointAmount = 100;//""，""    
         float eachAngle = angle / pointAmount;
         Vector3 forward = t.forward;
 
@@ -41,11 +62,11 @@ public class DrawTool
         }
     }
 
-    //    
+    //""    
     public static void DrawCircle(Transform t, Vector3 center, float radius)
     {
         LineRenderer lr = GetLineRenderer(t);
-        int pointAmount = 100;//    
+        int pointAmount = 100;//""，""    
         float eachAngle = 360f / pointAmount;
         Vector3 forward = t.forward;
 
@@ -58,8 +79,8 @@ public class DrawTool
         }
     }
 
-    //  
-    //()  
+    //""  
+    //""("")  
     public static void DrawRectangle(Transform t, Vector3 bottomMiddle, float length, float width)
     {
         LineRenderer lr = GetLineRenderer(t);
@@ -72,8 +93,8 @@ public class DrawTool
         lr.SetPosition(4, bottomMiddle - t.right * (width / 2));
     }
 
-    //2D  
-    //distanceTransform t  
+    //""2D  
+    //distance""Transform t""  
     public static void DrawRectangle2D(Transform t, float distance, float length, float width)
     {
         LineRenderer lr = GetLineRenderer(t);
@@ -112,11 +133,11 @@ public class DrawTool
     //    int triangleAmount = vertices.Count - 2;
     //    triangles = new int[3 * triangleAmount];
 
-    //    //      
-    //    //      
+    //    //""，""（""）      
+    //    //""      
     //    for (int i = 0; i < triangleAmount; i++)
     //    {
-    //        triangles[3 * i] = 0;//      
+    //        triangles[3 * i] = 0;//""      
     //        triangles[3 * i + 1] = i + 1;
     //        triangles[3 * i + 2] = i + 2;
     //    }
@@ -124,7 +145,7 @@ public class DrawTool
     //    if (go == null)
     //    {
     //        go = new GameObject("mesh");
-    //        go.transform.position = new Vector3(0, 0.1f, 0);//  
+    //        go.transform.position = new Vector3(0, 0.1f, 0);//""，""  
     //        mf = go.AddComponent<MeshFilter>();
     //        mr = go.AddComponent<MeshRenderer>();
     //        shader = Shader.Find("Unlit/Color");
@@ -140,10 +161,10 @@ public class DrawTool
     //    return go;
     //}
 
-    ////    
+    ////""    
     //public static void DrawSectorSolid(Transform t, Vector3 center, float angle, float radius)
     //{
-    //    int pointAmount = 100;//    
+    //    int pointAmount = 100;//""，""    
     //    float eachAngle = angle / pointAmount;
     //    Vector3 forward = t.forward;
 
@@ -159,10 +180,10 @@ public class DrawTool
     //    CreateMesh(vertices);
     //}
 
-    ////    
+    ////""    
     //public static void DrawCircleSolid(Transform t, Vector3 center, float radius)
     //{
-    //    int pointAmount = 100;//    
+    //    int pointAmount = 100;//""，""    
     //    float eachAngle = 360f / pointAmount;
     //    Vector3 forward = t.forward;
 
@@ -177,8 +198,8 @@ public class DrawTool
     //    CreateMesh(vertices);
     //}
 
-    ////  
-    ////()  
+    ////""  
+    ////""("")  
     //public static void DrawRectangleSolid(Transform t, Vector3 bottomMiddle, float length, float width)
     //{
     //    List<Vector3> vertices = new List<Vector3>();
@@ -191,8 +212,8 @@ public class DrawTool
     //    CreateMesh(vertices);
     //}
 
-    ////2D  
-    ////distanceTransform t  
+    ////""2D  
+    ////distance""Transform t""  
     //public static void DrawRectangleSolid2D(Transform t, float distance, float length, float width)
     //{
     //    List<Vector3> vertices = new List<Vector3>();
@@ -207,7 +228,7 @@ public class DrawTool
     //    }
     //    else
     //    {
-    //        //mesh  
+    //        //""mesh""  
     //        Vector3 forwardMiddle = new Vector3(t.position.x - distance, t.position.y);
     //        vertices.Add(forwardMiddle + new Vector3(0, width / 2));
     //        vertices.Add(forwardMiddle + new Vector3(-length, width / 2));

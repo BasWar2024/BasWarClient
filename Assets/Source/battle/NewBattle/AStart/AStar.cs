@@ -10,20 +10,23 @@ namespace Battle
 
     public class AStar
     {
-        private static int width = 58;
-        private static int height = 58;
+        private static int width = 48;
+        private static int height = 48;
 
-        private int maxStepFindPathCount = 10; //
+        private int maxStepFindPathCount = 7; //""
 
         public ASPoint[,] asPoint2DMap = new ASPoint[width, height];
 
-        //
-        private Dictionary<EntityBase, BuildingAroundPoint> buildAroundPointDict = new Dictionary<EntityBase, BuildingAroundPoint>();
+        //""
+        //private Dictionary<EntityBase, BuildingAroundPoint> buildAroundPointDict = new Dictionary<EntityBase, BuildingAroundPoint>();
 
         private List<ASPoint> openList = new List<ASPoint>();
         private List<ASPoint> closeList = new List<ASPoint>();
 
         private Queue<FindPathComd> findPathQueue = new Queue<FindPathComd>();
+        //key""ASPoint
+        public Dictionary<ASPoint, List<AStarSavePath>> AsSavePathDict = new Dictionary<ASPoint, List<AStarSavePath>>();
+        private Fix64 SqrDistance = (Fix64)4;
 
 
 #if _CLIENTLOGIC_
@@ -44,7 +47,18 @@ namespace Battle
 
             openList.Clear();
             closeList.Clear();
-            buildAroundPointDict.Clear();
+            //buildAroundPointDict.Clear();
+            findPathQueue.Clear();
+            AsSavePathDict.Clear();
+        }
+
+        public void PushFindMovePathComd(EntityBase entity, EntityBase building, Action<List<ASPoint>> callBack)
+        {
+            if (callBack == null)
+                return;
+
+            FindPathComd comd = new FindPathComd(entity, building, callBack);
+            findPathQueue.Enqueue(comd);
         }
 
         public void UpdateLogic()
@@ -54,149 +68,238 @@ namespace Battle
                 int i = 0;
                 while (i < maxStepFindPathCount)
                 {
-                    var comd = findPathQueue.Dequeue();
-                    if (comd.Entity.BKilled)
+                    if (findPathQueue.Count == 0)
+                        return;
+
+                    FindPathComd comd = findPathQueue.Dequeue();
+                    if (comd.Entity == null || comd.Entity.BKilled)
                     {
                         comd.Release();
                         continue;
                     }
 
-                    FindMovePath(comd.Entity, comd.FindPathType, comd.CallBack);
+                    bool isAStar = FindMovePath(comd.Entity, comd.Building, comd.CallBack);
                     comd.Release();
-                    i++;
-
-                    if (findPathQueue.Count == 0)
-                        return;
+                    if(isAStar)
+                        i++;
                 }
             }
         }
 
-        public void PushFindMovePathComd(EntityBase entity, FindPathType findPathType, Action<List<ASPoint>> callBack)
+        public bool FindMovePath(EntityBase entity, EntityBase building, Action<List<ASPoint>> callBack)
         {
-            if (callBack == null)
-                return;
+            FixVector2 startPos = FindNearestPathFindPot(new FixVector2(entity.Fixv3LogicPosition.x, entity.Fixv3LogicPosition.z));
+            FixVector2 endPos = NewGameData._BuildingPathFindPointDict[building];
 
-            FindPathComd comd = new FindPathComd(entity, findPathType, callBack);
-            findPathQueue.Enqueue(comd);
-        }
-
-        private void FindMovePath(EntityBase entity, FindPathType findPathType, Action<List<ASPoint>> callBack)
-        {
-            FixVector2 fixV2 = new FixVector2(entity.Fixv3LogicPosition.x, entity.Fixv3LogicPosition.z);
-
-            EntityBase nearestObj = null;
-
-            if (findPathType == FindPathType.FindSignal)
+            if (startPos == endPos)
             {
-                nearestObj = NewGameData._SignalBomb;
-            }
-            else if (findPathType == FindPathType.FindSignalLockBuilding)
-            {
-                nearestObj = NewGameData._SignalLockBuilding;
+                callBack?.Invoke(null);
+                return false;
             }
 
-            if (nearestObj == null)
-                return;
+            ASPoint startPoint = asPoint2DMap[(int)startPos.x, (int)startPos.y];
+            ASPoint endPoint = asPoint2DMap[(int)endPos.x, (int)endPos.y];
 
-            entity.LockedAttackEntity = nearestObj;
-
-            FixVector2 pathFindStartPot = FindNearestPathFindPot(new FixVector2(fixV2.x, fixV2.y));
-
-            FixVector2 pathFindTargetPot =
-                findPathType == FindPathType.FindSignal ?
-                FindNearestPathFindPot(new FixVector2(nearestObj.Fixv3LogicPosition.x, nearestObj.Fixv3LogicPosition.z)):
-                FindNearestPathFindPot(NewGameData._BuildingPathFindPointDict[nearestObj]);
-
-            var listMovePath = entity.ListMovePath;
-
-            if (listMovePath == null)
-                listMovePath = new List<ASPoint>();
-
-            listMovePath.Clear();
-
-            ASPoint startPoint = asPoint2DMap[(int)pathFindStartPot.x, (int)pathFindStartPot.y];
-            ASPoint targetPoint = asPoint2DMap[(int)pathFindTargetPot.x, (int)pathFindTargetPot.y];
-
-            if (startPoint == targetPoint)
+            if (AsSavePathDict.TryGetValue(endPoint, out List<AStarSavePath> savePaths))
             {
-                //UnityTools.Log("" + startPoint.X + "," + startPoint.Z);
-                callBack?.Invoke(listMovePath);
-                return;
-            }
-
-
-            if (FindPath(startPoint, targetPoint))
-            {
-                ShowPath(startPoint, targetPoint, listMovePath);
-
-                listMovePath.Reverse();
-
-                if (!startPoint.IsWall)
-                    listMovePath.Add(targetPoint);
-            }
-
-            callBack?.Invoke(listMovePath);
-        }
-
-        private FixVector2 FindNearstEndPoint(FixVector3 startPoint, FixVector3 targetPoint)
-        {
-            var x = targetPoint.x;
-            var z = targetPoint.z;
-
-            var minX = targetPoint.x - 2;
-            var maxX = targetPoint.x + 2;
-
-            if (startPoint.x < minX || startPoint.x > maxX)
-            {
-                var nearminX = Fix64.Abs(startPoint.x - minX);
-                var nearmaxX = Fix64.Abs(startPoint.x - maxX);
-
-                x = nearminX > nearmaxX ? maxX : minX;
-            }
-
-            var minZ = targetPoint.z - 2;
-            var maxZ = targetPoint.z + 2;
-
-            if (startPoint.z < minZ || startPoint.z > maxZ)
-            {
-                var nearminZ = Fix64.Abs(startPoint.z - minZ);
-                var nearmaxZ = Fix64.Abs(startPoint.z - maxZ);
-
-                z = nearminZ > nearmaxZ ? maxZ : minZ;
-            }
-
-            return new FixVector2(x, z);
-        }
-
-        public FixVector2 FindNearestPathFindPot(FixVector2 fixOrginV2)
-        {
-            int centerX = (int)Math.Round((float)fixOrginV2.x);
-            int centerY = (int)Math.Round((float)fixOrginV2.y);
-            centerX = centerX % 2 == 0 ? centerX : centerX - 1;
-            centerY = centerY % 2 == 0 ? centerY : centerY - 1;
-            var v2 = new FixVector2(centerX, centerY);
-
-            if (asPoint2DMap[centerX, centerY].IsWall)
-            {
-                for (int i = -1; i < 2; i++)
+                //entity.ListMovePath = savePath.ListMovePath;
+                foreach (AStarSavePath aStarSavePath in savePaths)
                 {
-                    for (int j = 0; j < 2; j++)
+                    if (FixVector2.SqrMagnitude(aStarSavePath.StartASPoint.GetFixLogicPosition2D() - startPos) <= SqrDistance)
                     {
-                        if (!asPoint2DMap[centerX + i * 2, centerY + j * 2].IsWall)
-                        {
-                            v2 = new FixVector2(centerX + i * 2, centerY + j * 2);
-                            return v2;
-                        }
+                        entity.ListMovePath = aStarSavePath.ListMovePath;
+                        callBack?.Invoke(entity.ListMovePath);
+                        return false;
                     }
                 }
             }
 
+            if (FindPath(startPoint, endPoint))
+            {
+                if (!AsSavePathDict.ContainsKey(endPoint))
+                {
+                    List<AStarSavePath> paths = new List<AStarSavePath>();
+                    AsSavePathDict.Add(endPoint, paths);
+                }
 
-            return v2;
+                var newSavePath = NewGameData._PoolManager.Pop<AStarSavePath>();
+                newSavePath.Init();
+                newSavePath.StartASPoint = startPoint;
+                newSavePath.TargetASPoint = endPoint;
+                AsSavePathDict[endPoint].Add(newSavePath);
+
+                var listMovePath = newSavePath.ListMovePath;//AsSavePathDict[startPoint].ListMovePath;
+
+                ShowPath(startPoint, endPoint, listMovePath);
+
+                listMovePath.Reverse();
+
+                listMovePath.Add(endPoint);
+
+                entity.ListMovePath = listMovePath;
+                callBack?.Invoke(entity.ListMovePath);
+            }
+            return true;
+        }
+
+        //""，""
+        //public void FindBuildMovePath(EntityBase entity, EntityBase build, Action<List<ASPoint>> callBack)
+        //{
+        //    var startPos = new FixVector2(entity.Fixv3LogicPosition.x, entity.Fixv3LogicPosition.z);
+        //    FixVector2 pathFindStartPot = FindNearestPathFindPot(new FixVector2(startPos.x, startPos.y));
+
+        //    var endPos = new FixVector2(build.Fixv3LogicPosition.x, build.Fixv3LogicPosition.z);
+        //    FixVector2 pathFindTargetPot = FindNearestPathFindPot(new FixVector2(endPos.x, endPos.y));
+
+
+        //    ASPoint startPoint = asPoint2DMap[(int)pathFindStartPot.x, (int)pathFindStartPot.y];
+        //    ASPoint targetPoint = asPoint2DMap[(int)pathFindTargetPot.x, (int)pathFindTargetPot.y];
+
+        //    if (startPoint == targetPoint)
+        //    {
+        //        //UnityTools.Log("""：" + startPoint.X + "," + startPoint.Z);
+        //        //callBack?.Invoke(entity.ListMovePath);
+        //        callBack?.Invoke(null);
+        //        return;
+        //    }
+
+        //    if (AsSavePathDict.TryGetValue(startPoint, out AStarSavePath savePath))
+        //    {
+        //        entity.ListMovePath = savePath.ListMovePath;
+        //        callBack?.Invoke(entity.ListMovePath);
+        //        return;
+        //    }
+
+        //    if (FindPath(startPoint, targetPoint))
+        //    {
+        //        if (!AsSavePathDict.ContainsKey(startPoint))
+        //        {
+        //            var newSavePath = NewGameData._PoolManager.Pop<AStarSavePath>();
+        //            newSavePath.Init();
+        //            newSavePath.StartASPoint = startPoint;
+        //            newSavePath.TargetASPoint = targetPoint;
+        //            AsSavePathDict.Add(startPoint, newSavePath);
+        //        }
+
+        //        var listMovePath = AsSavePathDict[startPoint].ListMovePath;
+
+        //        ShowPath(startPoint, targetPoint, listMovePath);
+
+        //        listMovePath.Reverse();
+
+        //        if (!startPoint.IsWall)
+        //            listMovePath.Add(targetPoint);
+
+        //        entity.ListMovePath = listMovePath;
+        //    }
+
+        //    callBack?.Invoke(entity.ListMovePath);
+        //}
+
+        //private void FindMovePath(EntityBase entity, FindPathType findPathType, Action<List<ASPoint>> callBack)
+        //{
+        //    FixVector2 fixV2 = new FixVector2(entity.Fixv3LogicPosition.x, entity.Fixv3LogicPosition.z);
+
+        //    EntityBase nearestObj = null;
+
+        //    if (findPathType == FindPathType.FindSignal)
+        //    {
+        //        nearestObj = NewGameData._SignalBomb.Entity;
+        //    }
+        //    else if (findPathType == FindPathType.FindSignalLockBuilding)
+        //    {
+        //        nearestObj = NewGameData._SignalLockBuilding;
+        //    }
+
+        //    if (nearestObj == null)
+        //        return;
+
+        //    entity.LockedAttackEntity = nearestObj;
+
+        //    FixVector2 pathFindStartPot = FindNearestPathFindPot(new FixVector2(fixV2.x, fixV2.y));
+
+        //    FixVector2 pathFindTargetPot =
+        //        findPathType == FindPathType.FindSignal ?
+        //        FindNearestPathFindPot(new FixVector2(nearestObj.Fixv3LogicPosition.x, nearestObj.Fixv3LogicPosition.z)):
+        //        FindNearestPathFindPot(NewGameData._BuildingPathFindPointDict[nearestObj]);
+
+        //    //var listMovePath = entity.ListMovePath;
+
+        //    //if (entity.ListMovePath == null)
+        //    //    entity.ListMovePath = new List<ASPoint>();
+
+        //    //entity.ListMovePath.Clear();
+
+        //    ASPoint startPoint = asPoint2DMap[(int)pathFindStartPot.x, (int)pathFindStartPot.y];
+        //    ASPoint targetPoint = asPoint2DMap[(int)pathFindTargetPot.x, (int)pathFindTargetPot.y];
+
+        //    if (startPoint == targetPoint)
+        //    {
+        //        //UnityTools.Log("""：" + startPoint.X + "," + startPoint.Z);
+        //        //callBack?.Invoke(entity.ListMovePath);
+        //        callBack?.Invoke(null);
+        //        return;
+        //    }
+
+        //    if (AsSavePathDict.TryGetValue(startPoint, out AStarSavePath savePath))
+        //    {
+        //        entity.ListMovePath = savePath.ListMovePath;
+        //        callBack?.Invoke(entity.ListMovePath);
+        //        return;
+        //    }
+
+
+        //    if (FindPath(startPoint, targetPoint))
+        //    {
+        //        if (!AsSavePathDict.ContainsKey(startPoint))
+        //        {
+        //            var newSavePath = NewGameData._PoolManager.Pop<AStarSavePath>();
+        //            newSavePath.Init();
+        //            newSavePath.StartASPoint = startPoint;
+        //            newSavePath.TargetASPoint = targetPoint;
+        //            AsSavePathDict.Add(startPoint, newSavePath);
+        //        }
+
+        //        var listMovePath = AsSavePathDict[startPoint].ListMovePath;
+
+        //        ShowPath(startPoint, targetPoint, listMovePath);
+
+        //        listMovePath.Reverse();
+
+        //        if (!startPoint.IsWall)
+        //            listMovePath.Add(targetPoint);
+
+        //        entity.ListMovePath = listMovePath;
+        //    }
+
+        //    callBack?.Invoke(entity.ListMovePath);
+        //}
+
+        public void InitStarSavePath()
+        {
+            foreach (var kv in AsSavePathDict)
+            {
+                foreach (var asSavePath in kv.Value)
+                {
+                    asSavePath.Release();
+                    NewGameData._PoolManager.Push(asSavePath);
+                }
+            }
+            AsSavePathDict.Clear();
+        }
+
+        public FixVector2 FindNearestPathFindPot(FixVector2 fixOrginV2)
+        {
+            Fix64 x = Fix64.Ceiling(fixOrginV2.x);
+            Fix64 y = Fix64.Ceiling(fixOrginV2.y);
+            x = x % (Fix64)2 == Fix64.Zero ? x : x - 1;
+            y = y % (Fix64)2 == Fix64.Zero ? y : y - 1;
+
+            return new FixVector2(x, y);
         }
 
         /// <summary>
-        /// apoint!iswall
+        /// ""，""apoint""!iswall
         /// </summary>
         public void ReSetNoWall()
         {
@@ -209,53 +312,87 @@ namespace Battle
             }
         }
 
-        public void SetWallPoint(EntityBase building, FixVector2 center, Fix64 size)
+        public void SetWall()
         {
-            int newSize = 0;//size <= (Fix64)1.5 ? 0 : 2;
-            //var floorSize = (int)Fix64.Floor(size);
-            int centerX = (int)center.x;
-            int centerY = (int)center.y;
-            centerX = centerX % 2 == 0 ? centerX : centerX - 1;
-            centerY = centerY % 2 == 0 ? centerY : centerY - 1;
-            int minX = centerX - newSize;
-            int maxX = centerX + newSize;
-            int minY = centerY - newSize;
-            int maxY = centerY + newSize;
-
-            NewGameData._BuildingPathFindPointDict.Add(building, new FixVector2(centerX, centerY));
-
-            for (int i = minX; i <= maxX; i += 2)
+            switch (NewGameData._AreaLevel)
             {
-                for (int j = minY; j <= maxY; j += 2)
-                {
-                    var absX = Fix64.Abs((Fix64)i - (Fix64)centerX);
-                    var absY = Fix64.Abs((Fix64)j - (Fix64)centerY);
-                    if (Fix64.Sqrt(absX * absX + absY * absY) > size)
-                        continue;
+                case 1:
+                    SetAsPoint2DMapWall(20, 0, 46, 46);
+                    break;
+                case 2:
+                    SetAsPoint2DMapWall(20, 20, 34, 46);
+                    SetAsPoint2DMapWall(34, 0, 46, 46);
+                    break;
+                case 3:
+                    SetAsPoint2DMapWall(20, 34, 34, 46);
+                    SetAsPoint2DMapWall(34, 0, 46, 46);
+                    break;
+                case 4:
+                    SetAsPoint2DMapWall(34, 0, 46, 46);
+                    break;
+                case 5:
+                    SetAsPoint2DMapWall(34, 20, 46, 46);
+                    break;
+                case 6:
+                    SetAsPoint2DMapWall(34, 34, 46, 46);
+                    break;
+            }
+        }
 
-                    if (asPoint2DMap[i, j] != null)
-                    {
-                        asPoint2DMap[i, j].IsWall = true;
-#if _CLIENTLOGIC_
-                        //SetCubeColor(i, j, wallColor);
-#endif
-                    }
+        private void SetAsPoint2DMapWall(int lx, int lz, int rx, int rz)
+        {
+            for (int x = lx; x <= rx; x += 2)
+            {
+                for (int z = lz; z <= rz; z += 2)
+                {
+                    asPoint2DMap[x, z].IsWall = true;
+                    //var PointGameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
+
+                    //PointGameObject.transform.position = new Vector3((int)x, 0, (int)z);
+                    //PointGameObject.transform.localScale = Vector3.one * 0.5f;
+                    //PointGameObject.name = $"{x},{z}";
                 }
             }
-#if _CLIENTLOGIC_
-            //SetCubeColor(centerX, centerY, Color.blue);
-#endif
         }
 
-        //-------------------------------newbattle-----------------------------------------------------------------------
+        //""
+        //public FixVector2 SetAStarBuildingCenterPos(BuildingBase building, FixVector2 center)
+        //{
+        //    int newSize = 0;//size <= (Fix64)1.5 ? 0 : 2;
+        //    //var floorSize = (int)Fix64.Floor(size);
+        //    int centerX = (int)center.x;
+        //    int centerY = (int)center.y;
 
-        private void RefreshMap()
-        {
+        //    centerX = centerX % 2 == 0 ? centerX : centerX + 1;
+        //    centerY = centerY % 2 == 0 ? centerY : centerY + 1;
 
-        }
+        //    int minX = centerX - newSize;
+        //    int maxX = centerX + newSize;
+        //    int minY = centerY - newSize;
+        //    int maxY = centerY + newSize;
+
+        //    return new FixVector2(centerX, centerY);
+        //    //if (asPoint2DMap[minX, minY] != null)
+        //    //{
+        //    //    var asPos = asPoint2DMap[minX, minY];
+        //    //    //asPos.IsWall = true;
+        //    //    //building.ASPoint = asPos;
+        //    //    //building.ASPointList.Add(asPos);
+        //    //    //#if _CLIENTLOGIC_
+        //    //    //                    SetCubeColor(minX, minY, wallColor);
+        //    //    //#endif
+        //    //}
+        //}
+
+        ////-------------------------------↑newbattle↑-----------------------------------------------------------------------
+
+        //private void RefreshMap()
+        //{
+
+        //}
 
         /// <summary>
-        /// list
+        /// ""，""list""
         /// </summary>
         /// <param name="startPoint"></param>
         /// <param name="targetPoint"></param>
@@ -264,8 +401,8 @@ namespace Battle
 
         private List<ASPoint> ShowPath(ASPoint startPoint, ASPoint targetPoint, List<ASPoint> newPath)
         {
-            if (newPath == null)
-                newPath = new List<ASPoint>();
+            //if (newPath == null)
+            //    newPath = new List<ASPoint>();
 
             ASPoint temp = targetPoint.Parent;
             while (true)
@@ -289,7 +426,7 @@ namespace Battle
         }
 
         /// <summary>
-        /// A
+        /// A""，""
         /// </summary>
         /// <param name="startPoint"></param>
         /// <param name="targetPoint"></param>
@@ -314,7 +451,7 @@ namespace Battle
 
                 foreach (ASPoint surroundPos in surroundPoints)
                 {
-                    //openListFF
+                    //""openList，""F，""F
                     if (openList.IndexOf(surroundPos) > -1)
                     {
                         Fix64 g = CalcG(surroundPos, minFPot);
@@ -335,20 +472,20 @@ namespace Battle
 
                 if (i >= 100)
                 {
-                    //UnityTools.Log("" + i + ", " + startPoint.X + "," + startPoint.Z);
-                    //UnityTools.Log("" + i + ", " + targetPoint.X + "," + targetPoint.Z);
+                    //UnityTools.Log("""" + i + """, ""：" + startPoint.X + "," + startPoint.Z);
+                    //UnityTools.Log("""" + i + """, ""：" + targetPoint.X + "," + targetPoint.Z);
                     return true;
                 }
 
-                //  end  
+                // "" end "" ""，""
                 if (openList.IndexOf(targetPoint) > -1)
                 {
-                    //UnityTools.Log(i + ", " + targetPoint.X + "," + targetPoint.Z);
+                    //UnityTools.Log(i + """, ""：" + targetPoint.X + "," + targetPoint.Z);
                     return true;
                 }
             }
 
-            //UnityTools.Log("--------:" + i + "," + ","+ "" + targetPoint.X + "," + targetPoint.Z);
+            //UnityTools.Log("--------:" + i + """," + ""","+ """：" + targetPoint.X + "," + targetPoint.Z);
             return false;
         }
 
@@ -362,11 +499,11 @@ namespace Battle
             }
             else
             {
-                // 
+                // ""
                 g = FixVector3.Distance(new FixVector3(currPot.X, (Fix64)0, currPot.Z), new FixVector3(currPot.Parent.X, (Fix64)0, currPot.Parent.Z)) + currPot.Parent.G;
             }
 
-            // FGH
+            // ""FGH""
             Fix64 f = g + h;
             currPot.F = f;
             currPot.G = g;
@@ -380,7 +517,7 @@ namespace Battle
         }
 
         /// <summary>
-        /// openListF
+        /// ""openListF""
         /// </summary>
         /// <param name="openList"></param>
         /// <returns></returns>
@@ -403,13 +540,13 @@ namespace Battle
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
-        /// <param name="src"></param>
-        /// <param name="closeList"></param>
+        /// <param name="src">""</param>
+        /// <param name="closeList">""</param>
         private void PointFilter(List<ASPoint> src, List<ASPoint> closeList)
         {
-            // 
+            // ""，""
             foreach (ASPoint item in closeList)
             {
                 if (src.IndexOf(item) > -1)
@@ -420,12 +557,12 @@ namespace Battle
             }
         }
 
-#if _CLIENTLOGIC_
-        //public void SetCubeColor(int x, int z, Color targetColor)
-        //{
-        //    asPoint2DMap[x, z].PointGameObject.gameObject.GetComponent<Renderer>().material.color = targetColor;
-        //}
-#endif
+//#if _CLIENTLOGIC_
+//        public void SetCubeColor(int x, int z, Color targetColor)
+//        {
+//            asPoint2DMap[x, z].PointGameObject.gameObject.GetComponent<Renderer>().material.color = targetColor;
+//        }
+//#endif
         private void CreateAStartMap()
         {
             for (int x = 0; x < width; x += 2)
@@ -442,66 +579,66 @@ namespace Battle
         }
 
         /// <summary>
-        ///  F 
+        /// "" F ""
         /// </summary>
-        /// <param name="point"> F </param>
-        /// <param name="map"></param>
-        /// <param name="mapWidth"></param>
-        /// <param name="mapHeight"></param>
-        /// <returns></returns>
+        /// <param name="point">"" F ""</param>
+        /// <param name="map">""</param>
+        /// <param name="mapWidth">""</param>
+        /// <param name="mapHeight">""</param>
+        /// <returns>""</returns>
         private List<ASPoint> GetSurroundPoints(ASPoint point, ASPoint[,] map, int mapWidth, int mapHeight)
         {
-            //  
+            // ""、""、""、""，""、""、""、"" ""
             ASPoint up = null, down = null, left = null, right = null;
             ASPoint lu = null, ru = null, ld = null, rd = null;
 
-            //   Y  mapHeight - 1
+            // "" "" Y "" mapHeight - 1，""，""
             if (point.Z < mapHeight - 2)
             {
                 up = map[(int)point.X, (int)point.Z + 2];
             }
-            //   Y  0
+            // "" "" Y "" 0，""，""
             if (point.Z > 0)
             {
                 down = map[(int)point.X, (int)point.Z - 2];
             }
-            //   X  mapWidth - 1
+            // "" "" X "" mapWidth - 1，""，""
             if (point.X < mapWidth - 2)
             {
                 right = map[(int)point.X + 2, (int)point.Z];
             }
-            //   X  0
+            // "" "" X "" 0，""，""
             if (point.X > 0)
             {
                 left = map[(int)point.X - 2, (int)point.Z];
             }
 
-            // 
-            // 
+            // ""
+            // ""，""
             if (up != null && left != null)
             {
                 lu = map[(int)point.X - 2, (int)point.Z + 2];
             }
-            // 
+            // ""，""
             if (up != null && right != null)
             {
                 ru = map[(int)point.X + 2, (int)point.Z + 2];
             }
-            // 
+            // ""，""
             if (down != null && left != null)
             {
                 ld = map[(int)point.X - 2, (int)point.Z - 2];
             }
-            // 
+            // ""，""
             if (down != null && right != null)
             {
                 rd = map[(int)point.X + 2, (int)point.Z - 2];
             }
 
-            // 
+            // ""
             List<ASPoint> list = new List<ASPoint>();
-            // 
-            // 
+            // ""
+            // ""，""，""，""
             if (up != null && up.IsWall == false)
             {
                 list.Add(up);
@@ -519,8 +656,8 @@ namespace Battle
                 list.Add(right);
             }
 
-            // 
-            //  
+            // ""
+            // ""，"" ""，""，""
             if (lu != null && lu.IsWall == false && left.IsWall == false && up.IsWall == false)
             {
                 list.Add(lu);
@@ -538,7 +675,7 @@ namespace Battle
                 list.Add(rd);
             }
 
-            // 
+            // ""
             return list;
 
         }

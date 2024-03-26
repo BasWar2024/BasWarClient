@@ -29,8 +29,8 @@ public class UserInputProxy : MonoBehaviour
 
     private void Awake()
     {
-        //delegate  SendMessage SendMessage
-        //delegateSendMessage
+        //""delegate "" SendMessage ""。""SendMessage""。
+        //""delegate""，""SendMessage""，""
 
         FingerGestures fingerGuestures = gameObject.AddComponent<FingerGestures>();
         fingerGuestures.makePersistent = true;
@@ -56,7 +56,7 @@ public class UserInputProxy : MonoBehaviour
         fingerUpDetector.OnFingerUp += FingerUpEventHandler;
 
         DragRecognizer dragRecognizer = gameObject.AddComponent<DragRecognizer>();
-        //finger
+        //""finger""。
         dragRecognizer.IsExclusive = true;
         dragRecognizer.MoveTolerance = 0;
         dragRecognizer.OnGesture += FirstFingerDragEventHandler;
@@ -125,7 +125,7 @@ public class UserInputProxy : MonoBehaviour
     }
     */
 
-    //OnFingerDowndelegateSendMessage
+    //""OnFingerDown，""，""delegate""，""SendMessage""
     void FingerDownEventHandler(FingerDownEvent e)
     {
         if(IsInViewRect(e.Position))
@@ -168,16 +168,16 @@ public class UserInputProxy : MonoBehaviour
     }
     */
 
-    //fingerfinger
-    //finger 
+    //""，""finger""finger""，
+    //""finger"" ""。
     void FirstFingerDragEventHandler(DragGesture gesture)
     {
         if(!IsInViewRect(gesture.Position))
             return;
 
-        //Fingers[0]
-        //finger.Index
-        //fingers[0].index
+        //""，""Fingers[0]""，
+        //finger.Index""，""。""
+        //fingers[0].index""。
         FingerGestures.Finger finger = gesture.Fingers[0];
         if (gesture.Phase == ContinuousGesturePhase.Started)
         {
@@ -188,9 +188,10 @@ public class UserInputProxy : MonoBehaviour
         {
             return;
         }
-        //
+        //""。
+
         InputMgr.instance.OnFirstFingerDrag(gesture.Position, gesture.Selection, gesture.DeltaMove, (int)ContinuousGesturePhaseConvertor(gesture.Phase));
-        //index
+        //""，""index。
         if (gesture.Phase == ContinuousGesturePhase.Ended || gesture.Phase == ContinuousGesturePhase.None)
         {
             dragFingerIndex = -1;

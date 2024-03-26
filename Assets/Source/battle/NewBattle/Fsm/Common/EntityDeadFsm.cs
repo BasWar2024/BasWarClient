@@ -3,10 +3,6 @@ namespace Battle
 {
     public class EntityDeadFsm : FsmState<EntityBase>
     {
-        public override void OnInit(EntityBase owner)
-        {
-            base.OnInit(owner);
-        }
 
         public override void OnEnter(EntityBase owner)
         {
@@ -15,7 +11,9 @@ namespace Battle
             if (owner.BuildAroundPoint != null)
                 owner.BuildAroundPoint.Use = false;
 
-            owner.CanRelease = true;
+#if _CLIENTLOGIC_
+            AudioFmodMgr.instance.ActionPlayBattleAudio?.Invoke(owner.CfgId, BattleAudioType._DieAudio, owner.Trans);
+#endif
 
             if (owner is BuildingBase)
             {
@@ -23,7 +21,8 @@ namespace Battle
 #if _CLIENTLOGIC_
 
                 NewGameData._GameObjFactory.CreateGameObj(building.DeadResPath, building.Fixv3LogicPosition);
-                NewGameData._EffectFactory.CreateEffect(building.EffectResPath, building.Fixv3LogicPosition);
+                NewGameData._EffectFactory.CreateEffect(building.EffectResPath, building.Fixv3LogicPosition, Fix64.Zero,
+                    Fix64.Zero, null);
 #endif
 
                 if (building.IsMain)
@@ -31,15 +30,18 @@ namespace Battle
                     NewGameData._Victory = true;
                 }
             }
-        }
+            else if (owner is SoliderBase)
+            {
+                //if (owner.IsInTheSky)
+                //    return;
 
-        public override void OnUpdate(EntityBase owner)
-        {
-            base.OnUpdate(owner);
-        }
-        public override void OnLeave(EntityBase owner)
-        {
-            base.OnLeave(owner);
+#if _CLIENTLOGIC_
+                SoliderBase solider = (SoliderBase)owner;
+                NewGameData._EffectFactory.CreateEffect(solider.DeadEffect, solider.Fixv3LogicPosition, solider.Radius,
+                    Fix64.Zero, null);
+#endif
+            }
+            owner.CanRelease = true;
         }
     }
 }

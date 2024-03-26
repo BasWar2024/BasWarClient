@@ -5,31 +5,25 @@ namespace Battle
     using UnityEngine;
 #endif
 
-    public class EntityMoveStraightFsm : FsmState<EntityBase> //
+    public class EntityMoveStraightFsm : FsmState<EntityBase> //""
     {
-        private Fix64 m_FixMoveElpaseTime = Fix64.Zero;
-        private Fix64 m_FixMoveTime = Fix64.Zero;
+        private Fix64 m_FixMoveElpaseTime;
+        private Fix64 m_FixMoveTime;
         private FixVector3 m_Fixv3MoveDistance;
-        private Fix64 m_TargetSize;
-        private bool m_IsLookAtTarget;
-
-        public override void OnInit(EntityBase owner)
-        {
-            base.OnInit(owner);
-        }
+        private Fix64 m_EndTimeScale;
 
         public override void OnEnter(EntityBase owner)
         {
             base.OnEnter(owner);
             m_FixMoveElpaseTime = Fix64.Zero;
-            m_FixMoveTime = FixVector3.Distance(owner.OriginPos, owner.TargetPos) / owner.MoveSpeed;
+            m_FixMoveTime = FixVector3.Distance(owner.OriginPos, owner.TargetPos) / owner.GetFixMoveSpeed();
             if (m_FixMoveTime == (Fix64)0)
             {
-                m_FixMoveTime = (Fix64)0.1;
+                m_FixMoveTime = (Fix64)0.01;
             }
             m_Fixv3MoveDistance = owner.TargetPos - owner.OriginPos;
-            m_TargetSize = owner.LockedAttackEntity == null ? (Fix64)1.5 : owner.LockedAttackEntity.Radius;
-            m_IsLookAtTarget = false;
+
+            m_EndTimeScale = Fix64.One;
         }
 
         public override void OnUpdate(EntityBase owner)
@@ -45,21 +39,17 @@ namespace Battle
             owner.Fixv3LogicPosition = owner.OriginPos + elpaseDistance;
 
 #if _CLIENTLOGIC_
-            if(owner.ModelType == ModelType.Model3D && owner.Trans != null)
+            if (owner.ModelType == ModelType.Model3D && owner.Trans != null)
             {
-                if (!m_IsLookAtTarget)
-                {
-                    owner.Trans.LookAt(owner.TargetPos.ToVector3());
-                    owner.Trans.localEulerAngles = new Vector3(0, owner.Trans.localEulerAngles.y, owner.Trans.localEulerAngles.z);
-                    m_IsLookAtTarget = true;
-                }
+                owner.CurrRotation = Quaternion.LookRotation(m_Fixv3MoveDistance.ToVector3(), Vector3.up);
             }
 #endif
 
-            if (FixVector3.Distance(owner.Fixv3LogicPosition, owner.TargetPos) <= m_TargetSize || owner.Fixv3LogicPosition.y < 0)
+            if (timeScale >= m_EndTimeScale || owner.Fixv3LogicPosition.y < 0)
             {
                 owner.Fsm.ChangeFsmState<EntityArriveFsm>();
             }
+
         }
         public override void OnLeave(EntityBase owner)
         {

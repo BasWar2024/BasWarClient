@@ -1,7 +1,7 @@
 local MoveFollow = class("MoveFollow")
 
-MoveFollow.SCREENHEIGHT = 720
-MoveFollow.SCREENWIDTH = 1280
+-- MoveFollow.SCREENHEIGHT = 1080
+-- MoveFollow.SCREENWIDTH = 1920
 
 function MoveFollow:ctor(uiObj, targetObj, offset, overScreen, isDeformation, isUpdata)
     self.uiObj = uiObj
@@ -11,26 +11,30 @@ function MoveFollow:ctor(uiObj, targetObj, offset, overScreen, isDeformation, is
     self.width = UnityEngine.Screen.width
     self.height = UnityEngine.Screen.height
     self.isDeformation = isDeformation
+    self.isShow = true
 
-    local newScreenWidth = UnityEngine.Screen.width
-    local newScreenHeight = UnityEngine.Screen.height
+    -- local newScreenWidth = UnityEngine.Screen.width
+    -- local newScreenHeight = UnityEngine.Screen.height
 
-    local referenceProportion = MoveFollow.SCREENWIDTH / MoveFollow.SCREENHEIGHT
-    local newProportion = newScreenWidth / newScreenHeight
+    -- local referenceProportion = MoveFollow.SCREENWIDTH / MoveFollow.SCREENHEIGHT
+    -- local newProportion = newScreenWidth / newScreenHeight
 
-    local referenceHeight = 0
-    local referenceWidth = 0
-    if newProportion >= referenceProportion then
-        referenceHeight = MoveFollow.SCREENHEIGHT
-        referenceWidth = newProportion * MoveFollow.SCREENHEIGHT
-    else
-        newProportion = newScreenHeight / newScreenWidth
-        referenceWidth = MoveFollow.SCREENWIDTH
-        referenceHeight = newProportion * MoveFollow.SCREENWIDTH
-    end
+    -- local referenceHeight = 0
+    -- local referenceWidth = 0
+    -- if newProportion >= referenceProportion then
+    --     referenceHeight = MoveFollow.SCREENHEIGHT
+    --     referenceWidth = newProportion * MoveFollow.SCREENHEIGHT
+    -- else
+    --     newProportion = newScreenHeight / newScreenWidth
+    --     referenceWidth = MoveFollow.SCREENWIDTH
+    --     referenceHeight = newProportion * MoveFollow.SCREENWIDTH
+    -- end
 
-    self.biasX = referenceWidth / newScreenWidth
-    self.biasY = referenceHeight / newScreenHeight
+    -- self.biasX = referenceWidth / newScreenWidth
+    -- self.biasY = referenceHeight / newScreenHeight
+
+    self.biasX = gg.sceneManager.biasX
+    self.biasY = gg.sceneManager.biasY
 
     self:bindEvent(isUpdata)
     self:onMoveFollow()
@@ -46,32 +50,52 @@ function MoveFollow:bindEvent(isUpdata)
 end
 
 function MoveFollow:releaseEvent()
+    gg.event:removeListener("onUpdataMove", self)
     gg.event:removeListener("onMoveFollowHide", self)
     gg.event:removeListener("onMoveFollow", self)
-    gg.event:removeListener("onUpdataMove", self)
 end
 
-function MoveFollow:onMoveFollow()
-    self:moveFollow()
+function MoveFollow:onMoveFollow(args, isUnLock)
+    if self then
+        self:moveFollow(isUnLock)
+    end
 end
 
-function MoveFollow:onUpdataMove()
-    self:moveFollow()
+function MoveFollow:onUpdataMove(args, isUnLock)
+    if self then
+        self:moveFollow(isUnLock)
+    end
 end
 
-function MoveFollow:onMoveFollowHide()
-    self.uiObj:SetActive(false)
+function MoveFollow:onMoveFollowHide(args, isLock)
+    if self then
+        self.isLock = isLock
+        self.uiObj:SetActive(false)
+    end
 end
 
-function MoveFollow:moveFollow()
-    self.uiObj:SetActive(true)
-    local targetScreenPoint  = UnityEngine.Camera.main:WorldToScreenPoint(self.targetObj.transform.position)
+function MoveFollow:showRes(bool)
+    self.uiObj:SetActive(bool)
+    self.isShow = bool
+end
+
+function MoveFollow:moveFollow(isUnLock)
+    if isUnLock then
+        self.isLock = false
+    end
+    if not UnityEngine.Camera.main or not self.targetObj or not self.uiObj or self.isLock then
+        return
+    end
+    if self.isShow then
+        self.uiObj:SetActive(true)
+    end
+    local targetScreenPoint = UnityEngine.Camera.main:WorldToScreenPoint(self.targetObj.transform.position)
     local uiPoint = Vector3(targetScreenPoint.x + self.offset.x, targetScreenPoint.y + self.offset.y, 0)
     local fleld = UnityEngine.Camera.main.fieldOfView
-    if fleld > 20 then
-        fleld = 20
+    if fleld > 15 then
+        fleld = 15
     end
-    local scale = (20 - fleld) / (20 - 4) * 0.6 + 0.4
+    local scale = (15 - fleld) / (15 - 4) * 0.6 + 0.4
     local size = 1
     if not self.overScreen then
         local vecX = 0.5
@@ -103,9 +127,9 @@ function MoveFollow:moveFollow()
     uiPoint.y = uiPoint.y * self.biasY
     local newScale = scale * size
     self.uiObj.transform.localScale = Vector3(newScale, newScale, newScale)
-    self.uiObj.transform:GetComponent("RectTransform"):SetRectPosX(uiPoint.x)
-    self.uiObj.transform:GetComponent("RectTransform"):SetRectPosY(uiPoint.y)
-    self.uiObj.transform:GetComponent("RectTransform"):SetLocalPosZ(0)
+    self.uiObj.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM):SetRectPosX(uiPoint.x)
+    self.uiObj.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM):SetRectPosY(uiPoint.y)
+    self.uiObj.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM):SetLocalPosZ(0)
 end
 
 function MoveFollow:boxDeformation(pivot)
@@ -113,27 +137,27 @@ function MoveFollow:boxDeformation(pivot)
         local bg = self.uiObj.transform:Find("Bg")
         local bg1 = self.uiObj.transform:Find("Bg/Bg1")
         local bg2 = self.uiObj.transform:Find("Bg/Bg2")
-        local bgWidth = bg.transform:GetComponent("RectTransform").rect.width
-        local bg1Width = bg1.transform:GetComponent("RectTransform").rect.width
-        local bg2Width = bg2.transform:GetComponent("RectTransform").rect.width
-        self.uiObj.transform:GetComponent("RectTransform").pivot = pivot
+        local bgWidth = bg.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).rect.width
+        local bg1Width = bg1.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).rect.width
+        local bg2Width = bg2.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).rect.width
+        self.uiObj.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).pivot = pivot
         if pivot == Vector2.New(0.5, 0.5) then
             if bgWidth == 0 then
                 bgWidth = 42
-                bg1Width = bg1.transform:GetComponent("RectTransform").rect.width - 21
-                bg2Width = bg2.transform:GetComponent("RectTransform").rect.width - 21
+                bg1Width = bg1.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).rect.width - 21
+                bg2Width = bg2.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).rect.width - 21
             end
         else
             if bgWidth == 42 then
                 bgWidth = 0
-                bg1Width = bg1.transform:GetComponent("RectTransform").rect.width + 21
-                bg2Width = bg2.transform:GetComponent("RectTransform").rect.width + 21
+                bg1Width = bg1.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).rect.width + 21
+                bg2Width = bg2.transform:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).rect.width + 21
             end
         end
 
-        bg:GetComponent("RectTransform").sizeDelta = Vector2.New(bgWidth, 84)
-        bg1:GetComponent("RectTransform").sizeDelta = Vector2.New(bg1Width, 84)
-        bg2:GetComponent("RectTransform").sizeDelta = Vector2.New(bg2Width, 84)
+        bg:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).sizeDelta = Vector2.New(bgWidth, 84)
+        bg1:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).sizeDelta = Vector2.New(bg1Width, 84)
+        bg2:GetComponent(UNITYENGINE_UI_RECTTRANSFORM).sizeDelta = Vector2.New(bg2Width, 84)
     end
 end
 
