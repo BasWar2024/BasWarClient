@@ -1,0 +1,461 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Union
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Union
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c60c90a7e261e5f459e522ecca7c64b1
+  m_SerializeEntries:
+  - m_GUID: 6b4c9520855687648b747a7d667ada6d
+    m_Address: Assets/GameRes/UI/Union/reproduction_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a08b0240eca81514aa9ba38fb6e24e79
+    m_Address: Assets/GameRes/UI/Union/flag box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2fa139402220f3e4ca8e581eccc11285
+    m_Address: Assets/GameRes/UI/Union/Picframe_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b3c83760efaf44d44aee43c9e810d352
+    m_Address: Assets/GameRes/UI/Union/button bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53cb2470ec5779d40b529927ec41ccd7
+    m_Address: Assets/GameRes/UI/Union/hyoutput_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 48fdb57028ba1e54c9b87776a401ebfc
+    m_Address: Assets/GameRes/UI/Union/Distribution_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e4a1bf909639bc64d93d9c8405eb8cd4
+    m_Address: Assets/GameRes/UI/Union/big upgrade 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab133311b99fd564b802eeae1360820d
+    m_Address: Assets/GameRes/UI/Union/MAX_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3bcc581c25081d4192ee2d230b1c043
+    m_Address: Assets/GameRes/UI/Union/hashrate_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c56d8e91cf035a743beb05ba2bd909cf
+    m_Address: Assets/GameRes/UI/Union/Heroes_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 539989a13c42c6440b4e12a85443224a
+    m_Address: Assets/GameRes/UI/Union/progressbar1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44fedab109ea2054497baadf19930d4d
+    m_Address: Assets/GameRes/UI/Union/longbar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ada4faf17620354408f56ec615215095
+    m_Address: Assets/GameRes/UI/Union/blackinfo_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b22947429a4064a40a31978c9ea5e8b4
+    m_Address: Assets/GameRes/UI/Union/reduce_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5442b482c823eef47a99b92b0b6376ad
+    m_Address: Assets/GameRes/UI/Union/progressbar3_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e94d0692fe6ce534887c543bf1558e26
+    m_Address: Assets/GameRes/UI/Union/Grade_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7cb209b2884d9c340b376d9075d0ce32
+    m_Address: Assets/GameRes/UI/Union/edit_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f2a82d288a87ef4d9ce57e0cd845e0a
+    m_Address: Assets/GameRes/UI/Union/Proportion_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c9aed033ef989d409565d077e437b9b
+    m_Address: Assets/GameRes/UI/Union/add kuang 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 84fd1e031e1374245b3911457e026bb8
+    m_Address: Assets/GameRes/UI/Union/dao name_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86e4a323a6dff7c44a0eaed343030e9b
+    m_Address: Assets/GameRes/UI/Union/quantitybar 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 51476e2348384b448b4c45d2b201a589
+    m_Address: Assets/GameRes/UI/Union/NFT_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1ff095360a62d64893ea09605e4d409
+    m_Address: Assets/GameRes/UI/Union/reproduction_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3a6cc7374ee9414390702f88d72cd11
+    m_Address: Assets/GameRes/UI/Union/progress bar2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d2659fc31f5598d4fad68bbebc2e89d5
+    m_Address: Assets/GameRes/UI/Union/test box 04_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c207f04ee8d93d44b291b005c5b3ebe
+    m_Address: Assets/GameRes/UI/Union/select01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b7f998245a2268a44aab242930c68f79
+    m_Address: Assets/GameRes/UI/Union/nft name_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 96c4a59438fcc38449d2efbca53b5e1a
+    m_Address: Assets/GameRes/UI/Union/Mereber_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5fae4b44a5518442b6b2c0b845fec63
+    m_Address: Assets/GameRes/UI/Union/die_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41cc1dc4db3d92b47941bb3ed777ed2f
+    m_Address: Assets/GameRes/UI/Union/lock_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a74b89254aa9e7d4a90b2ff8e2bb943c
+    m_Address: Assets/GameRes/UI/Union/progressbar2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 837a6c25a2470234fbe1ca62a682e565
+    m_Address: Assets/GameRes/UI/Union/Mint_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 735c174521fbe124281fdf69e412dd11
+    m_Address: Assets/GameRes/UI/Union/selece 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a228ba95e3960c349a897d2009c2a507
+    m_Address: Assets/GameRes/UI/Union/a vertical bar _icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc5899e5c3c633649a66d083369e588b
+    m_Address: Assets/GameRes/UI/Union/test box 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ef1142162a9cb4444b53b3a7b3455d0a
+    m_Address: Assets/GameRes/UI/Union/Hydroxyl_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8265681679b2bcd40838e15cbd730b92
+    m_Address: Assets/GameRes/UI/Union/upgrade time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 32b97c5654f4ce24aa545073f6c0f27d
+    m_Address: Assets/GameRes/UI/Union/quantitybar 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04a930964bf13b4499ccb5fa46394ac6
+    m_Address: Assets/GameRes/UI/Union/big upgrade 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 72f44ce6c648c4240b3641510fdf0aa9
+    m_Address: Assets/GameRes/UI/Union/plot_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7233c07c9f203b4e8a9aa7a626be548
+    m_Address: Assets/GameRes/UI/Union/troop bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d96ea1772d991942a6e58a58b923108
+    m_Address: Assets/GameRes/UI/Union/boxbottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9e25c127544fece4895a4f48b90ba6ca
+    m_Address: Assets/GameRes/UI/Union/lock.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ed9a6b278d01b8c4c9491ec220ca4604
+    m_Address: Assets/GameRes/UI/Union/leagueInfo_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c392b57dbd87dc479930058ed266136
+    m_Address: Assets/GameRes/UI/Union/using_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85390ac7fc406ae4992e0e2b0855062f
+    m_Address: Assets/GameRes/UI/Union/Spaceship_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9faa66d775031b9479fba8585283bfe4
+    m_Address: Assets/GameRes/UI/Union/troop_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d8d39e706f1c504db32482187676d02
+    m_Address: Assets/GameRes/UI/Union/Artifact_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d9970f78ac55e1448e0467a2ce95bfd
+    m_Address: Assets/GameRes/UI/Union/President_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f6fc908570902b4499e3c10696a6cb1
+    m_Address: Assets/GameRes/UI/Union/myplot_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a096a083224bde4da461677e44b6dc1
+    m_Address: Assets/GameRes/UI/Union/contribution per hour_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 89b56b48d8e934a46aa3de61bbb850f7
+    m_Address: Assets/GameRes/UI/Union/test box 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a982a582eec3694ea40df4e6f796291
+    m_Address: Assets/GameRes/UI/Union/progress bar 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d318c684149e8e43a85d7214c4807cd
+    m_Address: Assets/GameRes/UI/Union/progress bar 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6f7e0a8e54b42f44b09ac2e8e0c514d
+    m_Address: Assets/GameRes/UI/Union/Resourcebottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fade1ad8cb9997e41889e38f5207d52b
+    m_Address: Assets/GameRes/UI/Union/Choose 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ad9a885906feb41469a435e85c8e9971
+    m_Address: Assets/GameRes/UI/Union/warehouse_icon 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a77e5ec9f6d321d45b8285226a8b0e05
+    m_Address: Assets/GameRes/UI/Union/Points_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afb3b5d9a8b35b3458040295c05ae855
+    m_Address: Assets/GameRes/UI/Union/contribution_icon 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ee88be9a4190af40bb2582b34007c60
+    m_Address: Assets/GameRes/UI/Union/quantitybar 05_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d531b4af14e0dd44b5af049e4b6da96
+    m_Address: Assets/GameRes/UI/Union/di.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b315a5a6947d044da430a294fa8c6c6
+    m_Address: Assets/GameRes/UI/Union/SCI_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e4c7b39ae903f7541a68d0b6befc17e8
+    m_Address: Assets/GameRes/UI/Union/reproduction_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 350e68aa4555943498022e1d77c9ead4
+    m_Address: Assets/GameRes/UI/Union/Horizontal line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b0e9eca3fcedc0409d45a655ab56168
+    m_Address: Assets/GameRes/UI/Union/Power_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b3c93eac099bcc49a9bb204cb39a897
+    m_Address: Assets/GameRes/UI/Union/Defenses_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 33b7ecea59d8458408218abbde80b4ab
+    m_Address: Assets/GameRes/UI/Union/Vertical_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb5ac53b59241d84c8771bdc80e00c0c
+    m_Address: Assets/GameRes/UI/Union/bigbar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b464f83b807afb24bb943865c447a228
+    m_Address: Assets/GameRes/UI/Union/integral_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccc5036bc9a9c6c4781be3cf6c83977e
+    m_Address: Assets/GameRes/UI/Union/increase_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7983f67b50f099549b6fca1ea10184cf
+    m_Address: Assets/GameRes/UI/Union/tech quan_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 505276abd2c868d4a90edfd9acb78394
+    m_Address: Assets/GameRes/UI/Union/War report_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a58afcb43cc58c4a92455c291ac036c
+    m_Address: Assets/GameRes/UI/Union/under bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8f3f86fb47ae2a246b32821892f83535
+    m_Address: Assets/GameRes/UI/Union/pnl_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3477543cebf93474ca77555b9be5274b
+    m_Address: Assets/GameRes/UI/Union/namekuang_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 54b3cd3cd6134da43a448eed1495935c
+    m_Address: Assets/GameRes/UI/Union/Resource_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 711b345c45f8d5c42af075e708d670d5
+    m_Address: Assets/GameRes/UI/Union/change_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 111a236c1fd748a4381c2c9dca4f908a
+    m_Address: Assets/GameRes/UI/Union/button 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0591c56c0f4fbc24ab239c832c6d9c5a
+    m_Address: Assets/GameRes/UI/Union/test box 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 692754ccb33d5694799b185c55211d46
+    m_Address: Assets/GameRes/UI/Union/add kuang 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 006882dc2d3d292438c7784cc8e69241
+    m_Address: Assets/GameRes/UI/Union/dao bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1d331ec7f60d2f4db94e23a92781565
+    m_Address: Assets/GameRes/UI/Union/numbering_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eab5560d96d5afd45a3953047bc65eb6
+    m_Address: Assets/GameRes/UI/Union/falgupgrade_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91ebf32d37488e045b4ec0135363adcf
+    m_Address: Assets/GameRes/UI/Union/jitou_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 56e5e26d04c273343b1fd4c7bd637c4b
+    m_Address: Assets/GameRes/UI/Union/Member_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a56ef8d331642e4f9ecc727dd69f662
+    m_Address: Assets/GameRes/UI/Union/progress bar1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6b03f7dd942822b48a10919eba8f1332
+    m_Address: Assets/GameRes/UI/Union/falg_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8fa957ed893e1fc439ad2f958a0234a9
+    m_Address: Assets/GameRes/UI/Union/icon_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f82ec9edbdc52fd4eaf4b8ee2e60560a
+    m_Address: Assets/GameRes/UI/Union/upgrade_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 715ee0fd6491d9744be9d95a7a6400e6
+    m_Address: Assets/GameRes/UI/Union/tech line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc4ca41e73f0be64da97402760f0f7f0
+    m_Address: Assets/GameRes/UI/Union/upgrading click_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: efcb437e1b1296a4fb4172aa59a85ef8
+    m_Address: Assets/GameRes/UI/Union/Journal_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b2b0b7e445760f4f8e77372af2083cd
+    m_Address: Assets/GameRes/UI/Union/list_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 214343ce3ec403e48a9047f0f61286f3
+    m_Address: Assets/GameRes/UI/Union/upgrading bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3364f8cef62aafb4e99c3d50b91d3446
+    m_Address: Assets/GameRes/UI/Union/grang_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b45845eeb880ebe44bba3532d0951475
+    m_Address: Assets/GameRes/UI/Union/contribution_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6387210f11034cf47ad2c2541bf2c862
+    m_Address: Assets/GameRes/UI/Union/lise title_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3baf360fa7a2fb443b03cb3540223172
+    m_Address: Assets/GameRes/UI/Union/time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b898c03fc538ee04380a0a793d98f24d
+    m_Address: Assets/GameRes/UI/Union/info_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 30d7854f677cb8647adf51f899f4761f
+    m_Address: Assets/GameRes/UI/Union/quantitybar 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0a753b4f951be6244b430aae3bb1ce6f
+    m_Address: Assets/GameRes/UI/Union/upgrading_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c8e8c7f604fbba4b8ca90f5063d9a1a
+    m_Address: Assets/GameRes/UI/Union/nftbottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80229d8f99e49864bb9f006b79a3fbfb
+    m_Address: Assets/GameRes/UI/Union/VS_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ecf63af18ab4e245b67f55b40277664
+    m_Address: Assets/GameRes/UI/Union/notice_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b375e5bfe6a0dd6428a645eebc0eed52
+    m_Address: Assets/GameRes/UI/Union/quantitybar 04_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41dfa9bfbbba9d144b498377a17d4efb
+    m_Address: Assets/GameRes/UI/Union/selece 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4436b7df50086da4993ca9fb3be3aeae
+    m_Address: Assets/GameRes/UI/Union/copy_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c86b22ef8af53564d86aaa68b2f6f4d6
+    m_Address: Assets/GameRes/UI/Union/big upgrade 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f0358ef8ed796f4abb00bb71b0208af
+    m_Address: Assets/GameRes/UI/Union/slider_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4098e96470043a24fbe7403090e945d2, type: 2}
+    - {fileID: 11400000, guid: 942c4ba6ef542f6429bc648dec34a9f9, type: 2}

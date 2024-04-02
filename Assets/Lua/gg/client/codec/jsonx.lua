@@ -1,19 +1,19 @@
----json
+---json""
 --@script gg.codec.jsonx
 --@author sundream
 --@release 2019/6/20 10:30:00
 --@usage
---json
+--""json""
 --{
---  "cmd" : (),
---  "args" : (),
---  "response" : true--,false--,
---  "session" : rpcID,0,,,
---  "ud" : 
+--  "cmd" : ""(""),
+--  "args" : ""(""),
+--  "response" : true--"",false--"",
+--  "session" : rpc""ID,""0,"","",
+--  "ud" : ""
 --}
 
 local cjson = require "cjson"
--- []
+-- ""[]
 --cjson.encode_empty_table_as_object(false)
 
 local jsonx = {}

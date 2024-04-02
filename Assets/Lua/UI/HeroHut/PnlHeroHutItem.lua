@@ -8,104 +8,169 @@ end
 
 function HeroHutSkillItem:onInit()
     local transform = self.transform
-    self.imgBg = transform:Find("ImgBg"):GetComponent("Image")
-    self.imgSelect = transform:Find("ImgSelect"):GetComponent("Image")
-    self.imgLevel = transform:Find("ImgLevel"):GetComponent("Image")
-    self.imgUpgrade = transform:Find("ImgUpgrade"):GetComponent("Image")
-    self.imgSkill = transform:Find("ImgSkill"):GetComponent("Image")
-
+    self.commonItemItem = CommonItemItem.new(self:Find("CommonItemItem"))
+    self.imgChooseing = transform:Find("ImgChooseing"):GetComponent(UNITYENGINE_UI_IMAGE)
+    self.imgEmpty = self:Find("ImgEmpty"):GetComponent(UNITYENGINE_UI_IMAGE)
     self.layoutBtns = self:Find("LayoutBtns").gameObject
     self.btnUse = self.layoutBtns.transform:Find("BtnUse").gameObject
     self.btnUpgrade = self.layoutBtns.transform:Find("BtnUpgrade").gameObject
 
-    CS.UIEventHandler.Get(self.gameObject):SetOnClick(function()
-        self:onBtnItem()
-    end)
-
+    self:setOnClick(self.gameObject, gg.bind(self.onBtnItem, self))
     self:setOnClick(self.btnUse, gg.bind(self.onBtnUse, self))
     self:setOnClick(self.btnUpgrade, gg.bind(self.onBtnUpgrade, self))
     self:setSelect(false)
-    self.imgSelect.gameObject:SetActive(false)
 end
 
-function HeroHutSkillItem:setSelect(isSelect)
-    if self.skillId then
-        self.isSelect = isSelect
+function HeroHutSkillItem:setData(data)
+    self.data = data
+
+    if not data then
+        self.imgChooseing.gameObject:SetActiveEx(false)
+        self.layoutBtns.gameObject:SetActiveEx(false)
+        self.commonItemItem:setActive(false)
+        self.imgEmpty.gameObject:SetActiveEx(true)
+        return
+    end
+
+    self.imgEmpty.gameObject:SetActiveEx(false)
+    self.commonItemItem:setActive(true)
+    self.commonItemItem:initInfo()
+
+    self.skillCfg = data.skillCfg
+    local icon = gg.getSpriteAtlasName("Skill_A1_Atlas", self.skillCfg.icon .. "_A1")
+
+    self.commonItemItem:setIcon(icon)
+    self.commonItemItem:setLevel(data.level)
+
+    local isEnoughtUpgrade = HeroUtil.checkIsEnoughtSkillUpgrade(data.index)
+    self.commonItemItem:setImgArrowActive(isEnoughtUpgrade)
+    self.imgChooseing.gameObject:SetActiveEx(self.initData.showingHero.selectSkill == data.index)
+end
+
+function HeroHutSkillItem:setSelect(index)
+    if self.data and self.data.index == index then
+        self.isSelect = true
     else
         self.isSelect = false
     end
     self.layoutBtns:SetActiveEx(self.isSelect)
 end
 
-function HeroHutSkillItem:setData(level, index)
-    self.index = index
-    self.level = level
-
-    if level > 0 and level <= 5 then
-        ResMgr:LoadSpriteAsync("Level_icon_" .. level, function(sprite)
-            self.imgLevel.sprite = sprite
-        end)
-    end
-
-    ResMgr:LoadSpriteAsync("icon_Skill_" .. index, function(sprite)
-        self.imgSkill.sprite = sprite
-    end)
-
-    local heroCfg = HeroUtil:getChooseHeroCfg()
-    if heroCfg then
-        self.skillId = heroCfg["skill" .. index]
-    else
-        self.skillId = nil
-    end
-    self.imgSkill.transform:SetActiveEx(self.skillId ~= nil)
-
-    local isEnoughtUpgrade = HeroUtil:checkIsEnoughtSkillUpgrade(index)
-    self.imgLevel.transform:SetActiveEx(not isEnoughtUpgrade and level > 0)
-    self.imgUpgrade.transform:SetActiveEx(isEnoughtUpgrade)
-    self.imgSelect.transform:SetActiveEx(HeroData.ChooseingHero and HeroData.ChooseingHero.selectSkill == self.index)
-end
-
 function HeroHutSkillItem:onBtnItem()
+    if not self.data then
+        return
+    end
+
     if self.isSelect then
-        self:setSelect(false)
+        self:setSelect(-1)
     else
-        self.initData:setSelectSkill(self.index)
+        self.initData:selectSkill(self.data.index)
     end
 end
 
 function HeroHutSkillItem:onRelease()
-    CS.UIEventHandler.Clear(self.gameObject)
 end
 
 function HeroHutSkillItem:onBtnUse()
-    HeroData.C2S_Player_HeroSelectSkill(HeroData.ChooseingHero.id, self.index)
+    HeroData.C2S_Player_HeroSelectSkill(self.initData.showingHero.id, self.data.index)
 end
 
 function HeroHutSkillItem:onBtnUpgrade()
-    gg.uiManager:closeWindow("PnlHeroHut")
-    local level = 1
-    if self.level > 0 then
-        level = self.level
+    local level = self.data.skillCfg.level
+    local skillCfgId = self.data.skillCfg.cfgId
+
+    if not HeroUtil.getSkillMap()[skillCfgId][level] or not HeroUtil.getSkillMap()[skillCfgId][level + 1]  then
+        gg.uiManager:showTip("Level Max")
+        return
     end
+
     local callbackReturn = function()
-        gg.uiManager:openWindow("PnlHeroHut")
-        gg.uiManager:closeWindow("PnlUpgrade")
+        -- gg.uiManager:openWindow("PnlHeroHut")
+        -- gg.uiManager:closeWindow("PnlUpgrade")
     end
-    local callbackUpgrade = function()
-        HeroData.C2S_Player_HeroSkillUp(HeroData.ChooseingHero.id, self.index, 0)
+    local callbackUpgrade = function(isOnExchange)
+        if isOnExchange then
+            HeroData.C2S_Player_HeroSkillUp(self.initData.showingHero.id, self.data.index, 0)
+        elseif not HeroUtil.checkHeroBusy(true, self.data.index) then
+            HeroData.C2S_Player_HeroSkillUp(self.initData.showingHero.id, self.data.index, 0)
+        end
+        callbackReturn()
     end
     local callbackInstant = function()
-        if HeroData.ChooseingHero.skillUpLessTick <= 0 then
-            HeroData.C2S_Player_HeroSkillUp(HeroData.ChooseingHero.id, self.index, 1)
-        else
-            HeroData.C2S_Player_SpeedUp_HeroLevelUp(HeroData.ChooseingHero.id)
-        end
+        HeroData.C2S_Player_HeroSkillUp(self.initData.showingHero.id, self.data.index, 1)
+        callbackReturn()
     end
 
-    local args = {callbackReturn = callbackReturn, callbackInstant = callbackInstant,
-        callbackUpgrade = callbackUpgrade, cfg = HeroUtil:getSkillMap()[self.skillId][level],
-        nextLevelCfg = HeroUtil:getSkillMap()[self.skillId][level + 1],
-        lessTickEnd = HeroData.ChooseingHero.skillUpLessTickEnd, type = "skill"}
+    local args = {
+        callbackReturn = callbackReturn,
+        callbackInstant = callbackInstant,
+        callbackUpgrade = callbackUpgrade,
+        exchangeInfoFunc = self.initData.exchangeInfoFunc,
+        cfg = HeroUtil.getSkillMap()[skillCfgId][level],
+        nextLevelCfg = HeroUtil.getSkillMap()[skillCfgId][level + 1],
+        lessTickEnd = self.initData.showingHero.skillUpLessTickEnd, type = "skill"
+    }
 
+    -- gg.uiManager:closeWindow("PnlHeroHut")
     gg.uiManager:openWindow("PnlUpgrade", args)
+end
+
+HeroHutHeroItem = HeroHutHeroItem or class("HeroHutHeroItem", ggclass.UIBaseItem)
+
+function HeroHutHeroItem:ctor(obj, initData)
+    UIBaseItem.ctor(self, obj)
+    self.initData = initData
+end
+
+function HeroHutHeroItem:onInit()
+    local transform = self.transform
+
+    self.bg = transform:GetComponent(UNITYENGINE_UI_IMAGE)
+
+    self.root = self:Find("Root")
+
+    self.imgIcon = self:Find("Root/ImgIcon", "Image")
+    self.sliderLife = self:Find("Root/SliderLife", "Slider")
+    self.imgSelect = self:Find("Root/ImgSelect", "Image")
+    self.imgChoosing = self:Find("Root/ImgChoosing", "Image")
+
+    self:setOnClick(self.gameObject, gg.bind(self.onBtnItem, self))
+end
+
+function HeroHutSkillItem:onRelease()
+end
+
+function HeroHutHeroItem:setData(data)
+    self.data = data
+    if not data then
+        self.root:SetActiveEx(false)
+        gg.setSpriteAsync(self.bg, "Item_Bg_Atlas[Item_Bg_0]")
+        return
+    end
+    self.root:SetActiveEx(true)
+    self.imgSelect.gameObject:SetActiveEx(HeroData.ChooseingHero and data.id == HeroData.ChooseingHero.id)
+    self:refreshChoosing()
+    self.heroCfg = HeroUtil.getHeroCfg(data.cfgId, data.level, data.quality)
+
+    local quality = data.quality or 0
+    local spriteName = "Item_Bg_" .. quality
+    gg.setSpriteAsync(self.bg, string.format("Item_Bg_Atlas[%s]", spriteName))
+    self.sliderLife.value = data.curLife / data.life
+    gg.setSpriteAsync(self.imgIcon, gg.getSpriteAtlasName("Icon_E_Atlas", self.heroCfg.icon .. "_E"))
+end
+
+function HeroHutHeroItem:refreshChoosing()
+    if not self.data then
+        return
+    end
+
+    self.imgChoosing.gameObject:SetActiveEx(self.initData.showingHero and self.data.id == self.initData.showingHero.id)
+end
+
+function HeroHutHeroItem:onBtnItem()
+    if not self.data then
+        return
+    end
+
+    self.initData:setShowingHero(self.data)
 end

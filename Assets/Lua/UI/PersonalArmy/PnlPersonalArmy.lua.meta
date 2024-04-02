@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: b0b0853c1b929a74e8eacd9302fec26a
+labels:
+- lua
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 5f8d16917d32406438a25f9b315f890d, type: 3}

@@ -2,51 +2,101 @@
 PnlBattleView = class("PnlBattleView")
 
 PnlBattleView.ctor = function(self, transform)
-
     self.transform = transform
 
-    self.btnSolider1 = transform:Find("Solider/Solider1").gameObject
-    self.btnSolider2 = transform:Find("Solider/Solider2").gameObject
-    self.btnSolider3 = transform:Find("Solider/Solider3").gameObject
-    self.btnSolider4 = transform:Find("Solider/Solider4").gameObject
-    self.btnSolider5 = transform:Find("Solider/Solider5").gameObject
-    self.btnSolider6 = transform:Find("Solider/Solider6").gameObject
-
-    self.btnHero = transform:Find("Hero/Hero1").gameObject
-    self.btnHeroSkill = transform:Find("Hero/HeroSkill").gameObject
-
-    self.btnSkill1 = transform:Find("Skill/Skill1").gameObject
-    self.btnSkill2 = transform:Find("Skill/Skill2").gameObject
-    self.btnSkill3 = transform:Find("Skill/Skill3").gameObject
-    self.btnSkill4 = transform:Find("Skill/Skill4").gameObject
-    self.btnSkill5 = transform:Find("Skill/Skill5").gameObject
+    -- self.battleHeroItem = transform:Find("Hero/BattleHeroItem").gameObject
+    -- self.btnHeroSkill = transform:Find("Hero/BattleHeroSkillItem").gameObject
 
     self.btnRePlay = transform:Find("RePlay").gameObject
     self.btnServerRePlay = transform:Find("ServerRePlay").gameObject
+
     self.btnReturn2Main = transform:Find("Return2Main").gameObject
+    self.btnEndBattle = transform:Find("BtnEndBattle").gameObject
+    self.btnEndReport = transform:Find("BtnEndReport").gameObject
 
     self.skillPoint = transform:Find("SkillPoint").gameObject
-    self.txtSkillPoint = self.skillPoint.transform:Find("SkillPointText"):GetComponent("Text")
+    self.txtSkillPoint = self.skillPoint.transform:Find("SkillPointText"):GetComponent(UNITYENGINE_UI_TEXT)
 
-    self.txtTime = transform:Find("Time/Time"):GetComponent("Text")
-    self.txtWin = transform:Find("Result/Win").gameObject
-    self.txtFail = transform:Find("Result/Fail").gameObject
+    self.playerName = transform:Find("PlayerName").gameObject
 
-    self.soliderBtnList = {}
-    self.soliderBtnList[1] = self.btnSolider1
-    self.soliderBtnList[2] = self.btnSolider2
-    self.soliderBtnList[3] = self.btnSolider3
-    self.soliderBtnList[4] = self.btnSolider4
-    self.soliderBtnList[5] = self.btnSolider5
-    self.soliderBtnList[6] = self.btnSolider6
+    self.time = transform:Find("Time").gameObject
+    self.txtTime = self.time.transform:Find("Time"):GetComponent(UNITYENGINE_UI_TEXT)
+    self.txtTimeTitle = self.time.transform:Find("TxtTimeTitle"):GetComponent(UNITYENGINE_UI_TEXT_YPU_YU)
+
+    self.txtName = transform:Find("PlayerName/TxtName"):GetComponent(UNITYENGINE_UI_TEXT)
+    self.txtBadge = transform:Find("PlayerName/TxtBadge"):GetComponent(UNITYENGINE_UI_TEXT)
+
+    self.rePlayTimeRoot = transform:Find("RePlayTimeRoot").gameObject
+    self.txtRePlayTime = self.rePlayTimeRoot.transform:Find("Time"):GetComponent(UNITYENGINE_UI_TEXT)
+    self.txtReplayName = self.rePlayTimeRoot.transform:Find("Name"):GetComponent(UNITYENGINE_UI_TEXT)
+
+    self.rePlayBtnRoot = transform:Find("RePlayBtnRoot").gameObject
+    self.btnPause = self.rePlayBtnRoot.transform:Find("PauseBtn").gameObject
+    self.btnAddSpeed = self.rePlayBtnRoot.transform:Find("AddSpeedBtn").gameObject
+    self.imgPause = self.btnPause.transform:Find("ImgPause").gameObject
+    self.imgPlay = self.btnPause.transform:Find("ImgPlay").gameObject
+    self.txtSpeed = self.btnAddSpeed.transform:Find("TxtSpeed"):GetComponent(UNITYENGINE_UI_TEXT)
+
+    self.bgTop = transform:Find("BgTop").gameObject
+    self.bgBottom = transform:Find("BgBottom").gameObject
+
+    -- self.soliderBtnList = {}
+    -- for i = 1, 5 do
+    --     self.soliderBtnList[i] = transform:Find("Soliders/Solider" .. i).gameObject
+    -- end
+
+    self.layoutHeros = transform:Find("Heros")
+    self.layoutHeroSkills = transform:Find("HeroSkills")
+    self.layoutSkill = transform:Find("Skill")
+
+    self.heroBtnList = {}
+    for i = 1, 5 do
+        self.heroBtnList[i] = transform:Find("Heros/Hero" .. i).gameObject
+    end
+
+    self.heroSkillBtnList = {}
+    for i = 1, 5 do
+        self.heroSkillBtnList[i] = transform:Find("HeroSkills/HeroSkill" .. i).gameObject
+    end
 
     self.skillBtnList = {}
-    self.skillBtnList[1] = self.btnHeroSkill
-    self.skillBtnList[2] = self.btnSkill1
-    self.skillBtnList[3] = self.btnSkill2
-    self.skillBtnList[4] = self.btnSkill3
-    self.skillBtnList[5] = self.btnSkill4
-    self.skillBtnList[6] = self.btnSkill5
+    for i = 1, 4, 1 do
+        self.skillBtnList[i] = transform:Find("Skill/Skill" .. i).gameObject
+    end
+
+    self.heroSkillMaskList = {}
+    for i = 1, 5, 1 do
+        self.heroSkillMaskList[i] = self.heroSkillBtnList[i].transform:Find("CdMask").gameObject
+        self.heroSkillMaskList[i]:SetActive(false) 
+    end
+
+    self.heroSkillCdTextList = {}
+    for i = 1, 5, 1 do
+        self.heroSkillCdTextList[i] = self.heroSkillMaskList[i].transform:Find("Cd"):GetComponent(UNITYENGINE_UI_TEXT)
+        self.heroSkillCdTextList[i].gameObject:SetActive(false) 
+    end
+
+    -- self.herosBG = transform:Find("HerosBG")
+    -- self.herosBG.gameObject:SetActive(false)
+    
+    self.skillBG = transform:Find("SkillBG")
+    self.skillBG.gameObject:SetActive(false) 
+
+    self.defCardItem = transform:Find("DefCardItem")
+    self.atkCardItem = transform:Find("AtkCardItem")
+
+    self.layoutBattleDetail = transform:Find("LayoutBattleDetail")
+    self.btnAddMaxHp = self.layoutBattleDetail:Find("BtnAddMaxHp").gameObject
+    self.btnSkillPoint = self.layoutBattleDetail:Find("BtnSkillPoint").gameObject
+    self.btnBattleMessage = self.layoutBattleDetail:Find("BtnBattleMessage").gameObject
+    self.btnRefreshBattleMessage = self.layoutBattleDetail:Find("BtnRefreshBattleMessage").gameObject
+    self.btnEditBattle = self.layoutBattleDetail:Find("BtnEditBattle").gameObject
+    self.btnEditSignalSkill = self.layoutBattleDetail:Find("BtnEditSignalSkill").gameObject
+    self.imgSelectSignalSkill = self.btnEditSignalSkill.transform:Find("ImgSelect")
+
+    self.boxSkillTips = transform:Find("BoxSkillTips").gameObject
+    self.txtSkillDec = transform:Find("BoxSkillTips/Bg/Image/TxtSkillDec"):GetComponent(UNITYENGINE_UI_TEXT)
+    self.txtSkillName = transform:Find("BoxSkillTips/Bg/Image/TxtSkillName"):GetComponent(UNITYENGINE_UI_TEXT)
 
 end
 

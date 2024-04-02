@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Atlas
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Atlas
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bc9e2af97077c6947ac354fac611fa20
+  m_SerializeEntries:
+  - m_GUID: dc717f11989962147a1edb4b6846043a
+    m_Address: Assets/GameRes/UI/Atlas/Common_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 039dbaf84e1177443b3920156dcadf22
+    m_Address: Assets/GameRes/UI/Atlas/Main_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f4627bdecdce7f449b4d50995916d9c0
+    m_Address: Assets/GameRes/UI/Atlas/PersonalArmy_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ade81a66bc692c7419a9873153aebeca
+    m_Address: Assets/GameRes/UI/Atlas/WarShip_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c1778eb31e347f49a40cdde52d33cc2
+    m_Address: Assets/GameRes/UI/Atlas/Task_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cf2a45f3f258bd84a9db6e64aa391e20
+    m_Address: Assets/GameRes/UI/Atlas/Pve_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 323f9528b66b60548a915d3e0e7dc7f3
+    m_Address: Assets/GameRes/UI/Atlas/ActivityGift_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b5179e8c8f074b45b8eaec8c339476d
+    m_Address: Assets/GameRes/UI/Atlas/ActivityAccruingTes_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40133f3f18577f74bb93371b1a529974
+    m_Address: Assets/GameRes/UI/Atlas/Login_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa76ca85707e8424c8eb1143c027f0f0
+    m_Address: Assets/GameRes/UI/Atlas/Battle_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af68e9cdef1037f45850243181f379ef
+    m_Address: Assets/GameRes/UI/Atlas/Headquarters_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1af8cd822c89593458abb81bcd7d5b10
+    m_Address: Assets/GameRes/UI/Atlas/Result_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f76ca0d7cb54ac44b7d38d3b74e2676
+    m_Address: Assets/GameRes/UI/Atlas/Match_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0cb544a70195ac42871875e83639751
+    m_Address: Assets/GameRes/UI/Atlas/BuildShop_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fbb18cba85f94c14f82c3f46b0ec9561
+    m_Address: Assets/GameRes/UI/Atlas/ItemBag_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 378ea0fe28837b846b8a8e30e00d2268
+    m_Address: Assets/GameRes/UI/Atlas/GridItemBag_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f166c43bbcb126445a71a934333dbf86
+    m_Address: Assets/GameRes/UI/Atlas/BuildInfo_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 68cca392ea5ca124d971f308dd565073
+    m_Address: Assets/GameRes/UI/Atlas/Exchange_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 63a645983b6911e49b8d3c3ee2888a08
+    m_Address: Assets/GameRes/UI/Atlas/Institute_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2383558a98094704084f21729ad7a328
+    m_Address: Assets/GameRes/UI/Atlas/Dao_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d6027a0d162ba44bbf08b7a00edcfaa
+    m_Address: Assets/GameRes/UI/Atlas/Draft_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f5db839f50aa9e46803b5125a3f5448
+    m_Address: Assets/GameRes/UI/Atlas/Pvp_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc789acc2c0d4bc4eab395e0c5ddf07b
+    m_Address: Assets/GameRes/UI/Atlas/HeroHut_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b2f08951f640c554cba31692f6bc9378
+    m_Address: Assets/GameRes/UI/Atlas/SelectRace_Atles.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2212af446e134a748ba08696f6450efd
+    m_Address: Assets/GameRes/UI/Atlas/HyList_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a1a34e29cc1eb24c97221d323431c97
+    m_Address: Assets/GameRes/UI/Atlas/Rank_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f50c71cea00bb4842bf9cfca2767bb66
+    m_Address: Assets/GameRes/UI/Atlas/Setting_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01a46bb6aa9da7749a1418dc9e8ccee9
+    m_Address: Assets/GameRes/UI/Atlas/Mail_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee3021f79d7ca5f40ac2a716dc399ce0
+    m_Address: Assets/GameRes/UI/Atlas/Map_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aaa87c7b1f29c2f48ab2122a52121b4d
+    m_Address: Assets/GameRes/UI/Atlas/PlayerDetailed_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0ad614726a226c14382d62188155d81f
+    m_Address: Assets/GameRes/UI/Atlas/Union_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0063d12eafe9da446bfa8b4a4bab22e2, type: 2}
+    - {fileID: 11400000, guid: d36061429e728ab41ac49f3b3760534b, type: 2}

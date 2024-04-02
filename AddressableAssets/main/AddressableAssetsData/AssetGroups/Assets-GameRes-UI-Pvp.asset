@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Pvp
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Pvp
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9770527d511be21409a2b85bc3870853
+  m_SerializeEntries:
+  - m_GUID: 43f58300fc842a94d825002b7a67592d
+    m_Address: Assets/GameRes/UI/Pvp/round_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 093d5fe08778eb4408c5c80288ff5ad3
+    m_Address: Assets/GameRes/UI/Pvp/add_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4ddff418c651a843bc17ae6afad42eb
+    m_Address: Assets/GameRes/UI/Pvp/mit_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 09593b71e28d136479d2977ac2967f19
+    m_Address: Assets/GameRes/UI/Pvp/hy_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2dbf681002ff3e47879d8db1d250203
+    m_Address: Assets/GameRes/UI/Pvp/jackpot number_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46a4c9622b11b4f4b811d52893ab33b1
+    m_Address: Assets/GameRes/UI/Pvp/button03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 492700a362835b54ab7b0d45dd1cf60f
+    m_Address: Assets/GameRes/UI/Pvp/button02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 84c1da1461ab13848a8e334ab4eb54fb
+    m_Address: Assets/GameRes/UI/Pvp/list_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22d11c348630f4d4cb88df87c9c2faf5
+    m_Address: Assets/GameRes/UI/Pvp/button04_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 94c9d4259465c184385ea0ecc0466080
+    m_Address: Assets/GameRes/UI/Pvp/Reward details_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa1c85253c622b644a0748714ee62439
+    m_Address: Assets/GameRes/UI/Pvp/floor_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1bb7da25b90490047a9fa7462800c66d
+    m_Address: Assets/GameRes/UI/Pvp/stars_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d77c945ac876dd43a61ebd8496a071b
+    m_Address: Assets/GameRes/UI/Pvp/the box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f9b315539137574ab23827a6d08b285
+    m_Address: Assets/GameRes/UI/Pvp/bar_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4437cd968c4264f479a82042707ccd0e
+    m_Address: Assets/GameRes/UI/Pvp/stars_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 625ee8d61e92d9e46b31263481e798cf
+    m_Address: Assets/GameRes/UI/Pvp/Reward history_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a632ba3837580764ab47b0e963714ddd
+    m_Address: Assets/GameRes/UI/Pvp/Fluctuate box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7950c688106e40c48858e061a2375872
+    m_Address: Assets/GameRes/UI/Pvp/bar_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c1ff41b9cec62dd4380da60c3e158fcc
+    m_Address: Assets/GameRes/UI/Pvp/grand information_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97cbc40a2559fb84fb4391536833b28e
+    m_Address: Assets/GameRes/UI/Pvp/head_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab12e83a2a69e3044b2e7b84c7853928
+    m_Address: Assets/GameRes/UI/Pvp/head ban_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8506c4aac5806ad47835796d95c3422b
+    m_Address: Assets/GameRes/UI/Pvp/floor_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 908e680b6bb054a42a8b19516856ef5c
+    m_Address: Assets/GameRes/UI/Pvp/bar_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 536d4c2c9d07081438922ec20cf9c1e8
+    m_Address: Assets/GameRes/UI/Pvp/info_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e364953c2a0bf0048b89396721f4f5c8
+    m_Address: Assets/GameRes/UI/Pvp/time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2e47acccf1659344bb85bead1eba3a35
+    m_Address: Assets/GameRes/UI/Pvp/bar_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3cbaed0d15059ce4c9c478c3b59c7f2d
+    m_Address: Assets/GameRes/UI/Pvp/bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 25762cfde4a0e2746bc64123320c60b4
+    m_Address: Assets/GameRes/UI/Pvp/floor_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ab1527eb0cb18341aac201bffe943f3
+    m_Address: Assets/GameRes/UI/Pvp/jackpot 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5589751fb37a3c246be590d52bc2f1ea
+    m_Address: Assets/GameRes/UI/Pvp/jackpot 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac8fcb3fd5215834da1895cf35941083
+    m_Address: Assets/GameRes/UI/Pvp/button01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f49544f40732f54aad3e0f528970298
+    m_Address: Assets/GameRes/UI/Pvp/choose_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6895115701d5e874c8bd879a71da63e9, type: 2}
+    - {fileID: 11400000, guid: 747b2b57445e55a4bb3a828b2f46ee68, type: 2}

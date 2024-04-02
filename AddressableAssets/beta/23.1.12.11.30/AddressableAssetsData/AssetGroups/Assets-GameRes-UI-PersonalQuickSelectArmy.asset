@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-PersonalQuickSelectArmy
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-PersonalQuickSelectArmy
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 270d03f0aead4ab4f88adcff2759d5bf
+  m_SerializeEntries:
+  - m_GUID: 21d70f50d2c52f04c837587869316b45
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/bigbottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 546ebf05aa9afbc49bebba59cd808c53
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/Soldierscapacity_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6aa467a5771aaf54db8a7c765ae3e7f4
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/bubing_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a7d31566e36b30468427229431af96c
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/frame1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77940ac6dd59b93409e0f07590973f15
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/troops_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 556591696ba08d0408670daa738eff80
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/arrow_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 830c918c12184f143ae31409c3f29f84
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/yes_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bce9067d6cd385e4d8d0015ba23c2ae1
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/rectangle_icon_F.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b44b9fda67ef5b4ca3ff5ea5d8727cc
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/hero size 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44400deee9ead0a41b1924279f87459f
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/Chooseyourtroops.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d52ab9fbe773984a8c8440613133b90
+    m_Address: Assets/GameRes/UI/PersonalQuickSelectArmy/choose_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 87c456afc829b1f4d9c2d5a42ffdce37, type: 2}
+    - {fileID: 11400000, guid: 267e057b521de484fb1a52508d4298e8, type: 2}

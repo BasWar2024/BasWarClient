@@ -1,14 +1,14 @@
----sproto
+---""sproto""
 --@script gg.codec.sproto
 --@author sundream
 --@release 2018/12/25 10:30:00
 --@usage
---sproto
+--""sproto""
 -- -------------
 -- |header|body|
 -- -------------
--- header,sproto,ID,ID
--- body,sproto(IDheader)
+-- header"",""sproto"",""ID,""ID""
+-- body"",""sproto""(""ID""header"")
 
 local core = require "sproto.core"
 local sproto = require "etc.proto.sproto.sproto"

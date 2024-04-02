@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UiAni-Battle
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UiAni-Battle
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f6469d4a0f986d941a9480f356c2c9a9
+  m_SerializeEntries:
+  - m_GUID: 3dafb536aa5e66a488c0354c2f562fcf
+    m_Address: Assets/GameRes/UiAni/Battle/BattleHeroItemController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b440737a0e62321498877fe022b8a351
+    m_Address: Assets/GameRes/UiAni/Battle/Select.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9547bd10277726443b358d38f0071a5a
+    m_Address: Assets/GameRes/UiAni/Battle/BattleHeroSkillItemController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d508ff4299c221b4798bd70d75cf2654
+    m_Address: Assets/GameRes/UiAni/Battle/BattleSkillItemController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5f552019d93f2ef43a26c58303f8169a
+    m_Address: Assets/GameRes/UiAni/Battle/BattleSoldierItemController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ad9bea623587129409ca897f80e289f4, type: 2}
+    - {fileID: 11400000, guid: 02122c1f5ceda7145b496c6da2f9507f, type: 2}

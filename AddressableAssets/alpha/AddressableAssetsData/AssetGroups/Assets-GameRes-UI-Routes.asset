@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Routes
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Routes
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5972518400ae4ea4aa14c57467ac6d79
+  m_SerializeEntries:
+  - m_GUID: 918366101e3f1bf4d9eba4eb262c3bb9
+    m_Address: Assets/GameRes/UI/Routes/Ascension_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d60e7530f8956c94196338d6824cda44
+    m_Address: Assets/GameRes/UI/Routes/Close_icon_A 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c23b8509965d18439be1af9bc944a2d
+    m_Address: Assets/GameRes/UI/Routes/round_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6dbc12e015faa4846a05929a5903dedd
+    m_Address: Assets/GameRes/UI/Routes/Floor_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c730d014c5bafe4f95582e3581a40f1
+    m_Address: Assets/GameRes/UI/Routes/The box_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccfd90e18035de648b6bf523a44911ce
+    m_Address: Assets/GameRes/UI/Routes/Ascension_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b4ad503c99f5ed4aa36debf0a7ed102
+    m_Address: Assets/GameRes/UI/Routes/Yes_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b0f99f23b5cac024c90f6a9049c35a6a
+    m_Address: Assets/GameRes/UI/Routes/The box_button_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7af297c3fef4e9e44a96ff5500b96e53
+    m_Address: Assets/GameRes/UI/Routes/A plus sign_buttion.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ab6e07446252dc44ba4f60be8a98b70
+    m_Address: Assets/GameRes/UI/Routes/Exclamation mark_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6df1005e8cdb90429ebe1c6101c5ae9
+    m_Address: Assets/GameRes/UI/Routes/Gradient_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 716b9fa50e1fea34f8ed080de59becdb
+    m_Address: Assets/GameRes/UI/Routes/dialog_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5e68d8682361664f91999235c90b94f
+    m_Address: Assets/GameRes/UI/Routes/Gradient_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4dcfbf876d3431f43bbc2cf65a4566ee
+    m_Address: Assets/GameRes/UI/Routes/Choose bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cd55ebd7b9bd7b3489bbce02a7970ad8
+    m_Address: Assets/GameRes/UI/Routes/The title_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b14ec280d887684a82ce0594d3eeb36
+    m_Address: Assets/GameRes/UI/Routes/Round_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0ff83139a6917d54990768e9aebea505
+    m_Address: Assets/GameRes/UI/Routes/The title_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de46e549063bbff44a28fc18a5c83ee9
+    m_Address: Assets/GameRes/UI/Routes/Exclamation mark_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 56894dda059eb814583b00d33f3b8b6c
+    m_Address: Assets/GameRes/UI/Routes/A plus sign_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f12b2d1cebf594646a933dd759832497
+    m_Address: Assets/GameRes/UI/Routes/Silde_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15176dbcbc489c544bf987449e059baa
+    m_Address: Assets/GameRes/UI/Routes/Time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1366fadc30f77b542b6908d663acdcab
+    m_Address: Assets/GameRes/UI/Routes/Close_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41c8567d63b5dbd46b43a4d40aa6b2d4
+    m_Address: Assets/GameRes/UI/Routes/mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0261287d9c00c3b40bdfe2dc7ee447a8
+    m_Address: Assets/GameRes/UI/Routes/refresh_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b5e5a7de8e9d334db2513b01a0a5e02
+    m_Address: Assets/GameRes/UI/Routes/box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bfb2a20ecf29cc54ea44dd5b997e90a6
+    m_Address: Assets/GameRes/UI/Routes/Button 06_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b3a9b8fe4155be04b8fa5e5a346d50b1
+    m_Address: Assets/GameRes/UI/Routes/Translucent box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb2c7d2f65626da4b85f83bf2c61bfb4
+    m_Address: Assets/GameRes/UI/Routes/D-.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6c36a45cf26f0c14cafc3ce505396474, type: 2}
+    - {fileID: 11400000, guid: 7469f7b79b4f1504ab5eb39672be1280, type: 2}

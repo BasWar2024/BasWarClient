@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-ItemBag-Long quality_Bg-ItemFrame
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-ItemBag-Long quality_Bg-ItemFrame
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e8f73abe973eef34a85f801ae983337f
+  m_SerializeEntries:
+  - m_GUID: 983605d0b7ecda3448c8951d4484809f
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/item_frame1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b2c8042589f07c4bac75924ccbd378e
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/item_frame5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a7fced72964f6cd449d612f4aabde508
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/item_title1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eeb87814842f66f429d5ea19eff56fd7
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/item_frame2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91b17af5b5d0bc042959a77a1cdb8da1
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/item_title2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ea63647cc3b23745bbaef81b4926599
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/item_title4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b1f1a98c7a9d0241bf66b3b4733eae3
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/hero size
+      03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b0edd8935b79da4e873aea6e30b0381
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/item_title5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1de86e7c258117242be4fc1e3ab1aefe
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/item_title3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4bd37b6d14ffbab44bb52ae440c9d366
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/item_frame4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dfba05feeef3d454396fef4eaa9961ba
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/ItemFrame/item_frame3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a02c5031a219eac4481f581a32bedc44, type: 2}
+    - {fileID: 11400000, guid: eded3a5c58427614dba3905ae73b4263, type: 2}

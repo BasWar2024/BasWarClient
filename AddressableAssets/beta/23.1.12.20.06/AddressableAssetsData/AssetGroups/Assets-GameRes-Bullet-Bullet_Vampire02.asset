@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_Vampire02
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_Vampire02
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 913687d77ba21e143943d143302f2f33
+  m_SerializeEntries:
+  - m_GUID: 1937ce77294c5974c8079e5a4502da4d
+    m_Address: Assets/GameRes/Bullet/Bullet_Vampire02/buff_fire_b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 30942748d64461a4fa830e2e2098c8fb
+    m_Address: Assets/GameRes/Bullet/Bullet_Vampire02/Bullet_Vampire02_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: efb75e481066816438104375a06a2c46
+    m_Address: Assets/GameRes/Bullet/Bullet_Vampire02/Bullet_Vampire02.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 941a4f48ab3f7f743adbc961dc6a913e
+    m_Address: Assets/GameRes/Bullet/Bullet_Vampire02/buff_fire_b.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5dee05094c3d7e34ea352c3b35c2b6ad
+    m_Address: Assets/GameRes/Bullet/Bullet_Vampire02/Bullet_Vampire02.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c542788bd3808aa4ab0a9a8cb8e910b0
+    m_Address: Assets/GameRes/Bullet/Bullet_Vampire02/Bullet_Vampire02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5bf4b8cc7b39d044aa778d16021c0fb7
+    m_Address: Assets/GameRes/Bullet/Bullet_Vampire02/Bullet_Vampire02_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b389b7e8d9d1a042838faeb119657a4
+    m_Address: Assets/GameRes/Bullet/Bullet_Vampire02/Bullet_Vampire02_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9b6a589323324624a944fa1d0ec6b1f7, type: 2}
+    - {fileID: 11400000, guid: 6220628fe38d7e041966089b50a1442f, type: 2}

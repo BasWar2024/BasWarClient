@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-BuildInfo
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-BuildInfo
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e954dbbe6f5016b4f8da68b54c0c0d05
+  m_SerializeEntries:
+  - m_GUID: 7b0e4b72579e6054eaea2021892f8d65
+    m_Address: Assets/GameRes/UI/BuildInfo/Long long box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c8dc1d37366d3148aa372c5d1db3c0c
+    m_Address: Assets/GameRes/UI/BuildInfo/Black_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a29fa8d41e389654fb89229f22037b6a
+    m_Address: Assets/GameRes/UI/BuildInfo/rectangle_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8f6b11577f77c64b9d8d5450d6f652c
+    m_Address: Assets/GameRes/UI/BuildInfo/rectangle_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90f82985fd366f94791214d7ccda3aaa
+    m_Address: Assets/GameRes/UI/BuildInfo/Warning_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c7b9ab591ba2bc4793dbfc0d03afc50
+    m_Address: Assets/GameRes/UI/BuildInfo/background_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 662613861967fc340ba284b78527e36b
+    m_Address: Assets/GameRes/UI/BuildInfo/rectangle_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4752f0c957c3eae4d8dc281966ec62d5
+    m_Address: Assets/GameRes/UI/BuildInfo/Arrow_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a55c7f92cae16b4aaff84b38a827a42
+    m_Address: Assets/GameRes/UI/BuildInfo/Black orange_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 64afc22b11685ad4a82cc976127248b3
+    m_Address: Assets/GameRes/UI/BuildInfo/Forward_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b165f24d4336160499d52e6c7bec7fa2
+    m_Address: Assets/GameRes/UI/BuildInfo/back_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1335b4d56c4bf74884404eb750dc80b
+    m_Address: Assets/GameRes/UI/BuildInfo/Details 2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dbea646dd46d1484aadce883d933d733
+    m_Address: Assets/GameRes/UI/BuildInfo/build_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90d51fbf4ff561c4e833ee6cdc0d1463
+    m_Address: Assets/GameRes/UI/BuildInfo/Details_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8b134dd605e7dea4cb28962ba8303e87, type: 2}
+    - {fileID: 11400000, guid: 9e601ad8902bef5419a9ecb0b0497f1d, type: 2}

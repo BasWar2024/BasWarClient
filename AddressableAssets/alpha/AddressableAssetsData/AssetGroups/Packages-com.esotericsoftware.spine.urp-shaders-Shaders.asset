@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Packages-com.esotericsoftware.spine.urp-shaders-Shaders
+  m_EditorClassIdentifier: 
+  m_GroupName: Packages-com.esotericsoftware.spine.urp-shaders-Shaders
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3b3862222247a9947a28e5c6b236c5b0
+  m_SerializeEntries:
+  - m_GUID: b2f45941d9f4fe9479ce1aebb9d63fbf
+    m_Address: Packages/com.esotericsoftware.spine.urp-shaders/Shaders/Spine-Skeleton-URP.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8486b8230eaa0d247b2ced6082427761, type: 2}
+    - {fileID: 11400000, guid: fc18321c3ad6aaf4cbbebd7614df4ca1, type: 2}

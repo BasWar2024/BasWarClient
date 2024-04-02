@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-Building2D
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-Building2D
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 333d23d218965ce4fa428275dfc54d62
+  m_SerializeEntries:
+  - m_GUID: 2ea03277b81e37540a2778616682aaaa
+    m_Address: Blaze_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c8ef21d325139bc4b8c457f719196586
+    m_Address: Centipede_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2fe857afdadb42d4a841319e37080ab5
+    m_Address: Frostin_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ff608440a44c2744d8abddb555a6a323
+    m_Address: Inosculans
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c4f336da256c8d46b1077b581d429a2
+    m_Address: install1x1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 368eecf161fa97b4f98d15d7be865289
+    m_Address: install2x2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8f8bc3bd54944541bbdcc81dd7f98da
+    m_Address: install3x3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 441302bc1dd99624a8cd08ea44894fbf
+    m_Address: install4x4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a954c4a73a48204581bb15f7f8db236
+    m_Address: install5x5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 51737bbd3f457d144826278f0065cefc
+    m_Address: Millipede_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ea56823e99ef27342be2a408e3b21829
+    m_Address: Plasma_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db0043e95820ff546b9e30f73d420065
+    m_Address: Separate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4befd89ed7940af44bc07cc7f0f710d2
+    m_Address: Spine_300010201
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2821b10ae480984788d4a5beff8f457
+    m_Address: Spine_300010301
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ea76c3f42a0d88f40952c86c6b556872
+    m_Address: Spine_300010601
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 442a47e7840eb7340860efa062d7f893
+    m_Address: Spine_300010701
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d8708a25cb1ee1478b0c611abed3ec7
+    m_Address: Spine_300010901
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a7972b26c4d58c44293881339167006c
+    m_Address: Dead_platform_base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d6c4af7dfbb7184c89151821afe1204
+    m_Address: Spine_601000101
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8eadc0bce2707354fa1cc88294ba3d21
+    m_Address: Spine_601000201
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8cb249717767a2341bd82ae7224a3bfc
+    m_Address: Spine_601000301
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e20f50b82e3975458345d381a035973
+    m_Address: Spine_601000401
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f73d3536076688043903549ad5119f5f
+    m_Address: Spine_601000501
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df5484613d3994b448055a51f7beaafe
+    m_Address: Spine_601000601
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 969cd7660ba1c76489b9fd3b4a005f95
+    m_Address: Spine_601000701
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01d1fc12ec245c447b155501962198d1
+    m_Address: Spine_601000801
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d583ae81c45af840b722814602fade1
+    m_Address: Spine_601000901
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ec035b6a03f9eab4287a3840c8ad7ab4
+    m_Address: Spine_601001001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3e1709e425ad0947aa082965e8f6ed7
+    m_Address: Spine_602000201
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6092aa4f889795549becae8fd921a217
+    m_Address: Spine_602000501
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f48bd6bf83d52034e9364c4a1082c882
+    m_Address: Spine_602000601
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b29b95a50b5a95145988cb89546b403a
+    m_Address: Spine_603000101
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c812de63b9c2be48a26fe28fc1a5644
+    m_Address: Spine_603000301
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b7e965b3159564a4b95e0df69ab569d1
+    m_Address: Spine_603000401
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a3a9eaaba21ae1459dd7f3223944e9b
+    m_Address: Spine_603000501
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 68aa4efb1f491d54abaad7140a19768e
+    m_Address: Spine_603000601
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f811efdddccf3c542b5b5036caa99315
+    m_Address: Spine_603000701
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e23a2317e6b95c44382bc13d72d72ed9
+    m_Address: Spine_603000801
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e140e64294cbb574bb159ccc459d8539
+    m_Address: Spine_603000901
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bbd2dbe75cde32345a29c82289d47b40
+    m_Address: Spine_603001001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1d90e6b8950af7d4f80ee00224e2ba2f
+    m_Address: Torrens_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e401311da238cc14184cd6eb62441732, type: 2}
+    - {fileID: 11400000, guid: d8e53bd7705af114784c4b5822d94465, type: 2}

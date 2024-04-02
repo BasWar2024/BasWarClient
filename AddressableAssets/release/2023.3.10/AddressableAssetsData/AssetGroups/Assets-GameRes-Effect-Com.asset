@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Com
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Com
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 760fbf94973e8d648827e752d5391ad0
+  m_SerializeEntries:
+  - m_GUID: 3805e37df0837c34aa283309823113a2
+    m_Address: Assets/GameRes/Effect/Com/gun_flare_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb26d061ea7d3054bbb81e9bf00ce1a8
+    m_Address: Assets/GameRes/Effect/Com/particle_01.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 472a93d3eba1a1646a739b0c04d31952, type: 2}
+    - {fileID: 11400000, guid: b86e8fb5354b11b4a9611e7a99ede4be, type: 2}

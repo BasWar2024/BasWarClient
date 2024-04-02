@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-DrawCard
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-DrawCard
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 67108621669140549885bde6bf3182f6
+  m_SerializeEntries:
+  - m_GUID: 8d4f29687d9b1db419b79aeda2d79d5f
+    m_Address: Assets/GameRes/UI/Icon/DrawCard/title1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 58294a881b286ed40b32d5c9ec14f0f3
+    m_Address: Assets/GameRes/UI/Icon/DrawCard/title_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b756addbe59e304588094075d87b6fd
+    m_Address: Assets/GameRes/UI/Icon/DrawCard/title2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e12a441e685c90046b2c3f3f704bb1b8
+    m_Address: Assets/GameRes/UI/Icon/DrawCard/title3_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1c38240d6a729ab4f99b2ae4852a1eeb, type: 2}
+    - {fileID: 11400000, guid: b42ca7e1ccfe9584c840d49dd8a5e3a7, type: 2}

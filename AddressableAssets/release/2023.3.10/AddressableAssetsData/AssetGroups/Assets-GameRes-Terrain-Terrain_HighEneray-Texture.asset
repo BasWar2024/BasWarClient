@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Terrain-Terrain_HighEneray-Texture
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Terrain-Terrain_HighEneray-Texture
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 72fbec8dd2858f441bac364125b342ef
+  m_SerializeEntries:
+  - m_GUID: 22c5501018b160f44acbfc47275b344d
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Texture/zhuang_03_Emissive_Green.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 087d1de5da1fff3498c2a358d0df39b1
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Texture/cable_color.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dad2f4573804502409272d2c7bf97f8d
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Texture/zuo_02_Normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a484ab19c754c6548856aea2cde83a47
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Texture/zhuang_03_Normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 424863ab73414514b8471bf0a375524d
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Texture/zuo_02_Metallic.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9074373ea6a085645a2590a6fd3e98e8
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Texture/zhuang_03_BaseColor_Green.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c7dca4f8238e254180883ef56cca729
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Texture/zhuang_03_Metallic.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 73b957d49013b354bb015c38465c650d, type: 2}
+    - {fileID: 11400000, guid: e2d25eac0f50c40449007b3a19a1291e, type: 2}

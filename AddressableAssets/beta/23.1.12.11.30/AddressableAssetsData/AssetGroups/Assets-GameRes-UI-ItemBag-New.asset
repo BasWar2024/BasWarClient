@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-ItemBag-New
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-ItemBag-New
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e570ee750dbcd36478f61df1e75a8edc
+  m_SerializeEntries:
+  - m_GUID: 926be7102bca6b343ad98b56ed80c5ab
+    m_Address: Assets/GameRes/UI/ItemBag/New/selectlight_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5568a94d24c07844a7ebd5ed573e8ef
+    m_Address: Assets/GameRes/UI/ItemBag/New/silde_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8bf7ec4895a54b42b13c4255e133dcb
+    m_Address: Assets/GameRes/UI/ItemBag/New/line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fded837545bda7344bf2bb556c17ced5
+    m_Address: Assets/GameRes/UI/ItemBag/New/increase_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f783e239ae391c54ba95989362767c96
+    m_Address: Assets/GameRes/UI/ItemBag/New/light_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7664611a3510d3c418c913b9200d8f88
+    m_Address: Assets/GameRes/UI/ItemBag/New/warehouse_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a478cfb44c0c6e46bc3344997fe747a
+    m_Address: Assets/GameRes/UI/ItemBag/New/bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9fe5af0c03c760a4dbaef128afa9e535
+    m_Address: Assets/GameRes/UI/ItemBag/New/reduce_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 76ce5decc54fef843b48ccda0271f804
+    m_Address: Assets/GameRes/UI/ItemBag/New/kuang_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 115010febadba224ba98a4158ed2c5c8
+    m_Address: Assets/GameRes/UI/ItemBag/New/choose_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 827023589ccb53844b54a9095e44b031, type: 2}
+    - {fileID: 11400000, guid: 4925765e8b86374438df54b99a865bcc, type: 2}

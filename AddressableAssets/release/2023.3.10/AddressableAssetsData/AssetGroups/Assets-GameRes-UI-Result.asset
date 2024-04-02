@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Result
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Result
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 36c1200ed2b525845ba00d7dc39978ba
+  m_SerializeEntries:
+  - m_GUID: d8b0a611d66bc7d45a4c3f376b882c84
+    m_Address: Assets/GameRes/UI/Result/victory_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9abba372954fbf646a91e6e3e8ce2be8
+    m_Address: Assets/GameRes/UI/Result/defeat_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af047904cd4c4bb43a73184eb3953199
+    m_Address: Assets/GameRes/UI/Result/back_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7dee4154ab2e714f8697d459b9bb2fe
+    m_Address: Assets/GameRes/UI/Result/upgradeheroes_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 189538652082634479e9d3af5e1be044
+    m_Address: Assets/GameRes/UI/Result/upgradeskills_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c1d360d45babec46b793dfd3a44a9c0
+    m_Address: Assets/GameRes/UI/Result/upgradesoldiers_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a52609cda74769e42b917511ad41ef65
+    m_Address: Assets/GameRes/UI/Result/energybar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7d50d50e76e636146a4f05edc502a948
+    m_Address: Assets/GameRes/UI/Result/addheroes_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: adde7b6dd746a2d448a52f1f007d0d4a, type: 2}
+    - {fileID: 11400000, guid: 0206a1b4e4cded9428de2b92a058917a, type: 2}

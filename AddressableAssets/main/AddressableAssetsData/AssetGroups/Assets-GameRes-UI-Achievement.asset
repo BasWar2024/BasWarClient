@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Achievement
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Achievement
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 340a1b4e4260f744da98007bb7f96203
+  m_SerializeEntries:
+  - m_GUID: 238179c006c42584b8be97bfaa82a221
+    m_Address: Assets/GameRes/UI/Achievement/Star_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5270ec00a41851469a9d13b44936270
+    m_Address: Assets/GameRes/UI/Achievement/lock_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de5ee3418e11adc4fbae15012ad4cc39
+    m_Address: Assets/GameRes/UI/Achievement/activity total_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c993148129283c145b0c8b38387ce7f3
+    m_Address: Assets/GameRes/UI/Achievement/activity ok 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d32b0cc1ef64cee43973213e63df1dcc
+    m_Address: Assets/GameRes/UI/Achievement/MIT box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7d5af956a462fa7439608e4dad36b32c
+    m_Address: Assets/GameRes/UI/Achievement/the progress bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b987daf72db88c94fbdead3b2118032e
+    m_Address: Assets/GameRes/UI/Achievement/Star_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 941bfc1838d2f0340b639fc933b2f596
+    m_Address: Assets/GameRes/UI/Achievement/Inscribedlines_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c8c83dda01e7c644c8cb610692856712
+    m_Address: Assets/GameRes/UI/Achievement/Semi-permeable base_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d4062bbb9c23ce499868144da95e19e
+    m_Address: Assets/GameRes/UI/Achievement/Timeplate_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c4cfb7dd45df4e46917cc883d2d4e1c
+    m_Address: Assets/GameRes/UI/Achievement/activity ok 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c438b0e7a561ff488d96228e0eb23e2
+    m_Address: Assets/GameRes/UI/Achievement/Mission_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb16625f9c90fef45b004b331d54058b
+    m_Address: Assets/GameRes/UI/Achievement/the progress of the box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d723587838dc09642917bab5c6798c2b, type: 2}
+    - {fileID: 11400000, guid: 7d54fd414a2e89e489aac3e07306340d, type: 2}

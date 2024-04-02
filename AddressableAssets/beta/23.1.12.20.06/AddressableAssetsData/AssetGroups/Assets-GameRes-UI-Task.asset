@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Task
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Task
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6004798af386f6144b2e549be3b971b7
+  m_SerializeEntries:
+  - m_GUID: ce765b218fef44145b209de4ed343edc
+    m_Address: Assets/GameRes/UI/Task/activity bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b304c91b4beed94aa02c9df3b193ce5
+    m_Address: Assets/GameRes/UI/Task/task progress 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ba5e3a377b4cbd459ddb52376236a48
+    m_Address: Assets/GameRes/UI/Task/the progress of the box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce1261d31b96af94aa2dbc1021f21976
+    m_Address: Assets/GameRes/UI/Task/task 00_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a98a8e449bd1d47478bb628637d41ae6
+    m_Address: Assets/GameRes/UI/Task/activity total_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d53d75645a3222946bd6d2d6b2b0438e
+    m_Address: Assets/GameRes/UI/Task/activity_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 307b8564e8406884eaad69f3bb2914de
+    m_Address: Assets/GameRes/UI/Task/line_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1d20f8b48e9928a47b7e289f556094a8
+    m_Address: Assets/GameRes/UI/Task/activity progress 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7e321c4be8312d46b9748cb90e89c7e
+    m_Address: Assets/GameRes/UI/Task/time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf7db4951ded87b4c90226ffeba0456f
+    m_Address: Assets/GameRes/UI/Task/mission bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3a87fd50b03c22478117ff814cb7c37
+    m_Address: Assets/GameRes/UI/Task/header_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8e57ae5b97dc47439574b80fb4902d3
+    m_Address: Assets/GameRes/UI/Task/activity progress 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f14e6216174738a4e8e8b5fa5633a53d
+    m_Address: Assets/GameRes/UI/Task/task progress 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6998d8260492c2e4390ad0d2bc075673
+    m_Address: Assets/GameRes/UI/Task/popover_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05114e264d8ac404cae584dbc2176cc1
+    m_Address: Assets/GameRes/UI/Task/the progress bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3e8eee601a95d64593d7c8fd7760d96
+    m_Address: Assets/GameRes/UI/Task/reward bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b051f6977f84a5d459498872bb57f1aa
+    m_Address: Assets/GameRes/UI/Task/activity ok_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 433085d72f66977489b69ee70c41cc06
+    m_Address: Assets/GameRes/UI/Task/activity progress 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 798f60b81be96d146a59788e792538c4
+    m_Address: Assets/GameRes/UI/Task/total_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d8e83c4c4f3336249b227e69f4a90e41
+    m_Address: Assets/GameRes/UI/Task/base map_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dce4a17ca87f514489d2d64158191078
+    m_Address: Assets/GameRes/UI/Task/task 00_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c595167dc9de29e47b612d4a4841152e
+    m_Address: Assets/GameRes/UI/Task/complete_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc863bedd799dc44c99912ab69e4a8eb
+    m_Address: Assets/GameRes/UI/Task/activity  instructions_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e237daf9231c0748a044c8a816a8705
+    m_Address: Assets/GameRes/UI/Task/team_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45c7e1df6cd1dbb41839834cab217d6b
+    m_Address: Assets/GameRes/UI/Task/task progress 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dbab2ddfc4b9b8048bf46fe34454bc73
+    m_Address: Assets/GameRes/UI/Task/img_title.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 233ccd76ad1ddbe4d90067f5dca417a3, type: 2}
+    - {fileID: 11400000, guid: bcb9b993dafa15f44b9e6e24bd1e7e55, type: 2}

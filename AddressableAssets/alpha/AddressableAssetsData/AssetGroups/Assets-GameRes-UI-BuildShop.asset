@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-BuildShop
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-BuildShop
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6688e9877ffdbba4d87cbaafd3eef410
+  m_SerializeEntries:
+  - m_GUID: 32353f549f0414747adfd0d01e6eaf48
+    m_Address: Assets/GameRes/UI/BuildShop/Building Quality_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cf1f3967c64438b418ce08c622ed69ab
+    m_Address: Assets/GameRes/UI/BuildShop/Time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 887443e9ed901734885b07c90525942e
+    m_Address: Assets/GameRes/UI/BuildShop/Fluctuate box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1100a02de3a60cd4687d24527ea1269f
+    m_Address: Assets/GameRes/UI/BuildShop/Lock_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b8495be5bbc17e4c9cfc75760992922
+    m_Address: Assets/GameRes/UI/BuildShop/Menu box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d484ae57af4a3ea4898295848c1f672c, type: 2}
+    - {fileID: 11400000, guid: 264577de3d562bc43921a0d79f926645, type: 2}

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Mint
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Mint
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 69f4b8da69d9ff342bf9d3280a9ce3f3
+  m_SerializeEntries:
+  - m_GUID: 3a132830362c013499076c699ef8d860
+    m_Address: Assets/GameRes/UI/Mint/dao background_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 26c59d517387a1c49bcd2ced5900a6ec
+    m_Address: Assets/GameRes/UI/Mint/time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4fc13013a9ffaf644bed646490971d2f
+    m_Address: Assets/GameRes/UI/Mint/progress bar 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a856173faf4b244eaf7339aa51111fe
+    m_Address: Assets/GameRes/UI/Mint/time_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac9f91c38e9970e4d90ea49681f03327
+    m_Address: Assets/GameRes/UI/Mint/question mark_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ffeefa5318d3814ca53bf623cb67eda
+    m_Address: Assets/GameRes/UI/Mint/select_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b53f09081bda39140a052c4bfbec83fb
+    m_Address: Assets/GameRes/UI/Mint/form_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 009282e9803f93549a645c953a8df86e
+    m_Address: Assets/GameRes/UI/Mint/light_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3336194ac67a07d44bddffb874bbae0a
+    m_Address: Assets/GameRes/UI/Mint/progress_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f68e16fc9ef3d07438e1fa58d484b417
+    m_Address: Assets/GameRes/UI/Mint/star_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0040b7ee26f8174f8157e55a6287f53
+    m_Address: Assets/GameRes/UI/Mint/progress_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7737739e10e156844922b1ad9ecbe7cd
+    m_Address: Assets/GameRes/UI/Mint/progress bar 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f135498b425330645b3cde648b390df2, type: 2}
+    - {fileID: 11400000, guid: 6dc7595387b00304582689707e24746a, type: 2}

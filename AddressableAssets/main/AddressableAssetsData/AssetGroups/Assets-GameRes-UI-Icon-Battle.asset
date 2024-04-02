@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Battle
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Battle
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 084b2b63246cdce4a834da2b73027f35
+  m_SerializeEntries:
+  - m_GUID: 68e1bb94d1be23346882ac9a8e14a63f
+    m_Address: Assets/GameRes/UI/Icon/Battle/item_Bg_0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 626720013de72ad4789243153b0631ea
+    m_Address: Assets/GameRes/UI/Icon/Battle/item_Bg_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5eca40cf7d4361b4b849d7a27703c522, type: 2}
+    - {fileID: 11400000, guid: a2bc331f36fb25f4185ac9b0acafbf3c, type: 2}

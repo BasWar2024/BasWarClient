@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-FMODBanks
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-FMODBanks
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e485855ce842d9f40b3d43a46c5128fa
+  m_SerializeEntries:
+  - m_GUID: 372618162c712b14c97b221695808377
+    m_Address: Bank A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3125a3dc47732246b250ecece4f4fb3
+    m_Address: bgm_battle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d238936b25e7adf4cbe642d91672019b
+    m_Address: bgm_battle_lose
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3faaec37dd700e49937f88b1ba96def
+    m_Address: bgm_battle_win
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3934baf8103fe04da8a110666ca4992
+    m_Address: bgm_main
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 159302e2916959d49b455c90a08c2fb3
+    m_Address: bgm_main_bg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b98bdb9e58484f498040764dd1e9745
+    m_Address: bgm_planning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c441e277f6c92ff499285e3444b8059a
+    m_Address: bgm_star
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dc1357ffd8fda6d4d88d08678d7e3b49
+    m_Address: Hero_Common
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a8117ced7202b94ba59a22a72fe098b
+    m_Address: Master
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cca707e621d282c44a6663c7d003e011
+    m_Address: Master.strings
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05d101e1d55f8b44a97e6186c05d85a4
+    m_Address: se_Battle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c0390a4d55ba00641bd925b9dde224cd
+    m_Address: se_Build
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eaceaa4deab342247b0acc240cf71ef3
+    m_Address: se_Build_AntiaircraftMissile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74c232582a0d44849a7c3269f875bb0d
+    m_Address: se_Build_DestructionParticleArtillery
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fce021ef7fc9c3e499a38f0381747e7d
+    m_Address: se_Build_HypersonicMissile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53237cf13fdabe142a36c945468f93e1
+    m_Address: se_Build_LaserGun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2665c31d9ad488149a2d10e9754d9d73
+    m_Address: se_Build_MicroBlackHole
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ba1cd6012e382ea40b7d0add1b6bc75b
+    m_Address: se_Build_ParticlebeamTower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c2f3f56841618f49b7e1a3331883a34
+    m_Address: se_Hero_Human
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8ebdb738c10e3b14cb94d5f897737f91
+    m_Address: se_NFTHero_Cultro
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c23de47605b9c947a080d4cacc28f76
+    m_Address: se_NFTHero_Ignis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b4fef8ffc6d74647abe34d5c7f18c3b
+    m_Address: se_NFTHero_Solidus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7e9ba8c079d74d4db8389a3de23b620
+    m_Address: se_NFTHero_TB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69c36000ef7718147ad4e9d1a4bb0273
+    m_Address: se_NFTHero_Tonitruum
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b84b74cefba85da4d83ef7e4773434cc
+    m_Address: se_NFTHero_Torva
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e803883f437103a40afe8bc36ee36196
+    m_Address: se_NFTHero_TV
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1e05a07c7e61f64ab2255216cb93195
+    m_Address: se_NFTHero_Vehemens
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fedf4b35487b9bd459f7ae082f67fb11
+    m_Address: se_NFT_Build
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb1d1914218b6bc40b382ef17faca8ca
+    m_Address: se_Skill_Common
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c54276fcfaf21cd468a5668afa7f81aa
+    m_Address: se_SpaceShip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7d07b3919584fc84badd620f65c7cfa0
+    m_Address: se_Troop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c17845d27df1ed4aba48be7a97ce04e
+    m_Address: se_Troop_alien
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7996acfeebc56bb4b80734e33ce765af
+    m_Address: se_Troop_Grainoflighttanks
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc495d01506fc054e943d91f772e42b6
+    m_Address: se_Troop_MotorcycleSoldier
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9dafb134d8c57664a8934d547f305bd1
+    m_Address: se_Troop_NuclearAircaft
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3220997bddc989d43a3005cf457a25ec
+    m_Address: se_Troop_Particlegunner
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0ff48dba8c55b04a90f20f3b2bc046e
+    m_Address: se_Troop_Sirius
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f98dd8db8339a8498c75073b98e38ad
+    m_Address: se_Troop_SuicideAircraft
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a2acb1b26452304e9f3b3ff3951542b
+    m_Address: se_UI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0c517b6f0fabad0499a15cb43c96b1f4, type: 2}
+    - {fileID: 11400000, guid: 7547cafcbc4fe5e4aabed95e1f3b52b8, type: 2}

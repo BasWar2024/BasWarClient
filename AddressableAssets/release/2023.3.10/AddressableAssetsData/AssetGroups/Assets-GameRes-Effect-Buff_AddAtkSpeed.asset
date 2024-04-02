@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Buff_AddAtkSpeed
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Buff_AddAtkSpeed
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 35d4045d09a7ada44a6308c61995f457
+  m_SerializeEntries:
+  - m_GUID: c9ff1b31e0cdaa54299647e4b7ebdc8c
+    m_Address: Assets/GameRes/Effect/Buff_AddAtkSpeed/Buff_AddAtkSpeed_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 75263932d9278ef40bf0bb6fbc87421a
+    m_Address: Assets/GameRes/Effect/Buff_AddAtkSpeed/Buff_AddAtkSpeed.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 31d1e82305d462349ae8ea757f74e815
+    m_Address: Assets/GameRes/Effect/Buff_AddAtkSpeed/Buff_AddAtkSpeed_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cd689045d2aa36c4bbe143edd101c0c6
+    m_Address: Assets/GameRes/Effect/Buff_AddAtkSpeed/Buff_AddAtkSpeed.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cf4e899ae9547d04e880ee4c58d5f8cd
+    m_Address: Assets/GameRes/Effect/Buff_AddAtkSpeed/Buff_AddAtkSpeed.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6089b8bfb1f5ae4ca6346dc0f4f67e3
+    m_Address: Assets/GameRes/Effect/Buff_AddAtkSpeed/Buff_AddAtkSpeed_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 45fd787c78c74dd4bb13837a30658ddb, type: 2}
+    - {fileID: 11400000, guid: e214dad32d99899439a4a1ed50e2aeda, type: 2}

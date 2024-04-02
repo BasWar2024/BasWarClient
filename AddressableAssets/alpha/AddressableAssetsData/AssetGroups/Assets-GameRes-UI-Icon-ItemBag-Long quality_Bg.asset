@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-ItemBag-Long quality_Bg
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-ItemBag-Long quality_Bg
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 784c2c7ec6766df4eb96d926afe14666
+  m_SerializeEntries:
+  - m_GUID: 681ae2a78ac4e8440b3411bbc44ddae0
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/Long quality_Bg_0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e963388dbba3aa445a16227a2365028f
+    m_Address: Assets/GameRes/UI/Icon/ItemBag/Long quality_Bg/Long quality_Bg_3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8a5245e1cbc99b748bee4c5c7375fdcf, type: 2}
+    - {fileID: 11400000, guid: e4cb1906f44a99845868b9da10949c3c, type: 2}

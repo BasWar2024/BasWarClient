@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Button-Button03
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Button-Button03
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a9b50ed9abe34164aa5b0b79ae50c54d
+  m_SerializeEntries:
+  - m_GUID: 413f01723586c844dab9e9b645015304
+    m_Address: Assets/GameRes/UI/Icon/Button/Button03/Button 03_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 02c0123e73281d141bc9a20c1cb09822, type: 2}
+    - {fileID: 11400000, guid: 50f3807e2525f6149941a59d9a06bcf2, type: 2}

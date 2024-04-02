@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Stellar-Sun_spine
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Stellar-Sun_spine
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c2a82bb501056ad45b33cd0cf1bfbed4
+  m_SerializeEntries:
+  - m_GUID: 9aef2e70db822064fa959df536ec4b89
+    m_Address: Assets/GameRes/Stellar/Sun_spine/Sun_Spine_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6eed4080d9e77d346ab93783d2c32475
+    m_Address: Assets/GameRes/Stellar/Sun_spine/Sun_Spine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77b0fe90f15846b4aae87d6d64777a85
+    m_Address: Assets/GameRes/Stellar/Sun_spine/Sun_Spine.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae10efb81e356374c931bcb4d2c84398
+    m_Address: Assets/GameRes/Stellar/Sun_spine/Sun_Spine_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 49eb7bd972e97e447ac4bb706d07532e
+    m_Address: Assets/GameRes/Stellar/Sun_spine/Sun_Spine.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c114c0f2e461354198bae1afdc8227c
+    m_Address: Assets/GameRes/Stellar/Sun_spine/Sun_Spine_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d788eb3fdfa78f94bb15d81c05afd655, type: 2}
+    - {fileID: 11400000, guid: 8b3e04a85cac54c4d94b9aa73ca18660, type: 2}

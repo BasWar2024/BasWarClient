@@ -1,6 +1,6 @@
---- dump(,)
---@param[type=table] t 
---@return[type=string] dump
+--- ""dump""("","")
+--@param[type=table] t ""
+--@return[type=string] dump""
 function table.dump(t,space,name)
     if type(t) ~= "table" then
         return tostring(t)
@@ -27,12 +27,12 @@ function table.dump(t,space,name)
     return _dump(t,space,name)
 end
 
---- (),
---@param[type=table] dict 
---@param[type=string,opt="&"] join_str 
---@param[type=table,opt={}] exclude_keys 
---@param[type=table,opt={}] exclude_values 
---@return[type=string] +
+--- ""(""),""
+--@param[type=table] dict ""
+--@param[type=string,opt="&"] join_str ""
+--@param[type=table,opt={}] exclude_keys ""
+--@param[type=table,opt={}] exclude_values ""
+--@return[type=string] ""+""
 --@usage
 --local dict = {k1 = 1,k2 = 2}
 --local str = table.ksort(dict,"&") -- k1=1&k2=2
@@ -57,9 +57,9 @@ function table.ksort(dict,join_str,exclude_keys,exclude_values)
     return table.concat(list2,join_str)
 end
 
---- 16
---@param[type=string] str 
---@return[type=string] 16
+--- ""16""
+--@param[type=string] str ""
+--@return[type=string] 16""
 function string.str2hex(str)
     assert(type(str) == "string")
     local list = {"0x"}

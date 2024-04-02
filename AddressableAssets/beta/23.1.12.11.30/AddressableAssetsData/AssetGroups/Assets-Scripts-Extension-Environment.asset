@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Scripts-Extension-Environment
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Scripts-Extension-Environment
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bcdf90b33d0a5c94d8c43f4e4d49749a
+  m_SerializeEntries:
+  - m_GUID: 563472d3ee25dc844969ebebd56a6882
+    m_Address: Assets/Scripts/Extension/Environment/MADFINGER-Unlit-Scroll2Layers-Sine-AlphaBlend.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 962b1222f24c8c2409888f3903073ff0, type: 2}
+    - {fileID: 11400000, guid: ce77248fa0c33c4498db63a66d3524ad, type: 2}

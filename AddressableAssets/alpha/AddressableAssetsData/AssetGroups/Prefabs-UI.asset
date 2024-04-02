@@ -1,0 +1,1861 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-UI
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-UI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b7a31500871ea134caaa88742a4ba1be
+  m_SerializeEntries:
+  - m_GUID: 0b2c3b954be6f3848aa9f09ef1adb8e6
+    m_Address: imgGray
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 02131f1dc3f725147988a2b020483a4c
+    m_Address: BoxMission
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c80166215e1d0949a5a48604e4af2ac
+    m_Address: DailyActivityRewardItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: faced57ea80337e47a3a9f90f86e5eb4
+    m_Address: DailyTaskItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c9461523ee1e5643a4ec1ab30ca4384
+    m_Address: PnlAchievement
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e6cf073045553e4fbb946f99ea76756
+    m_Address: PnlAchievementNew
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 31fbd5f0825b24e47b8919ee37e4b025
+    m_Address: PnlAlert
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4833d1fb407f3b04ebd476ed55bd2e53
+    m_Address: PnlAlertRemoveBuilding
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22b99e272eb10964b8ea898fee314f4d
+    m_Address: AchievementIcon_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7767d4ae25f45041a04303c86af2d11
+    m_Address: AttributeIcon_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c057bc57b2480941be0ee7bce05941d
+    m_Address: Badges_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f117d1ba535db6d43af161da40be2156
+    m_Address: Battle_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4cc02fd340771044699fb4c02fce6325
+    m_Address: BattleReport_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8cf62409fbcc23418306c895a0f75f4
+    m_Address: Building_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 309b2d5142a2d5f499e4cd6c74bf1e77
+    m_Address: BuildShop_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce6e00c014bc7aa4fa3e7b1b5133f822
+    m_Address: Button01_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ef87ee4b485af59488723f3feab9186c
+    m_Address: Button02_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f15bf2d2e29fb88488dbc86827ac090c
+    m_Address: Button03_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3bdb373975810247bde048eb0188262
+    m_Address: Button04_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 910efec54c511534db9785ad616a03e3
+    m_Address: Button05_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 73b73ac0060b6264ba8c2ca01a280821
+    m_Address: Button06_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c413495269fa3840961cdf037733dc2
+    m_Address: Button_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b384a03aea6734546a93e3131b9782ad
+    m_Address: Common_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6eb74b655afe821459c2a4a29057aa13
+    m_Address: ContryFlag_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d57315509c7006f4d8f7a5e30736bc8e
+    m_Address: Head_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e1801d80d81c1b4b9b208b45e0f1edf
+    m_Address: Hero_A_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 49e44e3ee23c95041904089f2318a5c9
+    m_Address: Icon_E_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0fd676c08e093044fbb8dd0ef062f031
+    m_Address: Institute_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45e9e198e2337a6438b7da712d02c01c
+    m_Address: Item_Bg_A_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c8fc641205f81246b98f1345a552dbc
+    m_Address: Long_quality_Bg_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1980918d9ac4bf54dadefae1a6ca773c
+    m_Address: Item_Bg_D_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53cf141e194e55d4eaa5f672b163c4c2
+    m_Address: LeagueRankIcon_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bcea691f25ad43e4e9bcc0878e0044db
+    m_Address: Mail_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c7098b5923364ae4493e7e1fd9d12564
+    m_Address: Main_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91384c83eb035bd46abd4f8627810552
+    m_Address: Map_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 547e77d52e1870442b4ef2ed58810b01
+    m_Address: NFT_J_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87bc5a85093602c47bbede5b78eafc82
+    m_Address: Pledge_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7dd480c8f595d048b6514611f01c79d
+    m_Address: PvpStage_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93e68c1eac97bd44eb92b42e9f042fc4
+    m_Address: Rank_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1502e8ca4f9e9c34f950f684359226e9
+    m_Address: ResIcon_200_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dc93e216491cf6f45806d9bcbfe07e1d
+    m_Address: ResIcon_50_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac1c01e022b63454c9229de2fcf8ec73
+    m_Address: ResIcon_E_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f8ba2720f71e0f4b9ee7f9248b38289
+    m_Address: Skill_A_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01c6c3eebdec026458d97674e988f0f5
+    m_Address: Skill_D_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e4040cb84ed6054fbc651d14380fa03
+    m_Address: Soldier_A_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37ea11f66038aa2468ceb346265c1469
+    m_Address: Soldier_D_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7764238311afec4699fac2e6d25fc16
+    m_Address: Tech_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb6c806e5dec00d42bfe6d149b4b0e5f
+    m_Address: Union_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4ef9f32d1ae588943ac62ec8dda21067
+    m_Address: UnionArmyIcon_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22d2ab428b9c36847a6a9bfdcfe36a25
+    m_Address: Warship_A_Atlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c0a1b584cb957748a3017722ba05cee
+    m_Address: BattleCardItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c541e61f4b3e69f468b840134f853518
+    m_Address: BattleHeroItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45ef36b5360805d4eb7daa0cb069d5b4
+    m_Address: BattleHeroSkillItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cdd1a8a5d432a064aa2bf7b8b51af5df
+    m_Address: BattleReceiveItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6805841b4b094b64898086a22c4225bb
+    m_Address: BattleResultBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c887aed921b2ee6449ffbed28733c36c
+    m_Address: BattleSkillItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc71bb93acb34214288dc4649162acf2
+    m_Address: BattleSoliderItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f0dcd7699c380243a11112eabded7a9
+    m_Address: BoxSkillTips
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dfaf6bc6a625f5b428016743026c3e15
+    m_Address: PnlBattle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 07a0775e6463b4142a58a277a12a9d9b
+    m_Address: PnlResult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4ab079d56989ed8449040046c5f96ce0
+    m_Address: BattleMessageView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 673c2dd2637063e41b8cdb5b720c9516
+    m_Address: PnlBattleLoading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cd05cb37e3bbed24d89c0758a066c839
+    m_Address: BoxReport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d0761d86e4732524493cdcd80be548af
+    m_Address: PnlBattleReport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 428a670587b66fe4d8cb724253e929ce
+    m_Address: NewsCountItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db3422905579cea4f90b70901235f986
+    m_Address: NewsItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 984140934015e8a41822e7b41c3b92bb
+    m_Address: PnlBoard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d8f7606b7c331345bfc60611517f117
+    m_Address: BuildInfoPrepareItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c83df43ba5f972e4eb0c1a7ccff945f5
+    m_Address: BuildInfoPrepareItemSmall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb4d06bd4a8fcc040b7a571250bc9c6e
+    m_Address: BuildInfoTechnoItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 058c55a80d25459439cd1f10d92a8311
+    m_Address: CurDesc
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc82f17b879d2e84e811bb4c397888e8
+    m_Address: PnlBuildInfo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c4237d98dae718449a057d0aeba79dba
+    m_Address: PnlPledgeSet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1325d953d2c2fd74592f8da6df685073
+    m_Address: ResAddition
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a0e82f1779baceb4bba1ab1a55cf5bf6
+    m_Address: VipDescItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 504d52af85785bd40b9234112e1402b1
+    m_Address: PnlBuyCount
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a103702ad057f2343b4f07d22c38ff79
+    m_Address: CardGroupEditBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45680c71fd232ef409e44881eaa4dbe9
+    m_Address: CardGroupFilterBtnsBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 701a7ba9806da61458fd35340fde7060
+    m_Address: CardGroupItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f18c5b7b796e8594cac653e1d03d0506
+    m_Address: CardItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a8d6eedcc424d61419983fc5f322af93
+    m_Address: DrawCardBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a5df74b54e255447a36df2cd0c4785c
+    m_Address: ExistCardItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 32765e20f91c6e84faedf7898bf12be1
+    m_Address: PnlBattleDrawCard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ecf3c92032be5a9489884df558a123a2
+    m_Address: PnlCard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a00c929aa2276ee4597c97329a38611e
+    m_Address: PnlCardDesc
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1893940f1926d54ea6b07a209502f34
+    m_Address: PnlDrawCardResult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b355f17ff96258845bc84c9072bfa4ae
+    m_Address: SettingCardItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 977e017488fd9604d978ad7ee2605424
+    m_Address: BtnSelectChannel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0684c57e7e2faf409928d859c6f9fe5
+    m_Address: ChatItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93bdb3f31641c0f4f8efab84722c929d
+    m_Address: PnlChat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5fc0e250cde640a43909ce23d96d6ccb
+    m_Address: BoxCollect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9814d74f721ebb34db98ee382a17293c
+    m_Address: PnlCollect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf8a2a15425914b47a99495c231903cb
+    m_Address: BgMsg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3625d650e73fc1244951c7b44fed256b
+    m_Address: BottomOptionalBtnsBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3863c0a89a2ea84791e9a2af56b899b
+    m_Address: BoxArrowUpgrade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a66cc7ce91122834e8cec8fdb5160f8f
+    m_Address: CommonAddCountBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3fbebaa4ea5dd964683f0caf57b0f2c3
+    m_Address: CommonAttrItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4860a3be40ef7047a0c9f4bf8dc4b30
+    m_Address: CommonBagItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8675ec236c8df264bbf4d397acaff406
+    m_Address: CommonForgeBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 185fcbdebda8412459e685134893dc4c
+    m_Address: CommonItemItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59853d59a07efc9428c2cba7de93bd8e
+    m_Address: CommonItemItemD1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c4172f496d55ae4ab2bea94516bbcef
+    m_Address: CommonItemItemD2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b868dc51b6249a94e834cb4b9e0304ec
+    m_Address: CommonLevelUpNeedCost
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 626f4f25253191c4bb18c31b6c92117e
+    m_Address: CommonResBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dac788f2db79a75488d9b74f41a022f1
+    m_Address: CommonResItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 796509ce7d561c445a9aea94c9f9a2ae
+    m_Address: CommonUpgradeBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d585d111943b1aa4fa3c852c89c56692
+    m_Address: CommonUpgradeNewBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a6d7d04956c2694f8e1426aa8a5ea23
+    m_Address: CommonUpgradePart
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e4e79a2fe79a59342824a7bffed91b33
+    m_Address: ImgCommonRedPoint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f0a3c627dd6aed149b6a8caa1209ff42
+    m_Address: LeftBtnViewBg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be296e0ff85dfd647b07a8beae846dbf
+    m_Address: LeftBtnViewBgBtn
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 990a4176fb1bf59499542710eb65b730
+    m_Address: LeftBtnViewBgBtnsBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a64591c5b9de74745bb752a731314d33
+    m_Address: OptionalTopBtnsBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6c250082ef686134ba36c8d2c7dfce7d
+    m_Address: PnlOptions
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dba83416fc7ab2c4aad7dc1d572e4f8e
+    m_Address: PnlPromptMsg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dbbe70c7f8769774da79d9affc7f9a56
+    m_Address: PnlStatement
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 991d9ac618618d74e9e147683de831ae
+    m_Address: PnlTip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7c8a00502d728d4c91b4468357f8ec2
+    m_Address: ViewBg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 81b05df7440f6974485fc25caada628d
+    m_Address: ViewBgHalf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 20daa2033bd5f8044aa9ae10bc4d541e
+    m_Address: PnlConnect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40a045b1b6a99e54fae87b99a846ee8b
+    m_Address: BladeSelectItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6eb2a03ba8341b94ba836c9f5d2e2a29
+    m_Address: BtnDaoInfoFunc
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aed66d8ab9ce1b241a2ac60987af8ec9
+    m_Address: DaoInfoMember
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62bc7bc4e1bda5847bdf24b0297b4dae
+    m_Address: DaoInfoMemberItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 687bab23e741570488b598ca77decf6a
+    m_Address: JoinDaoItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91fba2ea1b7250e4193e1d4651fffc13
+    m_Address: MessageItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1fb93e918e1a8294a8c61ef229142838
+    m_Address: PnlDaoInfo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7bf78b13a3050c747bd9859ccffb8b4c
+    m_Address: PnlJoinDao
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b5753e119bd7c6a499ddbcf6148b0604
+    m_Address: SearchDaoItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e5c192c18410aac49a338687b8ca0703
+    m_Address: DaoApplyBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ba36ff8648fdb734c8de264b8a6524aa
+    m_Address: DaoApplyItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe965723b566b5b44891cbdaa3a329bf
+    m_Address: DaoCreateBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c2c670c0254edb848a42caf5d0f7955c
+    m_Address: DaoRewardBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ecc5cfa9117302e4f9f33e9d69482fc8
+    m_Address: DaoRewardItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29f1ba0cef1d1b140bd320ed801b762a
+    m_Address: DaoSearchBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6dce10bccc99bc4eba8d5d8cba9c793
+    m_Address: DaoStatisticsBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 66babe7d7ef527e42af18c9c74fb59f6
+    m_Address: DaoStatisticsContributeCell
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f68110251c491fc4482e442b2cd6a79e
+    m_Address: DaoStatisticsContributeItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ef665c0520d9c3548984c204cf0d2d66
+    m_Address: DaoStatisticsNameItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dae1f1cc874bb9042ae0e88c524675ed
+    m_Address: DaoStatisticsTotalItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 606aafd348ca7534394015425d394716
+    m_Address: DaoVoteBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b45e81902dcc4b4b864bad072084d21
+    m_Address: DaoVoteItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afd25c6dfac24554bb34b95831e15e02
+    m_Address: BoxLog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d38d628533f26694bacd832f7c1ce544
+    m_Address: PnlDebugLog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ec97503f78d30c1449bf21888a6c7706
+    m_Address: ExchangeBtnRes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 00f52aad02b7f464a9e71cd480e619a0
+    m_Address: ExchangeMitItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 84a63910b993ba84fb9d1c652d155564
+    m_Address: ExchangeScrollItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6cc4a89d268a81946ba46148fb03d31c
+    m_Address: PnlExchange
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4d3224557f67bf949818d1d13647732e
+    m_Address: PnlQuickExchange
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6d75de01a4b8e948b1af7e9b41a165f
+    m_Address: QuickExchengeRes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 18d792687980f2f449d90b73e9f3727a
+    m_Address: FixItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 83d23af6ac3533e4fb55e6df2cd033c5
+    m_Address: PnlFix
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3bd675664554ca9438b7e52896c8cd2e
+    m_Address: PnlForgetPassword
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74b4e7f84b5803348b2a64cbc5393446
+    m_Address: PnlGMTool
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d3ec2a16f131c84c849df4176e2b4e7
+    m_Address: PnlGuide
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c0b496cf8b490d44836cf3fab204dad
+    m_Address: SoftGuideNode
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b339c2fae8a619b4ab76beafae7bea09
+    m_Address: HeroHudSkillItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ef17e293e180a840bdd126869bf5e8b
+    m_Address: HeroHutHeroItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 314f3d4d35148ef428967e47b70518a3
+    m_Address: HeroHutScrollItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 64dcce952732f5f44a5311cb369197c5
+    m_Address: PnlHeroHut
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df9fd84030936de4fa5f3ae28a46462b
+    m_Address: Result_Defect_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3434add652a92442867949ad146349c
+    m_Address: Result_Victory_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 30e7756087b955840ab60e85cb5f9492
+    m_Address: background 01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8f9df24d4898f774a9f9b9fdeafd07f3
+    m_Address: background 02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6b375172eedf144285d56028e2168b9
+    m_Address: background 03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db31944b1fa56e643a4c58933e9409a7
+    m_Address: background 04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9776ab79f3742c34c821da78ed7ba044
+    m_Address: background 05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b072e60919a7fb418aaa86d3301b05f
+    m_Address: background 06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 84cc8b3f69b431b4a8f724deafbf8f1b
+    m_Address: bg 01_img
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1392cf390efbf2145b9d2592ec334b67
+    m_Address: Base_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f0fb16aa8e452424d8256a6bb31c1f22
+    m_Address: Blackholerepositories_B_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a45f913affc59ac4eb9ba381caf8c707
+    m_Address: Blackholerepositories_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 82c94653b4995cd45b08eb6d131f2ee4
+    m_Address: blackmarket_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 129689fd82a85ba499f002832d73a6bd
+    m_Address: Carboxyllibrary_B_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8bdbedb5ef4e0e409f44d87a6b07509
+    m_Address: Carboxyllibrary_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40beaef13bd98114a9811cee2f5f2797
+    m_Address: Carboxylminingtower_C_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b678158a7507f184ab803ebe4b29ec7d
+    m_Address: Carboxylminingtower_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6cadf3d08ba3548459df2f6d9a625ca7
+    m_Address: Gaslibrary_B_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 476099f68a8188e49a89e881d3467512
+    m_Address: Gaslibrary_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b29cd53a22f16c941986a038cd51909b
+    m_Address: Gasminingtower_B_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a7b2fd8b7ec2cc45acd3948d1abb1d9
+    m_Address: Gasminingtower_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e3e777260983e0468da2ef0daa06bd3
+    m_Address: Hydroxyllibrary_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2efcbc391dbb4144a7a3e89b2984bd3
+    m_Address: Hydroxylminingtower_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41769a84438d842479fc885bcb4776ef
+    m_Address: Hyperspaceresearch_B_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 812d76d1bdc47fa489fccd0f643e2a1a
+    m_Address: Hyperspaceresearch_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 804a8f1c3f3a08a4fb3246e76540fbb3
+    m_Address: Icecorelibrary_B_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0e799395740f32f4aa2273b11bd215ec
+    m_Address: Icecorelibrary_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1c252c8726b2cf469ad36f4fd5f1789
+    m_Address: Iceminingtower_B_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 237acb093d460fc4cbdb89a71ff341ea
+    m_Address: Iceminingtower_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a80c8ad7f0a1ec94ba77ba2c835115a0
+    m_Address: Interstellarbank_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f103b89770d4d9847bd100ba77d2739c
+    m_Address: Liberatorwarship_B_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e237a1b15c8f5714fa68f36e4b750b96
+    m_Address: Liberatorwarship_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d2013746115e4944da3dd24220e0cdba
+    m_Address: miningmachine_C_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee1676d22ea29c641ad601afdace8ab3
+    m_Address: Miningmachine_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b1f5e89bdcf3894b8943208db5cd371
+    m_Address: Planetaryeye_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0e4238c7ccc0040469fe0fe08b701688
+    m_Address: ServingStation_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 47437e3fd1596d447af5fb45c1f113c9
+    m_Address: Theheropavilion_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0e2306ad7ec051a45b4f61332cb05885
+    m_Address: Theuniverseblackmarket_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d19870bcae0d1e74f8e95e46793dcf56
+    m_Address: Titaniumcorelibrary_B_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 81428e5493a4c864fbc93001a53d2c8d
+    m_Address: Titaniumcorelibrary_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 674b03aca4aa7a444b24c78b822cb7f5
+    m_Address: Titaniumminingtower_B_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 49e711eb9931b234ba32aa52999ba560
+    m_Address: Titaniumminingtower_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8e9f64e31715b7045baeea5ac26459ec
+    m_Address: Anti-aircraftMissile_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d0224fa0d5f8a334e840af3c6578b46b
+    m_Address: Anti-aircraftMissile_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a1146292ccaf5b429d042f0dcbda196
+    m_Address: AntiAircraftmissilegun_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e79809c430e1b84593d0e04a184b7ee
+    m_Address: AntiAircraftmissilegun_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5a2ef5b8fef926f41ba06703fea42c3f
+    m_Address: Blaze_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5abfee5046feeab4dadbf07dcab1dbb1
+    m_Address: Blaze_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4236f64c771ad384d958210f93d34152
+    m_Address: Centipede_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43d7e8032b07a5d4883c59583ffcaca8
+    m_Address: Centipede_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa4d2f9e891f0854e8664485d02cac12
+    m_Address: DestructionParticleArtillery_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9b644e6d41597fa47947bf34791f8804
+    m_Address: DestructionParticleArtillery_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f312d0fd866f01a408e55c53631e5e8b
+    m_Address: EMP_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ff712bd947e38744eb1e95cc8ce4705c
+    m_Address: EMP_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce7bbd33edcfed2488d36a47c8a69036
+    m_Address: Frostin_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 817dd4fa0587a254a8f729a087656a00
+    m_Address: Frostin_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da6e772d913a2f3439cdc1f5e9edd188
+    m_Address: HypersonicMissile-_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7563c267244c224cbca52deb24f8853
+    m_Address: HypersonicMissile-_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c57c8b5ee15ada439e368eab836b7a3
+    m_Address: HypersonicMissile_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da0c0453ff2831544a1e1b44dd22b1ae
+    m_Address: HypersonicMissile_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b020cd0231d771c41a27442cc1faa0bc
+    m_Address: Inosculans_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 194099dd5ce15794d9bbc7c76ad699a3
+    m_Address: Inosculans_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d02e63219f7369c46bee9ea10498c64f
+    m_Address: LaserGun_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f4c5721f875e1d1478be8fe099f42eb0
+    m_Address: LaserGun_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4dd40e5a9ce3b924d80d551bacee9dbc
+    m_Address: Lightbeadheavyartillery_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a19ee32259f34446a25c71875a6c392
+    m_Address: Lightbeadheavyartillery_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 909d1966cc5b1d5409595df7452d7b61
+    m_Address: MicroBlackHole_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 636b8c2ced823c840a8a5a6f79ca33a1
+    m_Address: MicroBlackHole_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 097506af69e0c904abfeef7fd28a91f0
+    m_Address: Millipede_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de6f84fef05b8a64f8218dabe3bdb70f
+    m_Address: Millipede_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 16eec1ae79ab5124c97634823c38e3bf
+    m_Address: ParticleBeamTower_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 376c2ac6bc6b71649ba07f989555d9b0
+    m_Address: ParticleBeamTower_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 877a24f34e08ac044b3c637d24f915b1
+    m_Address: Plasma_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d111f96eaa0ce2f4c8e70e57a51aaaf0
+    m_Address: Plasma_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 50e9bed718f37ed4d81ae2dfdf35ae15
+    m_Address: Remotelightparticletower_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd0536112bdc6954f998359ca37f6929
+    m_Address: Remotelightparticletower_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eacb04e4e29391a40a9e30ede62c7dd6
+    m_Address: Separate_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2279a6822b1aff242b51a5fd84cb0586
+    m_Address: Separate_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 418e97305f0962543ab972afc74aa4bc
+    m_Address: Sonicemitter_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 16696f6a7e99ce64d9c2d614289c9b8b
+    m_Address: Sonicemitter_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f198efdee82ddb4c8f8ab670e22d71c
+    m_Address: Thelasergun_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 25bd59cb37d519542acec9c942e76ca5
+    m_Address: Thelasergun_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0a34cdc9a380a304595bbc35561d4e14
+    m_Address: Tinyblackholes_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f760ec11dc7a3584e85cdead5135696f
+    m_Address: Tinyblackholes_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 55bd2d6c6e23d5a4eb18dbaa470fd1ea
+    m_Address: Torrens_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71a11c4ead66baf41a7b5dc10c2309d3
+    m_Address: Torrens_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 56a3b4ea329ad4e42a5b3e6752af82d1
+    m_Address: TwoDimensionalFoils_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7fcb47ed68d4df74b99021e197247316
+    m_Address: TwoDimensionalFoils_icon_H
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 07c93446fadfe144189eac85e3673043
+    m_Address: Cultro_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 28bcc0fe743ae544294bd71ddb24bd3f
+    m_Address: Cultro_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a653a73d0872ea4fb8b184c182358ac
+    m_Address: Ignis_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 279b678adc28ee2428749caea2042eeb
+    m_Address: Ignis_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f5916a1311de5f941b99ce6eb74053f2
+    m_Address: King_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c06d2f9864f204c40afbcc0015b8174a
+    m_Address: King_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 61369c5cca52bc542abeb8af917b5b82
+    m_Address: Solidus_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1073944dd5b77af43b775c721279bc3a
+    m_Address: Solidus_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15344137feb431541a7ad4b4ac26392c
+    m_Address: Talus_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa93eaf9819193f4e9e162970698b133
+    m_Address: Talus_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06df7efc56f853c49a522ae77d68e311
+    m_Address: TB_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ffa6f4e394a2bcf4f81699326fde3de7
+    m_Address: TB_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 72559c92cc0cd3f4d83e270ec01066cb
+    m_Address: Tonitruum_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3c414cf725d85f4888c420569374ea2
+    m_Address: Tonitruum_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 778b6671d6cf5d044bf3cae87507634e
+    m_Address: Torva_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b461422ad3efb8048a4a947b8ba2c6e1
+    m_Address: Torva_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7baaf6116861d344aa1f025ceb51ce04
+    m_Address: TV_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 98a7fac7dff420f46b7ffa7d890e0356
+    m_Address: TV_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eab84f6e130f69b458b33bc5992362a1
+    m_Address: Vehemens_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8497504f5ef78a64dad50846907c762a
+    m_Address: Vehemens_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5369ef9be58552a4b98284ce5c9f6fac
+    m_Address: icon_gas_Many
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 402f22d73defecb449180d57163404f0
+    m_Address: icon_hydroxyl_Many
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4fb67847b8d4cf141b08a7ccd48435d1
+    m_Address: icon_ice_Many
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c49fefcc58bb22a4697f3f47cb8f3634
+    m_Address: icon_mit_Many
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ed438baf4bd741b428a5d632bf7a414b
+    m_Address: icon_starcoin_Many
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2fa419c1856553647bd896557a70ba88
+    m_Address: icon_titanium_Many
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f4e2df2d9c30a940a5c5b4097f48fe6
+    m_Address: alien_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 706b623c44a424c4bb212b403be17888
+    m_Address: Antimattervehicle_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ebdc2a6941439fc4a86246f1448ad6a2
+    m_Address: Grainoflighttanks_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b9b77356079bf5a459b5f1b45def7327
+    m_Address: Hammer_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1a17d6ab86575844a014c507531c787
+    m_Address: Invisibleman_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d6ee77bd212ff774ea973849499b5b14
+    m_Address: LitCavaliers_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7995cc58e8df5c544ae48a4a47dd53f5
+    m_Address: MotorCycle_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a92a6eba312ee9d4587fed2360b03959
+    m_Address: NearTank_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b2141f9515be7d40981b3e4442b1896
+    m_Address: NuclearAircaft_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2a84d825f0a8db44bad7666f5653dc9
+    m_Address: Particlegunner_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e34420b93a04e9641af6b01c910f3982
+    m_Address: ShotGun_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 75192d97b788c49469899004707ce67a
+    m_Address: Sincetheballblasting_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af25dc2d95cd7824eb6428d2776fa65d
+    m_Address: Sirius_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ebc3e981f95c7cc4496364bb4bd0a9d5
+    m_Address: SuiceTheBallBlasting_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 68b6b750654e1f0499a8cf7a9c475712
+    m_Address: Atlantics_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29d76706f2877fc4190d4b28d8e5dc54
+    m_Address: Atlantics_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53301959e9367c444b80789d57d78509
+    m_Address: Atlas_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90a45aa1af31d7b4d82e6e7759bf709d
+    m_Address: Atlas_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9554ffaeb1c8aa5449ffa1d6e8f701fa
+    m_Address: Aurum_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9435b7cc8fa1fda4296713dbfb0b2cc6
+    m_Address: Aurum_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43266449a03b5554e9f2a6ecbeaf0576
+    m_Address: BI_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ca751a355425474dae924f556a5c82f
+    m_Address: BI_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c4fd83d3fc95ef4d97ab28552670996
+    m_Address: BlueRingedOctopus_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a8c7b2859f24f744b37e685d8b5e52d
+    m_Address: BlueRingedOctopus_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 36bf3bccaf7edc743852f0e38098cc2e
+    m_Address: Dreadnought_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 228a0e8b286f66047b738a65afc1dec0
+    m_Address: Dreadnought_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a4698bacb1cc9104ba5a9c5bc2639883
+    m_Address: KingSquid_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 26ff4d0813c4f104086391fa42288a34
+    m_Address: KingSquid_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 61d0ed743b408ba4188baa7950e75f02
+    m_Address: Leviathan_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 54af7e08c75cf964dbd881a246a6be28
+    m_Address: Leviathan_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 313a04b76b942174d8dbd51c50f316d7
+    m_Address: Meteora_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d24c275cb61114141a056fc86baf2ca1
+    m_Address: Meteora_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa9713067c4391f45a553862a9e0ed78
+    m_Address: Noah_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db35b5a09b05a8b4e863c1f198263749
+    m_Address: Noah_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ea4b5711fc1e584bae091b19f50ae3b
+    m_Address: Sanguis_icon_G
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5f8c9dfc66d54364d9989d42efb0de08
+    m_Address: Sanguis_icon_I
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c0a80babc4131b547aa33d1013a40bf5
+    m_Address: ForceUpgradeCostItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce9276af41972f44fbfefedc8c69d7fa
+    m_Address: InstituteDrawItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 26a0b7a778fc2114eb271ce0586eaa00
+    m_Address: InstituteLevelItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 18ae87f98ce475b43953d0169b6bfdd7
+    m_Address: InstituteLevelItemNew
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d737ee1a00e4dbc459e83d35f9c5a921
+    m_Address: InstituteLevelSubItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74b10498bdbb28a41aa56dac69e1a9a3
+    m_Address: InstituteQualityItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06e82d03a672de846a6883928b9188d2
+    m_Address: InstituteQualitySubItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06e17a76b2fdc1c4997386e64e81d2bf
+    m_Address: PnlDrawSet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9af65948eb0745f46a5d6a6e5ffa5124
+    m_Address: PnlForceUpgrade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 50f66ad7dfcdae04e869860efc251d23
+    m_Address: PnlForgeResult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f22a8a6982d1464688d7ad779e91181
+    m_Address: PnlInstitute
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34bf701cc69de4942846ae59d3dd357d
+    m_Address: BagItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: debfeae0c122ca84c9784cfdd0434adf
+    m_Address: BagItems
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 860cc51d8e304394398ded566d1d7c34
+    m_Address: Item
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 451b9d828a02c924fb2b9cb52432ac2c
+    m_Address: PnlItemBag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 64aa91b1b0eb1b84b97cf5e87c45e6f8
+    m_Address: PnlItemBagNew
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4d8efaa4bb3181409f11725e8b54d56
+    m_Address: PnlItemInfo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b88247d22c2a204996fbf48cc1cb8c6
+    m_Address: PnlLaunch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6f32b5cb2d1cea408dbe02ef2b72b1f
+    m_Address: LeagueRankCoreRewardItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2b640a5b9f9f6645955aa2114fe98df
+    m_Address: LeagueRankItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f8fac16888a5aa74d932a113e83d8c6d
+    m_Address: LeagueRankRewardItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e08d2a5dab327444cb1bde5604119f5c
+    m_Address: PnlLeagueRank
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d0e70c4d9c7640d42bd2d06f429cac05
+    m_Address: PnlLeagueRankCoreReward
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c6b83914b6ad74449539b2140784167
+    m_Address: PnlLeagueRankReward
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e87b1cc15cfe634fa62b2cc16294dad
+    m_Address: PnlLoading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e84fb62738983249bce79883227c12e
+    m_Address: PnlLink
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dcc1ec645089cf7499f80285a497b9db
+    m_Address: PnlLogin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b2d1f48883b85fb4d8b55c9b69333b1c
+    m_Address: PnlRegister
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 12de9eb5f0a08bb43b7d2afad582edd2
+    m_Address: PnlService
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7616143128f9a947ae108bfd9581aaf
+    m_Address: BoxMail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9873d06375a83e0418b8ce72c02116f6
+    m_Address: PnlMail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17b18c3fe5ce3054184176ada5654b69
+    m_Address: BubbleRes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8289fea454462d74cb71f27cfe9817d6
+    m_Address: CardModle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b87b29cb578d2714e9e4667620886efb
+    m_Address: MainResInfo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b77db2858c214c6468ea4367fe601c20
+    m_Address: PlayerInformation
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b509b796f51af843803bdb67563842c
+    m_Address: PnlBuild
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 654d7c6d129993143a75afab7d30d47a
+    m_Address: PnlMain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 268d1a7c09abcff41a48dd53f15df694
+    m_Address: PnlPlayerInformation
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 35b4989a80ff988429d8442ab1d21ca7
+    m_Address: BoxSoldierInMap
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74eedb84274e3de4b82694a115684e3a
+    m_Address: PlanetResItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04785754a224d3e47aff36cce5fabbbc
+    m_Address: PlanetSoliderItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 426cb1d857ae5424b980b573e316a8b4
+    m_Address: PnlMap
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc12621b60a4d184eba42e14b7f12c46
+    m_Address: PnlPlanet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 764ee55a74ed05340bae6932f1508c8f
+    m_Address: PnlRename
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f0e722d49f535d4985c253b611d9dd4
+    m_Address: MatchItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a507193aab4d9c540b510fc9f729643f
+    m_Address: PnlMatch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69eefe3688458404a9cadafe754bcc15
+    m_Address: BoxMyPlanet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78ffe8e3229da01469733861cd6d1bd3
+    m_Address: PnlMyPlanet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78a664b7a62dfd14c89cb3cce3939f74
+    m_Address: NFTTowerItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c8ad665c4d0f3ed429bf6c1416456b92
+    m_Address: NFTTowerItems
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c51d25f00b767e34a992dd76189a045b
+    m_Address: PnlNFTTower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06fb5441ff6c9f440b29c1dbbe0a5650
+    m_Address: PlayerDetailedHeadItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d3419d1b2b27dc42b29dc4089111662
+    m_Address: PlayerDetailedSelectHeadBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fcf21be70b429e5489d20820f928b332
+    m_Address: PnlChangeName
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6061a586e5429634fb2cc2400a4144cb
+    m_Address: PnlPlayerDetailed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fbd35900f4c69fb4d9991297ad702041
+    m_Address: PnlPveDailyReward
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dab346a1d9d888c4dbd556139027364e
+    m_Address: PnlPveNew
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1dad7ee2dacb3cd4d8ee2404a8eb46b1
+    m_Address: PveDailyRewardBigItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f16f166f1cbc9654cbb77f7bf20a15ee
+    m_Address: PveDailyRewardItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a000f0dde6eb1b45b6106b894839406
+    m_Address: PvePlanetItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59b3b302f4fd33e47b5c04671da138db
+    m_Address: PveRewardItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34fea7c38a9052b428ed9515b3f636c6
+    m_Address: PveStarItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f35f565e28bb81d40b01950a5aefbce0
+    m_Address: PveSubRewardBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1844db9440e2efb438058e02d20b432e
+    m_Address: PnlPveResultLose
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b152430437e37a742aa616ee52571c01
+    m_Address: PnlPveResultWin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 64a447f9ec6498840949ff91d42acc83
+    m_Address: PveResultStarBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f8904485acb6cf4f9b06e2dbb1e7df9
+    m_Address: BoxReward
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e818c0bc1103a0a468a43abc1e301bb3
+    m_Address: PnlPvp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 611f77af7706fd54098493b6b5d1f058
+    m_Address: PnlPvpFetch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e9c447389ac2abd449e160ebf721fc42
+    m_Address: PnlPvpHistory
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c607f875b9eabba4683e7220a923dcf9
+    m_Address: PnlPvpRank
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ca289b78077c4340a6e80c27f32703f
+    m_Address: PnlPvpReward
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e27c06fc3315a6241861dca732382637
+    m_Address: PnlPvpRewardRule
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db83be13510c80c499769a4b1e096175
+    m_Address: PvpHistoryItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d7aaba12cbac134f966432d72d6f09c
+    m_Address: PvpPlayerItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d1f1852bb20e7f4b9caa227fcfa2c50
+    m_Address: PvpRankItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cf3f54cbc24779e4cb29c4a820704744
+    m_Address: PvpRewardRuleItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f07b96cdd10cd5746a69e2f8e1aa0483
+    m_Address: PvpStageBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f50ace02e66379489f735d87d00ac8b
+    m_Address: PvpStar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6acac04648fb6241a3f7822c42a5b39
+    m_Address: PnlRank
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 242d697be7b89cd47951d7ba66f90a30
+    m_Address: RankBaseInfoItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74353e68eb679ab49a2919e6073f9a8a
+    m_Address: RankDaoInfoItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e2ce9b72d86e9a4e871024688a3d2f7
+    m_Address: RankItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb07a62ca41427b408f1fb739c8feaff
+    m_Address: RankPersonalInfoItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a4c37325a69a16a4080d1b4d90e18dbc
+    m_Address: BoxRecord
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d2e6770cf9951940bbd531392e5813b
+    m_Address: BtnNft
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 310f3aeb868f54c41ae65ec9219fc15d
+    m_Address: BtnNftInRoutes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ede850a0b6295e458d63296f9b4378b
+    m_Address: PnlRoutes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eac366e5990756843924e695695c7762
+    m_Address: PnlRule
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab0a53ea4a28a6241a1c62d3942a1ded
+    m_Address: BtnChangeRace
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c2ce10dfe0abc94c87d3a4632dc146b
+    m_Address: PnlSelectRace
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d0db074ea2a21b14f939b04146fe44a0
+    m_Address: RaceAnswerItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 31d75c6434da1d84c874c4e3555728c2
+    m_Address: ButtonSetting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a606953c02799d4688745e5be8c9606
+    m_Address: PnlSetting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a305f23803f03be4cb32764ce542109c
+    m_Address: PnlSettingLanguage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ee8ac8ac0089254ba58bd3752812639
+    m_Address: PnlSettingproducer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7312ba904e810a447af2c0c4e5615587
+    m_Address: PnlSettingService
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f5802a5d538db844399961262ac17d8c
+    m_Address: PnlSettingWallet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97c4988a89aea444dbcc7efab2719825
+    m_Address: ProducerItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 497685a8a3395544b9d1de54f5266df7
+    m_Address: SettingLanguageItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 00fa356a518e2124f81ecf8725102ec7
+    m_Address: BoxSoldier
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d052f495bf64ad4fbc4ed9102a954a5
+    m_Address: BtnSoldier
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 70c1a54d0febdd048811aa40b2400e99
+    m_Address: PnlSoldier
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bbc64008dd4f47d41a509d6f7773ec1a
+    m_Address: PnlSoldierInstantTrain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e54ec693061fb041a0972ae073bc09a
+    m_Address: PnlSoldierQuickTrain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 49e010840e5f6d6409adf81dde2eedad
+    m_Address: SoldierQuickTrainItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 96affe2d9417bbe49ad0944caffa8cb4
+    m_Address: PnlTask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 762bfc7aa8121a44eacb34c032fb9544
+    m_Address: TaskItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9462d5fdc2e2d44439de24e507e0998e
+    m_Address: BoxAddpoint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c37dcfc1d92d08448533de983a50797
+    m_Address: BoxApply
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1afb280f08c5b8741a7eda826d03cab0
+    m_Address: BoxFlag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b466c13f6d2303043b57c020823bd467
+    m_Address: BoxMember
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 94c167fbfb1cf43418aa0d5735ac91e0
+    m_Address: BoxMyUnionReport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a0dbb88dfeb170429a7e91cf64fc12b
+    m_Address: BoxSingleReport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 133b9f88b87eba543aa7efe1783298f8
+    m_Address: BoxTech
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c0f512b772f82d84eafe14277df10b42
+    m_Address: BoxTotalReport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88480f0896ddd4b47b7c9a527c2dec40
+    m_Address: BoxUnion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 60ea330202642d8469cb655df4df2ce4
+    m_Address: BoxUnionInvite
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 681e6b3f006b8c04494afe14ff5ed198
+    m_Address: BoxUnionTrain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2e63dcd26c568a40811dcd223687c56
+    m_Address: BoxUpgrading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 984be1a66013dda4fbac2657c20ffe80
+    m_Address: BoxWarehouseNft
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f22ff032c65246040bea633fabdb640a
+    m_Address: Line
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9fd265ff934e26d468d93bcba7a6369f
+    m_Address: PnlUnion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80ac89eac428d844992c11ee0dad8aab
+    m_Address: PnlUnionWarReport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c07092a36058d4459f843e85321f239
+    m_Address: Point
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 20cd7c6c8b2f4584b837796be8cc00e9
+    m_Address: ResSliderWarehouse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 23dc4b81bc2c21849952a3a44e1e57f5
+    m_Address: SliderWarehouse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d306c0728ef42c444a320f056aa9ea61
+    m_Address: TechDefence
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7da16bf2d2c80b4ea105b0a7cf93417
+    m_Address: TechEconmy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e4822bb5119d714687e8fc4cc65aab9
+    m_Address: TechMilitary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fab9a7cf94dc0a745a3aec0b34a1460f
+    m_Address: EditUnionArmySkillItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a36a3919013bb045a81abda480a5b57
+    m_Address: PnlUnionArmy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ed8c648687f54d443bf655f8ef8fb04b
+    m_Address: PnlUnionArmyEdit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0486f0f4e148e0746b85616a33f406cb
+    m_Address: UnionArmyEditItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43a7695f07bb262499afb8224ff12090
+    m_Address: UnionArmyHeroItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f4ac5ebe3b5c094a883046155df29cb
+    m_Address: UnionArmyHeroItems
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d23b3f9d57fd9647a51440676a1cce3
+    m_Address: UnionArmyItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2da28e7d69fd05343aadbbeda2d40ae6
+    m_Address: UnionArmySoldierItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5dc18951efeaef04988d8be4f84d4b8d
+    m_Address: UnionArmySoldierItems
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 179559566081cb94ba9feeb7de5a72cd
+    m_Address: UnionArmyWarshipItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b14c7c173a067c2458a7690d24bc50fb
+    m_Address: UnionArmyWarshipItems
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3f622a254451c142b71a3269fdfee56
+    m_Address: UnionSubArmyItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6616aa972b7af18479a3f09b9c289887
+    m_Address: PnlUpgrade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1bd25027f628de340ae95e3450d03dd2
+    m_Address: BtnWarShip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c4d64419380f7eb4b9034397742724f4
+    m_Address: BtnWarShipSkill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e82e3f92202232140b368b35422dad43
+    m_Address: PnlWarShip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d49f627a3cf31346999e3b7f4026538
+    m_Address: ViewFullBg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 020b61430c8000f4d8e1a51622b146fc
+    m_Address: BoxlMaterialReward
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 51aab0dc59eb74a4484a52d377ef15a8
+    m_Address: PnlMaterialReward
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dbee2646f02783d48bf13b176b824a42, type: 2}
+    - {fileID: 11400000, guid: a6d07dc4290913c4e8289b74909aeb29, type: 2}

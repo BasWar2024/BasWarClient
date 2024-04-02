@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Common
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Common
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 81ae2d8509d1ae6418467f48d40786a4
+  m_SerializeEntries:
+  - m_GUID: 7e05f4109209ae64ea200b6557fb35d5
+    m_Address: Assets/GameRes/UI/Common/Locks_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6eb491401ae8d0e4daaf8ab471e25af4
+    m_Address: Assets/GameRes/UI/Common/White line.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d23b5b4049d0c4940949b20df3d28aa6
+    m_Address: Assets/GameRes/UI/Common/Line_icon.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f14f670d9b66434db84dca25750602d
+    m_Address: Assets/GameRes/UI/Common/Decrease_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2e1bd601c73393944bc4d9980e6774da
+    m_Address: Assets/GameRes/UI/Common/Blackboard_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ddae5f01715b6a54db37b0789469a24d
+    m_Address: Assets/GameRes/UI/Common/Progress bar_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4cae82917d3cd214393b011eb240731c
+    m_Address: Assets/GameRes/UI/Common/Sellect_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 94f1ee9168893e944b21f8cb1aea8787
+    m_Address: Assets/GameRes/UI/Common/Text box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c5ce7a2425f75741b283f57c8caffc0
+    m_Address: Assets/GameRes/UI/Common/Time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e55948b2ee14659479e70792be7dea1d
+    m_Address: Assets/GameRes/UI/Common/Reconnecting_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e39461030b95ed94a837c20611c14166
+    m_Address: Assets/GameRes/UI/Common/String_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65977783839f55645ac6a78bae93c6b7
+    m_Address: Assets/GameRes/UI/Common/Reconnecting_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a64b3c3bbf68f5419918a2f76ee4bd0
+    m_Address: Assets/GameRes/UI/Common/Yellow line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06871dd3e8258654f8fccab7cc1add7e
+    m_Address: Assets/GameRes/UI/Common/Badges_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a3207b4fb0f1744cae0e39bee7bb058
+    m_Address: Assets/GameRes/UI/Common/Avatar arrow_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 704340f521e8ee645b1d898e1a994dcd
+    m_Address: Assets/GameRes/UI/Common/Ugrade_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 12bc3236feb438746bcffd540d1d9357
+    m_Address: Assets/GameRes/UI/Common/Progress bar_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 27e6815684a521d4fac0c134d93b1cfb
+    m_Address: Assets/GameRes/UI/Common/Arrow_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 20c2bf56e8e1ea5408ced66f8870a5cf
+    m_Address: Assets/GameRes/UI/Common/Reduce_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4d7eb0767d518f1469765ceee20eda25
+    m_Address: Assets/GameRes/UI/Common/Picture frame_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2e4d9a76e6f2a4a469170d66bb0c5d14
+    m_Address: Assets/GameRes/UI/Common/Locks_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3ac099a6aa173de4790db54bd236027b
+    m_Address: Assets/GameRes/UI/Common/Choose arrow_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccaecfd664a00d648a532123a1397c5d
+    m_Address: Assets/GameRes/UI/Common/Tiele_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 99d711f627459df4095c41c94696890c
+    m_Address: Assets/GameRes/UI/Common/Badges 01_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7deeb317d8b86a94fb191c7fc250ad27
+    m_Address: Assets/GameRes/UI/Common/Back bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb0080577ced58d459b9194442ecb89c
+    m_Address: Assets/GameRes/UI/Common/Choose 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b7a3f978e4899441a9705a35a0a9c49
+    m_Address: Assets/GameRes/UI/Common/Upgrade_icon 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7ddee5a7fe2643e499e09171ede74389
+    m_Address: Assets/GameRes/UI/Common/Text box_icon_Mul.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b0a018b7e7d91614d80aa2240c8a1978
+    m_Address: Assets/GameRes/UI/Common/Choose_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b7565fb736086e5428a580c0eb8726e5
+    m_Address: Assets/GameRes/UI/Common/Vertical_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04f62978ef5c5a24eb69f7b6adb4a357
+    m_Address: Assets/GameRes/UI/Common/Locks_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d18e7da82be7489469f2cc15176a0886
+    m_Address: Assets/GameRes/UI/Common/tip_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4bcf2fa88172ca94a98ce615f5561b4c
+    m_Address: Assets/GameRes/UI/Common/Horizontal line_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 81e3e0b8dadabaa45892716fd8239bd7
+    m_Address: Assets/GameRes/UI/Common/Avatar frame_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d38426f80fef3d9459169ea822d95e7c
+    m_Address: Assets/GameRes/UI/Common/Small button_icon 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a260fb198d1baf5439753cf4a36697ea
+    m_Address: Assets/GameRes/UI/Common/Wrench_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cf07c7391b108444d93c87ec3dc95004
+    m_Address: Assets/GameRes/UI/Common/Dialog_icon_E.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd9bf88948e70fa4ca2cd8c768eacc55
+    m_Address: Assets/GameRes/UI/Common/Locks_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 795805b99ccc8e641b74e7ccccaf35c2
+    m_Address: Assets/GameRes/UI/Common/Small line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 200f57b9a6fade04faef9ed980f0f723
+    m_Address: Assets/GameRes/UI/Common/Exclamation mark_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b872364a03d5f524187b69327c2c669e
+    m_Address: Assets/GameRes/UI/Common/Name line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 635754aafea0bd349a3b9d0dfd0a5566
+    m_Address: Assets/GameRes/UI/Common/Time_icon_153.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d9bc9bdad17dee74ba075610ceebd29f
+    m_Address: Assets/GameRes/UI/Common/Button 05_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9156295b20fb5934e91ebdaf5625299a
+    m_Address: Assets/GameRes/UI/Common/options_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 826a817bc21b6864c8874844865ba26d
+    m_Address: Assets/GameRes/UI/Common/The title_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05b24a7bc73243a48bff03c7259f5572
+    m_Address: Assets/GameRes/UI/Common/Dialog 02_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1801389b824caad408c19690e7bd3849
+    m_Address: Assets/GameRes/UI/Common/Yes_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0df1c2ab0350afb41afb1dc0adf0aa95
+    m_Address: Assets/GameRes/UI/Common/Small button_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 28888e0cc522fa44e9a962c36bbcc4a1
+    m_Address: Assets/GameRes/UI/Common/Redact_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 775f679cf677ce0479d251631e1457ee
+    m_Address: Assets/GameRes/UI/Common/Icon bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2cf829ecca02e7a448593ffc09357040
+    m_Address: Assets/GameRes/UI/Common/recycle_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 991ce40d4395cb74190ec64ea5bc5c85
+    m_Address: Assets/GameRes/UI/Common/The time frame_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a8dbeed458246847925b411119ea520
+    m_Address: Assets/GameRes/UI/Common/Button 05_button_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 663af91e5cbb00f4aa4c4d9d403e8e23
+    m_Address: Assets/GameRes/UI/Common/Property backplane_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 828af07eedfd46541895aea6e9d4a879
+    m_Address: Assets/GameRes/UI/Common/Reduce_icon2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7d174e8e278645d43b8131e3f88b20dd
+    m_Address: Assets/GameRes/UI/Common/Vertical_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01cb9fbe3f517204089492fd9a8f7e52
+    m_Address: Assets/GameRes/UI/Common/Increase_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5f56e0f12ed8c340a74ee1d9a1faa74
+    m_Address: Assets/GameRes/UI/Common/Upgrade_icon 2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 49b7eb1fae73fda4ba4368b85f5d3ee7
+    m_Address: Assets/GameRes/UI/Common/Fluctuate box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: deba673fea6883540b69d4eda3a51da3
+    m_Address: Assets/GameRes/UI/Common/Black board_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d8ec76bf032fd9d448da6abc9e79b4bb
+    m_Address: Assets/GameRes/UI/Common/wait_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e7208694e67041d438943b8495f00af1, type: 2}
+    - {fileID: 11400000, guid: ebdfef5b2be26a04b8043305bfd3a044, type: 2}

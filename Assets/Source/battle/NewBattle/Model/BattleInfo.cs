@@ -10,6 +10,7 @@ namespace Battle
         public int SigninId;
         public List<OperInfo> OperInfoList;
         public InitBattleModel InitBattle;
+        public int endStep;
     }
 
 }

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_Cure
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_Cure
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2a9f0c9248c0dbd488d17bba70488429
+  m_SerializeEntries:
+  - m_GUID: 5db04c60495dd5949b430215d582eed5
+    m_Address: Assets/GameRes/Effect/Eff_Cure/Eff_Cure_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15e178711c114f34fa4ca311e2c8623f
+    m_Address: Assets/GameRes/Effect/Eff_Cure/Eff_Cure_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 25b9baf1d16c54648b2e174eef89f5a5
+    m_Address: Assets/GameRes/Effect/Eff_Cure/Eff_Cure.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ace61ed52ee6ce14cbbfb8c5cc01bb8a
+    m_Address: Assets/GameRes/Effect/Eff_Cure/Eff_Cure_Eff_Cure2-Screen.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 11bd617a2c6996842bd733f53c4ce236
+    m_Address: Assets/GameRes/Effect/Eff_Cure/Eff_Cure_Material-Screen.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b39d6bacb359fb44bf767f35c8b51c5
+    m_Address: Assets/GameRes/Effect/Eff_Cure/Eff_Cure.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0821571be410f7d46a5a657b9dc8ab51
+    m_Address: Assets/GameRes/Effect/Eff_Cure/Eff_Cure.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95d844bff04710b4faf6a3b38816146f
+    m_Address: Assets/GameRes/Effect/Eff_Cure/Eff_Cure_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1621d0f7165ce0f46ba9d4070407e090, type: 2}
+    - {fileID: 11400000, guid: 3d4df60e25809734f9bf44026bf6791c, type: 2}

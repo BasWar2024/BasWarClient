@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Main-Res
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Main-Res
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e5ea17ebdb414624d81210dae1d9acbf
+  m_SerializeEntries:
+  - m_GUID: 7cdfb769e2b7c524db23ee33dae0be02
+    m_Address: Assets/GameRes/UI/Main/Res/Details bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b43811ea8448875429330ecaa3956340
+    m_Address: Assets/GameRes/UI/Main/Res/Details line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 970132adc67c26049be5468ce65dd177
+    m_Address: Assets/GameRes/UI/Main/Res/Collection box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ebbf953fe2d1fd94ebb10119c8c1d556
+    m_Address: Assets/GameRes/UI/Main/Res/Details box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2068a6cff6698f54da399efb934aad91
+    m_Address: Assets/GameRes/UI/Main/Res/Detail arrow_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 687b964e658caf443ad1750d8cf8f614, type: 2}
+    - {fileID: 11400000, guid: c148505ab27c5fa4e8456468ccf0223b, type: 2}

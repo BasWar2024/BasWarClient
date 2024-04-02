@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Shader-Custom
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Shader-Custom
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 24c7b899e3ffa914e893085b4a9c7b9b
+  m_SerializeEntries:
+  - m_GUID: ed963282d46f13f49801fc80bde1afce
+    m_Address: Assets/Shader/Custom/WarShipGradualChange.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5647405760e661442b792fc99de758b3
+    m_Address: Assets/Shader/Custom/FresnelTransparentEffect.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ec95c0d4557f3c8418019f983cbebfbf
+    m_Address: Assets/Shader/Custom/FlashUI.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7c14d7ec7e9d06a4f8755094c61af52d, type: 2}
+    - {fileID: 11400000, guid: 6922e31cf00f0024fa3252bfbf596edc, type: 2}

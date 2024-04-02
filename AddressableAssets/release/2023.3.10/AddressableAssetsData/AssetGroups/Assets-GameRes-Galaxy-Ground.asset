@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Galaxy-Ground
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Galaxy-Ground
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2aada22bf7ebddb4ab059233f1d10abe
+  m_SerializeEntries:
+  - m_GUID: 3a896b504219320469afa7f239f0c4aa
+    m_Address: Assets/GameRes/Galaxy/Ground/grid empty_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 18b44661a38fe934fb8c1a620954e647
+    m_Address: Assets/GameRes/Galaxy/Ground/grid_icon_E.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f805a222d94d5345a5df5ce7a04d845
+    m_Address: Assets/GameRes/Galaxy/Ground/grid side_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 23ef7023c82d8e245ab3594f48a8dbb1
+    m_Address: Assets/GameRes/Galaxy/Ground/grid side_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 16fd7a93c047101438c5748799554817
+    m_Address: Assets/GameRes/Galaxy/Ground/grid side_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f4af7fa583d84d64bbadae3fef6bb18d
+    m_Address: Assets/GameRes/Galaxy/Ground/grid side_icon_E.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3922b626bc5830840be826f1d82f50ea
+    m_Address: Assets/GameRes/Galaxy/Ground/grid_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f05e73a64f1295d48b61894dde677109
+    m_Address: Assets/GameRes/Galaxy/Ground/grid_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac7200d77a46a314fa5de253f6776e18
+    m_Address: Assets/GameRes/Galaxy/Ground/grid side_icon_F.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9f4a068931568a4ca71d4116f031699
+    m_Address: Assets/GameRes/Galaxy/Ground/grid_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2e40e89943404f34d8a13984233897b3
+    m_Address: Assets/GameRes/Galaxy/Ground/grid side_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9bb5f9b9f1c9a74fbdf8e350b44f869
+    m_Address: Assets/GameRes/Galaxy/Ground/grid_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cd4ed8ae13ffada48ad93e7d611b75ca
+    m_Address: Assets/GameRes/Galaxy/Ground/grid_icon_F.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f176095139a5bca4fb91ad4aa53c7622
+    m_Address: Assets/GameRes/Galaxy/Ground/Gas4_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8fb3d2729c6398f4e9bb22ac4fcf0ffc
+    m_Address: Assets/GameRes/Galaxy/Ground/Ice3_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: decdc7c2d34c18c4ca2f4eb351cf74cc
+    m_Address: Assets/GameRes/Galaxy/Ground/Gas5_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1417aca333332eb4e92e246ab3d065f7
+    m_Address: Assets/GameRes/Galaxy/Ground/Hydroxyl6_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 57908fa315ff2ae45bf31958796e737f
+    m_Address: Assets/GameRes/Galaxy/Ground/Hydroxyl3_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1dc8bc33839d9b4a8fc0c6373fae1dc
+    m_Address: Assets/GameRes/Galaxy/Ground/Gas1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9088ae3a01279a49ac1eaf6ac1f8868
+    m_Address: Assets/GameRes/Galaxy/Ground/Ice4_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 25c960f4ea8f34a47861a42f95a309c7
+    m_Address: Assets/GameRes/Galaxy/Ground/Ice2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10025b75be9eedc469a0d46c8a403140
+    m_Address: Assets/GameRes/Galaxy/Ground/Ice1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2933e2a5505f9724799228694f0dbacc
+    m_Address: Assets/GameRes/Galaxy/Ground/Star3_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb8bd146a2190dc4fb3af8401eef8130
+    m_Address: Assets/GameRes/Galaxy/Ground/Gas2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8f6e5f6f755c2a44acbe5c5246c04f5
+    m_Address: Assets/GameRes/Galaxy/Ground/Hydroxyl4_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c4eda873cd0da44db861c66c42d12c2
+    m_Address: Assets/GameRes/Galaxy/Ground/Hydroxyl1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ca22de7f73f62b4b8d154876ea1445b
+    m_Address: Assets/GameRes/Galaxy/Ground/Star5_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1a909086af0d6b41b0c578e957eb789
+    m_Address: Assets/GameRes/Galaxy/Ground/Hydroxyl5_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a779a2954fabaa4a9ec5c9f119d0df4
+    m_Address: Assets/GameRes/Galaxy/Ground/Ice5_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ff6e71e9a005c9e4f867d2dfef684ddd
+    m_Address: Assets/GameRes/Galaxy/Ground/Star4_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40de405aef8bcd941b25c3585c462c69
+    m_Address: Assets/GameRes/Galaxy/Ground/Ti1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 99c8597a71cbb034183d2699c72519af
+    m_Address: Assets/GameRes/Galaxy/Ground/Ti3_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 684e643b6e1bcb0438231d19b244946c
+    m_Address: Assets/GameRes/Galaxy/Ground/Gas3_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9664327bdcdae6d449dd3f268f35882c
+    m_Address: Assets/GameRes/Galaxy/Ground/Hydroxyl7_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17c2baccb632d174485e6f4b1fe317a6
+    m_Address: Assets/GameRes/Galaxy/Ground/Ti5_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b1fdb2d4b12b984abe0e9e66255a5f2
+    m_Address: Assets/GameRes/Galaxy/Ground/protect_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4dd6a28d4e04c1d48bbf6ea776d503fc
+    m_Address: Assets/GameRes/Galaxy/Ground/Hydroxyl2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 11b21c8df9c9fed4080efff579292a78
+    m_Address: Assets/GameRes/Galaxy/Ground/Star2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e574ceed33da4a94dabbbfa8e592520b
+    m_Address: Assets/GameRes/Galaxy/Ground/war_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4e328f2eec6792744bec948eff5b747a
+    m_Address: Assets/GameRes/Galaxy/Ground/Ti2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8ba1e2ee8e4e6214db9d3ab626f47bcb
+    m_Address: Assets/GameRes/Galaxy/Ground/Ti4_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 75ed3fcfe6bd0ab4f969430541955398
+    m_Address: Assets/GameRes/Galaxy/Ground/Star1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7bdd9728670bb564c9b0169070d89206, type: 2}
+    - {fileID: 11400000, guid: 8ec2c2f847111ca4a8dc827d24f22c74, type: 2}

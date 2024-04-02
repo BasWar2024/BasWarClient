@@ -1,12 +1,12 @@
---- string
+--- string""
 --@script gg.base.util.string
 --@author sundream
 --@release 2018/12/25 10:30:00
 
---- str,charsetcharset
---@param[type=string] str 
---@param[type=table,opt] charset ,
---@return[type=string] 
+--- ""str"",""charset，""charset""
+--@param[type=string] str ""
+--@param[type=table,opt] charset "",""
+--@return[type=string] ""
 function string.ltrim(str,charset)
     local patten
     if charset then
@@ -17,10 +17,10 @@ function string.ltrim(str,charset)
     return string.gsub(str,patten,"")
 end
 
---- str,charsetcharset
---@param[type=string] str 
---@param[type=table,opt] charset ,
---@return[type=string] 
+--- ""str"",""charset，""charset""
+--@param[type=string] str ""
+--@param[type=table,opt] charset "",""
+--@return[type=string] ""
 function string.rtrim(str,charset)
     local patten
     if charset then
@@ -32,24 +32,24 @@ function string.rtrim(str,charset)
     return string.gsub(str,patten,"")
 end
 
---- str,charsetcharset
---@param[type=string] str 
---@param[type=table,opt] charset ,
---@return[type=string] 
+--- ""str"",""charset，""charset""
+--@param[type=string] str ""
+--@param[type=table,opt] charset "",""
+--@return[type=string] ""
 function string.trim(str,charset)
     str = string.ltrim(str,charset)
     return string.rtrim(str,charset)
 end
 
---- 
+--- ""
 function string.isdigit(str)
     local ret = pcall(tonumber,str)
     return ret
 end
 
---- 16
---@param[type=string] str 
---@return[type=string] 16
+--- ""16""
+--@param[type=string] str ""
+--@return[type=string] 16""
 function string.str2hex(str)
     assert(type(str) == "string")
     local list = {"0x"}
@@ -68,11 +68,11 @@ function string.hex2str(hex)
 end
 
 local NON_WHITECHARS_PAT = "%S+"
---- 
---@param[type=string] str 
---@param[type=string,opt] pat ,
---@param[type=int,opt=-1] maxsplit ,-1
---@return[type=table] 
+--- ""，""
+--@param[type=string] str ""
+--@param[type=string,opt] pat "",""
+--@param[type=int,opt=-1] maxsplit "",""-1""
+--@return[type=table] ""
 --@usage
 --local str = "a.b.c"
 --local list = string.split(str,".",1)  -- {"a","b"}
@@ -119,9 +119,9 @@ end
 
 local UTF8_LEN_ARR  = {0, 0xc0, 0xe0, 0xf0, 0xf8, 0xfc}
 
---- utf8
---@param[type=string] input utf8
---@return[type=int] utf8
+--- ""utf8""
+--@param[type=string] input utf8""
+--@return[type=int] utf8""
 function string.utf8len(input)
     local len  = string.len(input)
     local left = len
@@ -142,9 +142,9 @@ function string.utf8len(input)
     return cnt
 end
 
---- utf8
---@param[type=string] input utf8
---@return[type=table] utf8
+--- ""utf8""
+--@param[type=string] input utf8""
+--@return[type=table] utf8""
 function string.utf8chars(input)
     local len  = string.len(input)
     local left = len
@@ -165,9 +165,90 @@ function string.utf8chars(input)
     return chars
 end
 
---- 
---@param[type=string] str ,:"YYYY-mm-dd HH:MM:SS"
---@return[type=int] 
+--""
+function string.utf8textlen(input)
+    local len  = string.len(input)
+    local left = len
+    local cnt  = 0
+    local arr = UTF8_LEN_ARR
+    while left ~= 0 do
+        local tmp = string.byte(input, -left)
+        local i   = #arr
+        while arr[i] do
+            if tmp >= arr[i] then
+                left = left - i
+                break
+            end
+            i = i - 1
+        end
+
+        if i == 3 then
+            cnt = cnt + 2
+        else
+            cnt = cnt + 1
+        end
+    end
+    return cnt
+end
+
+--""utf8
+function string.utf8sub(input, i, j)
+    local startByte = 0
+    local endbyte = 0
+    local len = string.len(input)
+    if i > len then
+        return ""
+    end
+    local utf8Left = 0
+    local left = 1
+
+    while left <= len do
+        local tmp = string.byte(input, left)
+        utf8Left = utf8Left + 1
+        if utf8Left == i then
+            startByte = left
+        end
+        local arr  = UTF8_LEN_ARR
+        local byteLen = #arr
+        while arr[byteLen] do
+            if tmp >= arr[byteLen] then
+                left = left + byteLen
+                break
+            end
+            byteLen = byteLen - 1
+        end
+        if utf8Left <= j then
+            endbyte = left
+        else
+            break
+        end
+    end
+    return string.sub(input, startByte, endbyte - 1)
+end
+
+--""str""
+function string.utf8sortcompare(a, b)
+    local charListA = string.utf8chars(a)
+    local charListB = string.utf8chars(b)
+
+    for index, valueA in ipairs(charListA) do
+        local valueB = charListB[index]
+        if not valueB then
+            break
+        end
+        local byteA = string.byte(valueA)
+        local byteB = string.byte(valueB)
+        if byteA ~= byteB then
+            return byteA < byteB
+        end
+    end
+
+    return #charListA < charListB
+end
+
+--- ""
+--@param[type=string] str "","":"YYYY-mm-dd HH:MM:SS"
+--@return[type=int] ""
 function string.totime(str)
     local year,mon,day,hour,min,sec = string.match(str,"^(%d+)[/-](%d+)[/-](%d+)%s+(%d+):(%d+):(%d+)$")
 
@@ -200,7 +281,7 @@ function string.extname(path)
     return path:match(".+%.(%w+)$")
 end
 
--- 62
+-- ""62""
 function string.gen62char()
     local map = {}
     for i=0,61 do
@@ -222,9 +303,9 @@ end
 string.CHAR_MAP = string.gen62char()
 
 
---- 260-9
---@param[type=int] len 
---@return[type=string] 
+--- ""26""0-9""
+--@param[type=int] len ""
+--@return[type=string] ""
 function string.randomkey(len)
     len = len or 32
     local ret = {}
@@ -235,11 +316,11 @@ function string.randomkey(len)
     return table.concat(ret,"")
 end
 
---- 
---@param[type=string] s 
---@param[type=string] prefix 
---@param[type=int,opt] from 
---@param[type=int,opt] to (),s[from:end]
+--- ""
+--@param[type=string] s ""
+--@param[type=string] prefix ""
+--@param[type=int,opt] from ""
+--@param[type=int,opt] to ""(""),""s[from:end]
 function string.startswith(s,prefix,from,to)
     from = from or 1
     to = to or #s
@@ -252,11 +333,11 @@ function string.startswith(s,prefix,from,to)
     return false
 end
 
---- 
---@param[type=string] s 
---@param[type=string] suffix 
---@param[type=int,opt] from 
---@param[type=int,opt] to (),s[from:end]
+--- ""
+--@param[type=string] s ""
+--@param[type=string] suffix ""
+--@param[type=int,opt] from ""
+--@param[type=int,opt] to ""(""),""s[from:end]
 function string.endswith(s,suffix,from,to)
     from = from or 1
     to = to or #s

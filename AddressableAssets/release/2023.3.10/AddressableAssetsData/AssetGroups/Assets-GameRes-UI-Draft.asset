@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Draft
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Draft
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f866d2a4d2e43534eba281671135b966
+  m_SerializeEntries:
+  - m_GUID: c34bfd00b07c3fa40a60350b476c47a6
+    m_Address: Assets/GameRes/UI/Draft/silde_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ad67470bcd7de249a2c3c3a43cfee49
+    m_Address: Assets/GameRes/UI/Draft/attention_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6adf1e09b6bd334f8187b389074b3e5
+    m_Address: Assets/GameRes/UI/Draft/time_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c66380715cf3c594aae86e3f00cb5fd1
+    m_Address: Assets/GameRes/UI/Draft/article number 04_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78ed3ca1678f0d044865b89a12b2328c
+    m_Address: Assets/GameRes/UI/Draft/Arrow_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7e1c1e11556e054eab721f8e930723a
+    m_Address: Assets/GameRes/UI/Draft/solder_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f574aeb2219980645b0366fdf5190450
+    m_Address: Assets/GameRes/UI/Draft/Button_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86b2a8449827c0f4282a1f6456b8a8a0
+    m_Address: Assets/GameRes/UI/Draft/time_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b923f4d5daa75114f9d6366ea17a67f2
+    m_Address: Assets/GameRes/UI/Draft/article number 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ecb47589dd837e48a6ffa0910fa7f48
+    m_Address: Assets/GameRes/UI/Draft/reduce_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c421287b24e5c8b4390d05306f79fc7e
+    m_Address: Assets/GameRes/UI/Draft/title_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 09a118ebc92e8c14897aba0405f78fc6
+    m_Address: Assets/GameRes/UI/Draft/light_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc1d975d1fcbf814a8e87480e1699293
+    m_Address: Assets/GameRes/UI/Draft/Horizontal line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 60c8a56dd3457184098ebcf4e29e37e1
+    m_Address: Assets/GameRes/UI/Draft/increase_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 72cd13cdd5e548a4a95061d86c958568
+    m_Address: Assets/GameRes/UI/Draft/Button_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41ffe4ddd5f008c4db51db77735eb6aa
+    m_Address: Assets/GameRes/UI/Draft/article number 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7d53baf52b508745be91082cbeff0b8
+    m_Address: Assets/GameRes/UI/Draft/article number 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7b74f5a970108bc4295a7e40c25752ea, type: 2}
+    - {fileID: 11400000, guid: 14f9c2227479af44b9be2f92c21f42e9, type: 2}

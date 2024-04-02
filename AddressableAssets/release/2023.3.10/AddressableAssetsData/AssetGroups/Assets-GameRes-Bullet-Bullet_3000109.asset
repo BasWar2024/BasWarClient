@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_3000109
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_3000109
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 90de156e5839cc24eb74b40bb7b422da
+  m_SerializeEntries:
+  - m_GUID: 7e3b57f4db559624fa42eee934f4152b
+    m_Address: Assets/GameRes/Bullet/Bullet_3000109/Bullet_3000109.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c86ca8b9f3e0b744b121d7ed38d5088
+    m_Address: Assets/GameRes/Bullet/Bullet_3000109/rocket.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c48bba9ef8bea7c479c656d9c68122fd
+    m_Address: Assets/GameRes/Bullet/Bullet_3000109/Bullet_3000109.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f53bcbf4d69f90c4d885ea7aa4155a5a, type: 2}
+    - {fileID: 11400000, guid: 744c2590e86a54044b95a86b206c116e, type: 2}

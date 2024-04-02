@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Building
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Building
+  m_Data:
+    m_SerializedData: []
+  m_GUID: faf972e9e0fbbac41b9675ea7bf88f46
+  m_SerializeEntries:
+  - m_GUID: b1d7e3026e02c0043aacfe6c11e9dd60
+    m_Address: Assets/GameRes/UI/Building/Icon bottom_button_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0afae182aec4e554caa4d79b0402c291
+    m_Address: Assets/GameRes/UI/Building/Name bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3114fec2ba068634985f11f376d47591
+    m_Address: Assets/GameRes/UI/Building/Cancel_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93b3963498a15c4498fbd2378fce4c63
+    m_Address: Assets/GameRes/UI/Building/Sure_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 02c3b1849362f1d47822b7be021dfcd1
+    m_Address: Assets/GameRes/UI/Building/Upgrade_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1d39f468b10681e41957ed7bf3d595e3
+    m_Address: Assets/GameRes/UI/Building/Groove_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd207a8869dc1bb4c97fd7f576fb5856
+    m_Address: Assets/GameRes/UI/Building/Time bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0fab92ec67da2c948b4531a37e0ff450
+    m_Address: Assets/GameRes/UI/Building/Small Avatar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cf26854db1f1c7743ba3a461cde70b7a
+    m_Address: Assets/GameRes/UI/Building/Information_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ffc89c8fed1cf7e4aa766fc3deed0d7a
+    m_Address: Assets/GameRes/UI/Building/Upgrade immediately_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4cdbe0f60e09f0a4787987f21777c065, type: 2}
+    - {fileID: 11400000, guid: 2e43c38824526524683ee6be2ff78d97, type: 2}

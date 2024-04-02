@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Building2D-Spine_300010601
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Building2D-Spine_300010601
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 17eaaa5764baf0f4084e33bb5c5f3380
+  m_SerializeEntries:
+  - m_GUID: 912b831188487574abd6d932636b230d
+    m_Address: Assets/GameRes/Building2D/Spine_300010601/Spine_300010601_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 465477e26e8521643b8db01280dbf29e
+    m_Address: Assets/GameRes/Building2D/Spine_300010601/Spine_300010601.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af1e830311ce7e54aae879d48c4a6c89
+    m_Address: Assets/GameRes/Building2D/Spine_300010601/Spine_300010601_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a90370c32726493488e616c7176d187c
+    m_Address: Assets/GameRes/Building2D/Spine_300010601/Spine_300010601_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa78e26589bea1b4c92f9d7c8be6dd16
+    m_Address: Assets/GameRes/Building2D/Spine_300010601/Spine_300010601.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1d47dbdaeb993564e812e88d45ca5813
+    m_Address: Assets/GameRes/Building2D/Spine_300010601/Spine_300010601.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dd1c25831d9d1324ea81e76cf3b5556d, type: 2}
+    - {fileID: 11400000, guid: fd316a86f814dbc45a42bcdf1e52a0d6, type: 2}

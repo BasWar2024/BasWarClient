@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_MetalMissile
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_MetalMissile
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c1a1a24e077724c4cac938ea4c597fd6
+  m_SerializeEntries:
+  - m_GUID: 806d2396a6a82084bb52b31831a5ff4a
+    m_Address: Assets/GameRes/Bullet/Bullet_MetalMissile/Trail_MetalMissile.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b6e9c9b9995f53d4a8f8c1d863f58592
+    m_Address: Assets/GameRes/Bullet/Bullet_MetalMissile/Trail_Liberatorwarship 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c272c4b1e9abd448b056470db90ae74
+    m_Address: Assets/GameRes/Bullet/Bullet_MetalMissile/dimo_lambert1_BaseColor.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cedaef42ecb075d44b71fa8b91052ecd
+    m_Address: Assets/GameRes/Bullet/Bullet_MetalMissile/Bullet_MetalMissile.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bcdc6f2a91eb6be42afe2c6caae18c9d
+    m_Address: Assets/GameRes/Bullet/Bullet_MetalMissile/gun_flare_03.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 54a0352faf982fe40a8922bc10efda35
+    m_Address: Assets/GameRes/Bullet/Bullet_MetalMissile/Bullet_MetalMissile.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c80c4a40c94ba7a4b9e6b364acd6dd61, type: 2}
+    - {fileID: 11400000, guid: e0ad3256663b3594a9ecad02217028bd, type: 2}

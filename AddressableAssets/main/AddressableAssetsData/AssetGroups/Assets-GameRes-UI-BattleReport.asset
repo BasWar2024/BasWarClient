@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-BattleReport
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-BattleReport
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a0b7e1c9c90efe74ba35a2a7f0caf25a
+  m_SerializeEntries:
+  - m_GUID: 5b1161903b2b4ba4695ba7001a99f180
+    m_Address: Assets/GameRes/UI/BattleReport/battle damage_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 50ff3adcb8e105b4080d10d6ac645b6b
+    m_Address: Assets/GameRes/UI/BattleReport/the box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b75ffd1b4d5e479478e740eba2c40443, type: 2}
+    - {fileID: 11400000, guid: 1173f89061104ac44815805ed1f425f3, type: 2}

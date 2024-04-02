@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-UnionArmyIcon
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-UnionArmyIcon
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 54d08fb8c46b41845af3fb64b47bd61f
+  m_SerializeEntries:
+  - m_GUID: 061c6fa06595fe24295566672932ca75
+    m_Address: Assets/GameRes/UI/Icon/UnionArmyIcon/Heroes_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8f30315138994ea40a5d86652cadffb3
+    m_Address: Assets/GameRes/UI/Icon/UnionArmyIcon/Warship_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d44e29d6fc239b14585804241fa62bb9
+    m_Address: Assets/GameRes/UI/Icon/UnionArmyIcon/Heroes_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a321c4b9a5ca1904e897c702d9dffa30
+    m_Address: Assets/GameRes/UI/Icon/UnionArmyIcon/soldier_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 075495daa51530046a521e212ed1d6ee
+    m_Address: Assets/GameRes/UI/Icon/UnionArmyIcon/Warship_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 64958ccb55014614195d7a800bfa2837
+    m_Address: Assets/GameRes/UI/Icon/UnionArmyIcon/soldier_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 556018cc920e3f74780b9917a10a9498, type: 2}
+    - {fileID: 11400000, guid: 478c30d457eab864a99238c3410868d7, type: 2}

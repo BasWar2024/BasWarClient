@@ -1,4 +1,4 @@
---- table
+--- table""
 --@script gg.base.util.table
 --@author sundream
 --@release 2018/12/25 10:30:00
@@ -12,10 +12,10 @@ if table.pack == nil then
     end
 end
 
---- : 
---@param[type=table] set 
---@param[type=func] func 
---@return[type=bool] 
+--- "": ""
+--@param[type=table] set ""
+--@param[type=func] func ""
+--@return[type=bool] ""
 function table.any(set,func)
     for k,v in pairs(set) do
         if func(k,v) then
@@ -25,10 +25,10 @@ function table.any(set,func)
     return false
 end
 
---- : 
---@param[type=table] set 
---@param[type=func] func 
---@return[type=bool] 
+--- "": ""
+--@param[type=table] set ""
+--@param[type=func] func ""
+--@return[type=bool] ""
 function table.all(set,func)
     for k,v in pairs(set) do
         if not func(k,v) then
@@ -38,10 +38,10 @@ function table.all(set,func)
     return true
 end
 
---- 
---@param[type=table] tbl 
---@param[type=func] func 
---@return[type=table] 
+--- ""
+--@param[type=table] tbl ""
+--@param[type=func] func ""
+--@return[type=table] ""
 function table.filter_dict(tbl,func)
     local newtbl = {}
     for k,v in pairs(tbl) do
@@ -52,10 +52,10 @@ function table.filter_dict(tbl,func)
     return newtbl
 end
 
---- 
---@param[type=table] list 
---@param[type=func] func 
---@return[type=table] 
+--- ""
+--@param[type=table] list ""
+--@param[type=func] func ""
+--@return[type=table] ""
 function table.filter(list,func)
     local new_list = {}
     for i,v in ipairs(list) do
@@ -66,7 +66,7 @@ function table.filter(list,func)
     return new_list
 end
 
---- 
+--- ""
 function table.max(func,...)
     if type(func) ~= "function" then
         return math.max(...)
@@ -82,7 +82,7 @@ function table.max(func,...)
     return max
 end
 
---- 
+--- ""
 function table.min(func,...)
     if type(func) ~= "function" then
         return math.min(...)
@@ -120,10 +120,10 @@ function table.map(func,...)
     return newtbl
 end
 
---- 
---@param[type=table] tbl 
---@param[type=func] func /
---@return k,v 
+--- ""
+--@param[type=table] tbl ""
+--@param[type=func] func ""/""
+--@return k,v ""
 function table.find(tbl,func)
     local isfunc = type(func) == "function"
     for k,v in pairs(tbl) do
@@ -139,9 +139,9 @@ function table.find(tbl,func)
     end
 end
 
---- 
---@param[type=table] t 
---@return[type=table] 
+--- ""
+--@param[type=table] t ""
+--@return[type=table] ""
 function table.keys(t)
     local ret = {}
     for k,v in pairs(t) do
@@ -150,9 +150,9 @@ function table.keys(t)
     return ret
 end
 
---- 
---@param[type=table] t 
---@return[type=table] 
+--- ""
+--@param[type=table] t ""
+--@return[type=table] ""
 function table.values(t)
     local ret = {}
     for k,v in pairs(t) do
@@ -161,9 +161,9 @@ function table.values(t)
     return ret
 end
 
---- dump(,)
---@param[type=table] t 
---@return[type=string] dump
+--- ""dump""("","")
+--@param[type=table] t ""
+--@return[type=string] dump""
 function table.dump(t,space,name)
     if type(t) ~= "table" then
         return tostring(t)
@@ -190,11 +190,11 @@ function table.dump(t,space,name)
     return _dump(t,space,name)
 end
 
---- 
---@param[type=table] tbl 
---@param[type=string] attr 
---@return[type=any] 
---@raise 
+--- ""
+--@param[type=table] tbl ""
+--@param[type=string] attr ""
+--@return[type=any] ""
+--@raise ""
 --@usage local val = table.getattr(tbl,"key")
 --@usage local val = table.getattr(tbl,"k1.k2.k3")
 function table.getattr(tbl,attr)
@@ -206,11 +206,11 @@ function table.getattr(tbl,attr)
     return root
 end
 
---- 
---@param[type=table] tbl 
---@param[type=string] attr 
---@return[type=bool] 
---@return[type=any] 
+--- ""
+--@param[type=table] tbl ""
+--@param[type=string] attr ""
+--@return[type=bool] ""
+--@return[type=any] ""
 --@usage local exist,val = table.hasattr(tbl,"key")
 --@usage local exist,val = table.hasattr(tbl,"k1.k2.k3")
 function table.hasattr(tbl,attr)
@@ -226,11 +226,11 @@ function table.hasattr(tbl,attr)
     return true,root
 end
 
---- 
---@param[type=table] tbl 
---@param[type=string] attr 
---@param[type=any] val 
---@return[type=any] 
+--- ""
+--@param[type=table] tbl ""
+--@param[type=string] attr ""
+--@param[type=any] val ""
+--@return[type=any] ""
 --@usage table.setattr(tbl,"key",1)
 --@usage table.setattr(tbl,"k1.k2.k3","hi")
 function table.setattr(tbl,attr,val)
@@ -248,10 +248,10 @@ function table.setattr(tbl,attr,val)
     return oldval
 end
 
---- 
---@param[type=table] tbl 
---@param[type=string] attr 
---@return[type=any] ,nil
+--- ""
+--@param[type=table] tbl ""
+--@param[type=string] attr ""
+--@return[type=any] "",""nil
 --@usage local val = table.query(tbl,"key")
 --@usage local val = table.query(tbl,"k1.k2.k3")
 function table.query(tbl,attr)
@@ -263,9 +263,9 @@ function table.query(tbl,attr)
     end
 end
 
---- 
---@param[type=table] tbl 
---@return[type=bool] 
+--- ""
+--@param[type=table] tbl ""
+--@return[type=bool] ""
 function table.isempty(tbl)
     if cjson and cjson.null == tbl then -- int64:0x0
         return true
@@ -276,9 +276,9 @@ function table.isempty(tbl)
     return false
 end
 
---- (,0/"")
---@param[type=table] tbl 
---@return[type=bool] 
+--- ""("",""，""0/"""")
+--@param[type=table] tbl ""
+--@return[type=bool] ""
 function table.isempty_ex(tbl)
     if table.isempty(tbl) then
         return true
@@ -305,10 +305,10 @@ function table.isempty_ex(tbl)
     return isempty
 end
 
---- 
---@param[type=table] tbl1 
---@param[type=table] tbl2 
---@return[type=table] 
+--- ""
+--@param[type=table] tbl1 ""
+--@param[type=table] tbl2 ""
+--@return[type=table] ""
 function table.extend(tbl1,tbl2)
     for i,v in ipairs(tbl2) do
         table.insert(tbl1,v)
@@ -316,10 +316,10 @@ function table.extend(tbl1,tbl2)
     return tbl1
 end
 
---- 
---@param[type=table] tbl1 
---@param[type=table] tbl2 
---@return[type=table] 
+--- ""
+--@param[type=table] tbl1 ""
+--@param[type=table] tbl2 ""
+--@return[type=table] ""
 function table.update(tbl1,tbl2)
     for k,v in pairs(tbl2) do
         if type(v) == "table" then
@@ -332,9 +332,9 @@ function table.update(tbl1,tbl2)
     return tbl1
 end
 
---- 
---@param[type=table] tbl 
---@return[type=int] 
+--- ""
+--@param[type=table] tbl ""
+--@return[type=int] ""
 function table.count(tbl)
     local cnt = 0
     for k,v in pairs(tbl) do
@@ -343,11 +343,11 @@ function table.count(tbl)
     return cnt
 end
 
---- 
---@param[type=table] t 
---@param[type=any] val 
---@param[type=int,opt] maxcnt ,
---@return[type=table] 
+--- ""
+--@param[type=table] t ""
+--@param[type=any] val ""
+--@param[type=int,opt] maxcnt "",""
+--@return[type=table] ""
 function table.del_value(t,val,maxcnt)
     local delkey = {}
     for k,v in pairs(t) do
@@ -365,11 +365,11 @@ function table.del_value(t,val,maxcnt)
     return delkey
 end
 
---- 
---@param[type=table] list 
---@param[type=any] val 
---@param[type=int,opt] maxcnt ,
---@return[type=table] 
+--- ""
+--@param[type=table] list ""
+--@param[type=any] val ""
+--@param[type=int,opt] maxcnt "",""
+--@return[type=table] ""
 function table.remove_value(list,val,maxcnt)
     local len = #list
     maxcnt = maxcnt or len
@@ -386,9 +386,9 @@ function table.remove_value(list,val,maxcnt)
     return delpos
 end
 
---- 
---@param[type=table] t 
---@return[type=table] 
+--- ""
+--@param[type=table] t ""
+--@return[type=table] ""
 function table.tolist(t)
     local ret = {}
     for k,v in pairs(t) do
@@ -401,7 +401,7 @@ local function less_than(lhs,rhs)
     return lhs < rhs
 end
 
---- [1,#t+1)>=val
+--- ""[1,#t+1)"">=val""
 function table.lower_bound(t,val,cmp)
     cmp = cmp or less_than
     local len = #t
@@ -421,7 +421,7 @@ function table.lower_bound(t,val,cmp)
     end
 end
 
---- [1,#t+1)>val
+--- ""[1,#t+1)"">val""
 function table.upper_bound(t,val,cmp)
     cmp = cmp or less_than
     local len = #t
@@ -441,10 +441,10 @@ function table.upper_bound(t,val,cmp)
     end
 end
 
---- 
---@param[type=any] lhs 1
---@param[type=any] rhs 2
---@return[type=bool] true--,false--
+--- ""
+--@param[type=any] lhs ""1
+--@param[type=any] rhs ""2
+--@return[type=bool] true--"",false--""
 function table.equal(lhs,rhs)
     if lhs == rhs then
         return true
@@ -465,12 +465,12 @@ function table.equal(lhs,rhs)
     return false
 end
 
---- 
---@param[type=table] list 
---@param[type=int] b 
---@param[type=int opt] e (),nil,b,b1
---@param[type=int opt=1] step 
---@return[type=table] 
+--- ""
+--@param[type=table] list ""
+--@param[type=int] b ""
+--@param[type=int opt] e ""(""),""nil,""b"",""b""1
+--@param[type=int opt=1] step ""
+--@return[type=table] ""
 --@usage
 --local list = {1,2,3,4,5}
 --local new_list = table.slice(list,1,3)  -- {1,2,3}
@@ -494,9 +494,9 @@ function table.slice(list,b,e,step)
 end
 
 
---- 
---@param[type=table] tbl 
---@return[type=table] 
+--- ""
+--@param[type=table] tbl ""
+--@return[type=table] ""
 function table.toset(tbl)
     tbl = tbl or {}
     local set = {}
@@ -506,10 +506,10 @@ function table.toset(tbl)
     return set
 end
 
---- 2
---@param[type=table] set1 1
---@param[type=table] set2 2
---@return[type=table] 
+--- ""2""
+--@param[type=table] set1 ""1
+--@param[type=table] set2 ""2
+--@return[type=table] ""
 function table.intersect_set(set1,set2)
     local set = {}
     for k in pairs(set1) do
@@ -520,10 +520,10 @@ function table.intersect_set(set1,set2)
     return set
 end
 
---- 2
---@param[type=table] set1 1
---@param[type=table] set2 2
---@return[type=table] 
+--- ""2""
+--@param[type=table] set1 ""1
+--@param[type=table] set2 ""2
+--@return[type=table] ""
 function table.union_set(set1,set2)
     local set = {}
     for k in pairs(set1) do
@@ -537,9 +537,9 @@ function table.union_set(set1,set2)
     return set
 end
 
---- 2
---@param[type=table] set1 1
---@param[type=table] set2 2
+--- ""2""
+--@param[type=table] set1 ""1
+--@param[type=table] set2 ""2
 --@return[type=table] set1-set2
 function table.diff_set(set1,set2)
     local ret = {}
@@ -552,9 +552,9 @@ function table.diff_set(set1,set2)
     return ret
 end
 
---- 
---@param[type=table] tbl 
---@return[type=bool] true--,false--
+--- ""
+--@param[type=table] tbl ""
+--@return[type=bool] true--"",false--""
 function table.isarray(tbl)
     if type(tbl) ~= "table" then
         return false
@@ -592,12 +592,12 @@ function table.simplify(o,seen)
     return newtable
 end
 
---- 
---@param[type=table] args 
---@param[type=table] descs 
---@param[type=bool,opt=false] strict ()
---@return[type=table|nil] table--,,nil--
---@return[type=string] nil,
+--- ""
+--@param[type=table] args ""
+--@param[type=table] descs ""
+--@param[type=bool,opt=false] strict ""("")
+--@return[type=table|nil] table--"","",nil--""
+--@return[type=string] ""nil"",""
 --@usage:
 --  local args,err = table.check(args,{
 --      sign = {type="string"},
@@ -614,13 +614,13 @@ function table.check(args,descs,strict)
             if desc.type == "number" then
                 local new_value = tonumber(value)
                 if new_value == nil then
-                    return nil,string.format("<%s,%s>: ,expect '%s',got '%s'",name,value,desc.type,type(value))
+                    return nil,string.format("<%s,%s>: "",expect '%s',got '%s'",name,value,desc.type,type(value))
                 end
                 if desc.min and desc.min > new_value then
-                    return nil,string.format("<%s,%s>: (%s)",name,value,desc.min)
+                    return nil,string.format("<%s,%s>: ""(%s)",name,value,desc.min)
                 end
                 if desc.max and desc.max < new_value then
-                    return nil,string.format("<%s,%s>: (%s)",name,value,desc.max)
+                    return nil,string.format("<%s,%s>: ""(%s)",name,value,desc.max)
                 end
                 new_args[name] = new_value
             elseif desc.type == "boolean" then
@@ -634,19 +634,19 @@ function table.check(args,descs,strict)
             elseif desc.type == "json" then
                 local isok,new_value = pcall(cjson.decode,value)
                 if not isok then
-                    return nil,string.format("<%s,%s>: ,expect '%s',got '%s'",name,value,desc.type,type(value))
+                    return nil,string.format("<%s,%s>: "",expect '%s',got '%s'",name,value,desc.type,type(value))
                 end
                 new_args[name] = new_value
             else
                 local types = string.split(desc.type,"|")
                 if not table.find(types,type(value)) then
-                    return nil,string.format("<%s,%s>: ,expect '%s',got '%s'",name,value,desc.type,type(value))
+                    return nil,string.format("<%s,%s>: "",expect '%s',got '%s'",name,value,desc.type,type(value))
                 end
                 new_args[name] = value
             end
         else
             if strict then
-                return nil,string.format("<%s,%s>: ",name,value)
+                return nil,string.format("<%s,%s>: """,name,value)
             else
                 new_args[name] = value
             end
@@ -656,7 +656,7 @@ function table.check(args,descs,strict)
     if next(descs) then
         for name,desc in pairs(descs) do
             if not desc.optional then
-                return nil,string.format(": %s",name)
+                return nil,string.format(""": %s",name)
             else
                 new_args[name] = desc.default
             end
@@ -665,11 +665,11 @@ function table.check(args,descs,strict)
     return new_args,nil
 end
 
---- 
---@param[type=table] list 
---@param[type=func,opt] rand ,math.random
---@return[type=any] 
---@return[type=int] 
+--- ""
+--@param[type=table] list ""
+--@param[type=func,opt] rand "",""math.random
+--@return[type=any] ""
+--@return[type=int] ""
 function table.choose(list,rand)
     rand = rand or math.random
     local len = #list
@@ -678,12 +678,12 @@ function table.choose(list,rand)
     return list[pos],pos
 end
 
---- (),
---@param[type=table] dict 
---@param[type=string,opt="&"] join_str 
---@param[type=table,opt={}] exclude_keys 
---@param[type=table,opt={}] exclude_values 
---@return[type=string] +
+--- ""(""),""
+--@param[type=table] dict ""
+--@param[type=string,opt="&"] join_str ""
+--@param[type=table,opt={}] exclude_keys ""
+--@param[type=table,opt={}] exclude_values ""
+--@return[type=string] ""+""
 --@usage
 --local dict = {k1 = 1,k2 = 2}
 --local str = table.ksort(dict,"&") -- k1=1&k2=2
@@ -708,18 +708,18 @@ function table.ksort(dict,join_str,exclude_keys,exclude_values)
     return table.concat(list2,join_str)
 end
 
---- 
---@param[type=table] tbl 
+--- ""
+--@param[type=table] tbl ""
 function table.clear(tbl)
     for k,v in pairs(tbl) do
         rawset(tbl,k,nil)
     end
 end
 
---- 
---@param[type=any] elem 
---@param[type=int] count 
---@return[type=table] 
+--- ""
+--@param[type=any] elem ""
+--@param[type=int] count ""
+--@return[type=table] ""
 function table.rep(elem,count)
     local list = {}
     for i=1,count do
@@ -728,10 +728,10 @@ function table.rep(elem,count)
     return list
 end
 
---- [from,to]
---@param[type=int] from 
---@param[type=int] to 
---@return[type=table] 
+--- ""[from,to]""
+--@param[type=int] from ""
+--@param[type=int] to ""
+--@return[type=table] ""
 function table.range(from,to)
     local list = {}
     for v = from, to do
@@ -740,11 +740,11 @@ function table.range(from,to)
     return list
 end
 
---- nil
---@param[type=table] array 
---@param[type=mixed] value 
---@param[type=integer] begin ,1
---@return[type=integer|nil] ,nil
+--- ""，""，""nil
+--@param[type=table] array ""
+--@param[type=mixed] value ""
+--@param[type=integer] begin "",""1
+--@return[type=integer|nil] "",""nil
 function table.indexof(array, value, begin)
     for i = begin or 1, #array do
         if array[i] == value then return i end
@@ -752,10 +752,10 @@ function table.indexof(array, value, begin)
     return nil
 end
 
----  key nil
---@param[type=table] hashtable 
---@param[type=mixed] value 
---@return  key
+--- ""，"" key，"" nil
+--@param[type=table] hashtable ""
+--@param[type=mixed] value ""
+--@return "" key
 function table.keyof(hashtable, value)
     for k, v in pairs(hashtable) do
         if v == value then return k end
@@ -763,11 +763,11 @@ function table.keyof(hashtable, value)
     return nil
 end
 
---- n
---@param[type=int] n n
---@param[type=table] tbl 
---@param[type=func] cmp (table.sort)
---@return[type=table] n
+--- ""n""
+--@param[type=int] n ""n""
+--@param[type=table] tbl ""
+--@param[type=func] cmp ""(""table.sort)
+--@return[type=table] ""n""
 function table.sortN(n,tbl,cmp)
     local ret = {}
     local len = 0

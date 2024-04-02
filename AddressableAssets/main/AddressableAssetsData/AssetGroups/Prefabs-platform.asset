@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-platform
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-platform
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 71ba226ebd92875409387f42dc8f04fd
+  m_SerializeEntries:
+  - m_GUID: 80fa72a7dc16129468975fc808cbddb2
+    m_Address: Building_platform_2x2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f32406a5415f27e4e9cd5cca41761404
+    m_Address: Building_platform_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8f27269467c2aa347a21f60ead941733
+    m_Address: Building_platform_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f581991e0d5c324eb378eacdb19a22c
+    m_Address: Building_platform_5x5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8fce170aba561e749aedf1c936ef93d8
+    m_Address: dead_platform_1x1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4e99868ed36664548b97f757399b43e6
+    m_Address: dead_platform_2x2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6742d78c6759374c999e2bce1dbb9f7
+    m_Address: dead_platform_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a65146cf672dea14ca4e0a53b782d68f
+    m_Address: dead_platform_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 912068fa92e7b3041af59ec77f6fcfee
+    m_Address: dead_platform_5x5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 83105c2f19b78bd4ca9bd5efe715da54
+    m_Address: dead_platform_LaserGun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5f78b5c22b697ea4f83f19d8695fadc7
+    m_Address: dead_platform_Lightbeadheavyartillery
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 09a23c6d3d2023f49b65693eca5bd5fc
+    m_Address: dead_platform_Separate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7d4a5380e17e3af459fd3db05ecd4290
+    m_Address: dead_platform_Thelasergun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d1c35d5011e61043b98b3d1e260f684
+    m_Address: gun_platform_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ec93629794213d54694134caddf75400, type: 2}
+    - {fileID: 11400000, guid: 6bf3eca81b9b7f048a697340b9ccb3b6, type: 2}

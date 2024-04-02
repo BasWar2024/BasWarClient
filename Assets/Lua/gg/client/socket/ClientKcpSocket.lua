@@ -1,7 +1,7 @@
---  kcp: (1byte) + (4byte,) + 
---  : 1=(SYN),2=(ACK),3=(FIN),4=(MSG,udp,)
---  : udp,(1314520,)
---  : 
+--  kcp"": ""(1byte) + ""(4byte,"") + ""
+--  "": 1=""(SYN),2=""(ACK),3=""(FIN),4=""(MSG,""udp"","")
+--  "": ""udp"",""(""1314520,"")
+--  "": ""
 
 local socket = require "socket"
 local lkcp = require "lkcp"
@@ -105,7 +105,7 @@ function ClientKcpSocket:connect(onConnect)
     self.kcp = kcpobj
     --kcpobj:lkcp_logmask(0xffffffff)
     kcpobj:lkcp_nodelay(1,10,2,1)
-    -- kcpkcpWndSize*(kcpMtu-kcpHeadSize)/2
+    -- kcp""kcpWndSize*(kcpMtu-kcpHeadSize)/2
     kcpobj:lkcp_wndsize(kcpWndSize,kcpWndSize)
     kcpobj:lkcp_setmtu(kcpMtu)
     self.now = 0
@@ -148,11 +148,11 @@ function ClientKcpSocket:packUserData()
     return nil
 end
 
---- 
---@param[type=string] cmd /
---@param[type=table] args 
---@param[type=bool,opt] response true=,false=,false
---@param[type=int,opt] session ,ID,0
+--- ""
+--@param[type=string] cmd ""/""
+--@param[type=table] args ""
+--@param[type=bool,opt] response true="",false="",""false
+--@param[type=int,opt] session "",""ID,""0
 function ClientKcpSocket:send(cmd,args,response,session)
     if not self:isConnected() then
         return
@@ -172,10 +172,10 @@ function ClientKcpSocket:rawSend(bin)
     self.kcp:lkcp_flush()
 end
 
---- 
---@param[type=string] cmd /
---@param[type=table] args 
---@param[type=function,opt] onResponse ,,RPC
+--- ""
+--@param[type=string] cmd ""/""
+--@param[type=table] args ""
+--@param[type=function,opt] onResponse "","",""RPC""
 function ClientKcpSocket:sendRequest(cmd,args,onResponse)
     local session = 0
     if onResponse then
@@ -186,10 +186,10 @@ function ClientKcpSocket:sendRequest(cmd,args,onResponse)
     self:send(cmd,args,false,session)
 end
 
---- 
---@param[type=string] cmd /
---@param[type=table] args 
---@param[type=int] session ID,
+--- ""
+--@param[type=string] cmd ""/""
+--@param[type=table] args ""
+--@param[type=int] session ""ID,""
 function ClientKcpSocket:sendResponse(cmd,args,session)
     self:send(cmd,args,true,session)
 end
@@ -230,7 +230,7 @@ function ClientKcpSocket:onConnect()
     end
 end
 
---- 
+--- ""
 function ClientKcpSocket:onClose()
     logger.logf("info", "op=onClose,ip=%s,port=%s,id=%s",self.ip,self.port,self.id)
     if self._onClose then

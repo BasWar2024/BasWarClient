@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Button-Button04
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Button-Button04
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c578166e9017e1b46923bd0295d58d58
+  m_SerializeEntries:
+  - m_GUID: 9a887ef458d15f24ba5ef979d727ae8f
+    m_Address: Assets/GameRes/UI/Icon/Button/Button04/Close_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0959d9d5dc958c04dbc1eac5efb328d3
+    m_Address: Assets/GameRes/UI/Icon/Button/Button04/Button 04_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 556d625b38d5ef349a06e5673116eacc, type: 2}
+    - {fileID: 11400000, guid: 89a6d3447b8021346b34f87b7878c71e, type: 2}

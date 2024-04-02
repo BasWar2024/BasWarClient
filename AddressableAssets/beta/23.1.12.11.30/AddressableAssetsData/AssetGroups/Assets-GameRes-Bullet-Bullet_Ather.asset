@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_Ather
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_Ather
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2c7009924190c3f4c9458a12887f674c
+  m_SerializeEntries:
+  - m_GUID: 4de3d62c1f2dad54c99e09cfee8ee21e
+    m_Address: Assets/GameRes/Bullet/Bullet_Ather/Bullet_Ather.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9097d58d8a71a484f8b0d783e567fb93
+    m_Address: Assets/GameRes/Bullet/Bullet_Ather/Bullet_Ather.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af4c7cb0b4f313e4aab286cd04d5f904
+    m_Address: Assets/GameRes/Bullet/Bullet_Ather/Eff_AtherDie.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f45714eefbe4f5f4680f8ec4b380272c
+    m_Address: Assets/GameRes/Bullet/Bullet_Ather/Eff_AtherDie.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b7f0190034f16414d824b912fd6953b9, type: 2}
+    - {fileID: 11400000, guid: 352a429bc42703b449cbaea684016110, type: 2}

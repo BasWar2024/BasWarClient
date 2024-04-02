@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Terrain-Env
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Terrain-Env
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 84202162bc95baf40b9b9e14cd2cd485
+  m_SerializeEntries:
+  - m_GUID: 78cb34c22100a444b820b68cd769a409
+    m_Address: Assets/GameRes/Terrain/Env/m_blikace_01.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 236733ca723ca8348b180905b4733bc7, type: 2}
+    - {fileID: 11400000, guid: 726f64f6c28b45a4586d5a8280280b15, type: 2}

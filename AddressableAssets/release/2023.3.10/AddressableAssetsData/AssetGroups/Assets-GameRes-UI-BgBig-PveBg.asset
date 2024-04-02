@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-BgBig-PveBg
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-BgBig-PveBg
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0ba7b51441bf1c547b1b0669db82a54b
+  m_SerializeEntries:
+  - m_GUID: 576f5b1338b45484ba7b24d862d51fc8
+    m_Address: Assets/GameRes/UI/BgBig/PveBg/background 03.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f184d2d768f1be5479181a4af2803e7d
+    m_Address: Assets/GameRes/UI/BgBig/PveBg/background 02.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dd5a32584c13f054eb99a722be318975, type: 2}
+    - {fileID: 11400000, guid: a63e6acd9431dff4092750e464e618d2, type: 2}

@@ -1,7 +1,7 @@
----: lua oopclass
---1.,,
---2.lua,()
---: blog.codingnow.com/cloud/LuaOO
+---"": ""lua oop""class
+--1.""，"",""，"",
+--2.""lua"",""("")
+--"": blog.codingnow.com/cloud/LuaOO
 --@script gg.base.class
 --@usage
 --local Point = class("Point")
@@ -41,7 +41,7 @@ ggclass = ggclass or {}
 
 function _reload_class(name)
     local class_type = assert(ggclass[name],"try to reload a non-exist class")
-    -- 
+    -- ""
     for k,v in pairs(class_type.__vtb) do
         class_type.__vtb[k] = nil
     end
@@ -61,7 +61,7 @@ function reload_class(name)
     return class_type
 end
 
--- 
+-- ""
 function class(name,...)
     local supers = {...}
     local class_type = ggclass[name] or {}

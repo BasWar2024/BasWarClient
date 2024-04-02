@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Building2D-platform-tx
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Building2D-platform-tx
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1bf692c610a86644499944cd8a3543c7
+  m_SerializeEntries:
+  - m_GUID: 38fc360fe8c3b094a8e2eb75fdb31c2f
+    m_Address: Assets/GameRes/Building2D/platform/tx/gun_platform_3x3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91ddd98d00bf8104b914fb30799e25d1
+    m_Address: Assets/GameRes/Building2D/platform/tx/Dead_platform_3x3_Thelasergun.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e40334f7520556d44b302cda3c6acdb9, type: 2}
+    - {fileID: 11400000, guid: 0d80c9f281792834c9f9fe15b5fa5b74, type: 2}

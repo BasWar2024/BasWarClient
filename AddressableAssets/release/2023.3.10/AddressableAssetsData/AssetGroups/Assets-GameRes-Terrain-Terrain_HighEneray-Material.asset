@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Terrain-Terrain_HighEneray-Material
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Terrain-Terrain_HighEneray-Material
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2fd6369f35224ea45a18beaab8469249
+  m_SerializeEntries:
+  - m_GUID: c8d00f27faf31c74b891838d63128ca5
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Material/UV3_zhuang_Green.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 79c045f5a95ef7f469410a97baaec268, type: 2}
+    - {fileID: 11400000, guid: 327898f9991a2fb449631a8595611ee7, type: 2}

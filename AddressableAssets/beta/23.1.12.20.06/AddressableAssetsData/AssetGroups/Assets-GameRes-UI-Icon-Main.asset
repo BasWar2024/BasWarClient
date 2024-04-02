@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Main
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Main
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0bd6cc14219e9db4c95249a3c9dd16e8
+  m_SerializeEntries:
+  - m_GUID: af99895e40888204a8554ad8f5bc1625
+    m_Address: Assets/GameRes/UI/Icon/Main/Nullable_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a94f7f4812db1144281595491dbae421
+    m_Address: Assets/GameRes/UI/Icon/Main/Recycling_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 20517fea7a9fd2146bbf082f257d2e55, type: 2}
+    - {fileID: 11400000, guid: f436d225326d52944bc6f08fff01811d, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Terrain-Terrain_HighEneray-Fbx
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Terrain-Terrain_HighEneray-Fbx
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b74e416e2f20fc34e860c23e56ceb630
+  m_SerializeEntries:
+  - m_GUID: e373e6b6b2b812f46b7440112ab1e5d9
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Fbx/Terrain_HighEneray_max_ain.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9f28dc7bae6c7e4388b51394362b5d0
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Fbx/Terrain_HighEneray_max_Fbx.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2023bcc886acfbf438410a53f417eb41
+    m_Address: Assets/GameRes/Terrain/Terrain_HighEneray/Fbx/cable.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 944d7e9b1d8611a47aa83ec3d60fda4c, type: 2}
+    - {fileID: 11400000, guid: c3d8aac1ad3959f40b53edb7ddefee53, type: 2}

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Common-Slider
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Common-Slider
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 72c62e4c5e7b57948b8d1fcde6237d68
+  m_SerializeEntries:
+  - m_GUID: 3a503400aeccb5e42b547e8685874330
+    m_Address: Assets/GameRes/UI/Common/Slider/Respource progress bar_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91d3fa70c8a3cc748aa50b4e0772cd6f
+    m_Address: Assets/GameRes/UI/Common/Slider/Forging minimum_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a671f900d87b564bb2707980bf7d620
+    m_Address: Assets/GameRes/UI/Common/Slider/Durability_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2f7cc71963089441858f149ce4d19f3
+    m_Address: Assets/GameRes/UI/Common/Slider/Game progress bar_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c33782e14bd5e624fa0a7dec3999df50
+    m_Address: Assets/GameRes/UI/Common/Slider/Upgrade progress bar_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 56e1d2e19bbfcfc4f844d5482a1a3004
+    m_Address: Assets/GameRes/UI/Common/Slider/Small progress bar_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe3e9de3691f9c240b67fedcadcba362
+    m_Address: Assets/GameRes/UI/Common/Slider/Main Upgrade progress bar_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80622304ce2039c4e9a3c546fdaadb8c
+    m_Address: Assets/GameRes/UI/Common/Slider/Main Upgrade progress bar_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5ce0234a505bb24781ce8522a10c2dd
+    m_Address: Assets/GameRes/UI/Common/Slider/Upgrade progress yellow_Bg.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8bdc25859a596eb4a818ac54a8d7326c
+    m_Address: Assets/GameRes/UI/Common/Slider/Durability2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 341a64a5d1a7db044a135928fd4464f5
+    m_Address: Assets/GameRes/UI/Common/Slider/Respource progress bar_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d70b3886c7840864aa1347ee94263e0d
+    m_Address: Assets/GameRes/UI/Common/Slider/Small progress bar_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 547cddf6829e8384f9980335d2033c7e
+    m_Address: Assets/GameRes/UI/Common/Slider/Slide_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cbbc781742553c54ab5c0808fe19104f
+    m_Address: Assets/GameRes/UI/Common/Slider/Durability1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7dbcff47d4415c74c97f9b822f8cecb0
+    m_Address: Assets/GameRes/UI/Common/Slider/Progress bar_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ed15819c96d0a84fa5125632da028ea
+    m_Address: Assets/GameRes/UI/Common/Slider/Progress bar_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3cef74eaa3f661747bb55797fcda9713
+    m_Address: Assets/GameRes/UI/Common/Slider/Game progress bar_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37f4c18c265fee94ba81bc4dd72e4046
+    m_Address: Assets/GameRes/UI/Common/Slider/Slider_Life_Fill.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 89da7f1d02a492240aa7e054ade56d29
+    m_Address: Assets/GameRes/UI/Common/Slider/Respource progress bar_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4a9864d4760e5741ba2892743d19582
+    m_Address: Assets/GameRes/UI/Common/Slider/Slider_Life_Bg.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6aed30bdd11e0124bab69720415d73c0
+    m_Address: Assets/GameRes/UI/Common/Slider/Upgrade progress bar_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3cee0ccdf4e85584bb56dcc92fe87eff
+    m_Address: Assets/GameRes/UI/Common/Slider/Durability_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 136260fd09a2f034ab9920e42e792cdf
+    m_Address: Assets/GameRes/UI/Common/Slider/Upgrade progress yellow_Fill.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e1b4c457f375f0e459f07a5870d2f090, type: 2}
+    - {fileID: 11400000, guid: 77b591a174599624399eb1e173cfb75c, type: 2}

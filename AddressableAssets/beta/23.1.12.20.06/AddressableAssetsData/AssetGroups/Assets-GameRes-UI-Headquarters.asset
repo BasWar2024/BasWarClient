@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Headquarters
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Headquarters
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7d6a614e2b0889d4f92b129e6f3203a7
+  m_SerializeEntries:
+  - m_GUID: 2d06cd5023b72a54aa565fdaf6e540c7
+    m_Address: Assets/GameRes/UI/Headquarters/rectangle_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a8784db00edda1045a7303b848046314
+    m_Address: Assets/GameRes/UI/Headquarters/Button 03_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f71b6511c57a6c43b0392665b2295f5
+    m_Address: Assets/GameRes/UI/Headquarters/rectangle_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a69f201236f13af438a73a948cbc915c
+    m_Address: Assets/GameRes/UI/Headquarters/nft_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 81215f82081e0304cb262a95adbdae81
+    m_Address: Assets/GameRes/UI/Headquarters/title bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db265ea260490ce44bb7fd379a25199a
+    m_Address: Assets/GameRes/UI/Headquarters/Button 03_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1703ab2d31563744a1e355a27c4fd3e
+    m_Address: Assets/GameRes/UI/Headquarters/Blackboard_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 742f54e2f9cffde45b69de1d1394eab6
+    m_Address: Assets/GameRes/UI/Headquarters/ssr_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08da89e22da01c3459eccede41ff1f1e
+    m_Address: Assets/GameRes/UI/Headquarters/triangle_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 101aefe23a836f745b491b7669b4e426
+    m_Address: Assets/GameRes/UI/Headquarters/popup window_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0a1db31317c5e954aaccd1a8acee3602
+    m_Address: Assets/GameRes/UI/Headquarters/upgrade_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb905613746b42644b38eb790933eacb
+    m_Address: Assets/GameRes/UI/Headquarters/Wrench 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4f4cd63dac9dbf479381621772cccdb
+    m_Address: Assets/GameRes/UI/Headquarters/Warning_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3412065645ecba4bb0d83cd01f7f570
+    m_Address: Assets/GameRes/UI/Headquarters/color_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1797c7c7b302e4f43a36e6ba26fe44d5
+    m_Address: Assets/GameRes/UI/Headquarters/upgrade 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77b6b9188c47110499ed636ee61c4a18
+    m_Address: Assets/GameRes/UI/Headquarters/Clock_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa436448e628ee942bbc6b609756c51b
+    m_Address: Assets/GameRes/UI/Headquarters/texture_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8d7e5e8246244449b1b6d9eeb34628d
+    m_Address: Assets/GameRes/UI/Headquarters/round corner_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ea21e091572417438d3ed7122beeea3
+    m_Address: Assets/GameRes/UI/Headquarters/ssr_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 49786949d29972f4d952d133c8910ac8
+    m_Address: Assets/GameRes/UI/Headquarters/Wrench_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2acdd993d307184a90bc89e240f85df
+    m_Address: Assets/GameRes/UI/Headquarters/SkillMask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc4c0b4a892dd9849b63595629152d54
+    m_Address: Assets/GameRes/UI/Headquarters/line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3dcc01b19ca9ce48965b33c817454ee
+    m_Address: Assets/GameRes/UI/Headquarters/upgrade need_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1fd5da4b1bb51b14ea89a8513fcc4798
+    m_Address: Assets/GameRes/UI/Headquarters/rectangle_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f93e608b1d55c6a40b798aeabd7e399f
+    m_Address: Assets/GameRes/UI/Headquarters/Button 03_button_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be028dbceaa8bc14f865f4d50b643f6a
+    m_Address: Assets/GameRes/UI/Headquarters/BG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 101595dc2ff468643825bd21fa0ada3b
+    m_Address: Assets/GameRes/UI/Headquarters/rectangular_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c24bf5ec7d291bb4cbab2a5f98ad13d2
+    m_Address: Assets/GameRes/UI/Headquarters/rectangular 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 152bef1d30ab2ce45b8ac4efc53cf09a
+    m_Address: Assets/GameRes/UI/Headquarters/popup window_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 576cf22d7eef43e4196446c4f42e72e5
+    m_Address: Assets/GameRes/UI/Headquarters/Selected 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b588b2de7223eb42997cb433b9a21ad
+    m_Address: Assets/GameRes/UI/Headquarters/skill mengban_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e5042bdbecfd1f4a9172c7f67b18103
+    m_Address: Assets/GameRes/UI/Headquarters/skill background_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2c9561e3f35d9d4bb5823015f87e3c8
+    m_Address: Assets/GameRes/UI/Headquarters/box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f341b8e7a7509845b51367d5c025f3b
+    m_Address: Assets/GameRes/UI/Headquarters/back_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d67d221f949c6ab4cb1882f8ab2c98a5
+    m_Address: Assets/GameRes/UI/Headquarters/Selected_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa89ab3fc9303e94ca5e8b887829bc14
+    m_Address: Assets/GameRes/UI/Headquarters/line_icon 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44809f6f403aa6e468514fab8e15ecc7
+    m_Address: Assets/GameRes/UI/Headquarters/ssr_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bb3e0439b186a5a45bb5a62d837b985b, type: 2}
+    - {fileID: 11400000, guid: fc3e9b2e04ad30242900d0b6659baf28, type: 2}

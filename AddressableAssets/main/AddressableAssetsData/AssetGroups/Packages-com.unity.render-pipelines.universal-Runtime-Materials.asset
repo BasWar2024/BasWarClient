@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Packages-com.unity.render-pipelines.universal-Runtime-Materials
+  m_EditorClassIdentifier: 
+  m_GroupName: Packages-com.unity.render-pipelines.universal-Runtime-Materials
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 81c1b24dea3a16943a2da9de57ba1e74
+  m_SerializeEntries:
+  - m_GUID: e823cd5b5d27c0f4b8256e7c12ee3e6d
+    m_Address: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 996c61f555781f541a3f4071dcefd3bf, type: 2}
+    - {fileID: 11400000, guid: 963173bfc0001bf43956a0d33adbc1b9, type: 2}

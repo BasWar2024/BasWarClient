@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-Edit
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-Edit
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 010ef29446989ef4fb41cab4a4723e52
+  m_SerializeEntries:
+  - m_GUID: 3c0272cd56f646c4a800bf1328ce7e28
+    m_Address: EditBuildingItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e68af7388c73aa4b99276974515e894
+    m_Address: EditBuildItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c2153cf752c83574baf32c8de2745da3
+    m_Address: EditHeroItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c173e9c28d71324e9b1efefd080ee5c
+    m_Address: EditLandShipItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0878c59de17faf549b85bec9e8a3b4ad
+    m_Address: EditSkillItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ffafa82fc230fb840acc29408927efa8
+    m_Address: EditSoldierItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3918823ceac7a044a8b0147f39a9808a
+    m_Address: EditWarshipItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7026d6beda5f4624aa6f4839fe0c2a50
+    m_Address: PnlEdit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5b0b0f0a2f836c94f8909bd7b88747a1, type: 2}
+    - {fileID: 11400000, guid: 56f7e30065fe4da4ea85270826660e26, type: 2}

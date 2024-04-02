@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-LandPoint
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-LandPoint
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fabc919d466c48148b57944eee74d7f5
+  m_SerializeEntries:
+  - m_GUID: 649e6150b163e2e4382a685042831d2c
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88f89e510d4071f488af5e32efe4072d
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_Material-Additive.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37eeb3131e446dd49a9ac023bd502694
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 177698d615ef4c24a98c58f0475b04bf
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_b.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 785e9367d75346145b68159c6855e67a
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ffd40297a653c8745b1fcab3884d1b90
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b27cc758bad4d104ea1a91092d8f4727
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_b_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 572966a9ee874724e9fadff57a2ef734
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_b_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0f0992a210f67b47ae131ccc931a1f9
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f728f73b03837c243858b2d90308be96
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_b_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ddc8c25b567a00648b5ee86463bb5441
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_b.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d5b003cdcd43494f8d79eb254969303
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_b_Material-Additive.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e6847cc6732bcf4fba21ba593f8822c
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71cbcbae20e25ee4a93ca2d90e2dd199
+    m_Address: Assets/GameRes/Effect/LandPoint/LandPoint_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 697f3d9b4ab322b4188ce6a810913e6b, type: 2}
+    - {fileID: 11400000, guid: ba49bff818970144f88d24800da6175e, type: 2}

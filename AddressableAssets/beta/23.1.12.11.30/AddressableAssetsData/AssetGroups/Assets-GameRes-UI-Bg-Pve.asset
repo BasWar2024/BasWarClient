@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Bg-Pve
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Bg-Pve
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7c728d2320db96f498f9cdc2894a0ca1
+  m_SerializeEntries:
+  - m_GUID: 85d154b210465534ab6a728895d68e6c
+    m_Address: Assets/GameRes/UI/Bg/Pve/flag 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c5c097d64fab27a4f85c61383b89cd68, type: 2}
+    - {fileID: 11400000, guid: 25d554ed90014a342a0d9cdf85c2cd60, type: 2}

@@ -1,4 +1,4 @@
--- bit2^52,64int
+-- bit""2^52,""，""，""64int""，""
 --local bit = require "bit"
 
 -- like linux cron expression
@@ -23,11 +23,11 @@ function cronexpr._new(fields)
     self.hour = cronexpr.parse_field(fields[3],0,23)
     self.dom = cronexpr.parse_field(fields[4],1,31)
     self.mon = cronexpr.parse_field(fields[5],1,12)
-    self.dow = cronexpr.parse_field(fields[6],0,6)  -- 0: 
+    self.dow = cronexpr.parse_field(fields[6],0,6)  -- 0: ""
     return self
 end
 
--- cron
+-- cron""
 -- *
 -- num              : means num-num/1
 -- start-end        : means start-end/1
@@ -103,7 +103,7 @@ function cronexpr.nexttime(self,date)
     if type(date) == "number" then
         date = os.date("*t",date)
     end
-    -- croncron
+    -- ""，""cron""cron""
     date = cronexpr.updatedate(date,{sec=date.sec+1})
 
     local curyear = date.year
@@ -179,7 +179,7 @@ function cronexpr.matchday(self,date)
         date = os.date("*t",date)
     end
 
-    local weekday = date.wday - 1  -- date.wday: 1-- ,...7--
+    local weekday = date.wday - 1  -- date.wday: 1-- "",...7--""
     -- day-of-month is '*'
     if LUA_VERSION_LE_502 then
         if table.equal(self.dom,dom_0xfffffffe) then

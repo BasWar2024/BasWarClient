@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Match
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Match
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d4acace4546fa9a46bce7607072da2bf
+  m_SerializeEntries:
+  - m_GUID: 812e4a20c800b244e8d4e2157862e36b
+    m_Address: Assets/GameRes/UI/Match/Search_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 090c6a301f1be02439dce225182a5b0c
+    m_Address: Assets/GameRes/UI/Match/mit_text box_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a207e81e92bea842a6a22375c8f35b6
+    m_Address: Assets/GameRes/UI/Match/Dao name_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9bc58b5267e59274e91ed6b2d200a50f
+    m_Address: Assets/GameRes/UI/Match/Bottom plate_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86c7227977c9ed346b6e6faec1839916
+    m_Address: Assets/GameRes/UI/Match/Avatar bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9989807e1417e9c4491a62d504b3b232
+    m_Address: Assets/GameRes/UI/Match/Badges number_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 110b87013c821f9498dc6d4f7f9a721a, type: 2}
+    - {fileID: 11400000, guid: 1a6a08c13cfdc6e4a802e0e86db61669, type: 2}

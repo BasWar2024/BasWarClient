@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_310033001
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_310033001
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 57f8cae648f35fc42b7bd3d9d1ba8bee
+  m_SerializeEntries:
+  - m_GUID: b4411025099986b478ed1912956f69e2
+    m_Address: Assets/GameRes/Bullet/Bullet_310033001/Tex_Water01A 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5ce95cb8a987e944b9b773d7dff36e56
+    m_Address: Assets/GameRes/Bullet/Bullet_310033001/New Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5c931976ed2bf2045a87010d46691016, type: 2}
+    - {fileID: 11400000, guid: 29f814dc12795ea4ca704af7394572b9, type: 2}

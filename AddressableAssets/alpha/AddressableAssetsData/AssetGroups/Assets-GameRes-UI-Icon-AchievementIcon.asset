@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-AchievementIcon
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-AchievementIcon
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d4c59c63b366ae24cb08c07462d036a7
+  m_SerializeEntries:
+  - m_GUID: 7d014533d6938a740949279b21d0a8c3
+    m_Address: Assets/GameRes/UI/Icon/AchievementIcon/box 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d87b713e8186e042b079c44a8e5daa1
+    m_Address: Assets/GameRes/UI/Icon/AchievementIcon/task 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4e19441a121b1ea4386577411b5d2ba1
+    m_Address: Assets/GameRes/UI/Icon/AchievementIcon/activity_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9c42328093845884bbd9f396256eccfc, type: 2}
+    - {fileID: 11400000, guid: 933112192fdd5e54d8f2af626f09ca6c, type: 2}

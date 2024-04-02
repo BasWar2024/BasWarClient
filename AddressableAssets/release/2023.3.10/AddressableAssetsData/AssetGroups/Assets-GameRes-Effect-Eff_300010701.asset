@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_300010701
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_300010701
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 25fa7cdc6596bee4b9054bb758b53b90
+  m_SerializeEntries:
+  - m_GUID: fea6d9314edfaf443a5e43cf824daeec
+    m_Address: Assets/GameRes/Effect/Eff_300010701/Eff_300010701_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cd9f4be1f1a41d942b8d7bbef5f95fee
+    m_Address: Assets/GameRes/Effect/Eff_300010701/Eff_3000107012.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7fb9d932257ff60478510a8d40f6c6d7
+    m_Address: Assets/GameRes/Effect/Eff_300010701/Eff_300010701.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 869b0b642ec7c1c4e9e77e1ea502f442
+    m_Address: Assets/GameRes/Effect/Eff_300010701/Eff_300010701_Eff_3000107012.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e347d65689c4636438bbb84f16ca8919
+    m_Address: Assets/GameRes/Effect/Eff_300010701/Eff_300010701_Eff_300010701.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e70d359451796045b426db8910bf4e8
+    m_Address: Assets/GameRes/Effect/Eff_300010701/Eff_300010701.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f0bc3f7d0f56cde409983ae60ef0d4d4
+    m_Address: Assets/GameRes/Effect/Eff_300010701/Eff_300010701.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5675b9dde260a84e85ac99956569fa5
+    m_Address: Assets/GameRes/Effect/Eff_300010701/Eff_300010701_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 333a5a340742e6d408fa7af561f27643, type: 2}
+    - {fileID: 11400000, guid: 252404b5407ec8147bcb148ac50c7f57, type: 2}

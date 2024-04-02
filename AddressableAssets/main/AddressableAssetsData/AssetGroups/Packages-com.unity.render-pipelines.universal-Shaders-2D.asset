@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Packages-com.unity.render-pipelines.universal-Shaders-2D
+  m_EditorClassIdentifier: 
+  m_GroupName: Packages-com.unity.render-pipelines.universal-Shaders-2D
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 05c1bee873b2d0a4bba9b072b82e2dc5
+  m_SerializeEntries:
+  - m_GUID: e260cfa7296ee7642b167f1eb5be5023
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f366127144c697541a26407f420a7bb9, type: 2}
+    - {fileID: 11400000, guid: c86889d578385d64abdd622a81cb7817, type: 2}

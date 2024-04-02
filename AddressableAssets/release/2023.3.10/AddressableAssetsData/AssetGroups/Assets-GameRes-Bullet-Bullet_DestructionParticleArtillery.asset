@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_DestructionParticleArtillery
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_DestructionParticleArtillery
+  m_Data:
+    m_SerializedData: []
+  m_GUID: be3ae4c51c03d10428827492f3a5ea7e
+  m_SerializeEntries:
+  - m_GUID: c6f4d9002d8b2e94a9f79084128df5a1
+    m_Address: Assets/GameRes/Bullet/Bullet_DestructionParticleArtillery/Bullet_DestructionParticleArtilleryyuanhuan.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e9fefe1304351b479ccea3f1d0e7275
+    m_Address: Assets/GameRes/Bullet/Bullet_DestructionParticleArtillery/Bullet_DestructionParticleArtillerybaozha.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe1b3de3697835842b6475551f3e5ba1
+    m_Address: Assets/GameRes/Bullet/Bullet_DestructionParticleArtillery/44444.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 157dfac6902ce604b83dfa33756c2b31
+    m_Address: Assets/GameRes/Bullet/Bullet_DestructionParticleArtillery/Bullet_DestructionParticleArtilleryglow-w.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa24f8d7af06da641ae60c0eea27510e
+    m_Address: Assets/GameRes/Bullet/Bullet_DestructionParticleArtillery/Bullet_DestructionParticleArtillerybaozha
+      1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b2da8e71c93dc64785e5f0abca8f6cf
+    m_Address: Assets/GameRes/Bullet/Bullet_DestructionParticleArtillery/Bullet_DestructionParticleArtilleryqiangko.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4e1ee39b3e01004881f566423881bfa
+    m_Address: Assets/GameRes/Bullet/Bullet_DestructionParticleArtillery/Bullet_DestructionParticleArtilleryyuanhuan.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59a911a9354cb7d47888df34f71d5755
+    m_Address: Assets/GameRes/Bullet/Bullet_DestructionParticleArtillery/Bullet_DestructionParticleArtillery.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a228860e1cfd876438af625459ecb235
+    m_Address: Assets/GameRes/Bullet/Bullet_DestructionParticleArtillery/Bullet_DestructionParticleArtilleryglow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b3392589f979f204588aa1b395fcf8cd, type: 2}
+    - {fileID: 11400000, guid: 3483d7957f98ea94baa19718bc9085bb, type: 2}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Mail
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Mail
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e592fe6886d64104e8cafe83536c9ad5
+  m_SerializeEntries:
+  - m_GUID: defa0a17a9cd7384cba701ef6f3a5763
+    m_Address: Assets/GameRes/UI/Mail/Silde line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: efe51a474b54b2e479e7fc4b7a97bf92
+    m_Address: Assets/GameRes/UI/Mail/Title line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f099781b02098a342b72df166584486d
+    m_Address: Assets/GameRes/UI/Mail/Title name_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43e4c8ada738583488f1e9c3c5e49f9b
+    m_Address: Assets/GameRes/UI/Mail/line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b3466ae2d9958c43877fb47eb51fd8a
+    m_Address: Assets/GameRes/UI/Mail/Choose_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 74a290c6c86cc4a4f997c21268edc875, type: 2}
+    - {fileID: 11400000, guid: c0fec4f96ea407e4c9ba03b0e89fd884, type: 2}

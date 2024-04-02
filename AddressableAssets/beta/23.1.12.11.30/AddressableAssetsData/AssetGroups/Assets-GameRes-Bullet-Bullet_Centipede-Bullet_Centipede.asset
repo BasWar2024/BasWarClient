@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_Centipede-Bullet_Centipede
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_Centipede-Bullet_Centipede
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d226ed1f3322d0c45974d23abe9d830b
+  m_SerializeEntries:
+  - m_GUID: 29cf1d32a04122b48aadb2633e279c61
+    m_Address: Assets/GameRes/Bullet/Bullet_Centipede/Bullet_Centipede/Tex_Water01A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 37a1f371f23a93c468ae7416867a1fa8, type: 2}
+    - {fileID: 11400000, guid: 07333eadbdac46646aa42204d16b02bd, type: 2}

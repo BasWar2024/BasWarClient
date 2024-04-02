@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Map
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Map
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b6a456d22866fd646a44b62627f00522
+  m_SerializeEntries:
+  - m_GUID: c38cd310c877e1f48bb626d9ed18c571
+    m_Address: Assets/GameRes/UI/Map/integral_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 07540d308deb0704a97886efd1560013
+    m_Address: Assets/GameRes/UI/Map/Time_icon 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5ad4c2c0e5b3a4542a2a93aed6c188de
+    m_Address: Assets/GameRes/UI/Map/reproduction_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 154703f0506f8f142b1be80b17564696
+    m_Address: Assets/GameRes/UI/Map/selfcollection_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7dd05ad107abf7744b2aab7f553c36d2
+    m_Address: Assets/GameRes/UI/Map/namekuang_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af674e6201343374e93826f4ad91008b
+    m_Address: Assets/GameRes/UI/Map/attack_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f946b47250351a44aaf19fc2755f35fd
+    m_Address: Assets/GameRes/UI/Map/button 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8aedb292a31a8114b887431184d863ac
+    m_Address: Assets/GameRes/UI/Map/season_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15dbdaf2ec23bac4ba5be31cf5d893a4
+    m_Address: Assets/GameRes/UI/Map/guildatk_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b8339635c9d2984197a143b3210001c
+    m_Address: Assets/GameRes/UI/Map/Hydroxyl_icon_I.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1372fc39b4e0d444b7a2f019e913a5b
+    m_Address: Assets/GameRes/UI/Map/share_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e334573469f9ecb4f84af347b0ec472c
+    m_Address: Assets/GameRes/UI/Map/guildcollection_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2e894a491382174aa4ce1ab7aff37d5
+    m_Address: Assets/GameRes/UI/Map/base_icon 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b13dd3b4bd7759e4f99a2c0379cb6bcb
+    m_Address: Assets/GameRes/UI/Map/Horizontal line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 11495065727f94e439ae340b69ee950e
+    m_Address: Assets/GameRes/UI/Map/back2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c9dc9755cdaeb04e98ac98621c9dd93
+    m_Address: Assets/GameRes/UI/Map/btnbottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 788bb646c2232bc4a88a29862df96e13
+    m_Address: Assets/GameRes/UI/Map/text_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c24da3868bb5519438465ff5e8227d61
+    m_Address: Assets/GameRes/UI/Map/grang_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 70cad267e9e5ab34d8af6502604b0f45
+    m_Address: Assets/GameRes/UI/Map/line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c0192f772ee7e684a9457c7426af1956
+    m_Address: Assets/GameRes/UI/Map/quantitybar 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9bb4f87e57980149b04843bf195cbe1
+    m_Address: Assets/GameRes/UI/Map/Bottom frame_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e13f3d97b2da40e40b424d14cd44d656
+    m_Address: Assets/GameRes/UI/Map/flag_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: acf0fe97c3ef4f3489b3c4305d6f9c92
+    m_Address: Assets/GameRes/UI/Map/Dao_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78c1c4d744baf8f4280e75f8468c1fbd
+    m_Address: Assets/GameRes/UI/Map/enter_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 48ad9e08581f7b34fb71a7971f1847b0
+    m_Address: Assets/GameRes/UI/Map/map_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0df7fc28d8289be49a3734fee737e9fd
+    m_Address: Assets/GameRes/UI/Map/team_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 64b62c6818f2c864481d90923988f383
+    m_Address: Assets/GameRes/UI/Map/reproduction_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b90d6aa89524db345b68c65d5179b8d6
+    m_Address: Assets/GameRes/UI/Map/Defeat bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa87f9c9532172e4e86ca88adc7e2935
+    m_Address: Assets/GameRes/UI/Map/reward_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f065f21ae8213ab44ae5473e2d58e75a
+    m_Address: Assets/GameRes/UI/Map/integral_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1040bfa680f60f47a621050c54f422d
+    m_Address: Assets/GameRes/UI/Map/view_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a9e3da5b0c327e249805036ac9f60ba0
+    m_Address: Assets/GameRes/UI/Map/quit_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5257ac3c2c61b4c4baab52b62ccab9ac
+    m_Address: Assets/GameRes/UI/Map/selected bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b0db23bce8010134eb8a0852e5cc2f1b
+    m_Address: Assets/GameRes/UI/Map/Round_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8065250d20fa95344a4f18400abc9efb
+    m_Address: Assets/GameRes/UI/Map/selfcollection_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6cc5dc2e4f808bc48962805fa3bd15f9
+    m_Address: Assets/GameRes/UI/Map/the gradient_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc90758e3ccae6a43a3c9c06b0629dc9
+    m_Address: Assets/GameRes/UI/Map/bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5fd5378e9ac708d499d168dc1c6ba1f5
+    m_Address: Assets/GameRes/UI/Map/guildcollection_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77c024ae1e8fb7941b432449908af63b
+    m_Address: Assets/GameRes/UI/Map/letter_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 96e5dabedd702e941a28c4e6b4228896
+    m_Address: Assets/GameRes/UI/Map/plot_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8eebf0dea1c981045bcd8ad966c10c87
+    m_Address: Assets/GameRes/UI/Map/button 04_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 23e177ee5b522014f9ac906ca27ff0cd
+    m_Address: Assets/GameRes/UI/Map/DAO_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7a7520f908e3ab4782ab803925ed83a
+    m_Address: Assets/GameRes/UI/Map/a vertical bar _icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7bdd31f161303b42957ea9f367e3529
+    m_Address: Assets/GameRes/UI/Map/selected line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4844c3fedbdf2d46a4a365d9686459c
+    m_Address: Assets/GameRes/UI/Map/move_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c719954f37f393647ae7ce3cf6bf5fe5
+    m_Address: Assets/GameRes/UI/Map/list_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b250446ffec259f4e884e2c72af0db5a
+    m_Address: Assets/GameRes/UI/Map/button 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7de859df5a44a8f41b19ff9246f60aec
+    m_Address: Assets/GameRes/UI/Map/plot_icon 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 884df6ff6c9751a4b82e15c9b0a2da25
+    m_Address: Assets/GameRes/UI/Map/Time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b55f1ef6a6660c64e9d0b4225f980e84, type: 2}
+    - {fileID: 11400000, guid: 13de7a15efc2b234d8b6ee28405cb31c, type: 2}

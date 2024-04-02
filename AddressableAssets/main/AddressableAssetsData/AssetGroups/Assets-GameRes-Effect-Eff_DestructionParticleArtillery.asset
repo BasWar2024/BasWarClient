@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_DestructionParticleArtillery
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_DestructionParticleArtillery
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 71247459f6441de489cdf4f7c0688a83
+  m_SerializeEntries:
+  - m_GUID: e03292d28ba740b4d9276b739806895a
+    m_Address: Assets/GameRes/Effect/Eff_DestructionParticleArtillery/Eff_DestructionParticleArtillery_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5779791548cd5bb40bcf09e5baf0692d
+    m_Address: Assets/GameRes/Effect/Eff_DestructionParticleArtillery/Eff_DestructionParticleArtillery.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62d192984f9b7f448b1571e86003467e
+    m_Address: Assets/GameRes/Effect/Eff_DestructionParticleArtillery/Eff_DestructionParticleArtillery.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4ba3a8fae5b56c44bb433c50a7ae4978
+    m_Address: Assets/GameRes/Effect/Eff_DestructionParticleArtillery/Eff_DestructionParticleArtillery_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c56bb6e944a7dc44b487ef36b5b8dd0
+    m_Address: Assets/GameRes/Effect/Eff_DestructionParticleArtillery/Eff_DestructionParticleArtillery.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 61f8838fa038f0a468dda0bbe15405b1
+    m_Address: Assets/GameRes/Effect/Eff_DestructionParticleArtillery/Eff_DestructionParticleArtillery_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: daa4252ff58c456479a6932781b309ac, type: 2}
+    - {fileID: 11400000, guid: 92c858591f44102439cb3b8d5b72e5ce, type: 2}

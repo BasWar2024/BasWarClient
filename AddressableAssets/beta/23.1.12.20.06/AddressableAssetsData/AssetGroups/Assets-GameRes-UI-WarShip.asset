@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-WarShip
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-WarShip
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bfb1d5f4ccfe6bc469a18e7d1f8b8b3c
+  m_SerializeEntries:
+  - m_GUID: 32e834f011e0d304aa7f4949d38eacdc
+    m_Address: Assets/GameRes/UI/WarShip/Arrow_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 164a05440884e774cbe3598d21bcfe1e
+    m_Address: Assets/GameRes/UI/WarShip/Infoamation_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15431355bfa65d7439cf6e1b7f8cf9c3
+    m_Address: Assets/GameRes/UI/WarShip/Black board_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 918569b8631e89249b0e4c261158e62c
+    m_Address: Assets/GameRes/UI/WarShip/Recycling_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f73f036d8119f434b9b86529ba3cd616
+    m_Address: Assets/GameRes/UI/WarShip/TAB button_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: acf1cabde5ef0194fa2f6965b4c1376d
+    m_Address: Assets/GameRes/UI/WarShip/Selected_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3fac51eeca9281e4f8cc8ef34b306606
+    m_Address: Assets/GameRes/UI/WarShip/Name the quality_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: aa6854a7419ea804a85b7dd037283e38, type: 2}
+    - {fileID: 11400000, guid: 8c871546350859544bf84fdc44080584, type: 2}

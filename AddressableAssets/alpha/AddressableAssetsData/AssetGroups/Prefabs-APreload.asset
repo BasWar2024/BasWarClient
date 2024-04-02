@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-APreload
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-APreload
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f3439d3e1fadc8640991d0fab54c373c
+  m_SerializeEntries:
+  - m_GUID: 3e0b7653e78df814c88ddc82317e7d3f
+    m_Address: ActiveObject
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b95ae9f4e6e78e4ca688c7a2e00bf50
+    m_Address: language
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 182ba69caa5727747a1f0087e1f7e248
+    m_Address: PnlCanvas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b1925cb9430aa444a518f2116560b2d
+    m_Address: douyuFont
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3820aa7123738f940839417ec59be742
+    m_Address: NotoSans-Regular
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4e995f6d3a20ea5409bde834427c7512
+    m_Address: Number
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7bd3660e46edee3498ad1bf437fde62a
+    m_Address: Number_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0e50fe8d488f96e45bed9e8bb81b4661
+    m_Address: Patron - PersonalUse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a5f362d5a49cd248b1d3fa4d53e108b
+    m_Address: PURISTA MEDIUM
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90330a03cb3d8434ca974f179ff2faa4
+    m_Address: PURISTA SEMIBOLD ITALIC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ca8a5099927e2b94c9a07ccb9d326a43
+    m_Address: PURISTA SEMIBOLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ca62d7b0e9791441bdfd8c12fb0bb92
+    m_Address: attack number
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 73dcd81abcc9a5e438628e94ecf06f2d
+    m_Address: attack number_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a69d62ebb51d184e9db7195aed6c26c
+    m_Address: attack number_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a76811f0513094439215e426851405e
+    m_Address: AttackNum
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a096d60091d91bb4cbbdc51b48c9ffb3
+    m_Address: AttackNum
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab5d6f46c3a17a84c85fd7a3693b70e7
+    m_Address: AttackNum_White
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1f9cc9c330eb2343aad5b12d4cc202e
+    m_Address: AttackNum_White
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 23377ad85f4126e4383df94c7db8ddd4
+    m_Address: Forging Digital_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f735ba33c4a5d74ea296620371ce13b
+    m_Address: ForgingDigital
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 128fdaf6f7f9c5c4ebbdad2785bf0a44
+    m_Address: ForgingDigital
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9e7c606889769a14398a6b4f4f896ce9
+    m_Address: MIT Digital_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93baadf3ac720e54faa1157082f91b11
+    m_Address: MitDigital
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3651910e81789340818b2aeec6d6562
+    m_Address: MitDigital
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 238cc125433bff143ab4ff1640da6752
+    m_Address: season
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b95bbbadeb7a7554a96f14b7d3858b73
+    m_Address: Season
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2185c169c668f5f4b95ae29807289610
+    m_Address: Season
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cbdc018da44b5ee449d00cf3179b1e55
+    m_Address: season_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c5bf760e3721b8348b0706f209b8f40b, type: 2}
+    - {fileID: 11400000, guid: 56d9ce78fd94337419a6480416467778, type: 2}

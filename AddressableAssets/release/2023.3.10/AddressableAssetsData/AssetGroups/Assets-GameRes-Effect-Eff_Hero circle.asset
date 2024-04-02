@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_Hero circle
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_Hero circle
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 48e66b8b8112e8c438782f238f0866b8
+  m_SerializeEntries:
+  - m_GUID: caa8e9c2a56e8e74c9b8fa1834085eda
+    m_Address: Assets/GameRes/Effect/Eff_Hero circle/Eff_Hero circle.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0266967c193b0e14981e2a618fd802b5
+    m_Address: Assets/GameRes/Effect/Eff_Hero circle/Eff_Hero circle_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1584973d39a4d12408f2e8610eea3870
+    m_Address: Assets/GameRes/Effect/Eff_Hero circle/Eff_Hero circle.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b023507d906c20448b6a0aab6ce0d42c
+    m_Address: Assets/GameRes/Effect/Eff_Hero circle/Eff_Hero circle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1883396e163be274b9f3769fdf98a581
+    m_Address: Assets/GameRes/Effect/Eff_Hero circle/Eff_Hero circle_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 50822e7ffffc2c54094353b6e50d54c3
+    m_Address: Assets/GameRes/Effect/Eff_Hero circle/Eff_Hero circle_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e80e84d022d56c646ad126947d208b4e, type: 2}
+    - {fileID: 11400000, guid: eddb436f22655874ab369b794839a26c, type: 2}

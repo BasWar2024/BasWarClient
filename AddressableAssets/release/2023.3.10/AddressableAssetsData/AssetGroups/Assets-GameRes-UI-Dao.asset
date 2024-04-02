@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Dao
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Dao
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ce4ed54eaba7c5145a98dd0698607c12
+  m_SerializeEntries:
+  - m_GUID: 00241d2248815534d94c64d97bc5d959
+    m_Address: Assets/GameRes/UI/Dao/Search_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 734040923fe0f834790294e2e1d4bea5
+    m_Address: Assets/GameRes/UI/Dao/Semi-permeable base_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cfed0035feb9f41429db360aba5ca5ab
+    m_Address: Assets/GameRes/UI/Dao/Join a Guild_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65b52e450fd01864ab3877393bc5a052
+    m_Address: Assets/GameRes/UI/Dao/Verticalline_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 39e516273c81df34a9d51299ac878318
+    m_Address: Assets/GameRes/UI/Dao/Create a Guild _img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd7398687fa02ce478b41a399fd8bbc4
+    m_Address: Assets/GameRes/UI/Dao/choose_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8d95f8d914f04ab4192bfc498e409253
+    m_Address: Assets/GameRes/UI/Dao/Search Guild_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fde804bd97db6f64992422c1fa67a4df
+    m_Address: Assets/GameRes/UI/Dao/Avatar1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4dbebd3fd42b5bf478df140bfba00e86
+    m_Address: Assets/GameRes/UI/Dao/choose_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 392efdf7ee5564241ad45a4eb7f78ccc, type: 2}
+    - {fileID: 11400000, guid: 8337b53a4ae5a3a48906b818ce8eb079, type: 2}

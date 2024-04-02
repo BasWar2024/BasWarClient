@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UiAni-Battle-SelectEffect-Choose_icon
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UiAni-Battle-SelectEffect-Choose_icon
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 19e1f06cd075b8f4f8de3c154f269ab1
+  m_SerializeEntries:
+  - m_GUID: 8edc8460181dfb648bfec810ad2b90a7
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00025.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa0b28b083645104f97c2343990b408a
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00029.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b92aac1b0f3f134f8df5567eee8f311
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00016.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62bbfb120e8761f42aeac963b0a405ce
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00018.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee3c59a3b4e038c4b8241ec4602dd7fc
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00013.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5226af84d56187946b2788ec0282fb3e
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00028.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d0e44b4be293e541a84cd1aa87e2de0
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00019.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6847ba54fa1f8f4a899c06dcfbb7707
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00030.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 70df4457e69cc92448d7fa5505a908f1
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00021.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85609de76607d744d974243573cc2776
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00022.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 863bae183d1d98249b8d49de23093634
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00023.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1d4bc696bc13834c8e5f58632fc0093
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00027.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 920a46b940315ea40b6f6ff785bcbfdc
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00015.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 312e98aa6cad18e4499828cb4849cbdf
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00024.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29237b8bc89542046b05b67b188660eb
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00020.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5f7f45cea635194c993d29468d218eb
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00017.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 913ce87d4c55b4a4ebfcbf30399fe03b
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_Controller.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37dee3ddc9715d142b26ed555340f7d4
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00014.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2988b5ae5f1d1e44c99f633b42a459c0
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Choose_icon_00026.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 577d0c6f4a1bf9342b528fef878f8881
+    m_Address: Assets/GameRes/UiAni/Battle/SelectEffect/Choose_icon/Select.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 51fecda2710d22943a251871cedc1612, type: 2}
+    - {fileID: 11400000, guid: 29d5e00ba5e32144e9951ff3d40e4dee, type: 2}

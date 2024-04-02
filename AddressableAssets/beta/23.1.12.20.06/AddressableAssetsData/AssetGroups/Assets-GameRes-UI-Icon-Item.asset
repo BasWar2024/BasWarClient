@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Item
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Item
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3b857e433f32df44181cb3bdcfe197ac
+  m_SerializeEntries:
+  - m_GUID: e5bfe625da7dcf24cb85eace5d402e7d
+    m_Address: Assets/GameRes/UI/Icon/Item/warehouse01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4f1c5feeaa2c8d46831b316ddb18899
+    m_Address: Assets/GameRes/UI/Icon/Item/coupon_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fd4a7faef61cb1f45ad5b069a4804a63, type: 2}
+    - {fileID: 11400000, guid: 452a706e36c65e04a97c78596fde4a9e, type: 2}

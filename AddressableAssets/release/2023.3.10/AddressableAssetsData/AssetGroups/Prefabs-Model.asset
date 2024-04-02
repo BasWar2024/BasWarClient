@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-Model
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-Model
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c2bb9a0d5023a4646bc36d7271a4313c
+  m_SerializeEntries:
+  - m_GUID: 4b6543f634d4c2f4990914c476b4ae69
+    m_Address: Terrain
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Model-Ground
+  - m_GUID: e2c072c6d8cbe8c40adb66ee74d18a7b
+    m_Address: Tarmac
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Model-Ground-Tarmac
+  - m_GUID: f4d81b53913123845bac5a45fc1df31c
+    m_Address: LandArea
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Model-LandArea
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e871f1ab3e51d254cb91ff3ed10e0b0d, type: 2}
+    - {fileID: 11400000, guid: 0668b4963e1ce0a44ac3140a1a3a6629, type: 2}

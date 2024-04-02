@@ -13,5 +13,17 @@ namespace Battle
             entity.BKilled = true;
             NewGameData._DeadList.Add(entity);
         }
+
+        public void BeKill(SkillBase skill)
+        {
+            skill.BKilled = true;
+            NewGameData._SkillDeadList.Add(skill);
+        }
+
+        //public void BeKill(Effect effect)
+        //{
+        //    effect.BKilled = true;
+        //    NewGameData._EffectDeadList.Add(effect);
+        //}
     }
 }

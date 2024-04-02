@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-ActivityGift
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-ActivityGift
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c17ffb3412775704eadeb3a505c09060
+  m_SerializeEntries:
+  - m_GUID: 27f8b9c13a733794e87acc27fe773f80
+    m_Address: Assets/GameRes/UI/ActivityGift/border_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 211289122fe2eba4dbbf6ebd8828255b
+    m_Address: Assets/GameRes/UI/ActivityGift/red_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f948b1286b0061e478625945174a7013
+    m_Address: Assets/GameRes/UI/ActivityGift/Clock_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 42ddb4ad147f1364ead7708592659289
+    m_Address: Assets/GameRes/UI/ActivityGift/yuansquar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 937949bd880ef2a42b0f838b3e703093, type: 2}
+    - {fileID: 11400000, guid: 0ea84bf154b790d45a7ab089bc9bc524, type: 2}

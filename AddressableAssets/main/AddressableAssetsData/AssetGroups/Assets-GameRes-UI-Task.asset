@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Task
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Task
+  m_Data:
+    m_SerializedData: []
+  m_GUID: aa2caef8c5bd0f448818fd983ae9bce0
+  m_SerializeEntries:
+  - m_GUID: d7c8434109e052b4db5304abe601e9b4
+    m_Address: Assets/GameRes/UI/Task/task bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c0ac5f16725b1f4489f70e8accdccd9
+    m_Address: Assets/GameRes/UI/Task/header bottom 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d355a235e4e8f14185b2e48c8c21bf0
+    m_Address: Assets/GameRes/UI/Task/mission_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ba5e3a377b4cbd459ddb52376236a48
+    m_Address: Assets/GameRes/UI/Task/the progress of the box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf7db4951ded87b4c90226ffeba0456f
+    m_Address: Assets/GameRes/UI/Task/mission bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3a87fd50b03c22478117ff814cb7c37
+    m_Address: Assets/GameRes/UI/Task/header_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05114e264d8ac404cae584dbc2176cc1
+    m_Address: Assets/GameRes/UI/Task/the progress bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 375f7878b14d1ce41ba17474763fd0b8
+    m_Address: Assets/GameRes/UI/Task/3d tips_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a7b0a7b8f146994abc70fb503bc2361
+    m_Address: Assets/GameRes/UI/Task/header bottom 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f02f05c48a4ebd4db4676a23f2143ad
+    m_Address: Assets/GameRes/UI/Task/boomark_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dbab2ddfc4b9b8048bf46fe34454bc73
+    m_Address: Assets/GameRes/UI/Task/img_title.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9334131a67004ef49852dd7ca32b83d1, type: 2}
+    - {fileID: 11400000, guid: ed8203b93656bf94e9587e2850545620, type: 2}

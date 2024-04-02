@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Icon_E
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Icon_E
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 51e2212712da4524aba4a50003af60fd
+  m_SerializeEntries:
+  - m_GUID: 556756a8e989e4946924461eb24c8314
+    m_Address: Assets/GameRes/UI/Icon/Icon_E/Talus_icon_E.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5430b22dba303c842a9c19c7fd9a032d
+    m_Address: Assets/GameRes/UI/Icon/Icon_E/EMP_icon_E.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7883abf390bfc6a40aa41fc5707e93ed, type: 2}
+    - {fileID: 11400000, guid: 1a67a4b0044edc049bc1d7ba3c92b843, type: 2}

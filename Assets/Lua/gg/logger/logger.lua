@@ -1,4 +1,4 @@
---- 
+--- ""
 --@script gg.logger.logger
 --@author sundream
 --@release 2018/12/25 10:30:00
@@ -7,15 +7,15 @@ local cjson = require "cjson"
 
 logger = logger or {}
 
---- (msg,)
---@param[type=string] msg 
+--- ""(msg"","")
+--@param[type=string] msg ""
 function logger.write(msg)
     print(msg)
 end
 
---- ,:debug
---@param[type=string] fmt 
---@param ... 
+--- "","":debug
+--@param[type=string] fmt ""
+--@param ... ""
 --@usage
 --  logger.debug("name=%s,age=%s","lgl",28)
 --  logger.debug("hello,world")
@@ -23,9 +23,9 @@ function logger.debug(fmt,...)
     logger.logf(logger.DEBUG,fmt,...)
 end
 
---- ,:trace,trace
---@param[type=string] fmt 
---@param ... 
+--- "","":trace,trace""
+--@param[type=string] fmt ""
+--@param ... ""
 --@usage
 --  logger.debug("name=%s,age=%s","lgl",28)
 --  logger.debug("hello,world")
@@ -33,9 +33,9 @@ function logger.trace(fmt,...)
     logger.logf(logger.TRACE,fmt,...)
 end
 
---- ,:info
---@param[type=string] fmt 
---@param ... 
+--- "","":info
+--@param[type=string] fmt ""
+--@param ... ""
 --@usage
 --  logger.info("name=%s,age=%s","lgl",28)
 --  logger.info("hello,world")
@@ -43,9 +43,9 @@ function logger.info(fmt,...)
     logger.logf(logger.INFO,fmt,...)
 end
 
---- ,:warn
---@param[type=string] fmt 
---@param ... 
+--- "","":warn
+--@param[type=string] fmt ""
+--@param ... ""
 --@usage
 --  logger.warn("name=%s,age=%s","lgl",28)
 --  logger.warn("hello,world")
@@ -53,9 +53,9 @@ function logger.warn(filename,fmt,...)
     logger.logf(logger.WARN,filename,fmt,...)
 end
 
---- ,:error
---@param[type=string] fmt 
---@param ... 
+--- "","":error
+--@param[type=string] fmt ""
+--@param ... ""
 --@usage
 --  logger.error("name=%s,age=%s","lgl",28)
 --  logger.error("hello,world")
@@ -63,9 +63,9 @@ function logger.error(fmt,...)
     logger.logf(logger.ERROR,fmt,...)
 end
 
---- ,:fatal
---@param[type=string] fmt 
---@param ... 
+--- "","":fatal
+--@param[type=string] fmt ""
+--@param ... ""
 --@usage
 --  logger.fatal("name=%s,age=%s","lgl",28)
 --  logger.fatal("hello,world")
@@ -98,13 +98,13 @@ function logger.format(fmt,...)
     return msg
 end
 
---- ,,
---@param[type=string] loglevel (debug<trace<info<warn<error<fatal)
---@param[type=string] fmt 
---@param ... (tablejson)
+--- "","",""
+--@param[type=string] loglevel ""(debug<trace<info<warn<error<fatal)
+--@param[type=string] fmt ""
+--@param ... ""(""table""json"")
 --@usage
 --  logger.logf("info","name=%s,age=%s","lgl",28)
---  logger.logf("debug","hello,world")  logger.debug("hello,world")
+--  logger.logf("debug","hello,world") "" logger.debug("hello,world")
 function logger.logf(loglevel,fmt,...)
     local loglevel_name
     loglevel,loglevel_name = logger.check_loglevel(loglevel)
@@ -131,8 +131,8 @@ function logger.logf(loglevel,fmt,...)
     return msg
 end
 
---- ,debug,:,
---@param ... 
+--- "",""debug"","":"",""
+--@param ... ""
 --@usage
 --  logger.print("hello")
 --  logger.print(string.format("key1=%s,key2=%s",1,2))
@@ -145,9 +145,9 @@ function logger.print(...)
     print(trace,...)
 end
 
---- ,debug,:,
---@param fmt 
---@param ... 
+--- "",""debug"","":"",""
+--@param fmt ""
+--@param ... ""
 --@usage
 --  logger.printf("key1=%s,key2=%s",1,2)
 function logger.printf(fmt,...)
@@ -160,10 +160,10 @@ function logger.printf(fmt,...)
     print(trace,msg)
 end
 
---- 
---@param[type=string] loglevel 
+--- ""
+--@param[type=string] loglevel ""
 --@usage
---  logger.setloglevel("info")  -- info,debug
+--  logger.setloglevel("info")  -- ""info"",""debug
 function logger.setloglevel(loglevel)
     loglevel = logger.check_loglevel(loglevel)
     logger.loglevel = loglevel
@@ -201,7 +201,7 @@ logger.LEVEL_NAME = {
 }
 
 
---- 
+--- ""
 function logger.init()
     logger.setloglevel(gg.config.loglevel)
 end

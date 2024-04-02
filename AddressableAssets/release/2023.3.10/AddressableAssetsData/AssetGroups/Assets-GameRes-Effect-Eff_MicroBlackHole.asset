@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_MicroBlackHole
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_MicroBlackHole
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 203b21dfdf3716e4cbd8dabf03921820
+  m_SerializeEntries:
+  - m_GUID: 120de7212be52644f82af6cf361992fd
+    m_Address: Assets/GameRes/Effect/Eff_MicroBlackHole/Eff_MicroBlackHolexuan.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fbc14ed1308cb5145beec6d2228d58e2
+    m_Address: Assets/GameRes/Effect/Eff_MicroBlackHole/Eff_MicroBlackHoleglow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac04c7f10d165534d98651f9a381725c
+    m_Address: Assets/GameRes/Effect/Eff_MicroBlackHole/Eff_MicroBlackHoleheidong.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 20ec81927745904418556cda6b0cb3a8
+    m_Address: Assets/GameRes/Effect/Eff_MicroBlackHole/Eff_MicroBlackHolexiao.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ddfa2675355f7fa4b86f5083b21d6267
+    m_Address: Assets/GameRes/Effect/Eff_MicroBlackHole/Eff_MicroBlackHoleheidong.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8705c98725fd8c743bf6e4238bf9890a
+    m_Address: Assets/GameRes/Effect/Eff_MicroBlackHole/Eff_MicroBlackHolebian.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b556acd07ebc2a4dbadc817fbe97ae8
+    m_Address: Assets/GameRes/Effect/Eff_MicroBlackHole/Eff_MicroBlackHoleglow.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b4b27ce8940ef24e83757e99da10ffe
+    m_Address: Assets/GameRes/Effect/Eff_MicroBlackHole/Eff_MicroBlackHolexuan.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dff7f8de61b2fc34eb687e3f849bc591
+    m_Address: Assets/GameRes/Effect/Eff_MicroBlackHole/Eff_MicroBlackHolebian.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ec56d11f0707d3848b7b69931346ac12
+    m_Address: Assets/GameRes/Effect/Eff_MicroBlackHole/Eff_MicroBlackHolexiao.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4b0d7a77952077d45a50b74302cda518, type: 2}
+    - {fileID: 11400000, guid: 2092edeff5105294088dd66760c4c451, type: 2}

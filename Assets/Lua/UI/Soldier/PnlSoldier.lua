@@ -1,5 +1,3 @@
-
-
 PnlSoldier = class("PnlSoldier", ggclass.UIBase)
 
 PnlSoldier.BTNTYPE_CHANGE = 1
@@ -8,15 +6,16 @@ PnlSoldier.BTNTYPE_INTANT = 3
 PnlSoldier.BTNTYPE_SUPPLEMENT = 4
 
 function PnlSoldier:ctor(args, onload)
-    ggclass.UIBase.ctor(self, args, onload)
-
+    ggclass.UIBase.ctor(self, args, onload, true)
     self.layer = UILayer.normal
-    self.events = { }
+    self.events = {"onUpdateBuildData"}
 
+    self.needBlurBG = true
+    self.openTweenType = UiTweenUtil.OPEN_VIEW_TYPE_FADE
 end
 
 function PnlSoldier:onAwake()
-    self.view = ggclass.PnlSoldierView.new(self.transform)
+    self.view = ggclass.PnlSoldierView.new(self.pnlTransform)
 
 end
 
@@ -24,6 +23,16 @@ function PnlSoldier:onShow()
     self:bindEvent()
     self:setData()
     self:setView()
+end
+
+function PnlSoldier:onUpdateBuildData(args, build)
+    if build.id == self.buildId then
+        self.args.buildData = build
+        self.args.buildCfg = BuildUtil.getCurBuildCfg(build.cfgId, build.level, build.quality)
+
+        self:setData()
+        self:setView()
+    end
 end
 
 function PnlSoldier:setData()
@@ -35,18 +44,19 @@ function PnlSoldier:setData()
 
     self.maxTrainSpace = self.args.buildCfg.maxTrainSpace
 
-    local soliderCfgId = self.args.buildData.soliderCfgId
-    if soliderCfgId == 0 then
-        soliderCfgId = self.args.buildData.trainCfgId
+    self.soliderCfgId = self.args.buildData.soliderCfgId
+
+    if self.soliderCfgId == 0 then
+        self.soliderCfgId = self.args.buildData.trainCfgId
     end
-    if soliderCfgId ~= 0 then
+    if self.soliderCfgId ~= 0 then
         local soldierLevel = 1
         for k, v in pairs(BuildData.soliderLevelData) do
-            if soliderCfgId == v.cfgId then
+            if self.soliderCfgId == v.cfgId then
                 soldierLevel = v.level
             end
         end
-        self.soliderCfg = self:getCfg(soliderCfgId, soldierLevel)
+        self.soliderCfg = self:getCfg(self.soliderCfgId, soldierLevel)
         self.soliderCountMax = self.maxTrainSpace / self.soliderCfg.trainSpace
         self.soliderCountMax = math.modf(self.soliderCountMax)
     end
@@ -56,29 +66,34 @@ function PnlSoldier:setView()
     local soliderCount = self.soliderCount
     local lessTrainTick = self.lessTrainTick
     local view = self.view
-    if soliderCount == 0 and lessTrainTick == 0 then
-        --
+    if soliderCount == 0 and lessTrainTick == 0 and self.soliderCfgId == 0 then
+        -- ""
         self.btnType = PnlSoldier.BTNTYPE_TRAINING
         self:setViewChange()
     else
-        view.viewSoldier:SetActive(true)
+        view.viewBg:SetActiveEx(false)
         view.viewChange:SetActive(false)
-        view.txtCurNum.text = self.soliderCount
-        local iconName = self.soliderCfg.icon
-        --TODOIcon
-        -- ResMgr:LoadSpriteAsync(iconName, function()
-        --     view.iconSoldier.sprite = sprite
-        -- end)
+        view.viewSoldier:SetActive(true)
+        local iconC = self.soliderCfg.icon .. "_C"
+        local iconSoldier = view.viewSoldier.transform:Find("IconSoldier"):GetComponent(UNITYENGINE_UI_IMAGE)
+        gg.setSpriteAsync(iconSoldier, iconC)
+        view.txtTitle.text = Utils.getText("landingShip_Title") --"LANDING SHIP"
+        view.txtCurNum.text = "x" .. self.soliderCount
+        view.curCommonItemItemD1:setQuality(SoliderUtil.getSoldierQuality(self.soliderCfg.cfgId))
+        local iconB = gg.getSpriteAtlasName("Soldier_A_Atlas", self.soliderCfg.icon .. "_A")
+        view.curCommonItemItemD1:setIcon(iconB)
+
         if lessTrainTick > 0 then
-            --
+            -- ""
             self:setBtnToolView(PnlSoldier.BTNTYPE_INTANT)
         else
             local count = self.soliderCountMax - self.soliderCount
             if count == 0 then
-                --
+                -- ""
                 view.boxTool:SetActive(false)
+                view.layoutTool:SetActiveEx(false)
             else
-                --
+                -- ""
                 self:setBtnToolView(PnlSoldier.BTNTYPE_SUPPLEMENT)
             end
         end
@@ -88,41 +103,49 @@ end
 function PnlSoldier:setBtnToolView(type)
     local view = self.view
     view.boxTool:SetActive(true)
+    view.layoutTool:SetActiveEx(true)
     local count = 0
-    local iconName = self.soliderCfg.icon
-    --TODOIcon
-    -- ResMgr:LoadSpriteAsync(iconName, function()
-    --     view.iconToolSoldier.sprite = sprite
-    -- end)
+    local icon = gg.getSpriteAtlasName("Soldier_A_Atlas", self.soliderCfg.icon .. "_A")
+    self.view.toolCommonItemItemD1:setQuality(SoliderUtil.getSoldierQuality(self.soliderCfg.cfgId))
+    self.view.toolCommonItemItemD1:setIcon(icon)
+
     local iconCostName = ""
     local txtName = ""
     local costNum = 0
     local tick = 0
     self.btnType = type
     if type == PnlSoldier.BTNTYPE_INTANT then
-        iconCostName = "mit_icon_com"
-        txtName = "Intant"
+        self.view.txtTime.transform:SetActiveEx(false)
+        self.view.slider.transform:SetActiveEx(true)
+
+        iconCostName = constant.RES_2_CFG_KEY[constant.RES_CARBOXYL].icon
+        txtName = Utils.getText("res_FinishNow")
         count = self.trainCount
-        local time = self.lessTrainTick + os.time()
+        local time = self.args.buildData.lessTrainTickEnd -- self.lessTrainTick + os.time()
         costNum = math.ceil((self.lessTrainTick / 60)) * cfg.global.SpeedUpPerMinute.intValue
-        self:startLoopTick(time)
+
+        local totalTime = self.soliderCfg.trainNeedTick * count
+        self:startLoopTick(time, totalTime)
     elseif type == PnlSoldier.BTNTYPE_SUPPLEMENT then
-        iconCostName = "star coin_com"
-        txtName = "Supplement"
+        self.view.txtTime.transform:SetActiveEx(true)
+        self.view.slider.transform:SetActiveEx(false)
+
+        iconCostName = constant.RES_2_CFG_KEY[constant.RES_STARCOIN].icon
+        txtName = Utils.getText("landingShip_Supplement")
         count = self.soliderCountMax - self.soliderCount
         local cost = self.soliderCfg.trainNeedStarCoin * count
         local time = self.soliderCfg.trainNeedTick * count
         costNum = cost
         tick = time
     end
-    view.txtToolNum.text = count
-    view.btnTool.transform:Find("TxtTool"):GetComponent("Text").text = txtName
-    view.txtCost.text = costNum
-    tick = gg.time:hms_string(tick)
+    view.txtToolNum.text = "x" .. count
+    view.btnTool.transform:Find("Text"):GetComponent(UNITYENGINE_UI_TEXT).text = txtName
+    view.txtCost.text = Utils.getShowRes(costNum)
+    tick = gg.time:dhms_string(tick)
     view.txtTime.text = tick
-    ResMgr:LoadSpriteAsync(iconCostName, function(sprite)
-        view.iconCost.sprite = sprite
-    end)
+
+    gg.setSpriteAsync(view.iconCost, iconCostName)
+
 end
 
 function PnlSoldier:stopLessTick()
@@ -132,15 +155,16 @@ function PnlSoldier:stopLessTick()
     end
 end
 
-function PnlSoldier:startLoopTick(tick)
+function PnlSoldier:startLoopTick(tick, totalTime)
     self:stopLessTick()
     self.lessTickTimer = gg.timer:startLoopTimer(0, 0.3, -1, function()
         local time = tick - os.time()
         if time <= 0 then
             self:stopLessTick()
         end
-        time = gg.time:hms_string(time)
-        self.view.txtTime.text = time
+
+        self.view.txtSlider.text = gg.time:dhms_string(time)
+        self.view.slider.value = time / totalTime
     end)
 end
 
@@ -175,7 +199,8 @@ end
 
 function PnlSoldier:onDestroy()
     local view = self.view
-
+    view.curCommonItemItemD1:release()
+    view.toolCommonItemItemD1:release()
 end
 
 function PnlSoldier:onBtnClose()
@@ -191,9 +216,9 @@ function PnlSoldier:onBtnTool()
     local id = self.buildId
     if self.btnType == PnlSoldier.BTNTYPE_INTANT then
         BuildData.C2S_Player_SpeedUp_SoliderTrain(id)
-        --
+        -- ""
     elseif self.btnType == PnlSoldier.BTNTYPE_SUPPLEMENT then
-        --
+        -- ""
         local soliderCfgId = self.soliderCfg.cfgId
         local maxTrainSpace = self.maxTrainSpace
         local trainSpace = self.soliderCfg.trainSpace
@@ -203,9 +228,10 @@ function PnlSoldier:onBtnTool()
         local count = soliderCountMax - self.soliderCount
         BuildData.C2S_Player_SoliderTrain(id, soliderCfgId, count)
     end
+    self:close()
 end
 
-function PnlSoldier:onBtnSoldier(temp)
+function PnlSoldier:onBtnSoldier(temp, isInstance)
     local lessTick = self.lessTick
     if lessTick > 0 then
         local text = "Upgrading the landing ship"
@@ -214,7 +240,7 @@ function PnlSoldier:onBtnSoldier(temp)
     end
     local level = self.soldierTable[temp].cfg.level
     if level <= 0 then
-        local text = "Research and development of drawings unlock"
+        local text = "Research to unlock"
         gg.uiManager:showTip(text)
         return
     end
@@ -230,24 +256,28 @@ function PnlSoldier:onBtnSoldier(temp)
         if self.btnType == PnlSoldier.BTNTYPE_CHANGE then
             BuildData.C2S_Player_SoliderReplace(id, soliderCfgId, soliderCount)
         elseif self.btnType == PnlSoldier.BTNTYPE_TRAINING then
-            BuildData.C2S_Player_SoliderTrain(id, soliderCfgId, soliderCount)
+            BuildData.C2S_Player_SoliderTrain(id, soliderCfgId, soliderCount, isInstance)
         end
-    end   
+    end
     self:close()
 end
 
 function PnlSoldier:onBtnMsg(temp)
-    
+    local data = self.soldierTable[temp]
+    SoliderUtil.showSoldierInfo(data.cfg)
 end
 
 function PnlSoldier:setViewChange()
     local view = self.view
     view.viewSoldier:SetActive(false)
     view.viewChange:SetActive(true)
+    view.viewBg:SetActiveEx(true)
+
+    view.txtTitle.text = Utils.getText("landingShip_Change_Title")
 
     self.soldierTable = {}
-    local startX = 104 
-    local startY = -127 
+    local startX = 104
+    local startY = -127
     local nextPosX = 180
     local nextPosY = -180
     local index = 0
@@ -255,61 +285,76 @@ function PnlSoldier:setViewChange()
     local soldierDataTable = self:quickSort()
 
     for k, v in pairs(soldierDataTable) do
-        local cfg = self:getCfg(v.cfgId, v.level)
-        ResMgr:LoadGameObjectAsync("BtnSoldier", function(obj)
-            local args = index
-            local lineI = args % 5
-            local rowI = args / 5
-            rowI = math.modf(rowI)
-            index = index + 1
-            local posX = startX + lineI * nextPosX
-            local posY = startY + rowI * nextPosY
+        local myCfg = self:getCfg(v.cfgId, v.level)
+        if myCfg then
+            -- ""，""
+            local isWhiteList = SoliderUtil.isInSoldierWhiteList(myCfg.cfgId)
+            if isWhiteList then
+                local args = index
+                index = index + 1
+                ResMgr:LoadGameObjectAsync("BtnSoldier", function(obj)
+                    obj.transform:SetParent(self.view.viewContent, false)
+                    local name = myCfg.name
+                    local level = myCfg.level
+                    local maxTrainSpace = self.maxTrainSpace
+                    local trainSpace = myCfg.trainSpace
+                    local count = math.modf(maxTrainSpace / trainSpace)
+                    local trainNeedStarCoin = myCfg.trainNeedStarCoin * count
+                    local trainNeedTick = myCfg.trainNeedTick * count
 
-            obj.transform:SetParent(self.view.viewContent, false)
-            obj.transform.localPosition = Vector3(posX, posY, 0)
+                    local objTransfrom = obj.transform
+                    local soldierCommonItemItem = CommonItemItemD1.new(objTransfrom:Find("CommonItemItemD1"))
+                    soldierCommonItemItem:open()
+                    local icon = gg.getSpriteAtlasName("Soldier_A_Atlas", myCfg.icon .. "_A")
+                    soldierCommonItemItem:setIcon(icon)
 
-            local name = cfg.name
-            local level = cfg.level
-            local maxTrainSpace = self.maxTrainSpace
-            local trainSpace = cfg.trainSpace
-            local count = maxTrainSpace / trainSpace
-            count = math.modf(count)
-            local trainNeedStarCoin = cfg.trainNeedStarCoin * count
-            local trainNeedTick = cfg.trainNeedTick * count
+                    local txtCount = obj.transform:Find("TxtCount"):GetComponent(UNITYENGINE_UI_TEXT)
 
-            obj.transform:Find("TxtName"):GetComponent("Text").text = name
-            if level > 0 then
-                obj.transform:Find("HaveSoldier").gameObject:SetActive(true)
-                obj.transform:Find("HaveSoldier/TxtLevel"):GetComponent("Text").text = level
-                obj.transform:Find("ViewCost").gameObject:SetActive(true)
-                obj.transform:Find("TxtUnlock").gameObject:SetActive(false)
-                local hms = gg.time:hms_string(trainNeedTick)
-                obj.transform:Find("ViewCost/TxtTime"):GetComponent("Text").text = hms
-                obj.transform:Find("ViewCost/TxtStarCoin"):GetComponent("Text").text = trainNeedStarCoin
-            else
-                obj.transform:Find("HaveSoldier").gameObject:SetActive(false)
-                obj.transform:Find("ViewCost").gameObject:SetActive(false)
-                obj.transform:Find("TxtUnlock").gameObject:SetActive(true)
+                    obj.transform:Find("TxtName"):GetComponent(UNITYENGINE_UI_TEXT).text = name
+                    soldierCommonItemItem:setQuality(SoliderUtil.getSoldierQuality(v.cfgId))
+                    if level > 0 then
+
+                        -- -- soldierCommonItemItem:setLevel("Lv." .. level)
+                        -- soldierCommonItemItem:setLevel(count .. "X")
+                        txtCount.gameObject:SetActiveEx(true)
+                        txtCount.text = count
+                        obj.transform:Find("ViewCost").gameObject:SetActive(true)
+                        obj.transform:Find("ImgGray").gameObject:SetActive(false)
+                        local hms = gg.time:dhms_string(trainNeedTick)
+                        obj.transform:Find("ViewCost/TxtTime"):GetComponent(UNITYENGINE_UI_TEXT).text = hms
+                        obj.transform:Find("ViewCost/TxtStarCoin"):GetComponent(UNITYENGINE_UI_TEXT).text = Utils.getShowRes(trainNeedStarCoin)
+                    else
+                        txtCount.gameObject:SetActiveEx(false)
+                        obj.transform:Find("ViewCost").gameObject:SetActive(false)
+                        obj.transform:Find("ImgGray").gameObject:SetActive(true)
+                    end
+
+                    args = args + 1
+                    local btnMsg = obj.transform:Find("BtnMsg").gameObject
+                    if self.soliderCfgId == myCfg.cfgId then
+                        obj.transform:Find("Selected").gameObject:SetActive(true)
+                    else
+                        obj.transform:Find("Selected").gameObject:SetActive(false)
+                        CS.UIEventHandler.Get(obj):SetOnClick(function()
+                            self:onBtnSoldier(args)
+                        end)
+                    end
+                    CS.UIEventHandler.Get(btnMsg):SetOnClick(function()
+                        self:onBtnMsg(args)
+                    end)
+                    local data = {
+                        args = args,
+                        obj = obj,
+                        cfg = myCfg,
+                        btnMsg = btnMsg,
+                        soldierCommonItemItem = soldierCommonItemItem
+                    }
+                    self.soldierTable[args] = data
+                    return true
+                end, true)
             end
-
-            args = args + 1
-            local btnMsg = obj.transform:Find("BtnMsg").gameObject
-            CS.UIEventHandler.Get(obj):SetOnClick(function()
-                self:onBtnSoldier(args)
-            end)
-            CS.UIEventHandler.Get(btnMsg):SetOnClick(function()
-                self:onBtnMsg(args)
-            end)
-            local data = {obj = obj, cfg = cfg, btnMsg = btnMsg} 
-            self.soldierTable[args] = data
-            return true
-        end, true)
+        end
     end
-    local max = #soldierDataTable
-    local rowI = (max - 1) / 5
-    rowI = math.modf(rowI)
-    local viewHigh = startY + rowI * nextPosY - 100
-    self.view.viewContent:GetComponent("RectTransform").sizeDelta =  Vector2.New(0, -viewHigh)
 end
 
 function PnlSoldier:releaseResources()
@@ -318,6 +363,7 @@ function PnlSoldier:releaseResources()
             CS.UIEventHandler.Clear(v.obj)
             CS.UIEventHandler.Clear(v.btnMsg)
             ResMgr:ReleaseAsset(v.obj)
+            v.soldierCommonItemItem:release()
             v = nil
         end
         self.soldierTable = nil
@@ -335,14 +381,14 @@ function PnlSoldier:getTableCount(temp)
 end
 
 function PnlSoldier:getCfg(cfgId, level)
-    local allCfg = cfg.get("etc.cfg.solider")
-    local cfg = nil
-    for k, v in ipairs(allCfg) do
+    local allCfg = cfg["solider"]
+    local myCfg = nil
+    for k, v in pairs(allCfg) do
         if v.cfgId == cfgId and v.level == level then
-            cfg = v
+            myCfg = v
         end
     end
-    return cfg
+    return myCfg
 end
 
 function PnlSoldier:quickSort()
@@ -355,11 +401,42 @@ function PnlSoldier:quickSort()
         if level > 0 then
             sort = sort - 10000000
         end
-        local data = {lessTick = lessTick, cfgId = cfgId, level = level, sort = sort}
+        local data = {
+            lessTick = lessTick,
+            cfgId = cfgId,
+            level = level,
+            sort = sort
+        }
         table.insert(temp, data)
     end
-    QuickSort:quickSort(temp, 1, #temp, "up")
+    QuickSort.quickSort(temp, "sort", 1, #temp, "up")
     return temp
+end
+
+--override
+function PnlSoldier:getGuideRectTransform(guideCfg)
+    if guideCfg.gameObjectName == "CreateSoldier" then
+        for key, value in pairs(self.soldierTable) do
+            if value.cfg.cfgId == guideCfg.otherArgs[1] then
+                self.selectItem = value
+                return value.obj
+            end
+        end
+    end
+    return ggclass.UIBase.getGuideRectTransform(self, guideCfg)
+end
+
+--override
+function PnlSoldier:triggerGuideClick(guideCfg)
+    if guideCfg.gameObjectName == "CreateSoldier" then
+
+        if self.selectItem then
+            self:onBtnSoldier(self.selectItem.args, true)
+        end
+        return
+    end
+
+    ggclass.UIBase.triggerGuideClick(self, guideCfg)
 end
 
 return PnlSoldier

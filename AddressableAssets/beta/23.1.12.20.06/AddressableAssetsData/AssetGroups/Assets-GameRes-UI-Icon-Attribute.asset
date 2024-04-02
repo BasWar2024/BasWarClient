@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Attribute
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Attribute
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e5e56992373ed2140abd099edc30baee
+  m_SerializeEntries:
+  - m_GUID: 5d981000341e55c4db52205aac469ced
+    m_Address: Assets/GameRes/UI/Icon/Attribute/Speed_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c20a04b0ba733474cbf3e08b923dd251
+    m_Address: Assets/GameRes/UI/Icon/Attribute/Soldiers capacity_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a28cb2717159dc5499688a3a0b55a07d
+    m_Address: Assets/GameRes/UI/Icon/Attribute/Ascension_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cd5f0cf26168f8b41a33317689081eb4
+    m_Address: Assets/GameRes/UI/Icon/Attribute/Attack speed_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53939a6440a955e4d9785552326511e2
+    m_Address: Assets/GameRes/UI/Icon/Attribute/ATK_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01dc70354425a3349ae18c59a9486e35
+    m_Address: Assets/GameRes/UI/Icon/Attribute/Durability_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d249f165667155545a1166f7007cb553
+    m_Address: Assets/GameRes/UI/Icon/Attribute/Movement speed_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aaaf91e5063a378439a9f279f04aa5bc
+    m_Address: Assets/GameRes/UI/Icon/Attribute/icon_gas_50.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8bbbc07a0b9321a4f8f66f6e934eb5ca
+    m_Address: Assets/GameRes/UI/Icon/Attribute/HP_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0cc042fc9edc86744a65c17d6db30391
+    m_Address: Assets/GameRes/UI/Icon/Attribute/Turret type_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 052e21551335c7c4a8297135f3aca036, type: 2}
+    - {fileID: 11400000, guid: 509f3ef8982830149a79bd2fcb3922d2, type: 2}

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_TwoDaul
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_TwoDaul
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ea9c4ff08619f5743afe6648c6c03102
+  m_SerializeEntries:
+  - m_GUID: 468567e1ddc70594998f913ad31a1b8e
+    m_Address: Assets/GameRes/Bullet/Bullet_TwoDaul/Bullet_TwoDaul_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc68343595fbaf24b9d83d8a1edbc825
+    m_Address: Assets/GameRes/Bullet/Bullet_TwoDaul/Bullet_TwoDaul_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 96d60537840320d44ac75f99d9d4387c
+    m_Address: Assets/GameRes/Bullet/Bullet_TwoDaul/Bullet_TwoDaul.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b4f691a7f522af46a5ad0bc0c8f8cb2
+    m_Address: Assets/GameRes/Bullet/Bullet_TwoDaul/Bullet_TwoDaul.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0545ce2c4b9bda0409ee2f2957c3956b
+    m_Address: Assets/GameRes/Bullet/Bullet_TwoDaul/Bullet_TwoDaul_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8fced5de2c74ad14c857d3495702d2b9
+    m_Address: Assets/GameRes/Bullet/Bullet_TwoDaul/Bullet_TwoDaul.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c13216da5a30b854a9804997f4f27575, type: 2}
+    - {fileID: 11400000, guid: 9a98c1b3773d58c47a0e33b60c8b97cc, type: 2}

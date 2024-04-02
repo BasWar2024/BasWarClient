@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Shop
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Shop
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ab445961b6e79fb48ac31063a0492e3d
+  m_SerializeEntries:
+  - m_GUID: db2525010fd5bc94f8e5bee66f89b109
+    m_Address: Assets/GameRes/UI/Shop/Minus_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 94f8aa31860cb414ea677f822f1fcee7
+    m_Address: Assets/GameRes/UI/Shop/stripes_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7561ea3298cc46d45bc531741619c130
+    m_Address: Assets/GameRes/UI/Shop/Yellow line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 469e68742c42de045af99f0e63486253
+    m_Address: Assets/GameRes/UI/Shop/black_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5cf0ee8430ca9794ebddb70ab07a6495
+    m_Address: Assets/GameRes/UI/Shop/border_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6c7e4c2aa15c61c40a13cb368798995f
+    m_Address: Assets/GameRes/UI/Shop/line01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 618fbbca846db044db4e2fe7fedc5941
+    m_Address: Assets/GameRes/UI/Shop/Tesseract cube02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 33b63a0c7aa419f4b85bffd5670cf2e3
+    m_Address: Assets/GameRes/UI/Shop/double_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c1e496bfa119cdf4ead33a44a84f5e52
+    m_Address: Assets/GameRes/UI/Shop/line02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e792affde3609744889e1a0e8b92ab5
+    m_Address: Assets/GameRes/UI/Shop/Pius sign_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8d8bc472139d6f24da43ece8e10142de, type: 2}
+    - {fileID: 11400000, guid: efd8a2b9924451447968ccbf0c77b832, type: 2}

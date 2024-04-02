@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_240000101
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_240000101
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d5ff0d5f080866d4fb77da4185037f94
+  m_SerializeEntries:
+  - m_GUID: 34ba48d36bd2a9049b10f1d189f95a87
+    m_Address: Assets/GameRes/Bullet/Bullet_240000101/Bullet_240000101shan.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d5b643a68ecc8445a2dfb7a716ae26b
+    m_Address: Assets/GameRes/Bullet/Bullet_240000101/Bullet_240000101tuo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2a304f421eec9a343ac15f35871e5da2, type: 2}
+    - {fileID: 11400000, guid: eb334572b01964040bcd996aadb9f04f, type: 2}

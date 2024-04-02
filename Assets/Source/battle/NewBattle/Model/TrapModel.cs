@@ -9,15 +9,16 @@ namespace Battle
     [Serializable]
     public class TrapModel
     {
+        public long id;
         public int cfgId;
         public string model;
-        public string explosionEffect; //
+        public string explosionEffect; //""
         public float x;
         public float z;
-        public int buffCfgId; //BuffId
-        public int alertRange; //
-        public int atkRange; //
-        public int radius; //
-        public int delayExplosionTime; //
+        public int buffCfgId; //""BuffId
+        public int alertRange; //""
+        public int atkRange; //""
+        public int radius; //""
+        public int delayExplosionTime; //""
     }
 }

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-GridItemBag
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-GridItemBag
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 54e2dfe587344c149aa9956fd046ab4f
+  m_SerializeEntries:
+  - m_GUID: ea53dbb0aae6d1e4b88190e070b7105a
+    m_Address: Assets/GameRes/UI/GridItemBag/screen 01_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 284381656c0617648b90388503c4655c
+    m_Address: Assets/GameRes/UI/GridItemBag/Picframe_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2568d968aac5f4544b6ec55b47055aaa
+    m_Address: Assets/GameRes/UI/GridItemBag/choose_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1576b791e82dbf4bb7de1659d9f3602
+    m_Address: Assets/GameRes/UI/GridItemBag/screen 02_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6855670c095edfb4998a8db1d2447055
+    m_Address: Assets/GameRes/UI/GridItemBag/Sort_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2c677518313c60b4bb81dc3b92972b6f, type: 2}
+    - {fileID: 11400000, guid: ceb134c4a27683f4f899bc60dfe943a0, type: 2}

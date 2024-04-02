@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Rank
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Rank
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f8f0fd08dfc01224da9d5c1a7cdabe21
+  m_SerializeEntries:
+  - m_GUID: a47af550d6f1c2d4cb8187d47636f230
+    m_Address: Assets/GameRes/UI/Rank/Icon_Rocky.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4664a73a79acdd46b81d18320c47491
+    m_Address: Assets/GameRes/UI/Rank/MIT box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 374cca765739a0647820f45ebd40ea63
+    m_Address: Assets/GameRes/UI/Rank/Pitch on_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd926df627c757f46a59ac328bcf90cb
+    m_Address: Assets/GameRes/UI/Rank/Title_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 372c04970c0627341ba0d612d02c6d1c
+    m_Address: Assets/GameRes/UI/Rank/biao_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 31ba41a8b9477fe449703434f6c41e2d
+    m_Address: Assets/GameRes/UI/Rank/my ranking_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69b8e6ba51126bc44a8842d7eda471a7
+    m_Address: Assets/GameRes/UI/Rank/team_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dc9c51ad59ca2954389ccd847c4ec634
+    m_Address: Assets/GameRes/UI/Rank/bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 77118df17fbf62649b440ef6889c0e34, type: 2}
+    - {fileID: 11400000, guid: d745c318da31b6d4ba4218776cdca130, type: 2}

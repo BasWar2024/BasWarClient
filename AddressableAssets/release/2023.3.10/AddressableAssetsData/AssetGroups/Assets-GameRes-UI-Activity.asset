@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Activity
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Activity
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c516e814c583fa44cbafeb99b8252723
+  m_SerializeEntries:
+  - m_GUID: 0a2d9fc36a1e09a4ea8f9597422a1fb6
+    m_Address: Assets/GameRes/UI/Activity/refilsh_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 361df816134d66f44bd3e070d7d4d540
+    m_Address: Assets/GameRes/UI/Activity/word03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd953117398861f48ba9ebdf83241f10
+    m_Address: Assets/GameRes/UI/Activity/kuangs_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da6de268e1c8f2b4da712df8b6b544f3
+    m_Address: Assets/GameRes/UI/Activity/word04_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b85e7bad3ad355e4ca9c7418c668c765
+    m_Address: Assets/GameRes/UI/Activity/time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b16419ec91368943bf36d88f172fd05
+    m_Address: Assets/GameRes/UI/Activity/titles_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53a820dd8c62dcf438f8e410eb1ab306
+    m_Address: Assets/GameRes/UI/Activity/box01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9cd35f4d205352742b46400f9263872c, type: 2}
+    - {fileID: 11400000, guid: 4dd9bde2f070d504aa46174bd25705cc, type: 2}

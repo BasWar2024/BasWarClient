@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Union
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Union
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2a278e66a4ca3114ba8abfbf2d142b35
+  m_SerializeEntries:
+  - m_GUID: 88aa3e00c1e9591409592846803c3dd1
+    m_Address: Assets/GameRes/UI/Icon/Union/attack_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87233e3022ea166469f2c9ec25a17092
+    m_Address: Assets/GameRes/UI/Icon/Union/Defeat_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f800b8c037a08c8478e8b729230fdb16
+    m_Address: Assets/GameRes/UI/Icon/Union/defense_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6edc7d21f57f0f04c928db5da615158b
+    m_Address: Assets/GameRes/UI/Icon/Union/military_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e5359e71cb2a82f4289c315e76efbeda
+    m_Address: Assets/GameRes/UI/Icon/Union/drop_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d36992f2742658f41a1bc75e70bdbb40
+    m_Address: Assets/GameRes/UI/Icon/Union/my  report_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a8ae6541f7470d41aff38ea0df20af1
+    m_Address: Assets/GameRes/UI/Icon/Union/nft_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2cea9854935c304439ad957ec1f00445
+    m_Address: Assets/GameRes/UI/Icon/Union/Victory bottom 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 89a63a15a21d4cc47bc53235c86b706a
+    m_Address: Assets/GameRes/UI/Icon/Union/guild bottom_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 397fc2b5fca36bd4ba1615468b565a1a
+    m_Address: Assets/GameRes/UI/Icon/Union/guild flag_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 98f884b7f9331fc4f910da25fcb2ecd3
+    m_Address: Assets/GameRes/UI/Icon/Union/economy_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 710d4f28888f1d74cb0d6e002475d3d9
+    m_Address: Assets/GameRes/UI/Icon/Union/drop_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d0de18681f220784ab225577247ab025
+    m_Address: Assets/GameRes/UI/Icon/Union/Victory bottom 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e3fb03785448ba4428234e8b32e3612f
+    m_Address: Assets/GameRes/UI/Icon/Union/resource_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7ade7f4942818304ca7cf6219e515ea5
+    m_Address: Assets/GameRes/UI/Icon/Union/attack_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08c4c8c90ce06ed4ba446c461e65456a
+    m_Address: Assets/GameRes/UI/Icon/Union/guild bottom_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 063dd11a97612fa44b83750f2d84a947
+    m_Address: Assets/GameRes/UI/Icon/Union/Victory_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6786e8eaf2cb1ea4fa8caac4d3e9314f
+    m_Address: Assets/GameRes/UI/Icon/Union/guild flag_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7a4070d3aa146e4381283def8283ddc
+    m_Address: Assets/GameRes/UI/Icon/Union/attack_icon_E.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb6a455d9cd230d43a21b5008f867049
+    m_Address: Assets/GameRes/UI/Icon/Union/unknown_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9cddb79d23a3cea468a8bd81217f7a4f
+    m_Address: Assets/GameRes/UI/Icon/Union/tower_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95d9a8fe9fa3ef147abc8688a1841432
+    m_Address: Assets/GameRes/UI/Icon/Union/soldier_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ba3ac23f923dc7c4b9694664cfeb4021
+    m_Address: Assets/GameRes/UI/Icon/Union/guild report_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 80bb40b94b3e1034891cbf0aef55e73a, type: 2}
+    - {fileID: 11400000, guid: 796a828cd9fb49e4a8a64b54947c8e0f, type: 2}

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_Summon
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_Summon
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2d604da2143c3a44b8ed5efb20625cad
+  m_SerializeEntries:
+  - m_GUID: 8ca93b21d8c326f459495bb0bc93cadb
+    m_Address: Assets/GameRes/Bullet/Bullet_Summon/Bullet_Summon_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 75b4f468730682c44818ebd70057f2d1
+    m_Address: Assets/GameRes/Bullet/Bullet_Summon/Bullet_Summon.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 67e4ebda5c438cd4ab6f54295b84d483
+    m_Address: Assets/GameRes/Bullet/Bullet_Summon/Bullet_Summon_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 089565ab586daee4c84f73fad19f7f2f
+    m_Address: Assets/GameRes/Bullet/Bullet_Summon/Bullet_Summon_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 58ea8aadf937de84592b31e9f9c53d78
+    m_Address: Assets/GameRes/Bullet/Bullet_Summon/Bullet_Summon.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4de68a4f8213e424a8b22e5d48c675ce
+    m_Address: Assets/GameRes/Bullet/Bullet_Summon/Bullet_Summon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 54906558e38961b4c948b610915be4df, type: 2}
+    - {fileID: 11400000, guid: a4ad1f6733303d242a9bb1c5acc5b499, type: 2}

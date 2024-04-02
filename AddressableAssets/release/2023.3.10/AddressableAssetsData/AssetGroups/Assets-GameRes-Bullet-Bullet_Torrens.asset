@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_Torrens
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_Torrens
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a1b32e4a4c040214a8c4b0c560716e51
+  m_SerializeEntries:
+  - m_GUID: 34e0ce4bacbf0154480649d9b08e146a
+    m_Address: Assets/GameRes/Bullet/Bullet_Torrens/Bullet_Torrensguangdian.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7c38b97650aca34b8c7c45337d6d920
+    m_Address: Assets/GameRes/Bullet/Bullet_Torrens/Bullet_TorrensParticle System.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 06250a04b57caee44b3282d23b4399b2, type: 2}
+    - {fileID: 11400000, guid: 1229f8c8ab6b01b4f9affa6cc20b8f74, type: 2}

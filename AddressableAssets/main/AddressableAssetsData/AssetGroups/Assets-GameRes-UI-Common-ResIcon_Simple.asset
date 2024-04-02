@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Common-ResIcon_Simple
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Common-ResIcon_Simple
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c5de5f8015ddde241b66bb415ffe2b6a
+  m_SerializeEntries:
+  - m_GUID: 0acdd50057be9fa4992b7e67f4a4c400
+    m_Address: Assets/GameRes/UI/Common/ResIcon_Simple/icon_ice_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4d9df2cd4711bc1428054080534283ba
+    m_Address: Assets/GameRes/UI/Common/ResIcon_Simple/icon_hydroxyl_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 220addedaf5830a438639b201b201995
+    m_Address: Assets/GameRes/UI/Common/ResIcon_Simple/icon_titanium_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22e6edcee9878a84c8a614844d5376e1
+    m_Address: Assets/GameRes/UI/Common/ResIcon_Simple/icon_starcoin__B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d2c4e9f138fe3e48a68d076038beea6
+    m_Address: Assets/GameRes/UI/Common/ResIcon_Simple/icon_gas_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ba36295fd1c12f04f9a44d6859e25120, type: 2}
+    - {fileID: 11400000, guid: 157fc192a004ad6498fd1eb74a63355b, type: 2}

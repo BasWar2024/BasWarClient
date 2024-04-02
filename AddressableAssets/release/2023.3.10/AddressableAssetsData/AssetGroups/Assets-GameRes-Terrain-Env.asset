@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Terrain-Env
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Terrain-Env
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1d068932fd32335458ad80e0551914d2
+  m_SerializeEntries:
+  - m_GUID: 78cb34c22100a444b820b68cd769a409
+    m_Address: Assets/GameRes/Terrain/Env/m_blikace_01.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c2e18a410e113444987923dc7b70155
+    m_Address: Assets/GameRes/Terrain/Env/Env_add_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 11f948bcf7398c34caa9c72c05c8e5f2
+    m_Address: Assets/GameRes/Terrain/Env/Env_add_Orange.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c38b74896e7fa540bcac236c8aeee01
+    m_Address: Assets/GameRes/Terrain/Env/Env_add_C_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0efb600bb22111240a9adc2219f6fc42
+    m_Address: Assets/GameRes/Terrain/Env/Env_add_Purple3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: df3af4d2b8235794baf24d851442fd69, type: 2}
+    - {fileID: 11400000, guid: 89dbb159056192241b4389d23bbafb4b, type: 2}

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-Role
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-Role
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b59b24bc5e2c22d43b7fd04c735c525f
+  m_SerializeEntries:
+  - m_GUID: 72216815e4b358842a7a92ec55a8ddd7
+    m_Address: Spine_100000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_100000101
+  - m_GUID: fe60178d8004d4e4dac0578219db51e8
+    m_Address: Spine_100000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_100000201
+  - m_GUID: d3397d7d9e775c041af48cc26c1ac677
+    m_Address: Spine_110000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_110000101
+  - m_GUID: 94790c589de21ac4fa07b2586e272920
+    m_Address: Spine_110000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_110000201
+  - m_GUID: 005de4ebca347ea47881aae298d2e496
+    m_Address: Spine_120000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_120000101
+  - m_GUID: b026757c468982a439d4360e6169284f
+    m_Address: Spine_120000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_120000201
+  - m_GUID: 02ce0887d103e9d4181ad17b41867a1d
+    m_Address: Spine_130000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_130000101
+  - m_GUID: 1a5bdb0b1b1587f4f88a5b137e00aefd
+    m_Address: Spine_130000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_130000201
+  - m_GUID: e78e73dacc667a64d975ae48ff7b50e9
+    m_Address: Spine_140000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_140000101
+  - m_GUID: 30412beaeeeaacb44ab50acbec2f0acc
+    m_Address: Spine_140000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_140000201
+  - m_GUID: 107725364f1ba144c8dd01abd2955d08
+    m_Address: Spine_400000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_400000101
+  - m_GUID: de7647925b93b3648a0f5ad64923e2e0
+    m_Address: Spine_720000301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role-Spine_720000301
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fb7880659524e854a84979dcc2a28f9f, type: 2}
+    - {fileID: 11400000, guid: 14b6a01b51061644780e562a0919baa5, type: 2}

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_AntiAircraftMissile
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_AntiAircraftMissile
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 00a4c0a173c5a8c4296e2fbc44775c56
+  m_SerializeEntries:
+  - m_GUID: 38e565f28a68d7d498302df5d9c85a32
+    m_Address: Assets/GameRes/Effect/Eff_AntiAircraftMissile/Eff_AntiAircraftMissile_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a989da1402495d54997f601a560113bb
+    m_Address: Assets/GameRes/Effect/Eff_AntiAircraftMissile/Eff_AntiAircraftMissile_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b987fc4cff559e4ea5a854987cecfa9
+    m_Address: Assets/GameRes/Effect/Eff_AntiAircraftMissile/Eff_AntiAircraftMissile.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 225e584aec3db1f498fff24a85b5ba88
+    m_Address: Assets/GameRes/Effect/Eff_AntiAircraftMissile/Eff_AntiAircraftMissile.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9fca05cc463946c46855139462e4dd2f
+    m_Address: Assets/GameRes/Effect/Eff_AntiAircraftMissile/Eff_AntiAircraftMissile.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c0b3022d97d6bba42b98e0c14dd8e135
+    m_Address: Assets/GameRes/Effect/Eff_AntiAircraftMissile/Eff_AntiAircraftMissile_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5756bb93dc434da48ac58c72f82b3728, type: 2}
+    - {fileID: 11400000, guid: 40ffac7a11166aa4fba3ac39d84d0fe8, type: 2}

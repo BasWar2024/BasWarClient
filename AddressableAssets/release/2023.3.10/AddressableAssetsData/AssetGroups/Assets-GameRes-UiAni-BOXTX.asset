@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UiAni-BOXTX
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UiAni-BOXTX
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 33edb2a06c33f7e4b882679d9fc051bc
+  m_SerializeEntries:
+  - m_GUID: 4fc7ca82a4f7d0444a0d8195f2463626
+    m_Address: Assets/GameRes/UiAni/BOXTX/BOXTX.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 540b1aa4a141b014b94b70fbda295bc2
+    m_Address: Assets/GameRes/UiAni/BOXTX/BOXTX_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9674d365b54746042b4c5f0fea381956
+    m_Address: Assets/GameRes/UiAni/BOXTX/BOXTX_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c0f1d21bcc2b9aa40a99ab053f2480ae
+    m_Address: Assets/GameRes/UiAni/BOXTX/BOXTX.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 146e01dd44b829b4f83dfc32ea909d5c
+    m_Address: Assets/GameRes/UiAni/BOXTX/BOXTX_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e961d85fd84ef1d4789940e692aa460a
+    m_Address: Assets/GameRes/UiAni/BOXTX/BOXTX.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d9ef30f3e83bcb1469c96d35ab131970, type: 2}
+    - {fileID: 11400000, guid: d2f532d404f7c5c42b0ef7eb1f5b8243, type: 2}

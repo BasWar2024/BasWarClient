@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Build_B
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Build_B
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 72c90edb1ac7fb640b60373ecbb94227
+  m_SerializeEntries:
+  - m_GUID: b6b3f9b7d713289459456046aa885d2a
+    m_Address: Assets/GameRes/UI/Icon/Build_B/Icon_3202001_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c161eeded14132049bbfbcddf9c6032d, type: 2}
+    - {fileID: 11400000, guid: 93d93894498f71847a77188d0e8cc902, type: 2}

@@ -27,12 +27,15 @@ function ResBoat:lookBoatRes(boatData)
         local items = data.items
         for j, item in pairs(items) do
             local count = 0
-            if boatRes[200] then
-                count = boatRes[200].count
+            if boatRes[constant.RES_ITEM] then
+                count = boatRes[constant.RES_ITEM].count
             end
             count = count + 1
-            local data = {key = 200, count = count}
-            boatRes[200] = data
+            local data = {
+                key = constant.RES_ITEM,
+                count = count
+            }
+            boatRes[constant.RES_ITEM] = data
         end
         local currencies = data.currencies
         for k, currencie in pairs(currencies) do
@@ -42,7 +45,10 @@ function ResBoat:lookBoatRes(boatData)
                 count = boatRes[resCfgId].count
             end
             count = count + currencie.count
-            local data = {key = resCfgId, count = count}
+            local data = {
+                key = resCfgId,
+                count = count
+            }
             boatRes[resCfgId] = data
         end
     end
@@ -52,11 +58,19 @@ end
 function ResBoat:loadBoat()
     ResMgr:LoadGameObjectAsync("ResBoat", function(obj)
         self.boatObj = obj
-        obj.transform:SetParent(gg.buildingManager.ownBase.transform)
+        if gg.buildingManager.ownBase then
+            obj.transform:SetParent(gg.buildingManager.ownBase.transform)
+        end
         self.boatAnim = self.boatObj.transform:GetComponent("Animator")
         self:onShow()
         return true
     end, true)
+end
+
+function ResBoat:onLoadOwnBase()
+    if self.boatObj then
+        self.boatObj.transform:SetParent(gg.buildingManager.ownBase.transform)
+    end
 end
 
 function ResBoat:unLoadBoat()
@@ -71,10 +85,10 @@ function ResBoat:unLoadBoat()
 end
 
 function ResBoat:onShow()
-    --self.boatAnim:SetTrigger("come")
+    -- self.boatAnim:SetTrigger("come")
     gg.event:dispatchEvent("onShowBoatRes", self.boatObj.transform:Find("OperPoint").gameObject)
     self:bindEvent()
-    --self:startUpdataTimer()
+    -- self:startUpdataTimer()
 end
 
 function ResBoat:stopUpdataTimer()
@@ -93,57 +107,75 @@ end
 
 function ResBoat:bindEvent()
     CS.UIEventHandler.Get(self.boatObj):SetOnClick(function()
-        self:onCollectRes()
+        self:onClickBoat()
     end)
 
-    gg.event:addListener("onCollectRes", self)
+    gg.event:addListener("onLoadOwnBase", self)
+    gg.event:addListener("onClickBoat", self)
     gg.event:addListener("onCollectSuccessful", self)
-    gg.event:addListener("onDestroyResBoat", self)
+    -- gg.event:addListener("onDestroyResBoat", self)
 end
 
 function ResBoat:releaseEvent()
     CS.UIEventHandler.Clear(self.boatObj)
 
-    gg.event:removeListener("onCollectRes", self)
+    gg.event:removeListener("onClickBoat", self)
     gg.event:removeListener("onCollectSuccessful", self)
-    gg.event:removeListener("onDestroyResBoat", self)
+    gg.event:removeListener("onLoadOwnBase", self)
+    -- gg.event:removeListener("onDestroyResBoat", self)
 end
 
-function ResBoat:onCollectRes()
-    if self:getCurAnim("boatStay") and self:lookResStore() then
-        ResPlanetData.C2S_Player_PickBoatRes(self.boatIds)
+function ResBoat:onClickBoat()
+    if next(self.boatRes) then
+        if self:getCurAnim("boatStay") and self:lookResStore() then
+            ResPlanetData.C2S_Player_PickBoatRes(self.boatIds)
+        else
+            self:collectFalse()
+            gg.uiManager:openWindow("PnlBoard")
+        end
     else
-        self:collectFalse()
+        gg.uiManager:openWindow("PnlBoard")
     end
 end
 
 function ResBoat:lookResStore()
     local bool = false
-    if ResData.getStarCoin() < gg.buildingManager.resMax.storeStarCoin then
+    if ResData.getStarCoin() < gg.buildingManager.resMax[constant.RES_STARCOIN] then
         if self.boatRes[constant.RES_STARCOIN] then
             bool = true
         end
     end
-    if ResData.getIce() < gg.buildingManager.resMax.storeIce then
+    if ResData.getIce() < gg.buildingManager.resMax[constant.RES_ICE] then
         if self.boatRes[constant.RES_ICE] then
             bool = true
         end
     end
-    if ResData.getCarboxyl() < gg.buildingManager.resMax.storeCarboxyl then
+    if ResData.getCarboxyl() < gg.buildingManager.resMax[constant.RES_CARBOXYL] then
         if self.boatRes[constant.RES_CARBOXYL] then
             bool = true
         end
     end
-    if ResData.getTitanium() < gg.buildingManager.resMax.storeTitanium then
+    if ResData.getTitanium() < gg.buildingManager.resMax[constant.RES_TITANIUM] then
         if self.boatRes[constant.RES_TITANIUM] then
             bool = true
         end
     end
-    if ResData.getGas() < gg.buildingManager.resMax.storeGas then
+    if ResData.getGas() < gg.buildingManager.resMax[constant.RES_GAS] then
         if self.boatRes[constant.RES_GAS] then
             bool = true
         end
     end
+    local maxSpace = ItemData.maxSpace + ItemData.expandSpace
+    local num = 0
+    for k, v in pairs(ItemData.itemBagData) do
+        num = num + 1
+    end
+    if num < maxSpace then
+        if self.boatRes[constant.RES_ITEM] then
+            bool = true
+        end
+    end
+
     return bool
 end
 
@@ -164,7 +196,7 @@ function ResBoat:onCollectSuccessful(args, boats)
 
     if bool then
         gg.event:dispatchEvent("onCollectBoatResSuccessful")
-        self.boatAnim:SetTrigger("leave")
+        -- self.boatAnim:SetTrigger("leave")
         self:startReleaseTimer()
     else
         self:collectFalse()

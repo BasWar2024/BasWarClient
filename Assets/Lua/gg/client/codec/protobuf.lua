@@ -1,22 +1,22 @@
----protobuf
+---protobuf""
 --@script gg.codec.protobuf
 --@author sundream
 --@release 2018/12/25 10:30:00
 --@usage
---protobuf
+--""protobuf""
 -- -------------
 -- |len|message|
 -- -------------
--- len2,message
--- message,protobuf,:
+-- len""2"",""message""
+-- message"",""protobuf"","":
 -- message MessagePackage {
---     int32 cmd = 1;          // ID
---     bytes args = 2;         // 
---     bool response = 3;      // true=,false=
---     int32 session = 4;      // rpcID,0,,
---     bytes ud = 5;           // ,
+--     int32 cmd = 1;          // ""ID
+--     bytes args = 2;         // ""
+--     bool response = 3;      // true="",false=""
+--     int32 session = 4;      // rpc""ID,""0,"",""
+--     bytes ud = 5;           // "",""
 -- }
--- args,protobuf(IDmessage)
+-- args"",""protobuf""(""ID""message"")
 
 local pb = require "pb"
 
@@ -77,7 +77,6 @@ function protobuf:reload()
 end
 
 local message_tmp = {}
-
 function protobuf:unpack_message(msg,decrypt)
     local message,err = protobuf.decode(self.MessagePackage,msg)
     assert(err == nil,err)

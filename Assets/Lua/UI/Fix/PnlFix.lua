@@ -2,37 +2,48 @@
 PnlFix = class("PnlFix", ggclass.UIBase)
 
 function PnlFix:ctor(args, onload)
-    ggclass.UIBase.ctor(self, args, onload)
+    ggclass.UIBase.ctor(self, args, onload, true)
     self.layer = UILayer.normal
     self.events = {
                     "onItemSort",
                     "onItemRepareChange",
+                    "onHeroChange",
+                    "onRefreshWarShipData",
+                    "onUpdateBuildData",
                 }
 
     self.fixItemDataList = {}
     self.fixItemList = {}
     self.showingItemData = nil
-    self.showingItemCfg = nil
+
+    self.needBlurBG = true
 end
 
 function PnlFix:onAwake()
-    self.view = ggclass.PnlFixView.new(self.transform)
+    self.view = ggclass.PnlFixView.new(self.pnlTransform)
+    self.scrollView = UIScrollView.new(self.view.scrollViewCanFix, "FixItem", self.fixItemList)
+    self.scrollView:setRenderHandler(function (obj, index)
+        self:renderHandler(obj, index)
+    end)
+
+    self.commonUpgradePartFix = CommonUpgradePart.new(self.view.commonUpgradePartFix)
+    self.commonUpgradePartFix:setClickCallback(gg.bind(self.onBtnFix, self))
+    self.commonUpgradePartFix:setBtnData({})
+    self.commonUpgradePartFix:setInstanceCostActive(false)
+
+    self.commonUpgradePartInstant = CommonUpgradePart.new(self.view.commonUpgradePartInstant)
+    self.commonUpgradePartInstant:setBtnData({})
+    self.commonUpgradePartInstant:setClickCallback(gg.bind(self.onBtnInstant, self))
+    self.commonUpgradePartInstant:setInstanceCostActive(false)
 end
 
 function PnlFix:onShow()
     self:bindEvent()
     local view = self.view
-    self.scrollView = UIScrollView.new(view.scrollViewCanFix, "FixItem", self.fixItemList)
-
-    self.scrollView:setRenderHandler(function (obj, index)
-        self:renderHandler(obj, index)
-    end)
-
-    self:refreshFixScroll()
-    self:refreshFixAll()
     self.showingItemData = nil
-    self.showingItemCfg = nil
     self:refreshFixMessage()
+    self:refreshFixScroll()
+    
 end
 
 function PnlFix:onHide()
@@ -46,27 +57,16 @@ end
 
 function PnlFix:bindEvent()
     local view = self.view
-    CS.UIEventHandler.Get(view.btnBG):SetOnClick(function()
-        self:onBtnBG()
-    end)
     CS.UIEventHandler.Get(view.btnClose):SetOnClick(function()
         self:onBtnClose()
     end)
-    CS.UIEventHandler.Get(view.btnFix):SetOnClick(function()
-        self:onBtnFix()
-    end)
     CS.UIEventHandler.Get(view.btnFixAll):SetOnClick(function()
         self:onBtnFixAll()
-    end)
-
-    self:setOnClick(view.btnInstant, function()
-        self:onBtnInstant()
     end)
 end
 
 function PnlFix:onItemSort()
     self:refreshFixScroll()
-    self:refreshFixAll()
     if self.showingItemData then
         local id = self.showingItemData.id
         self.showingItemData = nil
@@ -80,22 +80,69 @@ function PnlFix:onItemSort()
     self:refreshFixMessage()
 end
 
-function PnlFix:onItemRepareChange()
-    self:refreshFixMessage()
+function PnlFix:onHeroChange()
+    self:onItemSort()
 end
 
+function PnlFix:onRefreshWarShipData()
+    self:onItemSort()
+end
+
+function PnlFix:onUpdateBuildData()
+    self:onItemSort()
+end
+
+function PnlFix:onItemRepareChange()
+    self:refreshFixMessage()
+    self:refreshFixScroll()
+end
+
+-- data = {id , repairLessTickEnd, icon, life, curLife, quality}
 function PnlFix:refreshFixScroll()
     self.fixItemDataList = {}
+
     for key, value in pairs(ItemData.itemBagData) do
-        if value.curLife ~= nil and value.life ~= nil and value.curLife < value.life then
-            table.insert(self.fixItemDataList, value)
+        if value.entity.curLife ~= nil and value.entity.life ~= nil and value.entity.curLife < value.entity.life then
+            local itemCfg = cfg.item[value.cfgId]
+            local entity = value.entity
+            table.insert(self.fixItemDataList, FixItem.getNewItemData(value.id, entity.repairLessTickEnd, 
+                itemCfg.icon, entity.life, entity.curLife, ItemUtil.getItemQualityByItemData(value), itemCfg.name))
         end
     end
+
+    for key, value in pairs(HeroData.heroDataMap) do
+        if value.curLife < value.life then
+            local heroCfg = HeroUtil.getHeroCfg(value.cfgId, value.level, value.quality)
+            table.insert(self.fixItemDataList, 
+                FixItem.getNewItemData(value.id, value.repairLessTickEnd, heroCfg.icon, value.life, value.curLife, value.quality, heroCfg.name))
+        end
+    end
+
+    for key, value in pairs(WarShipData.warShipData) do
+        if value.curLife < value.life then
+            local warshipCfg = WarshipUtil.getWarshipCfg(value.cfgId, value.quality, value.level)
+            table.insert(self.fixItemDataList, 
+                FixItem.getNewItemData(value.id, value.repairLessTickEnd, warshipCfg.icon, value.life, value.curLife, value.quality, warshipCfg.name))
+        end
+    end
+
+    -- for key, value in pairs(BuildData.buildData) do
+    --     if value.curLife < value.life then
+    --         local buildCfg = BuildUtil.getCurBuildCfg(value.cfgId, value.level, value.quality)
+    --         table.insert(self.fixItemDataList, 
+    --             FixItem.getNewItemData(value.id, value.repairLessTickEnd, buildCfg.icon, value.life, value.curLife, value.quality, buildCfg.name))
+    --     end
+    -- end
 
     table.sort(self.fixItemDataList, function (a, b)
         return a.curLife < b.curLife
     end)
-    self.scrollView:setItemCount(#self.fixItemDataList)
+
+    local itemCount = #self.fixItemDataList
+    local showItemCount = math.max(math.ceil(itemCount / 5) * 5, 10)
+    self.scrollView:setItemCount(showItemCount)
+
+    self:refreshFixAll()
 end
 
 function PnlFix:renderHandler(obj, index)
@@ -105,17 +152,14 @@ end
 
 function PnlFix:releaseEvent()
     local view = self.view
-    CS.UIEventHandler.Clear(view.btnBG)
     CS.UIEventHandler.Clear(view.btnClose)
-    CS.UIEventHandler.Clear(view.btnFix)
     CS.UIEventHandler.Clear(view.btnFixAll)
 end
 
 function PnlFix:onDestroy()
     self.scrollView:release()
-end
-
-function PnlFix:onBtnBG()
+    self.commonUpgradePartFix:release()
+    self.commonUpgradePartInstant:release()
 end
 
 function PnlFix:onBtnClose()
@@ -127,17 +171,17 @@ function PnlFix:onBtnInstant()
         return
     end
     local callbackYes = function ()
-        ItemData.C2S_Player_RepairSpeed(self.showingItemData.id)
+        
     end
     local args = {
-        txt = string.format("Are you sure Pay %s MIT to Reinforce?", self.quickCost),
+        txt = string.format("Are you sure to consume %s Hydroxyl to complete repairment now?",  Utils.getShowRes(self.quickCost)),
         callbackYes = callbackYes,
     }
     gg.uiManager:openWindow("PnlAlert", args)
 end
 
 function PnlFix:onBtnFixAll()
-    if #self.fixItemDataList <= 0 then
+    if #self.fixItemDataList <= 0 or self.totalCost <= 0 then
         return
     end
     local callbackYes = function ()
@@ -145,26 +189,26 @@ function PnlFix:onBtnFixAll()
         for key, value in pairs(self.fixItemDataList) do
             table.insert(fixIdList, value.id)
         end
-        ItemData.C2S_Player_Repair(fixIdList)
+        
     end
     local args = {
-        txt = string.format("Are you sure Pay %s MIT to Fix All Item?", self.totalCost),
+        txt = string.format("Are you sure to consume %s Hydroxyl to complete All repairment now?", Utils.getShowRes(self.totalCost)),
         callbackYes = callbackYes,
     }
     gg.uiManager:openWindow("PnlAlert", args)
 end
 
 function PnlFix:onBtnFix()
-    if not self.showingItemData and ItemData.isFixing(self.showingItemData.id) then
+    if not self.showingItemData or self.showingItemData.repairLessTickEnd > os.time() then
         return
     end
 
     local callbackYes = function ()
-        ItemData.C2S_Player_Repair({self.showingItemData.id})
+        
     end
 
     local args = {
-        txt = string.format("Are you sure pay %s MIT to fix?", self.cost),
+        txt = string.format("Are you sure pay %s Hydroxyl to fix?", Utils.getShowRes(self.cost)),
         callbackYes = callbackYes,
     }
     gg.uiManager:openWindow("PnlAlert", args)
@@ -172,79 +216,94 @@ end
 
 function PnlFix:chooseFixItem(data, itemCfg)
     self.showingItemData = data
-    self.showingItemCfg = itemCfg
-    --if data and itemCfg then
-        self:refreshFixMessage()
-    --end
+
+    self:refreshFixMessage()
+    for key, value in pairs(self.fixItemList) do
+        value:refreshSelect()
+    end
 end
 
 function PnlFix:refreshFixMessage()
     local view = self.view
     if self.showingItemData then
-        -- view.btnFix:SetActiveEx(true)
-        view.btnFixAll:SetActiveEx(true)
-        view.btnInstant:SetActiveEx(true)
-        -- view.btnInstant:SetActiveEx(not ItemUtil:isFixing(self.showingItemData.id))
-        view.btnFix:SetActiveEx(not ItemUtil:isFixing(self.showingItemData.id))
-
         view.imgBuilding.gameObject:SetActiveEx(true)
-        view.slider.value = self.showingItemData.curLife / self.showingItemData.life
-        view.textSlider.text = string.format("%s/%s", self.showingItemData.curLife, self.showingItemData.life)
+        gg.setSpriteAsync(view.imgBuilding, self.showingItemData.icon .. "_C")
 
-        local globalCfg = cfg.get("etc.cfg.global")
+        view.txtName.text = self.showingItemData.name
+        view.txtName.color = constant.COLOR_QUALITY[self.showingItemData.quality]
+        local present = self.showingItemData.curLife / self.showingItemData.life
+        view.slider.value = present
+        view.textSlider.text = (present - present % 0.001) * 100 .. "%"
+
+        local globalCfg = cfg["global"]
         local repareCfg = globalCfg.RepairCostPerLife
 
-        local cost = repareCfg.intValue * (self.showingItemData.life - self.showingItemData.curLife)
-        self.cost = cost
+        self.cost = repareCfg.intValue * ( self.showingItemData.life -  self.showingItemData.curLife)
 
-        view.txtCost.text = "X" .. cost
-        ResMgr:LoadSpriteAsync(self.showingItemCfg.icon, function(sprite)
-            view.imgBuilding.sprite = sprite
-        end)
+        local fixTime = ( self.showingItemData.life -  self.showingItemData.curLife) * globalCfg.RepairTimePerLife.intValue
+        self.quickCost = math.ceil(fixTime / 60) * globalCfg.RepairSpeedCost.intValue
 
-        local quickCost = math.ceil((self.showingItemData.life - self.showingItemData.curLife) * 10 / 60) * globalCfg.RepairSpeedCost.intValue
-        self.quickCost = quickCost
-        view.txtInstantCost.text = quickCost
+        if self.showingItemData.repairLessTickEnd > os.time() then
 
-        local fixData = ItemUtil:getFixingData(self.showingItemData.id)
+            self.commonUpgradePartFix:setActive(false)
+            self.commonUpgradePartInstant:setActive(true)
+
+            local totalTime = (self.showingItemData.life - self.showingItemData.curLife) * cfg.global.RepairTimePerLife.intValue
+            self.commonUpgradePartInstant:setSliderData(true, self.showingItemData.repairLessTickEnd, totalTime, true, function (time)
+                self.quickCost = math.ceil(time / 60) * globalCfg.RepairSpeedCost.intValue
+                self.commonUpgradePartInstant:setBtnData({{icon = constant.RES_2_CFG_KEY[constant.RES_CARBOXYL].icon, cost = self.quickCost}})
+            end)
+        else
+            self.commonUpgradePartFix:setActive(true)
+
+            self.commonUpgradePartFix:setBtnData({{icon = constant.RES_2_CFG_KEY[constant.RES_CARBOXYL].icon, cost = self.cost}})
+            self.commonUpgradePartFix:setSliderData(true, fixTime + os.time(), fixTime, false)
+
+            self.commonUpgradePartInstant:setActive(true)
+            self.commonUpgradePartInstant:setBtnData({{icon = constant.RES_2_CFG_KEY[constant.RES_CARBOXYL].icon, cost = self.quickCost}})
+            self.commonUpgradePartInstant:setSliderData(false)
+        end
+
         if self.timer then
             gg.timer:stopTimer(self.timer)
             self.timer = nil
         end
-        if fixData then
-            view.sliderFix.transform:SetActiveEx(true)
-            self.timer = gg.timer:startLoopTimer(0, 0.3, 999999999, function()
-                local time = fixData.endTime - os.time()
-                if time > 0 then
-                    local hms = gg.time.dhms_time({day=false,hour=1,min=1,sec=1}, time)
-                    view.tmpSliderFix.text = string.format("%sh%sm%ss", hms.hour, hms.min, hms.sec)
-                    view.sliderFix.value = (fixData.lessTick - time)  / fixData.lessTick
-                end
-            end)
-        else
-            view.sliderFix.transform:SetActiveEx(false)
-        end
+
     else
         view.slider.value = 0
         view.textSlider.text = ""
-        view.imgBuilding.sprite = nil
-        view.btnFix.gameObject:SetActiveEx(false)
-        view.btnFixAll.gameObject:SetActiveEx(false)
-        view.btnInstant:SetActiveEx(false)
+        view.bgItem.gameObject:SetActiveEx(false)
         view.imgBuilding.gameObject:SetActiveEx(false)
+
+        self.commonUpgradePartFix:setActive(true)
+        self.commonUpgradePartFix:setSliderData(false)
+
+        self.commonUpgradePartInstant:setActive(true)
+        self.commonUpgradePartInstant:setSliderData(false)
     end
 end
 
 function PnlFix:refreshFixAll()
-    local repareCfg = cfg.get("etc.cfg.global").RepairCostPerLife
+    local view = self.view
+
+    local repareCfg = cfg["global"].RepairCostPerLife
     local totalCost = 0
+
+    local totalLife = 0
+    local totalCurLife = 0
+    local time =  os.time()
     for key, value in pairs(self.fixItemDataList) do
-        if not ItemUtil:isFixing(value.id) then
+        -- if value.repairLessTickEnd < time then
             totalCost = totalCost + (value.life - value.curLife) * repareCfg.intValue
-        end
+            totalLife = totalLife + value.life
+            totalCurLife = totalCurLife + value.curLife
+        -- end
     end
-    self.view.txtCostAll.text = "X" .. totalCost
+
+    self.view.txtCostAll.text = Utils.getShowRes(totalCost)
     self.totalCost = totalCost
+    view.sliderLifeAll.value = totalCurLife / totalLife
+    view.txtSliderLifeAll.text = string.format("<color=#ffffff>%s</color>/%s", totalCurLife, totalLife)
 end
 
 return PnlFix

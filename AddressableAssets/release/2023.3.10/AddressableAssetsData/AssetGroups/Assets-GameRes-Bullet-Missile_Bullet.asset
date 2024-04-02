@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Missile_Bullet
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Missile_Bullet
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a55b169cb4b82f74988fbcb2beff243a
+  m_SerializeEntries:
+  - m_GUID: b50ce35171b1d0c4d8602af10ff00102
+    m_Address: Assets/GameRes/Bullet/Missile_Bullet/Missile_Bullet.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7799ca41dae9d6e48b9a847c7e8963c6, type: 2}
+    - {fileID: 11400000, guid: cd85cc2cafa827d419fb05e3dc4d4dff, type: 2}

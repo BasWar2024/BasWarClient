@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Common
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Common
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b7fdeac2c36362548b9469e94430bc35
+  m_SerializeEntries:
+  - m_GUID: 4790456c9f1979547924ff21fcafb0ee
+    m_Address: Assets/GameRes/UI/Icon/Common/stripes_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e80140924fe0c61418808115a28914ca
+    m_Address: Assets/GameRes/UI/Icon/Common/Complete_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e990eff7c34a61b47a66c8b25e50d068
+    m_Address: Assets/GameRes/UI/Icon/Common/time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9b91d6a8e5386ba42b13625882205665
+    m_Address: Assets/GameRes/UI/Icon/Common/Uncomplete_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 02f368b80c98eeb4cbbc3e91a2930fd1, type: 2}
+    - {fileID: 11400000, guid: aeba199cf3d649749ac1019edeb04618, type: 2}

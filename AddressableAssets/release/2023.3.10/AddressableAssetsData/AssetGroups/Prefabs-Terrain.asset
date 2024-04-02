@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-Terrain
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-Terrain
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7203ba83decec4a428abeb0711cc6d1d
+  m_SerializeEntries:
+  - m_GUID: 0c097baa8a63360499500df5da7e3d7f
+    m_Address: Terrain_HighEneray30_Green
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Terrain-Terrain_HighEneray30_Green
+  - m_GUID: 43696848f18db794e8b414168ce90002
+    m_Address: Terrain_HighEneray35_Orange
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Terrain-Terrain_HighEneray35_Orange
+  - m_GUID: b3aa18e93b124f641b967b8d75c5b4e6
+    m_Address: Terrain_Mechanics30_Blue
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Terrain-Terrain_Mechanics30_Blue
+  - m_GUID: 6d9d671f5f1a9f2468e314daeb6bd50d
+    m_Address: Terrain_Mechanics35_Purple
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Terrain-Terrain_Mechanics35_Purple
+  - m_GUID: 5efcd056410c68249a9bfdf42b6d2949
+    m_Address: Terrain_Yellow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Terrain-Terrain_Yellow
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 88d780843912d2446849f303fa5a8de2, type: 2}
+    - {fileID: 11400000, guid: bac34c71ee4060e44902d9c391941d98, type: 2}

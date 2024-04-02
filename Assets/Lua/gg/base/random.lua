@@ -1,17 +1,17 @@
 local crandom = class("crandom")
 
----ggclass.crandom.new
---@param[type=int,opt] 
+---ggclass.crandom.new""
+--@param[type=int,opt] ""
 --@usage
---
---: https://zh.wikipedia.org/wiki/
+--""
+--"": https://zh.wikipedia.org/wiki/""
 function crandom:ctor(seed)
     seed = seed or os.time()
     self.next_value = seed
 end
 
----
---@param[type=int] seed 
+---""
+--@param[type=int] seed ""
 function crandom:seed(seed)
     self.next_value = seed
 end
@@ -21,13 +21,13 @@ function crandom:_random()
     return ((self.next_value / 65536) % 32768) / 32768
 end
 
----,math.random
---@param[type=int,opt] min 
---@param[type=int,opt] max 
---@return[type=int|double] 
+---"",""math.random
+--@param[type=int,opt] min ""
+--@param[type=int,opt] max ""
+--@return[type=int|double] ""
 --@usage
---min,max,[0,1],m,[1,n],
---[min,max].min,maxmax>=min
+--""min,max,""[0,1]"",""m,""[1,n]"",
+--""[min,max]"".""min,max""max>=min
 function crandom:random(min,max)
     if min == nil and max == nil then
         min = 0
@@ -48,7 +48,7 @@ function crandom:random(min,max)
     return value
 end
 
--- 
+-- ""
 
 function crandom:choose(list)
     return table.choose(list,function (min,max)

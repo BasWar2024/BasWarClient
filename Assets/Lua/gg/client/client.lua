@@ -29,7 +29,7 @@ function Client:connectGameServer(server,onConnect,onConnectFail)
                 handshake = gg.config.gameServer.handshake,
                 dispatch = function (...) self:dispatch(...) end,
                 logCmds = gg.logCmds,
-                onClose = self.onClose,
+                onClose = function (...) self:onGameServerClose(...) end,
             })
         end
         self.gameServer:connect(onConnect,onConnectFail)
@@ -62,7 +62,7 @@ function Client:connectSceneServer(server,onConnect)
                 port = server.port or server.kcp_port,
                 linkid = gg.client.loginServer.currentRole.roleid,
                 codec = self.codec,
-                handshake = false,  -- kcp
+                handshake = false,  -- kcp""
                 dispatch = function (...) self:dispatch(...) end,
                 logCmds = gg.logCmds,
                 onClose = self.onClose,
@@ -78,17 +78,23 @@ function Client:startHeartbeat(interval)
         gg.timer:stopTimer(self.heartbeatTimer)
         self.heatbeatTimer = nil
     end
+    local clientTime = gg.timer:now()
+    local str = tostring(math.floor(clientTime * 1000))
+    self.gameServer:send("C2S_Ping",{ str = str})
     self.heartbeatTimer = gg.timer:startLoopTimer(interval,interval,-1,function ()
         if self.gameServer then
-            self.gameServer:send("C2S_Ping",{})
+            local clientTime = gg.timer:now()
+            local str = tostring(math.floor(clientTime * 1000))
+            self.gameServer:send("C2S_Ping",{ str = str})
         end
         if self.sceneServer and self.sceneServer.type == "tcp" then
             self.sceneServer:send("C2S_Ping",{})
         end
     end)
 
-    --,,
+    --"","",""
     local checkInterval = 2
+    self.noPongCount = 0
     if self.checkTimer then
         gg.timer:stopTimer(self.checkTimer)
         self.checkTimer = nil
@@ -96,16 +102,17 @@ function Client:startHeartbeat(interval)
     self.checkTimer = gg.timer:startLoopTimer(checkInterval, checkInterval, -1, function ()
         local curTime = os.time()
         if (curTime - self.lastPongTime) > 10 then
-            --
-            gg.timer:stopTimer(self.checkTimer)
-            self.checkTimer = nil
-            self.gameServer:close()
-
-            --
-            gg.timer:startTimer(1,function ()
-                clearData()
-                self.loginServer:reconnectGameServer()
-            end)
+            self.noPongCount = self.noPongCount + 1
+            if self.noPongCount >= 2 then
+                self.noPongCount = 0
+                --""
+                gg.timer:stopTimer(self.checkTimer)
+                self.checkTimer = nil
+                logger.logf("info", "HeartBeat Close")
+                self.gameServer:close()
+            end
+        else
+            self.noPongCount = 0
         end
     end)
 
@@ -148,6 +155,12 @@ function Client:stopAllTimer()
         gg.timer:stopTimer(self.checkTimer)
         self.checkTimer = nil
     end
+end
+
+function Client:onGameServerClose()
+    logger.logf("info", "op=onGameServerClose")
+    --""
+    self.loginServer:reconnectGameServer()
 end
 
 return Client

@@ -1,0 +1,781 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 5763bff2eb036f54b8fd25ba1c0e1d73
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 1
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 0
+  m_maxConcurrentWebRequests: 10
+  m_ContiguousBundles: 0
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: bc272871b781f3541a4d3ae0df661d5d
+  m_RemoteCatalogLoadPath:
+    m_Id: 260de2759612d444e8084be921763afc
+  m_ContentStateBuildPath: 
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: ef689e7f9abe05d45b957190b3fd7699, type: 2}
+  - {fileID: 11400000, guid: 394a8fa7759cc094da430f03f135b5b0, type: 2}
+  - {fileID: 11400000, guid: f1b9f82f8cde306489afde007d25902a, type: 2}
+  - {fileID: 11400000, guid: eab53624224a1ba4da21dea237a6b8f4, type: 2}
+  - {fileID: 11400000, guid: 50f801ecff0f5d24b89bfd4457173777, type: 2}
+  - {fileID: 11400000, guid: 3517f933883588048a0540fb77331d66, type: 2}
+  - {fileID: 11400000, guid: 732c5b09027833a459b4be692270b1ec, type: 2}
+  - {fileID: 11400000, guid: e227cad7c1b1bbd4aa3c6ddef950b405, type: 2}
+  - {fileID: 11400000, guid: f6a72369388f4884d9eef1d76567b810, type: 2}
+  - {fileID: 11400000, guid: e57963a4b262e3841a0ce01659796df1, type: 2}
+  - {fileID: 11400000, guid: 6b0fbab1934f98243898c8434e7a2b6c, type: 2}
+  - {fileID: 11400000, guid: ca7cad3024d607949ae9fc40e36fba9e, type: 2}
+  - {fileID: 11400000, guid: 5b2b6cc62780a5e42ab5971c05defca9, type: 2}
+  - {fileID: 11400000, guid: f3a84ae5df0e93546a9cf5eca6b57dd5, type: 2}
+  - {fileID: 11400000, guid: 425a5c2aa9e15d44d80f0a17fdade2c3, type: 2}
+  - {fileID: 11400000, guid: 7872ac363a92be74e879956f582d63db, type: 2}
+  - {fileID: 11400000, guid: f1962c1a9ab4f4e4c9366af6d33b3a41, type: 2}
+  - {fileID: 11400000, guid: 39d2071881037a14e8aa1500152c15f7, type: 2}
+  - {fileID: 11400000, guid: 3ee722552d5c4a442a10e1172ea13621, type: 2}
+  - {fileID: 11400000, guid: 809cbc6fdb600a841bf84eff7160f3b3, type: 2}
+  - {fileID: 11400000, guid: 6edd37d8957e20749a51b60cb94c9fbf, type: 2}
+  - {fileID: 11400000, guid: b2a26f5c0ac745648a76c735f8b14121, type: 2}
+  - {fileID: 11400000, guid: ba4867768574abe45b789ca3fe832b1f, type: 2}
+  - {fileID: 11400000, guid: 893e5e831809c174c9db6a1929718f84, type: 2}
+  - {fileID: 11400000, guid: 500a70c0fb484d040b0e2eafc65888ad, type: 2}
+  - {fileID: 11400000, guid: 18b3adc102c0fa242803459e0c58110c, type: 2}
+  - {fileID: 11400000, guid: 6bd3e3ff398f37d40be37ecc325fce89, type: 2}
+  - {fileID: 11400000, guid: 8ee42e7b7f2d1b44db7f3c936b14d633, type: 2}
+  - {fileID: 11400000, guid: 623f9264f150db143ac02394dd0584b6, type: 2}
+  - {fileID: 11400000, guid: cc6cfee3255844a4d8acc63922fe04ef, type: 2}
+  - {fileID: 11400000, guid: 2a7a2332f36bbda4ca4e20db01e7d911, type: 2}
+  - {fileID: 11400000, guid: a61b3b34a4d98194ba951943febb9cc4, type: 2}
+  - {fileID: 11400000, guid: db683b299bcbade4daaa37e74e920ae5, type: 2}
+  - {fileID: 11400000, guid: 7a9d0886080164d48a99bb955706a4dc, type: 2}
+  - {fileID: 11400000, guid: 69cb67f2b8978884d8eea1d7cb9fcd6c, type: 2}
+  - {fileID: 11400000, guid: 5f43e0b33fe2db04482c259840e345fc, type: 2}
+  - {fileID: 11400000, guid: 6e40d0338bf4b2248ace98521759a454, type: 2}
+  - {fileID: 11400000, guid: 17d75f809c342f1498fd29572292360e, type: 2}
+  - {fileID: 11400000, guid: 56087f5bb0ab2bf488f2f55119637de7, type: 2}
+  - {fileID: 11400000, guid: d7a0d5471c28a3746b39b0cfdda06a72, type: 2}
+  - {fileID: 11400000, guid: 81e3518ec7ec7ad4eb789b02f458d792, type: 2}
+  - {fileID: 11400000, guid: 22fbd9187b632cb40a995836f1ab6a0f, type: 2}
+  - {fileID: 11400000, guid: 6de48b2247d8ae148b37960e7f0eeb35, type: 2}
+  - {fileID: 11400000, guid: 0361a7bf2500fb3439d13c50c7de0127, type: 2}
+  - {fileID: 11400000, guid: be7844acea2e73c47bc45d050cacc872, type: 2}
+  - {fileID: 11400000, guid: 2f3d0f80d3391a64f9c238510513a3e0, type: 2}
+  - {fileID: 11400000, guid: e1c6e364788523e43b0c28cdafb0991f, type: 2}
+  - {fileID: 11400000, guid: 195f6144e2384dd418a13cb4bbcc3a94, type: 2}
+  - {fileID: 11400000, guid: a74c4d83b5c6ea14d993a9787e9c013d, type: 2}
+  - {fileID: 11400000, guid: 1ffbb4e062b27ef4ba36f6ffe480898a, type: 2}
+  - {fileID: 11400000, guid: b02328f203f63f5469c6743b2154c2f9, type: 2}
+  - {fileID: 11400000, guid: 5e5df24b54a4628429995a78edd4cc0e, type: 2}
+  - {fileID: 11400000, guid: 93246facf7ab0b3429fcec214d0c0df6, type: 2}
+  - {fileID: 11400000, guid: 6e578c5bf37be604492209eca6764bb9, type: 2}
+  - {fileID: 11400000, guid: fd6fa0dcc5456d842b72790144f9887a, type: 2}
+  - {fileID: 11400000, guid: 0fc54c671d947ba4a9a413b63ddc5cdb, type: 2}
+  - {fileID: 11400000, guid: 3329496f8a23b2e49a9c4cd2c40a8f82, type: 2}
+  - {fileID: 11400000, guid: 7973785b1cc1eb048aa623fa315eec4a, type: 2}
+  - {fileID: 11400000, guid: e1340a156e05a2e4d81ec90453a09679, type: 2}
+  - {fileID: 11400000, guid: a067baccf19691a4c9ca6d6aeebb2780, type: 2}
+  - {fileID: 11400000, guid: 9b9b3e16747666c4780f58c0d4835866, type: 2}
+  - {fileID: 11400000, guid: 35baa1e68f371c141883e970da4f3e70, type: 2}
+  - {fileID: 11400000, guid: 0f63f127a33a0424fbdaa211d6071f7b, type: 2}
+  - {fileID: 11400000, guid: d228f596ba5e7c64da2df2f861e173c4, type: 2}
+  - {fileID: 11400000, guid: 0141d34f8adff394fb8f7e97f66ef6d4, type: 2}
+  - {fileID: 11400000, guid: 4db0f51b89722da479c825c3b137f1c6, type: 2}
+  - {fileID: 11400000, guid: 83e0bbc2abd796c47a2b1659f0ff4bd7, type: 2}
+  - {fileID: 11400000, guid: 6802e880ab5ce014bb9596020d9473eb, type: 2}
+  - {fileID: 11400000, guid: a1e5942649196ca4f8e69a1b4fe5a700, type: 2}
+  - {fileID: 11400000, guid: beaf28108230371408ee34c14e655779, type: 2}
+  - {fileID: 11400000, guid: 572ab66efa48313418a941785103c113, type: 2}
+  - {fileID: 11400000, guid: ccab009cc29b2c8429208b92bc0670ff, type: 2}
+  - {fileID: 11400000, guid: 3a8d21152f1a24a42a463db2633a2176, type: 2}
+  - {fileID: 11400000, guid: da55d2f526065c0479d856c564bbd426, type: 2}
+  - {fileID: 11400000, guid: 3f5b8fda912557d4d9b36e0592958907, type: 2}
+  - {fileID: 11400000, guid: dc108c65eb0faf74da799775c961bba4, type: 2}
+  - {fileID: 11400000, guid: 554998b75c563ec4b903ab9d66a40461, type: 2}
+  - {fileID: 11400000, guid: ead57b90afd10294898adc3799335410, type: 2}
+  - {fileID: 11400000, guid: b967bfb3b1d785144af7a6179f80c7b1, type: 2}
+  - {fileID: 11400000, guid: a4026ef40e4449d4f99788d8a1f9ee2f, type: 2}
+  - {fileID: 11400000, guid: 95ce881f1ad03bd4b989de675469d097, type: 2}
+  - {fileID: 11400000, guid: b46432c309e277a4cad42c448961596d, type: 2}
+  - {fileID: 11400000, guid: 646e25bb14ead9b40adccce2e4cc00d8, type: 2}
+  - {fileID: 11400000, guid: a3501d5fdef34d34a8764f089859622f, type: 2}
+  - {fileID: 11400000, guid: ddc1612e1cdb7ff439d4c34e7da495ba, type: 2}
+  - {fileID: 11400000, guid: dd4af315b0ee0e84aa685dc49d2be1ef, type: 2}
+  - {fileID: 11400000, guid: 04071e11e29782c40bb0c7d7c9f32f9e, type: 2}
+  - {fileID: 11400000, guid: 5a242e28f6363e846bfd6e2866117178, type: 2}
+  - {fileID: 11400000, guid: 9ae64e84b0430244f9f5ec82fd0ff216, type: 2}
+  - {fileID: 11400000, guid: c86ee918037bb0445b1588a9b62e078b, type: 2}
+  - {fileID: 11400000, guid: 50dcef958bd90e84b9e23c430765600a, type: 2}
+  - {fileID: 11400000, guid: f3632fa1efd28db4aa2474610ce8cf55, type: 2}
+  - {fileID: 11400000, guid: 5710ddd7ad48f484a95980a25a09e9c4, type: 2}
+  - {fileID: 11400000, guid: 2a951813577b3ee4f911450e74590b81, type: 2}
+  - {fileID: 11400000, guid: 15f5deccfd416754297b42b94ca71069, type: 2}
+  - {fileID: 11400000, guid: 1c4466c50700854408f3b955bb785b35, type: 2}
+  - {fileID: 11400000, guid: 9bd8e67f7e2d6b040b87f9bb1abe54d1, type: 2}
+  - {fileID: 11400000, guid: 6800421dfdbefd34b97b007ffa934987, type: 2}
+  - {fileID: 11400000, guid: 784bed6da3319d74eaed6a486895b56b, type: 2}
+  - {fileID: 11400000, guid: 3c10124e47c531643ae120f34b33f817, type: 2}
+  - {fileID: 11400000, guid: 75b3f2162c555a54da771101ecc60434, type: 2}
+  - {fileID: 11400000, guid: f036d936bde5d2d4ca310a8528e4d5a1, type: 2}
+  - {fileID: 11400000, guid: a5210b3a6173ab348a6b7ac6a674cff8, type: 2}
+  - {fileID: 11400000, guid: 7dfd2d7621b453c48ac79e7cf447f84b, type: 2}
+  - {fileID: 11400000, guid: f31d34d719f72e4409852b1fbb9e05fb, type: 2}
+  - {fileID: 11400000, guid: 7fc742e9c6f0e94498c72a3b266db215, type: 2}
+  - {fileID: 11400000, guid: 33194f65fd7fe0845b5b1d1581551344, type: 2}
+  - {fileID: 11400000, guid: a4c9ae924fecbf94b9fe4c7158f205ce, type: 2}
+  - {fileID: 11400000, guid: 355b3e21f78bd9b47a8b3201a6fbcd03, type: 2}
+  - {fileID: 11400000, guid: 84451dd3eb48fd04ea3046f4cc18df0b, type: 2}
+  - {fileID: 11400000, guid: 0ea4663560f0fea47b42aa9feebcc864, type: 2}
+  - {fileID: 11400000, guid: f000222bd28028a418d41c9b4b6558a5, type: 2}
+  - {fileID: 11400000, guid: 9e127dc2f8429234990bf9f5c832f5b1, type: 2}
+  - {fileID: 11400000, guid: 308317ab0ac29ae4a9cdecc7beb14abd, type: 2}
+  - {fileID: 11400000, guid: e91c781d30461a445b484ed7235872cb, type: 2}
+  - {fileID: 11400000, guid: 4ec50576947373c4a859819d4a0ab910, type: 2}
+  - {fileID: 11400000, guid: fe62c4ff7dc63ee4d981fc59db849bf8, type: 2}
+  - {fileID: 11400000, guid: 3ddf39b0aa0bef242b8344769b2a0bbe, type: 2}
+  - {fileID: 11400000, guid: 3350ccaf791afac41822a479ec3709f5, type: 2}
+  - {fileID: 11400000, guid: 1dfcb4846a95b5e41aeab25340f7b8db, type: 2}
+  - {fileID: 11400000, guid: 5e5060c7c1a346b42aee7925d3cd0d7e, type: 2}
+  - {fileID: 11400000, guid: 34cae45819acd9944869d3b6cfa3e6d9, type: 2}
+  - {fileID: 11400000, guid: 99713b7fb2de56b4db1bb036f56bbf81, type: 2}
+  - {fileID: 11400000, guid: 6487d1b725546f34a838b07e3d35918d, type: 2}
+  - {fileID: 11400000, guid: d09fe94a424490f499b4196b01a3429b, type: 2}
+  - {fileID: 11400000, guid: 7bf2c349b97df9f48945a3f48add1c23, type: 2}
+  - {fileID: 11400000, guid: 8c09b449fb66507499b368ac5c973a7e, type: 2}
+  - {fileID: 11400000, guid: 1d052e1f81800cc4b91a0608b3a3574b, type: 2}
+  - {fileID: 11400000, guid: 100127832aa2d0946b48299563874988, type: 2}
+  - {fileID: 11400000, guid: 7e2e0f3339253e54592132ff5c9c9d5c, type: 2}
+  - {fileID: 11400000, guid: 199a861eddb4d21429445f8e6e2970eb, type: 2}
+  - {fileID: 11400000, guid: 715ca12bb4a8414439edc383605b314c, type: 2}
+  - {fileID: 11400000, guid: 785ade504bb6ef64cbef873026026495, type: 2}
+  - {fileID: 11400000, guid: dfe4b71f783542e4ca86b994f4ceb2dd, type: 2}
+  - {fileID: 11400000, guid: e8542d5fba7877e46932565463cd9152, type: 2}
+  - {fileID: 11400000, guid: d94ec82647466ad4ab348ed49aa33b1c, type: 2}
+  - {fileID: 11400000, guid: cce47b4eff25f2d45a09507ca9dec1f4, type: 2}
+  - {fileID: 11400000, guid: 47e1e7f08391aae458216fbd18c61fed, type: 2}
+  - {fileID: 11400000, guid: 00908074591c4b0418cf5f0184d4ec3a, type: 2}
+  - {fileID: 11400000, guid: 7373c1eb210090d478692ec482b80765, type: 2}
+  - {fileID: 11400000, guid: c7247eada54fc0341a307a62b3a728e6, type: 2}
+  - {fileID: 11400000, guid: dec55932e59343842916a752946dcdda, type: 2}
+  - {fileID: 11400000, guid: 959ac4072a1a6bc419be4b3aeffca9c7, type: 2}
+  - {fileID: 11400000, guid: c275fce7ec92fe94aa77976219690946, type: 2}
+  - {fileID: 11400000, guid: 9a2d7c861be541e4682a8ee4a4a14a87, type: 2}
+  - {fileID: 11400000, guid: 931eff9c51f11674aa01ec7ba76dda5d, type: 2}
+  - {fileID: 11400000, guid: 13ddcb66d76a60343a441a2cddad62ee, type: 2}
+  - {fileID: 11400000, guid: db14490d9453f184f98323301fe1a21b, type: 2}
+  - {fileID: 11400000, guid: 5d9e70abcbfd5804d9ad6e28f222e778, type: 2}
+  - {fileID: 11400000, guid: 557f9c8e91af6ba42b427dafe0dc2763, type: 2}
+  - {fileID: 11400000, guid: dc629c61381645d42bd12b10565c3efe, type: 2}
+  - {fileID: 11400000, guid: 43748faddbd500549839769910cdb62a, type: 2}
+  - {fileID: 11400000, guid: 2ee0dcf0e07ea394a81f93c067c4432f, type: 2}
+  - {fileID: 11400000, guid: 585164594b791f145bf8f7eecc8b06ae, type: 2}
+  - {fileID: 11400000, guid: 999acd0738a511a4aa766b2363afd59f, type: 2}
+  - {fileID: 11400000, guid: 1d322cb5dd5c6b446a2e6b956d4cb6bd, type: 2}
+  - {fileID: 11400000, guid: ca7f0a5b6b8b5ad44a6e9d6d44e53f00, type: 2}
+  - {fileID: 11400000, guid: e9a04476532d38946bfdc338aa963d01, type: 2}
+  - {fileID: 11400000, guid: a8b05616377c9ea4bb04ee8f2cc51414, type: 2}
+  - {fileID: 11400000, guid: c04418b5579a80e408f55403a255343d, type: 2}
+  - {fileID: 11400000, guid: 932495afebf7906408c0d749a3f8110c, type: 2}
+  - {fileID: 11400000, guid: 09258372edb01b24cab9e9c37265e713, type: 2}
+  - {fileID: 11400000, guid: 0ae00a9d7d04977428b569e7f7d3a844, type: 2}
+  - {fileID: 11400000, guid: fdf571d4de11aac4eac6f864731141f8, type: 2}
+  - {fileID: 11400000, guid: 4367706c478b12d45bc9f1888a0481cd, type: 2}
+  - {fileID: 11400000, guid: 58b6d76d0fd32674b9207e0f41cadb06, type: 2}
+  - {fileID: 11400000, guid: 1df38cd11528b1548be4a9d8899e2123, type: 2}
+  - {fileID: 11400000, guid: 2b39d309c0e5d314aa59c289adb5b164, type: 2}
+  - {fileID: 11400000, guid: 5d14ef988b334304390615a06c75b22f, type: 2}
+  - {fileID: 11400000, guid: aef6e4c0d639b724ea606137a245a1dc, type: 2}
+  - {fileID: 11400000, guid: c2f21e498c19d324bae33cf434665c0a, type: 2}
+  - {fileID: 11400000, guid: cf0d6c9c4617270488761c5258a30951, type: 2}
+  - {fileID: 11400000, guid: 38b065383746fb24488f90c6e3c1d1d3, type: 2}
+  - {fileID: 11400000, guid: 6e6de5b935ee5344790a7487750524d2, type: 2}
+  - {fileID: 11400000, guid: f04eb177989cfbe43986e9cdc091c50a, type: 2}
+  - {fileID: 11400000, guid: 82d49ec3c916d1e42881c66e833c17ac, type: 2}
+  - {fileID: 11400000, guid: 6e0b631562ef7074db2b93f5c42d6ff3, type: 2}
+  - {fileID: 11400000, guid: e31563260375baf45ac043190adeef62, type: 2}
+  - {fileID: 11400000, guid: 2e565d69151494e47b399a9447a4d6ab, type: 2}
+  - {fileID: 11400000, guid: 9c4dd8ec8ee109645994576d869b8492, type: 2}
+  - {fileID: 11400000, guid: 42be7cbbbeca4f04197afb3f47a57419, type: 2}
+  - {fileID: 11400000, guid: faaaa5b568a730c4ab5cc3daba3b6df6, type: 2}
+  - {fileID: 11400000, guid: cf9fd0b026c13074799939807c5ec6b5, type: 2}
+  - {fileID: 11400000, guid: 039df751ec252074b9723554525e2a67, type: 2}
+  - {fileID: 11400000, guid: f7461d3531e684f498bf1c89c56ddb39, type: 2}
+  - {fileID: 11400000, guid: 7cc930c2f26d599459c0946481cd68eb, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: a6f3b29b0bdfbc34cbbf20f7383602b2
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 2417da925779b6e4fa21d082c6daf6d8
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 835261e49a484c245ab3fd1057cdc8a9
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 569ce1d81ac92b148a10b0e5a8dfbe4c
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: bc272871b781f3541a4d3ae0df661d5d
+        m_Value: ../clientpack/[BuildTarget]
+      - m_Id: 260de2759612d444e8084be921763afc
+        m_Value: '{Appconst.RemoteLoadPath}'
+    m_ProfileEntryNames:
+    - m_Id: 2417da925779b6e4fa21d082c6daf6d8
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 835261e49a484c245ab3fd1057cdc8a9
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: 569ce1d81ac92b148a10b0e5a8dfbe4c
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: bc272871b781f3541a4d3ae0df661d5d
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: 260de2759612d444e8084be921763afc
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - LuaScript
+    - Assets-Prefabs-APreload
+    - Assets-Prefabs-APreload-Font
+    - Assets-Prefabs-APreload-Font-bigwhite
+    - Assets-Prefabs-APreload-Font-button_1
+    - Assets-Prefabs-APreload-Font-Season
+    - Assets-Prefabs-APreload-Font-small
+    - Assets-Prefabs-APreload-Font-upgrade
+    - Assets-Prefabs-APreload-Font-vip
+    - Assets-Prefabs-Battle
+    - Assets-Prefabs-Building2D-install1x1
+    - Assets-Prefabs-Building2D-install2x2
+    - Assets-Prefabs-Building2D-install3x3
+    - Assets-Prefabs-Building2D-install4x4
+    - Assets-Prefabs-Building2D-install5x5
+    - Assets-Prefabs-Building2D-Spine_310100101
+    - Assets-Prefabs-Building2D-Spine_310200101
+    - Assets-Prefabs-Building2D-Spine_320100101
+    - Assets-Prefabs-Building2D-Spine_320200101
+    - Assets-Prefabs-Building2D-Spine_330100101
+    - Assets-Prefabs-Building2D-Spine_330200101
+    - Assets-Prefabs-Building2D-Spine_340100101
+    - Assets-Prefabs-Building2D-Spine_340200101
+    - Assets-Prefabs-Building2D-Spine_601000101
+    - Assets-Prefabs-Building2D-Spine_601000201
+    - Assets-Prefabs-Building2D-Spine_601000301
+    - Assets-Prefabs-Building2D-Spine_601000401
+    - Assets-Prefabs-Building2D-Spine_601000501
+    - Assets-Prefabs-Building2D-Spine_601000601
+    - Assets-Prefabs-Building2D-Spine_601000701
+    - Assets-Prefabs-Building2D-Spine_601000801
+    - Assets-Prefabs-Building2D-Spine_601000901
+    - Assets-Prefabs-Building2D-Spine_601001001
+    - Assets-Prefabs-Building2D-Spine_602000201
+    - Assets-Prefabs-Building2D-Spine_602000501
+    - Assets-Prefabs-Building2D-Spine_602000601
+    - Assets-Prefabs-Building2D-Spine_602000701
+    - Assets-Prefabs-Building2D-Spine_603000101
+    - Assets-Prefabs-Building2D-Spine_603000301
+    - Assets-Prefabs-Building2D-Spine_603000401
+    - Assets-Prefabs-Building2D-Spine_603000501
+    - Assets-Prefabs-Building2D-Spine_603000601
+    - Assets-Prefabs-Building2D-Spine_603000701
+    - Assets-Prefabs-Building2D-Spine_603000801
+    - Assets-Prefabs-Building2D-Spine_603000901
+    - Assets-Prefabs-Building2D-Spine_603001001
+    - Assets-Prefabs-BuildingOther2D
+    - Assets-Prefabs-BuildingOther2D-TabletopCloud
+    - Assets-Prefabs-BuildingOther2D-TabletopCom1
+    - Assets-Prefabs-BuildingOther2D-TabletopCom2
+    - Assets-Prefabs-BuildingOther2D-TabletopCom4
+    - Assets-Prefabs-Bullet-Bullet_300010301
+    - Assets-Prefabs-Bullet-Bullet_300010401
+    - Assets-Prefabs-Bullet-Bullet_310033001
+    - Assets-Prefabs-Bullet-Bullet_310043001
+    - Assets-Prefabs-Bullet-Bullet_603000901
+    - Assets-Prefabs-Bullet-Bullet_710000401
+    - Assets-Prefabs-Bullet-Bullet_AntiAircraftMissile
+    - Assets-Prefabs-Bullet-Bullet_Ather
+    - Assets-Prefabs-Bullet-Bullet_AtherDivision
+    - Assets-Prefabs-Bullet-Bullet_Blaze
+    - Assets-Prefabs-Bullet-Bullet_Centipede
+    - Assets-Prefabs-Bullet-Bullet_Crit
+    - Assets-Prefabs-Bullet-Bullet_Cultro
+    - Assets-Prefabs-Bullet-Bullet_Cure
+    - Assets-Prefabs-Bullet-Bullet_Demine
+    - Assets-Prefabs-Bullet-Bullet_DestructionParticleArtillery
+    - Assets-Prefabs-Bullet-Bullet_Disturb
+    - Assets-Prefabs-Bullet-Bullet_Dot
+    - Assets-Prefabs-Bullet-Bullet_EMP
+    - Assets-Prefabs-Bullet-Bullet_FireRain
+    - Assets-Prefabs-Bullet-Bullet_flame
+    - Assets-Prefabs-Bullet-Bullet_Flares
+    - Assets-Prefabs-Bullet-Bullet_Frostin
+    - Assets-Prefabs-Bullet-Bullet_GrainoFlightTanks
+    - Assets-Prefabs-Bullet-Bullet_HypersonicMissile
+    - Assets-Prefabs-Bullet-Bullet_Ignis
+    - Assets-Prefabs-Bullet-Bullet_Inosculans
+    - Assets-Prefabs-Bullet-Bullet_King
+    - Assets-Prefabs-Bullet-Bullet_Laser
+    - Assets-Prefabs-Bullet-Bullet_LaserGun
+    - Assets-Prefabs-Bullet-Bullet_Light
+    - Assets-Prefabs-Bullet-Bullet_Lightning
+    - Assets-Prefabs-Bullet-Bullet_LightningChain
+    - Assets-Prefabs-Bullet-Bullet_MetalMissile
+    - Assets-Prefabs-Bullet-Bullet_MicroBlackHole
+    - Assets-Prefabs-Bullet-Bullet_Millipede
+    - Assets-Prefabs-Bullet-Bullet_Missile
+    - Assets-Prefabs-Bullet-Bullet_NearTank
+    - Assets-Prefabs-Bullet-Bullet_NuclearAircaft
+    - Assets-Prefabs-Bullet-Bullet_ParticleBeamTower
+    - Assets-Prefabs-Bullet-Bullet_Plasma
+    - Assets-Prefabs-Bullet-Bullet_Precision
+    - Assets-Prefabs-Bullet-Bullet_Separate
+    - Assets-Prefabs-Bullet-Bullet_Shield
+    - Assets-Prefabs-Bullet-Bullet_ShotGun
+    - Assets-Prefabs-Bullet-Bullet_Sirius
+    - Assets-Prefabs-Bullet-Bullet_SmallPlane
+    - Assets-Prefabs-Bullet-Bullet_Smoke
+    - Assets-Prefabs-Bullet-Bullet_Solidus
+    - Assets-Prefabs-Bullet-Bullet_Sonicemitter
+    - Assets-Prefabs-Bullet-Bullet_Summon
+    - Assets-Prefabs-Bullet-Bullet_Thelasergun
+    - Assets-Prefabs-Bullet-Bullet_Tonitruum
+    - Assets-Prefabs-Bullet-Bullet_Torrens
+    - Assets-Prefabs-Bullet-Bullet_TwoDaul
+    - Assets-Prefabs-Bullet-Bullet_Vampire01
+    - Assets-Prefabs-Bullet-Bullet_Vampire02
+    - Assets-Prefabs-Com
+    - Assets-Prefabs-Edit
+    - Assets-Prefabs-EditBattle
+    - Assets-Prefabs-Effect-2100001
+    - Assets-Prefabs-Effect-2100002
+    - Assets-Prefabs-Effect-2200001
+    - Assets-Prefabs-Effect-2200002
+    - Assets-Prefabs-Effect-2300001
+    - Assets-Prefabs-Effect-2300002
+    - Assets-Prefabs-Effect-2400001
+    - Assets-Prefabs-Effect-2400002
+    - Assets-Prefabs-Effect-3000106
+    - Assets-Prefabs-Effect-3000107
+    - Assets-Prefabs-Effect-3000109
+    - Assets-Prefabs-Effect-3100130
+    - Assets-Prefabs-Effect-5000001
+    - Assets-Prefabs-Effect-5100001
+    - Assets-Prefabs-Effect-5100002
+    - Assets-Prefabs-Effect-5116022
+    - Assets-Prefabs-Effect-5116023
+    - Assets-Prefabs-Effect-5116024
+    - Assets-Prefabs-Effect-5116025
+    - Assets-Prefabs-Effect-5116026
+    - Assets-Prefabs-Effect-5200001
+    - Assets-Prefabs-Effect-5200002
+    - Assets-Prefabs-Effect-5300001
+    - Assets-Prefabs-Effect-5300002
+    - Assets-Prefabs-Effect-5400001
+    - Assets-Prefabs-Effect-5400002
+    - Assets-Prefabs-Effect-6030001
+    - Assets-Prefabs-Effect-6030003
+    - Assets-Prefabs-Effect-6030004
+    - Assets-Prefabs-Effect-6030005
+    - Assets-Prefabs-Effect-6030006
+    - Assets-Prefabs-Effect-6030007
+    - Assets-Prefabs-Effect-6030008
+    - Assets-Prefabs-Effect-6030010
+    - Assets-Prefabs-Effect-7100001
+    - Assets-Prefabs-Effect-7100003
+    - Assets-Prefabs-Effect-7100008
+    - Assets-Prefabs-Effect-7100009
+    - Assets-Prefabs-Effect-7100011
+    - Assets-Prefabs-Effect-7200002
+    - Assets-Prefabs-Effect-7200003
+    - Assets-Prefabs-Effect-7200004
+    - Assets-Prefabs-Effect-7200005
+    - Assets-Prefabs-Effect-7200006
+    - Assets-Prefabs-Effect-7200007
+    - Assets-Prefabs-Effect-Buff_AddAtk
+    - Assets-Prefabs-Effect-Buff_AddAtkAndAtkSpeed
+    - Assets-Prefabs-Effect-Buff_AddAtkSpeed
+    - Assets-Prefabs-Effect-Buff_AddAtkSpeedAndMoveSpeed
+    - Assets-Prefabs-Effect-Buff_AddHpLimit
+    - Assets-Prefabs-Effect-Buff_AddMoveSpeed
+    - Assets-Prefabs-Effect-Buff_Black
+    - Assets-Prefabs-Effect-Buff_Cure
+    - Assets-Prefabs-Effect-Buff_Detonation
+    - Assets-Prefabs-Effect-Buff_Ding
+    - Assets-Prefabs-Effect-Buff_Disturb
+    - Assets-Prefabs-Effect-Buff_Dot
+    - Assets-Prefabs-Effect-Buff_IntensifyAtk
+    - Assets-Prefabs-Effect-Buff_LitCavaliers
+    - Assets-Prefabs-Effect-Buff_Millipede
+    - Assets-Prefabs-Effect-Buff_Shield
+    - Assets-Prefabs-Effect-Buff_Stealth
+    - Assets-Prefabs-Effect-Buff_SubMoveSpeed
+    - Assets-Prefabs-Effect-Buff_SubtractAtk
+    - Assets-Prefabs-Effect-Buff_SubtractAtkSpeed
+    - Assets-Prefabs-Effect-Buff_Vampire
+    - Assets-Prefabs-Effect-Buff_Vulnerability
+    - Assets-Prefabs-Effect-Eff_5105001
+    - Assets-Prefabs-Effect-Eff_511602501 1
+    - Assets-Prefabs-Effect-Eff_AddAtk
+    - Assets-Prefabs-Effect-Eff_AddAtkAndAtkSpeed
+    - Assets-Prefabs-Effect-Eff_AddAtkSpeed
+    - Assets-Prefabs-Effect-Eff_AddAtkSpeedAndMoveSpeed
+    - Assets-Prefabs-Effect-Eff_AddHpLimit
+    - Assets-Prefabs-Effect-Eff_AddMoveSpeed
+    - Assets-Prefabs-Effect-Eff_AtherDie
+    - Assets-Prefabs-Effect-Eff_AtherDivisionDie
+    - Assets-Prefabs-Effect-Eff_birth
+    - Assets-Prefabs-Effect-Eff_Blaze
+    - Assets-Prefabs-Effect-Eff_BuildingDie_1x1
+    - Assets-Prefabs-Effect-Eff_BuildingDie_2x2
+    - Assets-Prefabs-Effect-Eff_BuildingDie_3x3
+    - Assets-Prefabs-Effect-Eff_BuildingDie_4x4
+    - Assets-Prefabs-Effect-Eff_BuildingDie_5x5
+    - Assets-Prefabs-Effect-Eff_Centipede
+    - Assets-Prefabs-Effect-Eff_Crit
+    - Assets-Prefabs-Effect-Eff_Cultro
+    - Assets-Prefabs-Effect-Eff_Cure
+    - Assets-Prefabs-Effect-Eff_CureSingle
+    - Assets-Prefabs-Effect-Eff_Dead
+    - Assets-Prefabs-Effect-Eff_Dead_two
+    - Assets-Prefabs-Effect-Eff_Disturb
+    - Assets-Prefabs-Effect-Eff_EMP
+    - Assets-Prefabs-Effect-Eff_Flares
+    - Assets-Prefabs-Effect-Eff_Frostin
+    - Assets-Prefabs-Effect-Eff_GrainoFlightTanks
+    - Assets-Prefabs-Effect-Eff_Hero circle
+    - Assets-Prefabs-Effect-Eff_Ignis
+    - Assets-Prefabs-Effect-Eff_Inosculans
+    - Assets-Prefabs-Effect-Eff_King
+    - Assets-Prefabs-Effect-Eff_LandHalo
+    - Assets-Prefabs-Effect-Eff_LandHalo_ps
+    - Assets-Prefabs-Effect-Eff_LightningChain
+    - Assets-Prefabs-Effect-Eff_LightningNext
+    - Assets-Prefabs-Effect-Eff_MicroBlackHole
+    - Assets-Prefabs-Effect-Eff_Millipede
+    - Assets-Prefabs-Effect-Eff_Missile
+    - Assets-Prefabs-Effect-Eff_NearTank
+    - Assets-Prefabs-Effect-Eff_ParticleBeamTower
+    - Assets-Prefabs-Effect-Eff_Precision
+    - Assets-Prefabs-Effect-Eff_Separate
+    - Assets-Prefabs-Effect-Eff_ShotGun
+    - Assets-Prefabs-Effect-Eff_Sirius
+    - Assets-Prefabs-Effect-Eff_Smoke
+    - Assets-Prefabs-Effect-Eff_Solidus
+    - Assets-Prefabs-Effect-Eff_Stealth
+    - Assets-Prefabs-Effect-Eff_SubtractAtk
+    - Assets-Prefabs-Effect-Eff_SubtractAtkSpeed
+    - Assets-Prefabs-Effect-Eff_Summon
+    - Assets-Prefabs-Effect-Eff_Tonitruum
+    - Assets-Prefabs-Effect-Eff_Vulnerability
+    - Assets-Prefabs-Effect-LandPoint
+    - Assets-Prefabs-Effect-Ui_Choose_Eff
+    - Assets-Prefabs-FMODBanks
+    - Assets-Prefabs-Galaxy
+    - Assets-Prefabs-Ground
+    - Assets-Prefabs-Model-Ground
+    - Assets-Prefabs-Model-Ground-Tarmac
+    - Assets-Prefabs-Model-LandArea
+    - Assets-Prefabs-platform
+    - Assets-Prefabs-Res
+    - Assets-Prefabs-ResPlanet
+    - Assets-Prefabs-Role-Spine_100000101
+    - Assets-Prefabs-Role-Spine_100000201
+    - Assets-Prefabs-Role-Spine_110000101
+    - Assets-Prefabs-Role-Spine_110000201
+    - Assets-Prefabs-Role-Spine_120000101
+    - Assets-Prefabs-Role-Spine_120000201
+    - Assets-Prefabs-Role-Spine_130000101
+    - Assets-Prefabs-Role-Spine_130000201
+    - Assets-Prefabs-Role-Spine_140000101
+    - Assets-Prefabs-Role-Spine_140000201
+    - Assets-Prefabs-Role-Spine_400000101
+    - Assets-Prefabs-Role-Spine_720000301
+    - Assets-Prefabs-Role2D-Antimattervehicle_spine
+    - Assets-Prefabs-Role2D-Drone_spine
+    - Assets-Prefabs-Role2D-GrainoFlightTanks_spine
+    - Assets-Prefabs-Role2D-Hammer_spine
+    - Assets-Prefabs-Role2D-NearTank_spine
+    - Assets-Prefabs-Role2D-parade_spine
+    - Assets-Prefabs-Role2D-ShotGun_spine
+    - Assets-Prefabs-Role2D-Sirius_spine
+    - Assets-Prefabs-Role2D-Spine_210000101
+    - Assets-Prefabs-Role2D-Spine_210000201
+    - Assets-Prefabs-Role2D-Spine_220000101
+    - Assets-Prefabs-Role2D-Spine_220000201
+    - Assets-Prefabs-Role2D-Spine_230000101
+    - Assets-Prefabs-Role2D-Spine_230000201
+    - Assets-Prefabs-Role2D-Spine_240000101
+    - Assets-Prefabs-Role2D-Spine_240000201
+    - Assets-Prefabs-Role2D-Spine_500000101
+    - Assets-Prefabs-Role2D-Spine_500000201
+    - Assets-Prefabs-Role2D-Spine_510000101
+    - Assets-Prefabs-Role2D-Spine_510000201
+    - Assets-Prefabs-Role2D-Spine_520000101
+    - Assets-Prefabs-Role2D-Spine_520000201
+    - Assets-Prefabs-Role2D-Spine_530000101
+    - Assets-Prefabs-Role2D-Spine_530000201
+    - Assets-Prefabs-Role2D-Spine_540000101
+    - Assets-Prefabs-Role2D-Spine_540000201
+    - Assets-Prefabs-Role2D-Spine_710000101
+    - Assets-Prefabs-Role2D-Spine_710000301
+    - Assets-Prefabs-Role2D-Spine_710000401
+    - Assets-Prefabs-Role2D-Spine_710000801
+    - Assets-Prefabs-Role2D-Spine_710000901
+    - Assets-Prefabs-Role2D-Spine_710001101
+    - Assets-Prefabs-Role2D-Spine_720000101
+    - Assets-Prefabs-Role2D-Spine_720000201
+    - Assets-Prefabs-Role2D-Spine_720000401
+    - Assets-Prefabs-Role2D-Spine_720000501
+    - Assets-Prefabs-Role2D-Spine_720000601
+    - Assets-Prefabs-Role2D-Spine_720000701
+    - Assets-Prefabs-Skill-ShipAirship_spine
+    - Assets-Prefabs-Stellar
+    - Assets-Prefabs-Terrain
+    - Assets-Prefabs-UI
+    - Assets-Prefabs-UI-Achievement
+    - Assets-Prefabs-UI-Activity
+    - Assets-Prefabs-UI-Activity-AccruingTes
+    - Assets-Prefabs-UI-Activity-DailyCheckIn
+    - Assets-Prefabs-UI-Activity-FirstCharge
+    - Assets-Prefabs-UI-Activity-GiftBag
+    - Assets-Prefabs-UI-Activity-OpenAccruingCharge
+    - Assets-Prefabs-UI-Alert
+    - Assets-Prefabs-UI-Atlas-AchievementIcon
+    - Assets-Prefabs-UI-Atlas-Activity
+    - Assets-Prefabs-UI-Atlas-Attribute
+    - Assets-Prefabs-UI-Atlas-Badges
+    - Assets-Prefabs-UI-Atlas-Battle
+    - Assets-Prefabs-UI-Atlas-BattleReport
+    - Assets-Prefabs-UI-Atlas-BuildButton
+    - Assets-Prefabs-UI-Atlas-Building
+    - Assets-Prefabs-UI-Atlas-BuildShop
+    - Assets-Prefabs-UI-Atlas-Build_A
+    - Assets-Prefabs-UI-Atlas-Build_B
+    - Assets-Prefabs-UI-Atlas-Button
+    - Assets-Prefabs-UI-Atlas-Common
+    - Assets-Prefabs-UI-Atlas-Contry
+    - Assets-Prefabs-UI-Atlas-DrawCard
+    - Assets-Prefabs-UI-Atlas-Head
+    - Assets-Prefabs-UI-Atlas-Hero_A
+    - Assets-Prefabs-UI-Atlas-HyList
+    - Assets-Prefabs-UI-Atlas-Institute
+    - Assets-Prefabs-UI-Atlas-Item
+    - Assets-Prefabs-UI-Atlas-ItemBag
+    - Assets-Prefabs-UI-Atlas-ItemFrame
+    - Assets-Prefabs-UI-Atlas-Item_Bg
+    - Assets-Prefabs-UI-Atlas-LeagueRank
+    - Assets-Prefabs-UI-Atlas-Mail
+    - Assets-Prefabs-UI-Atlas-Main
+    - Assets-Prefabs-UI-Atlas-Map
+    - Assets-Prefabs-UI-Atlas-MintIcon
+    - Assets-Prefabs-UI-Atlas-PersonalArmy
+    - Assets-Prefabs-UI-Atlas-Pledge
+    - Assets-Prefabs-UI-Atlas-PvpStage
+    - Assets-Prefabs-UI-Atlas-QualityBg
+    - Assets-Prefabs-UI-Atlas-Rank
+    - Assets-Prefabs-UI-Atlas-ResIcon
+    - Assets-Prefabs-UI-Atlas-Result
+    - Assets-Prefabs-UI-Atlas-Shop
+    - Assets-Prefabs-UI-Atlas-SkillBox
+    - Assets-Prefabs-UI-Atlas-Skill_A1
+    - Assets-Prefabs-UI-Atlas-Skill_A2
+    - Assets-Prefabs-UI-Atlas-Soldier_A
+    - Assets-Prefabs-UI-Atlas-Task
+    - Assets-Prefabs-UI-Atlas-Tech
+    - Assets-Prefabs-UI-Atlas-Union
+    - Assets-Prefabs-UI-Atlas-UnionArmyIcon
+    - Assets-Prefabs-UI-Atlas-Warship_A
+    - Assets-Prefabs-UI-Atlas-Warship_B
+    - Assets-Prefabs-UI-Battle
+    - Assets-Prefabs-UI-BattleEdit
+    - Assets-Prefabs-UI-BattleLoading
+    - Assets-Prefabs-UI-BattleReport
+    - Assets-Prefabs-UI-BattleResult
+    - Assets-Prefabs-UI-Board
+    - Assets-Prefabs-UI-BuildInfo
+    - Assets-Prefabs-UI-BuyCount
+    - Assets-Prefabs-UI-Card
+    - Assets-Prefabs-UI-Chat
+    - Assets-Prefabs-UI-Collect
+    - Assets-Prefabs-UI-Common
+    - Assets-Prefabs-UI-Common-BgMsg
+    - Assets-Prefabs-UI-Common-BottomOptionalBtnsBox
+    - Assets-Prefabs-UI-Common-BoxArrowUpgrade
+    - Assets-Prefabs-UI-Common-CommonAddCountBox
+    - Assets-Prefabs-UI-Common-CommonAttrItem
+    - Assets-Prefabs-UI-Common-CommonBagItem
+    - Assets-Prefabs-UI-Common-CommonForgeBox
+    - Assets-Prefabs-UI-Common-CommonItemItem
+    - Assets-Prefabs-UI-Common-CommonItemItemD1
+    - Assets-Prefabs-UI-Common-CommonItemItemD2
+    - Assets-Prefabs-UI-Common-CommonLevelUpNeedCost
+    - Assets-Prefabs-UI-Common-CommonNormalItem
+    - Assets-Prefabs-UI-Common-CommonResBox
+    - Assets-Prefabs-UI-Common-CommonUpgradeBox
+    - Assets-Prefabs-UI-Common-CommonUpgradeNewBox
+    - Assets-Prefabs-UI-Common-CommonUpgradePart
+    - Assets-Prefabs-UI-Common-Filter
+    - Assets-Prefabs-UI-Common-FullViewOptionBtnBox
+    - Assets-Prefabs-UI-Common-ImgCommonRedPoint
+    - Assets-Prefabs-UI-Common-LeftBtnViewBg
+    - Assets-Prefabs-UI-Common-LeftBtnViewBgBtnsBox
+    - Assets-Prefabs-UI-Common-OptionalTopBtnsBox
+    - Assets-Prefabs-UI-Common-PnlOptions
+    - Assets-Prefabs-UI-Common-PnlPromptMsg
+    - Assets-Prefabs-UI-Common-PnlStatement
+    - Assets-Prefabs-UI-Common-PnlTip
+    - Assets-Prefabs-UI-Common-ViewBg
+    - Assets-Prefabs-UI-Common-ViewBgHalf
+    - Assets-Prefabs-UI-Common-ViewFullBg
+    - Assets-Prefabs-UI-Connect
+    - Assets-Prefabs-UI-Dao
+    - Assets-Prefabs-UI-Dao-Box
+    - Assets-Prefabs-UI-DebugLog
+    - Assets-Prefabs-UI-Desc
+    - Assets-Prefabs-UI-Draft
+    - Assets-Prefabs-UI-DrawCard
+    - Assets-Prefabs-UI-Exchange
+    - Assets-Prefabs-UI-Fix
+    - Assets-Prefabs-UI-ForgetPassword
+    - Assets-Prefabs-UI-GMTool
+    - Assets-Prefabs-UI-Guide
+    - Assets-Prefabs-UI-Headquarters
+    - Assets-Prefabs-UI-HeroHut
+    - Assets-Prefabs-UI-HyList
+    - Assets-Prefabs-UI-HyList-FirstPlot
+    - Assets-Prefabs-UI-HyList-OpenServerPVPRank
+    - Assets-Prefabs-UI-HyList-OpenServerUnionRank
+    - Assets-Prefabs-UI-Icon-Battle
+    - Assets-Prefabs-UI-Icon-Bg
+    - Assets-Prefabs-UI-Icon-DefensiveTowersBiglIcon
+    - Assets-Prefabs-UI-Icon-HeroBigIcon
+    - Assets-Prefabs-UI-Icon-ResIconBigIcon
+    - Assets-Prefabs-UI-Icon-SoldierBigIcon
+    - Assets-Prefabs-UI-Icon-WarshipBigIcon
+    - Assets-Prefabs-UI-Institute
+    - Assets-Prefabs-UI-ItemBag
+    - Assets-Prefabs-UI-ItemInfo
+    - Assets-Prefabs-UI-Launch
+    - Assets-Prefabs-UI-LeagueRank
+    - Assets-Prefabs-UI-Loading
+    - Assets-Prefabs-UI-Login
+    - Assets-Prefabs-UI-Mail
+    - Assets-Prefabs-UI-Main
+    - Assets-Prefabs-UI-Map
+    - Assets-Prefabs-UI-Match
+    - Assets-Prefabs-UI-Mint
+    - Assets-Prefabs-UI-MyPlanet
+    - Assets-Prefabs-UI-NFTTower
+    - Assets-Prefabs-UI-PersonalArmy
+    - Assets-Prefabs-UI-PersonalQuickSelectArmy
+    - Assets-Prefabs-UI-Planet
+    - Assets-Prefabs-UI-PlayerDetailed
+    - Assets-Prefabs-UI-Pledge
+    - Assets-Prefabs-UI-Pve
+    - Assets-Prefabs-UI-PveResult
+    - Assets-Prefabs-UI-Pvp
+    - Assets-Prefabs-UI-Rank
+    - Assets-Prefabs-UI-Reward
+    - Assets-Prefabs-UI-Routes
+    - Assets-Prefabs-UI-Rule
+    - Assets-Prefabs-UI-SelectRace
+    - Assets-Prefabs-UI-Setting
+    - Assets-Prefabs-UI-Shop
+    - Assets-Prefabs-UI-Shrine
+    - Assets-Prefabs-UI-Soldier
+    - Assets-Prefabs-UI-StarMapItemBag
+    - Assets-Prefabs-UI-StarMapPlot
+    - Assets-Prefabs-UI-Task
+    - Assets-Prefabs-UI-Union
+    - Assets-Prefabs-UI-UnionArmy
+    - Assets-Prefabs-UI-Upgrade
+    - Assets-Prefabs-UI-WarShip
+    - Assets-Prefabs-APreload-Font-season
+    - Assets-Prefabs-Effect-Eff_AntiAircraftMissile
+    - Assets-Prefabs-Terrain-Terrain_HighEneray30_Green
+    - Assets-Prefabs-Terrain-Terrain_HighEneray35_Orange
+    - Assets-Prefabs-Terrain-Terrain_Mechanics30_Blue
+    - Assets-Prefabs-Terrain-Terrain_Mechanics35_Purple
+    - Assets-Prefabs-Terrain-Terrain_Yellow
+    - Assets-Prefabs-Bullet-Bullet_500000202
+    - Assets-Prefabs-Effect-5000002
+    - Assets-Prefabs-UI-Activity-LimitTimeGoods
+    - Assets-Prefabs-UI-UnionArmyNew
+    - Assets-Prefabs-UI-GridItemBag
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: b0d4400dedcbee141bbe11cf6952bdd1, type: 2}
+  m_InitializationObjects:
+  - {fileID: 11400000, guid: 255044a698a21174684e3948df7522be, type: 2}
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 7ed2b5aab6bf27245a56c69a132bc93c, type: 2}
+  - {fileID: 11400000, guid: e301640aaa915dc429f240d0a34b440d, type: 2}
+  - {fileID: 11400000, guid: d42ab5f9047e19e40aea50ea5006435d, type: 2}
+  - {fileID: 11400000, guid: cfe9b7f99eb524f40a0d419a377707ae, type: 2}
+  m_ActiveProfileId: a6f3b29b0bdfbc34cbbf20f7383602b2
+  m_HostingServicesManager:
+    m_HostingServiceInfos:
+    - classRef: UnityEditor.AddressableAssets.HostingServices.HttpHostingService,
+        Unity.Addressables.Editor
+      dataStore:
+        m_SerializedData:
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 50546
+          m_Key: HostingServicePort
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.String
+          m_Data: ../clientpack/Android
+          m_Key: ContentRoot
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Boolean
+          m_Data: False
+          m_Key: IsEnabled
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.String
+          m_Data: Local Hosting 0
+          m_Key: DescriptiveName
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 0
+          m_Key: InstanceId
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 0
+          m_Key: HostingServiceUploadSpeed
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 1
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor

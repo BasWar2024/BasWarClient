@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-ItemBag
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-ItemBag
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a87f210ec749c1f47b1edd4149894ac8
+  m_SerializeEntries:
+  - m_GUID: 0eb619514abcfe94c8ad18ff6afe4fa3
+    m_Address: Assets/GameRes/UI/ItemBag/Capacity_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c1b6e724acd6eff4e8ef44dc69bbe84f
+    m_Address: Assets/GameRes/UI/ItemBag/Fork_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f15a834c345ffb479634601cd94bc89
+    m_Address: Assets/GameRes/UI/ItemBag/Grade_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9b4818353b7f68b449d2e6be5d3be990
+    m_Address: Assets/GameRes/UI/ItemBag/Five-pointer-star_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97dbba76610897f408ec45eeeffcc89d
+    m_Address: Assets/GameRes/UI/ItemBag/Fluctuate_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df87a496111878345a34bf75c4ec7004
+    m_Address: Assets/GameRes/UI/ItemBag/Fluctuate box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88bc5767f8a59194c90533e16ffad8c5
+    m_Address: Assets/GameRes/UI/ItemBag/Furrow_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71c3ed287f962e44396c55af60bd8918
+    m_Address: Assets/GameRes/UI/ItemBag/Add box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6f94d497500763408941dc2f1878aea
+    m_Address: Assets/GameRes/UI/ItemBag/Forging_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a7f6bf96b166bc44aa8e05fe09eeb9b
+    m_Address: Assets/GameRes/UI/ItemBag/Warning_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b86b498c28bc9a34aaa4f12d3d4841c2
+    m_Address: Assets/GameRes/UI/ItemBag/Line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 486c309b1492c3e4c84b82a9de6aff60, type: 2}
+    - {fileID: 11400000, guid: 762cbd76c195ca3478bba41f27a58af3, type: 2}

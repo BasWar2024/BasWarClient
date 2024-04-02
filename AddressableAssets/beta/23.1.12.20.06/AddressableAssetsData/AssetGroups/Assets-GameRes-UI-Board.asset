@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Board
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Board
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 86874d8137e015b48a015246f4ce09e3
+  m_SerializeEntries:
+  - m_GUID: 302fe79001e37914e8530ccb46610bf8
+    m_Address: Assets/GameRes/UI/Board/dot_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f43747b1169ed1418ee51236d83ac92
+    m_Address: Assets/GameRes/UI/Board/dot_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 078225f62907d0b42994201f88c5865f, type: 2}
+    - {fileID: 11400000, guid: 08f49c931331e8a41924545dd8b0f09f, type: 2}

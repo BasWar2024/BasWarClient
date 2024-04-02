@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Skill_D
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Skill_D
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e2a68e1ec8ff6854e9d197727f6db681
+  m_SerializeEntries:
+  - m_GUID: 17a967767c0ed014bb43613f828e03cd
+    m_Address: Assets/GameRes/UI/Icon/Skill_D/Atlas_SignalFlare_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d8009d19e66dd4f4aa1c6d98285736b3
+    m_Address: Assets/GameRes/UI/Icon/Skill_D/Taius_Grenades_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 24a262167a0509745bd3d64c2a6432e8, type: 2}
+    - {fileID: 11400000, guid: e58683f9ba4221e49a80e28042840107, type: 2}

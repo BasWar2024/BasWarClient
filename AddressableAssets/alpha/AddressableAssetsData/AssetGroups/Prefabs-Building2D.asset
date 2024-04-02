@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-Building2D
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-Building2D
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2b2a14ed3945f1d4ca6382d6426c7b83
+  m_SerializeEntries:
+  - m_GUID: d956ed06e2a1e7046872976cba1a75b1
+    m_Address: AntiAircraftMissile_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f0119af829c94d469974b5047f19f7c
+    m_Address: Dead_platform_AntiAircraftMissile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d6c4af7dfbb7184c89151821afe1204
+    m_Address: Base_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a7972b26c4d58c44293881339167006c
+    m_Address: Dead_platform_base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ec035b6a03f9eab4287a3840c8ad7ab4
+    m_Address: Blackholerepositories_B_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71401e24ed2114e47b75c11863c080f6
+    m_Address: Blackholerepositories_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aab38d9ab3615ef40b94ae4c4811bf4b
+    m_Address: BlackMarket_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 16486120f8cb0e944bcab4e885457263
+    m_Address: Blastmayflymines_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ea03277b81e37540a2778616682aaaa
+    m_Address: Blaze_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f7336d202d4b784989861e3a9876a78
+    m_Address: Carboxyllibrary_B_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8634f2828f1d44e4aa0bd966bd8b4b3d
+    m_Address: Carboxyllibrary_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f2ce631c25b8494b92e34ff3804ee63
+    m_Address: CarboxylminingtowerLV1_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0cc40f54291e9f4a80d63bbfd4b723a
+    m_Address: CarboxylminingtowerLV2_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6bb3919aaa056454d8755ea65dd867a9
+    m_Address: CarboxylminingtowerLV3_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b90effae29834847bffb48d7ea816b1
+    m_Address: Carboxylminingtower_C_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 062e798a59cebfb43acfdc9a37636eaa
+    m_Address: Carboxylminingtower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c8ef21d325139bc4b8c457f719196586
+    m_Address: Centipede_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fc73027de72e4cb489cf549b037531f1
+    m_Address: DestructionParticleArtillery_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06610fdb01e05ad4bbeb6a84effbc54f
+    m_Address: DryBigStoneA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1c4af2382db5344082609d225c6bc42
+    m_Address: DryBigStoneB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ce77e1658a9f5b4fbc9250bd595d0e5
+    m_Address: DryMiddleStoneA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a63259100070e9a40a976801c2cd97a5
+    m_Address: DryMiddleStoneB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9db7acb8fc885074b8effcfcf2c1f0cf
+    m_Address: DrySmallStoneA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77435a8214972a84d9699e23a10bba91
+    m_Address: DrySmallStoneB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b00b0cc88e333964e92e6320d4f51b81
+    m_Address: EMP_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2fe857afdadb42d4a841319e37080ab5
+    m_Address: Frostin_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 969cd7660ba1c76489b9fd3b4a005f95
+    m_Address: Gaslibrary_B_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b513af8dafd5579479bccbfc891b4b81
+    m_Address: Gaslibrary_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a3a6504ce16d194cbea269fedb96d6a
+    m_Address: GasminingtowerLV1_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e7a0ca6139343944bd546d854d7d573
+    m_Address: GasminingtowerLV2_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa4e6a84f806d3d49a685922a27a8ad3
+    m_Address: GasminingtowerLV3_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2952cb32d5dbc2d4daf6d0f601f7db10
+    m_Address: Gasminingtower_C_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df5484613d3994b448055a51f7beaafe
+    m_Address: Gasminingtower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 18cb3ee47c318c541bbccf2542ddfb25
+    m_Address: High-explosivemayflymines_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7989333d30d860f4e9c1fc506180dc0c
+    m_Address: HypersonicMissile_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e63c546758e5b28418381c3b574385b7
+    m_Address: Hyperspaceresearch_B_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3e1709e425ad0947aa082965e8f6ed7
+    m_Address: Hyperspaceresearch_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8cb249717767a2341bd82ae7224a3bfc
+    m_Address: Icecorelibrary_B_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4242e2bd1df98ea4d8ac33350fd60fdb
+    m_Address: Icecorelibrary_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c452f05b7b5fcf6429643ea16eb271cd
+    m_Address: IceminingtowerLV1_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9fc9d177e5cd1d43b281a6f3065fc61
+    m_Address: IceminingtowerLV2_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85e600188589b8548a5a237353f828a5
+    m_Address: IceminingtowerLV3_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8eadc0bce2707354fa1cc88294ba3d21
+    m_Address: Iceminingtower_B_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7cfcf1e32fa605a40b458a007263753b
+    m_Address: Iceminingtower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ff608440a44c2744d8abddb555a6a323
+    m_Address: Inosculans
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c4f336da256c8d46b1077b581d429a2
+    m_Address: install1x1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 368eecf161fa97b4f98d15d7be865289
+    m_Address: install2x2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8f8bc3bd54944541bbdcc81dd7f98da
+    m_Address: install3x3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 441302bc1dd99624a8cd08ea44894fbf
+    m_Address: install4x4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a954c4a73a48204581bb15f7f8db236
+    m_Address: install5x5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d9883ca310aab443868b8f6c0786ac4
+    m_Address: Interstellarbank_B_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af501d1d0e9fce640993505b55a2213a
+    m_Address: Interstellarbank_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8ee0dc5eee8f5e43a2405173bd00121
+    m_Address: LaserGun_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c79a6d6bc826e674bbc45d0b9efa8dfa
+    m_Address: Lightbeadheavyartillery_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 332b98eb0e82fac4ba95c13b0f5814ab
+    m_Address: Mayfliesray_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 92edbb6182e9cf147b69fbf96527cbc4
+    m_Address: MicroBlackHole_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 51737bbd3f457d144826278f0065cefc
+    m_Address: Millipede_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0070b0137eb489d4580129cbf1ead5ed
+    m_Address: miningmachine_C_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5b522b9076ec0c409f0ad459e9bc72f
+    m_Address: miningmachine_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c03fbec454e33b4da8d5d6b45eef9a3
+    m_Address: ParticleBeamTower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aaf0c21751ada354fad290c62cd5040c
+    m_Address: Planetaryeye_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ea56823e99ef27342be2a408e3b21829
+    m_Address: Plasma_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db0043e95820ff546b9e30f73d420065
+    m_Address: Separate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d0268661d86ade44bd782702d48a03a
+    m_Address: ServingStation_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1db87f969ea723141a4ec71dd611faf9
+    m_Address: Sonicemitter_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0287c22039bd39b40a92271a14f141bf
+    m_Address: StarWareHouse_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1b3ed457fec84c43a6067a4f87ca661
+    m_Address: Thealliance_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f48bd6bf83d52034e9364c4a1082c882
+    m_Address: Theheropavilion_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 83767906b43732f48ab4c8fa84f47cee
+    m_Address: Titaniumcorelibrary_B_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f73d3536076688043903549ad5119f5f
+    m_Address: Titaniumcorelibrary_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e20f50b82e3975458345d381a035973
+    m_Address: Titaniumminingtower_B_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 362f903bdafbf604c9538a64dc595629
+    m_Address: Titaniumminingtower_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1d90e6b8950af7d4f80ee00224e2ba2f
+    m_Address: Torrens_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 511898f5d62571f4b95a3f729bc1f99a
+    m_Address: TwoDimensionalfoils_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4adced162b5fd0548b7ce2da1449507b
+    m_Address: ServingStation_B_spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e401311da238cc14184cd6eb62441732, type: 2}
+    - {fileID: 11400000, guid: d8e53bd7705af114784c4b5822d94465, type: 2}

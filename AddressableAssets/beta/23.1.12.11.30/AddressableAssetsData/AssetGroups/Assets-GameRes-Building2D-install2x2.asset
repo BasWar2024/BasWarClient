@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Building2D-install2x2
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Building2D-install2x2
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 93666024334be214787c86d7aea13a60
+  m_SerializeEntries:
+  - m_GUID: 63f23ee0652191f4daaa2a91f81e5084
+    m_Address: Assets/GameRes/Building2D/install2x2/install2x2.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 24c45bc17b93c984191b47b0995e354a
+    m_Address: Assets/GameRes/Building2D/install2x2/install2x2.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e595c5a4e8183c0409d7b6d07235fb57
+    m_Address: Assets/GameRes/Building2D/install2x2/install2x2_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5755d83f4684f45499715a863946df83
+    m_Address: Assets/GameRes/Building2D/install2x2/install2x2_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e280f69f98a275b4c8cf6a65b5afb542
+    m_Address: Assets/GameRes/Building2D/install2x2/install2x2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2bbd10ef1be813744bd0d507d6ae9338
+    m_Address: Assets/GameRes/Building2D/install2x2/install2x2_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d7143282e6d78044baa1ea06795bdac6, type: 2}
+    - {fileID: 11400000, guid: 059ed723492f73844aa116b5adc0bcb7, type: 2}

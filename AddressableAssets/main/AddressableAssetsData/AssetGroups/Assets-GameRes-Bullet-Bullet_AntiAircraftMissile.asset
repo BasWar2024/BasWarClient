@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_AntiAircraftMissile
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_AntiAircraftMissile
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bffa4f093f3bd814282dd669ac0b169f
+  m_SerializeEntries:
+  - m_GUID: 6efdfc35d026a03449db166abb2eb588
+    m_Address: Assets/GameRes/Bullet/Bullet_AntiAircraftMissile/buff_fire_b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 56c33467b097be445ab30c25b0e21cdd
+    m_Address: Assets/GameRes/Bullet/Bullet_AntiAircraftMissile/buff_fire_b.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 91ce31ed87c13934498243181208ac27, type: 2}
+    - {fileID: 11400000, guid: 978f4370559fcea418868ef639109357, type: 2}

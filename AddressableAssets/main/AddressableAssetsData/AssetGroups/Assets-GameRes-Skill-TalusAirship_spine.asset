@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Skill-TalusAirship_spine
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Skill-TalusAirship_spine
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4cc42b903d62bca44afb5f1939096009
+  m_SerializeEntries:
+  - m_GUID: 593f5ce0170fb3a44bea7f4c4cbbe098
+    m_Address: Assets/GameRes/Skill/TalusAirship_spine/TalusAirship_spine.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e274a9917d4620f439ebf6061e0082d0
+    m_Address: Assets/GameRes/Skill/TalusAirship_spine/TalusAirship_spine_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37173da11e1dc354d8e6b6cb31764ad7
+    m_Address: Assets/GameRes/Skill/TalusAirship_spine/TalusAirship_spine.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b39332cb49859e747876a44fd958c7cc
+    m_Address: Assets/GameRes/Skill/TalusAirship_spine/TalusAirship_spine_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7afbc2fcdc283ed4b92e24c963858774
+    m_Address: Assets/GameRes/Skill/TalusAirship_spine/TalusAirship_spine_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2491fa2eb6401e846ac578a4ff2e8104
+    m_Address: Assets/GameRes/Skill/TalusAirship_spine/TalusAirship_spine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b81c9c653dbca3741bc38caeaeea8245, type: 2}
+    - {fileID: 11400000, guid: 53beb3969417a8a4097589bfc3834556, type: 2}

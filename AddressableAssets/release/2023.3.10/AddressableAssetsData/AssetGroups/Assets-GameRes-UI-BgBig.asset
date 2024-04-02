@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-BgBig
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-BgBig
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ae21c16c048d6374c86246b46ad58d18
+  m_SerializeEntries:
+  - m_GUID: 3104c172bac4c1741b6e826176c2b9eb
+    m_Address: Assets/GameRes/UI/BgBig/heroback_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb74a08e5ddcc0c42b6beec3d962a4db
+    m_Address: Assets/GameRes/UI/BgBig/background01_img 2.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3443b7f80f3e804ab0f2f5273502640
+    m_Address: Assets/GameRes/UI/BgBig/heroback02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3ef1846243b1a26468b0e9f5d85a22fd
+    m_Address: Assets/GameRes/UI/BgBig/Fullbackground_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6713646ce0fb0e42bf49d1079c7e355
+    m_Address: Assets/GameRes/UI/BgBig/popup window_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a7b9f2ddc9107e34a80edd1dce60011f
+    m_Address: Assets/GameRes/UI/BgBig/rewardsbg_img.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a5007a193125dce44b7eb598b29e970d, type: 2}
+    - {fileID: 11400000, guid: ecdb399cb64e11241b5e6c6d3ef561f8, type: 2}

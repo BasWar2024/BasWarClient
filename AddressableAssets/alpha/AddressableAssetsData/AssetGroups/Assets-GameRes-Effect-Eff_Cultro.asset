@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_Cultro
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_Cultro
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4cfe08708cb2a1f42ba9e201d997ce4a
+  m_SerializeEntries:
+  - m_GUID: 29d50c72d05a47743ada165fb361463e
+    m_Address: Assets/GameRes/Effect/Eff_Cultro/Eff_Cultro.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c626c92356e402248a7d5b2368253690
+    m_Address: Assets/GameRes/Effect/Eff_Cultro/Eff_Cultro_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd50c825f8ca4cd4cb058802457fb336
+    m_Address: Assets/GameRes/Effect/Eff_Cultro/Eff_Cultro.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4767225818397ae4297026d712f16fee
+    m_Address: Assets/GameRes/Effect/Eff_Cultro/Eff_Cultro.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f98d8509d31e77845bf4717b890a457e
+    m_Address: Assets/GameRes/Effect/Eff_Cultro/Eff_Cultro_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7900861fb14436740abc6f3fadcb49e4
+    m_Address: Assets/GameRes/Effect/Eff_Cultro/Eff_Cultro_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 143e4d634664975499bad2b28c2f49d9, type: 2}
+    - {fileID: 11400000, guid: 5cea96ecfc7441046a3342b6abf23530, type: 2}

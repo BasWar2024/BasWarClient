@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-Role2D
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-Role2D
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2788b0bbf826d25409cfd071d64dfc7c
+  m_SerializeEntries:
+  - m_GUID: 7d7f9fc2dfed6bc44825c9ee45529ac5
+    m_Address: Antimattervehicle_spine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Antimattervehicle_spine
+  - m_GUID: edf550c6b0d8b58489d8ef8e57b743a4
+    m_Address: Drone
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Drone_spine
+  - m_GUID: 758f18997598d1842894c03be4821abb
+    m_Address: GrainoFlightTanks_spine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-GrainoFlightTanks_spine
+  - m_GUID: 2c191812b0f029c499123fc6b21babcf
+    m_Address: Hammer_spine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Hammer_spine
+  - m_GUID: 5cf2d9c1bfec2924d9ca62117f742316
+    m_Address: NearTank_spine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-NearTank_spine
+  - m_GUID: 714dffa1ca4e1244fba97f701bfbbfc6
+    m_Address: parade_spine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-parade_spine
+  - m_GUID: 8633ded958b2f70428f14a398d8b7b32
+    m_Address: ShotGun_spine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-ShotGun_spine
+  - m_GUID: 79c01bb3c7b904747bd2efe262918d5f
+    m_Address: Sirius
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Sirius_spine
+  - m_GUID: df3437964198e9c4b8dc4fd35bef55aa
+    m_Address: Spine_210000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_210000101
+  - m_GUID: 58e0b64dcdc806642a484419b793a6bc
+    m_Address: Spine_210000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_210000201
+  - m_GUID: 63c62332bcc4512459ad64bd33e8a1e5
+    m_Address: Spine_220000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_220000101
+  - m_GUID: 18cfc249c5eefd4488a745a414c5d658
+    m_Address: Spine_220000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_220000201
+  - m_GUID: 77f3735db1f181d4da51910b81f456c3
+    m_Address: Spine_230000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_230000101
+  - m_GUID: d2422df12d1f335498d880c46ff853dd
+    m_Address: Spine_230000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_230000201
+  - m_GUID: 90591261caec20f468bee5c43a106f51
+    m_Address: Spine_240000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_240000101
+  - m_GUID: deb4531bd91943e4ba2d55ea5160e5a5
+    m_Address: Spine_240000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_240000201
+  - m_GUID: 85409249fc422d3488d55470a74437eb
+    m_Address: Spine_500000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_500000101
+  - m_GUID: f0ebb75966cf40949ab2bd25a903e262
+    m_Address: Spine_500000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_500000201
+  - m_GUID: 19cd4e3d7c3c4bf49a9d1b2eb95498cf
+    m_Address: Spine_510000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_510000101
+  - m_GUID: 85fb57e7342337344b0bfb9452cb929c
+    m_Address: Spine_510000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_510000201
+  - m_GUID: 7916491be14936f41aa413eda9e2d099
+    m_Address: Spine_520000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_520000101
+  - m_GUID: 366225688ec1b1141bb6bdc86765427c
+    m_Address: Spine_520000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_520000201
+  - m_GUID: 37c0ba7523dd6644e9188b891294fafa
+    m_Address: Spine_530000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_530000101
+  - m_GUID: f37a86a2571e28c4b83bdcdae3efdcee
+    m_Address: Spine_530000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_530000201
+  - m_GUID: 7a5e32c7ac0f31344bf30bbecf4a6a39
+    m_Address: Spine_540000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_540000101
+  - m_GUID: 7380b8dc4d76c2b408e9d2a64191ea95
+    m_Address: Spine_540000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_540000201
+  - m_GUID: 82095ec4e27192243a5e573ad09f327c
+    m_Address: Spine_710000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_710000101
+  - m_GUID: 77b2a72637348a141b8161db8a1ed62f
+    m_Address: Spine_710000301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_710000301
+  - m_GUID: c00282e4a8fd5cb4e908b4d8f17d0ffb
+    m_Address: Spine_710000401
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_710000401
+  - m_GUID: f42505270384d52438ff5bb35f086b49
+    m_Address: Spine_710000801
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_710000801
+  - m_GUID: ac9c2c4c8c9f2974a9d935cffa767301
+    m_Address: Spine_710000901
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_710000901
+  - m_GUID: a3322d29652d08b41ad4399f714a3c0a
+    m_Address: Spine_710001101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_710001101
+  - m_GUID: 8de628385d82b694abeaf0e98fb06c48
+    m_Address: Spine_720000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_720000101
+  - m_GUID: b80a9cdd412c8e64bbad17295295c2e2
+    m_Address: Spine_720000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_720000201
+  - m_GUID: 802f34e3a3cc3c24e8e3f016cf180125
+    m_Address: Spine_720000401
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_720000401
+  - m_GUID: e1e96b368aa13b747bb454a77b979698
+    m_Address: Spine_720000501
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_720000501
+  - m_GUID: 7c85bb05b94c40144b6983de1cd81f78
+    m_Address: Spine_720000601
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_720000601
+  - m_GUID: 822352d56ffec4a43bfd4b9f89128c6d
+    m_Address: Spine_720000701
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Role2D-Spine_720000701
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e8c41a9b832b19246a51ca41a75dec23, type: 2}
+    - {fileID: 11400000, guid: 2ce2ea2352aa6ee4b8a534f6dddcc160, type: 2}

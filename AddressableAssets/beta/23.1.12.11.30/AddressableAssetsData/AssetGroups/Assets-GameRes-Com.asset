@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Com
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Com
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 83f7db62d1f5fe34bab6f0d5c0fdbf45
+  m_SerializeEntries:
+  - m_GUID: 37ccb174355b5ed47bd2362a8be4fee9
+    m_Address: Assets/GameRes/Com/HPMatBG.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9623eee4edac56846a01cf400fac4e6c
+    m_Address: Assets/GameRes/Com/HPMat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe0103b665e0c1643a70dd38e969cef4
+    m_Address: Assets/GameRes/Com/HpBg.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 49ab181eb72151541a1dcb86ad22a5fd
+    m_Address: Assets/GameRes/Com/Hp.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: edad5bcec1ebfa0428075030ec2aa7cf
+    m_Address: Assets/GameRes/Com/Plane1x1.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dcf3fca0bc5095e439c4ccf92a275d20
+    m_Address: Assets/GameRes/Com/alpha_Multiply.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb5968e017e704d47ab1f726db801edd
+    m_Address: Assets/GameRes/Com/shadow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afb35baa6559ac648a435112432291aa
+    m_Address: Assets/GameRes/Com/shadow.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dd8c85470b138d54eb599a5c6dc6f81b, type: 2}
+    - {fileID: 11400000, guid: ae97c3bc6d7ee734cb4a73d0e6ecdbab, type: 2}

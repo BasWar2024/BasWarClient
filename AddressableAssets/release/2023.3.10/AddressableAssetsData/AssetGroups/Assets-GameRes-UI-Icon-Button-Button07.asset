@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Button-Button07
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Button-Button07
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1890d22b09c641c48b1f6e026fc1e587
+  m_SerializeEntries:
+  - m_GUID: e2494b234783e214988d68a2625b8582
+    m_Address: Assets/GameRes/UI/Icon/Button/Button07/btnbottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 228066f4806642a409a8ec2b9ec7250b
+    m_Address: Assets/GameRes/UI/Icon/Button/Button07/btn_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a13d7c8acb41b5c4d8ded8fad514e4fc
+    m_Address: Assets/GameRes/UI/Icon/Button/Button07/btn_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6348ae8ef7d85004886b8ea7eea309f7, type: 2}
+    - {fileID: 11400000, guid: f1fa57ed182bdaa418d2f3700c55bd8a, type: 2}

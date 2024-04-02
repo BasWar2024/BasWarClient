@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Role-Atlantics-tx
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Role-Atlantics-tx
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2f111c669e3d1ce42acadccb15f3b8de
+  m_SerializeEntries:
+  - m_GUID: f9caed1e2c07b614ba6ebd4fa4a95712
+    m_Address: Assets/GameRes/Role/Atlantics/tx/dm3_uv2_BaseColor.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 39346880d442c4748a7105c7c7399fb6, type: 2}
+    - {fileID: 11400000, guid: 5a728ceabb089e14f8a638ca4a4be3c8, type: 2}

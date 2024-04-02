@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Terrain-Terrain_Mechanics-Texture
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Terrain-Terrain_Mechanics-Texture
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 13571f24eaa2bb54282233f65eed5465
+  m_SerializeEntries:
+  - m_GUID: 188145808a51e394da9ddf885f35305d
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/Eff_mechanics.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3aecbd2ac6e55048ba04a1a8e34b5f3
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/uv2_Metallic.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 47e8ffe247a84354c8108577dd722017
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/uv1_Metallic.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59fab1a358b66704b9a649bf44eef65f
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/uv2_Emissive_Blue.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77db56758d878b247af21336d06d3242
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/uv1_Normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 353f439579d3abc4cad9cdf91b91ef2f
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/uv2_Normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db7d55074f180d046948e7ed04dd1b7b
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/uv1_Emissive_Blue.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b700b2896bf90434abd29092a03e8f45
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/uv5_Diffuse_Purple.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15bb5ea97805d0c469dd7e1dbe6c4f24
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/uv3_BaseColor.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7dcf816d74e112743843b16fa331e95a
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/uv1_BaseColor_Blue.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5bea2ddf1659d94281a0931f9fb3796
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Texture/uv2_BaseColor_Blue.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8923bec7e679ad54e96e2b99c8a8787c, type: 2}
+    - {fileID: 11400000, guid: d7d466d33d3715a4b929cdf094561ffa, type: 2}

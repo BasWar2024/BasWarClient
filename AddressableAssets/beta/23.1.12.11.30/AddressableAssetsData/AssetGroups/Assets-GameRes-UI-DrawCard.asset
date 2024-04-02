@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-DrawCard
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-DrawCard
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a7e3ae9e46199574584c0da6d02c1f68
+  m_SerializeEntries:
+  - m_GUID: 402136409feb8f045a052e0b9aad9999
+    m_Address: Assets/GameRes/UI/DrawCard/ssr get_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: beb6b862e4a1a2c4383805e119b4e3ed
+    m_Address: Assets/GameRes/UI/DrawCard/box 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 47ba8c5451d7ef24ca613982eeefcdf2
+    m_Address: Assets/GameRes/UI/DrawCard/add_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22529d8407e56f54387e9fc02620eba7
+    m_Address: Assets/GameRes/UI/DrawCard/blue background_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 23a7c6458728902428bdfe0b17f9f81b
+    m_Address: Assets/GameRes/UI/DrawCard/purple_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cbffe8a56d0de8a41a9cf4a9db8b9c26
+    m_Address: Assets/GameRes/UI/DrawCard/hero size 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 117fef26d21e04c4189d6f69d2323cd3
+    m_Address: Assets/GameRes/UI/DrawCard/tab back_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15c96996dc96f9045adaf853ce20df4f
+    m_Address: Assets/GameRes/UI/DrawCard/star bar_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 470024a6d7647654bb2b11fb3cb7f021
+    m_Address: Assets/GameRes/UI/DrawCard/blue_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b7d7087bf395d445812c92ca0cd1d91
+    m_Address: Assets/GameRes/UI/DrawCard/a vertical bar _icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2035c2877bd5253409de6fb71074d287
+    m_Address: Assets/GameRes/UI/DrawCard/lise title_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 007ace68fde560d4796b2c7e3b3d1402
+    m_Address: Assets/GameRes/UI/DrawCard/resource_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf1604c81fb13f94a9925d17a742af41
+    m_Address: Assets/GameRes/UI/DrawCard/black background_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d46af8e9e7471414bafa46321ded521a
+    m_Address: Assets/GameRes/UI/DrawCard/Horizontal line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b445c99a39511e84f9dab0d42c8e9a24
+    m_Address: Assets/GameRes/UI/DrawCard/star bar_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 39f856ea1a13bea438c7dbac95a5d3b7
+    m_Address: Assets/GameRes/UI/DrawCard/light_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b85637bd912fe741809b8ea8a957e5e
+    m_Address: Assets/GameRes/UI/DrawCard/squar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4ee74bdc4281724da511352d52aff21
+    m_Address: Assets/GameRes/UI/DrawCard/title 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b49040cd5bf508f42b28a2526f687df3
+    m_Address: Assets/GameRes/UI/DrawCard/yellow_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e899c3ee402f4be459410ae5a3f235fe
+    m_Address: Assets/GameRes/UI/DrawCard/missage_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8345edfed47aa5f4a938a3a28f4d8fe9
+    m_Address: Assets/GameRes/UI/DrawCard/platform_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 21a75c5fae0c78f47b25fbed199a4128
+    m_Address: Assets/GameRes/UI/DrawCard/resource_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c0419054c48871f48b194b13fefae848, type: 2}
+    - {fileID: 11400000, guid: 9bff086b7bdbf1645ae846bfececf839, type: 2}

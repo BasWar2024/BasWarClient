@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Scripts-Extension-Shaders
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Scripts-Extension-Shaders
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 31d383592ade52a40bc54e21ffcc123b
+  m_SerializeEntries:
+  - m_GUID: ae7107024167305479dbb0b232df64f8
+    m_Address: Assets/Scripts/Extension/Shaders/MADFINGER-blinking-god-rays.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7725f7d7d8dcaec42a8654c5658ce98a, type: 2}
+    - {fileID: 11400000, guid: 5c844c7a847a4c24ba90f76c103073f2, type: 2}

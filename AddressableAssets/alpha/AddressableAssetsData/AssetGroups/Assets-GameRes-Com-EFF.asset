@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Com-EFF
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Com-EFF
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c9b6413b1a8c0ac4d97951905ef31ef3
+  m_SerializeEntries:
+  - m_GUID: 76dbe59a93513b349bd60e95fbc4f225
+    m_Address: Assets/GameRes/Com/EFF/eff_black_flash.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f398d8e386471cf409edefaf0058329c
+    m_Address: Assets/GameRes/Com/EFF/Eff_GuangDai.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c74bd514f399d664d92bdfb0245b0332
+    m_Address: Assets/GameRes/Com/EFF/Eff_GuangZu.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 190949c63f551134880022850bda88c7
+    m_Address: Assets/GameRes/Com/EFF/Eff_GuangDai_yellow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c38d90aaa6ab124cbcfe38f4a84c610
+    m_Address: Assets/GameRes/Com/EFF/Eff_GuangZu_yellow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 53e485f8bd195cf499e4ca3c1fbdafa7, type: 2}
+    - {fileID: 11400000, guid: 725c7fc328975a2478700941ed4e38d5, type: 2}

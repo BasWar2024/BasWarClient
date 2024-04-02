@@ -1,0 +1,2850 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LuaScript
+  m_EditorClassIdentifier: 
+  m_GroupName: LuaScript
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9212ab2a220cdc1418b5a12bcb0a94b3
+  m_SerializeEntries:
+  - m_GUID: 88ae05a22d56d384488412aeee5e473f
+    m_Address: Assets/Lua/UI/WarShip/PnlWarShipView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 03fe36b1558823041821903bcbf45167
+    m_Address: Assets/Lua/UI/WarShip/PnlWarShip.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 59bb9dc064bf0cc4ba2295c1b056b296
+    m_Address: Assets/Lua/UI/Upgrade/PnlUpgradeView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9dde5a0120208ec43b9aa806905f743f
+    m_Address: Assets/Lua/UI/Upgrade/PnlUpgrade.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 26bf8477450d7d348937a638718dc115
+    m_Address: Assets/Lua/UI/Union/PnlUnionView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a2ef5d6701259294a9e52870a6bd4857
+    m_Address: Assets/Lua/UI/Union/PnlUnion.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1b93258f1b2472845a2a33b742e6668f
+    m_Address: Assets/Lua/UI/Soldier/SoldierItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bfb9af68826279e489558458d630555b
+    m_Address: Assets/Lua/UI/Soldier/PnlSoldierView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1fb48b2b1c2f84745b82aac639976f1c
+    m_Address: Assets/Lua/UI/Soldier/PnlSoldierQuickTrainView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 21a464012282692498fcf1f05a2ccb5c
+    m_Address: Assets/Lua/UI/Soldier/PnlSoldierQuickTrain.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0972c79e2bab59b4e8456a79458d9494
+    m_Address: Assets/Lua/UI/Soldier/PnlSoldierInstantTrainView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a9411ce7bda0b484b94ccb8728264dd2
+    m_Address: Assets/Lua/UI/Soldier/PnlSoldierInstantTrain.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 308e8390830d46544b899402af9a8217
+    m_Address: Assets/Lua/UI/Soldier/PnlSoldier.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 790a1449e63d5d248935aff1ba99aeb3
+    m_Address: Assets/Lua/UI/Setting/SettingItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3f3b5689c009a3348907c191cffce851
+    m_Address: Assets/Lua/UI/Setting/PnlSettingWalletView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: dcc67d6558f41f14d97d55cf535b4177
+    m_Address: Assets/Lua/UI/Setting/PnlSettingWallet.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ebdd8c5f720738c4bbce2b8f4842d7d4
+    m_Address: Assets/Lua/UI/Setting/PnlSettingView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3aba7c0844efba742bb7843f46422efa
+    m_Address: Assets/Lua/UI/Setting/PnlSettingServiceView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e39b0e113b9956247a185fc95e95c813
+    m_Address: Assets/Lua/UI/Setting/PnlSettingService.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4d9ac701130b16a44adc690cad7e8882
+    m_Address: Assets/Lua/UI/Setting/PnlSettingproducerView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 032b590e7d6dc354486eef2256732fe5
+    m_Address: Assets/Lua/UI/Setting/PnlSettingproducer.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b8f50cb6f9a2cd24da8c5c665e501266
+    m_Address: Assets/Lua/UI/Setting/PnlSettingLanguageView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8cbafaac4b4cec2428c5711f204773e6
+    m_Address: Assets/Lua/UI/Setting/PnlSettingLanguage.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1be1c422bcf72884da480f7aea761382
+    m_Address: Assets/Lua/UI/Setting/PnlSetting.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4ccf275d0b8d7d248bef9e5f69b910b2
+    m_Address: Assets/Lua/UI/SelectRace/SelectRaceItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3e36811f0b0f77c43a87f5c1d572e408
+    m_Address: Assets/Lua/UI/SelectRace/PnlSelectRaceView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 66ac2b899b3d8a746b347a58c718099b
+    m_Address: Assets/Lua/UI/SelectRace/PnlSelectRace.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a19fdf2c3594f43499eb3e6a974f76cf
+    m_Address: Assets/Lua/UI/Routes/PnlRoutesView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3e884483987d16143a33e1f76f1a4753
+    m_Address: Assets/Lua/UI/Routes/PnlRoutes.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 735b7bbf5c9a8914ca236a21c3c153c4
+    m_Address: Assets/Lua/UI/Register/PnlRegisterView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: edb5da8842c758f4683fdb58d8795a7d
+    m_Address: Assets/Lua/UI/Register/PnlRegister.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b949a28930658a14db7ec7c1425e5408
+    m_Address: Assets/Lua/UI/Rank/RankItem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ba4a9665e596b1e41bbe36ce9d90a8d7
+    m_Address: Assets/Lua/UI/Rank/PnlRankView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 61115d7940af8324a9d9c38bef053759
+    m_Address: Assets/Lua/UI/Rank/PnlRank.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9fd64255497f7a349b7cc6490e8efafb
+    m_Address: Assets/Lua/UI/Pvp/PvpItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a483acaf1cb24fd438f96f6bc9d0dfcb
+    m_Address: Assets/Lua/UI/Pvp/PnlPvpView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fa8bdd699911d2f4eaa52ea179076093
+    m_Address: Assets/Lua/UI/Pvp/PnlPvpRewardRuleView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1e9bfe19414eaf7459a56e01b9fe39f6
+    m_Address: Assets/Lua/UI/Pvp/PnlPvpRewardRule.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a6092cddd2c7aa44184239b0c750786e
+    m_Address: Assets/Lua/UI/Pvp/PnlPvpRankView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a1883ace4b3257644aef807950fd843b
+    m_Address: Assets/Lua/UI/Pvp/PnlPvpRank.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 148d3e70af7106245b0732e1ab010424
+    m_Address: Assets/Lua/UI/Pvp/PnlPvpHistoryView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ae77e90f45e0b0340b66c7954b0ed15d
+    m_Address: Assets/Lua/UI/Pvp/PnlPvpHistory.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 59a460bd1f690484383d431b2dcc9984
+    m_Address: Assets/Lua/UI/Pvp/PnlPvpFetchView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 300a7c4dd1a7e5942bfa4d234dcfbe3f
+    m_Address: Assets/Lua/UI/Pvp/PnlPvpFetch.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d9bdcf2ac86cba04daf2704bff975b3f
+    m_Address: Assets/Lua/UI/Pvp/PnlPvp.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ea7cbbc8d52a7624f9050f4d1e8cf4ea
+    m_Address: Assets/Lua/UI/PlayerDetailed/PnlPlayerDetailedView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4ae35bf5e13dec64babacc54b847bc13
+    m_Address: Assets/Lua/UI/PlayerDetailed/PnlPlayerDetailed.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: efc43453fb8bc8141bc758821299d371
+    m_Address: Assets/Lua/UI/PlayerDetailed/PnlChangeNameView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d7ffb267e9738a14695bdcb4979f8331
+    m_Address: Assets/Lua/UI/PlayerDetailed/PnlChangeName.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1192e2dda52d80d42aa76c0aa9c56a54
+    m_Address: Assets/Lua/UI/PlayerDetailed/PlayerDetailedSelectHeadBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 281b78d5398c0404d830d5263e964890
+    m_Address: Assets/Lua/UI/MyPlanet/PnlMyPlanetView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a3770972e3afca341a4751c221bd6d2f
+    m_Address: Assets/Lua/UI/MyPlanet/PnlMyPlanet.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 19c6ae7782cea754092e16edb002654c
+    m_Address: Assets/Lua/UI/Match/PnlMatchView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 53ac67960e8c79945b4728eaffff1fb2
+    m_Address: Assets/Lua/UI/Match/PnlMatch.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1a272b86cc48f96479d2d991102fd310
+    m_Address: Assets/Lua/UI/Match/MatchItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b8bf5ad3ef07de946867d252595c42b1
+    m_Address: Assets/Lua/UI/Map/PnlRenameView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7716672cd498cb24c8bbb39cf02cf3c7
+    m_Address: Assets/Lua/UI/Map/PnlRename.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a79b4472131d0cb4a9942c82a3b98541
+    m_Address: Assets/Lua/UI/Map/PnlPlanetView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9c23f8f97bd18ac498bb112c28a72ea0
+    m_Address: Assets/Lua/UI/Map/PnlPlanet.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: cd7092d2a765b4747876f5e09c8fc24d
+    m_Address: Assets/Lua/UI/Map/PnlMapView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e2b881fa86ba44a49965a02ea33042f2
+    m_Address: Assets/Lua/UI/Map/PnlMap.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 024643686fdf19840b08df1e6dd3fa1c
+    m_Address: Assets/Lua/UI/Map/MapItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b2741204beb5300498f3691ae51da14c
+    m_Address: Assets/Lua/UI/Main/PnlPlayerInformationView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a10f389b63439114287e013e268b29b5
+    m_Address: Assets/Lua/UI/Main/PnlPlayerInformation.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f058ef4a297adca42a99866361b355d6
+    m_Address: Assets/Lua/UI/Main/PnlMainView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6ad7d68cee1ee36468e8b50744536ee8
+    m_Address: Assets/Lua/UI/Main/PnlMain.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 16c8fa4076a5add4497a09c552c7b91b
+    m_Address: Assets/Lua/UI/Main/PnlBuildView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 601c57da35d0cf4409002f5c884504ac
+    m_Address: Assets/Lua/UI/Main/PnlBuild.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 018941ba87487084687eddc2da2b863f
+    m_Address: Assets/Lua/UI/Main/BuildItem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 104dd1cd415118746ab51a6d7c2923d2
+    m_Address: Assets/Lua/UI/Mail/PnlMailView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 017d835a5cc924a41b63c5ceddcc5611
+    m_Address: Assets/Lua/UI/Mail/PnlMail.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 31201f3edb0c3eb439b21ae6f19302d3
+    m_Address: Assets/Lua/UI/Mail/BoxMail.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8e4ddf09548d1a647b837c997bf78822
+    m_Address: Assets/Lua/UI/Login/PnlServiceView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f7a969d031d46c8419fb23d377b8b7f0
+    m_Address: Assets/Lua/UI/Login/PnlService.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8f4f801448e85c64a85d2393a7b2982a
+    m_Address: Assets/Lua/UI/Login/PnlLoginView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: caaba04d451d03b4cb4fff493c4b1ab8
+    m_Address: Assets/Lua/UI/Login/PnlLogin.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 46450734da7f9224d83ac61df4f7e0ec
+    m_Address: Assets/Lua/UI/Login/PnlLinkView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: dda7ac66badb4404a8d4815e3747bc7c
+    m_Address: Assets/Lua/UI/Login/PnlLink.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 608b5f5ead8250449b76d910a45d1bd1
+    m_Address: Assets/Lua/UI/Loading/PnlLoadingView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ed8b718764cb4de45868b63f9d456b1c
+    m_Address: Assets/Lua/UI/Loading/PnlLoading.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e2f06809336b47641b108970c4b498f4
+    m_Address: Assets/Lua/UI/LeagueRank/PnlLeagueRankView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1438bd57b37a0c044a500075cd4facf8
+    m_Address: Assets/Lua/UI/LeagueRank/PnlLeagueRankRewardView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 18a78d81a8afadc4d895175fe8f37c99
+    m_Address: Assets/Lua/UI/LeagueRank/PnlLeagueRankReward.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3bc727f9f0fb78245814a716474856b2
+    m_Address: Assets/Lua/UI/LeagueRank/PnlLeagueRankCoreRewardView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2739b2c901949b3409de0b82bcc0e310
+    m_Address: Assets/Lua/UI/LeagueRank/PnlLeagueRankCoreReward.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e920abe09f48bd04c9d2359a8a6ef552
+    m_Address: Assets/Lua/UI/LeagueRank/PnlLeagueRank.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e5d49d11f93a91941865586fe1354312
+    m_Address: Assets/Lua/UI/ItemInfo/PnlItemInfoView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 49a3c8b5e8989bf4fabbae84a32941c1
+    m_Address: Assets/Lua/UI/ItemInfo/PnlItemInfo.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fb284e12df3782642bd86a7829422da4
+    m_Address: Assets/Lua/UI/ItemBag/PnlItemBagNewView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ea0c54faaaf20774984f902ef49312c3
+    m_Address: Assets/Lua/UI/ItemBag/PnlItemBagNew.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 67010fd66ee76a74dbf50af0e9f82c8a
+    m_Address: Assets/Lua/UI/ItemBag/BagItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3c21c1dc477d44f47809df287462d3d8
+    m_Address: Assets/Lua/UI/Institute/PnlInstituteView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 16a1e68cd1861004aae7713f0ea312a0
+    m_Address: Assets/Lua/UI/Institute/PnlInstitute.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b6a6883c716536c45929a135b8387e30
+    m_Address: Assets/Lua/UI/Institute/PnlForgeResultView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: cd2e9d7b26f2fc844bdbadcd7fbae68a
+    m_Address: Assets/Lua/UI/Institute/PnlForgeResult.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 75eaf76bf7a9ca140bf4f4137b036380
+    m_Address: Assets/Lua/UI/Institute/PnlForceUpgradeView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a753a7c077dbde14eaf32a3b786aefec
+    m_Address: Assets/Lua/UI/Institute/PnlForceUpgrade.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 56c8133de80b2424a9ed46a3ae3d16da
+    m_Address: Assets/Lua/UI/Institute/PnlDrawSetView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 557c25b2334966945852149f7144d6cd
+    m_Address: Assets/Lua/UI/Institute/PnlDrawSet.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e400bb3675b606642a2009cfe2701a1c
+    m_Address: Assets/Lua/UI/Institute/InstituteItem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f34b809ae70f53a49a048e9a55bf13a4
+    m_Address: Assets/Lua/UI/HeroHut/PnlHeroHutView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0b9e85dfa891f9540b10a73b25f3c493
+    m_Address: Assets/Lua/UI/HeroHut/PnlHeroHutItem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: dbb78d7be79511e43aebadb192bf85e8
+    m_Address: Assets/Lua/UI/HeroHut/PnlHeroHut.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: db4cee438f17be04b807c36f3c0ffb6f
+    m_Address: Assets/Lua/UI/Guide/PnlGuideView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c140cda62765a86498e4cf1664abe18c
+    m_Address: Assets/Lua/UI/Guide/PnlGuide.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 25294e97d47699b4b9d9b9e0f4832383
+    m_Address: Assets/Lua/UI/GM/PnlGMToolView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5a97249c9c882014baa36f473f120a1f
+    m_Address: Assets/Lua/UI/GM/PnlGMTool.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6330bea1f76b50240a82c98dd565b781
+    m_Address: Assets/Lua/UI/ForgetPassword/PnlForgetPasswordView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6ee5f6365ec3b974297094822631d6c0
+    m_Address: Assets/Lua/UI/ForgetPassword/PnlForgetPassword.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 943608908e2e24b45b2c9ec8a0497432
+    m_Address: Assets/Lua/UI/Fix/PnlFixView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 995adaf78fdc65a4a825beda6ee4231a
+    m_Address: Assets/Lua/UI/Fix/PnlFix.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e61552583bcd7474eba8596ff3925e1b
+    m_Address: Assets/Lua/UI/Fix/FixItem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: efb25d2ce24af8f4fa2c1b37668d2237
+    m_Address: Assets/Lua/UI/Exchange/PnlQuickExchangeView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7c11680c43e9f7e41bb0d9e3809df335
+    m_Address: Assets/Lua/UI/Exchange/PnlQuickExchange.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4d7448e9de351e24892374c9fa47f28b
+    m_Address: Assets/Lua/UI/Exchange/PnlExchangeView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4bf7efb07ead9864f94fb35d04c91083
+    m_Address: Assets/Lua/UI/Exchange/PnlExchange.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b5b4cdf7b101b8b4ba3f8b85f69cbe14
+    m_Address: Assets/Lua/UI/Dao/PnlJoinDaoView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b61011686acdb2e4eb0645da017ddea0
+    m_Address: Assets/Lua/UI/Dao/PnlJoinDao.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a3f4f2563b5f1524a9f1f90399e50ae2
+    m_Address: Assets/Lua/UI/Dao/PnlDaoInfoView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ddc495abd95701f4da4210e5d8d0c7f7
+    m_Address: Assets/Lua/UI/Dao/PnlDaoInfo.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 17c7185f8d0b89148b40b73385dae10c
+    m_Address: Assets/Lua/UI/Dao/DaoVoteBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e516eb13404ba8542a90c07c3cf3abfa
+    m_Address: Assets/Lua/UI/Dao/DaoStatisticsBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5ed174d7046bac841868486b75afd473
+    m_Address: Assets/Lua/UI/Dao/DaoSearchBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c6fe0f36b88342e45926a66a822641fa
+    m_Address: Assets/Lua/UI/Dao/DaoRewardBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 28ee38d61afdc0d4194fd9bbb43e7ecf
+    m_Address: Assets/Lua/UI/Dao/DaoItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e7a1443127dfc884885805a0bd36f6f0
+    m_Address: Assets/Lua/UI/Dao/DaoCreateBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0a9381d21518b7a4fbe336d07946ba5a
+    m_Address: Assets/Lua/UI/Dao/DaoApplyBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 85b82664f034f7c479c0c0a2f78a6a5c
+    m_Address: Assets/Lua/UI/Connect/PnlConnectView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fbaeb1e7f8f57ca4fa56d74d54e82772
+    m_Address: Assets/Lua/UI/Connect/PnlConnect.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c91e7dbf3b9f11448ab2b53a0b248d56
+    m_Address: Assets/Lua/UI/Common/PnlTipView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 201394ff5a47ceb47b07f4938ccb6a36
+    m_Address: Assets/Lua/UI/Common/PnlTip.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 18e8c33226c2fe641bc133d7da8fdebc
+    m_Address: Assets/Lua/UI/Common/PnlStatementView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 07e6c5573dbf3d244ac391da221e5411
+    m_Address: Assets/Lua/UI/Common/PnlStatement.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e546df345b7880245b9ec3d0a53b1e34
+    m_Address: Assets/Lua/UI/Common/PnlPromptMsgView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 33e171ff00225694e904fa426aec5e6b
+    m_Address: Assets/Lua/UI/Common/PnlPromptMsg.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 35346061c194b724ca6c30b495d2f565
+    m_Address: Assets/Lua/UI/Common/PnlOptionsView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0e2b2a7a7f4395448b4e3277e503a781
+    m_Address: Assets/Lua/UI/Common/PnlOptions.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a3e1e225e26820b4799563ae8582e3b1
+    m_Address: Assets/Lua/UI/Common/CommonUpgradeNewBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 01fb4c635d343094e8cc6fc46a9625c3
+    m_Address: Assets/Lua/UI/Common/CommonItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 58bd33a6bff6dfe479b5b68649a60d5c
+    m_Address: Assets/Lua/UI/Common/CommonItemItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f11c54240c9216145a23377846268173
+    m_Address: Assets/Lua/UI/Collect/PnlCollectView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: baf2626c55647924db94a1556bb4fa27
+    m_Address: Assets/Lua/UI/Collect/PnlCollect.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: abae44b2b1932ff4ab8c34c0713a1406
+    m_Address: Assets/Lua/UI/Chat/PnlChatView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 335a7df20b4559d4fbfff54cc7e645e4
+    m_Address: Assets/Lua/UI/Chat/PnlChat.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 92a149eba8cf50443a024d12a17d8544
+    m_Address: Assets/Lua/UI/Chat/ChatItem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 869932a105691f24fa2d8eaee5e40c3a
+    m_Address: Assets/Lua/UI/Card/PnlDrawCardResultView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3cff1b089e26512409be8cedc4d2dae2
+    m_Address: Assets/Lua/UI/Card/PnlDrawCardResult.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a6163979ec746534484c0ba29b279f7e
+    m_Address: Assets/Lua/UI/Card/PnlCardView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9a94d59a2333fa744abfb49a2a294a24
+    m_Address: Assets/Lua/UI/Card/PnlCardDescView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 91a81bc616f2ea640876ec52f1ea9b59
+    m_Address: Assets/Lua/UI/Card/PnlCardDesc.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6dd4792068db0ae41a3a760a22d2224a
+    m_Address: Assets/Lua/UI/Card/PnlCard.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 588328a15c559674f898bc62dc1f8c74
+    m_Address: Assets/Lua/UI/Card/PnlBattleDrawCardView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2b2922c89b0e42d409af35fbf1c5236b
+    m_Address: Assets/Lua/UI/Card/PnlBattleDrawCard.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 12105866d697a8e42bdd6faada01902a
+    m_Address: Assets/Lua/UI/Card/DrawCardBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2531ecba010c52048bc7b998491aa331
+    m_Address: Assets/Lua/UI/Card/CardItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1cad5935c533c0e44bb49528122f3239
+    m_Address: Assets/Lua/UI/Card/CardGroupEditBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 97ab55d2ed23de04cbf702b29e9a4f60
+    m_Address: Assets/Lua/UI/Campaign/PnlCampaignView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 908634c8a95ced64d8a33f9d7cda3f40
+    m_Address: Assets/Lua/UI/Campaign/PnlCampaign.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 38dd5a56fe8d2c14383ed99559dc375e
+    m_Address: Assets/Lua/UI/BuyCount/PnlBuyCountView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ef69752f7f2d80e4e8be1c08dfe6d87b
+    m_Address: Assets/Lua/UI/BuyCount/PnlBuyCount.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 21521861f43fc5147b2ce6b974afcc71
+    m_Address: Assets/Lua/UI/BuildInfo/PnlPledgeSetView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 54c96311fc889cd4c8ecfbda52be9271
+    m_Address: Assets/Lua/UI/BuildInfo/PnlPledgeSet.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2ff6a0ae672e2df4b8b9127a5794fcf8
+    m_Address: Assets/Lua/UI/BuildInfo/PnlBuildInfoView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8a7329e8777482a4baa0facd4dd41cf9
+    m_Address: Assets/Lua/UI/BuildInfo/PnlBuildInfo.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a736b4133c9daa548816e919dff28d6c
+    m_Address: Assets/Lua/UI/BuildInfo/BuildInfoItem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bcf35b8d718e3f6478b1829406a1026d
+    m_Address: Assets/Lua/UI/Board/PnlBoardView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 07c8c35453e40b948ba26920b6d6412f
+    m_Address: Assets/Lua/UI/Board/PnlBoard.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1c7127340eaca454f8a3d601a07fc23a
+    m_Address: Assets/Lua/UI/Board/BoardItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b437c00788b69df45b359185b20a3fa8
+    m_Address: Assets/Lua/UI/BattleReport/PnlBattleReportView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b29263870ee8d644fa5929e1c2de9930
+    m_Address: Assets/Lua/UI/BattleReport/PnlBattleReport.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: da084981afb5d0b46bb18256ea11ca7f
+    m_Address: Assets/Lua/UI/BattleLoading/PnlBattleLoadingView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5608c0b8a3601964cb1cff32b13d1cb2
+    m_Address: Assets/Lua/UI/BattleLoading/PnlBattleLoading.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9dd9875407da02e4699cc151b420cece
+    m_Address: Assets/Lua/UI/Battle/PnlResultView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fbd25f363df9b614f8b5d158cb7dffa1
+    m_Address: Assets/Lua/UI/Battle/PnlResult.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9a49e800decd6934297168d663dc397a
+    m_Address: Assets/Lua/UI/Battle/PnlBattleView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3a0a43883fe6c7c45acb5b2fdb3fd7be
+    m_Address: Assets/Lua/UI/Battle/PnlBattle.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 15e779f538461114a861ab2dff1d2ffa
+    m_Address: Assets/Lua/UI/Battle/BattleItem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4e61adaa781bc6b41860b6c5f5b38612
+    m_Address: Assets/Lua/UI/Alert/PnlAlertView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6ff8da65893fa7846a1016245a1ee023
+    m_Address: Assets/Lua/UI/Alert/PnlAlertRemoveBuildingView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e1ae271a18fad264fa4853acb343825f
+    m_Address: Assets/Lua/UI/Alert/PnlAlertRemoveBuilding.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8a771eb73095dd844ac331b1f94965a4
+    m_Address: Assets/Lua/UI/Alert/PnlAlert.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d3637e5bf1db6f14d9decf597102006d
+    m_Address: Assets/Lua/UI/UIUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 78682339e1050574ab5f426245e8f757
+    m_Address: Assets/Lua/UI/UISpineAni.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7430de665ab34af42aff3d9829b3ea36
+    m_Address: Assets/Lua/UI/UIScrollView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c20552051d4b10f4988802350920ef4f
+    m_Address: Assets/Lua/UI/UIRoot.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: dfd886981a5ea494e9e9770de25aeae7
+    m_Address: Assets/Lua/UI/UIManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 059818dbdbad28d408f36b4d7c7aaa5a
+    m_Address: Assets/Lua/UI/UIList.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: dbfa6b37992ebaa4ca48d326796c9ab8
+    m_Address: Assets/Lua/UI/UIEnum.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0bb218392d7787d448609e16df2a57d9
+    m_Address: Assets/Lua/UI/UIBase.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 601d549016af248449d15661d8681a91
+    m_Address: Assets/Lua/UI/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ab9ef696e781ab74b9719d24bf996a6d
+    m_Address: Assets/Lua/scene/warship/WarShipView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7a694f89169033746be4872899acbbcb
+    m_Address: Assets/Lua/scene/warship/WarShip.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 64f526e353f1a994e978e1b7674b3071
+    m_Address: Assets/Lua/scene/warship/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d6cc5d66f12426242836b49202aac4bb
+    m_Address: Assets/Lua/scene/util/WarshipUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 953d90fa33d87c14696af737e54e4a68
+    m_Address: Assets/Lua/scene/util/Utils.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: accbb675eeef1d240b01cf77d0dc5455
+    m_Address: Assets/Lua/scene/util/SoliderUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c0432b158b8ce9845a95c1d33c848556
+    m_Address: Assets/Lua/scene/util/SkillUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d1d63adb68cb0a54cbddedde7bf1505d
+    m_Address: Assets/Lua/scene/util/ResUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0a1c1204f4f25da458af59437b633af4
+    m_Address: Assets/Lua/scene/util/PvpUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9dc26291d73b1f14bb442e0f2e320ae6
+    m_Address: Assets/Lua/scene/util/MineUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 42145e6b13522314e83214439e737625
+    m_Address: Assets/Lua/scene/util/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e67138e68ab776a43af030990c214d2e
+    m_Address: Assets/Lua/scene/util/HeroUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3f4e920b5ecc98c409a30d34b31b1159
+    m_Address: Assets/Lua/scene/util/GuideUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 52d3e331d0bd6134eac9df51c1530d91
+    m_Address: Assets/Lua/scene/util/FilterWords.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3250dfa3dd2fbc44c863323e0052d02d
+    m_Address: Assets/Lua/scene/util/EffectUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b6bff397753888443b9b04458ea5c79d
+    m_Address: Assets/Lua/scene/util/DaoUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ff1aab6c8724f9e43906904953850b5e
+    m_Address: Assets/Lua/scene/util/CardUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 62380c5e2a570524a96962ef8955273e
+    m_Address: Assets/Lua/scene/util/AttrUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a703a51e5814cb54fa707b52093a2a25
+    m_Address: Assets/Lua/scene/uiTween/UiTweenUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 683b066c1f608cf48a83a18f37b252fe
+    m_Address: Assets/Lua/scene/uiTween/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d8b9a1f628d646c479ac40401eb742d9
+    m_Address: Assets/Lua/scene/scene/WarCameraCtrl.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: dcc23e4bd72cbe845af5daf10e622828
+    m_Address: Assets/Lua/scene/scene/SceneManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7d713a85e3c7989489214379a99ff2ae
+    m_Address: Assets/Lua/scene/scene/MoveFollow.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8b8ab5bc6cf606c46ab63165e51d01b0
+    m_Address: Assets/Lua/scene/scene/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 22ff295a2664b27478c8f4b21206498b
+    m_Address: Assets/Lua/scene/resPlanet/StellarSystem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fae34180f16334844846fd7b6a66f30d
+    m_Address: Assets/Lua/scene/resPlanet/ResPlanetManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7a163a73042b1264f9ac55cda5f84ac5
+    m_Address: Assets/Lua/scene/resPlanet/ResPlanet.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f9e576526eed34c46bcd4bd5ca6219e4
+    m_Address: Assets/Lua/scene/resPlanet/ResBoat.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 32750f8abf7470e4aa2eccb2e982e3d3
+    m_Address: Assets/Lua/scene/resPlanet/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a626c24abd8eca14caed8e60440a5b15
+    m_Address: Assets/Lua/scene/Resources/ResourcesManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 50dc7c8038028fe4babf9f0c54afb603
+    m_Address: Assets/Lua/scene/Resources/inlt.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e89681c3c135a174ba5790391a542f56
+    m_Address: Assets/Lua/scene/resEffect/ResEffectManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a839e7a67da55ee429bfb329e7fc10a8
+    m_Address: Assets/Lua/scene/resEffect/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2521074773eb4404eb138f7e3c86d27b
+    m_Address: Assets/Lua/scene/redPoint/RedPointTest/RedPointTest.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d1fae9bfa82387241bd1ffa3ceb4c65f
+    m_Address: Assets/Lua/scene/redPoint/RedPoints/RedPointMail.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b6d8f8ffc94b94d4781eb8e7ec46474a
+    m_Address: Assets/Lua/scene/redPoint/RedPointManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9f3f9a595ef46eb4cb816f4630b47ff3
+    m_Address: Assets/Lua/scene/redPoint/RedPointBase.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b192fb5d42b4d4041b9ff9e68d83b99b
+    m_Address: Assets/Lua/scene/redPoint/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1bcc43314bee16948b234666f356d29d
+    m_Address: Assets/Lua/scene/item/ItemUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 38a45f0342ab0304dbca9e1cbd03525d
+    m_Address: Assets/Lua/scene/item/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 79a81fa03c16c024bbb2dffe4148ab2f
+    m_Address: Assets/Lua/scene/guide/SoftGuide.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f3f6b36a414441a4fadc3d6638c21d4f
+    m_Address: Assets/Lua/scene/guide/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9667b17120947814babe6cc7b4b2d733
+    m_Address: Assets/Lua/scene/guide/GuideNode.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: db3d9e0ece9d81449a856d584b41f376
+    m_Address: Assets/Lua/scene/guide/GuideManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3445c0671f1c9c44cb85d5f135a0fd18
+    m_Address: Assets/Lua/scene/galaxy/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3ffec5b044a93294282732d07d884068
+    m_Address: Assets/Lua/scene/galaxy/GalaxyMap.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bd6c6319e602500419580dbaa958972d
+    m_Address: Assets/Lua/scene/galaxy/GalaxyManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e0355003c5324bc4dad91b5225f82d81
+    m_Address: Assets/Lua/scene/drone/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: eca833e33eaa63745b1bb2a983d50c3d
+    m_Address: Assets/Lua/scene/drone/DroneManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b579865bf29e3f34c9dc0083f6b28962
+    m_Address: Assets/Lua/scene/drone/Drone.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 64c6a8ad8e41ca2438e4c85c31e744b5
+    m_Address: Assets/Lua/scene/building/SurfaceUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f316fa447c45a5c46b31a86256283f38
+    m_Address: Assets/Lua/scene/building/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8eb88e4dfcb92164d9a9121533f9461a
+    m_Address: Assets/Lua/scene/building/BuildUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7bd2e4f00f66bf64ca34f274ef609c56
+    m_Address: Assets/Lua/scene/building/BuildingView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5e2939075d27e7941b27f539e03225e7
+    m_Address: Assets/Lua/scene/building/BuildingTimeBarBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a8c95a011bca3434581f51e2e23cc09f
+    m_Address: Assets/Lua/scene/building/BuildingSolider.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3a44bbf0541494f49a315a12bbf2210f
+    m_Address: Assets/Lua/scene/building/BuildingScene.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c28d916a523f7804984f0357eb9db5b5
+    m_Address: Assets/Lua/scene/building/BuildingManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4b08df2ee5787c646b459bc0c7187bd1
+    m_Address: Assets/Lua/scene/building/BuildingButtonUiBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: dfb531e4019b87444bda9997b01324f2
+    m_Address: Assets/Lua/scene/building/Building.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c176700c375a1d34b8fb4bb49617c7c8
+    m_Address: Assets/Lua/scene/battle/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 90578e324cdb9f148a56f2aa082b2a46
+    m_Address: Assets/Lua/scene/battle/BattleScene.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: da0f106b93ab7b748a07eccec90a2b95
+    m_Address: Assets/Lua/scene/battle/BattleManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a7f63bacd72a2cb47af89525cbbbafe4
+    m_Address: Assets/Lua/scene/audio/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3298084438ab95a4ea389f2f8dc40a00
+    m_Address: Assets/Lua/scene/audio/AudioManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bdd59e33a654722418687ba085764b0e
+    m_Address: Assets/Lua/scene/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5530fcac75af281419bc92a465b34d51
+    m_Address: Assets/Lua/player/PlayerMgr.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0dc55200831089d49bc50b0c28c9e300
+    m_Address: Assets/Lua/player/Player.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f7df874fef3976243b77bb6ed9a0e7e0
+    m_Address: Assets/Lua/player/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 75378323a4256764b889ebdb09299f25
+    m_Address: Assets/Lua/gm/test.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 777c01ea2526b784eb5863b6b217624b
+    m_Address: Assets/Lua/gm/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 41eac77188e049f48bf5daaa4119d03f
+    m_Address: Assets/Lua/gm/GM.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c137d3a88e6b8464facb007271a3c0c2
+    m_Address: Assets/Lua/gg/logger/logger.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e25062c54e853844eab86ab028211b0e
+    m_Address: Assets/Lua/gg/logger/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 14bcea7f8f2a0bd4d8485cd30be3a983
+    m_Address: Assets/Lua/gg/client/socket/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 19c3d47622e658141aa71f5db5a46be6
+    m_Address: Assets/Lua/gg/client/socket/HandShake.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a1febc9fca367d34c8af8082b9818169
+    m_Address: Assets/Lua/gg/client/socket/ClientTcpSocket.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c6e7c8a30ce65464ab015dbe04f5479a
+    m_Address: Assets/Lua/gg/client/socket/ClientKcpSocket.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f91e6483477945a48868e5fac7f4a5ad
+    m_Address: Assets/Lua/gg/client/loginserver/util.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e7b6a39400e63d240935be6b643c19a0
+    m_Address: Assets/Lua/gg/client/loginserver/LoginServerAPI.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 57cebe095009f744ebc2db15e751523a
+    m_Address: Assets/Lua/gg/client/loginserver/LoginServer.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6f33c761e2d43da43b244f21b66fabea
+    m_Address: Assets/Lua/gg/client/loginserver/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 35a9dd686c67b8246b0cb0531d8c563c
+    m_Address: Assets/Lua/gg/client/loginserver/Answer.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a1fc68af8006e1b4a90a089a20a6974a
+    m_Address: Assets/Lua/gg/client/codec/sprotox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8128c90a6ede15e4dafb756489f5c952
+    m_Address: Assets/Lua/gg/client/codec/sproto.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 471b8704395452945a10e60c9a613d16
+    m_Address: Assets/Lua/gg/client/codec/protobuf.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2b324ad519714934792a75920627aced
+    m_Address: Assets/Lua/gg/client/codec/jsonx.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ca9bda9a5b9965a4790a8aeabbedcac6
+    m_Address: Assets/Lua/gg/client/codec/codec.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: cafc19b955a053c43b32729782c2fd5c
+    m_Address: Assets/Lua/gg/client/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 00ff640ea8cf5c24d9fb2b213e9a4cb9
+    m_Address: Assets/Lua/gg/client/client.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 05aab469dd703c04ca6284def45d40f3
+    m_Address: Assets/Lua/gg/base/util/table.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bb7a1a1cd2495f54289be7760128b5b5
+    m_Address: Assets/Lua/gg/base/util/string.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5ca7b328c9bb88a41aba7c901d617869
+    m_Address: Assets/Lua/gg/base/util/math.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 30969b558e4576349a79797bd66c4b71
+    m_Address: Assets/Lua/gg/base/util/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e57bd902d6fb03044a44238f5320c427
+    m_Address: Assets/Lua/gg/base/util/functions.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f0a64b78e2e594942b6ef2f1f3fd0267
+    m_Address: Assets/Lua/gg/base/time/time.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0b3ee2e41c7873c42a817190d89514a5
+    m_Address: Assets/Lua/gg/base/time/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: cbba6e637efa2824bb7f253c5f5e589d
+    m_Address: Assets/Lua/gg/base/xlua.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d60974724f8fbde4f94ce17843e1cff1
+    m_Address: Assets/Lua/gg/base/trace.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ea396e2038868cb4a981a60fb63c3f0e
+    m_Address: Assets/Lua/gg/base/Timer.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 08c10e90a55517f46ba7858328c9a165
+    m_Address: Assets/Lua/gg/base/random.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4ed03b9ac7f8bd946ae3ee048fea6b0c
+    m_Address: Assets/Lua/gg/base/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 033e287bfdc7485479d655da895bc7cf
+    m_Address: Assets/Lua/gg/base/i18n.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 039c6670d6098854d8cb3f72942370a5
+    m_Address: Assets/Lua/gg/base/cronexpr.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1ab4b88bbcc6be741b71d069256558c8
+    m_Address: Assets/Lua/gg/base/class.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9672dce6776ccb840a36ba3336381b21
+    m_Address: Assets/Lua/gg/snowflake.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fd236afc8c5af614a8808118b0b5f9d6
+    m_Address: Assets/Lua/gg/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6de89545431210545aa066799aa6e356
+    m_Address: Assets/Lua/etc/proto/sproto/sprotoparser.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e664517929605f2408f86a553fbd7387
+    m_Address: Assets/Lua/etc/proto/sproto/sproto.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0c14792728494124da878d38ff52e5f8
+    m_Address: Assets/Lua/etc/cfg/warShipForge.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0700acbe88c91cd4bab82b6fddb33821
+    m_Address: Assets/Lua/etc/cfg/warShipBattle.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b0f2989b3e9dfb54fb0e2a8ea74c060f
+    m_Address: Assets/Lua/etc/cfg/warShip.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 737bba78c8eb5e04d82f37af1c889edf
+    m_Address: Assets/Lua/etc/cfg/vip.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 470ad506d189b074ebc9f6494d7a953d
+    m_Address: Assets/Lua/etc/cfg/treasure.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5cd7d0f26dd16d24eab2ccb261c5bea4
+    m_Address: Assets/Lua/etc/cfg/tonnage.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c4c716c57cd981046ba78d9d3584fe73
+    m_Address: Assets/Lua/etc/cfg/textAlert.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7d5bce11b1d6bab438ad05f575dc0203
+    m_Address: Assets/Lua/etc/cfg/test.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bda820b901814a14fa6e69de9b8deffc
+    m_Address: Assets/Lua/etc/cfg/Technology.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b1ca2f9cbb6fec34ea2d141720ab59e7
+    m_Address: Assets/Lua/etc/cfg/task.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: df99a21d8d556ff4e8cac781e85a152d
+    m_Address: Assets/Lua/etc/cfg/storehouseExt.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9105fdbd6cc6b724c8727d9f579ad19b
+    m_Address: Assets/Lua/etc/cfg/stellarSystem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 86e72ad85e4d4a0489d66d69df7ba8d9
+    m_Address: Assets/Lua/etc/cfg/starmap.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d04debbd41407524bb233a9cce47770d
+    m_Address: Assets/Lua/etc/cfg/soliderForge.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e8268aacf42f93942b6f445346ef051a
+    m_Address: Assets/Lua/etc/cfg/soliderBattle.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1c6e7eed9bd7596408c8b631609a9fce
+    m_Address: Assets/Lua/etc/cfg/solider.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 20f85d3b7667bf54f90b991ce26fadd6
+    m_Address: Assets/Lua/etc/cfg/skillEffect.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3df1dc1b737faf84e8bd979958d7c8a2
+    m_Address: Assets/Lua/etc/cfg/skillBattle.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4b717035a5f69e94c8364503379fbb48
+    m_Address: Assets/Lua/etc/cfg/skill.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1bdd5beb665018c428f0a071acee9658
+    m_Address: Assets/Lua/etc/cfg/SelectRaceQuestion.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 39e350bf37d82884ba13e6054df40f65
+    m_Address: Assets/Lua/etc/cfg/resPlanet.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 92524175321a84d48aee82ad56b0267c
+    m_Address: Assets/Lua/etc/cfg/randomTonnage.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 739a32aaf8c645746800bee49d6c22a2
+    m_Address: Assets/Lua/etc/cfg/pvpStage.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9f104df872895b54a811fd9f680a8142
+    m_Address: Assets/Lua/etc/cfg/pvpCost.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 08eb8fc153f3ec545b7d369c525dba70
+    m_Address: Assets/Lua/etc/cfg/pvpBuyCost.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 360b517b2a0972e4dbad40ed057b8c79
+    m_Address: Assets/Lua/etc/cfg/pveDifficulty.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 27ae5c08518757f4bba94046a17fd005
+    m_Address: Assets/Lua/etc/cfg/presetRobot.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8b9884ec1e3f9df479720ac873d99b3f
+    m_Address: Assets/Lua/etc/cfg/presetBuildLayout.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1d16e774d4ada724d91a0fd4c6f29384
+    m_Address: Assets/Lua/etc/cfg/presetBuild.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8e5477cbd5e7a624292d228c6606e0de
+    m_Address: Assets/Lua/etc/cfg/pledge.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d738c04657e1f9240a9e16915ac48135
+    m_Address: Assets/Lua/etc/cfg/PlayerHead.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 85862abd7905d5444a7a239886ac04a2
+    m_Address: Assets/Lua/etc/cfg/nftBattleAdd.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2f166156a567a6d41961813ca5492c7f
+    m_Address: Assets/Lua/etc/cfg/natural.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5388e6573e3adc74d9b7b8abde8feed0
+    m_Address: Assets/Lua/etc/cfg/matchReward.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4e391cff340a4704cbbc8f685c216738
+    m_Address: Assets/Lua/etc/cfg/match.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bd8af5aa11d8d1448bad810f2dfa1320
+    m_Address: Assets/Lua/etc/cfg/life.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a5512b3789ad20447b176bc7e23c3a8c
+    m_Address: Assets/Lua/etc/cfg/language.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6e8147d3e641d4943a6b367d041e2b9d
+    m_Address: Assets/Lua/etc/cfg/item.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1d2e7d6f7aa45d24ab3f6c85923425f4
+    m_Address: Assets/Lua/etc/cfg/heroForge.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e898bd6532f46f74ca6ba49bca049472
+    m_Address: Assets/Lua/etc/cfg/heroBattle.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 992ddc21bdde62a45ae2c57629f9cc76
+    m_Address: Assets/Lua/etc/cfg/hero.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a5ad5b655c6d484468fc785215bea673
+    m_Address: Assets/Lua/etc/cfg/guide.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 93584ea9d21ca8c4dbeab34a1a79a711
+    m_Address: Assets/Lua/etc/cfg/gmRobotBuild.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 69ce83fd772f5f1479e99d07d04a80d8
+    m_Address: Assets/Lua/etc/cfg/gmRobot.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f219f910d3f76784e8c9336d3c33a9c5
+    m_Address: Assets/Lua/etc/cfg/global.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d9f9e3c6150d3cc4da32e6791c3b0abe
+    m_Address: Assets/Lua/etc/cfg/galaxy.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: faabd64a604705343a787a62e4897b3c
+    m_Address: Assets/Lua/etc/cfg/flag.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 18b1f923b57f928428d6185dab539b21
+    m_Address: Assets/Lua/etc/cfg/filterWords.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3c1a2f88a7e8f3a4c87ba4a02c340aaf
+    m_Address: Assets/Lua/etc/cfg/daoSystem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c333a61260173e845a7f3b673f8ab36f
+    m_Address: Assets/Lua/etc/cfg/cardBuff.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a3e6b31d14cdc5a4f8c0984cbe9d8847
+    m_Address: Assets/Lua/etc/cfg/card.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 93683652fc5aaa64081f0c887179ed42
+    m_Address: Assets/Lua/etc/cfg/cameraShake.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: eb88ba205ab1ca049bf1b4504f4788cb
+    m_Address: Assets/Lua/etc/cfg/bullet.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b3518e408d9d13442bd94bad73082e8f
+    m_Address: Assets/Lua/etc/cfg/buildForge.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5cb51388c6d26ab438c82dd5177c62d8
+    m_Address: Assets/Lua/etc/cfg/buildCount.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3c24cf2fc6b2862438939321b9d0e0c4
+    m_Address: Assets/Lua/etc/cfg/buildBattle.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e63846b40444e7a4abda088c7d6108b2
+    m_Address: Assets/Lua/etc/cfg/build.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 19774fea597c4904b920659a35fa6c7f
+    m_Address: Assets/Lua/etc/cfg/buff.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 017eeaefdec07aa41a79d2b10c70e40d
+    m_Address: Assets/Lua/etc/cfg/board.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4ecdc5da63d68434c904ddcd9079a614
+    m_Address: Assets/Lua/etc/cfg/battleaudio.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f277c86f2e61da44eabe398eba4cb6de
+    m_Address: Assets/Lua/etc/cfg/audio.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 581e25fc2a679d8499cf297b59768cd1
+    m_Address: Assets/Lua/etc/cfg/attribute.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 68be5ddba556df94c81185ceb8b56eee
+    m_Address: Assets/Lua/etc/cfg/artifact.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e7130d987871a4349a19236bf1ac6d70
+    m_Address: Assets/Lua/etc/cfg/airway.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 98119e8bed93a0c4eaa5e9808224b74a
+    m_Address: Assets/Lua/etc/cfg/achievement.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ef8e9ac1f22969b4dbb63259daefe375
+    m_Address: Assets/Lua/editor/editorUi/editorDefenseUi.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e6ddc2ea30b57b34fbb0df25f39cc34d
+    m_Address: Assets/Lua/editor/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fbe85af862a26fc459caa0bafbd9540e
+    m_Address: Assets/Lua/data/WarShipData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: abda2a6e464dd15468fa2602cc3567c1
+    m_Address: Assets/Lua/data/VipData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 35c22f6f438dfa44a8b8178345944a3c
+    m_Address: Assets/Lua/data/UnionData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 71013f2ce476eb6488a7154a0fa1d498
+    m_Address: Assets/Lua/data/RoutesData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ce943589c148c7e4ab971b166fcb5e06
+    m_Address: Assets/Lua/data/ResPlanetData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2cf75f85b8c7f1248a4434252b06fe67
+    m_Address: Assets/Lua/data/ResData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 74fdcac1ea720764d9e5fd5de5bb3028
+    m_Address: Assets/Lua/data/RankData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c7fe82402801d20498d74de96650b028
+    m_Address: Assets/Lua/data/PlayerData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6ae799dfbbd789d4e8941b23d1aaacb0
+    m_Address: Assets/Lua/data/MsgData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 181bdfda43e10f84e976920cfdf4fd15
+    m_Address: Assets/Lua/data/MailData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d8d9b9890046fad40968acc15550b4db
+    m_Address: Assets/Lua/data/ItemData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 416383d3ec94d8e45bd0ea438ae39e28
+    m_Address: Assets/Lua/data/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9907092159682cc46b8851c7e565ee0c
+    m_Address: Assets/Lua/data/HeroData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d9e3bc1f824c8564d836677745d33132
+    m_Address: Assets/Lua/data/GalaxyData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d77be7e92bbb95b41b3e662f63d021fe
+    m_Address: Assets/Lua/data/DaoData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6ee2e475415923840bcf990f1b9def70
+    m_Address: Assets/Lua/data/ChatData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0d05a16cdd6fc1248a2dcfabecdc1db3
+    m_Address: Assets/Lua/data/ChainBridgeData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2f2c8b4b79334704f971fbd4860698c7
+    m_Address: Assets/Lua/data/CardData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: df57a6258bbbf5c45a0df8290e30b3cc
+    m_Address: Assets/Lua/data/BuildData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d24f055f857a5a44785818f07ba67902
+    m_Address: Assets/Lua/data/BattleReportData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7a524cbf7c86ef3479f04d4dccab2b39
+    m_Address: Assets/Lua/data/BattleData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1ba2639e1751b3843814a1bd7b83ddb6
+    m_Address: Assets/Lua/data/AchievementData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1eeca13eb4e2b0e4dbec39616bb42077
+    m_Address: Assets/Lua/common/tools/QuickSort.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bbb5a6315f8c1da4f98d5e799f112874
+    m_Address: Assets/Lua/common/tools/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: abe6c6ea25e26064098a22b740869524
+    m_Address: Assets/Lua/common/gg/util.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 52592375476bc6c43903c5e0081fc092
+    m_Address: Assets/Lua/common/gg/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 92d5426010ce8ae4da0e59db8ebc3801
+    m_Address: Assets/Lua/common/gg/Event.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 29aa06f15b6831144aa052aa4b44766c
+    m_Address: Assets/Lua/common/CsToLua/xlua/util.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 85287fcfbad581242b9894f9d589ce4f
+    m_Address: Assets/Lua/common/CsToLua/Vector4.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: cc86ececc5e08324989f5e9bf41f9032
+    m_Address: Assets/Lua/common/CsToLua/Vector3.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 98c1e0fc72ce5df41819ad954b8d0cde
+    m_Address: Assets/Lua/common/CsToLua/Vector2.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3436f23b3466e894082fe0a21fd37fbc
+    m_Address: Assets/Lua/common/CsToLua/Raycast.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 98f7663d6ee795a40ab6967f58cc77d7
+    m_Address: Assets/Lua/common/CsToLua/Ray.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 192eb1642d822004790b5938b6897605
+    m_Address: Assets/Lua/common/CsToLua/Quaternion.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a24c90d3461eac04f9b6d372885b938f
+    m_Address: Assets/Lua/common/CsToLua/Plane.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a3dbfc608f13eb045bc59a37d23946c6
+    m_Address: Assets/Lua/common/CsToLua/Math.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 538cfbc957e4f904493420c66144e2fd
+    m_Address: Assets/Lua/common/CsToLua/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7bdb6372ee9f13d4db5713da69a3f2a7
+    m_Address: Assets/Lua/common/CsToLua/cs_coroutine.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8e588f44e1a2b2b43a1dfe910d9d16fd
+    m_Address: Assets/Lua/common/CsToLua/Color.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9384ed466ae1dba428f6d24ca59f65f1
+    m_Address: Assets/Lua/common/CsToLua/Bounds.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b3e7e8e5d0ce5534c9b2c33cb32fd419
+    m_Address: Assets/Lua/common/constant/text.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a106ceb4cabff8b4388d076a37274fd2
+    m_Address: Assets/Lua/common/constant/scene.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 22b911557f3ed9749a6722a0a1367622
+    m_Address: Assets/Lua/common/constant/res.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ca650f85f25cbb044a0f4db2b744c6e1
+    m_Address: Assets/Lua/common/constant/rank.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: dcbb3564e5d6476498e4eb2ddbbe33b3
+    m_Address: Assets/Lua/common/constant/player.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5a0bdc9860cc70540a6afa770cf0a323
+    m_Address: Assets/Lua/common/constant/language.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 32d1de2ba899fb14986e66f0bcf73cb4
+    m_Address: Assets/Lua/common/constant/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 73374682e81556048bc06fd5cb7d7c0f
+    m_Address: Assets/Lua/common/constant/hero.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b38fc4cb6c3b6ad4ca67628b444ce620
+    m_Address: Assets/Lua/common/constant/goods.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ef7aa6dd25f77ef4c9c5a5026a31a5ef
+    m_Address: Assets/Lua/common/constant/dao.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9ca11c17120c6ad40ab995496f769472
+    m_Address: Assets/Lua/common/constant/color.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 089d0d4d8de302045a8ea45e9fcced27
+    m_Address: Assets/Lua/common/constant/chat.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e9a725671edea8848bc4ce9490ab6804
+    m_Address: Assets/Lua/common/constant/chain.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2e8ed95bc774e134fabe811e2a5852d8
+    m_Address: Assets/Lua/common/constant/card.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bbf03562f31ce8e4689550f4655131d4
+    m_Address: Assets/Lua/common/constant/build.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4978f64fd2ee5c44a8003d27369b25db
+    m_Address: Assets/Lua/common/constant/base.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a4700d7b538a596458620c57134fc2b4
+    m_Address: Assets/Lua/common/constant/audio.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4394dabb1a814bb4784b8bc6c497ef6e
+    m_Address: Assets/Lua/common/constant/attribute.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 66f658cdd0a93154687f0a98c1ae8a36
+    m_Address: Assets/Lua/common/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0819c280be3dbbd4aa6ce02d131c2efe
+    m_Address: Assets/Lua/client/player.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ac36a5e607dda8a4dbf648b43dec583d
+    m_Address: Assets/Lua/client/msg.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0135f99d6bb99b14ca5a5b21375c9048
+    m_Address: Assets/Lua/client/login.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fca5278562624944f9e5ecfec89bbf75
+    m_Address: Assets/Lua/client/logCmds.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 70eb37b0cffb776488dcef6f5f3560d4
+    m_Address: Assets/Lua/client/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8dbb912c7664ad340951775fa1133c20
+    m_Address: Assets/Lua/client/client.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a7c4dd8c1ede59b4782027ad32b33784
+    m_Address: Assets/Lua/client/battle.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c7131e5dbb7a81a4db45d1ae84a35c20
+    m_Address: Assets/Lua/main.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a735e0f3814fdfd4d8a51e622e89f877
+    m_Address: Assets/Lua/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c80653730de5ce6419a313fff8cd2402
+    m_Address: Assets/Lua/gg.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fe1af06b2d1c8bf41b1ca686f32b86d2
+    m_Address: Assets/Lua/config.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6bae608b9ab959648876f63c9389c978
+    m_Address: Assets/Lua/cfg.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: afa5410b7325e5649b9eb2ddf6f11653
+    m_Address: Assets/Lua/UI/Task/PnlTaskView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0c9a222d4569aaa42bf50f12b4fa8d2d
+    m_Address: Assets/Lua/UI/Task/PnlTask.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 89bd57019f34bfd468833696f2d1d862
+    m_Address: Assets/Lua/etc/cfg/subTaskCond.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e9a266c200fd9cb4dac59421c0c84401
+    m_Address: Assets/Lua/etc/cfg/chapterTask.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4fd2898802698344f84940be8c4b9c7b
+    m_Address: Assets/Lua/etc/cfg/subTask.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e46084aff7888734fba9f38bac42764c
+    m_Address: Assets/Lua/scene/redPoint/Build/RedPointBuild.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 06a10cc7a63f4134b89a63de99ab2818
+    m_Address: Assets/Lua/UI/Achievement/PnlAchievementNewView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 35d96a7b73d1a6546bbc1dd12c1e5639
+    m_Address: Assets/Lua/UI/Achievement/PnlAchievementNew.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8f88000cbaf1adf4e8489808ea301138
+    m_Address: Assets/Lua/UI/Achievement/AchievementItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ac25eebf234619045a264f5222f018fe
+    m_Address: Assets/Lua/common/constant/task.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 815e7b4143fb40845b68398f7bfe4be0
+    m_Address: Assets/Lua/etc/cfg/baseBuild.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7450cfba1d193864e8904743a1aa2f1c
+    m_Address: Assets/Lua/etc/cfg/taskActivation.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a5cbcb7b34a2e51489cf1ce15c2428c9
+    m_Address: Assets/Lua/etc/cfg/unionWarehouse.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: cd2a435f3fcfda6498354434c04ac5ce
+    m_Address: Assets/Lua/scene/redPoint/RedPoints/RedPointAchievement.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6c9d7956a27d8dc428a57050ca72a0d7
+    m_Address: Assets/Lua/UI/Common/CommonBtnsBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d2e75ab3bbec7e84aaf5e541486c6661
+    m_Address: Assets/Lua/scene/util/TaskUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 155439537853c5e4a8cb1e4c251b8f73
+    m_Address: Assets/Lua/scene/redPoint/RedPoints/RedPointTask.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2c60ae14f3e0b3d4faa8dede3567b4c9
+    m_Address: Assets/Lua/etc/cfg/unionTech.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4fef522a805ed8647bfc388d1c824e27
+    m_Address: Assets/Lua/etc/cfg/unionTechEffect.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3cc53856b64cc804180bcbfcbb018bdc
+    m_Address: Assets/Lua/UI/UnionArmy/PnlUnionArmyView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0aa3b6cb8f285714786ed9fd80a6ee09
+    m_Address: Assets/Lua/UI/UnionArmy/PnlUnionArmy.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0061c7778ddcf774eac0b33563c23104
+    m_Address: Assets/Lua/UI/UnionArmy/UnionArmyItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 87d54282ee0e21b449ba984217fd47a4
+    m_Address: Assets/Lua/UI/UnionArmy/PnlUnionArmyEditView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8424e354ceda3244ebd026688ee6895a
+    m_Address: Assets/Lua/UI/UnionArmy/PnlUnionArmyEdit.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fa534f85253ba6e4fb278e6a9c633f01
+    m_Address: Assets/Lua/scene/util/UnionUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f1e5062d36447ff4f9fe5a11af27f182
+    m_Address: Assets/Lua/UI/UnionArmy/UnionArmyEditItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2df6625b4c388f44bb6d76508f9d7f77
+    m_Address: Assets/Lua/UI/Edit/PnlEdit.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 52db49b48d9734946abf08dcc6e02d8e
+    m_Address: Assets/Lua/UI/Edit/PnlEditView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d55bc9f0433ae944ab24acb3fb1dee22
+    m_Address: Assets/Lua/UI/Edit/EditItem.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d928c28813ebbf4488a105b832f498df
+    m_Address: Assets/Lua/data/EditData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 824afeee3cd4d9e47a98b1a5f1255b7b
+    m_Address: Assets/Lua/etc/cfg/modelInfo.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bef61e44ab3268e4ba47165d16365955
+    m_Address: Assets/Lua/UI/NFTTower/PnlNFTTower.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: bfd7eb2d6f576df498abbc8a3776aec8
+    m_Address: Assets/Lua/UI/NFTTower/PnlNFTTowerView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ec1423e22d3910a43b0e1670eb42b161
+    m_Address: Assets/Lua/UI/Union/PnlUnionWarReport.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 13c1111356dd5184b8768ad1ea8d806f
+    m_Address: Assets/Lua/UI/Union/PnlUnionWarReportView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 789c9c7e43f13ba43a58406d07b2bdd6
+    m_Address: Assets/Lua/etc/cfg/daoPosition.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4727ac3534ff06c45ac3961e9fb2531f
+    m_Address: Assets/Lua/UI/Pve/PnlPveNew.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 43065b0e16805144dbb13793b0def7cd
+    m_Address: Assets/Lua/UI/Pve/PnlPveNewView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8f2b5a8c70abbd0478d5e3d51e58c00e
+    m_Address: Assets/Lua/UI/Pve/PveItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c654765640b7f4140a7a583581c1dae3
+    m_Address: Assets/Lua/UI/Rule/PnlRule.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4015abcb5442a2e4bb5fdcdf8eb8ed88
+    m_Address: Assets/Lua/UI/Rule/PnlRuleView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 00bbc26a81c35f44c9cb0c2c77ddcef3
+    m_Address: Assets/Lua/etc/cfg/pve.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5976bcc572368d449bf4cf88b60f09d2
+    m_Address: Assets/Lua/UI/PveResult/PnlPveResultWin.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 23d91899854fbe14c84d3f8a3f6f92d2
+    m_Address: Assets/Lua/UI/PveResult/PnlPveResultWinView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4b96f8e1fe552624d80837929f8e7d8d
+    m_Address: Assets/Lua/UI/PveResult/PnlPveResultLose.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: aef1c4663155df24bbe47d2844016531
+    m_Address: Assets/Lua/UI/PveResult/PnlPveResultLoseView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0ebac18df58a9e24e8e4109e6281f2e9
+    m_Address: Assets/Lua/UI/PveResult/PveResultStarBox.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 60024d5ebf5b8cd4aac02ead91d8181d
+    m_Address: Assets/Lua/scene/util/PveUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d173a09478531d2469ef55887934a42b
+    m_Address: Assets/Lua/scene/util/BattleUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: adc88418e897db44eabe54a26938e7ca
+    m_Address: Assets/Lua/data/AutoPushData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5048730c5c262174eacab1ee938daf84
+    m_Address: Assets/Lua/common/constant/autoPush.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 721837e20c024554585735831829f11a
+    m_Address: Assets/Lua/scene/redPoint/RedPoints/RedPointUnion.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3b2ae0715a823bc4c8764fa2cb7bdc5c
+    m_Address: Assets/Lua/UI/Pve/PnlPveDailyReward.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: fff1e4b38467c204e81c22afe2440084
+    m_Address: Assets/Lua/UI/Pve/PnlPveDailyRewardView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6bbd57be4ca0361489bf4fe0cebd69b5
+    m_Address: Assets/Lua/scene/redPoint/RedPoints/RedPointChat.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 591c1cf59c3684d4e96db84630e4d8a9
+    m_Address: Assets/Lua/UI/EditBattle/PnlEditBattle.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a7ccc94762896534e894b035c83d1681
+    m_Address: Assets/Lua/UI/EditBattle/PnlEditBattleView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2502585b1bcc81748a663d35b7d577f9
+    m_Address: Assets/Lua/UI/EditBattle/EditBattleItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f79488958fe773d419140612723243a7
+    m_Address: Assets/Lua/common/constant/union.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 401ef2bcc4d4d4c4eabce70ce10eba1c
+    m_Address: Assets/Lua/UI/Map/PnlMaterialRewardView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 08d90ab2dd4900a4b8c66490479ad076
+    m_Address: Assets/Lua/UI/Map/PnlMaterialReward.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 6fcf448b04b65d246bba02a3f235d385
+    m_Address: Assets/Lua/data/DraftData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 61b958833c0cda7499e1dba0d54af5aa
+    m_Address: Assets/Lua/UI/Draft/PnlDraftView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c39dd95690d65bb4b9477d68c1e3b2b3
+    m_Address: Assets/Lua/UI/Draft/PnlDraft.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 259c453be6b839e4f87a72c196e46ff0
+    m_Address: Assets/Lua/UI/Task/TaskItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a5769075c9b689e4a8aabed40b0a5b9b
+    m_Address: Assets/Lua/UI/StarMapPlot/PnlStarMapPlot.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a4565737cc6d426439b93d89362d69eb
+    m_Address: Assets/Lua/UI/StarMapPlot/PnlStarMapPlotView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 434f437c61fd41a41a5ca8406cbd3f2f
+    m_Address: Assets/Lua/UI/Headquarters/PnlHeadquarters.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: d9d997bd9ef06a6469e8d2e96594e724
+    m_Address: Assets/Lua/UI/Headquarters/PnlHeadquartersView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c86adf7410b91d94cbd139d83a4fdbd4
+    m_Address: Assets/Lua/common/constant/ref.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0efea4e46079b0948b11b6dc2a1e5c9d
+    m_Address: Assets/Lua/UI/StarMapItemBag/PnlStarMapItemBagView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 607355297ce73a34d95c3df58848e133
+    m_Address: Assets/Lua/UI/StarMapItemBag/PnlStarMapItemBag.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 09e7bc527e5c676499c08e65d91bbd22
+    m_Address: Assets/Lua/UI/ItemBag/PnlGridItemBag.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9e0cbee9bcd56234685e5d35e5587c56
+    m_Address: Assets/Lua/UI/ItemBag/PnlGridItemBagView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 37f114f83ae384d4e89e817116bebdbe
+    m_Address: Assets/Lua/UI/Alert/PnlAlertNewView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f7902b3e91df1f14999dd75dcf22f4a1
+    m_Address: Assets/Lua/UI/Alert/PnlAlertNew.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 92bcb98109783ae4188bcbc838f6c642
+    m_Address: Assets/Lua/UI/Headquarters/PnlHeadquartersSkillUpgrade.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 427783c1db8bcb142b64f77f11ac595a
+    m_Address: Assets/Lua/UI/Headquarters/PnlHeadquartersSkillUpgradeView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 890c8415a44113a4eaaaf9188e0acde8
+    m_Address: Assets/Lua/etc/cfg/mintCost.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 42d93323fbe6c5f4bb85f84ad0ab928e
+    m_Address: Assets/Lua/UI/PersonalArmy/PnlPersonalArmyView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b0b0853c1b929a74e8eacd9302fec26a
+    m_Address: Assets/Lua/UI/PersonalArmy/PnlPersonalArmy.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9cf2087c48152eb4f9c719ac9385f9e8
+    m_Address: Assets/Lua/UI/PersonalArmy/PersonalArmyItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 52c17a2e2c2cddd41986431491383506
+    m_Address: Assets/Lua/etc/cfg/cardPool.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 85468106710913c4d8fde1139e692d5c
+    m_Address: Assets/Lua/UI/Headquarters/PnlChooseSkill.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 88377a1dbe9461f459b6d8410d0c424a
+    m_Address: Assets/Lua/UI/Headquarters/PnlChooseSkillView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4848db62261680e4492027097a03dc80
+    m_Address: Assets/Lua/data/MintData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2068cb6f46942944ab1c70ba26bf9582
+    m_Address: Assets/Lua/UI/Mint/MintItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3159934978384ae4d9401914915d6df2
+    m_Address: Assets/Lua/UI/Mint/PnlMint.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3f62abe71680c484eb595958561fe6f7
+    m_Address: Assets/Lua/UI/Mint/PnlMintInfo.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0dc7d1844d8d16d43bc6d9e0139af7bd
+    m_Address: Assets/Lua/UI/Mint/PnlMintInfoView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 00e4293de06141d4ba3ef7e48720fd0c
+    m_Address: Assets/Lua/UI/Mint/PnlMintNFTList.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: c4d68b1d6c1e555429b61b3f090e7c9b
+    m_Address: Assets/Lua/UI/Mint/PnlMintNFTListView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9f3d0328219c5fe4ab56455a0a6dace0
+    m_Address: Assets/Lua/UI/Mint/PnlMintView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 12357acacf46bab40bd7c534fb7ec707
+    m_Address: Assets/Lua/scene/util/MintUtil.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 499ebda377921c2409b649f60b21dabd
+    m_Address: Assets/Lua/etc/cfg/product.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ff370e0c1ae11904fa56d3ece7ebc832
+    m_Address: Assets/Lua/data/DrawCardData.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f65d567cd2973924e9f05873c0fcf89d
+    m_Address: Assets/Lua/UI/DrawCard/PnlDrawCard.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 16cb610f0a9e2f94d93181eb25e08b92
+    m_Address: Assets/Lua/UI/DrawCard/PnlDrawCardView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 8d85c6aab7b10b442a934f28ae9b45cb
+    m_Address: Assets/Lua/common/constant/pay.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5a20a3d10eed1c0418d7e3acc825193a
+    m_Address: Assets/Lua/UI/ItemBag/PnlItemResolve.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 88e5f4ff5b381ab4e9457da6b72fa1ae
+    m_Address: Assets/Lua/UI/ItemBag/PnlItemResolveView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a500da9a1cc2e4743806b1757c1eadbb
+    m_Address: Assets/Lua/UI/Edit/EditTools.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 1ac7186e315d2994d8dc495236ebdbee
+    m_Address: Assets/Lua/UI/Mail/PnlAcquisition.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9a4c36cc16773b84782fb898bae22188
+    m_Address: Assets/Lua/UI/Mail/PnlAcquisitionView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 23d8fed2176512747945f9565cc19953
+    m_Address: Assets/Lua/etc/cfg/area.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3293024907f1339479e0660a24f2ba1a
+    m_Address: Assets/Lua/scene/Area/AreaManager.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 111f920f80934214184f8e4f3d6b7440
+    m_Address: Assets/Lua/scene/Area/init.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: dc9e0d39f9889894fa7f7858943e7ba2
+    m_Address: Assets/Lua/scene/Area/Cloud.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 5e2af11b9bcc26746b1f90068d98882c
+    m_Address: Assets/Lua/UI/Task/PnlTaskRewardView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 4563c95efa8a7d54e8621410dfdd1fe2
+    m_Address: Assets/Lua/UI/Task/PnlTaskReward.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 3105902b1e21a2b47b2b301fa0613c6d
+    m_Address: Assets/Lua/UI/DrawCard/PnlDrawCardInfo.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2cbae6eeb963d7d4fbf6b41259aae9bf
+    m_Address: Assets/Lua/UI/DrawCard/PnlDrawCardInfoView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a4d61f5552a9e59468cd7f4b0007d1f7
+    m_Address: Assets/Lua/UI/Pledge/PnlPledgeView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 7b9d89fd621084a4483c30b6b6d70826
+    m_Address: Assets/Lua/UI/Pledge/PnlPledge.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a89999685b7e12c4e8ef50deeef844a6
+    m_Address: Assets/Lua/UI/Shop/PnlShop.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 413a74ae158edd544ab74e4327aa2429
+    m_Address: Assets/Lua/UI/Shop/PnlShopView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 69fa9e2cd409891449c04817d5979c77
+    m_Address: Assets/Lua/UI/Shop/ShopItems.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2b9a01f495f17b04aa71f6fcd6c89444
+    m_Address: Assets/Lua/UI/PersonalQuickSelectArmy/PnlPersonalQuickSelectArmy.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: faa450fd8630d8346885afc98343afbc
+    m_Address: Assets/Lua/UI/PersonalQuickSelectArmy/PnlPersonalQuickSelectArmyView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: ef5e993cfc1217c45b5a3d226fbc97e0
+    m_Address: Assets/Lua/scene/util/PersonalArmyUtils.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 0a1b61d65c147a84783691b3e85a9626
+    m_Address: Assets/Lua/UI/Alert/PnlAlertResetSkillView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 2c6138d14404f454aae741c482ee95df
+    m_Address: Assets/Lua/UI/Alert/PnlAlertResetSkill.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: a78958bc4a6bf6047b632c68dbd7c296
+    m_Address: Assets/Lua/UI/Reward/PnlRewardView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: b7a243bcec57413438d46bc81c7a85a2
+    m_Address: Assets/Lua/UI/Reward/PnlReward.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 344f55e081263a44287513dab0b8a528
+    m_Address: Assets/Lua/UI/HyList/PnlHyList.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: e6fa0e923569e9045ae202e3cdd82342
+    m_Address: Assets/Lua/UI/HyList/PnlHyListView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: f8bfdb45e8408154d9a8771310438aaf
+    m_Address: Assets/Lua/UI/Map/PnlGvgResultView.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  - m_GUID: 9ec40985b388f2b4fa3607c54c632e51
+    m_Address: Assets/Lua/UI/Map/PnlGvgResult.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LuaScript
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 32500e5d79b39f1429f1798de0835b15, type: 2}
+    - {fileID: 11400000, guid: 061736a4cc1f50a48a8628ae46b61ff8, type: 2}

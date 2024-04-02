@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_lnosculans
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_lnosculans
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5dfabd84e30a29d43a3114c840f4b063
+  m_SerializeEntries:
+  - m_GUID: e8695581dff380e4d9cf9a7ef72ff9d0
+    m_Address: Assets/GameRes/Effect/Eff_lnosculans/Eff_lnosculans.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d3d37028bab9b24ab3d933f69a28cf6
+    m_Address: Assets/GameRes/Effect/Eff_lnosculans/Eff_lnosculans.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 432f3e638c25f814ea6df39ac9c40756
+    m_Address: Assets/GameRes/Effect/Eff_lnosculans/Eff_lnosculans.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c7b08ae31040e60448463bd5744f068b
+    m_Address: Assets/GameRes/Effect/Eff_lnosculans/Eff_lnosculans_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da9decdac96ce0049b65d8ab7b57676b
+    m_Address: Assets/GameRes/Effect/Eff_lnosculans/Eff_lnosculans_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b7199ebb6c4e13e46a1337450b312280
+    m_Address: Assets/GameRes/Effect/Eff_lnosculans/Eff_lnosculans_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3863eaba5b005044fac32942fc32da0d, type: 2}
+    - {fileID: 11400000, guid: 8340fe5b2c091034881832d2d727f569, type: 2}

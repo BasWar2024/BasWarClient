@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-ResPlanet
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-ResPlanet
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e1e2269eaec5d2242ae5c3f9398e6f93
+  m_SerializeEntries:
+  - m_GUID: 6f2d9ebc07c760a48866f3b922ee83ad
+    m_Address: Alpha
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e31f2b32bf7f2044bb55e7953a8e8da6
+    m_Address: Chaos
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d57b083b40f66b147b7bb3897e6a9cb7
+    m_Address: Primary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4e980f6558450fd4197b1bdfcb98151b
+    m_Address: ResPlanet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0faeb7b91c99f96428e9e09606dfeb9b
+    m_Address: Stellar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da170d42b323b544794b434dd7b228e9
+    m_Address: Taurus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ed8bd92ad5e25a8489dfc10b298f7607, type: 2}
+    - {fileID: 11400000, guid: f6f06d11ecc89ea42b2763c7448bad17, type: 2}

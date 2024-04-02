@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-UnionArmy
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-UnionArmy
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1ab6cef571430264bb70bb90615aface
+  m_SerializeEntries:
+  - m_GUID: d750aa110c62967489fd72813511ec17
+    m_Address: Assets/GameRes/UI/UnionArmy/delect_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e15a7d23da35d0478a4e0cde4213f5c
+    m_Address: Assets/GameRes/UI/UnionArmy/bule bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b475bfe326977d7429461a1a263af358
+    m_Address: Assets/GameRes/UI/UnionArmy/numbering_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5f744505bf293c145ab959f4d6bd55de
+    m_Address: Assets/GameRes/UI/UnionArmy/ship troop bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1174b905a30dc324584ab6f617f06fac
+    m_Address: Assets/GameRes/UI/UnionArmy/team_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 94e4b9b598761f74f999a1a7b7467dc4
+    m_Address: Assets/GameRes/UI/UnionArmy/quantitybar 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3ec4a76c4a6c384c995db0cdddeb486
+    m_Address: Assets/GameRes/UI/UnionArmy/The arrow_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40ada4c6823b5ea4cb7ac5f866ec1934
+    m_Address: Assets/GameRes/UI/UnionArmy/increase_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04f32ff6e70c01548b8568a38f63f0b6
+    m_Address: Assets/GameRes/UI/UnionArmy/quantitybar 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c67c6727a649b3743ac4bc71ec301473
+    m_Address: Assets/GameRes/UI/UnionArmy/btn_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e576d2b779cb2c84a860b4d9eface488
+    m_Address: Assets/GameRes/UI/UnionArmy/ship troop_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6719db776defc343a1800c55f96c9f6
+    m_Address: Assets/GameRes/UI/UnionArmy/attack_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 48d12ba94cbd712429c0bc44079af322
+    m_Address: Assets/GameRes/UI/UnionArmy/big bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de7345bae8aa0aa48b5a675068091d47
+    m_Address: Assets/GameRes/UI/UnionArmy/quantitybar 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a72d4acacc98b1045bf9162ee812c769
+    m_Address: Assets/GameRes/UI/UnionArmy/add new_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 07f4924b000ccf2469d39dd83570efeb
+    m_Address: Assets/GameRes/UI/UnionArmy/orange_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 223baaec75875214a900b4b2c2e52faa
+    m_Address: Assets/GameRes/UI/UnionArmy/blue people_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a8bbd03d43284df4f8c6a4d5d673aac3
+    m_Address: Assets/GameRes/UI/UnionArmy/fast_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 19c685cd5d270724592452c02aa5f025
+    m_Address: Assets/GameRes/UI/UnionArmy/reproduction_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 713b2afd23c9c1b4e83a1ea1388cd7a9
+    m_Address: Assets/GameRes/UI/UnionArmy/title_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71c7b18ebb8e7e74c9b390407a5653df
+    m_Address: Assets/GameRes/UI/UnionArmy/apply_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4cb1a37f1092bdb44b6a2fc70f10f067
+    m_Address: Assets/GameRes/UI/UnionArmy/attack bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59e20dcf17c90d343abc192920521f1c
+    m_Address: Assets/GameRes/UI/UnionArmy/contribution_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0f6f85f463220f54a89552f4138a752f, type: 2}
+    - {fileID: 11400000, guid: fac067534f842224ea1f30210dd9ff7c, type: 2}

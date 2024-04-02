@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Terrain-Terrain_Mechanics-Material
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Terrain-Terrain_Mechanics-Material
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 68a701f7ffd98bb4794e36ba0307583c
+  m_SerializeEntries:
+  - m_GUID: 676c804a9a967b147bac47af9e9f571b
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Material/uv2_BaseColor_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 356fc2ea45059e54185067258ada5b19
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Material/UV3_Terrain_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04085abb6a32919438d80e8d485507b7
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Material/uv1_BaseColor_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de35ba2ced287994db2a937ad7e90b5d
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Material/uv5_Diffuse_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7de352d910d73b4680ee47e4f9de67d
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/Material/Eff_mechanics.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ebca3bee7305def48969cac88c3c602b, type: 2}
+    - {fileID: 11400000, guid: 353f8064e83a5a942873e1efbaf5784e, type: 2}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-BuildingOther2D
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-BuildingOther2D
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 171bcf2ffb157dc47a419ca3b732e183
+  m_SerializeEntries:
+  - m_GUID: e4abf5b334587a54e9b92db2be2094f7
+    m_Address: TabletopCom1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-BuildingOther2D-TabletopCom1
+  - m_GUID: 83eee8f9a33f05046ab68f33b500574b
+    m_Address: TabletopCom2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-BuildingOther2D-TabletopCom1
+  - m_GUID: 939e7a4309b134e419a1ca9a894f43d5
+    m_Address: TabletopCom4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-BuildingOther2D-TabletopCom1
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ba250d32e6675b64badf7babb6c0895c, type: 2}
+    - {fileID: 11400000, guid: 2f3fac0cb5886744abf3602298682417, type: 2}

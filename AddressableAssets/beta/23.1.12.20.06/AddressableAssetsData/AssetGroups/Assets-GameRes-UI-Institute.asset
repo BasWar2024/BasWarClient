@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Institute
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Institute
+  m_Data:
+    m_SerializedData: []
+  m_GUID: efdd86d1ddd78b24baa799faafdf0c0a
+  m_SerializeEntries:
+  - m_GUID: 51444340241d83346b04bf89c3f2fc3b
+    m_Address: Assets/GameRes/UI/Institute/quality_star_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c7f34bc00ac649443ad87be404a97b7d
+    m_Address: Assets/GameRes/UI/Institute/quality_star_5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d10f9dd0c7246254c8213bfab393774e
+    m_Address: Assets/GameRes/UI/Institute/Picture frame_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c1fe201c7e6775438b469f7933926df
+    m_Address: Assets/GameRes/UI/Institute/The arrow_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be416231bf985504b915489c2af07ef7
+    m_Address: Assets/GameRes/UI/Institute/quality_star_3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a0ef081146fc024d810db9680ee5c45
+    m_Address: Assets/GameRes/UI/Institute/quality_star_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb280a4336c109a448d3de228594b9d9
+    m_Address: Assets/GameRes/UI/Institute/Ascension_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34b099590b30dc3488d1b4987fa2e5dd
+    m_Address: Assets/GameRes/UI/Institute/The arrow_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5fad98a6a274b24b8e687a0bb8cb286
+    m_Address: Assets/GameRes/UI/Institute/Horizontal line_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d06820b292015741aa501290da4b221
+    m_Address: Assets/GameRes/UI/Institute/quality_star_4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 58fdcc8b483bc10498b5809adddaf0a4
+    m_Address: Assets/GameRes/UI/Institute/The arrow_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97d6429beae2f374bb2c4c950722f08f
+    m_Address: Assets/GameRes/UI/Institute/Ascension_icon_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 14ad4d0f839d6ab49885427ace5987e3, type: 2}
+    - {fileID: 11400000, guid: 1c75cdde16c930842b367c1667efedde, type: 2}

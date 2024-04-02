@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Setting
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Setting
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a47a1fc3e6a7514448586f49f576d448
+  m_SerializeEntries:
+  - m_GUID: ceb6806037172b346983560008c91670
+    m_Address: Assets/GameRes/UI/Setting/q.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 019427d091c1c0b4c8d32151f0f84652
+    m_Address: Assets/GameRes/UI/Setting/Invite_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b337f7010a5a51648b85fcfbe591a1e0
+    m_Address: Assets/GameRes/UI/Setting/DAPP_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cfd31bc31f2749d408e56c707d6c8079
+    m_Address: Assets/GameRes/UI/Setting/Wallet_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f357f004c066e2940a30e08c01bf1845
+    m_Address: Assets/GameRes/UI/Setting/Language_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 028c3066942ae324fa7e359a52b2e58d
+    m_Address: Assets/GameRes/UI/Setting/Service_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 927b75b8f06c4404bbc064c1e9addc81
+    m_Address: Assets/GameRes/UI/Setting/Set up_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a69ffdb5975eec4b9ca6369006bac10
+    m_Address: Assets/GameRes/UI/Setting/ON off_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 09374e5ca08bdaa42812de1137a08397
+    m_Address: Assets/GameRes/UI/Setting/Staff_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9da861fcd506bad47b347e4df2c119e8
+    m_Address: Assets/GameRes/UI/Setting/cdkey_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78c6ff0d7fd3fd448831b9fb8250ba20
+    m_Address: Assets/GameRes/UI/Setting/Help_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 26549bdd049253d498d6bb62b6367e3a
+    m_Address: Assets/GameRes/UI/Setting/Copy_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 76458aed2c767c441a2fb848ea5b6844
+    m_Address: Assets/GameRes/UI/Setting/Quite_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a6c9fcf3625b2e41857f61bcc28c70c
+    m_Address: Assets/GameRes/UI/Setting/Bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa7ea6df59ad78c42b8470f8904afd9d
+    m_Address: Assets/GameRes/UI/Setting/Music_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 64b1c110abf4dff4f80abeaa9258e80e, type: 2}
+    - {fileID: 11400000, guid: bba9ff59405b3a845bc3f26927d4b5c9, type: 2}

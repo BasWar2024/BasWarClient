@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Common
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Common
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c4f69ae303690c644ba2ff793d04df40
+  m_SerializeEntries:
+  - m_GUID: e80140924fe0c61418808115a28914ca
+    m_Address: Assets/GameRes/UI/Icon/Common/Complete_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9b91d6a8e5386ba42b13625882205665
+    m_Address: Assets/GameRes/UI/Icon/Common/Uncomplete_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8ccfbc50dee633d449906ee08e3ba996, type: 2}
+    - {fileID: 11400000, guid: cef2f4c438bca7f45a28c6b600eb06fe, type: 2}

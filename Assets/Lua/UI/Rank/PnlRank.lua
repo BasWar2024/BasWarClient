@@ -2,34 +2,52 @@
 PnlRank = class("PnlRank", ggclass.UIBase)
 
 function PnlRank:ctor(args, onload)
-    ggclass.UIBase.ctor(self, args, onload)
+    ggclass.UIBase.ctor(self, args, onload, true)
     self.layer = UILayer.normal
-    self.events = { }
-    self.test = "test"
-    self.rankItemList = {}
+    self.events = {"onRankChange" }
+    self.needBlurBG = true
+    self.showViewAudio = constant.AUDIO_WINDOW_OPEN
 end
 
 function PnlRank:onAwake()
-    self.view = ggclass.PnlRankView.new(self.transform)
+    self.view = ggclass.PnlRankView.new(self.pnlTransform)
+
+    self.rankItemList = {}
+    self.loopScrollView = UILoopScrollView.new(self.view.loopScrollView, self.rankItemList)
+    self.loopScrollView:setRenderHandler(gg.bind(self.onRenderItem, self))
+
+    self.view.leftBtnViewBgBtnsBox:setBtnDataList({
+        {
+            name = "MEDAL LIST", 
+            callback = gg.bind(self.showType, self, constant.RANK_TYPE_BADGE), 
+            icon = "Rank_Atlas[Medal list_icon_A]",
+            iconSelect = "Rank_Atlas[Medal list_icon_B]",
+        },
+        {
+            name = "TRADING LIST", 
+            callback = gg.bind(self.showType, self, constant.RANK_TYPE_COST_MIT), 
+            icon = "Rank_Atlas[List of trading_icon_A]",
+            iconSelect = "Rank_Atlas[List of trading_icon_B]",
+        },
+        {
+            name = "GUILD LIST", 
+            callback = gg.bind(self.showType, self, constant.RANK_TYPE_PLANET), 
+            icon = "Rank_Atlas[The association list_icon_A]",
+            iconSelect = "Rank_Atlas[The association list_icon_B]",
+        },
+    })
+    self.rankItem = RankItem.new(self.view.rankItem)
 end
 
 function PnlRank:onShow()
     self:bindEvent()
-    self:onBtnTop(1)
+    --self:showType(1)
 
-    --self.view.transform:DOScale(Vector3(5, 5, 0), 2);
-    -- self:onBtnServer(1)
-    -- self.listView = UIList.new(self.view.listView, "UIListItem", true)
-    -- self.listView:ResetItemDatas()
-    -- self.listView:RefreshData({{},{},{},{},{},{},{},{},{},{},{}})
+    self.view.leftBtnViewBgBtnsBox:onBtn(1)
 end
 
 function PnlRank:onHide()
     self:releaseEvent()
-    for key, value in pairs(self.rankItemList) do
-        value:release()
-    end
-    --self.view.scrollView:release()
 end
 
 function PnlRank:bindEvent()
@@ -38,20 +56,17 @@ function PnlRank:bindEvent()
     CS.UIEventHandler.Get(view.btnClose):SetOnClick(function()
         self:onBtnClose()
     end)
-
-    for i = 1, #view.topBtnList do
-        self:setOnClick(view.topBtnList[i].gameObject, gg.bind(self.onBtnTop, self, i))
-    end
-
-    --view.scrollView:setRenderHandler(gg.bind(self.onRenderItem, self))
-
-    self.view.loopScrollView:setRenderHandler(gg.bind(self.onRenderItem, self))
+    self:setOnClick(view.btnFetch, gg.bind(self.onBtnFetch, self))
 end
 
 function PnlRank:onRenderItem(obj, index)
-    local item = RankItem:getItem(obj, self.view.rankItemList, self)
-    item:setData(index)
+    local item = RankItem:getItem(obj, self.rankItemList, self)
+    item:setData(self.dataList[index], self.selectType)
 end
+
+-- function PnlRank:onRenderItemSize(dataIndex)
+--     return CS.UnityEngine.Vector2(880, dataIndex * 10)-- 500 --dataIndex * 10
+-- end
 
 function PnlRank:releaseEvent()
     local view = self.view
@@ -60,43 +75,51 @@ end
 
 function PnlRank:onDestroy()
     local view = self.view
-    self.view.loopScrollView:release()
+    self.loopScrollView:release()
+    self.view.leftBtnViewBgBtnsBox:release()
+    self.rankItem:release()
 end
 
 function PnlRank:onBtnClose()
     self:close()
 end
 
-function PnlRank:onBtnTop(index)
-    --print(index)
-    if self.selectType == index then
+function PnlRank:showType(rankType)
+    if self.selectType == rankType then
         return
     end
-    self.selectType = index
+    self.selectType = rankType
     local view = self.view
-    for i = 1, #view.topBtnList do
-        if index == i then
-            ResMgr:LoadSpriteAsync("tap_button_A", function(sprite)
-                view.topBtnList[i].image.sprite = sprite
-            end)
-            ResMgr:LoadSpriteAsync(string.format("RankTopIcon%d_2", i), function(sprite)
-                view.topBtnList[i].imgIcon.sprite = sprite
-                view.topBtnList[i].imgIcon.transform.sizeDelta = CS.UnityEngine.Vector2(45, 45)
-            end)
+    self:onRankChange(nil, rankType)
+    RankData.C2S_Player_Rank_Info(rankType)
+
+    view.layouPersonalTitle:SetActiveEx(false)
+    view.layotDaoTitle:SetActiveEx(false)
+    if rankType == constant.RANK_TYPE_BADGE or rankType == constant.RANK_TYPE_COST_MIT then
+        view.layouPersonalTitle:SetActiveEx(true)
+    else
+        view.layotDaoTitle:SetActiveEx(true)
+    end
+end
+
+function PnlRank:onRankChange(event, rankType, version)
+    local view = self.view
+    if rankType == self.selectType then
+        if RankData.rankMap[self.selectType] then
+            self.dataList = RankData.rankMap[self.selectType].dataList
+            self.loopScrollView:setDataCount(#self.dataList)
+            --self.loopScrollView:
+            self.loopScrollView.component:Jump2DataIndex(1)
         else
-            ResMgr:LoadSpriteAsync("tap_button_B", function(sprite)
-                view.topBtnList[i].image.sprite = sprite
-            end)
-            ResMgr:LoadSpriteAsync(string.format("RankTopIcon%d_1", i), function(sprite)
-                view.topBtnList[i].imgIcon.sprite = sprite
-                view.topBtnList[i].imgIcon.transform.sizeDelta = CS.UnityEngine.Vector2(30, 30)
-            end)
+            self.dataList = {}
+            self.loopScrollView:setDataCount(0)
         end
     end
+end
 
-    --self.view.scrollView:setItemCount(index)
-
-    self.view.loopScrollView:setDataCount(50)
+function PnlRank:onBtnFetch()
+    -- self.view.loopScrollView.component:Scroll2DataIndex(self.view.loopScrollView.component.dataCount, 100)
+    --self.view.loopScrollView.component:Jump2DataIndex(self.view.loopScrollView.component.dataCount, 1)
 end
 
 return PnlRank

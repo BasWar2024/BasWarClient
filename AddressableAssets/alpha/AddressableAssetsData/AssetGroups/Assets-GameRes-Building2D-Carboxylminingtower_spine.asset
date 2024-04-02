@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Building2D-Carboxylminingtower_spine
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Building2D-Carboxylminingtower_spine
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ebd82dca6c76c1145a6a0adee3f3e2f2
+  m_SerializeEntries:
+  - m_GUID: 8eede7302bc9b2642a0267dd22501dfb
+    m_Address: Assets/GameRes/Building2D/Carboxylminingtower_spine/Carboxylminingtower_spine_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fbd95a24d6e408b438e131c5f66ebb1c
+    m_Address: Assets/GameRes/Building2D/Carboxylminingtower_spine/Carboxylminingtower_spine_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 922b6f16f0184b54986ca4477279ddf4
+    m_Address: Assets/GameRes/Building2D/Carboxylminingtower_spine/Carboxylminingtower_spine.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f013d88b97039b4ba2e2f33a1ff90bd
+    m_Address: Assets/GameRes/Building2D/Carboxylminingtower_spine/Carboxylminingtower_spine.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 267e2559d4577ba4dac7aec0bdcf6543
+    m_Address: Assets/GameRes/Building2D/Carboxylminingtower_spine/Carboxylminingtower_spine_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08c4134c8dd8b0642904276f84c1aa61
+    m_Address: Assets/GameRes/Building2D/Carboxylminingtower_spine/Carboxylminingtower_spine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 019b8c6245e1ccf4fa1001771157c757, type: 2}
+    - {fileID: 11400000, guid: 74ceaf9ffe69c5a4781ee48c4f176ddd, type: 2}

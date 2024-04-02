@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Skill_A1
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Skill_A1
+  m_Data:
+    m_SerializedData: []
+  m_GUID: efeabb3fa0d5afa4cbc905b7d4afc4f0
+  m_SerializeEntries:
+  - m_GUID: 413f01b398b4f6a44a56adbd5a000a62
+    m_Address: Assets/GameRes/UI/Icon/Skill_A1/Icon_Centra_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 63831bc712aeb5547b9b133694b6f3f7
+    m_Address: Assets/GameRes/UI/Icon/Skill_A1/Icon_Centra_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 215130c69e3bc6449a2decb217f0d186, type: 2}
+    - {fileID: 11400000, guid: 5a55cf8189052db4f9f574c9a1bd35c0, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_Laser-Materials
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_Laser-Materials
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 96fc822e0be6a2644a8c1e2f8ac77ade
+  m_SerializeEntries:
+  - m_GUID: ac5606eae17a3394691bbbc8ee49e409
+    m_Address: Assets/GameRes/Bullet/Bullet_Laser/Materials/lightning_gun_flare.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 964b9db4ed3127f4ab0e461ec6f4b27d, type: 2}
+    - {fileID: 11400000, guid: b6cfae38257e27c4a85554755e283666, type: 2}

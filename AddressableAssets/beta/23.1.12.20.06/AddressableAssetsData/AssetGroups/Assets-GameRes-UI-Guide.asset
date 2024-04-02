@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Guide
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Guide
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9be50db13b071ca4fb09510411e14786
+  m_SerializeEntries:
+  - m_GUID: 774af7908bed5a34ba740004ee218f1d
+    m_Address: Assets/GameRes/UI/Guide/Guide bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c305881634e46b42a0b8e95b52052ab
+    m_Address: Assets/GameRes/UI/Guide/Guide arrow_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b58b8745a082f3e4baabaf62a2e221a7
+    m_Address: Assets/GameRes/UI/Guide/skip 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c29825573f23554c91c422a97baad04
+    m_Address: Assets/GameRes/UI/Guide/text_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a823a8a753bd2044589ac69890b7a1fa
+    m_Address: Assets/GameRes/UI/Guide/ship 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65e83ee998a3b704d88e9a2f55e46b2f
+    m_Address: Assets/GameRes/UI/Guide/Dialogue_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0e8f450b66957064aad53c95d836d364, type: 2}
+    - {fileID: 11400000, guid: 33a65d0f58b2dcb4db570937d078e28f, type: 2}

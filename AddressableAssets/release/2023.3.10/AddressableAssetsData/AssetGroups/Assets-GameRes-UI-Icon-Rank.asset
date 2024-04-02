@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Rank
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Rank
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 288721f1655fd2b4f8c5306e74fc2508
+  m_SerializeEntries:
+  - m_GUID: 91ceac6a718a7804693be200f3ff7c45
+    m_Address: Assets/GameRes/UI/Icon/Rank/same_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5c2eb2d71254654a9500b451fb5310f
+    m_Address: Assets/GameRes/UI/Icon/Rank/Rank_Icon_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ae63d2d75784fe43854c21525365032
+    m_Address: Assets/GameRes/UI/Icon/Rank/baseboard_icon_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0fb63d2ecf986b341afef94c19f10476
+    m_Address: Assets/GameRes/UI/Icon/Rank/RankItem_Bg_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb21b17f8a7988e42bc789229a523149
+    m_Address: Assets/GameRes/UI/Icon/Rank/down_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a31938d633b78f545b4f9908682e663d, type: 2}
+    - {fileID: 11400000, guid: f38701df1aece2c4da9aab4520c6bcab, type: 2}

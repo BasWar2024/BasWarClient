@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-APreload
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-APreload
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b5049908a8f28404b87faa712ffd5894
+  m_SerializeEntries:
+  - m_GUID: 3e0b7653e78df814c88ddc82317e7d3f
+    m_Address: ActiveObject
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b95ae9f4e6e78e4ca688c7a2e00bf50
+    m_Address: language
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 182ba69caa5727747a1f0087e1f7e248
+    m_Address: PnlCanvas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b1925cb9430aa444a518f2116560b2d
+    m_Address: douyuFont
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3820aa7123738f940839417ec59be742
+    m_Address: NotoSans-Regular
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0e50fe8d488f96e45bed9e8bb81b4661
+    m_Address: Patron - PersonalUse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a5f362d5a49cd248b1d3fa4d53e108b
+    m_Address: PURISTA MEDIUM
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90330a03cb3d8434ca974f179ff2faa4
+    m_Address: PURISTA SEMIBOLD ITALIC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ca8a5099927e2b94c9a07ccb9d326a43
+    m_Address: PURISTA SEMIBOLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c7c508f22bf9f5f4cb20790d4b3999cc
+    m_Address: bigwhite
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aabf96915868ccf4dbaf32e317f46cfd
+    m_Address: bigwhiteFont
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 905692e629ea3964c85311e26e85e0b6
+    m_Address: bigwhiteFont
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 64a7b4fb920831045a6bdb7a7f0373a9
+    m_Address: bigwhite_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 238cc125433bff143ab4ff1640da6752
+    m_Address: season
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e019748db95d4e847813420709fc326f
+    m_Address: seasonFont
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f643ce5ca78b81041bc18434a1597bb3
+    m_Address: seasonFont
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cbdc018da44b5ee449d00cf3179b1e55
+    m_Address: season_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 935feab9689ef614d941a78ae0858bdc
+    m_Address: small
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4cd3eddb37bcd8d46859f6a8ae311091
+    m_Address: smallFont_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dde1c5d91d51b1a45b561c96dd88443e
+    m_Address: smallFont_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 971ca41bccda36843a02d37313e0def5
+    m_Address: smallFont_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb0f869b991b5c841878b83d688b8537
+    m_Address: smallFont_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6dd963a6626cd7c478ec3e0b524ae2f9
+    m_Address: small_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a97eb6ab1230b0549b0b1893b6df2491
+    m_Address: small_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65f367297dc90a444949ac685cbc7760
+    m_Address: upgrade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e76350c3c538c4446a5e1f6dd4362159
+    m_Address: upgradeFont
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9dc70dac9254d3048a91bc8c4cdd8d81
+    m_Address: upgradeFont
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d4b0bd86bd2b9b4eb528a2950b0c2a7
+    m_Address: upgrade_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ba0c16123595fe4f94dd197cccba897
+    m_Address: vip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 12536893d63fd7d43a0a19fa56d2079f
+    m_Address: vipFont
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc60f83f4f814e94a87a6ba9ca32ca7e
+    m_Address: vipFont
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 291171a67a45a2349abecd559bbe0711
+    m_Address: vip_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c5bf760e3721b8348b0706f209b8f40b, type: 2}
+    - {fileID: 11400000, guid: 56d9ce78fd94337419a6480416467778, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Terrain-Terrain_Mechanics-ani
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Terrain-Terrain_Mechanics-ani
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d533e289cab22f541abdbfa23562017e
+  m_SerializeEntries:
+  - m_GUID: 48b32e48ff51b7a43a9db5527ba51725
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/ani/Terrain_Mechanics.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c3fec5d12605cf40b21a76892ac7598
+    m_Address: Assets/GameRes/Terrain/Terrain_Mechanics/ani/UV1_R_D.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3fc8c09d66aec7947a3841587cc3b602, type: 2}
+    - {fileID: 11400000, guid: ad4460a0b92fe0e44aaf64fdd868ced4, type: 2}

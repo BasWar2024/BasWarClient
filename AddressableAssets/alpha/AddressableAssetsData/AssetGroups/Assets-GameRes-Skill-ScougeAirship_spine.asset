@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Skill-ScougeAirship_spine
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Skill-ScougeAirship_spine
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ebb013f0974814a48914311ccc971750
+  m_SerializeEntries:
+  - m_GUID: ab563c0472a1b3342b228ea9f938daad
+    m_Address: Assets/GameRes/Skill/ScougeAirship_spine/ScougeAirship_spine_Material-Screen.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0d51935b80f94a4a8bd009c7d011025
+    m_Address: Assets/GameRes/Skill/ScougeAirship_spine/ScougeAirship_spine_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9141c5c5a0a2a4e488e56bfeba079905
+    m_Address: Assets/GameRes/Skill/ScougeAirship_spine/ScougeAirship_spine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e960a80855018124891f823f9edec2ea
+    m_Address: Assets/GameRes/Skill/ScougeAirship_spine/ScougeAirship_spine_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78bd370b8aa13be4985063751d915acb
+    m_Address: Assets/GameRes/Skill/ScougeAirship_spine/ScougeAirship_spine_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb52805b6b939ee478abea3e97b2ec0a
+    m_Address: Assets/GameRes/Skill/ScougeAirship_spine/ScougeAirship_spine.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6382138be0915994c8858435c0023404
+    m_Address: Assets/GameRes/Skill/ScougeAirship_spine/ScougeAirship_spine.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 79490bedc5e677d46b3de96b613518eb, type: 2}
+    - {fileID: 11400000, guid: cb01e9d174e9aae4186773f13e4b40f8, type: 2}

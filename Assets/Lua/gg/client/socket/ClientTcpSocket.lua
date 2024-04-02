@@ -39,14 +39,15 @@ function ClientTcpSocket:onTick(dt)
     for _,msg in ipairs(messages) do
         self:onMessage(msg)
     end
+    self:doOnClose()
 end
 
---- 
+--- ""
 function ClientTcpSocket:isConnected()
     return self.socket ~= nil and self.socket.Connected
 end
 
---- 
+--- ""
 function ClientTcpSocket:connect(onConnect,onConnectFail)
     if self:isConnected() then
         return
@@ -56,7 +57,7 @@ function ClientTcpSocket:connect(onConnect,onConnectFail)
     self.socket:Connect(self.ip,self.port)
 end
 
---- 
+--- ""
 function ClientTcpSocket:close()
     if not self:isConnected() then
         return
@@ -64,18 +65,18 @@ function ClientTcpSocket:close()
     self.socket:Close()
 end
 
---- 
---@param[type=string] cmd /
---@param[type=table] args 
---@param[type=bool,opt] response true=,false=,false
---@param[type=int,opt] session ,ID,0
+--- ""
+--@param[type=string] cmd ""/""
+--@param[type=table] args ""
+--@param[type=bool,opt] response true="",false="",""false
+--@param[type=int,opt] session "",""ID,""0
 function ClientTcpSocket:send(cmd,args,response,session)
     if not self:isConnected() then
         return
     end
 
     if cmd ~= "C2S_Ping" then
-        print("sendTcp: ", gg.table2Str(args, cmd))
+        print("sendTcp: " , gg.table2Str(args, cmd))
     end
 
     response = response == true
@@ -91,7 +92,7 @@ function ClientTcpSocket:send(cmd,args,response,session)
             if type(cmd) == "number" then
                 return cmd ~ encryptKey
             else
-                -- jsoncmdstring
+                -- json""cmd""string""
                 return crypt.xor_str(cmd,encryptKey)
             end
         end)
@@ -122,10 +123,10 @@ function ClientTcpSocket:packUserData()
     return nil
 end
 
---- 
---@param[type=string] cmd /
---@param[type=table] args 
---@param[type=function,opt] onResponse ,,RPC
+--- ""
+--@param[type=string] cmd ""/""
+--@param[type=table] args ""
+--@param[type=function,opt] onResponse "","",""RPC""
 function ClientTcpSocket:sendRequest(cmd,args,onResponse)
     local session = 0
     if onResponse ~= nil then
@@ -135,15 +136,15 @@ function ClientTcpSocket:sendRequest(cmd,args,onResponse)
     self:send(cmd,args,false,session)
 end
 
---- 
---@param[type=string] cmd /
---@param[type=table] args 
---@param[type=int] session ID,
+--- ""
+--@param[type=string] cmd ""/""
+--@param[type=table] args ""
+--@param[type=int] session ""ID,""
 function ClientTcpSocket:sendResponse(cmd,args,session)
     self:send(cmd,args,true,session)
 end
 
--- 
+-- ""
 function ClientTcpSocket:onConnect()
     logger.logf("info", "op=onConnect,ip=%s,port=%s,id=%s",self.ip,self.port,self.id)
     if not self.handShake.result then
@@ -152,7 +153,7 @@ function ClientTcpSocket:onConnect()
     self:onHandShake(self.handShake.result)
 end
 
--- 
+-- ""
 function ClientTcpSocket:onConnectFail()
     logger.logf("info", "op=onConnectFail,ip=%s,port=%s,id=%s",self.ip,self.port,self.id)
     self.hasOnConnectFail = true
@@ -196,11 +197,26 @@ function ClientTcpSocket:doOnConnect()
     end
 end
 
---- 
+--- ""
 function ClientTcpSocket:onClose()
     logger.logf("info", "op=onClose,ip=%s,port=%s,id=%s",self.ip,self.port,self.id)
+    self.hasOnClose = true
+    --[[
     if self._onClose then
         self:_onClose()
+    end
+    ]]
+end
+
+function ClientTcpSocket:doOnClose()
+    if not self.hasOnClose then
+        return
+    end
+    self.hasOnClose = nil
+    local onClose = self._onClose
+    self._onClose = nil
+    if onClose then
+        onClose()
     end
 end
 
@@ -224,7 +240,7 @@ function ClientTcpSocket:onMessage(msg)
             if type(cmd) == "number" then
                 return cmd ~ encryptKey
             else
-                -- jsoncmdstring
+                -- json""cmd""string""
                 return crypt.xor_str(cmd,encryptKey)
             end
         end)
@@ -236,7 +252,7 @@ function ClientTcpSocket:onMessage(msg)
     end
 
     if cmd ~= "S2C_Pong" then 
-        print("onMessageTcp: " , gg.table2Str(args, cmd))
+        print("onMessageTcp: ", gg.table2Str(args, cmd))
     end
 
     xpcall(self.dispatch,gg.onerror,cmd,args,response,session,ud)

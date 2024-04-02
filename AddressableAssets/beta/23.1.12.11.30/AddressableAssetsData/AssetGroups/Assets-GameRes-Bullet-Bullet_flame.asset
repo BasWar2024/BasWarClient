@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_flame
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_flame
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0242e62c74feabc4e8f44fe4192b5fac
+  m_SerializeEntries:
+  - m_GUID: c7693dd4606a8a44198015ed2fa7d992
+    m_Address: Assets/GameRes/Bullet/Bullet_flame/Bullet_flame_m 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce425abb312a4a24f9b71f006533ad66
+    m_Address: Assets/GameRes/Bullet/Bullet_flame/Bullet_flame_b.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a588880e954570141966095aafe6ad21
+    m_Address: Assets/GameRes/Bullet/Bullet_flame/Bullet_flame01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22985399ffd02da449c569c50899d548
+    m_Address: Assets/GameRes/Bullet/Bullet_flame/Bullet_flame.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 25acc05dc67d7d0498c98d19b40e0760, type: 2}
+    - {fileID: 11400000, guid: 37faab719a9550346ae4eea68974922a, type: 2}

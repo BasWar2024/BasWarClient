@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-HeroHut
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-HeroHut
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 17fc03d9e60f02a45b2f51abd7ae3072
+  m_SerializeEntries:
+  - m_GUID: cea7c774be1f98244bfb6e648c49c36e
+    m_Address: Assets/GameRes/UI/HeroHut/Back_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cef9eb96b2d9b5d46adac06d51fef9cc
+    m_Address: Assets/GameRes/UI/HeroHut/Sure_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cf095c07fb9d2354b8fe9748bfde5352
+    m_Address: Assets/GameRes/UI/HeroHut/Bottom_iocn.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f29ba9985c0fc4b4d9a7910b676b11a5
+    m_Address: Assets/GameRes/UI/HeroHut/Information_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44f79579d89ccd748b127ff6615b5f86
+    m_Address: Assets/GameRes/UI/HeroHut/Selected_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45daf35c3878bc3459368a8afee76712
+    m_Address: Assets/GameRes/UI/HeroHut/Selection box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5eed039ef75899a4ebc3f02fdfd7af06
+    m_Address: Assets/GameRes/UI/HeroHut/MIT box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 03a502dedfde7464fa791e36816dfae7
+    m_Address: Assets/GameRes/UI/HeroHut/Icon bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5ca0b6c4541efb74eb77cee93e334d3f, type: 2}
+    - {fileID: 11400000, guid: cb06a035f05490441888032595951914, type: 2}

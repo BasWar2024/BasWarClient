@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_AntiAircraftMissile
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_AntiAircraftMissile
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f101d898280c5414c9f61867fd0a3b67
+  m_SerializeEntries:
+  - m_GUID: ca993e99af02f8c4e9c2cb58a1844c97
+    m_Address: Assets/GameRes/Bullet/Bullet_AntiAircraftMissile/Bullet_AntiAircraftMissilehuo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a8391abc5d28374aad7b586c1506632
+    m_Address: Assets/GameRes/Bullet/Bullet_AntiAircraftMissile/Bullet_AntiAircraftMissilehuo.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cbc180acf765a994da389ee2fdcd3c3c
+    m_Address: Assets/GameRes/Bullet/Bullet_AntiAircraftMissile/Bullet_AntiAircraftMissileyanwu.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 270fea2e5c780b04ab7e57b91b977944
+    m_Address: Assets/GameRes/Bullet/Bullet_AntiAircraftMissile/Bullet_AntiAircraftMissileyanwu.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c9d1c6426db5a34298baafc65b0018f
+    m_Address: Assets/GameRes/Bullet/Bullet_AntiAircraftMissile/Bullet_AntiAircraftMissile.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c8b4891a97ba3e046b06a48886966680
+    m_Address: Assets/GameRes/Bullet/Bullet_AntiAircraftMissile/FKdaodanpao_02_Diffuse.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4853fe2e21659b040ba5a8950f62401b
+    m_Address: Assets/GameRes/Bullet/Bullet_AntiAircraftMissile/Bullet_AntiAircraftMissile.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 375b347bec42c704c80559cde76e74f6, type: 2}
+    - {fileID: 11400000, guid: 767c2cbbb41176f40bb5585ffa0ea204, type: 2}

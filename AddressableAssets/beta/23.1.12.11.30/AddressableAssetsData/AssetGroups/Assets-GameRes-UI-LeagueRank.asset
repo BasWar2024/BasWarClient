@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-LeagueRank
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-LeagueRank
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 781efb5399a24ec41bc14f0156816712
+  m_SerializeEntries:
+  - m_GUID: 6f9dd6f0d33e5d2438d2d381f63b95af
+    m_Address: Assets/GameRes/UI/LeagueRank/bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08594e47556a74c4abd501194af0baa1
+    m_Address: Assets/GameRes/UI/LeagueRank/Windows_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 440cfae76764fd74a9a5684370644b87
+    m_Address: Assets/GameRes/UI/LeagueRank/the gradient_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0241f5d8b469bc347a1d231338dbf4ec
+    m_Address: Assets/GameRes/UI/LeagueRank/triangle_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a38b0aafca513040abfebfdb0a180b5
+    m_Address: Assets/GameRes/UI/LeagueRank/Infoamation_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c328b9f5dafb12d41aa84fb6c7323586, type: 2}
+    - {fileID: 11400000, guid: 0fd06f6384e98ae4eb8f198ad0a21b3c, type: 2}

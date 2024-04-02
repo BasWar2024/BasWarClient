@@ -15,7 +15,7 @@ function UIListItem:onSelected(selected)
 
 end
 
--- gameObejct
+-- ""gameObejct""
 function UIListItem:reset()
 
 end
@@ -29,7 +29,7 @@ end
 -- UIList
 UIList = class("UIList")
 
--- componentDynamicList
+-- component""DynamicList""
 function UIList:ctor(component, uiItem, usePool)
     self.items = {}
     self.component = nil
@@ -69,7 +69,7 @@ end
 
 function UIList:initComponent(component, usePool)
     self.component = component
-    -- 
+    -- ""
     component.onInitItem = function (index, transform)
         local item = self:createItem(transform)
         --item.index = index
@@ -101,7 +101,7 @@ function UIList:updateItemView(itemIndex, dataIndex)
 end
 
 function UIList:onItemSelected(dataIndex)
-    -- 
+    -- ""
     for _, item in pairs(self.items) do
         if item.dataIndex == dataIndex then
             item:onSelected(true)
@@ -127,7 +127,7 @@ end
 
 -- called when need to release resources
 function UIList:onRelease()
-    -- item.releasefunction UIList:release
+    -- item.release""function UIList:release""
     for _, item in pairs(self.items) do
         item:release()
     end

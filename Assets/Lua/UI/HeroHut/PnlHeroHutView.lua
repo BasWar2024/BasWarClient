@@ -1,33 +1,73 @@
-
 PnlHeroHutView = class("PnlHeroHutView")
 
 PnlHeroHutView.ctor = function(self, transform)
     self.transform = transform
-    self.btnBG = transform:Find("ViewBg").gameObject
-    self.btnClose = transform:Find("ViewBg/Bg/BtnClose").gameObject
-    self.imgHero = transform:Find("Root/LayoutContent/ImgHero"):GetComponent("Image")
-    self.txtName = transform:Find("Root/LayoutContent/LayoutTitle/TxtName"):GetComponent("Text")
+    -- self.btnBG = transform:Find("ViewBg").gameObject
+    self.btnClose = transform:Find("Root/BtnClose").gameObject
 
-    self.btnLevel = transform:Find("Root/LayoutContent/LayoutTitle/BtnLevel").gameObject
-    self.txtLevel = transform:Find("Root/LayoutContent/LayoutTitle/BtnLevel/TxtLevel"):GetComponent("Text")
-    self.imgEnoughtUpgrade = transform:Find("Root/LayoutContent/LayoutTitle/BtnLevel/ImgEnoughtUpgrade"):GetComponent("Image")
+    -- self.bgMsg = transform:Find("Root/BgMsg")
+    -- self.txtName = self.bgMsg:Find("ImgNameBg/TxtName"):GetComponent(UNITYENGINE_UI_TEXT)
+    
 
-    self.attrScrollView = transform:Find("Root/LayoutContent/AttrScrollView").gameObject
-    self.layoutSkill = transform:Find("Root/LayoutContent/LayoutSkill").gameObject
+    -- self.layoutLevel = self.bgMsg:Find("TxtLevel")
+    -- self.txtLevel = self.bgMsg:Find("TxtLevel"):GetComponent(UNITYENGINE_UI_TEXT)
+    -- self.txtLevelAfter = self.levelArrow:Find("TxtLevelAfter"):GetComponent(UNITYENGINE_UI_TEXT)
 
-    self.sliderLife = self.transform:Find("Root/LayoutContent/SliderLife"):GetComponent("Slider")
-    self.txtSliderLife = self.sliderLife.transform:Find("TxtSlider"):GetComponent("Text")
+    self.layoutInfo = transform:Find("Root/LayoutInfo")
+    self.btnInfoClose = self.layoutInfo:Find("BtnInfoClose").gameObject
+    self.heroScrollView = self.layoutInfo:Find("HeroScrollView")
+    self.txtEmpty = self.layoutInfo:Find("TxtEmpty"):GetComponent(typeof(CS.TextYouYU))
 
-    self.sliderUpgrade = self.transform:Find("Root/LayoutContent/SliderUpgrade"):GetComponent("Slider")
-    self.txtSliderUpgrade = self.sliderUpgrade.transform:Find("TxtSlider"):GetComponent("Text")
+    self.layoutHeroInfo = self.layoutInfo:Find("LayoutHeroInfo")
+    self.bgName = self.layoutHeroInfo:Find("BgName")
+    self.txtInfoId = self.bgName:Find("TxtInfoId"):GetComponent(UNITYENGINE_UI_TEXT)
+    self.btnRecycle = self.bgName:Find("BtnRecycle").gameObject
 
-    self.btnRecycle = transform:Find("Root/LayoutContent/LayoutTitle/BtnRecycle").gameObject
+    self.bgIcon = self.layoutHeroInfo:Find("BgIcon"):GetComponent(UNITYENGINE_UI_IMAGE)
+    self.imgIcon = self.bgIcon.transform:Find("ImgIcon"):GetComponent(UNITYENGINE_UI_IMAGE)
+    self.txtInfoName = self.bgIcon.transform:Find("TxtInfoName"):GetComponent(UNITYENGINE_UI_TEXT)
 
-    self.layoutSkill = transform:Find("Root/LayoutContent/LayoutSkill").gameObject
-    self.layoutUpgrade = transform:Find("Root/LayoutContent/LayoutUpgrade").gameObject
-    self.txtDesc = self.layoutUpgrade.transform:Find("TxtDesc"):GetComponent("Text")
+    self.txtInfoLevel = self.layoutHeroInfo:Find("TxtInfoLevel"):GetComponent(UNITYENGINE_UI_TEXT)
+    self.txtRealLevel = self.txtInfoLevel.transform:Find("TxtRealLevel"):GetComponent(UNITYENGINE_UI_TEXT)
+    self.btnRealLevel = self.txtRealLevel.transform:Find("BtnRealLevel").gameObject
+    self.bgExplain = self.btnRealLevel.transform:Find("BgExplain")
+    self.btnCloseExplain = transform:Find("BtnCloseExplain").gameObject
 
-    self.commonUpgradeBox = CommonUpgradeBox.new(transform:Find("Root/LayoutContent/LayoutUpgrade/CommonUpgradeBox").gameObject)
+    self.attrScrollView = self.layoutHeroInfo:Find("AttrScrollView")
+
+    self.layoutSkills = self.layoutHeroInfo:Find("LayoutSkills")
+    self.skillScrollView = self.layoutSkills:Find("SkillScrollView")
+
+    self.layoutInfoBtns = self.layoutHeroInfo:Find("LayoutInfoBtns")
+    self.btnUpgrade = self.layoutInfoBtns:Find("BtnUpgrade").gameObject
+    self.btnApply = self.layoutInfoBtns:Find("BtnApply").gameObject
+
+    self.layoutUpgrade = transform:Find("Root/LayoutUpgrade")
+    self.txtUpgradeId = self.layoutUpgrade:Find("BgName/TxtUpgradeId"):GetComponent(UNITYENGINE_UI_TEXT)
+
+    self.attrUpgradeScrollView = self.layoutUpgrade:Find("AttrUpgradeScrollView")
+
+    self.txtDesc = self.layoutUpgrade:Find("TxtDesc"):GetComponent(UNITYENGINE_UI_TEXT)
+    self.commonUpgradeNewBox = CommonUpgradeNewBox.new(self.layoutUpgrade:Find("CommonUpgradeNewBox"))
+    self.imgHero = self.layoutUpgrade:Find("ImgHero/ImgHero"):GetComponent(UNITYENGINE_UI_IMAGE)
+    self.imgHero1 = self.layoutUpgrade:Find("ImgHero/ImgHero1"):GetComponent(UNITYENGINE_UI_IMAGE)
+
+    self.btnUpgradeReturn = self.layoutUpgrade:Find("BtnUpgradeReturn").gameObject
+
+    self.boxArrowUpgrade = self.layoutUpgrade:Find("BoxArrowUpgrade")
+
+    self.txtUpgradeLevel = self.layoutUpgrade:Find("LayoutUpgradeInfo/TxtUpgradeLevel"):GetComponent(UNITYENGINE_UI_TEXT)
+    self.txtUpgradeName = self.layoutUpgrade:Find("LayoutUpgradeInfo/TxtUpgradeName"):GetComponent(UNITYENGINE_UI_TEXT)
+
+    self.levelMax = self.boxArrowUpgrade:Find("LevelMax").gameObject
+    self.txtMaxLevel = self.levelMax.transform:Find("TxtMaxLevel"):GetComponent(UNITYENGINE_UI_TEXT)
+
+    self.levelUpgrade = self.boxArrowUpgrade:Find("LevelUpgrade")
+
+    self.txtCurLevel = self.levelUpgrade:Find("TxtCurLevel"):GetComponent(UNITYENGINE_UI_TEXT)
+    self.txtNextLevel = self.levelUpgrade:Find("TxtNextLevel/Text"):GetComponent(UNITYENGINE_UI_TEXT)
+
+    self.attentionUpgradeBox = self.layoutUpgrade:Find("AttentionUpgradeBox")
 end
 
 return PnlHeroHutView

@@ -4,9 +4,9 @@ PnlLoadingView = class("PnlLoadingView")
 PnlLoadingView.ctor = function(self, transform)
 
     self.transform = transform
-
-    self.sliderProgress = transform:Find("SliderProgress"):GetComponent("Slider")
-    self.txtProgress = transform:Find("SliderProgress/TxtProgress"):GetComponent("Text")
+    self.bgIcon = transform:Find("Bg"):GetComponent(UNITYENGINE_UI_IMAGE)
+    self.sliderProgress = transform:Find("SliderProgress"):GetComponent(UNITYENGINE_UI_SLIDER)
+    self.txtProgress = transform:Find("SliderProgress/TxtProgress"):GetComponent(UNITYENGINE_UI_TEXT)
 end
 
 return PnlLoadingView

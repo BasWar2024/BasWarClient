@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Skill-CentraAirship_spine
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Skill-CentraAirship_spine
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 30d89486eae25c44ea7ca773db3f061b
+  m_SerializeEntries:
+  - m_GUID: 290ada8624214604bb68e1f37662c480
+    m_Address: Assets/GameRes/Skill/CentraAirship_spine/CentraAirship_spine.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 359b30174f88b1646838246c4cac98e0
+    m_Address: Assets/GameRes/Skill/CentraAirship_spine/CentraAirship_spine_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 484452687aae1e54babd11a4a2e8ecf1
+    m_Address: Assets/GameRes/Skill/CentraAirship_spine/CentraAirship_spine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9353fac91a318114bafd60fb3c9007ee
+    m_Address: Assets/GameRes/Skill/CentraAirship_spine/CentraAirship_spine.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4abd75cae9b12d40894fa7211f20228
+    m_Address: Assets/GameRes/Skill/CentraAirship_spine/CentraAirship_spine_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b5ccf1fb109ee14f953ec77a377b7a1
+    m_Address: Assets/GameRes/Skill/CentraAirship_spine/CentraAirship_spine_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b0f5e575273639e4192d8b1c7820bc8a, type: 2}
+    - {fileID: 11400000, guid: 9c7eb9712ab83c5409d0945b03e03ab7, type: 2}

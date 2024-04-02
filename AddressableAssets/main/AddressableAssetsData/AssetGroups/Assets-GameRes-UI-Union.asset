@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Union
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Union
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7f697f3486cd16d4fab9d558dca7768e
+  m_SerializeEntries:
+  - m_GUID: 350e68aa4555943498022e1d77c9ead4
+    m_Address: Assets/GameRes/UI/Union/Horizontal line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3baf360fa7a2fb443b03cb3540223172
+    m_Address: Assets/GameRes/UI/Union/time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6387210f11034cf47ad2c2541bf2c862
+    m_Address: Assets/GameRes/UI/Union/lise title_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41cc1dc4db3d92b47941bb3ed777ed2f
+    m_Address: Assets/GameRes/UI/Union/lock_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a982a582eec3694ea40df4e6f796291
+    m_Address: Assets/GameRes/UI/Union/progress bar 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d318c684149e8e43a85d7214c4807cd
+    m_Address: Assets/GameRes/UI/Union/progress bar 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f82ec9edbdc52fd4eaf4b8ee2e60560a
+    m_Address: Assets/GameRes/UI/Union/upgrade_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 214343ce3ec403e48a9047f0f61286f3
+    m_Address: Assets/GameRes/UI/Union/upgrading bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c86b22ef8af53564d86aaa68b2f6f4d6
+    m_Address: Assets/GameRes/UI/Union/big upgrade 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab133311b99fd564b802eeae1360820d
+    m_Address: Assets/GameRes/UI/Union/MAX_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86e4a323a6dff7c44a0eaed343030e9b
+    m_Address: Assets/GameRes/UI/Union/quantitybar 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 32b97c5654f4ce24aa545073f6c0f27d
+    m_Address: Assets/GameRes/UI/Union/quantitybar 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fade1ad8cb9997e41889e38f5207d52b
+    m_Address: Assets/GameRes/UI/Union/Choose 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ee88be9a4190af40bb2582b34007c60
+    m_Address: Assets/GameRes/UI/Union/quantitybar 05_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 30d7854f677cb8647adf51f899f4761f
+    m_Address: Assets/GameRes/UI/Union/quantitybar 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 715ee0fd6491d9744be9d95a7a6400e6
+    m_Address: Assets/GameRes/UI/Union/tech line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7983f67b50f099549b6fca1ea10184cf
+    m_Address: Assets/GameRes/UI/Union/tech quan_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6c5abc83040fbb3448b651959458f6aa, type: 2}
+    - {fileID: 11400000, guid: 9ce6ce0c74195c84dba26bae12ec1443, type: 2}

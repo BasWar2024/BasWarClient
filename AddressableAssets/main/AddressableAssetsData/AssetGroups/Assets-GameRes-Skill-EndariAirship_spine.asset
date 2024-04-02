@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Skill-EndariAirship_spine
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Skill-EndariAirship_spine
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8b17d6929041ea94ebfb3a4112a88c64
+  m_SerializeEntries:
+  - m_GUID: 4aba8955a5e4a7e408d1a456e5d4d260
+    m_Address: Assets/GameRes/Skill/EndariAirship_spine/EndariAirship_spine_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69cc06d9d98e1bc4bbd8bc41445a46b1
+    m_Address: Assets/GameRes/Skill/EndariAirship_spine/EndariAirship_spine.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 13be67e912038964499a0ddf3b138689
+    m_Address: Assets/GameRes/Skill/EndariAirship_spine/EndariAirship_spine.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 853ea07c647b1bf4fbfb276a71f64cf9
+    m_Address: Assets/GameRes/Skill/EndariAirship_spine/EndariAirship_spine_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5aa12d3d8454ea941b25b2b6aee27606
+    m_Address: Assets/GameRes/Skill/EndariAirship_spine/EndariAirship_spine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8c19f6f34f19e94091b3a42cb394fce
+    m_Address: Assets/GameRes/Skill/EndariAirship_spine/EndariAirship_spine_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 073bde2c57804794cbdbb81cd098e9d1, type: 2}
+    - {fileID: 11400000, guid: dc11ec40a8991034bb5dc1490479f3d5, type: 2}

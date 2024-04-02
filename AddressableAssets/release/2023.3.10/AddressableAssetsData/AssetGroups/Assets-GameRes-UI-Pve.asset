@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Pve
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Pve
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 842ce0e1a74b86a4e9c2937768fd3428
+  m_SerializeEntries:
+  - m_GUID: a21572614fb8cc642b2c03fe82a37d7e
+    m_Address: Assets/GameRes/UI/Pve/star 02_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cde8ca52a8b0b304282910d2d0d012ac
+    m_Address: Assets/GameRes/UI/Pve/button 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6df380b2a8ecf0140b39888439d48d62
+    m_Address: Assets/GameRes/UI/Pve/buttom_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d9a17c25ca9df043b50dfb09eef06ca
+    m_Address: Assets/GameRes/UI/Pve/btn2_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74cd5ed2849a6514d82fda087b264302
+    m_Address: Assets/GameRes/UI/Pve/buttom_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e4a2ee23d0c11ab41ac16400755f633d
+    m_Address: Assets/GameRes/UI/Pve/MIT resources_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5579469375a14be4f9541c87eeb2d75b
+    m_Address: Assets/GameRes/UI/Pve/btn2_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb98dc940293af04a9fab28df7480f37
+    m_Address: Assets/GameRes/UI/Pve/MIT resources_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7cc3406320e1424fba1343e3019a780
+    m_Address: Assets/GameRes/UI/Pve/star 01_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7326177892b7f54495bc0f1aae665a3
+    m_Address: Assets/GameRes/UI/Pve/namekuang_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c2502695766f56428da147a79f5aed7
+    m_Address: Assets/GameRes/UI/Pve/MIT resources bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a2d8d69d7246ae4d89cbbcc3f6b2792
+    m_Address: Assets/GameRes/UI/Pve/list_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6dc18b8961ecce040bf9b81e3d48c736
+    m_Address: Assets/GameRes/UI/Pve/lock_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5ef5b70ad9f20e846a3eb67342d27e2a
+    m_Address: Assets/GameRes/UI/Pve/buttom _C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf2287ba5f1e03243bfb155ee4d0de91
+    m_Address: Assets/GameRes/UI/Pve/information_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7ceb94cabef80b54393ae4afe3eb8fb2
+    m_Address: Assets/GameRes/UI/Pve/daily binus floor_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e96c5ca27d8bd0408803e1c208e9b2b
+    m_Address: Assets/GameRes/UI/Pve/star 02_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a054fe3b76c251b44bce39f6d0331f68
+    m_Address: Assets/GameRes/UI/Pve/star 01_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9693bbabbaa4d4e458f5407952a970a8
+    m_Address: Assets/GameRes/UI/Pve/bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b211ddb49ef1d448976c06e5f03e68d
+    m_Address: Assets/GameRes/UI/Pve/point_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95ac127c3b97cf5409c676c0fc6c18e4
+    m_Address: Assets/GameRes/UI/Pve/FIRST WIN_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b8299cc98b71f9468eedebbea7839a9
+    m_Address: Assets/GameRes/UI/Pve/background bar_A_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a24f606d79aaa94468a857d64d5fb50f
+    m_Address: Assets/GameRes/UI/Pve/icon on the box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a322a8cdd96598843b2d3c1142fa671b
+    m_Address: Assets/GameRes/UI/Pve/floor_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01daceeddb93d644f96c6c01f2e38486
+    m_Address: Assets/GameRes/UI/Pve/star 02_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 335ca21ebaca5ae498128a9f30311f58
+    m_Address: Assets/GameRes/UI/Pve/buttom _D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b5ddd4e9cd102344b43faeb29758708
+    m_Address: Assets/GameRes/UI/Pve/line_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 513a0fae78a677343ab4fe41c8ad8f0e
+    m_Address: Assets/GameRes/UI/Pve/PASSED_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 21916b3fa28bf454ea29356169c984ac
+    m_Address: Assets/GameRes/UI/Pve/Back_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43b1f48f75d056b40a6360904c34777b
+    m_Address: Assets/GameRes/UI/Pve/time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f89e5911bbcc904bb2e42faf7620d90
+    m_Address: Assets/GameRes/UI/Pve/victory_icon_FlashUI.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08792f13ff411424cb47fcddbcff872a
+    m_Address: Assets/GameRes/UI/Pve/victory_icon_FlashUI.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c3368a4575f51bc47b9165b036292751, type: 2}
+    - {fileID: 11400000, guid: 50bf808ff6cdf1b43a965c9da6ff51b4, type: 2}

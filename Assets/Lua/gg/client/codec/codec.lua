@@ -1,4 +1,4 @@
---- 
+--- ""
 --@script gg.codec.codec
 --@author sundream
 --@release 2018/12/25 10:30:00
@@ -9,8 +9,8 @@ local json = require "gg.client.codec.jsonx"
 
 local codec = {}
 
---- codec
---@param[type=table] conf 
+--- ""codec""
+--@param[type=table] conf ""
 --@usage
 --  -- sproto
 --  local codecobj = codec.new("sproto",{
@@ -41,32 +41,32 @@ function codec.new(proto_type,conf)
     return setmetatable(self,{__index=codec})
 end
 
---- 
+--- ""
 function codec:reload()
     self.proto:reload()
 end
 
---- 
---@param[type=table] message 
---@param[type=function] encrypt 
---@return[type=string] 
+--- ""
+--@param[type=table] message ""
+--@param[type=function] encrypt ""
+--@return[type=string] ""
 --@usage
---  -- 
+--  -- ""
 --  local bin = codecobj:pack_message(cmd,args,false,session,ud)
---  -- 
+--  -- ""
 --  local bin = codecobj:pack_message(cmd,args,true,session,ud)
 function codec:pack_message(cmd,args,response,session,ud,encrypt)
     return self.proto:pack_message(cmd,args,response,session,ud,encrypt)
 end
 
---- 
---@param[type=string] msg 
---@param[type=function] decrypt 
---@return[type=string] cmd ()
---@return[type=table] args (),
---@return[type=int] response true--,false--
---@return[type=int] session ID
---@return[type=table] ud 
+--- ""
+--@param[type=string] msg ""
+--@param[type=function] decrypt ""
+--@return[type=string] cmd ""("")
+--@return[type=table] args ""(""),
+--@return[type=int] response true--"",false--""
+--@return[type=int] session ""ID
+--@return[type=table] ud ""
 function codec:unpack_message(msg,decrypt)
     return self.proto:unpack_message(msg,decrypt)
 end

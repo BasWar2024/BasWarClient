@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_Separate
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_Separate
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1bd0bcdc3a124524db186c92f7e2539a
+  m_SerializeEntries:
+  - m_GUID: b3eeffd504c146245956a95c1a733429
+    m_Address: Assets/GameRes/Bullet/Bullet_Separate/Bullet_Separateglow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 33d71f4707b3e40498cf87a8e887cad1
+    m_Address: Assets/GameRes/Bullet/Bullet_Separate/Bullet_Separateglowbaofa.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 96af1eb7e3e0ac1468185e4daeb60237
+    m_Address: Assets/GameRes/Bullet/Bullet_Separate/Bullet_Separateglowbaofa.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 60ab226b827186c459de1958bf5c832f
+    m_Address: Assets/GameRes/Bullet/Bullet_Separate/Bullet_Separatebeiji.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c6d585e14a8c6e4592620a311325d39
+    m_Address: Assets/GameRes/Bullet/Bullet_Separate/Bullet_Separateglow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cd4e92813433f3947a7149ac6ca870ec, type: 2}
+    - {fileID: 11400000, guid: 6c9eca291c14c924c83e170eadc86b64, type: 2}

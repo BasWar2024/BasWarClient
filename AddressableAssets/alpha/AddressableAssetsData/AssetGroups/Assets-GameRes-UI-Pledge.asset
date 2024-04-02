@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Pledge
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Pledge
+  m_Data:
+    m_SerializedData: []
+  m_GUID: da40323cd36799f4ba773d20d0d5dd44
+  m_SerializeEntries:
+  - m_GUID: f4582d03ca91e7649869da98e04db8e9
+    m_Address: Assets/GameRes/UI/Pledge/Boult_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a70e0e249a03d694a857e1e34457bcf9
+    m_Address: Assets/GameRes/UI/Pledge/Circuit board_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9b492378a7edd9a42b3577bad3000b87
+    m_Address: Assets/GameRes/UI/Pledge/Title_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45ceed98d6513f246ba36c4503fefd79
+    m_Address: Assets/GameRes/UI/Pledge/Horizontal bar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1da3c2fa960aa66499f51a6652aa5892
+    m_Address: Assets/GameRes/UI/Pledge/MIT_icon_G.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5bc6fe1b5e2d6d741a98b731fea397f7
+    m_Address: Assets/GameRes/UI/Pledge/Form_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 901dd98fa94214b4db35affb8cee00c9
+    m_Address: Assets/GameRes/UI/Pledge/Upgrade_icon_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf98f1dff17b55e4796800cdc7b97eeb
+    m_Address: Assets/GameRes/UI/Pledge/Horizontal_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 429039dd7ade02144a308a2da4ca307f, type: 2}
+    - {fileID: 11400000, guid: 53dc26a13dc606941acf7f9278c5545b, type: 2}

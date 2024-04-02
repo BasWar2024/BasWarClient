@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Battle
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Battle
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ed16a48ae7ba3d74481e121dff3f7f3f
+  m_SerializeEntries:
+  - m_GUID: dfebe18003cac004fa61ad01e6986f1f
+    m_Address: Assets/GameRes/UI/Battle/Details 2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 211cd3a067e6c774ca84c112ddec6b84
+    m_Address: Assets/GameRes/UI/Battle/Return_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a0042c61bca72d14fad138bb31dd66c7
+    m_Address: Assets/GameRes/UI/Battle/play_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10f94581166e7e44cae5e1b2a632c2dc
+    m_Address: Assets/GameRes/UI/Battle/bottom plate_img_com.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c614b8155a02ff4f9b94f5d156a8b4f
+    m_Address: Assets/GameRes/UI/Battle/time_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 25dedae21a325e44ca4f1d323dd6a996
+    m_Address: Assets/GameRes/UI/Battle/Skill 00_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 554379a33a341ee48825c92fc276d581
+    m_Address: Assets/GameRes/UI/Battle/Time 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 682d8364c1536a5408c0400937cf47e7
+    m_Address: Assets/GameRes/UI/Battle/Bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b8d8705d9238ed41824df3bf06fb2c9
+    m_Address: Assets/GameRes/UI/Battle/Lost_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1f7df6526d37b449a61afc040cc0e8c
+    m_Address: Assets/GameRes/UI/Battle/energy tank_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c507b0f725ee26546a0282ec7516c0af
+    m_Address: Assets/GameRes/UI/Battle/time box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e030c4e942169c64188d9207c270a61b
+    m_Address: Assets/GameRes/UI/Battle/Defeat bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d43648a5a9c645438ab2e6dde6f22b6
+    m_Address: Assets/GameRes/UI/Battle/People_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c54f281b658b5b441910e953f535ea7c
+    m_Address: Assets/GameRes/UI/Battle/stop_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3ec342bbf5d4fb49b4d39209ff5c518
+    m_Address: Assets/GameRes/UI/Battle/Details_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b481f39bfecf7ea44967a93d2aa1a804
+    m_Address: Assets/GameRes/UI/Battle/play_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 42103eeb439563a4db001ef7104da150
+    m_Address: Assets/GameRes/UI/Battle/fall back_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9be9e6be6d6e88a4982c0bf70b59ed7c
+    m_Address: Assets/GameRes/UI/Battle/player name_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b6852df4acbee44191b722729789484
+    m_Address: Assets/GameRes/UI/Battle/lightning_icon_com.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 68aeffb21f0d21241ad15fd4a31a4a53, type: 2}
+    - {fileID: 11400000, guid: 438c3a4c141743940a69b1f6f9136acc, type: 2}

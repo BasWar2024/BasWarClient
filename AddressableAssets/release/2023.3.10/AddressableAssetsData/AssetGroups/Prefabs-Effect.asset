@@ -1,0 +1,1030 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs-Effect
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs-Effect
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7734169a4eb84bb4294573664de536d2
+  m_SerializeEntries:
+  - m_GUID: 4af4b6465721ff24e91071ef20771c85
+    m_Address: Bullet_210000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2100001
+  - m_GUID: 6d75e792956d9b143a810c2f820f3742
+    m_Address: Eff_210000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2100001
+  - m_GUID: 8615d4dc3d21c284f8d302562a97c6c9
+    m_Address: Eff_210000102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2100001
+  - m_GUID: 20125732e6803bf45bc6039619b0b26d
+    m_Address: Bullet_210000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2100002
+  - m_GUID: e5dd2c845b6825a4ead64dd606916cf5
+    m_Address: Eff_210000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2100002
+  - m_GUID: eca64aface91a2d46a891594df616f77
+    m_Address: Eff_210000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2100002
+  - m_GUID: aabd87ee9e1de614eb6d7ce388f3048d
+    m_Address: Buff_220000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2200001
+  - m_GUID: 1b4f8b2a9d2e36143b3786196386d747
+    m_Address: Buff_220000102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2200001
+  - m_GUID: 140e010b0430733428a4517aa529f290
+    m_Address: Eff_220000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2200001
+  - m_GUID: e72b20bd9997ea64ab402cd772cd4acc
+    m_Address: Eff_220000102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2200001
+  - m_GUID: 06c4929784bb22a40b35ada8b7640f9e
+    m_Address: Buff_220000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2200002
+  - m_GUID: 28287e5e3a6dc7949948dfcac9611845
+    m_Address: Buff_220000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2200002
+  - m_GUID: f0ab4a8046974c74bbce20f66ad7d0d3
+    m_Address: Eff_220000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2200002
+  - m_GUID: c2a6bdb43372ed14a892ab310f580d0c
+    m_Address: Eff_220000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2200002
+  - m_GUID: 5db7119b945ae214e88054af85b89a6a
+    m_Address: Bullet_230000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2300001
+  - m_GUID: 66ba33058f0cbcb48a33935058b88b34
+    m_Address: Eff_230000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2300001
+  - m_GUID: 360b2cd5f2ad6e04ba00d0191f70f036
+    m_Address: Eff_230000102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2300001
+  - m_GUID: 8eee206b6f859a1408765fec34cb9a97
+    m_Address: Eff_230000103
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2300001
+  - m_GUID: a56bccf41b303d9478bcaf7a21a3575f
+    m_Address: Eff_230000104
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2300001
+  - m_GUID: 56eac8362b17f2d4595f0290a9f98533
+    m_Address: Bullet_230000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2300002
+  - m_GUID: e285c6d9dc5436c45a9d3b8a028834c6
+    m_Address: Eff_230000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2300002
+  - m_GUID: 8b6e5cc7bcb64544f92c9760bd16e709
+    m_Address: Eff_230000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2300002
+  - m_GUID: 7c21c316cd096d844888329a46a9d8b4
+    m_Address: Eff_230000203
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2300002
+  - m_GUID: 6adc12d02580a864d80f19a960bdb545
+    m_Address: Eff_230000204
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2300002
+  - m_GUID: ec3199aa7d804f341b36ca01276eb70a
+    m_Address: Bullet_240000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2400001
+  - m_GUID: 4c3800e63b55eb94caa97d643b6e0678
+    m_Address: Eff_240000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2400001
+  - m_GUID: a313955e1abafaf469875906830cb62d
+    m_Address: Bullet_240000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2400002
+  - m_GUID: c6039da536cd3294e8c545594c509be0
+    m_Address: Eff_240000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-2400002
+  - m_GUID: f05ddba98f64c574a8b4ab88d1a02444
+    m_Address: Bullet_300010601
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-3000106
+  - m_GUID: 6596ce55db7ebae439bccb3c7b40a674
+    m_Address: Eff_300010601
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-3000106
+  - m_GUID: 9ddcf1bee4f167844ac3117f17ffbc67
+    m_Address: Bullet_300010701
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-3000107
+  - m_GUID: fa0ada223e0dcae48b79e9909ae8f852
+    m_Address: Eff_300010701
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-3000107
+  - m_GUID: b8f71abf1a3d76c40a7936e2960d328b
+    m_Address: Eff_300010702
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-3000107
+  - m_GUID: 97757eb67cd0e8b498be140cc81aa825
+    m_Address: Bullet_300010901
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-3000109
+  - m_GUID: 4cbe953f6efa29043a9fad88f46787e1
+    m_Address: Eff_300010901
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-3000109
+  - m_GUID: 8d4d9342a5f6a8c4ea65b7575f1595b7
+    m_Address: Bullet_310013001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-3100130
+  - m_GUID: f6d3b115cf8e0fa4db0e2145786a0467
+    m_Address: Eff_310013001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-3100130
+  - m_GUID: de8c3fb89442e984ab1eab70b34c20b3
+    m_Address: Buff_500000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5000001
+  - m_GUID: deb785fbd57ef264ea76ee8830da02ea
+    m_Address: Bullet_500000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5000001
+  - m_GUID: 44cbafa5baf0de441b662c345a59041d
+    m_Address: Bullet_500000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5000002
+  - m_GUID: d4220f9fad00e814393f60c9e3a2c2d1
+    m_Address: Bullet_500000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5000002
+  - m_GUID: 69131be4bb6166346a86499f7170b51e
+    m_Address: Eff_500000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5000002
+  - m_GUID: 1866aa23dd9a2084eb6680470f34e666
+    m_Address: Eff_500000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5000002
+  - m_GUID: 893d1ef29e2b3554eabb20aaaa00ab23
+    m_Address: Eff_510000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5100001
+  - m_GUID: 105a7eefdf41e104dba63f2a53f82dfc
+    m_Address: Eff_510000102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5100001
+  - m_GUID: 5f6728dc525096a4396e6f8d1c0308e6
+    m_Address: Bullet_510000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5100002
+  - m_GUID: 7e388bf82994e404fba92eb6c600bbe3
+    m_Address: Bullet_510000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5100002
+  - m_GUID: bbb5978f0a2e52343a2a7f1cdeb6d8d2
+    m_Address: Eff_510000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5100002
+  - m_GUID: 1abf0225bcf0de8459b8e1d59971c16d
+    m_Address: Eff_510000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5100002
+  - m_GUID: 6c6b5008e76eeb7409aea6f8cb4fb53e
+    m_Address: Bullet_511602201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116022
+  - m_GUID: 0954b88fa31fc744d918fa019ea19d57
+    m_Address: Eff_511602201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116022
+  - m_GUID: 2116c32f1c24843488ba3514202f1784
+    m_Address: Buff_511602301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116023
+  - m_GUID: e40588c715949714c8b03f07a8a8dd07
+    m_Address: Bullet_511602301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116023
+  - m_GUID: c5dea35c8b56558418c2c9b9fd93841d
+    m_Address: Eff_511602301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116023
+  - m_GUID: 08c2eff14ba89cb4982d7a63af5410ff
+    m_Address: Bullet_511602401
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116024
+  - m_GUID: 273b9728c2c36494f9288ff2147c5ce4
+    m_Address: Eff_511602401
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116024
+  - m_GUID: acbc34bd345f88847a9345313efddb7e
+    m_Address: Buff_511602501
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116025
+  - m_GUID: 71cbbd96db88cba448d92e446270533a
+    m_Address: Bullet_511602501
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116025
+  - m_GUID: 9d44404519e92644985761f546eb24b0
+    m_Address: Eff_511602501
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116025
+  - m_GUID: ca036664e4829fc42afc85ead1f83973
+    m_Address: Bullet_511602601
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116026
+  - m_GUID: 8b8501fbcd5e3074991c58b5e8d14590
+    m_Address: Eff_511602601
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5116026
+  - m_GUID: 8463423643828bb44bbdcd8e19cfd72e
+    m_Address: Buff_520000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5200001
+  - m_GUID: 1de04ea96a73d2940acf3f0a2eff55b5
+    m_Address: Eff_520000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5200001
+  - m_GUID: 9f263373ed04b1e4ca245a49f27710d4
+    m_Address: Eff_520000102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5200001
+  - m_GUID: f6ab8f7ab1ae813488217fa17b7484b5
+    m_Address: Buff_520000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5200002
+  - m_GUID: 414eea65cb968594da6f36ad84512258
+    m_Address: Eff_520000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5200002
+  - m_GUID: ee12985cdc919454893c26031d5a22d7
+    m_Address: Eff_520000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5200002
+  - m_GUID: 5e2ded48b8d179246841924b64fe50b6
+    m_Address: Buff_530000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5300001
+  - m_GUID: 540064153876a59458ef448cdbd3b1a4
+    m_Address: Bullet_530000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5300001
+  - m_GUID: 7295e650dcc2e7444a8da137c8f20bb2
+    m_Address: Bullet_530000102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5300001
+  - m_GUID: 1934d1d67cf52a94a91860076e503aa2
+    m_Address: Eff_530000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5300001
+  - m_GUID: fc3de21e5cc97694f87b0daa23fca322
+    m_Address: Eff_530000102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5300001
+  - m_GUID: 2be07bb5c22559848af36c06099a3489
+    m_Address: Bullet_530000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5300002
+  - m_GUID: 837ba683ebb0281468314a4f3d0c0356
+    m_Address: Bullet_530000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5300002
+  - m_GUID: a5e726dda2e13a449accc2430913378e
+    m_Address: Eff_530000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5300002
+  - m_GUID: 38463285f98a0d5479f9971e483374a1
+    m_Address: Eff_530000202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5300002
+  - m_GUID: 8f2c367c4456a56499fa37053590ac70
+    m_Address: Buff_540000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5400001
+  - m_GUID: 2735cb6925acee142a219a41cc90770b
+    m_Address: Bullet_540000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5400001
+  - m_GUID: 83aa806de06d11547871c28779ca2c1b
+    m_Address: Eff_540000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5400001
+  - m_GUID: 70d664d4ee7cda645b1114ca34cadd16
+    m_Address: Eff_540000102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5400001
+  - m_GUID: 92eae4405e82e924d9183804f73ed87a
+    m_Address: Bullet_540000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5400002
+  - m_GUID: d9a2b6ff8bcc5524a84625df2001e575
+    m_Address: Eff_540000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-5400002
+  - m_GUID: 04c1cb92e03e91543b5ee65ceb6f114c
+    m_Address: Bullet_603000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030001
+  - m_GUID: 68f75313ebce3514a9d5251b686933bd
+    m_Address: Eff_603000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030001
+  - m_GUID: d646c99235657e34781d18ffb88dff09
+    m_Address: Bullet_603000301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030003
+  - m_GUID: a0689d97af1676545a8f624c976c036a
+    m_Address: Eff_603000301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030003
+  - m_GUID: 15c3ac49ae92bb04b8a1f6e9b2b2589a
+    m_Address: Bullet_603000401
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030004
+  - m_GUID: 30966034defba9740bbcffe809a5689c
+    m_Address: Eff_603000401
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030004
+  - m_GUID: aa2cb711ef02c2f41b914603e677d016
+    m_Address: Buff_603000501
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030005
+  - m_GUID: ddf46405cd1674d41a2dffd60ca8e9ad
+    m_Address: Bullet_603000501
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030005
+  - m_GUID: 7d303a7bf2cc31b4f88be3c3e2037ae7
+    m_Address: Bullet_603000601
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030006
+  - m_GUID: ebe59951ef733b54fa0f43b79bca8bd4
+    m_Address: Eff_603000601
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030006
+  - m_GUID: 11e34e9744ad57b4e8fea9c185b9f0e7
+    m_Address: Bullet_603000701
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030007
+  - m_GUID: b65c902bc4b47054fbd2807c83c6198c
+    m_Address: Eff_603000701
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030007
+  - m_GUID: 15568f0c0c7c5564ea593b5a0e00d9bd
+    m_Address: Bullet_603000801
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030008
+  - m_GUID: 15a61dcd23597c9458b2acce04833941
+    m_Address: Bullet_603000802
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030008
+  - m_GUID: 0d6ce0c1c1b84774cbff600873936de2
+    m_Address: Eff_603000801
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030008
+  - m_GUID: 9d3ff582deebdbd4abe52202a3fcde11
+    m_Address: Eff_603000802
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030008
+  - m_GUID: 880168ad68a327443a86c423f1f1a1d8
+    m_Address: Bullet_603001001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030010
+  - m_GUID: f6b3d2119a3b467499d15269e7659e6e
+    m_Address: Eff_603001001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-6030010
+  - m_GUID: 5979f873b53075645afe6484f3ea226a
+    m_Address: Bullet_710000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7100001
+  - m_GUID: 1fb54e1a13617a4468e3ee55600134ab
+    m_Address: Eff_710000101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7100001
+  - m_GUID: b5d35f04bad17c34ea68b1d8d673c64d
+    m_Address: Bullet_710000301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7100003
+  - m_GUID: 33c8d2e9560c40846b5c47bfd95c7ad7
+    m_Address: Eff_710000301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7100003
+  - m_GUID: 0255615f147209d44bcafa31ec36ada5
+    m_Address: Eff_710000801
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7100008
+  - m_GUID: b138e43828bea774daa196f127eebf19
+    m_Address: Eff_710000901
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7100009
+  - m_GUID: 30be82ab40cc5af49bd278dab9652061
+    m_Address: Buff_710001101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7100011
+  - m_GUID: 1e8cb0c8694fe54438801e1fe3276207
+    m_Address: Bullet_710001101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7100011
+  - m_GUID: 43335252381082e42b92a743c5195657
+    m_Address: Eff_710001101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7100011
+  - m_GUID: ea75ab75f272ca84ca209a48b047c2ac
+    m_Address: Bullet_720000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200002
+  - m_GUID: 95aa73586f5bf974b9996e39605cc6e9
+    m_Address: Eff_720000201
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200002
+  - m_GUID: e11bf08520ebd384dbd2a818e5f8bc77
+    m_Address: Eff_720000301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200003
+  - m_GUID: aacda1e784db80a4fabcf915d7e6df86
+    m_Address: Bullet_720000401
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200004
+  - m_GUID: 1dafb6ac876a5a54499dc1d1ca8f94bc
+    m_Address: Eff_720000401
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200004
+  - m_GUID: 1c25f4f07a15fa046a3cad008cbd0eaa
+    m_Address: Bullet_720000501
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200005
+  - m_GUID: 78b0710b570d5c847827ed0bf02ff854
+    m_Address: Eff_720000501
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200005
+  - m_GUID: 1330144b7fe68d0408afaba713a5cbb2
+    m_Address: Eff_720000502
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200005
+  - m_GUID: ed73c3b3507b46c4f8e960d27b5fa3b4
+    m_Address: Bullet_720000601
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200006
+  - m_GUID: 7bfdd4adbd5fdef439f642e4e51a2785
+    m_Address: Eff_720000601
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200006
+  - m_GUID: 58975bef2124b7a4aac84f91905e54cb
+    m_Address: Bullet_720000701
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200007
+  - m_GUID: 72e02a10c1129bf498c379fea80fad17
+    m_Address: Eff_720000701
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-7200007
+  - m_GUID: b2d42030cb00cee4d838cebe07391ec2
+    m_Address: Buff_AddAtk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_AddAtk
+  - m_GUID: 2cbd1c4b22029534294a97f2bd45df7d
+    m_Address: Buff_AddAtkAndAtkSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_AddAtkAndAtkSpeed
+  - m_GUID: 319710fbc8fe9dd4c90678ed7f058c98
+    m_Address: Buff_AddAtkSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_AddAtkSpeed
+  - m_GUID: 2dbef7ba1d89a2f49b6fe2f87039e1d7
+    m_Address: Buff_AddAtkSpeedAndMoveSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_AddAtkSpeedAndMoveSpeed
+  - m_GUID: 8a946ba326aed734491851400a23bdbf
+    m_Address: Buff_AddHpLimit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_AddHpLimit
+  - m_GUID: b447b48bdbcdd8d4fa8bbfb633fb5b68
+    m_Address: Buff_AddMoveSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_AddMoveSpeed
+  - m_GUID: d5263fe6ea804a64f9b19420dd82eab0
+    m_Address: Buff_Black
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Black
+  - m_GUID: c168d0e1c93dce3429975156fd12fb81
+    m_Address: Buff_Cure
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Cure
+  - m_GUID: 1d05a229ad919c3499948f1957b65258
+    m_Address: Buff_Detonation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Detonation
+  - m_GUID: 87625a03bf304e34b8e0f2b476428315
+    m_Address: Buff_Ding
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Ding
+  - m_GUID: 9aa506c8c2db3294582c86ffdc7df9f1
+    m_Address: Buff_Disturb
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Disturb
+  - m_GUID: d7a5301c660396843bcb08bf45c68c32
+    m_Address: Buff_Dot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Dot
+  - m_GUID: 09f824d3bbe079d4f8014acfbceba01b
+    m_Address: Buff_IntensifyAtk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_IntensifyAtk
+  - m_GUID: cefc9c98aa26cc44e91a42e15508a6b9
+    m_Address: Buff_LitCavaliers
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_LitCavaliers
+  - m_GUID: b0f446504c1345c4dbca6e5597b38c78
+    m_Address: Buff_Millipede
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Millipede
+  - m_GUID: ee46bc4ca5b9cf34a8cad455a72218ec
+    m_Address: Buff_Shield
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Shield
+  - m_GUID: 85d0a46ead5517f4ab626221fbb55fd6
+    m_Address: Buff_Stealth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Stealth
+  - m_GUID: fadb6b7c0ed1c20498130034356f736d
+    m_Address: Buff_SubMoveSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_SubMoveSpeed
+  - m_GUID: 15fbee1fb304b3143b8c6313a557aae2
+    m_Address: Buff_SubtractAtk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_SubtractAtk
+  - m_GUID: 2b28490ce12530d478bd8130689dff73
+    m_Address: Buff_SubtractAtkSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_SubtractAtkSpeed
+  - m_GUID: 6dfa028a62d3af44b989d59502cf751b
+    m_Address: Buff_Vampire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Vampire
+  - m_GUID: d9144a4ed403c4243a7acf8790ae46e6
+    m_Address: Buff_Vulnerability
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Buff_Vulnerability
+  - m_GUID: 1862326096cbc4b4693d206c61480789
+    m_Address: Eff_5105001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_5105001
+  - m_GUID: 87f0912cc6cecf04a958298e67c22083
+    m_Address: Eff_511602501
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_511602501 1
+  - m_GUID: b50dd5868b62bde46bb297b7395248b1
+    m_Address: Eff_AddAtk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_AddAtk
+  - m_GUID: 7a74f50da35966e42a4dad2f8aee80c6
+    m_Address: Eff_AddAtkAndAtkSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_AddAtkAndAtkSpeed
+  - m_GUID: 153bdb4d25283e549b29b821b20121e5
+    m_Address: Eff_AddAtkSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_AddAtkSpeed
+  - m_GUID: 1e5308b48e800be4a87dd39c9ed009a9
+    m_Address: Eff_AddAtkSpeedAndMoveSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_AddAtkSpeedAndMoveSpeed
+  - m_GUID: e103a400aba26e54abdaf04c0f5bc94c
+    m_Address: Eff_AddHpLimit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_AddHpLimit
+  - m_GUID: f99194bc808416c45ac6406e2516efdf
+    m_Address: Eff_AddMoveSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_AddMoveSpeed
+  - m_GUID: 92708e5bbe61f5b46b4356592f8726a1
+    m_Address: Eff_AntiAircraftMissile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_AntiAircraftMissile
+  - m_GUID: 111a4ea4581fa5c44aa25ae2803f813a
+    m_Address: Eff_AtherDie
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_AtherDie
+  - m_GUID: 024a010b3031879449b59b22c078ea86
+    m_Address: Eff_AtherDivisionDie
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_AtherDivisionDie
+  - m_GUID: d84e11bef7551b847a2eef84ae50863a
+    m_Address: Eff_birth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_birth
+  - m_GUID: 60dba6368d076d049ab7af285f0e9604
+    m_Address: Eff_Blaze
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Blaze
+  - m_GUID: d38a130239016e9439e2e28a04a7f070
+    m_Address: Eff_BuildingDie_1x1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_BuildingDie_1x1
+  - m_GUID: e7a7caec574ed4147bd18673343c6342
+    m_Address: Eff_BuildingDie_2x2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_BuildingDie_2x2
+  - m_GUID: 1ca3014eee2fe1944a9dab337f30b8d0
+    m_Address: Eff_BuildingDie_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_BuildingDie_3x3
+  - m_GUID: c71d1831793f9264ab3e2de96e5f698a
+    m_Address: Eff_BuildingDie_4x4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_BuildingDie_4x4
+  - m_GUID: a803f68aa0c98f2438870d57ba910726
+    m_Address: Eff_BuildingDie_5x5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_BuildingDie_5x5
+  - m_GUID: 408851e5ba509bf42918af0e5f5a0aa8
+    m_Address: Eff_Centipede
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Centipede
+  - m_GUID: 85fec79e9db4c6b44b81e2d8dcf48771
+    m_Address: Eff_Crit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Crit
+  - m_GUID: 5e7c0cde77b979a4ba6eb2ca2e79bfea
+    m_Address: Eff_Cultro
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Cultro
+  - m_GUID: b26758c3649b7b441bd5e709400dcbab
+    m_Address: Eff_Cure
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Cure
+  - m_GUID: d69239f95457cf84397e99b3c604dd93
+    m_Address: Eff_CureSingle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_CureSingle
+  - m_GUID: 75e96952421b04e4a9f0de2244cf8a5c
+    m_Address: Eff_Dead
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Dead
+  - m_GUID: a60b5838eec56fa49b26520dd75806fe
+    m_Address: Eff_Dead_two
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Dead_two
+  - m_GUID: 39d8fa8b9d274c847920e486a803115b
+    m_Address: Eff_Disturb
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Disturb
+  - m_GUID: 1a4d069a04fd1744e949b600f2943134
+    m_Address: Eff_EMP
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_EMP
+  - m_GUID: 9ace629349402424da342d58fcb1d395
+    m_Address: Eff_Flares
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Flares
+  - m_GUID: e55a57a63e05b864a9c3814720a77fff
+    m_Address: Eff_Frostin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Frostin
+  - m_GUID: 8c85460a837fc2f42b84eda980f37c63
+    m_Address: Eff_GrainoFlightTanks
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_GrainoFlightTanks
+  - m_GUID: f148c92a07be03c4580733d43233963f
+    m_Address: Eff_Hero circle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Hero circle
+  - m_GUID: d5480a386c75f3a458e525abe3a68f49
+    m_Address: Eff_Ignis
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Ignis
+  - m_GUID: ed5c4fed34850b34b91c6d01738663a0
+    m_Address: Eff_Inosculans
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Inosculans
+  - m_GUID: db8299ac7b0345a4d86769d53569c7ba
+    m_Address: Eff_King
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_King
+  - m_GUID: 27581eb20f1c337478aa83d3e1bba7e0
+    m_Address: Eff_LandHalo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_LandHalo
+  - m_GUID: 2d768df32b48dda4e88f6917795a2b07
+    m_Address: Eff_LandHalo_ps
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_LandHalo_ps
+  - m_GUID: 57d6981f31ea6ac4bbed0198c707fb6b
+    m_Address: Eff_LightningChain
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_LightningChain
+  - m_GUID: ee4e62c1d0b5bbf4eba8f6556eaff071
+    m_Address: Eff_LightningNext
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_LightningNext
+  - m_GUID: 8b2e7312394e13d44ac6843f8e57e324
+    m_Address: Eff_MicroBlackHole
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_MicroBlackHole
+  - m_GUID: 2f8b4645ad530394f904ab4bac9cdd6c
+    m_Address: Eff_Millipede
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Millipede
+  - m_GUID: cd1cdc6aaab01c147802b182b9533413
+    m_Address: Eff_Missile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Missile
+  - m_GUID: 7f1b9f15a5331fb4aa9fdefd49af5450
+    m_Address: Eff_NearTank
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_NearTank
+  - m_GUID: 2aea2d12ea9f047448033fb0e93e86be
+    m_Address: Eff_ParticleBeamTower
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_ParticleBeamTower
+  - m_GUID: 062121a9068ed6543912edaa09561306
+    m_Address: Eff_Precision
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Precision
+  - m_GUID: 5c45fadb45d16ad4785aa3cd91c253f4
+    m_Address: Eff_PrePrecision
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Precision
+  - m_GUID: 1eb07698776aadd45954a351a92dfe8e
+    m_Address: Eff_Separate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Separate
+  - m_GUID: f8bc7d6777b082145bc264794b4a375b
+    m_Address: Eff_ShotGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_ShotGun
+  - m_GUID: 4d20ae6926886714cbe1b81b0f79fefa
+    m_Address: Eff_Sirius
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Sirius
+  - m_GUID: bd3ef894cc8cb13499c265552f0a5d63
+    m_Address: Eff_Smoke
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Smoke
+  - m_GUID: cdf6d6f96c3b9fb4996af0a7e992a938
+    m_Address: Eff_Solidus
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Solidus
+  - m_GUID: 5a82a890848600943a0c409624542d74
+    m_Address: Eff_Stealth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Stealth
+  - m_GUID: 2216b5671de70bb41be47b29701be16c
+    m_Address: Eff_SubtractAtk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_SubtractAtk
+  - m_GUID: c173da27a4970c54eae26e0bfde5db34
+    m_Address: Eff_SubtractAtkSpeed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_SubtractAtkSpeed
+  - m_GUID: dafb3bd39509f5a4f95712b9d7deb89b
+    m_Address: Eff_Summon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Summon
+  - m_GUID: 96e1a62f04f458d4392bd19363ac3a94
+    m_Address: Eff_Tonitruum
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Tonitruum
+  - m_GUID: c224ecad2b2bb1e4dbd3c507b73c8ea2
+    m_Address: Eff_Vulnerability
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Eff_Vulnerability
+  - m_GUID: 9d62f441fb1b66840b3da0a63451722e
+    m_Address: LandPoint
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-LandPoint
+  - m_GUID: b9bcc94c1215e0f4781419cad266bfab
+    m_Address: Ui_Choose_Eff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Assets-Prefabs-Effect-Ui_Choose_Eff
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8f5a67d374bb59e46bb46500fc518ecc, type: 2}
+    - {fileID: 11400000, guid: 00efaaa2a04353e4fa5bb25f5d9051a8, type: 2}

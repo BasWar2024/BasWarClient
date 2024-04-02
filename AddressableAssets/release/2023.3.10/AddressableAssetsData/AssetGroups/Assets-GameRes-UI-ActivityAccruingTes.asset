@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-ActivityAccruingTes
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-ActivityAccruingTes
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 87e800c29a1aab54cb8ae38a7cad160e
+  m_SerializeEntries:
+  - m_GUID: 68f672e05d9ac964d99158e3fc144d19
+    m_Address: Assets/GameRes/UI/ActivityAccruingTes/progress bar1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2e66bc11c70e14e4e9b43104f51f3d8d
+    m_Address: Assets/GameRes/UI/ActivityAccruingTes/back_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c0e25f7fe4cc844684cf7ded0287053
+    m_Address: Assets/GameRes/UI/ActivityAccruingTes/word02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f17a258b525ba22409d89ef7f9bb55d3
+    m_Address: Assets/GameRes/UI/ActivityAccruingTes/squar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 543f832dbeb8a8a4dbb597c7ffe73c54
+    m_Address: Assets/GameRes/UI/ActivityAccruingTes/progress bar2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 11dd1e0eb5ef33347a81376baaa97fcc
+    m_Address: Assets/GameRes/UI/ActivityAccruingTes/title_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62d742af56cab1c4181c70b323e54012
+    m_Address: Assets/GameRes/UI/ActivityAccruingTes/backsquar_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fe6ebad28f48c274c9bbe4e7a6ce572a, type: 2}
+    - {fileID: 11400000, guid: 96880fee9d3e34946bc84ee88a252b4e, type: 2}

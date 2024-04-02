@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Terrain-Ground
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Terrain-Ground
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 109b5e9d3b8b5f8449c92703c28c8861
+  m_SerializeEntries:
+  - m_GUID: 0a6ad09bbb7c24707994cc3e483fca37
+    m_Address: Assets/GameRes/Terrain/Ground/Tile64.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afa659be6508441708a774d5a3c3e901
+    m_Address: Assets/GameRes/Terrain/Ground/SingleQuad.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9070e9f0fa206ce4bb8783e186e7ab73
+    m_Address: Assets/GameRes/Terrain/Ground/Send in the troops.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 701bf2689e692fe498e96be44e3f02bc, type: 2}
+    - {fileID: 11400000, guid: 04f8d8a3d5ffed946891ba14da81d66c, type: 2}

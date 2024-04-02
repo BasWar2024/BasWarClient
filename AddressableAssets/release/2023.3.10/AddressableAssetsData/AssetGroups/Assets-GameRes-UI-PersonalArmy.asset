@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-PersonalArmy
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-PersonalArmy
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d0e3886854475a8409c2716f1c5e7e7b
+  m_SerializeEntries:
+  - m_GUID: f1cf4610f358b764c965d3442753305f
+    m_Address: Assets/GameRes/UI/PersonalArmy/button 01_button_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ad7304800ac22134387aaebcbcfdf0a8
+    m_Address: Assets/GameRes/UI/PersonalArmy/button 01_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afd43cf07587551428e797663d2e27a0
+    m_Address: Assets/GameRes/UI/PersonalArmy/nft_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 56fe9c215a94f654fb8ee5d0e03136e1
+    m_Address: Assets/GameRes/UI/PersonalArmy/lightbox02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5a8b3b31d46fefe478d494ef3b5c26b5
+    m_Address: Assets/GameRes/UI/PersonalArmy/mengban02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d9673892f2ccbfb41adbcaca7916d09c
+    m_Address: Assets/GameRes/UI/PersonalArmy/sequence02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3eb46a214aee0041b2d6f36a931a885
+    m_Address: Assets/GameRes/UI/PersonalArmy/article number 01_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71e50193c430c6e448fa66d05a57ae6d
+    m_Address: Assets/GameRes/UI/PersonalArmy/back_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 842182c5af7918e40bbecfc9538feace
+    m_Address: Assets/GameRes/UI/PersonalArmy/rename_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b4cb9e5a2652b1469d10972c10c63d3
+    m_Address: Assets/GameRes/UI/PersonalArmy/lightbox_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 968359e6de7ad7b48b62d55f44940d76
+    m_Address: Assets/GameRes/UI/PersonalArmy/selected_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 779031074ea33094994b002a1aada91b
+    m_Address: Assets/GameRes/UI/PersonalArmy/delete_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9dfa9d27c16f707409b3cd0b6170aaaf
+    m_Address: Assets/GameRes/UI/PersonalArmy/screen 03_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 947d41e7297789f4585137cd9028f3d2
+    m_Address: Assets/GameRes/UI/PersonalArmy/point_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0aedf4f70c0d629408c386288f53432a
+    m_Address: Assets/GameRes/UI/PersonalArmy/strip_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2073330933b1e724abc370f3a90da1df
+    m_Address: Assets/GameRes/UI/PersonalArmy/Close 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c6e15a9c6d8bb84bbbfda6ff93514ed
+    m_Address: Assets/GameRes/UI/PersonalArmy/sequence03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 89dba9bae24a6ab42aa5b6303eaac3e5
+    m_Address: Assets/GameRes/UI/PersonalArmy/screen 01_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 24c713ca1bba5314d874d80f51a50119
+    m_Address: Assets/GameRes/UI/PersonalArmy/article number 04_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cfbc676bbda47e446a0718cbe26db63c
+    m_Address: Assets/GameRes/UI/PersonalArmy/screen 02_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 61fb82bba8d7350419a8c5734b78b533
+    m_Address: Assets/GameRes/UI/PersonalArmy/square 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69d4d2bbc1b9c474d86f2c1f6d7b9daa
+    m_Address: Assets/GameRes/UI/PersonalArmy/back_icon 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aaaf46bb93900dc4a9c9c0738791aca1
+    m_Address: Assets/GameRes/UI/PersonalArmy/triangle_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c47098bbf574f5a4c8d0bab217b1834c
+    m_Address: Assets/GameRes/UI/PersonalArmy/case_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9e84b5cdcb84da4bb690e6b5e832c99
+    m_Address: Assets/GameRes/UI/PersonalArmy/square 05_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b040c6ced41d59448d42b11fee6ac91
+    m_Address: Assets/GameRes/UI/PersonalArmy/article number 03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f76fd6caabd46740ad7615de9867282
+    m_Address: Assets/GameRes/UI/PersonalArmy/Selected 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0eeee37c39413f648888de245eba2b73
+    m_Address: Assets/GameRes/UI/PersonalArmy/mengban_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8e49230d6ae16514f8bf03ff88e5d7f2
+    m_Address: Assets/GameRes/UI/PersonalArmy/Wrench_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b12462de342dde45b65552f590c2bad
+    m_Address: Assets/GameRes/UI/PersonalArmy/case03_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69220a2dc9b41db45a6738a3fb1f427a
+    m_Address: Assets/GameRes/UI/PersonalArmy/sequence_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0bab3b4d519e099489a8b776727cbf55
+    m_Address: Assets/GameRes/UI/PersonalArmy/Lock_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 143558bd16f3a0d42a5a28476d86b2eb
+    m_Address: Assets/GameRes/UI/PersonalArmy/remove_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 98f0dafdd5654fc46907982f8f0a7a21
+    m_Address: Assets/GameRes/UI/PersonalArmy/roundcorner_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d032ce3eb9ebbd44399f70adbd720260
+    m_Address: Assets/GameRes/UI/PersonalArmy/solder_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8d6d5c7eb4838e0488df0bf4f946db45
+    m_Address: Assets/GameRes/UI/PersonalArmy/read_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34727fde58a0e324fb4c733c6009a2a8
+    m_Address: Assets/GameRes/UI/PersonalArmy/case02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f7b98ef81e761447bc37ed73dbd7eca
+    m_Address: Assets/GameRes/UI/PersonalArmy/box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b2eacbec7813b174798fc23a892ffc49, type: 2}
+    - {fileID: 11400000, guid: a6148f8226d03a644a98fbab4199d4c0, type: 2}

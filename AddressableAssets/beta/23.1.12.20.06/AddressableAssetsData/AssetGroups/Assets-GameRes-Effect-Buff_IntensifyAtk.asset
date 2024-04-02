@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Buff_IntensifyAtk
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Buff_IntensifyAtk
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ce3e42a41c376f44282d7109f9ecb157
+  m_SerializeEntries:
+  - m_GUID: c0530820d7ab94842a98256ca7dbfa6f
+    m_Address: Assets/GameRes/Effect/Buff_IntensifyAtk/Buff_IntensifyAtk.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 42979ee4e8a92104e8bb8d8e76b9f59d
+    m_Address: Assets/GameRes/Effect/Buff_IntensifyAtk/Buff_IntensifyAtk_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41ec71062df791148a7b7c6c6eb61203
+    m_Address: Assets/GameRes/Effect/Buff_IntensifyAtk/Buff_IntensifyAtk.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c607faf885cd9034cb696a8fe7a8d0b1
+    m_Address: Assets/GameRes/Effect/Buff_IntensifyAtk/Buff_IntensifyAtk_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 32ee9b5bac9e75241a40a4b6d084c65a
+    m_Address: Assets/GameRes/Effect/Buff_IntensifyAtk/Buff_IntensifyAtk.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd7802cc56fdffc41a8897e70cae3ae2
+    m_Address: Assets/GameRes/Effect/Buff_IntensifyAtk/Buff_IntensifyAtk_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7f4197296c387574593f395223ef6be4, type: 2}
+    - {fileID: 11400000, guid: ece27b19859bfd14baa24d9df0020483, type: 2}

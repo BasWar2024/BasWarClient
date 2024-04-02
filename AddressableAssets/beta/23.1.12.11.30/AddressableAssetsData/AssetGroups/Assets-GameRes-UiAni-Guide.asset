@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UiAni-Guide
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UiAni-Guide
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a7d47490a64a0304d88d7309956ca8c5
+  m_SerializeEntries:
+  - m_GUID: d6c8080ae61d51a4aa92d1d140b8d2d0
+    m_Address: Assets/GameRes/UiAni/Guide/LoopMove.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c82d7f0a81ccde942bbbc6b4dbe29745
+    m_Address: Assets/GameRes/UiAni/Guide/GuideArrowAnim.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 505e1ca1edac5eb41b9733df9dc12ffc, type: 2}
+    - {fileID: 11400000, guid: aff8e7a3aea64714fb8319e8042dc50b, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-Spine-Runtime-spine-unity-Materials
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-Spine-Runtime-spine-unity-Materials
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c716f6c29ef079a4f89272313d238a29
+  m_SerializeEntries:
+  - m_GUID: b66cf7a186d13054989b33a5c90044e4
+    m_Address: Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicDefault.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2b4d79b921d65644991e569d36c88ead, type: 2}
+    - {fileID: 11400000, guid: 5596e066941c5fe4d8491bc53f0a225d, type: 2}

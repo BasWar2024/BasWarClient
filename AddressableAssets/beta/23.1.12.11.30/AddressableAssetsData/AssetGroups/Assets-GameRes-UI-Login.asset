@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Login
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Login
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 855bd61f6a3f867459dad1c5c098856c
+  m_SerializeEntries:
+  - m_GUID: 72d52e518b8773f4d8bc9173243bbf01
+    m_Address: Assets/GameRes/UI/Login/button 02_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a121a956e9e79b449adcbb51f6d5a9c
+    m_Address: Assets/GameRes/UI/Login/caution_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c13950d5c911165438c135cf45880308
+    m_Address: Assets/GameRes/UI/Login/switch_button_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 586cacb763551cf4e8fd92686d7a7650
+    m_Address: Assets/GameRes/UI/Login/Slide_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 48072c980d62e284dbe6457d3324d867
+    m_Address: Assets/GameRes/UI/Login/email_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 26f8838a9087e674b9f668a0e5e2e6eb
+    m_Address: Assets/GameRes/UI/Login/switch_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 67c9c5ecacaf49442a9439b7efa2b73e
+    m_Address: Assets/GameRes/UI/Login/password_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a447b6aeeb97d4544a3ad36ffd169296
+    m_Address: Assets/GameRes/UI/Login/choose_button_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1337e6f762cbd44ea49639aca07860e
+    m_Address: Assets/GameRes/UI/Login/choose_button_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 48c6f184c2c4d154a84bec8e4c5d277b, type: 2}
+    - {fileID: 11400000, guid: 845a4066e50cf8c4b8a5700c5b1bcd9d, type: 2}

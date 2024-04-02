@@ -1,11 +1,10 @@
-
 PnlSettingView = class("PnlSettingView")
 
 PnlSettingView.ctor = function(self, transform)
 
     self.transform = transform
 
-    self.txtTitle = transform:Find("ViewBg/Bg/TxtTitle"):GetComponent("Text")
+    self.txtTitle = transform:Find("ViewBg/Bg/TxtTitle"):GetComponent(UNITYENGINE_UI_TEXT)
     self.btnClose = transform:Find("ViewBg/Bg/BtnClose").gameObject
     self.layoutBtns = transform:Find("Root/LayoutBtns").gameObject
 
@@ -15,9 +14,15 @@ PnlSettingView.ctor = function(self, transform)
         self.settingMap[item.name] = {}
         self.settingMap[item.name].item = item
         self.settingMap[item.name].btn = item.transform:Find("Button").gameObject
-        self.settingMap[item.name].txtBtn = self.settingMap[item.name].btn.transform:Find("Text"):GetComponent("Text")
-        self.settingMap[item.name].imgBtn = self.settingMap[item.name].btn.transform:GetComponent("Image")
+        self.settingMap[item.name].txtBtn = self.settingMap[item.name].btn.transform:Find("Text"):GetComponent(UNITYENGINE_UI_TEXT)
+        self.settingMap[item.name].imgBtn = self.settingMap[item.name].btn.transform:GetComponent(UNITYENGINE_UI_IMAGE)
     end
+
+    self.btnVeryLow = transform:Find("Root/BtnVeryLow").gameObject
+    self.btnLow = transform:Find("Root/BtnLow").gameObject
+    self.btnMid = transform:Find("Root/BtnMid").gameObject
+    self.btnHigh = transform:Find("Root/BtnHigh").gameObject
+    self.btnVeryHigh = transform:Find("Root/BtnVeryHigh").gameObject
 end
 
 return PnlSettingView

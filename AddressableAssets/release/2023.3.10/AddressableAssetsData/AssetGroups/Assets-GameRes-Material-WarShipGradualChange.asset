@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Material-WarShipGradualChange
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Material-WarShipGradualChange
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 58ecf5a0b36ced54e99267877fbbb3b2
+  m_SerializeEntries:
+  - m_GUID: 16f68a9222a8ac0479cd9e807dc24323
+    m_Address: Assets/GameRes/Material/WarShipGradualChange/noise.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c7d504b62e42c5743af9984098e01f4e
+    m_Address: Assets/GameRes/Material/WarShipGradualChange/RGB.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6cd3709607b424849abe914255078002, type: 2}
+    - {fileID: 11400000, guid: 4831ad008b39c0040a79692284210f82, type: 2}

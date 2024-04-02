@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Bg-Match
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Bg-Match
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5b476037de9910140b4f9075a39390b9
+  m_SerializeEntries:
+  - m_GUID: 97bf66b7350f54844a896b47c6bb0b96
+    m_Address: Assets/GameRes/UI/Bg/Match/Opponent blade_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a37d6fa4f9709db4ea36d210a1d96393, type: 2}
+    - {fileID: 11400000, guid: da9c70017cf8c114aa749ebdfe8598b7, type: 2}

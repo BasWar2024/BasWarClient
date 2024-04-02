@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Building2D-platform-tx
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Building2D-platform-tx
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bb5fc14325aa29f4486880b490b412a9
+  m_SerializeEntries:
+  - m_GUID: 38fc360fe8c3b094a8e2eb75fdb31c2f
+    m_Address: Assets/GameRes/Building2D/platform/tx/gun_platform_3x3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: adbe34612cb8e314fae1363c837219a8, type: 2}
+    - {fileID: 11400000, guid: 8fed3db2a20a8a04689669f2de0d39df, type: 2}

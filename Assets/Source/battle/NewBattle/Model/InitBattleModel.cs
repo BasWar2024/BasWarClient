@@ -7,33 +7,44 @@ namespace Battle
     [Serializable]
     public class InitBattleModel
     {
-        public List<BuildingModel> BuildingList;
-        public List<TrapModel> TrapList;
-        public List<SoliderModel> SoliderList;
-        public HeroModel Hero;
-        public MainShipModel MainShip;
-        public List<SkillModel> SkillList;
-        public HeroSkillModel HeroSkill;
-        public List<BulletModel> BulletList;
-        public List<BuffModel> BuffList;
-
+        public List<BuildingModel> builds;
+        public List<TrapModel> traps;
+        public List<SoliderModel> soliders;
+        public List<HeroModel> heros;
+        public MainShipModel mainShip;
+        public List<SkillModel> skills;
+        public List<SkillModel> heroSkills;
+        //public List<BulletModel> bullets;
+        public List<BuffModel> buffs;
+        public List<SoliderModel> summonSoliders;
+        public List<SkillEffectModel> skillEffects;
+        public MapModel map;
+        
         public void Release()
         {
-            BuildingList?.Clear();
-            SoliderList?.Clear();
-            SkillList?.Clear();
-            BulletList?.Clear();
-            BuffList?.Clear();
-            TrapList?.Clear();
-            Hero = null;
-            MainShip = null;
-            BuildingList = null;
-            SoliderList = null;
-            SkillList = null;
-            HeroSkill = null;
-            BulletList = null;
-            BuffList = null;
-            TrapList = null;
+            builds?.Clear();
+            soliders?.Clear();
+            skills?.Clear();
+            //bullets?.Clear();
+            buffs?.Clear();
+            traps?.Clear();
+            //summonSoliders?.Clear();
+            skillEffects?.Clear();
+            heros?.Clear();
+            heroSkills?.Clear();
+            //hero = null;
+            mainShip = null;
+            builds = null;
+            soliders = null;
+            skills = null;
+            //heroSkill = null;
+            heroSkills = null;
+            //bullets = null;
+            buffs = null;
+            traps = null;
+            //summonSoliders = null;
+            skillEffects = null;
+            map = null;
         }
     }
 }

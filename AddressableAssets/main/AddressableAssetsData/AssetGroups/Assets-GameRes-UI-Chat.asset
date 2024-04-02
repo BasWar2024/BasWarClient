@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Chat
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Chat
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c499968c37beb64438389be4a50ed72f
+  m_SerializeEntries:
+  - m_GUID: 44a3c8777d227b5448cbdc8561b9c114
+    m_Address: Assets/GameRes/UI/Chat/Message Box_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bee19b18fc04c394bbb885c4d9d66d0f
+    m_Address: Assets/GameRes/UI/Chat/Chat board_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 370d42582c7cc6545a0d1b8bca035563
+    m_Address: Assets/GameRes/UI/Chat/Bottom plate_img.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a11692b8436179b4d90007374bb9636a
+    m_Address: Assets/GameRes/UI/Chat/Arrow_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c508f74977d02db42a7ee3e2cddcf092
+    m_Address: Assets/GameRes/UI/Chat/Dialog_icon_B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6bbb35da15c6b0946af4acc59d97e1a5
+    m_Address: Assets/GameRes/UI/Chat/TAB button_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ca6ac99cae6a31447836cc9857165884
+    m_Address: Assets/GameRes/UI/Chat/Microphone_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4e1d61a5ff9b11d4a8e5cb166277a641, type: 2}
+    - {fileID: 11400000, guid: 003dbe8cb7929b74f82892c77d64d7b7, type: 2}

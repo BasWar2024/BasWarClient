@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Head
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Head
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 26dc3fb3efa8fd94fbaedc0c6423557a
+  m_SerializeEntries:
+  - m_GUID: acff8e783b7aa0142943ccbb3d43431a
+    m_Address: Assets/GameRes/UI/Icon/Head/profile phpto 20_icon.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d61ef6fc5ee8a34db71c6b347ac395a
+    m_Address: Assets/GameRes/UI/Icon/Head/Head_Icon_1.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e2c0d672ff8007547b15c5ce325cd5c4, type: 2}
+    - {fileID: 11400000, guid: 8a24e6989a34d034b9c7a40e96a359c3, type: 2}

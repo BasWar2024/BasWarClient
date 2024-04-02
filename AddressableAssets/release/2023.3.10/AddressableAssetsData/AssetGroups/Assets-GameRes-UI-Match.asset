@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Match
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Match
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 52af0f95f0a6b8d4390941a22575315f
+  m_SerializeEntries:
+  - m_GUID: 812e4a20c800b244e8d4e2157862e36b
+    m_Address: Assets/GameRes/UI/Match/Search_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 090c6a301f1be02439dce225182a5b0c
+    m_Address: Assets/GameRes/UI/Match/mit_text box_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b1161903b2b4ba4695ba7001a99f180
+    m_Address: Assets/GameRes/UI/Match/battle damage_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a207e81e92bea842a6a22375c8f35b6
+    m_Address: Assets/GameRes/UI/Match/Dao name_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9bc58b5267e59274e91ed6b2d200a50f
+    m_Address: Assets/GameRes/UI/Match/Bottom plate_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1290098b4cea7443b4af36d189dd592
+    m_Address: Assets/GameRes/UI/Match/send_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86c7227977c9ed346b6e6faec1839916
+    m_Address: Assets/GameRes/UI/Match/Avatar bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 50ff3adcb8e105b4080d10d6ac645b6b
+    m_Address: Assets/GameRes/UI/Match/the box_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9989807e1417e9c4491a62d504b3b232
+    m_Address: Assets/GameRes/UI/Match/Badges number_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 300112d1672be56409404eb645b93304, type: 2}
+    - {fileID: 11400000, guid: 562f0f5c91ef640439a62d2e4a329061, type: 2}

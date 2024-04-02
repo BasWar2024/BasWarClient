@@ -6,40 +6,46 @@ function Timer:ctor()
     self.nameTimers = {}
     self.timerpool = {}
     self.id = 0
-    self.time = 0                   -- ()
-    self.precision = 1000           -- : 
+    self.time = 0 -- ""("")
+    self.precision = 1000 -- "": ""
     self.cobj = core.create()
-    self.attachers = {}             -- 
+    self.attachers = {} -- ""
 
     -- cache
     self.ids = {}
+
+    self.gameTime = 0
+    self:startLoopTimer(0, 1, -1, function()
+        self.gameTime = self.gameTime + 1
+    end)
+    self.buildLessTick = {}
 end
 
 function Timer:__gc()
     local cobj = self.cobj
     self.cobj = nil
-    print("Timer:gc",cobj)
+    print("Timer:gc", cobj)
     if cobj then
         core.release(cobj)
     end
 end
 
---- 
---@param[type=number] interval (,:)
---@param[type=function] callback 
---@return[type=integer] id
-function Timer:startTimer(interval,callback)
-    return self:addTimer(interval,callback)
+--- ""
+-- @param[type=number] interval ""("","":"")
+-- @param[type=function] callback ""
+-- @return[type=integer] ""id
+function Timer:startTimer(interval, callback)
+    return self:addTimer(interval, callback)
 end
 
---- 
---@param[type=integer] timerId id
+--- ""
+-- @param[type=integer] timerId ""id
 function Timer:stopTimer(timerId)
     self:delTimer(timerId)
 end
 
---- 
---@param[type=string] name 
+--- ""
+-- @param[type=string] name ""
 function Timer:cancelTimer(name)
     local ids = self.nameTimers[name]
     if not ids then
@@ -50,43 +56,43 @@ function Timer:cancelTimer(name)
     end
 end
 
---- 
---@param[type=number] delay (,:)
---@param[type=number] interval (,:)
---@param[type=number] maxCount (-1=,>0=)
---@return[type=integer] id
-function Timer:startLoopTimer(delay,interval,maxCount,callback)
+--- ""
+-- @param[type=number] delay ""("","":"")
+-- @param[type=number] interval ""("","":"")
+-- @param[type=number] maxCount ""(-1="",>0="")
+-- @return[type=integer] ""id
+function Timer:startLoopTimer(delay, interval, maxCount, callback)
     delay = delay < 0 and 0 or delay
     assert(interval > 0)
-    local id = self:startTimer(delay,callback)
+    local id = self:startTimer(delay, callback)
     local timerObj = self:getTimer(id)
     timerObj.maxCount = maxCount
     timerObj.interval = interval
     return id
 end
 
---- crontab
---@param[type=string] cronExpr cron
---@param[type=function] callback 
---@return[type=integer] id
---@usage gg.timer:cron_timeout("*/5 * * * * *",callback) <=> 5scallback
-function Timer:startCronTimer(cronExpr,callback)
+--- ""crontab""
+-- @param[type=string] cronExpr cron""
+-- @param[type=function] callback ""
+-- @return[type=integer] ""id
+-- @usage gg.timer:cron_timeout("*/5 * * * * *",callback) <=> ""5s""callback
+function Timer:startCronTimer(cronExpr, callback)
     local now = os.time()
-    local nextTime = gg.cronexpr.nexttime(cronExpr,now)
+    local nextTime = gg.cronexpr.nexttime(cronExpr, now)
     local timerId
-    timerId = self:startTimer(nextTime,function ()
+    timerId = self:startTimer(nextTime, function()
         local timer = self:getTimer(timerId)
         timer.maxCount = timer.maxCount + 1
         now = os.time()
-        local nextTime = gg.cronexpr.nexttime(cronExpr,now)
+        local nextTime = gg.cronexpr.nexttime(cronExpr, now)
         timer.interval = nextTime - now
         callback()
     end)
     return timerId
 end
 
---- 
---@param[type=number] elapse (,:)
+--- ""
+-- @param[type=number] elapse ""("","":"")
 function Timer:update(elapse)
     local lastTime = math.floor(self.time * self.precision)
     local endTime = self.time + elapse
@@ -97,7 +103,7 @@ function Timer:update(elapse)
         local n, e = core.update(self.cobj, tick, self.ids)
         self.time = self.time + e * pp
         tick = tick - e
-        for i=1,n do
+        for i = 1, n do
             local id = self.ids[i]
             local timer = self.timers[id]
             if timer then
@@ -119,17 +125,17 @@ function Timer:update(elapse)
     self.time = endTime
 end
 
---- (,:)
---@param[type=number] 
+--- ""("","":"")
+-- @param[type=number] ""
 function Timer:now()
     return self.time
 end
 
---- /
---@param[type=integer] id id
---@param[type=string,opt] name ,,
---@return[type=string|nil] nil=,=
-function Timer:name(id,name)
+--- ""/""
+-- @param[type=integer] id ""id
+-- @param[type=string,opt] name "","",""
+-- @return[type=string|nil] nil="",""=""
+function Timer:name(id, name)
     local timerObj = self:getTimer(id)
     if not timerObj then
         return
@@ -151,14 +157,14 @@ function Timer:name(id,name)
     end
 end
 
---- ()
---@param[type=integer] id id
---@param[type=table] obj 
-function Timer:attach(id,obj)
+--- ""("")
+-- @param[type=integer] id ""id
+-- @param[type=table] obj ""
+function Timer:attach(id, obj)
     self.attachers[id] = setmetatable({
         id = id,
-        obj = obj,
-    },{__mode == "v"})
+        obj = obj
+    }, {__mode == "v"})
 end
 
 -- private method
@@ -174,7 +180,7 @@ function Timer:getTimer(timerId)
     return self.timers[timerId]
 end
 
-function Timer:addTimer(interval,callback)
+function Timer:addTimer(interval, callback)
     local id = self:genid()
     local timerObj = table.remove(self.timerpool)
     if not timerObj then
@@ -198,7 +204,7 @@ function Timer:delTimer(id)
     end
     self.timers[id] = nil
     timerObj.callback = false
-    self.timerpool[#self.timerpool+1] = timerObj
+    self.timerpool[#self.timerpool + 1] = timerObj
     local name = timerObj.name
     if name then
         local ids = self.nameTimers[name]
@@ -210,6 +216,38 @@ function Timer:delTimer(id)
     if attacher then
         self.attachers[id] = nil
     end
+end
+
+-- ""gameTime
+function Timer:saveLessTick(id, lessTick)
+    if self.buildLessTick[id] then
+        if lessTick ~= self.buildLessTick[id].lessTick then
+            self.buildLessTick[id] = {
+                lessTick = lessTick,
+                gameTime = self.gameTime
+            }
+        end
+    else
+        self.buildLessTick[id] = {
+            lessTick = lessTick,
+            gameTime = self.gameTime
+        }
+    end
+
+end
+
+function Timer:getLessTick(id, lessTick)
+    local temp = 0
+    if self.buildLessTick[id] then
+        if lessTick == self.buildLessTick[id].lessTick then
+            temp = self.gameTime - self.buildLessTick[id].gameTime
+        end
+    end
+    return temp
+end
+
+function Timer:releaseLessTick(id)
+    self.buildLessTick[id] = nil
 end
 
 return Timer

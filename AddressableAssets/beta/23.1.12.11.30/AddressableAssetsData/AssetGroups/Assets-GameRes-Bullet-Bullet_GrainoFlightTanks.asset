@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_GrainoFlightTanks
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_GrainoFlightTanks
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 127cedf611e2a38479cb857711055e02
+  m_SerializeEntries:
+  - m_GUID: 4ed38246d52ca1e488f4ee04f4db86e5
+    m_Address: Assets/GameRes/Bullet/Bullet_GrainoFlightTanks/Bullet_GrainoFlightTanks.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 310ad487a88bb9644bbdbd23b4d5b55c
+    m_Address: Assets/GameRes/Bullet/Bullet_GrainoFlightTanks/Bullet_GrainoFlightTanks_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2062c429fa9b1dc42a55774432488eb7
+    m_Address: Assets/GameRes/Bullet/Bullet_GrainoFlightTanks/Bullet_GrainoFlightTanks_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eef78f4bdb4e6c04d87e782a82ff2046
+    m_Address: Assets/GameRes/Bullet/Bullet_GrainoFlightTanks/Bullet_GrainoFlightTanks.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc4ce1dd430fbc74f9ed7ce372da2e4b
+    m_Address: Assets/GameRes/Bullet/Bullet_GrainoFlightTanks/Bullet_GrainoFlightTanks.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7dbe726f0e8551042a170d263f849d11
+    m_Address: Assets/GameRes/Bullet/Bullet_GrainoFlightTanks/Bullet_GrainoFlightTanks_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8c60d6faebcb2a141b2b0b8c9d5aeb96, type: 2}
+    - {fileID: 11400000, guid: 1e77a4c6a1cb84b4097d71931566406a, type: 2}

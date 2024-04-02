@@ -20,7 +20,7 @@ function GM:doCmd(cmdline)
     local ret = table.pack(xpcall(handler,gg.onerror,self,args))
     local ok = table.remove(ret,1)
     if not ok then
-        self:say("")
+        self:say("""")
     end
     self:say(table.dump(ret))
     return true

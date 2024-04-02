@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Icon-Item_Bg_D
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Icon-Item_Bg_D
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b36fda126b949a14d8858ca51d5f136b
+  m_SerializeEntries:
+  - m_GUID: fab25b16c5046a84ea742ebdfec3c981
+    m_Address: Assets/GameRes/UI/Icon/Item_Bg_D/Item_Bg_D_0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb037a37ae411ae458d6ff3895567a1b
+    m_Address: Assets/GameRes/UI/Icon/Item_Bg_D/Item_Bg_D_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0e6febcd9a994df438d5e5451f9a5b5c
+    m_Address: Assets/GameRes/UI/Icon/Item_Bg_D/Item_Bg_D_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 65a8fc36b219ec6479f5d06a7b446dd3, type: 2}
+    - {fileID: 11400000, guid: 3cacf7f94964789468efbf32b29cad1b, type: 2}

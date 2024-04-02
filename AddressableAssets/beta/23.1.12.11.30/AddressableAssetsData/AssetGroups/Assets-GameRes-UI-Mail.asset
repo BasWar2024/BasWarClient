@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-Mail
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-Mail
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0d363271f2e43aa48b85d8c170d985fa
+  m_SerializeEntries:
+  - m_GUID: 1296b306a257bf8449b67b9e35cb2dee
+    m_Address: Assets/GameRes/UI/Mail/titlebox_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: defa0a17a9cd7384cba701ef6f3a5763
+    m_Address: Assets/GameRes/UI/Mail/Silde line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: efe51a474b54b2e479e7fc4b7a97bf92
+    m_Address: Assets/GameRes/UI/Mail/Title line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9da6db47b2aed8349b7556dc7a4b4110
+    m_Address: Assets/GameRes/UI/Mail/noemail_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 28f3fd09cae383040bab44fa88dd7bef
+    m_Address: Assets/GameRes/UI/Mail/kuang_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 068ff86a93c2b864c919f8b4f3e805ba
+    m_Address: Assets/GameRes/UI/Mail/treasure_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 54b394bac9462b54bbddec78226db83b
+    m_Address: Assets/GameRes/UI/Mail/delect_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 767406eb0f6be564783c5b8c57bb9ec4
+    m_Address: Assets/GameRes/UI/Mail/read_icon_C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43e4c8ada738583488f1e9c3c5e49f9b
+    m_Address: Assets/GameRes/UI/Mail/line_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db69081e732dcec4d9659938e82eb88e
+    m_Address: Assets/GameRes/UI/Mail/alldelect_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b3466ae2d9958c43877fb47eb51fd8a
+    m_Address: Assets/GameRes/UI/Mail/Choose_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9e50b3503b513a445a7785c9d15b67a2, type: 2}
+    - {fileID: 11400000, guid: b24784dcac1da8045a46d7ea3197ca64, type: 2}

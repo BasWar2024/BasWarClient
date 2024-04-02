@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-UI-PlayerDetailed
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-UI-PlayerDetailed
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 744469068cef23b468b6c636840fd833
+  m_SerializeEntries:
+  - m_GUID: 9c9e3ed33008b604a8e4c6233b7af8f1
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Contact_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86fd0ff3cab03634a935f90af2de6138
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Personal information_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46ecf204f2d51bf43b70698d9633d586
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Badge_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db328a662be27dc4abb6fa1fb9c778c7
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Switch base_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 923091a7ea8bced41b15f771ce6f8653
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Access_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 719106a76eef77b43a0b12d3982ae12c
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Head biankuan_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: daca4fd7ff03fa342b02571f243bef57
+    m_Address: Assets/GameRes/UI/PlayerDetailed/windows bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a8b9a78d9dec0f42a7f5ab1c57b472e
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Head side biankuan_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a876549d17be2b46a0ce9d3c0544e8a
+    m_Address: Assets/GameRes/UI/PlayerDetailed/nft bottom_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3547fc994006b194bbd001df42f133aa
+    m_Address: Assets/GameRes/UI/PlayerDetailed/The invitation_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6ea5be9b179a2e4c9ba590429da56dd
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Switch_button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc249f0a4d525e346b6756777019f613
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Avatar 02_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6c0090aa4f26cc44190d5e2a0b019351
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Banner_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78076ceb0b223374bacb6885a3172f00
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Switch the floor_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd722d5d724154c45a7c373b11249866
+    m_Address: Assets/GameRes/UI/PlayerDetailed/Redact_Button.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3e02f7257d05c0746b7ff1695599ba6b, type: 2}
+    - {fileID: 11400000, guid: 778b20a157c129d4ea1642d0d46491c1, type: 2}

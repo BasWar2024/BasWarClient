@@ -10,8 +10,8 @@ function HandShake.new(agent,master_linkid)
     self.result = nil
     self.rawEncryptKey = nil
     self.encryptKey = nil
-    self.linkid = nil                   -- ID
-    self.master_linkid = master_linkid  -- ID()
+    self.linkid = nil                   -- ""ID
+    self.master_linkid = master_linkid  -- ""ID("")
     return setmetatable(self,HandShake)
 end
 
@@ -20,7 +20,7 @@ function HandShake:packRequest(tbl)
     for k,v in pairs(tbl) do
         k = crypt.base64encode(k)
         v = crypt.base64encode(v)
-        -- base64"|","="
+        -- base64"""|","""="
         table.insert(list,string.format("%s|%s",k,v))
     end
     return table.concat(list,",")
@@ -52,7 +52,7 @@ function HandShake:_doHandShake(message)
         if self.step ~= 0 then
             return false,"challenge first"
         end
-        -- : [S2C]challenge()+serverkey
+        -- "": [S2C]""challenge("")+""serverkey
         self.step = 1
         local challenge = request.challenge
         local serverkey = request.serverkey
@@ -66,7 +66,7 @@ function HandShake:_doHandShake(message)
         local clientkey = crypt.randomkey()
         self.rawEncryptKey = crypt.dhsecret(clientkey,serverkey)
         self.encryptKey = self:getInt16EncryptKey(self.rawEncryptKey)
-        -- : [C2S]clientkey
+        -- "": [C2S]""clientkey
         self.step = 2
         local msg = self:packRequest({
             proto = "C2S_HandShake_ClientKey",
@@ -74,7 +74,7 @@ function HandShake:_doHandShake(message)
             master_linkid = self.master_linkid,
         })
         self.agent:rawSend(msg)
-        -- : [C2S]clientkey+serverkey,challenge,
+        -- "": [C2S]""clientkey+serverkey"",""challenge"",""
         self.step = 3
         local encrypt = crypt.hmac64(challenge,self.rawEncryptKey)
         local msg = self:packRequest({
@@ -86,7 +86,7 @@ function HandShake:_doHandShake(message)
         if self.step ~= 3 then
             return false,"skip handshake step 3?"
         end
-        -- : [S2C]
+        -- "": [S2C]""
         self.step = 4
         local result = request.result
         self.result = result
@@ -99,10 +99,10 @@ function HandShake:_doHandShake(message)
     return true
 end
 
---- 
---@param[type=string] message 
---@return[type=bool] ok 
---@return[type=string] err 
+--- ""
+--@param[type=string] message ""
+--@return[type=bool] ok ""
+--@return[type=string] err ""
 function HandShake:doHandShake(message)
     local callOk,ok,err = pcall(self._doHandShake,self,message)
     if not callOk then

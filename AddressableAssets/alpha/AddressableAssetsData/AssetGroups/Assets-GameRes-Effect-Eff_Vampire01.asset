@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_Vampire01
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_Vampire01
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f22aef16ee2779e438bbcc4be2cc7505
+  m_SerializeEntries:
+  - m_GUID: 6985f6e0851754f47b8c26db737cf5e2
+    m_Address: Assets/GameRes/Effect/Eff_Vampire01/Eff_Vampire01_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78cbc4a4006543843a871259c79decf4
+    m_Address: Assets/GameRes/Effect/Eff_Vampire01/Eff_Vampire01_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 210c555585c91ce48be222e56cc36d7e
+    m_Address: Assets/GameRes/Effect/Eff_Vampire01/Eff_Vampire01.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 63ce679ccdc44904582effb496472727
+    m_Address: Assets/GameRes/Effect/Eff_Vampire01/Eff_Vampire01.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2e6f73fcf132ea4a86eb52f4ab964bc
+    m_Address: Assets/GameRes/Effect/Eff_Vampire01/Eff_Vampire01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5d65d4f8e5dc3644883e540d85a2c14
+    m_Address: Assets/GameRes/Effect/Eff_Vampire01/Eff_Vampire01_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f9ab89426e65b0543b16722390ee9266, type: 2}
+    - {fileID: 11400000, guid: a00b19ce03b7a3e428cb996a8cae9d52, type: 2}

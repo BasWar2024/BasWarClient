@@ -1,52 +1,69 @@
 local GM = ggclass.GM
 
---- : 
+--- "": ""
 ---@usage
----: clientEcho 
----: clientEcho hello
+---"": clientEcho ""
+---"": clientEcho hello
 function GM:clientEcho(args)
     local ok,args = gg.checkargs(args,"string")
     if not ok then
-        return self:say(": clientEcho ")
+        return self:say(""": clientEcho """)
     end
     local msg = args[1]
     return msg
 end
 
---- : 
+--- "": ""
 ---@usage
----: openWindow 
----: openWindow TestWindow
+---"": openWindow ""
+---"": openWindow TestWindow
 function GM:openWindow(args)
     local ok,args = gg.checkargs(args,"string")
     if not ok then
-        return self:say(": openWindow ")
+        return self:say(""": openWindow """)
     end
     local windowName = args[1]
     gg.uiManager:openWindow(windowName)
 end
 
---- : 
+--- "": ""
 ---@usage
----: closeWindow 
----: closeWindow TestWindow
+---"": closeWindow ""
+---"": closeWindow TestWindow
 function GM:closeWindow(args)
     local ok,args = gg.checkargs(args,"string")
     if not ok then
-        return self:say(": closeWindow ")
+        return self:say(""": closeWindow """)
     end
     local windowName = args[1]
     gg.uiManager:closeWindow(windowName)
 end
 
---- : 
+--- "": ""
 ---@usage
----: testDisconnect
----: testDisconnect
+---"": testDisconnect
+---"": testDisconnect
 function GM:testDisconnect(args)
     if gg.client.gameServer then
         gg.client.gameServer:close()
     end
+end
+
+--- "": ""
+---@usage
+---"": clearAccount
+---"": clearAccount
+function GM:clearAccount(args)
+    util.saveAccountPassword("", "")
+end
+
+--- "": ""app
+---@usage
+---"": uninstallApp
+---"": uninstallApp
+function GM:uninstallApp(args)
+    util.setInstallStatus(0)
+    gg.uiManager:showTip("uninstallApp success")
 end
 
 function GM:testRandom(args)
@@ -76,7 +93,7 @@ end
 function GM:exec(args)
     local ok,args = gg.checkargs(args,"string")
     if not ok then
-        return self:say(": exec ")
+        return self:say(""": exec """)
     end
     local text = args[1]
     load(text)()

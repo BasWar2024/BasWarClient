@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Bullet-Bullet_King
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Bullet-Bullet_King
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1b797d361ec2c8948af55371a999bdaf
+  m_SerializeEntries:
+  - m_GUID: ef7ba477d0492d54783244cd376e4495
+    m_Address: Assets/GameRes/Bullet/Bullet_King/Bullet_king.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc26f8eaba98c7c4599b1c33eb6bd90c
+    m_Address: Assets/GameRes/Bullet/Bullet_King/Bullet_king_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 63da18ccd22a55346a15ef13dd662997
+    m_Address: Assets/GameRes/Bullet/Bullet_King/Bullet_king_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7080296ea2e54844bad47fa6701ded04
+    m_Address: Assets/GameRes/Bullet/Bullet_King/Bullet_king_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2e526defefa78c4eac81f06dc34bdf5
+    m_Address: Assets/GameRes/Bullet/Bullet_King/Bullet_king.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a7caeebf2d129e6468ec13e328dbe31d
+    m_Address: Assets/GameRes/Bullet/Bullet_King/Bullet_king.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: aa93bd015ea79164991803dfdbde4e87, type: 2}
+    - {fileID: 11400000, guid: f590b19689e97a543a489729a082c2bd, type: 2}

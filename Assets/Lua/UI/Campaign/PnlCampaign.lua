@@ -46,7 +46,7 @@ end
 
 function PnlCampaign:onBtnClose()
     self:close()
-    gg.sceneManager:enterBaseScene(function()
+    gg.sceneManager:returnFormBatter(function()
     end)  
 end
 

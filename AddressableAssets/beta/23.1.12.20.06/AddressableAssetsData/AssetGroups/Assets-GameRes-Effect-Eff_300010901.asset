@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_300010901
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_300010901
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 84edd5ded739e964a8a94e06614bbbe8
+  m_SerializeEntries:
+  - m_GUID: d03317a16414b834493f303edc21ecb6
+    m_Address: Assets/GameRes/Effect/Eff_300010901/Eff_300010901_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6f89604f26479c4a963a7430fb69cd0
+    m_Address: Assets/GameRes/Effect/Eff_300010901/Eff_300010901.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59504656d13343748bf0ea9b8352dd9e
+    m_Address: Assets/GameRes/Effect/Eff_300010901/Eff_300010901_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1528ef08c43ea1d4c9f218f973a63a3e
+    m_Address: Assets/GameRes/Effect/Eff_300010901/Eff_300010901.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59de3a2b1bb23a742813de2f3c28cd83
+    m_Address: Assets/GameRes/Effect/Eff_300010901/Eff_300010901.skel.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 855d4e7cdb000ba4aa577d3ce27e0dca
+    m_Address: Assets/GameRes/Effect/Eff_300010901/Eff_300010901_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a7b73e1d01a349f498e1815a2dd99da4, type: 2}
+    - {fileID: 11400000, guid: 2665478b6720a1941975864dbf5c6ee8, type: 2}

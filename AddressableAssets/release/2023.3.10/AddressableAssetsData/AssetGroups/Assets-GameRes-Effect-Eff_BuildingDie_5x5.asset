@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Assets-GameRes-Effect-Eff_BuildingDie_5x5
+  m_EditorClassIdentifier: 
+  m_GroupName: Assets-GameRes-Effect-Eff_BuildingDie_5x5
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 42ae345d6bf9f4f4f9b692fe62a716ea
+  m_SerializeEntries:
+  - m_GUID: e9a17623873b6c1438f03b595667f90b
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/Eff_BuildingDie_5x5.atlas.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 26f69f4450d4cf646a6dd9a8811b3a78
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/Eff_BuildingDie_5x5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cebb3ce51856aa54a994dd2b03c67cbf
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/Eff_BuildingDie_5x5_Material-Additive.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f997e66746942bf438aa8a71892795b2
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/Eff_BuildingDie_5x5.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3169797dafaeef44855fee6d1686949
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/Explosion_002.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f8f8a419444f09d4283a6cf23955fdcf
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/Eff_BuildingDie_5x5_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d77680692c84e024abe8398b5292ef2f
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/Eff_BuildingDie_5x5_Atlas.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79484ccbb7c271b45984486997551119
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/particle_01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9d3e9d7d704c58f4e935af3970957a61
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/Eff_BuildingDie_5x5_Material-Screen.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a7e51c6ec6c9b334aad653b53854983a
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/Explosion_002.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4cd71e9f13ef0e142a6792f493a7b99b
+    m_Address: Assets/GameRes/Effect/Eff_BuildingDie_5x5/Eff_BuildingDie_5x5_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d96d1803a1e6ca04a9ba703a3d1bb9d8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 61de23124a3f18a4a8c50b47dae993db, type: 2}
+    - {fileID: 11400000, guid: c011aeb25da864d4e9096d813d6e6167, type: 2}

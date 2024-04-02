@@ -193,9 +193,9 @@ local function up(level, f)
     end
 end
 
----
---@param[type=string] var 
---@param[type=int,opt] level ,0,trace.trace
+---""
+--@param[type=string] var ""
+--@param[type=int,opt] level "",""0,""trace.trace""
 --@usage
 --trace.trace("a b c")
 --trace.trace("a b t1.k1.k2",5)
@@ -209,11 +209,11 @@ function trace.trace(var , level)
     debug.sethook(up(2 , hook(var or  "" , level or 0)) , 'cr')
 end
 
----
---@param[type=int,opt] level ,0
+---""
+--@param[type=int,opt] level "",""0
 --@usage
---trace.traceline()       -- trace.traceline
---trace.traceline(5)      -- ,5
+--trace.traceline()       -- ""trace.traceline""
+--trace.traceline(5)      -- "",""5
 function trace.traceline(level)
     if trace.on then
         return
@@ -240,7 +240,7 @@ function trace.traceline(level)
             elseif mode == "return" then
                 call = call - 1
                 if call < 0 then
-                    -- trace.tracecall
+                    -- ""trace.tracecall""
                     debug.sethook()
                     trace.on = nil
                     return
@@ -261,11 +261,11 @@ function trace.traceline(level)
     debug.sethook(up(2,hook(level or 0)),"crl")
 end
 
----
---@param[type=int,opt] level ,0
+---""
+--@param[type=int,opt] level "",""0
 --@usage
---trace.tracecall()       -- trace.tracecall
---trace.tracecall(5)      -- ,5
+--trace.tracecall()       -- ""trace.tracecall""
+--trace.tracecall(5)      -- "",""5
 function trace.tracecall(level)
     if trace.on then
         return
@@ -295,7 +295,7 @@ function trace.tracecall(level)
                 deepth = call
                 call = call - 1
                 if call < 0 then
-                    -- trace.tracecall
+                    -- ""trace.tracecall""
                     debug.sethook()
                     trace.on = nil
                     return
