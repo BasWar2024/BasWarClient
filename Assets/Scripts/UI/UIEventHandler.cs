@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class UIEventHandler : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler,
     IPointerDownHandler, IPointerUpHandler
@@ -23,6 +24,11 @@ public class UIEventHandler : MonoBehaviour, IPointerClickHandler, IPointerEnter
     private float longPressMinInterval = 0.1f;
     private float longPressCurInterval = 0f;
 
+    private bool isOnClick = false;
+    private float afterClickTime = 0f;
+    private Vector3 objSize;
+    private bool isDelay = true;
+
     public static UIEventHandler Get(GameObject go)
     {
         UIEventHandler handler = go.GetComponent<UIEventHandler>();
@@ -30,6 +36,9 @@ public class UIEventHandler : MonoBehaviour, IPointerClickHandler, IPointerEnter
         {
             handler = go.AddComponent<UIEventHandler>();
         }
+        
+        //RectTransform rectTransform = go.transform.GetComponent<RectTransform>();
+        //rectTransform.pivot = new Vector2(0.5f, 0.5f);
 
         return handler;
     }
@@ -74,7 +83,7 @@ public class UIEventHandler : MonoBehaviour, IPointerClickHandler, IPointerEnter
 
     private void Update()
     {
-        //ondraglongpress timer
+        //""，""，ondrag，""longpress timer""
         if(isPointerDown)
         {
             longPressTimer += Time.deltaTime;
@@ -103,14 +112,65 @@ public class UIEventHandler : MonoBehaviour, IPointerClickHandler, IPointerEnter
                 }
             }
         }
+        PlayClickAnimator();
+    }
+
+    float clickAnimatorTime = 0.2f;
+    float addSize = 0.1f;
+
+    private void afterClickEvent() {
+        isOnClick = true;
+        afterClickTime = 0f;
+        gameObject.transform.localScale = objSize;
+        
+    }
+
+    private void PlayClickAnimator() {
+        if (isOnClick) {
+            //isOnClick = false;
+            //OnClickInvoke();
+
+            afterClickTime += Time.deltaTime;
+            if (afterClickTime <= clickAnimatorTime / 2f)
+            {
+                float percent = afterClickTime / clickAnimatorTime * 2f;
+                float size = percent * addSize + 1f;
+                gameObject.transform.localScale = objSize * size;
+            }
+            else if (afterClickTime >= clickAnimatorTime / 2f && afterClickTime <= clickAnimatorTime)
+            {
+                float percent = 2 - afterClickTime / clickAnimatorTime * 2f;
+                float size = percent * addSize + 1;
+                gameObject.transform.localScale = objSize * size;
+            }
+            else if (afterClickTime >= clickAnimatorTime)
+            {
+                gameObject.transform.localScale = objSize;
+                isOnClick = false;
+                OnClickInvoke();
+            }
+
+        }
+    }
+
+    private void OnClickInvoke() {
+        onClick();//(gameObject, eventData);
+
+        ClickMark.getInstance().afterBtnClick = true;
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         if (onClick != null)
         {
-            onClick();//(gameObject, eventData);
-            ClickMark.getInstance().afterBtnClick = true;
+            if (isDelay) {
+                afterClickEvent();
+            }
+            else {
+                onClick();//(gameObject, eventData);
+
+                ClickMark.getInstance().afterBtnClick = true;
+            }
         }
     }
 
@@ -198,19 +258,42 @@ public class UIEventHandler : MonoBehaviour, IPointerClickHandler, IPointerEnter
 
         this.onPointerUp = onPointerUp;
     }
-    public void SetOnClick(Action onClick)
+    // public void SetOnClick(Action onClick)
+    // {
+    //     if (onClick == null)
+    //         return;
+
+    //     this.onClick = onClick;
+    // }
+
+    public void SetOnClick(Action onClick, String audioEvent = "event:/UI_button_click", String bank = "se_UI", bool isDelay = true)
     {
         if (onClick == null)
             return;
 
-        this.onClick = onClick;
+        objSize = transform.localScale;
+        this.isDelay = isDelay;
+        this.onClick = () => {
+            
+            onClick();
+            if(audioEvent != null && audioEvent != "")
+            {
+                //AudioFmodMgr.instance.PlaySFX(audioEvent);
+
+                AudioFmodMgr.instance.Play2DOneShot(audioEvent, bank);
+                //AudioMgr.instance.Play2DAudio(audioName);
+            }
+        };
     }
 
     public void InvokeOnClick()
     {
         if (onClick != null)
             onClick.Invoke();
+
     }
+
+   
 
     public void InvokeOnPointerDown()
     {
