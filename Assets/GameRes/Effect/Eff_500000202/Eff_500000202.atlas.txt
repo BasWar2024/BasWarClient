@@ -1,0 +1,118 @@
+
+Eff_500000202.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_500000202_00001
+  rotate: false
+  xy: 379, 37
+  size: 69, 92
+  orig: 144, 160
+  offset: 40, 34
+  index: -1
+res/Eff_500000202_00002
+  rotate: false
+  xy: 2, 383
+  size: 123, 127
+  orig: 144, 160
+  offset: 11, 14
+  index: -1
+res/Eff_500000202_00003
+  rotate: false
+  xy: 2, 254
+  size: 123, 127
+  orig: 144, 160
+  offset: 11, 14
+  index: -1
+res/Eff_500000202_00004
+  rotate: false
+  xy: 2, 125
+  size: 123, 127
+  orig: 144, 160
+  offset: 11, 14
+  index: -1
+res/Eff_500000202_00005
+  rotate: true
+  xy: 127, 387
+  size: 123, 127
+  orig: 144, 160
+  offset: 11, 14
+  index: -1
+res/Eff_500000202_00006
+  rotate: false
+  xy: 127, 258
+  size: 123, 127
+  orig: 144, 160
+  offset: 11, 14
+  index: -1
+res/Eff_500000202_00007
+  rotate: false
+  xy: 127, 129
+  size: 123, 127
+  orig: 144, 160
+  offset: 11, 14
+  index: -1
+res/Eff_500000202_00008
+  rotate: true
+  xy: 131, 4
+  size: 123, 127
+  orig: 144, 160
+  offset: 11, 14
+  index: -1
+res/Eff_500000202_00009
+  rotate: true
+  xy: 2, 2
+  size: 121, 127
+  orig: 144, 160
+  offset: 12, 14
+  index: -1
+res/Eff_500000202_00010
+  rotate: false
+  xy: 252, 258
+  size: 121, 127
+  orig: 144, 160
+  offset: 12, 14
+  index: -1
+res/Eff_500000202_00011
+  rotate: true
+  xy: 256, 389
+  size: 121, 127
+  orig: 144, 160
+  offset: 12, 14
+  index: -1
+res/Eff_500000202_00012
+  rotate: false
+  xy: 252, 131
+  size: 120, 125
+  orig: 144, 160
+  offset: 13, 14
+  index: -1
+res/Eff_500000202_00013
+  rotate: false
+  xy: 260, 4
+  size: 117, 125
+  orig: 144, 160
+  offset: 15, 14
+  index: -1
+res/Eff_500000202_00014
+  rotate: false
+  xy: 374, 131
+  size: 116, 125
+  orig: 144, 160
+  offset: 15, 14
+  index: -1
+res/Eff_500000202_00015
+  rotate: false
+  xy: 127, 126
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_500000202_00000
+  rotate: false
+  xy: 127, 126
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

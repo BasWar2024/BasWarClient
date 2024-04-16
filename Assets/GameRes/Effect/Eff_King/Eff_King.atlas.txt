@@ -1,0 +1,118 @@
+
+Eff_King.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiaoshi/movie_019_00000
+  rotate: false
+  xy: 2, 459
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+xiaoshi/movie_019_00001
+  rotate: false
+  xy: 33, 365
+  size: 95, 95
+  orig: 126, 140
+  offset: 16, 25
+  index: -1
+xiaoshi/movie_019_00002
+  rotate: true
+  xy: 242, 356
+  size: 104, 105
+  orig: 126, 140
+  offset: 11, 20
+  index: -1
+xiaoshi/movie_019_00003
+  rotate: false
+  xy: 120, 251
+  size: 109, 109
+  orig: 126, 140
+  offset: 9, 18
+  index: -1
+xiaoshi/movie_019_00004
+  rotate: false
+  xy: 347, 243
+  size: 112, 111
+  orig: 126, 140
+  offset: 7, 17
+  index: -1
+xiaoshi/movie_019_00005
+  rotate: false
+  xy: 2, 143
+  size: 112, 111
+  orig: 126, 140
+  offset: 7, 17
+  index: -1
+xiaoshi/movie_019_00006
+  rotate: false
+  xy: 347, 129
+  size: 112, 112
+  orig: 126, 140
+  offset: 8, 17
+  index: -1
+xiaoshi/movie_019_00007
+  rotate: false
+  xy: 2, 23
+  size: 113, 113
+  orig: 126, 140
+  offset: 7, 18
+  index: -1
+xiaoshi/movie_019_00008
+  rotate: false
+  xy: 117, 16
+  size: 113, 113
+  orig: 126, 140
+  offset: 6, 19
+  index: -1
+xiaoshi/movie_019_00009
+  rotate: true
+  xy: 231, 244
+  size: 110, 114
+  orig: 126, 140
+  offset: 9, 19
+  index: -1
+xiaoshi/movie_019_00010
+  rotate: true
+  xy: 116, 138
+  size: 111, 113
+  orig: 126, 140
+  offset: 8, 21
+  index: -1
+xiaoshi/movie_019_00011
+  rotate: false
+  xy: 231, 131
+  size: 114, 111
+  orig: 126, 140
+  offset: 6, 23
+  index: -1
+xiaoshi/movie_019_00012
+  rotate: false
+  xy: 2, 256
+  size: 116, 107
+  orig: 126, 140
+  offset: 6, 25
+  index: -1
+xiaoshi/movie_019_00013
+  rotate: false
+  xy: 349, 356
+  size: 111, 104
+  orig: 126, 140
+  offset: 9, 28
+  index: -1
+xiaoshi/movie_019_00014
+  rotate: false
+  xy: 130, 362
+  size: 110, 98
+  orig: 126, 140
+  offset: 11, 34
+  index: -1
+xiaoshi/movie_019_00015
+  rotate: false
+  xy: 5, 436
+  size: 26, 24
+  orig: 126, 140
+  offset: 50, 57
+  index: -1

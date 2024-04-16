@@ -1,0 +1,181 @@
+
+Eff_Solidus.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/buff_fire_b_00000
+  rotate: false
+  xy: 185, 760
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+1/buff_fire_b_00001
+  rotate: true
+  xy: 2, 544
+  size: 188, 193
+  orig: 252, 280
+  offset: 37, 30
+  index: -1
+1/buff_fire_b_00002
+  rotate: true
+  xy: 2, 360
+  size: 182, 181
+  orig: 252, 280
+  offset: 39, 37
+  index: -1
+1/buff_fire_b_00003
+  rotate: true
+  xy: 197, 385
+  size: 181, 189
+  orig: 252, 280
+  offset: 40, 37
+  index: -1
+1/buff_fire_b_00004
+  rotate: true
+  xy: 185, 763
+  size: 182, 194
+  orig: 252, 280
+  offset: 39, 37
+  index: -1
+1/buff_fire_b_00005
+  rotate: false
+  xy: 197, 568
+  size: 181, 193
+  orig: 252, 280
+  offset: 40, 38
+  index: -1
+1/buff_fire_b_00006
+  rotate: false
+  xy: 2, 734
+  size: 181, 211
+  orig: 252, 280
+  offset: 40, 18
+  index: -1
+1/buff_fire_b_00007
+  rotate: false
+  xy: 381, 764
+  size: 182, 181
+  orig: 252, 280
+  offset: 39, 37
+  index: -1
+1/buff_fire_b_00008
+  rotate: false
+  xy: 381, 581
+  size: 182, 181
+  orig: 252, 280
+  offset: 39, 37
+  index: -1
+1/buff_fire_b_00009
+  rotate: false
+  xy: 388, 398
+  size: 181, 181
+  orig: 252, 280
+  offset: 40, 37
+  index: -1
+1/buff_fire_b_00010
+  rotate: false
+  xy: 565, 765
+  size: 182, 180
+  orig: 252, 280
+  offset: 39, 38
+  index: -1
+1/buff_fire_b_00011
+  rotate: false
+  xy: 565, 583
+  size: 181, 180
+  orig: 252, 280
+  offset: 40, 37
+  index: -1
+1/buff_fire_b_00012
+  rotate: false
+  xy: 388, 218
+  size: 179, 178
+  orig: 252, 280
+  offset: 42, 39
+  index: -1
+1/buff_fire_b_00013
+  rotate: true
+  xy: 2, 179
+  size: 179, 177
+  orig: 252, 280
+  offset: 42, 39
+  index: -1
+1/buff_fire_b_00014
+  rotate: true
+  xy: 181, 180
+  size: 178, 174
+  orig: 252, 280
+  offset: 42, 40
+  index: -1
+1/buff_fire_b_00015
+  rotate: true
+  xy: 181, 2
+  size: 176, 172
+  orig: 252, 280
+  offset: 43, 42
+  index: -1
+1/buff_fire_b_00016
+  rotate: true
+  xy: 569, 216
+  size: 180, 172
+  orig: 252, 280
+  offset: 39, 42
+  index: -1
+1/buff_fire_b_00017
+  rotate: true
+  xy: 357, 39
+  size: 177, 172
+  orig: 252, 280
+  offset: 43, 42
+  index: -1
+1/buff_fire_b_00018
+  rotate: true
+  xy: 2, 4
+  size: 173, 169
+  orig: 252, 280
+  offset: 44, 43
+  index: -1
+1/buff_fire_b_00019
+  rotate: false
+  xy: 571, 412
+  size: 170, 169
+  orig: 252, 280
+  offset: 45, 43
+  index: -1
+1/buff_fire_b_00020
+  rotate: true
+  xy: 531, 46
+  size: 168, 170
+  orig: 252, 280
+  offset: 47, 40
+  index: -1
+1/buff_fire_b_00021
+  rotate: true
+  xy: 703, 48
+  size: 166, 167
+  orig: 252, 280
+  offset: 47, 42
+  index: -1
+1/buff_fire_b_00022
+  rotate: true
+  xy: 743, 418
+  size: 163, 161
+  orig: 252, 280
+  offset: 49, 46
+  index: -1
+1/buff_fire_b_00023
+  rotate: false
+  xy: 748, 609
+  size: 159, 154
+  orig: 252, 280
+  offset: 51, 51
+  index: -1
+1/buff_fire_b_00024
+  rotate: false
+  xy: 749, 801
+  size: 149, 144
+  orig: 252, 280
+  offset: 55, 56
+  index: -1

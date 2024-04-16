@@ -1,0 +1,160 @@
+
+Eff_Hero circle.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eff_Hero circle/Eff_Hero circle_00000
+  rotate: false
+  xy: 2, 2
+  size: 188, 202
+  orig: 230, 230
+  offset: 20, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00001
+  rotate: false
+  xy: 2, 2
+  size: 188, 202
+  orig: 230, 230
+  offset: 20, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00002
+  rotate: false
+  xy: 570, 818
+  size: 181, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00003
+  rotate: false
+  xy: 2, 410
+  size: 190, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00004
+  rotate: false
+  xy: 192, 2
+  size: 188, 202
+  orig: 230, 230
+  offset: 20, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00005
+  rotate: false
+  xy: 567, 206
+  size: 182, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00006
+  rotate: false
+  xy: 567, 2
+  size: 182, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00007
+  rotate: false
+  xy: 195, 614
+  size: 185, 202
+  orig: 230, 230
+  offset: 20, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00008
+  rotate: false
+  xy: 382, 2
+  size: 183, 202
+  orig: 230, 230
+  offset: 20, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00009
+  rotate: false
+  xy: 194, 410
+  size: 187, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00010
+  rotate: false
+  xy: 196, 818
+  size: 185, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00011
+  rotate: false
+  xy: 382, 614
+  size: 185, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00012
+  rotate: false
+  xy: 2, 818
+  size: 192, 202
+  orig: 230, 230
+  offset: 20, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00013
+  rotate: false
+  xy: 2, 614
+  size: 191, 202
+  orig: 230, 230
+  offset: 20, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00014
+  rotate: false
+  xy: 2, 206
+  size: 190, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00015
+  rotate: false
+  xy: 383, 818
+  size: 185, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00016
+  rotate: false
+  xy: 750, 410
+  size: 177, 202
+  orig: 230, 230
+  offset: 23, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00017
+  rotate: false
+  xy: 381, 206
+  size: 184, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00018
+  rotate: false
+  xy: 194, 206
+  size: 185, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00019
+  rotate: false
+  xy: 569, 410
+  size: 179, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00020
+  rotate: false
+  xy: 569, 614
+  size: 182, 202
+  orig: 230, 230
+  offset: 20, 28
+  index: -1
+Eff_Hero circle/Eff_Hero circle_00021
+  rotate: false
+  xy: 383, 410
+  size: 184, 202
+  orig: 230, 230
+  offset: 21, 28
+  index: -1

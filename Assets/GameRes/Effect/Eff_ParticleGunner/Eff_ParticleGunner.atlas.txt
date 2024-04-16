@@ -1,0 +1,223 @@
+
+Eff_ParticleGunner.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eff_ParticleGunner_00000
+  rotate: false
+  xy: 48, 44
+  size: 17, 17
+  orig: 115, 115
+  offset: 49, 51
+  index: -1
+Eff_ParticleGunner_00001
+  rotate: false
+  xy: 48, 44
+  size: 17, 17
+  orig: 115, 115
+  offset: 49, 51
+  index: -1
+Eff_ParticleGunner_00002
+  rotate: true
+  xy: 282, 5
+  size: 69, 68
+  orig: 115, 115
+  offset: 22, 20
+  index: -1
+Eff_ParticleGunner_00003
+  rotate: true
+  xy: 378, 433
+  size: 75, 77
+  orig: 115, 115
+  offset: 21, 18
+  index: -1
+Eff_ParticleGunner_00004
+  rotate: false
+  xy: 378, 354
+  size: 75, 77
+  orig: 115, 115
+  offset: 21, 18
+  index: -1
+Eff_ParticleGunner_00005
+  rotate: true
+  xy: 352, 3
+  size: 78, 88
+  orig: 115, 115
+  offset: 21, 13
+  index: -1
+Eff_ParticleGunner_00006
+  rotate: false
+  xy: 374, 87
+  size: 83, 96
+  orig: 115, 115
+  offset: 19, 10
+  index: -1
+Eff_ParticleGunner_00007
+  rotate: false
+  xy: 376, 202
+  size: 83, 96
+  orig: 115, 115
+  offset: 19, 10
+  index: -1
+Eff_ParticleGunner_00008
+  rotate: false
+  xy: 289, 300
+  size: 87, 102
+  orig: 115, 115
+  offset: 18, 7
+  index: -1
+Eff_ParticleGunner_00009
+  rotate: false
+  xy: 198, 404
+  size: 91, 104
+  orig: 115, 115
+  offset: 17, 7
+  index: -1
+Eff_ParticleGunner_00010
+  rotate: false
+  xy: 102, 401
+  size: 94, 107
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00011
+  rotate: false
+  xy: 102, 401
+  size: 94, 107
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00012
+  rotate: false
+  xy: 100, 64
+  size: 95, 108
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00013
+  rotate: false
+  xy: 2, 63
+  size: 96, 109
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00014
+  rotate: false
+  xy: 2, 63
+  size: 96, 109
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00015
+  rotate: false
+  xy: 2, 286
+  size: 97, 110
+  orig: 115, 115
+  offset: 16, 4
+  index: -1
+Eff_ParticleGunner_00016
+  rotate: false
+  xy: 2, 174
+  size: 97, 110
+  orig: 115, 115
+  offset: 16, 4
+  index: -1
+Eff_ParticleGunner_00017
+  rotate: false
+  xy: 2, 174
+  size: 97, 110
+  orig: 115, 115
+  offset: 16, 4
+  index: -1
+Eff_ParticleGunner_00018
+  rotate: false
+  xy: 2, 398
+  size: 98, 110
+  orig: 115, 115
+  offset: 16, 4
+  index: -1
+Eff_ParticleGunner_00019
+  rotate: false
+  xy: 101, 286
+  size: 92, 110
+  orig: 115, 115
+  offset: 16, 4
+  index: -1
+Eff_ParticleGunner_00020
+  rotate: false
+  xy: 101, 176
+  size: 92, 108
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00021
+  rotate: false
+  xy: 101, 176
+  size: 92, 108
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00022
+  rotate: false
+  xy: 195, 292
+  size: 92, 107
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00023
+  rotate: false
+  xy: 195, 184
+  size: 89, 106
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00024
+  rotate: false
+  xy: 197, 76
+  size: 89, 106
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00025
+  rotate: false
+  xy: 286, 185
+  size: 88, 105
+  orig: 115, 115
+  offset: 16, 5
+  index: -1
+Eff_ParticleGunner_00026
+  rotate: false
+  xy: 291, 405
+  size: 85, 103
+  orig: 115, 115
+  offset: 17, 5
+  index: -1
+Eff_ParticleGunner_00027
+  rotate: false
+  xy: 291, 405
+  size: 85, 103
+  orig: 115, 115
+  offset: 17, 5
+  index: -1
+Eff_ParticleGunner_00028
+  rotate: false
+  xy: 288, 83
+  size: 84, 100
+  orig: 115, 115
+  offset: 17, 6
+  index: -1
+Eff_ParticleGunner_00029
+  rotate: false
+  xy: 197, 2
+  size: 83, 72
+  orig: 115, 115
+  offset: 17, 34
+  index: -1
+Eff_ParticleGunner_00030
+  rotate: false
+  xy: 2, 8
+  size: 44, 53
+  orig: 115, 115
+  offset: 43, 36
+  index: -1

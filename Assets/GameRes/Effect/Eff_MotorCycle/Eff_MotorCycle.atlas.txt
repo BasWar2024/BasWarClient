@@ -1,0 +1,216 @@
+
+Eff_MotorCycle.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_MotorCycle 2_00000
+  rotate: false
+  xy: 105, 159
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_MotorCycle 2_00001
+  rotate: true
+  xy: 410, 369
+  size: 46, 45
+  orig: 180, 200
+  offset: 65, 79
+  index: -1
+res/Eff_MotorCycle 2_00002
+  rotate: false
+  xy: 375, 8
+  size: 62, 62
+  orig: 180, 200
+  offset: 57, 70
+  index: -1
+res/Eff_MotorCycle 2_00003
+  rotate: false
+  xy: 2, 60
+  size: 101, 100
+  orig: 180, 200
+  offset: 39, 50
+  index: -1
+res/Eff_MotorCycle 2_00004
+  rotate: false
+  xy: 214, 402
+  size: 104, 108
+  orig: 180, 200
+  offset: 38, 45
+  index: -1
+res/Eff_MotorCycle 2_00005
+  rotate: false
+  xy: 2, 162
+  size: 104, 114
+  orig: 180, 200
+  offset: 38, 43
+  index: -1
+res/Eff_MotorCycle 2_00006
+  rotate: false
+  xy: 2, 395
+  size: 104, 115
+  orig: 180, 200
+  offset: 38, 43
+  index: -1
+res/Eff_MotorCycle 2_00007
+  rotate: false
+  xy: 2, 278
+  size: 104, 115
+  orig: 180, 200
+  offset: 38, 43
+  index: -1
+res/Eff_MotorCycle 2_00008
+  rotate: false
+  xy: 108, 395
+  size: 104, 115
+  orig: 180, 200
+  offset: 38, 43
+  index: -1
+res/Eff_MotorCycle 2_00009
+  rotate: false
+  xy: 108, 280
+  size: 104, 113
+  orig: 180, 200
+  offset: 38, 44
+  index: -1
+res/Eff_MotorCycle 2_00010
+  rotate: false
+  xy: 108, 183
+  size: 96, 95
+  orig: 180, 200
+  offset: 38, 58
+  index: -1
+res/Eff_MotorCycle 2_00011
+  rotate: false
+  xy: 214, 305
+  size: 96, 95
+  orig: 180, 200
+  offset: 38, 58
+  index: -1
+res/Eff_MotorCycle 2_00012
+  rotate: false
+  xy: 320, 417
+  size: 94, 93
+  orig: 180, 200
+  offset: 38, 60
+  index: -1
+res/Eff_MotorCycle 2_00013
+  rotate: false
+  xy: 416, 418
+  size: 94, 92
+  orig: 180, 200
+  offset: 38, 61
+  index: -1
+res/Eff_MotorCycle 2_00014
+  rotate: false
+  xy: 214, 215
+  size: 93, 88
+  orig: 180, 200
+  offset: 38, 64
+  index: -1
+res/Eff_MotorCycle 2_00015
+  rotate: false
+  xy: 206, 127
+  size: 93, 86
+  orig: 180, 200
+  offset: 38, 66
+  index: -1
+res/Eff_MotorCycle 2_00016
+  rotate: false
+  xy: 105, 7
+  size: 92, 86
+  orig: 180, 200
+  offset: 38, 66
+  index: -1
+res/Eff_MotorCycle 2_00017
+  rotate: false
+  xy: 108, 95
+  size: 93, 86
+  orig: 180, 200
+  offset: 38, 66
+  index: -1
+res/Eff_MotorCycle 2_00018
+  rotate: false
+  xy: 203, 39
+  size: 92, 86
+  orig: 180, 200
+  offset: 38, 67
+  index: -1
+res/Eff_MotorCycle 2_00019
+  rotate: false
+  xy: 320, 330
+  size: 88, 85
+  orig: 180, 200
+  offset: 42, 67
+  index: -1
+res/Eff_MotorCycle 2_00020
+  rotate: false
+  xy: 312, 244
+  size: 87, 84
+  orig: 180, 200
+  offset: 43, 68
+  index: -1
+res/Eff_MotorCycle 2_00021
+  rotate: false
+  xy: 309, 158
+  size: 87, 84
+  orig: 180, 200
+  offset: 43, 68
+  index: -1
+res/Eff_MotorCycle 2_00022
+  rotate: false
+  xy: 301, 72
+  size: 86, 84
+  orig: 180, 200
+  offset: 43, 68
+  index: -1
+res/Eff_MotorCycle 2_00023
+  rotate: false
+  xy: 401, 242
+  size: 73, 86
+  orig: 180, 200
+  offset: 56, 67
+  index: -1
+res/Eff_MotorCycle 2_00024
+  rotate: false
+  xy: 398, 163
+  size: 69, 77
+  orig: 180, 200
+  offset: 60, 68
+  index: -1
+res/Eff_MotorCycle 2_00025
+  rotate: true
+  xy: 297, 8
+  size: 62, 76
+  orig: 180, 200
+  offset: 63, 69
+  index: -1
+res/Eff_MotorCycle 2_00026
+  rotate: true
+  xy: 2, 5
+  size: 53, 59
+  orig: 180, 200
+  offset: 67, 74
+  index: -1
+res/Eff_MotorCycle 2_00027
+  rotate: false
+  xy: 389, 102
+  size: 50, 54
+  orig: 180, 200
+  offset: 68, 78
+  index: -1
+res/Eff_MotorCycle 2_00028
+  rotate: false
+  xy: 441, 107
+  size: 49, 54
+  orig: 180, 200
+  offset: 69, 78
+  index: -1
+res/Eff_MotorCycle 2_00029
+  rotate: false
+  xy: 469, 193
+  size: 41, 47
+  orig: 180, 200
+  offset: 76, 82
+  index: -1

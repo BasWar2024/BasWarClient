@@ -1,0 +1,153 @@
+
+Eff_Inosculans.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/Eff_lnosculans_00000
+  rotate: false
+  xy: 226, 674
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+1/Eff_lnosculans_00020
+  rotate: false
+  xy: 226, 674
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+1/Eff_lnosculans_00001
+  rotate: true
+  xy: 743, 56
+  size: 155, 139
+  orig: 256, 256
+  offset: 71, 58
+  index: -1
+1/Eff_lnosculans_00002
+  rotate: false
+  xy: 573, 57
+  size: 168, 154
+  orig: 256, 256
+  offset: 50, 52
+  index: -1
+1/Eff_lnosculans_00003
+  rotate: true
+  xy: 403, 34
+  size: 189, 168
+  orig: 256, 256
+  offset: 26, 47
+  index: -1
+1/Eff_lnosculans_00004
+  rotate: true
+  xy: 641, 213
+  size: 211, 185
+  orig: 256, 256
+  offset: 8, 35
+  index: -1
+1/Eff_lnosculans_00005
+  rotate: true
+  xy: 2, 222
+  size: 218, 202
+  orig: 256, 256
+  offset: 1, 21
+  index: -1
+1/Eff_lnosculans_00006
+  rotate: true
+  xy: 2, 2
+  size: 218, 190
+  orig: 256, 256
+  offset: 2, 26
+  index: -1
+1/Eff_lnosculans_00007
+  rotate: true
+  xy: 206, 25
+  size: 211, 195
+  orig: 256, 256
+  offset: 14, 26
+  index: -1
+1/Eff_lnosculans_00008
+  rotate: false
+  xy: 409, 225
+  size: 230, 199
+  orig: 256, 256
+  offset: 1, 27
+  index: -1
+1/Eff_lnosculans_00009
+  rotate: false
+  xy: 469, 690
+  size: 231, 205
+  orig: 256, 256
+  offset: 1, 25
+  index: -1
+1/Eff_lnosculans_00010
+  rotate: false
+  xy: 226, 450
+  size: 232, 207
+  orig: 256, 256
+  offset: 1, 24
+  index: -1
+1/Eff_lnosculans_00011
+  rotate: true
+  xy: 460, 426
+  size: 231, 215
+  orig: 256, 256
+  offset: 1, 19
+  index: -1
+1/Eff_lnosculans_00012
+  rotate: true
+  xy: 2, 442
+  size: 233, 222
+  orig: 256, 256
+  offset: 1, 16
+  index: -1
+1/Eff_lnosculans_00013
+  rotate: true
+  xy: 241, 659
+  size: 236, 226
+  orig: 256, 256
+  offset: 1, 8
+  index: -1
+1/Eff_lnosculans_00014
+  rotate: false
+  xy: 2, 677
+  size: 237, 218
+  orig: 256, 256
+  offset: 1, 6
+  index: -1
+1/Eff_lnosculans_00015
+  rotate: false
+  xy: 206, 238
+  size: 201, 202
+  orig: 256, 256
+  offset: 4, 18
+  index: -1
+1/Eff_lnosculans_00016
+  rotate: false
+  xy: 677, 507
+  size: 192, 181
+  orig: 256, 256
+  offset: 8, 34
+  index: -1
+1/Eff_lnosculans_00017
+  rotate: false
+  xy: 702, 715
+  size: 185, 180
+  orig: 256, 256
+  offset: 9, 40
+  index: -1
+1/Eff_lnosculans_00018
+  rotate: true
+  xy: 677, 436
+  size: 69, 113
+  orig: 256, 256
+  offset: 121, 108
+  index: -1
+1/Eff_lnosculans_00019
+  rotate: true
+  xy: 469, 674
+  size: 14, 17
+  orig: 256, 256
+  offset: 171, 210
+  index: -1

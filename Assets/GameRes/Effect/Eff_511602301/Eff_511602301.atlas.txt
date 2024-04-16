@@ -1,0 +1,223 @@
+
+Eff_511602301.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eff_511602301/Eff_511602301_00000
+  rotate: false
+  xy: 2, 999
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Eff_511602301/Eff_511602301_00001
+  rotate: true
+  xy: 5, 910
+  size: 90, 120
+  orig: 162, 180
+  offset: 39, 30
+  index: -1
+Eff_511602301/Eff_511602301_00002
+  rotate: true
+  xy: 832, 210
+  size: 162, 168
+  orig: 162, 180
+  offset: 0, 3
+  index: -1
+Eff_511602301/Eff_511602301_00003
+  rotate: true
+  xy: 2, 391
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00004
+  rotate: true
+  xy: 168, 383
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00005
+  rotate: true
+  xy: 334, 378
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00006
+  rotate: true
+  xy: 500, 374
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00007
+  rotate: true
+  xy: 666, 374
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00008
+  rotate: true
+  xy: 832, 374
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00009
+  rotate: true
+  xy: 2, 231
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00010
+  rotate: true
+  xy: 168, 223
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00011
+  rotate: true
+  xy: 334, 218
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00012
+  rotate: true
+  xy: 500, 214
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00013
+  rotate: true
+  xy: 666, 214
+  size: 158, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00014
+  rotate: true
+  xy: 2, 551
+  size: 156, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00015
+  rotate: true
+  xy: 168, 543
+  size: 156, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00016
+  rotate: true
+  xy: 334, 538
+  size: 156, 164
+  orig: 162, 180
+  offset: 4, 4
+  index: -1
+Eff_511602301/Eff_511602301_00017
+  rotate: true
+  xy: 500, 535
+  size: 156, 161
+  orig: 162, 180
+  offset: 5, 5
+  index: -1
+Eff_511602301/Eff_511602301_00018
+  rotate: true
+  xy: 663, 534
+  size: 157, 161
+  orig: 162, 180
+  offset: 5, 5
+  index: -1
+Eff_511602301/Eff_511602301_00019
+  rotate: true
+  xy: 470, 696
+  size: 153, 161
+  orig: 162, 180
+  offset: 5, 5
+  index: -1
+Eff_511602301/Eff_511602301_00020
+  rotate: true
+  xy: 633, 693
+  size: 155, 161
+  orig: 162, 180
+  offset: 3, 5
+  index: -1
+Eff_511602301/Eff_511602301_00021
+  rotate: true
+  xy: 796, 693
+  size: 155, 161
+  orig: 162, 180
+  offset: 3, 5
+  index: -1
+Eff_511602301/Eff_511602301_00022
+  rotate: true
+  xy: 826, 534
+  size: 157, 161
+  orig: 162, 180
+  offset: 1, 5
+  index: -1
+Eff_511602301/Eff_511602301_00023
+  rotate: true
+  xy: 580, 851
+  size: 149, 158
+  orig: 162, 180
+  offset: 7, 7
+  index: -1
+Eff_511602301/Eff_511602301_00024
+  rotate: true
+  xy: 420, 853
+  size: 147, 158
+  orig: 162, 180
+  offset: 9, 7
+  index: -1
+Eff_511602301/Eff_511602301_00025
+  rotate: true
+  xy: 740, 850
+  size: 150, 156
+  orig: 162, 180
+  offset: 7, 8
+  index: -1
+Eff_511602301/Eff_511602301_00026
+  rotate: true
+  xy: 2, 712
+  size: 150, 156
+  orig: 162, 180
+  offset: 7, 8
+  index: -1
+Eff_511602301/Eff_511602301_00027
+  rotate: true
+  xy: 160, 709
+  size: 150, 154
+  orig: 162, 180
+  offset: 7, 9
+  index: -1
+Eff_511602301/Eff_511602301_00028
+  rotate: true
+  xy: 316, 701
+  size: 150, 152
+  orig: 162, 180
+  offset: 7, 10
+  index: -1
+Eff_511602301/Eff_511602301_00029
+  rotate: true
+  xy: 270, 861
+  size: 139, 148
+  orig: 162, 180
+  offset: 10, 12
+  index: -1
+Eff_511602301/Eff_511602301_00030
+  rotate: true
+  xy: 127, 864
+  size: 136, 141
+  orig: 162, 180
+  offset: 10, 15
+  index: -1

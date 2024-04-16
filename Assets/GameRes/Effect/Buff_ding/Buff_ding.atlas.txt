@@ -1,0 +1,174 @@
+
+Buff_ding.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Buff_Fire.00000
+  rotate: true
+  xy: 312, 431
+  size: 79, 112
+  orig: 113, 113
+  offset: 15, 1
+  index: -1
+Buff_Fire.00001
+  rotate: false
+  xy: 424, 305
+  size: 84, 96
+  orig: 113, 113
+  offset: 14, 5
+  index: -1
+Buff_Fire.00002
+  rotate: false
+  xy: 90, 64
+  size: 78, 104
+  orig: 113, 113
+  offset: 12, 0
+  index: -1
+Buff_Fire.00003
+  rotate: false
+  xy: 280, 61
+  size: 76, 100
+  orig: 113, 113
+  offset: 14, 5
+  index: -1
+Buff_Fire.00004
+  rotate: false
+  xy: 358, 58
+  size: 75, 104
+  orig: 113, 113
+  offset: 14, 6
+  index: -1
+Buff_Fire.00005
+  rotate: false
+  xy: 431, 197
+  size: 74, 106
+  orig: 113, 113
+  offset: 15, 5
+  index: -1
+Buff_Fire.00006
+  rotate: true
+  xy: 180, 272
+  size: 73, 108
+  orig: 113, 113
+  offset: 16, 5
+  index: -1
+Buff_Fire.00007
+  rotate: true
+  xy: 313, 273
+  size: 73, 109
+  orig: 113, 113
+  offset: 16, 4
+  index: -1
+Buff_Fire.00008
+  rotate: false
+  xy: 2, 397
+  size: 102, 113
+  orig: 113, 113
+  offset: 3, 0
+  index: -1
+Buff_Fire.00009
+  rotate: false
+  xy: 426, 403
+  size: 84, 107
+  orig: 113, 113
+  offset: 18, 6
+  index: -1
+Buff_Fire.00010
+  rotate: false
+  xy: 2, 282
+  size: 97, 113
+  orig: 113, 113
+  offset: 3, 0
+  index: -1
+Buff_Fire.00011
+  rotate: true
+  xy: 198, 424
+  size: 86, 112
+  orig: 113, 113
+  offset: 5, 1
+  index: -1
+Buff_Fire.00012
+  rotate: true
+  xy: 170, 48
+  size: 72, 107
+  orig: 113, 113
+  offset: 17, 6
+  index: -1
+Buff_Fire.00013
+  rotate: false
+  xy: 2, 167
+  size: 86, 113
+  orig: 113, 113
+  offset: 15, 0
+  index: -1
+Buff_Fire.00014
+  rotate: false
+  xy: 90, 170
+  size: 78, 110
+  orig: 113, 113
+  offset: 19, 3
+  index: -1
+Buff_Fire.00015
+  rotate: true
+  xy: 198, 347
+  size: 75, 113
+  orig: 113, 113
+  offset: 18, 0
+  index: -1
+Buff_Fire.00016
+  rotate: false
+  xy: 106, 400
+  size: 90, 110
+  orig: 113, 113
+  offset: 14, 3
+  index: -1
+Buff_Fire.00017
+  rotate: false
+  xy: 101, 286
+  size: 77, 109
+  orig: 113, 113
+  offset: 19, 4
+  index: -1
+Buff_Fire.00018
+  rotate: false
+  xy: 2, 56
+  size: 84, 109
+  orig: 113, 113
+  offset: 19, 4
+  index: -1
+Buff_Fire.00019
+  rotate: true
+  xy: 313, 348
+  size: 81, 109
+  orig: 113, 113
+  offset: 18, 4
+  index: -1
+Buff_Fire.00020
+  rotate: true
+  xy: 170, 122
+  size: 71, 108
+  orig: 113, 113
+  offset: 18, 5
+  index: -1
+Buff_Fire.00021
+  rotate: false
+  xy: 280, 163
+  size: 73, 107
+  orig: 113, 113
+  offset: 17, 6
+  index: -1
+Buff_Fire.00022
+  rotate: true
+  xy: 170, 195
+  size: 75, 108
+  orig: 113, 113
+  offset: 15, 5
+  index: -1
+Buff_Fire.00023
+  rotate: false
+  xy: 355, 164
+  size: 74, 107
+  orig: 113, 113
+  offset: 16, 6
+  index: -1

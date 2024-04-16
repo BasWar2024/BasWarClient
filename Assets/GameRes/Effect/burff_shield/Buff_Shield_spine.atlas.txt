@@ -1,0 +1,174 @@
+
+Buff_Shield_spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Buff_Shield/Buff_Shield.00000
+  rotate: true
+  xy: 821, 350
+  size: 170, 201
+  orig: 240, 240
+  offset: 37, 39
+  index: -1
+Buff_Shield/Buff_Shield.00001
+  rotate: true
+  xy: 2, 354
+  size: 169, 201
+  orig: 240, 240
+  offset: 37, 39
+  index: -1
+Buff_Shield/Buff_Shield.00002
+  rotate: true
+  xy: 203, 525
+  size: 167, 201
+  orig: 240, 240
+  offset: 38, 39
+  index: -1
+Buff_Shield/Buff_Shield.00003
+  rotate: true
+  xy: 601, 692
+  size: 165, 200
+  orig: 240, 240
+  offset: 39, 40
+  index: -1
+Buff_Shield/Buff_Shield.00004
+  rotate: true
+  xy: 399, 694
+  size: 164, 200
+  orig: 240, 240
+  offset: 39, 40
+  index: -1
+Buff_Shield/Buff_Shield.00005
+  rotate: true
+  xy: 602, 859
+  size: 163, 200
+  orig: 240, 240
+  offset: 39, 40
+  index: -1
+Buff_Shield/Buff_Shield.00006
+  rotate: true
+  xy: 804, 859
+  size: 163, 199
+  orig: 240, 240
+  offset: 39, 41
+  index: -1
+Buff_Shield/Buff_Shield.00007
+  rotate: true
+  xy: 2, 860
+  size: 162, 199
+  orig: 240, 240
+  offset: 40, 41
+  index: -1
+Buff_Shield/Buff_Shield.00008
+  rotate: true
+  xy: 203, 860
+  size: 162, 198
+  orig: 240, 240
+  offset: 40, 42
+  index: -1
+Buff_Shield/Buff_Shield.00009
+  rotate: true
+  xy: 2, 695
+  size: 163, 197
+  orig: 240, 240
+  offset: 40, 43
+  index: -1
+Buff_Shield/Buff_Shield.00010
+  rotate: true
+  xy: 201, 695
+  size: 163, 196
+  orig: 240, 240
+  offset: 41, 44
+  index: -1
+Buff_Shield/Buff_Shield.00011
+  rotate: true
+  xy: 403, 860
+  size: 162, 197
+  orig: 240, 240
+  offset: 41, 43
+  index: -1
+Buff_Shield/Buff_Shield.00012
+  rotate: true
+  xy: 803, 692
+  size: 165, 198
+  orig: 240, 240
+  offset: 40, 42
+  index: -1
+Buff_Shield/Buff_Shield.00013
+  rotate: true
+  xy: 2, 527
+  size: 166, 199
+  orig: 240, 240
+  offset: 39, 41
+  index: -1
+Buff_Shield/Buff_Shield.00014
+  rotate: true
+  xy: 406, 523
+  size: 167, 200
+  orig: 240, 240
+  offset: 38, 40
+  index: -1
+Buff_Shield/Buff_Shield.00015
+  rotate: true
+  xy: 608, 523
+  size: 167, 200
+  orig: 240, 240
+  offset: 38, 40
+  index: -1
+Buff_Shield/Buff_Shield.00016
+  rotate: true
+  xy: 810, 522
+  size: 168, 201
+  orig: 240, 240
+  offset: 38, 39
+  index: -1
+Buff_Shield/Buff_Shield.00017
+  rotate: true
+  xy: 205, 352
+  size: 169, 203
+  orig: 240, 240
+  offset: 37, 37
+  index: -1
+Buff_Shield/Buff_Shield.00018
+  rotate: true
+  xy: 410, 352
+  size: 169, 203
+  orig: 240, 240
+  offset: 37, 37
+  index: -1
+Buff_Shield/Buff_Shield.00019
+  rotate: true
+  xy: 615, 351
+  size: 169, 204
+  orig: 240, 240
+  offset: 37, 36
+  index: -1
+Buff_Shield/Buff_Shield.00020
+  rotate: true
+  xy: 2, 181
+  size: 169, 204
+  orig: 240, 240
+  offset: 37, 36
+  index: -1
+Buff_Shield/Buff_Shield.00021
+  rotate: true
+  xy: 208, 181
+  size: 169, 203
+  orig: 240, 240
+  offset: 37, 37
+  index: -1
+Buff_Shield/Buff_Shield.00022
+  rotate: true
+  xy: 413, 180
+  size: 169, 202
+  orig: 240, 240
+  offset: 37, 38
+  index: -1
+Buff_Shield/Buff_Shield.00023
+  rotate: true
+  xy: 617, 180
+  size: 169, 202
+  orig: 240, 240
+  offset: 37, 38
+  index: -1

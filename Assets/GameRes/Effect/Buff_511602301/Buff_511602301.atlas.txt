@@ -1,0 +1,62 @@
+
+Buff_511602301.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Buff_511602301/Buff_511602301_00000
+  rotate: true
+  xy: 154, 15
+  size: 148, 162
+  orig: 180, 200
+  offset: 17, 11
+  index: -1
+Buff_511602301/Buff_511602301_00004
+  rotate: false
+  xy: 306, 336
+  size: 150, 167
+  orig: 180, 200
+  offset: 15, 10
+  index: -1
+Buff_511602301/Buff_511602301_00008
+  rotate: false
+  xy: 2, 315
+  size: 150, 188
+  orig: 180, 200
+  offset: 15, 8
+  index: -1
+Buff_511602301/Buff_511602301_00012
+  rotate: false
+  xy: 154, 335
+  size: 150, 168
+  orig: 180, 200
+  offset: 15, 8
+  index: -1
+Buff_511602301/Buff_511602301_00016
+  rotate: false
+  xy: 318, 2
+  size: 141, 164
+  orig: 180, 200
+  offset: 24, 10
+  index: -1
+Buff_511602301/Buff_511602301_00020
+  rotate: false
+  xy: 306, 168
+  size: 149, 166
+  orig: 180, 200
+  offset: 16, 12
+  index: -1
+Buff_511602301/Buff_511602301_00024
+  rotate: false
+  xy: 2, 136
+  size: 150, 177
+  orig: 180, 200
+  offset: 15, 8
+  index: -1
+Buff_511602301/Buff_511602301_00028
+  rotate: false
+  xy: 154, 165
+  size: 150, 168
+  orig: 180, 200
+  offset: 15, 8
+  index: -1

@@ -1,0 +1,118 @@
+
+Eff_Sirius.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/Eff_Sirius.00000
+  rotate: false
+  xy: 2, 73
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+1/Eff_Sirius.00013
+  rotate: false
+  xy: 2, 73
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+1/Eff_Sirius.00014
+  rotate: false
+  xy: 2, 73
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+1/Eff_Sirius.00015
+  rotate: false
+  xy: 2, 73
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+1/Eff_Sirius.00001
+  rotate: false
+  xy: 2, 76
+  size: 121, 128
+  orig: 162, 180
+  offset: 31, 25
+  index: -1
+1/Eff_Sirius.00002
+  rotate: false
+  xy: 371, 367
+  size: 116, 120
+  orig: 162, 180
+  offset: 36, 25
+  index: -1
+1/Eff_Sirius.00003
+  rotate: false
+  xy: 234, 114
+  size: 109, 111
+  orig: 162, 180
+  offset: 41, 26
+  index: -1
+1/Eff_Sirius.00004
+  rotate: false
+  xy: 125, 93
+  size: 107, 111
+  orig: 162, 180
+  offset: 43, 26
+  index: -1
+1/Eff_Sirius.00005
+  rotate: false
+  xy: 345, 121
+  size: 107, 115
+  orig: 162, 180
+  offset: 43, 26
+  index: -1
+1/Eff_Sirius.00006
+  rotate: false
+  xy: 234, 227
+  size: 109, 123
+  orig: 162, 180
+  offset: 41, 26
+  index: -1
+1/Eff_Sirius.00007
+  rotate: false
+  xy: 255, 358
+  size: 114, 129
+  orig: 162, 180
+  offset: 36, 26
+  index: -1
+1/Eff_Sirius.00008
+  rotate: false
+  xy: 133, 352
+  size: 120, 135
+  orig: 162, 180
+  offset: 30, 26
+  index: -1
+1/Eff_Sirius.00009
+  rotate: false
+  xy: 2, 206
+  size: 125, 138
+  orig: 162, 180
+  offset: 25, 27
+  index: -1
+1/Eff_Sirius.00010
+  rotate: false
+  xy: 2, 346
+  size: 129, 141
+  orig: 162, 180
+  offset: 21, 27
+  index: -1
+1/Eff_Sirius.00011
+  rotate: true
+  xy: 129, 212
+  size: 132, 103
+  orig: 162, 180
+  offset: 18, 27
+  index: -1
+1/Eff_Sirius.00012
+  rotate: true
+  xy: 345, 238
+  size: 118, 102
+  orig: 162, 180
+  offset: 32, 27
+  index: -1

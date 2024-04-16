@@ -1,0 +1,13 @@
+
+Eff_PrePrecision.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+start
+  rotate: false
+  xy: 2, 2
+  size: 504, 504
+  orig: 512, 512
+  offset: 4, 4
+  index: -1

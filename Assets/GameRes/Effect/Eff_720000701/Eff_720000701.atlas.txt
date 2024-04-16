@@ -1,0 +1,118 @@
+
+Eff_720000701.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/01/Eff_720000701_00002
+  rotate: true
+  xy: 5, 421
+  size: 74, 76
+  orig: 162, 180
+  offset: 46, 51
+  index: -1
+res/01/Eff_720000701_00004
+  rotate: true
+  xy: 83, 410
+  size: 85, 87
+  orig: 162, 180
+  offset: 41, 46
+  index: -1
+res/01/Eff_720000701_00006
+  rotate: true
+  xy: 172, 395
+  size: 100, 102
+  orig: 162, 180
+  offset: 33, 40
+  index: -1
+res/01/Eff_720000701_00008
+  rotate: true
+  xy: 386, 390
+  size: 105, 109
+  orig: 162, 180
+  offset: 30, 36
+  index: -1
+res/01/Eff_720000701_00010
+  rotate: true
+  xy: 2, 298
+  size: 110, 114
+  orig: 162, 180
+  offset: 28, 34
+  index: -1
+res/01/Eff_720000701_00012
+  rotate: false
+  xy: 250, 275
+  size: 116, 115
+  orig: 162, 180
+  offset: 25, 33
+  index: -1
+res/01/Eff_720000701_00014
+  rotate: true
+  xy: 2, 159
+  size: 118, 119
+  orig: 162, 180
+  offset: 24, 31
+  index: -1
+res/01/Eff_720000701_00016
+  rotate: false
+  xy: 254, 141
+  size: 130, 130
+  orig: 162, 180
+  offset: 18, 25
+  index: -1
+res/01/Eff_720000701_00018
+  rotate: false
+  xy: 2, 18
+  size: 130, 130
+  orig: 162, 180
+  offset: 18, 25
+  index: -1
+res/01/Eff_720000701_00020
+  rotate: false
+  xy: 134, 9
+  size: 130, 130
+  orig: 162, 180
+  offset: 18, 25
+  index: -1
+res/01/Eff_720000701_00022
+  rotate: false
+  xy: 123, 150
+  size: 129, 123
+  orig: 162, 180
+  offset: 19, 30
+  index: -1
+res/01/Eff_720000701_00024
+  rotate: false
+  xy: 118, 279
+  size: 130, 114
+  orig: 162, 180
+  offset: 18, 34
+  index: -1
+res/01/Eff_720000701_00026
+  rotate: false
+  xy: 368, 273
+  size: 124, 115
+  orig: 162, 180
+  offset: 22, 33
+  index: -1
+res/01/Eff_720000701_00028
+  rotate: false
+  xy: 276, 392
+  size: 108, 103
+  orig: 162, 180
+  offset: 27, 44
+  index: -1
+res/01/Eff_720000701_00030
+  rotate: false
+  xy: 2, 494
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/01/Eff_720000701_00000
+  rotate: false
+  xy: 2, 494
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

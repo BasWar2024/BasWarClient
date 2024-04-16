@@ -1,0 +1,132 @@
+
+Eff_LightningChain.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5/buff_fire_b.0001
+  rotate: false
+  xy: 76, 151
+  size: 73, 66
+  orig: 512, 512
+  offset: 222, 223
+  index: -1
+5/buff_fire_b.0002
+  rotate: true
+  xy: 2, 145
+  size: 79, 72
+  orig: 512, 512
+  offset: 219, 220
+  index: -1
+5/buff_fire_b.0003
+  rotate: false
+  xy: 2, 226
+  size: 83, 76
+  orig: 512, 512
+  offset: 217, 218
+  index: -1
+5/buff_fire_b.0004
+  rotate: true
+  xy: 87, 219
+  size: 83, 76
+  orig: 512, 512
+  offset: 217, 218
+  index: -1
+5/buff_fire_b.0005
+  rotate: false
+  xy: 101, 30
+  size: 47, 52
+  orig: 512, 512
+  offset: 231, 231
+  index: -1
+5/buff_fire_b.0006
+  rotate: false
+  xy: 52, 27
+  size: 47, 54
+  orig: 512, 512
+  offset: 231, 230
+  index: -1
+5/buff_fire_b.0007
+  rotate: false
+  xy: 2, 26
+  size: 48, 55
+  orig: 512, 512
+  offset: 229, 230
+  index: -1
+5/buff_fire_b.0008
+  rotate: false
+  xy: 256, 42
+  size: 46, 56
+  orig: 512, 512
+  offset: 230, 229
+  index: -1
+5/buff_fire_b.0009
+  rotate: false
+  xy: 150, 37
+  size: 46, 58
+  orig: 512, 512
+  offset: 229, 228
+  index: -1
+5/buff_fire_b.0010
+  rotate: false
+  xy: 206, 39
+  size: 48, 59
+  orig: 512, 512
+  offset: 228, 227
+  index: -1
+5/buff_fire_b.0011
+  rotate: true
+  xy: 223, 253
+  size: 49, 60
+  orig: 512, 512
+  offset: 227, 226
+  index: -1
+5/buff_fire_b.0012
+  rotate: true
+  xy: 223, 202
+  size: 49, 60
+  orig: 512, 512
+  offset: 227, 226
+  index: -1
+5/buff_fire_b.0013
+  rotate: false
+  xy: 206, 100
+  size: 50, 58
+  orig: 512, 512
+  offset: 226, 225
+  index: -1
+5/buff_fire_b.0014
+  rotate: false
+  xy: 2, 83
+  size: 52, 60
+  orig: 512, 512
+  offset: 225, 224
+  index: -1
+5/buff_fire_b.0015
+  rotate: false
+  xy: 56, 84
+  size: 52, 59
+  orig: 512, 512
+  offset: 225, 224
+  index: -1
+5/buff_fire_b.0016
+  rotate: false
+  xy: 151, 97
+  size: 53, 61
+  orig: 512, 512
+  offset: 224, 223
+  index: -1
+5/buff_fire_b.0017
+  rotate: true
+  xy: 165, 248
+  size: 54, 56
+  orig: 512, 512
+  offset: 223, 223
+  index: -1
+5/buff_fire_b.0018
+  rotate: false
+  xy: 151, 160
+  size: 55, 57
+  orig: 512, 512
+  offset: 223, 222
+  index: -1

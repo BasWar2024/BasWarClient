@@ -1,0 +1,223 @@
+
+Eff_240000201.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_240000201/ff_240000201_00000
+  rotate: false
+  xy: 2, 504
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_240000201/ff_240000201_00001
+  rotate: false
+  xy: 5, 502
+  size: 3, 3
+  orig: 119, 132
+  offset: 58, 60
+  index: -1
+res/Eff_240000201/ff_240000201_00002
+  rotate: false
+  xy: 10, 491
+  size: 14, 14
+  orig: 119, 132
+  offset: 52, 55
+  index: -1
+res/Eff_240000201/ff_240000201_00003
+  rotate: true
+  xy: 26, 462
+  size: 43, 45
+  orig: 119, 132
+  offset: 39, 38
+  index: -1
+res/Eff_240000201/ff_240000201_00004
+  rotate: true
+  xy: 73, 442
+  size: 63, 66
+  orig: 119, 132
+  offset: 32, 29
+  index: -1
+res/Eff_240000201/ff_240000201_00005
+  rotate: true
+  xy: 141, 437
+  size: 68, 70
+  orig: 119, 132
+  offset: 27, 27
+  index: -1
+res/Eff_240000201/ff_240000201_00006
+  rotate: true
+  xy: 213, 437
+  size: 68, 70
+  orig: 119, 132
+  offset: 27, 27
+  index: -1
+res/Eff_240000201/ff_240000201_00007
+  rotate: true
+  xy: 2, 369
+  size: 71, 75
+  orig: 119, 132
+  offset: 24, 26
+  index: -1
+res/Eff_240000201/ff_240000201_00008
+  rotate: true
+  xy: 79, 364
+  size: 71, 75
+  orig: 119, 132
+  offset: 24, 26
+  index: -1
+res/Eff_240000201/ff_240000201_00009
+  rotate: true
+  xy: 156, 364
+  size: 71, 75
+  orig: 119, 132
+  offset: 24, 27
+  index: -1
+res/Eff_240000201/ff_240000201_00010
+  rotate: true
+  xy: 2, 285
+  size: 77, 81
+  orig: 119, 132
+  offset: 22, 22
+  index: -1
+res/Eff_240000201/ff_240000201_00011
+  rotate: true
+  xy: 85, 282
+  size: 80, 84
+  orig: 119, 132
+  offset: 20, 20
+  index: -1
+res/Eff_240000201/ff_240000201_00012
+  rotate: true
+  xy: 171, 278
+  size: 80, 84
+  orig: 119, 132
+  offset: 20, 20
+  index: -1
+res/Eff_240000201/ff_240000201_00013
+  rotate: true
+  xy: 257, 276
+  size: 81, 85
+  orig: 119, 132
+  offset: 19, 20
+  index: -1
+res/Eff_240000201/ff_240000201_00014
+  rotate: true
+  xy: 98, 187
+  size: 89, 90
+  orig: 119, 132
+  offset: 13, 20
+  index: -1
+res/Eff_240000201/ff_240000201_00015
+  rotate: true
+  xy: 190, 184
+  size: 90, 95
+  orig: 119, 132
+  offset: 13, 16
+  index: -1
+res/Eff_240000201/ff_240000201_00016
+  rotate: true
+  xy: 287, 178
+  size: 92, 97
+  orig: 119, 132
+  offset: 13, 14
+  index: -1
+res/Eff_240000201/ff_240000201_00017
+  rotate: true
+  xy: 386, 177
+  size: 93, 97
+  orig: 119, 132
+  offset: 13, 14
+  index: -1
+res/Eff_240000201/ff_240000201_00018
+  rotate: false
+  xy: 98, 84
+  size: 98, 98
+  orig: 119, 132
+  offset: 10, 14
+  index: -1
+res/Eff_240000201/ff_240000201_00019
+  rotate: false
+  xy: 299, 76
+  size: 100, 99
+  orig: 119, 132
+  offset: 9, 13
+  index: -1
+res/Eff_240000201/ff_240000201_00020
+  rotate: false
+  xy: 401, 76
+  size: 100, 99
+  orig: 119, 132
+  offset: 9, 13
+  index: -1
+res/Eff_240000201/ff_240000201_00021
+  rotate: true
+  xy: 198, 78
+  size: 98, 99
+  orig: 119, 132
+  offset: 9, 13
+  index: -1
+res/Eff_240000201/ff_240000201_00022
+  rotate: false
+  xy: 2, 93
+  size: 94, 97
+  orig: 119, 132
+  offset: 9, 15
+  index: -1
+res/Eff_240000201/ff_240000201_00023
+  rotate: true
+  xy: 2, 192
+  size: 88, 94
+  orig: 119, 132
+  offset: 11, 15
+  index: -1
+res/Eff_240000201/ff_240000201_00024
+  rotate: true
+  xy: 344, 272
+  size: 83, 87
+  orig: 119, 132
+  offset: 14, 19
+  index: -1
+res/Eff_240000201/ff_240000201_00025
+  rotate: true
+  xy: 387, 357
+  size: 76, 77
+  orig: 119, 132
+  offset: 21, 23
+  index: -1
+res/Eff_240000201/ff_240000201_00026
+  rotate: false
+  xy: 309, 359
+  size: 76, 75
+  orig: 119, 132
+  offset: 21, 24
+  index: -1
+res/Eff_240000201/ff_240000201_00027
+  rotate: false
+  xy: 233, 360
+  size: 74, 74
+  orig: 119, 132
+  offset: 21, 24
+  index: -1
+res/Eff_240000201/ff_240000201_00028
+  rotate: true
+  xy: 432, 435
+  size: 70, 73
+  orig: 119, 132
+  offset: 22, 24
+  index: -1
+res/Eff_240000201/ff_240000201_00029
+  rotate: true
+  xy: 357, 436
+  size: 69, 73
+  orig: 119, 132
+  offset: 22, 24
+  index: -1
+res/Eff_240000201/ff_240000201_00030
+  rotate: true
+  xy: 285, 436
+  size: 69, 70
+  orig: 119, 132
+  offset: 22, 25
+  index: -1

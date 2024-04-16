@@ -1,0 +1,223 @@
+
+Eff_dead_two.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_dead_two/Eff_dead_two.00002
+  rotate: false
+  xy: 5, 973
+  size: 50, 46
+  orig: 216, 240
+  offset: 82, 25
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00004
+  rotate: false
+  xy: 57, 951
+  size: 71, 68
+  orig: 216, 240
+  offset: 72, 20
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00005
+  rotate: false
+  xy: 130, 939
+  size: 81, 80
+  orig: 216, 240
+  offset: 68, 17
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00007
+  rotate: false
+  xy: 213, 923
+  size: 100, 96
+  orig: 216, 240
+  offset: 58, 14
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00009
+  rotate: false
+  xy: 315, 910
+  size: 118, 109
+  orig: 216, 240
+  offset: 48, 13
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00010
+  rotate: false
+  xy: 435, 905
+  size: 127, 114
+  orig: 216, 240
+  offset: 43, 13
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00012
+  rotate: false
+  xy: 564, 895
+  size: 145, 124
+  orig: 216, 240
+  offset: 31, 11
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00014
+  rotate: false
+  xy: 711, 884
+  size: 158, 135
+  orig: 216, 240
+  offset: 21, 7
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00015
+  rotate: true
+  xy: 871, 856
+  size: 163, 139
+  orig: 216, 240
+  offset: 16, 7
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00017
+  rotate: false
+  xy: 2, 792
+  size: 165, 145
+  orig: 216, 240
+  offset: 15, 7
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00019
+  rotate: false
+  xy: 367, 749
+  size: 166, 154
+  orig: 216, 240
+  offset: 14, 4
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00020
+  rotate: false
+  xy: 535, 735
+  size: 167, 158
+  orig: 216, 240
+  offset: 14, 3
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00022
+  rotate: true
+  xy: 704, 715
+  size: 167, 164
+  orig: 216, 240
+  offset: 14, 2
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00024
+  rotate: true
+  xy: 201, 423
+  size: 167, 170
+  orig: 216, 240
+  offset: 14, 2
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00025
+  rotate: true
+  xy: 373, 405
+  size: 167, 173
+  orig: 216, 240
+  offset: 14, 2
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00027
+  rotate: true
+  xy: 548, 382
+  size: 167, 178
+  orig: 216, 240
+  offset: 14, 2
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00029
+  rotate: true
+  xy: 728, 323
+  size: 167, 183
+  orig: 216, 240
+  offset: 14, 2
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00030
+  rotate: true
+  xy: 2, 272
+  size: 167, 185
+  orig: 216, 240
+  offset: 14, 2
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00032
+  rotate: true
+  xy: 189, 236
+  size: 167, 189
+  orig: 216, 240
+  offset: 14, 2
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00034
+  rotate: true
+  xy: 380, 213
+  size: 167, 194
+  orig: 216, 240
+  offset: 14, 2
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00035
+  rotate: true
+  xy: 576, 154
+  size: 167, 195
+  orig: 216, 240
+  offset: 14, 2
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00037
+  rotate: true
+  xy: 2, 441
+  size: 165, 197
+  orig: 216, 240
+  offset: 16, 3
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00039
+  rotate: true
+  xy: 808, 492
+  size: 164, 200
+  orig: 216, 240
+  offset: 16, 3
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00040
+  rotate: true
+  xy: 605, 551
+  size: 162, 201
+  orig: 216, 240
+  offset: 17, 4
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00042
+  rotate: true
+  xy: 403, 574
+  size: 159, 200
+  orig: 216, 240
+  offset: 19, 6
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00044
+  rotate: true
+  xy: 202, 592
+  size: 155, 199
+  orig: 216, 240
+  offset: 21, 9
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00045
+  rotate: true
+  xy: 2, 608
+  size: 153, 198
+  orig: 216, 240
+  offset: 22, 10
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00047
+  rotate: false
+  xy: 870, 658
+  size: 149, 196
+  orig: 216, 240
+  offset: 23, 10
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00049
+  rotate: true
+  xy: 169, 763
+  size: 145, 196
+  orig: 216, 240
+  offset: 25, 11
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00050
+  rotate: false
+  xy: 2, 1018
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_dead_two/Eff_dead_two.00000
+  rotate: false
+  xy: 2, 1018
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

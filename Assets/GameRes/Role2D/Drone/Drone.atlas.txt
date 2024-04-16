@@ -1,0 +1,475 @@
+
+Drone.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Drone/ufo0000
+  rotate: false
+  xy: 318, 472
+  size: 43, 27
+  orig: 75, 75
+  offset: 16, 26
+  index: -1
+res/Drone/ufo0001
+  rotate: false
+  xy: 363, 472
+  size: 43, 27
+  orig: 75, 75
+  offset: 16, 26
+  index: -1
+res/Drone/ufo0002
+  rotate: false
+  xy: 408, 472
+  size: 41, 27
+  orig: 75, 75
+  offset: 17, 26
+  index: -1
+res/Drone/ufo0003
+  rotate: false
+  xy: 451, 472
+  size: 39, 27
+  orig: 75, 75
+  offset: 18, 25
+  index: -1
+res/Drone/ufo0004
+  rotate: false
+  xy: 137, 473
+  size: 35, 26
+  orig: 75, 75
+  offset: 20, 25
+  index: -1
+res/Drone/ufo0005
+  rotate: false
+  xy: 174, 473
+  size: 31, 26
+  orig: 75, 75
+  offset: 22, 26
+  index: -1
+res/Drone/ufo0006
+  rotate: false
+  xy: 2, 451
+  size: 31, 27
+  orig: 75, 75
+  offset: 23, 26
+  index: -1
+res/Drone/ufo0007
+  rotate: false
+  xy: 156, 443
+  size: 31, 28
+  orig: 75, 75
+  offset: 23, 25
+  index: -1
+res/Drone/ufo0008
+  rotate: false
+  xy: 222, 442
+  size: 31, 29
+  orig: 75, 75
+  offset: 23, 24
+  index: -1
+res/Drone/ufo0009
+  rotate: false
+  xy: 288, 439
+  size: 32, 31
+  orig: 75, 75
+  offset: 22, 23
+  index: -1
+res/Drone/ufo0010
+  rotate: true
+  xy: 322, 439
+  size: 31, 32
+  orig: 75, 75
+  offset: 22, 23
+  index: -1
+res/Drone/ufo0011
+  rotate: false
+  xy: 424, 436
+  size: 35, 34
+  orig: 75, 75
+  offset: 20, 23
+  index: -1
+res/Drone/ufo0012
+  rotate: false
+  xy: 2, 413
+  size: 39, 35
+  orig: 75, 75
+  offset: 18, 22
+  index: -1
+res/Drone/ufo0013
+  rotate: false
+  xy: 129, 405
+  size: 41, 36
+  orig: 75, 75
+  offset: 17, 22
+  index: -1
+res/Drone/ufo0014
+  rotate: false
+  xy: 172, 405
+  size: 43, 36
+  orig: 75, 75
+  offset: 16, 22
+  index: -1
+res/Drone/ufo0015
+  rotate: false
+  xy: 43, 413
+  size: 43, 35
+  orig: 75, 75
+  offset: 16, 23
+  index: -1
+res/Drone/ufo0016
+  rotate: false
+  xy: 217, 404
+  size: 43, 36
+  orig: 75, 75
+  offset: 16, 22
+  index: -1
+res/Drone/ufo0017
+  rotate: false
+  xy: 262, 401
+  size: 41, 36
+  orig: 75, 75
+  offset: 17, 22
+  index: -1
+res/Drone/ufo0018
+  rotate: false
+  xy: 88, 407
+  size: 39, 35
+  orig: 75, 75
+  offset: 18, 22
+  index: -1
+res/Drone/ufo0019
+  rotate: false
+  xy: 461, 436
+  size: 35, 34
+  orig: 75, 75
+  offset: 20, 23
+  index: -1
+res/Drone/ufo0020
+  rotate: true
+  xy: 356, 439
+  size: 31, 32
+  orig: 75, 75
+  offset: 22, 23
+  index: -1
+res/Drone/ufo0021
+  rotate: false
+  xy: 390, 439
+  size: 32, 31
+  orig: 75, 75
+  offset: 21, 23
+  index: -1
+res/Drone/ufo0022
+  rotate: false
+  xy: 255, 442
+  size: 31, 29
+  orig: 75, 75
+  offset: 21, 24
+  index: -1
+res/Drone/ufo0023
+  rotate: false
+  xy: 189, 443
+  size: 31, 28
+  orig: 75, 75
+  offset: 21, 25
+  index: -1
+res/Drone/ufo0024
+  rotate: false
+  xy: 35, 450
+  size: 31, 27
+  orig: 75, 75
+  offset: 21, 26
+  index: -1
+res/Drone/ufo0025
+  rotate: false
+  xy: 207, 473
+  size: 31, 26
+  orig: 75, 75
+  offset: 22, 26
+  index: -1
+res/Drone/ufo0026
+  rotate: false
+  xy: 240, 473
+  size: 35, 26
+  orig: 75, 75
+  offset: 20, 25
+  index: -1
+res/Drone/ufo0027
+  rotate: false
+  xy: 277, 473
+  size: 39, 26
+  orig: 75, 75
+  offset: 18, 26
+  index: -1
+res/Drone/ufo0028
+  rotate: false
+  xy: 68, 450
+  size: 41, 27
+  orig: 75, 75
+  offset: 17, 26
+  index: -1
+res/Drone/ufo0029
+  rotate: false
+  xy: 111, 444
+  size: 43, 27
+  orig: 75, 75
+  offset: 16, 26
+  index: -1
+res/fog/fog_00000
+  rotate: true
+  xy: 305, 375
+  size: 62, 84
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00001
+  rotate: true
+  xy: 391, 372
+  size: 62, 84
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00002
+  rotate: true
+  xy: 88, 341
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00003
+  rotate: true
+  xy: 175, 340
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00004
+  rotate: true
+  xy: 262, 311
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00005
+  rotate: true
+  xy: 349, 308
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00006
+  rotate: true
+  xy: 2, 277
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00007
+  rotate: true
+  xy: 89, 276
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00008
+  rotate: false
+  xy: 176, 253
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00009
+  rotate: true
+  xy: 240, 247
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00010
+  rotate: true
+  xy: 327, 244
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00011
+  rotate: true
+  xy: 414, 222
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00012
+  rotate: true
+  xy: 2, 213
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00013
+  rotate: true
+  xy: 89, 212
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00014
+  rotate: true
+  xy: 176, 183
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00015
+  rotate: true
+  xy: 2, 349
+  size: 62, 84
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00016
+  rotate: true
+  xy: 263, 180
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00017
+  rotate: true
+  xy: 350, 158
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00018
+  rotate: true
+  xy: 2, 149
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00019
+  rotate: true
+  xy: 89, 148
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00020
+  rotate: false
+  xy: 437, 135
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00021
+  rotate: true
+  xy: 176, 119
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00022
+  rotate: true
+  xy: 263, 116
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00023
+  rotate: true
+  xy: 350, 94
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00024
+  rotate: true
+  xy: 2, 85
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00025
+  rotate: true
+  xy: 89, 84
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00026
+  rotate: true
+  xy: 176, 55
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00027
+  rotate: true
+  xy: 263, 52
+  size: 62, 85
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00028
+  rotate: false
+  xy: 437, 47
+  size: 62, 86
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/fog/fog_00029
+  rotate: false
+  xy: 436, 286
+  size: 62, 84
+  orig: 78, 89
+  offset: 8, 2
+  index: -1
+res/res/00
+  rotate: false
+  xy: 2, 498
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/res/01
+  rotate: false
+  xy: 49, 479
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+res/res/02
+  rotate: false
+  xy: 71, 479
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+res/res/03
+  rotate: false
+  xy: 93, 479
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+res/res/04
+  rotate: false
+  xy: 27, 480
+  size: 20, 19
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+res/res/05
+  rotate: false
+  xy: 115, 479
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+res/res/06
+  rotate: false
+  xy: 5, 481
+  size: 20, 18
+  orig: 20, 20
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,118 @@
+
+Buff_511602501.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Buff_511602501/Buff_511602501_00000
+  rotate: false
+  xy: 2, 361
+  size: 128, 147
+  orig: 144, 160
+  offset: 6, 4
+  index: -1
+Buff_511602501/Buff_511602501_00002
+  rotate: true
+  xy: 280, 266
+  size: 116, 122
+  orig: 144, 160
+  offset: 14, 10
+  index: -1
+Buff_511602501/Buff_511602501_00004
+  rotate: false
+  xy: 404, 266
+  size: 102, 117
+  orig: 144, 160
+  offset: 21, 15
+  index: -1
+Buff_511602501/Buff_511602501_00006
+  rotate: false
+  xy: 269, 384
+  size: 128, 124
+  orig: 144, 160
+  offset: 10, 4
+  index: -1
+Buff_511602501/Buff_511602501_00007
+  rotate: true
+  xy: 151, 125
+  size: 124, 126
+  orig: 144, 160
+  offset: 12, 8
+  index: -1
+Buff_511602501/Buff_511602501_00009
+  rotate: false
+  xy: 399, 385
+  size: 104, 123
+  orig: 144, 160
+  offset: 21, 8
+  index: -1
+Buff_511602501/Buff_511602501_00011
+  rotate: false
+  xy: 2, 9
+  size: 110, 96
+  orig: 144, 160
+  offset: 17, 29
+  index: -1
+Buff_511602501/Buff_511602501_00013
+  rotate: false
+  xy: 398, 144
+  size: 106, 120
+  orig: 144, 160
+  offset: 29, 18
+  index: -1
+Buff_511602501/Buff_511602501_00015
+  rotate: true
+  xy: 2, 231
+  size: 128, 147
+  orig: 144, 160
+  offset: 6, 4
+  index: -1
+Buff_511602501/Buff_511602501_00017
+  rotate: false
+  xy: 2, 107
+  size: 117, 122
+  orig: 144, 160
+  offset: 14, 10
+  index: -1
+Buff_511602501/Buff_511602501_00019
+  rotate: false
+  xy: 408, 29
+  size: 100, 113
+  orig: 144, 160
+  offset: 21, 19
+  index: -1
+Buff_511602501/Buff_511602501_00021
+  rotate: false
+  xy: 151, 251
+  size: 127, 128
+  orig: 144, 160
+  offset: 11, 6
+  index: -1
+Buff_511602501/Buff_511602501_00022
+  rotate: true
+  xy: 279, 127
+  size: 122, 117
+  orig: 144, 160
+  offset: 14, 16
+  index: -1
+Buff_511602501/Buff_511602501_00024
+  rotate: true
+  xy: 121, 8
+  size: 115, 116
+  orig: 144, 160
+  offset: 15, 17
+  index: -1
+Buff_511602501/Buff_511602501_00026
+  rotate: false
+  xy: 279, 10
+  size: 127, 115
+  orig: 144, 160
+  offset: 17, 13
+  index: -1
+Buff_511602501/Buff_511602501_00028
+  rotate: true
+  xy: 132, 381
+  size: 127, 135
+  orig: 144, 160
+  offset: 11, 22
+  index: -1

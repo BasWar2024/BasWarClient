@@ -1,0 +1,13 @@
+
+Buff_AddMoveSpeed.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff_fire_b.000
+  rotate: false
+  xy: 2, 2
+  size: 167, 168
+  orig: 256, 256
+  offset: 45, 51
+  index: -1

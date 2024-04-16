@@ -1,0 +1,160 @@
+
+Buff_Detonation.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Buff_Detonation 2_00000
+  rotate: true
+  xy: 138, 381
+  size: 118, 124
+  orig: 180, 200
+  offset: 28, 35
+  index: -1
+res/Buff_Detonation 2_00001
+  rotate: true
+  xy: 138, 381
+  size: 118, 124
+  orig: 180, 200
+  offset: 28, 35
+  index: -1
+res/Buff_Detonation 2_00002
+  rotate: false
+  xy: 257, 135
+  size: 129, 121
+  orig: 180, 200
+  offset: 29, 27
+  index: -1
+res/Buff_Detonation 2_00003
+  rotate: false
+  xy: 257, 135
+  size: 129, 121
+  orig: 180, 200
+  offset: 29, 27
+  index: -1
+res/Buff_Detonation 2_00004
+  rotate: true
+  xy: 268, 2
+  size: 131, 135
+  orig: 180, 200
+  offset: 31, 19
+  index: -1
+res/Buff_Detonation 2_00005
+  rotate: true
+  xy: 268, 2
+  size: 131, 135
+  orig: 180, 200
+  offset: 31, 19
+  index: -1
+res/Buff_Detonation 2_00006
+  rotate: true
+  xy: 137, 9
+  size: 124, 129
+  orig: 180, 200
+  offset: 30, 28
+  index: -1
+res/Buff_Detonation 2_00007
+  rotate: true
+  xy: 137, 9
+  size: 124, 129
+  orig: 180, 200
+  offset: 30, 28
+  index: -1
+res/Buff_Detonation 2_00008
+  rotate: true
+  xy: 260, 258
+  size: 120, 138
+  orig: 180, 200
+  offset: 34, 24
+  index: -1
+res/Buff_Detonation 2_00009
+  rotate: true
+  xy: 2, 11
+  size: 123, 133
+  orig: 180, 200
+  offset: 34, 26
+  index: -1
+res/Buff_Detonation 2_00010
+  rotate: true
+  xy: 2, 11
+  size: 123, 133
+  orig: 180, 200
+  offset: 34, 26
+  index: -1
+res/Buff_Detonation 2_00011
+  rotate: true
+  xy: 125, 259
+  size: 120, 133
+  orig: 180, 200
+  offset: 31, 27
+  index: -1
+res/Buff_Detonation 2_00012
+  rotate: true
+  xy: 125, 259
+  size: 120, 133
+  orig: 180, 200
+  offset: 31, 27
+  index: -1
+res/Buff_Detonation 2_00013
+  rotate: true
+  xy: 2, 384
+  size: 115, 134
+  orig: 180, 200
+  offset: 35, 26
+  index: -1
+res/Buff_Detonation 2_00014
+  rotate: true
+  xy: 2, 384
+  size: 115, 134
+  orig: 180, 200
+  offset: 35, 26
+  index: -1
+res/Buff_Detonation 2_00015
+  rotate: true
+  xy: 264, 380
+  size: 119, 131
+  orig: 180, 200
+  offset: 32, 22
+  index: -1
+res/Buff_Detonation 2_00016
+  rotate: true
+  xy: 264, 380
+  size: 119, 131
+  orig: 180, 200
+  offset: 32, 22
+  index: -1
+res/Buff_Detonation 2_00017
+  rotate: true
+  xy: 130, 136
+  size: 121, 125
+  orig: 180, 200
+  offset: 31, 27
+  index: -1
+res/Buff_Detonation 2_00018
+  rotate: true
+  xy: 2, 137
+  size: 120, 126
+  orig: 180, 200
+  offset: 31, 27
+  index: -1
+res/Buff_Detonation 2_00019
+  rotate: true
+  xy: 2, 137
+  size: 120, 126
+  orig: 180, 200
+  offset: 31, 27
+  index: -1
+res/Buff_Detonation 2_00020
+  rotate: false
+  xy: 2, 263
+  size: 121, 119
+  orig: 180, 200
+  offset: 27, 29
+  index: -1
+res/Buff_Detonation 2_00021
+  rotate: false
+  xy: 2, 263
+  size: 121, 119
+  orig: 180, 200
+  offset: 27, 29
+  index: -1

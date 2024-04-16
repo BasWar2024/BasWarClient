@@ -1,0 +1,146 @@
+
+Eff_Smoke.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff_Smoke_b/buff_Smoke_b.00000
+  rotate: false
+  xy: 230, 410
+  size: 225, 200
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00001
+  rotate: false
+  xy: 230, 813
+  size: 225, 195
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00002
+  rotate: false
+  xy: 457, 813
+  size: 226, 195
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00003
+  rotate: false
+  xy: 2, 814
+  size: 226, 194
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00004
+  rotate: false
+  xy: 685, 810
+  size: 226, 198
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00005
+  rotate: false
+  xy: 2, 614
+  size: 226, 198
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00006
+  rotate: false
+  xy: 230, 612
+  size: 226, 199
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00007
+  rotate: false
+  xy: 685, 609
+  size: 226, 199
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00008
+  rotate: false
+  xy: 2, 413
+  size: 226, 199
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00009
+  rotate: false
+  xy: 457, 409
+  size: 225, 200
+  orig: 238, 238
+  offset: 12, 24
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00010
+  rotate: false
+  xy: 2, 8
+  size: 225, 201
+  orig: 238, 238
+  offset: 12, 24
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00011
+  rotate: false
+  xy: 684, 407
+  size: 226, 200
+  orig: 238, 238
+  offset: 11, 24
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00012
+  rotate: false
+  xy: 457, 2
+  size: 227, 201
+  orig: 238, 238
+  offset: 11, 24
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00013
+  rotate: false
+  xy: 686, 2
+  size: 227, 201
+  orig: 238, 238
+  offset: 11, 24
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00014
+  rotate: false
+  xy: 684, 205
+  size: 227, 200
+  orig: 238, 238
+  offset: 11, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00015
+  rotate: false
+  xy: 2, 211
+  size: 225, 200
+  orig: 238, 238
+  offset: 13, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00016
+  rotate: false
+  xy: 229, 208
+  size: 226, 200
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00017
+  rotate: false
+  xy: 229, 6
+  size: 226, 200
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00018
+  rotate: false
+  xy: 457, 207
+  size: 225, 200
+  orig: 238, 238
+  offset: 12, 25
+  index: -1
+buff_Smoke_b/buff_Smoke_b.00019
+  rotate: false
+  xy: 458, 611
+  size: 225, 200
+  orig: 238, 238
+  offset: 12, 25
+  index: -1

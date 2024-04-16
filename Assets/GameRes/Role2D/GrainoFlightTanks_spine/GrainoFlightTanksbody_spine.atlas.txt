@@ -1,0 +1,384 @@
+
+GrainoFlightTanksbody_spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+alpha_3x3
+  rotate: true
+  xy: 990, 969
+  size: 51, 30
+  orig: 51, 30
+  offset: 0, 0
+  index: -1
+body/body_00000
+  rotate: false
+  xy: 757, 621
+  size: 175, 136
+  orig: 230, 168
+  offset: 22, 29
+  index: -1
+body/body_00001
+  rotate: false
+  xy: 264, 853
+  size: 172, 122
+  orig: 230, 168
+  offset: 22, 35
+  index: -1
+body/body_00002
+  rotate: false
+  xy: 727, 896
+  size: 144, 102
+  orig: 230, 168
+  offset: 36, 45
+  index: -1
+body/body_00003
+  rotate: false
+  xy: 438, 852
+  size: 172, 122
+  orig: 230, 168
+  offset: 22, 30
+  index: -1
+body/body_00004
+  rotate: false
+  xy: 527, 498
+  size: 175, 137
+  orig: 230, 168
+  offset: 22, 20
+  index: -1
+body/body_00005
+  rotate: false
+  xy: 449, 717
+  size: 152, 133
+  orig: 230, 168
+  offset: 36, 21
+  index: -1
+body/body_00006
+  rotate: true
+  xy: 873, 883
+  size: 114, 115
+  orig: 230, 168
+  offset: 59, 30
+  index: -1
+body/body_00007
+  rotate: false
+  xy: 603, 637
+  size: 152, 133
+  orig: 230, 168
+  offset: 44, 21
+  index: -1
+body/body_00008
+  rotate: false
+  xy: 704, 482
+  size: 175, 137
+  orig: 230, 168
+  offset: 35, 20
+  index: -1
+body/body_00009
+  rotate: false
+  xy: 612, 772
+  size: 172, 122
+  orig: 230, 168
+  offset: 38, 30
+  index: -1
+body/body_00010
+  rotate: false
+  xy: 2, 873
+  size: 144, 102
+  orig: 230, 168
+  offset: 52, 45
+  index: -1
+body/body_00011
+  rotate: false
+  xy: 786, 759
+  size: 172, 122
+  orig: 230, 168
+  offset: 38, 35
+  index: -1
+body/body_00012
+  rotate: true
+  xy: 881, 444
+  size: 175, 137
+  orig: 230, 168
+  offset: 35, 29
+  index: -1
+body/body_00013
+  rotate: false
+  xy: 141, 719
+  size: 152, 132
+  orig: 230, 168
+  offset: 44, 32
+  index: -1
+body/body_00014
+  rotate: false
+  xy: 148, 861
+  size: 114, 114
+  orig: 230, 168
+  offset: 59, 42
+  index: -1
+body/body_00015
+  rotate: false
+  xy: 295, 718
+  size: 152, 132
+  orig: 230, 168
+  offset: 36, 32
+  index: -1
+body8/body8_00000
+  rotate: false
+  xy: 2, 1019
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+body8/body8_00001
+  rotate: false
+  xy: 2, 735
+  size: 137, 136
+  orig: 230, 168
+  offset: 51, 29
+  index: -1
+body8/body8_00002
+  rotate: false
+  xy: 2, 581
+  size: 169, 136
+  orig: 230, 168
+  offset: 28, 29
+  index: -1
+body8/body8_00003
+  rotate: false
+  xy: 173, 580
+  size: 175, 136
+  orig: 230, 168
+  offset: 22, 29
+  index: -1
+body8/body8_00004
+  rotate: false
+  xy: 350, 579
+  size: 175, 136
+  orig: 230, 168
+  offset: 22, 29
+  index: -1
+chen/chechen 4_00000
+  rotate: true
+  xy: 5, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00001
+  rotate: true
+  xy: 57, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00002
+  rotate: true
+  xy: 109, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00003
+  rotate: true
+  xy: 161, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00004
+  rotate: true
+  xy: 886, 999
+  size: 21, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00005
+  rotate: true
+  xy: 213, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00006
+  rotate: true
+  xy: 265, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00007
+  rotate: true
+  xy: 938, 999
+  size: 21, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00008
+  rotate: true
+  xy: 2, 977
+  size: 21, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00009
+  rotate: true
+  xy: 317, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00010
+  rotate: true
+  xy: 54, 977
+  size: 21, 50
+  orig: 50, 50
+  offset: 14, 0
+  index: -1
+chen/chechen 4_00011
+  rotate: true
+  xy: 106, 977
+  size: 21, 50
+  orig: 50, 50
+  offset: 14, 0
+  index: -1
+chen/chechen 4_00012
+  rotate: true
+  xy: 158, 977
+  size: 21, 50
+  orig: 50, 50
+  offset: 14, 0
+  index: -1
+chen/chechen 4_00013
+  rotate: true
+  xy: 369, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00014
+  rotate: true
+  xy: 421, 1000
+  size: 20, 49
+  orig: 50, 50
+  offset: 15, 1
+  index: -1
+chen/chechen 4_00015
+  rotate: true
+  xy: 472, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00016
+  rotate: true
+  xy: 524, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00017
+  rotate: true
+  xy: 576, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00018
+  rotate: true
+  xy: 628, 1000
+  size: 20, 49
+  orig: 50, 50
+  offset: 15, 1
+  index: -1
+chen/chechen 4_00019
+  rotate: true
+  xy: 679, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00020
+  rotate: true
+  xy: 210, 977
+  size: 21, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00021
+  rotate: true
+  xy: 262, 977
+  size: 21, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00022
+  rotate: true
+  xy: 314, 977
+  size: 21, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00023
+  rotate: true
+  xy: 731, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00024
+  rotate: true
+  xy: 366, 977
+  size: 21, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00025
+  rotate: true
+  xy: 573, 976
+  size: 22, 50
+  orig: 50, 50
+  offset: 14, 0
+  index: -1
+chen/chechen 4_00026
+  rotate: true
+  xy: 418, 977
+  size: 21, 49
+  orig: 50, 50
+  offset: 14, 1
+  index: -1
+chen/chechen 4_00027
+  rotate: true
+  xy: 469, 977
+  size: 21, 50
+  orig: 50, 50
+  offset: 14, 0
+  index: -1
+chen/chechen 4_00028
+  rotate: true
+  xy: 521, 977
+  size: 21, 50
+  orig: 50, 50
+  offset: 14, 0
+  index: -1
+chen/chechen 4_00029
+  rotate: true
+  xy: 783, 1000
+  size: 20, 50
+  orig: 50, 50
+  offset: 15, 0
+  index: -1
+chen/chechen 4_00030
+  rotate: true
+  xy: 835, 1000
+  size: 20, 49
+  orig: 50, 50
+  offset: 15, 1
+  index: -1
+fog
+  rotate: true
+  xy: 625, 899
+  size: 99, 100
+  orig: 102, 102
+  offset: 2, 2
+  index: -1

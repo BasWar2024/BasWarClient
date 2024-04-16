@@ -1,0 +1,118 @@
+
+Eff_520000101.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_510000102_00001
+  rotate: false
+  xy: 210, 21
+  size: 43, 44
+  orig: 180, 200
+  offset: 70, 77
+  index: -1
+res/Eff_510000102_00002
+  rotate: false
+  xy: 210, 67
+  size: 83, 88
+  orig: 180, 200
+  offset: 50, 58
+  index: -1
+res/Eff_510000102_00003
+  rotate: false
+  xy: 216, 396
+  size: 101, 106
+  orig: 180, 200
+  offset: 42, 48
+  index: -1
+res/Eff_510000102_00004
+  rotate: false
+  xy: 295, 75
+  size: 73, 80
+  orig: 180, 200
+  offset: 53, 60
+  index: -1
+res/Eff_510000102_00005
+  rotate: false
+  xy: 219, 301
+  size: 85, 93
+  orig: 180, 200
+  offset: 47, 53
+  index: -1
+res/Eff_510000102_00006
+  rotate: false
+  xy: 208, 157
+  size: 90, 100
+  orig: 180, 200
+  offset: 44, 49
+  index: -1
+res/Eff_510000102_00007
+  rotate: false
+  xy: 110, 16
+  size: 98, 109
+  orig: 180, 200
+  offset: 39, 44
+  index: -1
+res/Eff_510000102_00008
+  rotate: false
+  xy: 113, 259
+  size: 104, 117
+  orig: 180, 200
+  offset: 36, 39
+  index: -1
+res/Eff_510000102_00009
+  rotate: false
+  xy: 2, 5
+  size: 106, 119
+  orig: 180, 200
+  offset: 35, 38
+  index: -1
+res/Eff_510000102_00010
+  rotate: false
+  xy: 2, 253
+  size: 109, 123
+  orig: 180, 200
+  offset: 33, 35
+  index: -1
+res/Eff_510000102_00011
+  rotate: false
+  xy: 2, 378
+  size: 111, 124
+  orig: 180, 200
+  offset: 32, 34
+  index: -1
+res/Eff_510000102_00012
+  rotate: false
+  xy: 115, 380
+  size: 99, 122
+  orig: 180, 200
+  offset: 31, 32
+  index: -1
+res/Eff_510000102_00013
+  rotate: false
+  xy: 106, 127
+  size: 100, 124
+  orig: 180, 200
+  offset: 30, 30
+  index: -1
+res/Eff_510000102_00014
+  rotate: false
+  xy: 2, 126
+  size: 102, 125
+  orig: 180, 200
+  offset: 29, 29
+  index: -1
+res/Eff_510000102_00015
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_510000102_00000
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+Buff_500000101.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Buff_Shield/Buff_Shield.00000
+  rotate: true
+  xy: 2, 3
+  size: 125, 147
+  orig: 176, 176
+  offset: 27, 29
+  index: -1
+Buff_Shield/Buff_Shield.00002
+  rotate: true
+  xy: 2, 130
+  size: 123, 147
+  orig: 176, 176
+  offset: 28, 29
+  index: -1
+Buff_Shield/Buff_Shield.00004
+  rotate: true
+  xy: 149, 255
+  size: 121, 147
+  orig: 176, 176
+  offset: 28, 29
+  index: -1
+Buff_Shield/Buff_Shield.00006
+  rotate: true
+  xy: 149, 378
+  size: 119, 146
+  orig: 176, 176
+  offset: 29, 30
+  index: -1
+Buff_Shield/Buff_Shield.00008
+  rotate: true
+  xy: 2, 379
+  size: 118, 145
+  orig: 176, 176
+  offset: 30, 31
+  index: -1
+Buff_Shield/Buff_Shield.00010
+  rotate: true
+  xy: 297, 378
+  size: 119, 144
+  orig: 176, 176
+  offset: 30, 32
+  index: -1
+Buff_Shield/Buff_Shield.00012
+  rotate: true
+  xy: 2, 256
+  size: 121, 145
+  orig: 176, 176
+  offset: 29, 31
+  index: -1
+Buff_Shield/Buff_Shield.00014
+  rotate: true
+  xy: 298, 254
+  size: 122, 146
+  orig: 176, 176
+  offset: 28, 30
+  index: -1
+Buff_Shield/Buff_Shield.00016
+  rotate: true
+  xy: 151, 129
+  size: 123, 147
+  orig: 176, 176
+  offset: 28, 29
+  index: -1
+Buff_Shield/Buff_Shield.00018
+  rotate: true
+  xy: 300, 128
+  size: 124, 149
+  orig: 176, 176
+  offset: 27, 27
+  index: -1
+Buff_Shield/Buff_Shield.00020
+  rotate: true
+  xy: 151, 2
+  size: 124, 149
+  orig: 176, 176
+  offset: 27, 27
+  index: -1
+Buff_Shield/Buff_Shield.00022
+  rotate: true
+  xy: 302, 2
+  size: 124, 148
+  orig: 176, 176
+  offset: 27, 28
+  index: -1

@@ -1,0 +1,153 @@
+
+Eff_LaserGun.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/Eff_LaserGun.00000
+  rotate: false
+  xy: 2, 930
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+1/Eff_LaserGun.00001
+  rotate: false
+  xy: 5, 823
+  size: 146, 108
+  orig: 442, 216
+  offset: 204, 49
+  index: -1
+1/Eff_LaserGun.00002
+  rotate: false
+  xy: 153, 785
+  size: 185, 146
+  orig: 442, 216
+  offset: 152, 37
+  index: -1
+1/Eff_LaserGun.00003
+  rotate: false
+  xy: 702, 762
+  size: 190, 169
+  orig: 442, 216
+  offset: 148, 29
+  index: -1
+1/Eff_LaserGun.00004
+  rotate: false
+  xy: 185, 226
+  size: 193, 179
+  orig: 442, 216
+  offset: 146, 24
+  index: -1
+1/Eff_LaserGun.00005
+  rotate: false
+  xy: 747, 222
+  size: 184, 181
+  orig: 442, 216
+  offset: 155, 22
+  index: -1
+1/Eff_LaserGun.00006
+  rotate: false
+  xy: 380, 225
+  size: 181, 179
+  orig: 442, 216
+  offset: 158, 22
+  index: -1
+1/Eff_LaserGun.00007
+  rotate: true
+  xy: 544, 584
+  size: 176, 183
+  orig: 442, 216
+  offset: 163, 23
+  index: -1
+1/Eff_LaserGun.00008
+  rotate: true
+  xy: 729, 584
+  size: 176, 184
+  orig: 442, 216
+  offset: 163, 21
+  index: -1
+1/Eff_LaserGun.00009
+  rotate: true
+  xy: 544, 406
+  size: 176, 184
+  orig: 442, 216
+  offset: 163, 21
+  index: -1
+1/Eff_LaserGun.00010
+  rotate: true
+  xy: 730, 405
+  size: 177, 184
+  orig: 442, 216
+  offset: 162, 21
+  index: -1
+1/Eff_LaserGun.00011
+  rotate: true
+  xy: 360, 407
+  size: 177, 182
+  orig: 442, 216
+  offset: 162, 23
+  index: -1
+1/Eff_LaserGun.00012
+  rotate: true
+  xy: 2, 233
+  size: 178, 181
+  orig: 442, 216
+  offset: 161, 25
+  index: -1
+1/Eff_LaserGun.00013
+  rotate: true
+  xy: 563, 223
+  size: 180, 182
+  orig: 442, 216
+  offset: 160, 25
+  index: -1
+1/Eff_LaserGun.00014
+  rotate: true
+  xy: 2, 435
+  size: 176, 177
+  orig: 442, 216
+  offset: 163, 26
+  index: -1
+1/Eff_LaserGun.00015
+  rotate: false
+  xy: 181, 413
+  size: 177, 177
+  orig: 442, 216
+  offset: 162, 26
+  index: -1
+1/Eff_LaserGun.00016
+  rotate: false
+  xy: 364, 586
+  size: 178, 175
+  orig: 442, 216
+  offset: 161, 28
+  index: -1
+1/Eff_LaserGun.00017
+  rotate: false
+  xy: 182, 592
+  size: 180, 171
+  orig: 442, 216
+  offset: 158, 27
+  index: -1
+1/Eff_LaserGun.00018
+  rotate: false
+  xy: 2, 613
+  size: 178, 170
+  orig: 442, 216
+  offset: 157, 27
+  index: -1
+1/Eff_LaserGun.00019
+  rotate: false
+  xy: 521, 763
+  size: 179, 168
+  orig: 442, 216
+  offset: 155, 30
+  index: -1
+1/Eff_LaserGun.00020
+  rotate: false
+  xy: 340, 765
+  size: 179, 166
+  orig: 442, 216
+  offset: 153, 34
+  index: -1

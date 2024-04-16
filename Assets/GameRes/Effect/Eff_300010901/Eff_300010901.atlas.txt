@@ -1,0 +1,223 @@
+
+Eff_300010901.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_300010901/Eff_300010901_00002
+  rotate: true
+  xy: 5, 481
+  size: 27, 37
+  orig: 108, 120
+  offset: 41, 31
+  index: -1
+res/Eff_300010901/Eff_300010901_00003
+  rotate: true
+  xy: 44, 460
+  size: 48, 50
+  orig: 108, 120
+  offset: 31, 31
+  index: -1
+res/Eff_300010901/Eff_300010901_00004
+  rotate: false
+  xy: 280, 446
+  size: 67, 62
+  orig: 108, 120
+  offset: 21, 25
+  index: -1
+res/Eff_300010901/Eff_300010901_00005
+  rotate: false
+  xy: 435, 439
+  size: 73, 69
+  orig: 108, 120
+  offset: 18, 21
+  index: -1
+res/Eff_300010901/Eff_300010901_00006
+  rotate: false
+  xy: 2, 387
+  size: 82, 71
+  orig: 108, 120
+  offset: 13, 20
+  index: -1
+res/Eff_300010901/Eff_300010901_00007
+  rotate: false
+  xy: 86, 379
+  size: 87, 73
+  orig: 108, 120
+  offset: 11, 18
+  index: -1
+res/Eff_300010901/Eff_300010901_00008
+  rotate: false
+  xy: 175, 379
+  size: 94, 73
+  orig: 108, 120
+  offset: 6, 18
+  index: -1
+res/Eff_300010901/Eff_300010901_00009
+  rotate: false
+  xy: 271, 369
+  size: 98, 73
+  orig: 108, 120
+  offset: 4, 18
+  index: -1
+res/Eff_300010901/Eff_300010901_00010
+  rotate: false
+  xy: 89, 302
+  size: 103, 75
+  orig: 108, 120
+  offset: 2, 18
+  index: -1
+res/Eff_300010901/Eff_300010901_00011
+  rotate: false
+  xy: 194, 291
+  size: 108, 76
+  orig: 108, 120
+  offset: 0, 18
+  index: -1
+res/Eff_300010901/Eff_300010901_00012
+  rotate: false
+  xy: 304, 285
+  size: 108, 77
+  orig: 108, 120
+  offset: 0, 18
+  index: -1
+res/Eff_300010901/Eff_300010901_00013
+  rotate: false
+  xy: 108, 209
+  size: 108, 80
+  orig: 108, 120
+  offset: 0, 16
+  index: -1
+res/Eff_300010901/Eff_300010901_00014
+  rotate: true
+  xy: 412, 148
+  size: 108, 81
+  orig: 108, 120
+  offset: 0, 16
+  index: -1
+res/Eff_300010901/Eff_300010901_00015
+  rotate: false
+  xy: 2, 123
+  size: 108, 84
+  orig: 108, 120
+  offset: 0, 14
+  index: -1
+res/Eff_300010901/Eff_300010901_00016
+  rotate: false
+  xy: 112, 116
+  size: 108, 85
+  orig: 108, 120
+  offset: 0, 14
+  index: -1
+res/Eff_300010901/Eff_300010901_00017
+  rotate: true
+  xy: 222, 93
+  size: 108, 87
+  orig: 108, 120
+  offset: 0, 12
+  index: -1
+res/Eff_300010901/Eff_300010901_00018
+  rotate: true
+  xy: 311, 68
+  size: 108, 87
+  orig: 108, 120
+  offset: 0, 12
+  index: -1
+res/Eff_300010901/Eff_300010901_00019
+  rotate: false
+  xy: 400, 57
+  size: 108, 89
+  orig: 108, 120
+  offset: 0, 12
+  index: -1
+res/Eff_300010901/Eff_300010901_00020
+  rotate: true
+  xy: 324, 178
+  size: 105, 86
+  orig: 108, 120
+  offset: 3, 13
+  index: -1
+res/Eff_300010901/Eff_300010901_00021
+  rotate: true
+  xy: 414, 258
+  size: 104, 80
+  orig: 108, 120
+  offset: 4, 15
+  index: -1
+res/Eff_300010901/Eff_300010901_00022
+  rotate: false
+  xy: 218, 203
+  size: 104, 80
+  orig: 108, 120
+  offset: 4, 15
+  index: -1
+res/Eff_300010901/Eff_300010901_00023
+  rotate: false
+  xy: 2, 222
+  size: 104, 78
+  orig: 108, 120
+  offset: 4, 16
+  index: -1
+res/Eff_300010901/Eff_300010901_00024
+  rotate: false
+  xy: 371, 364
+  size: 103, 73
+  orig: 108, 120
+  offset: 5, 21
+  index: -1
+res/Eff_300010901/Eff_300010901_00025
+  rotate: false
+  xy: 2, 304
+  size: 85, 73
+  orig: 108, 120
+  offset: 17, 22
+  index: -1
+res/Eff_300010901/Eff_300010901_00026
+  rotate: false
+  xy: 349, 444
+  size: 84, 64
+  orig: 108, 120
+  offset: 16, 22
+  index: -1
+res/Eff_300010901/Eff_300010901_00027
+  rotate: true
+  xy: 157, 454
+  size: 54, 60
+  orig: 108, 120
+  offset: 29, 26
+  index: -1
+res/Eff_300010901/Eff_300010901_00028
+  rotate: true
+  xy: 219, 454
+  size: 54, 59
+  orig: 108, 120
+  offset: 29, 26
+  index: -1
+res/Eff_300010901/Eff_300010901_00029
+  rotate: true
+  xy: 96, 455
+  size: 53, 59
+  orig: 108, 120
+  offset: 30, 26
+  index: -1
+res/Eff_300010901/Eff_300010901_00030
+  rotate: false
+  xy: 2, 507
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_300010901/Eff_300010901_00000
+  rotate: false
+  xy: 2, 507
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_300010901/Eff_300010901_00001
+  rotate: false
+  xy: 2, 507
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

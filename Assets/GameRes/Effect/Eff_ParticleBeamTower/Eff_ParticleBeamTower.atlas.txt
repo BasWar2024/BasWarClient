@@ -1,0 +1,230 @@
+
+Eff_ParticleBeamTower.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00000
+  rotate: false
+  xy: 2, 499
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00030
+  rotate: false
+  xy: 2, 499
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00001
+  rotate: false
+  xy: 282, 446
+  size: 60, 54
+  orig: 100, 100
+  offset: 22, 26
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00002
+  rotate: false
+  xy: 398, 374
+  size: 99, 70
+  orig: 100, 100
+  offset: 1, 10
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00003
+  rotate: false
+  xy: 2, 321
+  size: 99, 70
+  orig: 100, 100
+  offset: 1, 10
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00004
+  rotate: false
+  xy: 103, 319
+  size: 99, 71
+  orig: 100, 100
+  offset: 1, 10
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00005
+  rotate: false
+  xy: 2, 165
+  size: 99, 76
+  orig: 100, 100
+  offset: 1, 6
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00006
+  rotate: false
+  xy: 103, 150
+  size: 99, 83
+  orig: 100, 100
+  offset: 1, 0
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00007
+  rotate: false
+  xy: 204, 144
+  size: 100, 83
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00008
+  rotate: false
+  xy: 306, 136
+  size: 100, 84
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00009
+  rotate: false
+  xy: 204, 311
+  size: 94, 73
+  orig: 100, 100
+  offset: 3, 11
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00010
+  rotate: false
+  xy: 300, 305
+  size: 94, 74
+  orig: 100, 100
+  offset: 3, 11
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00011
+  rotate: false
+  xy: 396, 298
+  size: 92, 74
+  orig: 100, 100
+  offset: 4, 11
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00012
+  rotate: false
+  xy: 2, 245
+  size: 92, 74
+  orig: 100, 100
+  offset: 4, 11
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00013
+  rotate: false
+  xy: 96, 243
+  size: 89, 74
+  orig: 100, 100
+  offset: 7, 11
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00014
+  rotate: false
+  xy: 187, 235
+  size: 89, 74
+  orig: 100, 100
+  offset: 7, 11
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00015
+  rotate: false
+  xy: 278, 229
+  size: 85, 74
+  orig: 100, 100
+  offset: 7, 11
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00016
+  rotate: false
+  xy: 365, 222
+  size: 85, 74
+  orig: 100, 100
+  offset: 7, 11
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00017
+  rotate: false
+  xy: 311, 381
+  size: 85, 63
+  orig: 100, 100
+  offset: 7, 22
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00018
+  rotate: false
+  xy: 247, 386
+  size: 62, 58
+  orig: 100, 100
+  offset: 18, 27
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00019
+  rotate: false
+  xy: 119, 392
+  size: 62, 56
+  orig: 100, 100
+  offset: 20, 29
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00020
+  rotate: false
+  xy: 183, 392
+  size: 62, 56
+  orig: 100, 100
+  offset: 20, 29
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00021
+  rotate: false
+  xy: 58, 393
+  size: 59, 55
+  orig: 100, 100
+  offset: 20, 29
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00022
+  rotate: false
+  xy: 344, 446
+  size: 59, 54
+  orig: 100, 100
+  offset: 20, 30
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00023
+  rotate: false
+  xy: 405, 446
+  size: 59, 54
+  orig: 100, 100
+  offset: 20, 30
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00024
+  rotate: true
+  xy: 2, 395
+  size: 58, 54
+  orig: 100, 100
+  offset: 21, 30
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00025
+  rotate: true
+  xy: 60, 450
+  size: 50, 54
+  orig: 100, 100
+  offset: 21, 30
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00026
+  rotate: true
+  xy: 116, 450
+  size: 50, 54
+  orig: 100, 100
+  offset: 21, 30
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00027
+  rotate: true
+  xy: 172, 450
+  size: 50, 53
+  orig: 100, 100
+  offset: 21, 31
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00028
+  rotate: true
+  xy: 227, 450
+  size: 50, 53
+  orig: 100, 100
+  offset: 21, 31
+  index: -1
+res/Eff_ParticleBeamTower/Eff_ParticleBeamTower_00029
+  rotate: true
+  xy: 5, 455
+  size: 45, 53
+  orig: 100, 100
+  offset: 22, 31
+  index: -1
+res/guang
+  rotate: false
+  xy: 408, 128
+  size: 92, 92
+  orig: 100, 100
+  offset: 4, 4
+  index: -1

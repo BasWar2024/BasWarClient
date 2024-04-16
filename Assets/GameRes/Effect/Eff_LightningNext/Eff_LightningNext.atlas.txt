@@ -1,0 +1,195 @@
+
+Eff_LightningNext.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2/buff_fire_b.0001
+  rotate: true
+  xy: 2, 717
+  size: 131, 132
+  orig: 512, 512
+  offset: 187, 201
+  index: -1
+2/buff_fire_b.0002
+  rotate: false
+  xy: 191, 490
+  size: 175, 174
+  orig: 512, 512
+  offset: 170, 181
+  index: -1
+2/buff_fire_b.0003
+  rotate: true
+  xy: 2, 519
+  size: 166, 187
+  orig: 512, 512
+  offset: 175, 189
+  index: -1
+2/buff_fire_b.0004
+  rotate: false
+  xy: 832, 609
+  size: 168, 156
+  orig: 512, 512
+  offset: 173, 189
+  index: -1
+2/buff_fire_b.0005
+  rotate: false
+  xy: 662, 636
+  size: 168, 153
+  orig: 512, 512
+  offset: 172, 192
+  index: -1
+2/buff_fire_b.0006
+  rotate: false
+  xy: 486, 641
+  size: 174, 151
+  orig: 512, 512
+  offset: 168, 194
+  index: -1
+2/buff_fire_b.0007
+  rotate: false
+  xy: 310, 666
+  size: 174, 149
+  orig: 512, 512
+  offset: 168, 196
+  index: -1
+2/buff_fire_b.0008
+  rotate: true
+  xy: 136, 687
+  size: 139, 172
+  orig: 512, 512
+  offset: 191, 208
+  index: -1
+2/buff_fire_b.0009
+  rotate: false
+  xy: 690, 791
+  size: 143, 127
+  orig: 512, 512
+  offset: 191, 209
+  index: -1
+2/buff_fire_b.0010
+  rotate: false
+  xy: 835, 767
+  size: 144, 129
+  orig: 512, 512
+  offset: 190, 209
+  index: -1
+2/buff_fire_b.0011
+  rotate: false
+  xy: 543, 794
+  size: 145, 126
+  orig: 512, 512
+  offset: 190, 212
+  index: -1
+2/buff_fire_b.0012
+  rotate: false
+  xy: 400, 817
+  size: 141, 125
+  orig: 512, 512
+  offset: 192, 215
+  index: -1
+2/buff_fire_b.0013
+  rotate: false
+  xy: 250, 828
+  size: 148, 121
+  orig: 512, 512
+  offset: 189, 219
+  index: -1
+2/buff_fire_b.0014
+  rotate: false
+  xy: 561, 923
+  size: 117, 96
+  orig: 512, 512
+  offset: 203, 220
+  index: -1
+2/buff_fire_b.0015
+  rotate: false
+  xy: 680, 922
+  size: 118, 97
+  orig: 512, 512
+  offset: 202, 219
+  index: -1
+2/buff_fire_b.0016
+  rotate: false
+  xy: 800, 920
+  size: 118, 99
+  orig: 512, 512
+  offset: 202, 218
+  index: -1
+2/buff_fire_b.0017
+  rotate: false
+  xy: 2, 852
+  size: 122, 99
+  orig: 512, 512
+  offset: 201, 217
+  index: -1
+2/buff_fire_b.0018
+  rotate: true
+  xy: 920, 898
+  size: 121, 99
+  orig: 512, 512
+  offset: 200, 217
+  index: -1
+2/buff_fire_b.0019
+  rotate: false
+  xy: 126, 850
+  size: 122, 100
+  orig: 512, 512
+  offset: 200, 216
+  index: -1
+2/buff_fire_b.0020
+  rotate: false
+  xy: 438, 944
+  size: 121, 75
+  orig: 512, 512
+  offset: 199, 233
+  index: -1
+2/buff_fire_b.0021
+  rotate: false
+  xy: 330, 951
+  size: 106, 68
+  orig: 512, 512
+  offset: 215, 236
+  index: -1
+2/buff_fire_b.0022
+  rotate: false
+  xy: 157, 952
+  size: 91, 67
+  orig: 512, 512
+  offset: 212, 237
+  index: -1
+2/buff_fire_b.0023
+  rotate: false
+  xy: 250, 952
+  size: 78, 67
+  orig: 512, 512
+  offset: 214, 239
+  index: -1
+2/buff_fire_b.0024
+  rotate: false
+  xy: 73, 953
+  size: 82, 66
+  orig: 512, 512
+  offset: 211, 237
+  index: -1
+2/buff_fire_b.0025
+  rotate: false
+  xy: 36, 1000
+  size: 35, 19
+  orig: 512, 512
+  offset: 230, 262
+  index: -1
+2/buff_fire_b.0026
+  rotate: true
+  xy: 14, 1005
+  size: 14, 20
+  orig: 512, 512
+  offset: 251, 262
+  index: -1
+2/buff_fire_b.0027
+  rotate: true
+  xy: 2, 1010
+  size: 9, 10
+  orig: 512, 512
+  offset: 249, 259
+  index: -1

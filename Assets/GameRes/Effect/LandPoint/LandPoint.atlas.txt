@@ -4,7 +4,7 @@ size: 256,256
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-res//000/guang
+res/""/000/guang
   rotate: false
   xy: 2, 8
   size: 194, 188

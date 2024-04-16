@@ -1,0 +1,132 @@
+
+Eff_DestructionParticleArtillery.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/Eff_DestructionParticleArtillery.00014
+  rotate: true
+  xy: 2, 249
+  size: 5, 6
+  orig: 100, 48
+  offset: 54, 21
+  index: -1
+1/Eff_DestructionParticleArtillery.00015
+  rotate: false
+  xy: 10, 241
+  size: 13, 13
+  orig: 100, 48
+  offset: 48, 18
+  index: -1
+1/Eff_DestructionParticleArtillery.00016
+  rotate: true
+  xy: 25, 239
+  size: 15, 21
+  orig: 100, 48
+  offset: 45, 14
+  index: -1
+1/Eff_DestructionParticleArtillery.00017
+  rotate: true
+  xy: 48, 234
+  size: 20, 25
+  orig: 100, 48
+  offset: 43, 12
+  index: -1
+1/Eff_DestructionParticleArtillery.00018
+  rotate: true
+  xy: 75, 227
+  size: 27, 33
+  orig: 100, 48
+  offset: 38, 8
+  index: -1
+1/Eff_DestructionParticleArtillery.00020
+  rotate: true
+  xy: 189, 222
+  size: 32, 41
+  orig: 100, 48
+  offset: 36, 3
+  index: -1
+1/Eff_DestructionParticleArtillery.00022
+  rotate: false
+  xy: 2, 147
+  size: 54, 44
+  orig: 100, 48
+  offset: 18, 2
+  index: -1
+1/Eff_DestructionParticleArtillery.00024
+  rotate: true
+  xy: 211, 169
+  size: 51, 43
+  orig: 100, 48
+  offset: 21, 3
+  index: -1
+1/Eff_DestructionParticleArtillery.00026
+  rotate: true
+  xy: 112, 132
+  size: 49, 46
+  orig: 100, 48
+  offset: 22, 1
+  index: -1
+1/Eff_DestructionParticleArtillery.00028
+  rotate: false
+  xy: 160, 122
+  size: 59, 45
+  orig: 100, 48
+  offset: 12, 2
+  index: -1
+1/Eff_DestructionParticleArtillery.00030
+  rotate: false
+  xy: 58, 145
+  size: 52, 44
+  orig: 100, 48
+  offset: 14, 3
+  index: -1
+1/Eff_DestructionParticleArtillery.00031
+  rotate: false
+  xy: 162, 178
+  size: 47, 42
+  orig: 100, 48
+  offset: 18, 4
+  index: -1
+1/Eff_DestructionParticleArtillery.00032
+  rotate: false
+  xy: 120, 183
+  size: 40, 38
+  orig: 100, 48
+  offset: 25, 6
+  index: -1
+1/Eff_DestructionParticleArtillery.00033
+  rotate: true
+  xy: 82, 191
+  size: 33, 36
+  orig: 100, 48
+  offset: 28, 7
+  index: -1
+1/Eff_DestructionParticleArtillery.00034
+  rotate: false
+  xy: 2, 205
+  size: 40, 32
+  orig: 100, 48
+  offset: 26, 11
+  index: -1
+1/Eff_DestructionParticleArtillery.00035
+  rotate: false
+  xy: 110, 226
+  size: 39, 28
+  orig: 100, 48
+  offset: 27, 15
+  index: -1
+1/Eff_DestructionParticleArtillery.00036
+  rotate: false
+  xy: 151, 223
+  size: 36, 31
+  orig: 100, 48
+  offset: 29, 12
+  index: -1
+1/Eff_DestructionParticleArtillery.00037
+  rotate: true
+  xy: 44, 193
+  size: 32, 36
+  orig: 100, 48
+  offset: 32, 7
+  index: -1

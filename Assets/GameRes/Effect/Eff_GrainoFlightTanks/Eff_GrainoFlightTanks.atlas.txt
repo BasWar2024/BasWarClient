@@ -1,0 +1,447 @@
+
+Eff_GrainoFlightTanks.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eff_GrainoFlightTanksspine/EFF_0000
+  rotate: true
+  xy: 377, 1367
+  size: 180, 190
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0001
+  rotate: true
+  xy: 187, 1374
+  size: 176, 188
+  orig: 180, 200
+  offset: 4, 0
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0002
+  rotate: true
+  xy: 768, 1519
+  size: 160, 187
+  orig: 180, 200
+  offset: 11, 0
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0003
+  rotate: true
+  xy: 957, 1513
+  size: 160, 183
+  orig: 180, 200
+  offset: 11, 4
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0004
+  rotate: true
+  xy: 1142, 1506
+  size: 160, 183
+  orig: 180, 200
+  offset: 11, 4
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0005
+  rotate: true
+  xy: 1327, 1501
+  size: 160, 183
+  orig: 180, 200
+  offset: 11, 4
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0006
+  rotate: true
+  xy: 1512, 1499
+  size: 160, 183
+  orig: 180, 200
+  offset: 11, 4
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0007
+  rotate: true
+  xy: 1697, 1497
+  size: 160, 183
+  orig: 180, 200
+  offset: 11, 4
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0008
+  rotate: false
+  xy: 1882, 1474
+  size: 160, 183
+  orig: 180, 200
+  offset: 11, 4
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0009
+  rotate: true
+  xy: 2, 1394
+  size: 160, 183
+  orig: 180, 200
+  offset: 11, 4
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0010
+  rotate: false
+  xy: 457, 1549
+  size: 154, 150
+  orig: 180, 200
+  offset: 15, 16
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0011
+  rotate: false
+  xy: 613, 1534
+  size: 153, 151
+  orig: 180, 200
+  offset: 16, 15
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0012
+  rotate: false
+  xy: 303, 1552
+  size: 152, 148
+  orig: 180, 200
+  offset: 17, 17
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0013
+  rotate: false
+  xy: 151, 1556
+  size: 150, 147
+  orig: 180, 200
+  offset: 18, 17
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0014
+  rotate: true
+  xy: 1786, 1659
+  size: 145, 147
+  orig: 180, 200
+  offset: 21, 17
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0015
+  rotate: true
+  xy: 2, 1560
+  size: 145, 147
+  orig: 180, 200
+  offset: 21, 17
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0016
+  rotate: true
+  xy: 1485, 1663
+  size: 142, 148
+  orig: 180, 200
+  offset: 20, 18
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0017
+  rotate: true
+  xy: 1635, 1661
+  size: 143, 149
+  orig: 180, 200
+  offset: 19, 18
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0018
+  rotate: true
+  xy: 1332, 1667
+  size: 138, 151
+  orig: 180, 200
+  offset: 19, 18
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0019
+  rotate: true
+  xy: 1021, 1675
+  size: 132, 153
+  orig: 180, 200
+  offset: 23, 18
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0020
+  rotate: true
+  xy: 1176, 1668
+  size: 137, 154
+  orig: 180, 200
+  offset: 25, 18
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0021
+  rotate: false
+  xy: 692, 1940
+  size: 122, 102
+  orig: 180, 200
+  offset: 27, 19
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0022
+  rotate: false
+  xy: 816, 1940
+  size: 121, 102
+  orig: 180, 200
+  offset: 28, 19
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0023
+  rotate: true
+  xy: 486, 1947
+  size: 95, 101
+  orig: 180, 200
+  offset: 28, 19
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0024
+  rotate: true
+  xy: 589, 1947
+  size: 95, 101
+  orig: 180, 200
+  offset: 28, 19
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0025
+  rotate: true
+  xy: 383, 1949
+  size: 93, 101
+  orig: 180, 200
+  offset: 29, 19
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0026
+  rotate: true
+  xy: 178, 1950
+  size: 92, 101
+  orig: 180, 200
+  offset: 29, 19
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0027
+  rotate: true
+  xy: 281, 1950
+  size: 92, 100
+  orig: 180, 200
+  offset: 29, 20
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0028
+  rotate: false
+  xy: 84, 1964
+  size: 92, 78
+  orig: 180, 200
+  offset: 29, 20
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0029
+  rotate: true
+  xy: 5, 1991
+  size: 51, 77
+  orig: 180, 200
+  offset: 70, 20
+  index: -1
+Eff_GrainoFlightTanksspine/EFF_0030
+  rotate: false
+  xy: 2, 2041
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+eff_guang
+  rotate: false
+  xy: 893, 1681
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+guang_0000
+  rotate: false
+  xy: 1272, 1807
+  size: 126, 125
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0001
+  rotate: false
+  xy: 1400, 1807
+  size: 126, 125
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0002
+  rotate: false
+  xy: 1528, 1807
+  size: 126, 125
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0003
+  rotate: false
+  xy: 1656, 1807
+  size: 126, 125
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0004
+  rotate: true
+  xy: 1018, 1809
+  size: 124, 125
+  orig: 128, 128
+  offset: 3, 1
+  index: -1
+guang_0005
+  rotate: true
+  xy: 1145, 1809
+  size: 124, 125
+  orig: 128, 128
+  offset: 3, 1
+  index: -1
+guang_0006
+  rotate: true
+  xy: 2, 1852
+  size: 110, 125
+  orig: 128, 128
+  offset: 3, 1
+  index: -1
+guang_0007
+  rotate: true
+  xy: 1323, 1934
+  size: 108, 125
+  orig: 128, 128
+  offset: 3, 1
+  index: -1
+guang_0008
+  rotate: true
+  xy: 1834, 1933
+  size: 109, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0009
+  rotate: true
+  xy: 1450, 1934
+  size: 108, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0010
+  rotate: true
+  xy: 1578, 1934
+  size: 108, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0011
+  rotate: true
+  xy: 939, 1935
+  size: 107, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0012
+  rotate: true
+  xy: 1067, 1935
+  size: 107, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0013
+  rotate: true
+  xy: 1195, 1935
+  size: 107, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0014
+  rotate: true
+  xy: 1706, 1934
+  size: 108, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0015
+  rotate: true
+  xy: 1784, 1806
+  size: 125, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0016
+  rotate: true
+  xy: 1912, 1806
+  size: 125, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0017
+  rotate: false
+  xy: 256, 1705
+  size: 125, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0018
+  rotate: false
+  xy: 383, 1702
+  size: 125, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0019
+  rotate: false
+  xy: 510, 1701
+  size: 125, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0020
+  rotate: true
+  xy: 637, 1695
+  size: 125, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0021
+  rotate: true
+  xy: 765, 1687
+  size: 125, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0022
+  rotate: false
+  xy: 2, 1725
+  size: 125, 125
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0023
+  rotate: false
+  xy: 129, 1707
+  size: 125, 125
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0024
+  rotate: false
+  xy: 891, 1814
+  size: 125, 119
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0025
+  rotate: false
+  xy: 510, 1829
+  size: 125, 116
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0026
+  rotate: false
+  xy: 637, 1822
+  size: 125, 116
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0027
+  rotate: false
+  xy: 764, 1822
+  size: 125, 116
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0028
+  rotate: false
+  xy: 256, 1833
+  size: 125, 115
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0029
+  rotate: false
+  xy: 383, 1830
+  size: 125, 115
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+guang_0030
+  rotate: false
+  xy: 129, 1834
+  size: 125, 114
+  orig: 128, 128
+  offset: 2, 1
+  index: -1

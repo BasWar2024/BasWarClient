@@ -1,0 +1,118 @@
+
+Eff_Ninja.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_Ninja/Eff_Ninja_00000
+  rotate: false
+  xy: 509, 419
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00001
+  rotate: false
+  xy: 117, 253
+  size: 111, 107
+  orig: 180, 200
+  offset: 35, 41
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00002
+  rotate: false
+  xy: 2, 252
+  size: 113, 108
+  orig: 180, 200
+  offset: 33, 41
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00003
+  rotate: false
+  xy: 306, 259
+  size: 120, 119
+  orig: 180, 200
+  offset: 26, 41
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00004
+  rotate: false
+  xy: 306, 380
+  size: 134, 130
+  orig: 180, 200
+  offset: 17, 38
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00005
+  rotate: false
+  xy: 2, 362
+  size: 150, 148
+  orig: 180, 200
+  offset: 10, 32
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00006
+  rotate: false
+  xy: 154, 362
+  size: 150, 148
+  orig: 180, 200
+  offset: 10, 32
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00007
+  rotate: true
+  xy: 117, 174
+  size: 77, 86
+  orig: 180, 200
+  offset: 51, 54
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00008
+  rotate: false
+  xy: 428, 243
+  size: 79, 87
+  orig: 180, 200
+  offset: 51, 54
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00009
+  rotate: false
+  xy: 442, 422
+  size: 68, 88
+  orig: 180, 200
+  offset: 57, 54
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00010
+  rotate: false
+  xy: 442, 332
+  size: 65, 88
+  orig: 180, 200
+  offset: 59, 54
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00011
+  rotate: false
+  xy: 230, 274
+  size: 56, 86
+  orig: 180, 200
+  offset: 59, 54
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00012
+  rotate: true
+  xy: 230, 222
+  size: 50, 71
+  orig: 180, 200
+  offset: 65, 65
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00013
+  rotate: true
+  xy: 2, 207
+  size: 43, 44
+  orig: 180, 200
+  offset: 70, 75
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00014
+  rotate: true
+  xy: 428, 365
+  size: 13, 4
+  orig: 180, 200
+  offset: 98, 104
+  index: -1
+res/Eff_Ninja/Eff_Ninja_00015
+  rotate: false
+  xy: 509, 416
+  size: 1, 1
+  orig: 180, 200
+  offset: 110, 106
+  index: -1

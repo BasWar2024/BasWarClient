@@ -1,0 +1,195 @@
+
+Eff_Precision.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eff_Precision_a/Eff_Precision_a.00000
+  rotate: false
+  xy: 353, 50
+  size: 166, 163
+  orig: 225, 225
+  offset: 30, 0
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00001
+  rotate: true
+  xy: 789, 845
+  size: 176, 198
+  orig: 225, 225
+  offset: 29, 0
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00002
+  rotate: false
+  xy: 532, 263
+  size: 182, 168
+  orig: 225, 225
+  offset: 24, 0
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00003
+  rotate: true
+  xy: 716, 252
+  size: 182, 169
+  orig: 225, 225
+  offset: 24, 0
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00004
+  rotate: false
+  xy: 2, 407
+  size: 182, 201
+  orig: 225, 225
+  offset: 25, 0
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00005
+  rotate: false
+  xy: 711, 88
+  size: 178, 162
+  orig: 225, 225
+  offset: 29, 0
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00006
+  rotate: true
+  xy: 868, 665
+  size: 178, 153
+  orig: 225, 225
+  offset: 36, 14
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00007
+  rotate: true
+  xy: 357, 222
+  size: 186, 162
+  orig: 225, 225
+  offset: 35, 13
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00008
+  rotate: true
+  xy: 711, 436
+  size: 190, 164
+  orig: 225, 225
+  offset: 35, 14
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00009
+  rotate: true
+  xy: 183, 15
+  size: 190, 168
+  orig: 225, 225
+  offset: 35, 14
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00010
+  rotate: true
+  xy: 185, 215
+  size: 190, 170
+  orig: 225, 225
+  offset: 33, 14
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00011
+  rotate: true
+  xy: 359, 414
+  size: 193, 171
+  orig: 225, 225
+  offset: 31, 14
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00012
+  rotate: true
+  xy: 204, 609
+  size: 197, 170
+  orig: 225, 225
+  offset: 28, 15
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00013
+  rotate: true
+  xy: 186, 410
+  size: 197, 171
+  orig: 225, 225
+  offset: 27, 14
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00014
+  rotate: false
+  xy: 2, 610
+  size: 200, 196
+  orig: 225, 225
+  offset: 25, 15
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00015
+  rotate: false
+  xy: 229, 824
+  size: 190, 197
+  orig: 225, 225
+  offset: 23, 16
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00016
+  rotate: false
+  xy: 421, 824
+  size: 182, 197
+  orig: 225, 225
+  offset: 32, 17
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00017
+  rotate: false
+  xy: 2, 8
+  size: 179, 197
+  orig: 225, 225
+  offset: 29, 17
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00018
+  rotate: false
+  xy: 2, 207
+  size: 181, 198
+  orig: 225, 225
+  offset: 26, 17
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00019
+  rotate: false
+  xy: 605, 824
+  size: 182, 197
+  orig: 225, 225
+  offset: 23, 18
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00020
+  rotate: false
+  xy: 376, 626
+  size: 175, 196
+  orig: 225, 225
+  offset: 31, 20
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00021
+  rotate: false
+  xy: 553, 628
+  size: 177, 194
+  orig: 225, 225
+  offset: 29, 22
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00022
+  rotate: false
+  xy: 532, 433
+  size: 177, 191
+  orig: 225, 225
+  offset: 30, 25
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00023
+  rotate: true
+  xy: 521, 81
+  size: 180, 188
+  orig: 225, 225
+  offset: 27, 25
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00024
+  rotate: false
+  xy: 732, 628
+  size: 134, 194
+  orig: 225, 225
+  offset: 46, 23
+  index: -1
+Eff_Precision_a/Eff_Precision_a.00025
+  rotate: false
+  xy: 877, 552
+  size: 120, 111
+  orig: 225, 225
+  offset: 61, 22
+  index: -1
+land
+  rotate: false
+  xy: 2, 808
+  size: 225, 213
+  orig: 225, 225
+  offset: 0, 1
+  index: -1

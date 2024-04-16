@@ -4,63 +4,63 @@ size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-res///01
+res/""/""/""01
   rotate: false
   xy: 82, 436
   size: 84, 57
   orig: 92, 220
   offset: 4, 160
   index: -1
-res///02
+res/""/""/""02
   rotate: true
   xy: 394, 409
   size: 84, 99
   orig: 92, 220
   offset: 4, 118
   index: -1
-res///03
+res/""/""/""03
   rotate: true
   xy: 2, 350
   size: 84, 136
   orig: 92, 220
   offset: 4, 80
   index: -1
-res///04
+res/""/""/""04
   rotate: true
   xy: 140, 325
   size: 84, 175
   orig: 92, 220
   offset: 4, 40
   index: -1
-res///05
+res/""/""/""05
   rotate: true
   xy: 2, 239
   size: 84, 212
   orig: 92, 220
   offset: 4, 2
   index: -1
-res///06
+res/""/""/""06
   rotate: true
   xy: 317, 323
   size: 84, 170
   orig: 92, 220
   offset: 4, 2
   index: -1
-res///07
+res/""/""/""07
   rotate: true
   xy: 261, 411
   size: 82, 131
   orig: 92, 220
   offset: 5, 3
   index: -1
-res///08
+res/""/""/""08
   rotate: true
   xy: 168, 413
   size: 80, 91
   orig: 92, 220
   offset: 6, 3
   index: -1
-res///09
+res/""/""/""09
   rotate: false
   xy: 2, 442
   size: 78, 51

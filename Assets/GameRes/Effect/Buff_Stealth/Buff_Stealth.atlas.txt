@@ -1,0 +1,13 @@
+
+Buff_Stealth.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff_fire_b.000
+  rotate: false
+  xy: 2, 8
+  size: 197, 191
+  orig: 203, 195
+  offset: 3, 1
+  index: -1

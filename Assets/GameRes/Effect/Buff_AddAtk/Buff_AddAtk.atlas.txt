@@ -1,0 +1,13 @@
+
+Buff_AddAtk.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff_fire_b.000
+  rotate: false
+  xy: 2, 18
+  size: 133, 117
+  orig: 256, 256
+  offset: 58, 79
+  index: -1

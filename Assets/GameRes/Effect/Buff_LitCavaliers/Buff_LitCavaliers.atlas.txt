@@ -1,0 +1,174 @@
+
+Buff_LitCavaliers.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Buff_LitCavaliers_00000
+  rotate: true
+  xy: 204, 853
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00001
+  rotate: true
+  xy: 406, 853
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00002
+  rotate: true
+  xy: 608, 375
+  size: 158, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00003
+  rotate: true
+  xy: 810, 375
+  size: 158, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00004
+  rotate: true
+  xy: 2, 216
+  size: 158, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00005
+  rotate: true
+  xy: 204, 216
+  size: 158, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00006
+  rotate: true
+  xy: 608, 853
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00007
+  rotate: true
+  xy: 810, 853
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00008
+  rotate: true
+  xy: 2, 694
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00009
+  rotate: true
+  xy: 204, 694
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00010
+  rotate: true
+  xy: 406, 216
+  size: 158, 200
+  orig: 216, 240
+  offset: 26, 17
+  index: -1
+res/Buff_LitCavaliers_00011
+  rotate: true
+  xy: 406, 694
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00012
+  rotate: true
+  xy: 608, 694
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00013
+  rotate: true
+  xy: 810, 694
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00014
+  rotate: true
+  xy: 2, 535
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00015
+  rotate: true
+  xy: 608, 215
+  size: 158, 200
+  orig: 216, 240
+  offset: 26, 17
+  index: -1
+res/Buff_LitCavaliers_00016
+  rotate: true
+  xy: 204, 535
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00017
+  rotate: true
+  xy: 406, 535
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00018
+  rotate: true
+  xy: 608, 535
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00019
+  rotate: true
+  xy: 810, 535
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00020
+  rotate: true
+  xy: 2, 376
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00021
+  rotate: true
+  xy: 204, 376
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00022
+  rotate: true
+  xy: 406, 376
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1
+res/Buff_LitCavaliers_00023
+  rotate: true
+  xy: 2, 853
+  size: 157, 200
+  orig: 216, 240
+  offset: 27, 17
+  index: -1

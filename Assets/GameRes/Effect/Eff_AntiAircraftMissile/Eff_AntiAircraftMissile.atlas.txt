@@ -1,0 +1,356 @@
+
+Eff_AntiAircraftMissile.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_AntiAircraftMissile_00001
+  rotate: false
+  xy: 307, 257
+  size: 21, 25
+  orig: 101, 112
+  offset: 41, 40
+  index: -1
+res/Eff_AntiAircraftMissile_00002
+  rotate: true
+  xy: 243, 252
+  size: 30, 35
+  orig: 101, 112
+  offset: 36, 35
+  index: -1
+res/Eff_AntiAircraftMissile_00003
+  rotate: false
+  xy: 381, 324
+  size: 33, 39
+  orig: 101, 112
+  offset: 34, 33
+  index: -1
+res/Eff_AntiAircraftMissile_00004
+  rotate: true
+  xy: 450, 472
+  size: 38, 42
+  orig: 101, 112
+  offset: 32, 31
+  index: -1
+res/Eff_AntiAircraftMissile_00005
+  rotate: true
+  xy: 446, 392
+  size: 47, 48
+  orig: 101, 112
+  offset: 29, 27
+  index: -1
+res/Eff_AntiAircraftMissile_00006
+  rotate: true
+  xy: 315, 49
+  size: 57, 56
+  orig: 101, 112
+  offset: 21, 25
+  index: -1
+res/Eff_AntiAircraftMissile_00007
+  rotate: true
+  xy: 317, 192
+  size: 63, 62
+  orig: 101, 112
+  offset: 15, 25
+  index: -1
+res/Eff_AntiAircraftMissile_00008
+  rotate: false
+  xy: 382, 441
+  size: 66, 69
+  orig: 101, 112
+  offset: 12, 23
+  index: -1
+res/Eff_AntiAircraftMissile_00009
+  rotate: false
+  xy: 246, 181
+  size: 69, 69
+  orig: 101, 112
+  offset: 11, 23
+  index: -1
+res/Eff_AntiAircraftMissile_00010
+  rotate: true
+  xy: 156, 2
+  size: 71, 73
+  orig: 101, 112
+  offset: 9, 22
+  index: -1
+res/Eff_AntiAircraftMissile_00011
+  rotate: false
+  xy: 167, 269
+  size: 74, 75
+  orig: 101, 112
+  offset: 8, 21
+  index: -1
+res/Eff_AntiAircraftMissile_00012
+  rotate: false
+  xy: 166, 168
+  size: 78, 81
+  orig: 101, 112
+  offset: 6, 18
+  index: -1
+res/Eff_AntiAircraftMissile_00013
+  rotate: true
+  xy: 231, 3
+  size: 78, 82
+  orig: 101, 112
+  offset: 6, 18
+  index: -1
+res/Eff_AntiAircraftMissile_00014
+  rotate: false
+  xy: 84, 162
+  size: 80, 84
+  orig: 101, 112
+  offset: 6, 17
+  index: -1
+res/Eff_AntiAircraftMissile_00015
+  rotate: false
+  xy: 2, 248
+  size: 81, 86
+  orig: 101, 112
+  offset: 6, 16
+  index: -1
+res/Eff_AntiAircraftMissile_00016
+  rotate: false
+  xy: 2, 424
+  size: 82, 86
+  orig: 101, 112
+  offset: 6, 15
+  index: -1
+res/Eff_AntiAircraftMissile_00017
+  rotate: true
+  xy: 2, 161
+  size: 85, 80
+  orig: 101, 112
+  offset: 6, 15
+  index: -1
+res/Eff_AntiAircraftMissile_00018
+  rotate: true
+  xy: 2, 74
+  size: 85, 80
+  orig: 101, 112
+  offset: 6, 15
+  index: -1
+res/Eff_AntiAircraftMissile_00019
+  rotate: true
+  xy: 2, 336
+  size: 86, 82
+  orig: 101, 112
+  offset: 6, 15
+  index: -1
+res/Eff_AntiAircraftMissile_00020
+  rotate: false
+  xy: 85, 251
+  size: 80, 83
+  orig: 101, 112
+  offset: 12, 14
+  index: -1
+res/Eff_AntiAircraftMissile_00021
+  rotate: false
+  xy: 84, 75
+  size: 78, 85
+  orig: 101, 112
+  offset: 14, 13
+  index: -1
+res/Eff_AntiAircraftMissile_00022
+  rotate: true
+  xy: 164, 83
+  size: 77, 86
+  orig: 101, 112
+  offset: 16, 13
+  index: -1
+res/Eff_AntiAircraftMissile_00023
+  rotate: false
+  xy: 86, 425
+  size: 74, 85
+  orig: 101, 112
+  offset: 21, 13
+  index: -1
+res/Eff_AntiAircraftMissile_00024
+  rotate: false
+  xy: 86, 340
+  size: 73, 83
+  orig: 101, 112
+  offset: 22, 16
+  index: -1
+res/Eff_AntiAircraftMissile_00025
+  rotate: false
+  xy: 162, 432
+  size: 73, 78
+  orig: 101, 112
+  offset: 22, 21
+  index: -1
+res/Eff_AntiAircraftMissile_00026
+  rotate: false
+  xy: 237, 435
+  size: 74, 75
+  orig: 101, 112
+  offset: 21, 21
+  index: -1
+res/Eff_AntiAircraftMissile_00027
+  rotate: false
+  xy: 161, 346
+  size: 74, 77
+  orig: 101, 112
+  offset: 21, 20
+  index: -1
+res/Eff_AntiAircraftMissile_00028
+  rotate: true
+  xy: 237, 359
+  size: 74, 70
+  orig: 101, 112
+  offset: 21, 20
+  index: -1
+res/Eff_AntiAircraftMissile_00029
+  rotate: false
+  xy: 2, 2
+  size: 75, 70
+  orig: 101, 112
+  offset: 20, 20
+  index: -1
+res/Eff_AntiAircraftMissile_00030
+  rotate: false
+  xy: 79, 2
+  size: 75, 70
+  orig: 101, 112
+  offset: 20, 19
+  index: -1
+res/Eff_AntiAircraftMissile_00031
+  rotate: false
+  xy: 252, 108
+  size: 64, 71
+  orig: 101, 112
+  offset: 19, 19
+  index: -1
+res/Eff_AntiAircraftMissile_00032
+  rotate: false
+  xy: 379, 365
+  size: 65, 71
+  orig: 101, 112
+  offset: 19, 19
+  index: -1
+res/Eff_AntiAircraftMissile_00033
+  rotate: false
+  xy: 313, 286
+  size: 66, 72
+  orig: 101, 112
+  offset: 18, 19
+  index: -1
+res/Eff_AntiAircraftMissile_00034
+  rotate: false
+  xy: 313, 438
+  size: 67, 72
+  orig: 101, 112
+  offset: 18, 19
+  index: -1
+res/Eff_AntiAircraftMissile_00035
+  rotate: false
+  xy: 243, 284
+  size: 68, 73
+  orig: 101, 112
+  offset: 17, 19
+  index: -1
+res/Eff_AntiAircraftMissile_00036
+  rotate: false
+  xy: 309, 360
+  size: 68, 73
+  orig: 101, 112
+  offset: 17, 19
+  index: -1
+res/Eff_AntiAircraftMissile_00037
+  rotate: false
+  xy: 318, 130
+  size: 48, 60
+  orig: 101, 112
+  offset: 31, 32
+  index: -1
+res/Eff_AntiAircraftMissile_00038
+  rotate: false
+  xy: 368, 130
+  size: 47, 60
+  orig: 101, 112
+  offset: 32, 33
+  index: -1
+res/Eff_AntiAircraftMissile_00039
+  rotate: false
+  xy: 373, 69
+  size: 47, 59
+  orig: 101, 112
+  offset: 32, 34
+  index: -1
+res/Eff_AntiAircraftMissile_00040
+  rotate: true
+  xy: 417, 317
+  size: 46, 57
+  orig: 101, 112
+  offset: 33, 36
+  index: -1
+res/Eff_AntiAircraftMissile_00041
+  rotate: true
+  xy: 315, 2
+  size: 45, 54
+  orig: 101, 112
+  offset: 33, 38
+  index: -1
+res/Eff_AntiAircraftMissile_00042
+  rotate: true
+  xy: 371, 6
+  size: 41, 50
+  orig: 101, 112
+  offset: 34, 41
+  index: -1
+res/Eff_AntiAircraftMissile_00043
+  rotate: false
+  xy: 280, 256
+  size: 25, 26
+  orig: 101, 112
+  offset: 42, 43
+  index: -1
+res/Eff_AntiAircraftMissile_00049
+  rotate: false
+  xy: 85, 248
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_AntiAircraftMissile_00000
+  rotate: false
+  xy: 85, 248
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_AntiAircraftMissile_00044
+  rotate: false
+  xy: 85, 248
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_AntiAircraftMissile_00045
+  rotate: false
+  xy: 85, 248
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_AntiAircraftMissile_00046
+  rotate: false
+  xy: 85, 248
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_AntiAircraftMissile_00047
+  rotate: false
+  xy: 85, 248
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_AntiAircraftMissile_00048
+  rotate: false
+  xy: 85, 248
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+Buff_Cure.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff_fire_b.000
+  rotate: false
+  xy: 2, 8
+  size: 194, 188
+  orig: 256, 256
+  offset: 31, 33
+  index: -1

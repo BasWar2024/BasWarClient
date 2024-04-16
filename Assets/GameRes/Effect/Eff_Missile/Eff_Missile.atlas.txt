@@ -1,0 +1,223 @@
+
+Eff_Missile.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_Missile_00000
+  rotate: false
+  xy: 154, 4
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_Missile_00001
+  rotate: true
+  xy: 180, 134
+  size: 176, 160
+  orig: 180, 200
+  offset: 2, 13
+  index: -1
+res/Eff_Missile_00002
+  rotate: false
+  xy: 2, 486
+  size: 176, 175
+  orig: 180, 200
+  offset: 2, 6
+  index: -1
+res/Eff_Missile_00003
+  rotate: true
+  xy: 839, 157
+  size: 171, 159
+  orig: 180, 200
+  offset: 7, 22
+  index: -1
+res/Eff_Missile_00004
+  rotate: true
+  xy: 2, 3
+  size: 127, 150
+  orig: 180, 200
+  offset: 33, 31
+  index: -1
+res/Eff_Missile_00005
+  rotate: false
+  xy: 521, 5
+  size: 135, 152
+  orig: 180, 200
+  offset: 30, 29
+  index: -1
+res/Eff_Missile_00006
+  rotate: true
+  xy: 154, 7
+  size: 123, 154
+  orig: 180, 200
+  offset: 39, 25
+  index: -1
+res/Eff_Missile_00007
+  rotate: false
+  xy: 521, 159
+  size: 137, 157
+  orig: 180, 200
+  offset: 30, 22
+  index: -1
+res/Eff_Missile_00008
+  rotate: true
+  xy: 839, 2
+  size: 153, 162
+  orig: 180, 200
+  offset: 17, 17
+  index: -1
+res/Eff_Missile_00009
+  rotate: false
+  xy: 834, 330
+  size: 175, 167
+  orig: 180, 200
+  offset: 2, 12
+  index: -1
+res/Eff_Missile_00010
+  rotate: false
+  xy: 535, 670
+  size: 175, 172
+  orig: 180, 200
+  offset: 3, 6
+  index: -1
+res/Eff_Missile_00011
+  rotate: true
+  xy: 664, 151
+  size: 168, 173
+  orig: 180, 200
+  offset: 10, 5
+  index: -1
+res/Eff_Missile_00012
+  rotate: true
+  xy: 357, 668
+  size: 173, 175
+  orig: 180, 200
+  offset: 3, 5
+  index: -1
+res/Eff_Missile_00013
+  rotate: false
+  xy: 712, 674
+  size: 175, 169
+  orig: 180, 200
+  offset: 3, 12
+  index: -1
+res/Eff_Missile_00014
+  rotate: true
+  xy: 664, 321
+  size: 176, 168
+  orig: 180, 200
+  offset: 2, 10
+  index: -1
+res/Eff_Missile_00015
+  rotate: false
+  xy: 488, 318
+  size: 174, 172
+  orig: 180, 200
+  offset: 4, 7
+  index: -1
+res/Eff_Missile_00016
+  rotate: false
+  xy: 2, 841
+  size: 176, 176
+  orig: 180, 200
+  offset: 2, 5
+  index: -1
+res/Eff_Missile_00017
+  rotate: false
+  xy: 310, 488
+  size: 176, 174
+  orig: 180, 200
+  offset: 2, 5
+  index: -1
+res/Eff_Missile_00018
+  rotate: false
+  xy: 663, 499
+  size: 176, 169
+  orig: 180, 200
+  offset: 2, 9
+  index: -1
+res/Eff_Missile_00019
+  rotate: false
+  xy: 2, 309
+  size: 176, 175
+  orig: 180, 200
+  offset: 2, 5
+  index: -1
+res/Eff_Missile_00020
+  rotate: false
+  xy: 2, 132
+  size: 176, 175
+  orig: 180, 200
+  offset: 2, 5
+  index: -1
+res/Eff_Missile_00021
+  rotate: true
+  xy: 180, 841
+  size: 176, 175
+  orig: 180, 200
+  offset: 2, 6
+  index: -1
+res/Eff_Missile_00022
+  rotate: false
+  xy: 357, 843
+  size: 176, 174
+  orig: 180, 200
+  offset: 2, 6
+  index: -1
+res/Eff_Missile_00023
+  rotate: true
+  xy: 180, 312
+  size: 174, 171
+  orig: 180, 200
+  offset: 4, 8
+  index: -1
+res/Eff_Missile_00024
+  rotate: true
+  xy: 488, 492
+  size: 174, 173
+  orig: 180, 200
+  offset: 4, 8
+  index: -1
+res/Eff_Missile_00025
+  rotate: false
+  xy: 711, 845
+  size: 175, 172
+  orig: 180, 200
+  offset: 3, 8
+  index: -1
+res/Eff_Missile_00026
+  rotate: false
+  xy: 180, 664
+  size: 175, 175
+  orig: 180, 200
+  offset: 3, 5
+  index: -1
+res/Eff_Missile_00027
+  rotate: false
+  xy: 2, 663
+  size: 176, 176
+  orig: 180, 200
+  offset: 2, 5
+  index: -1
+res/Eff_Missile_00028
+  rotate: false
+  xy: 535, 844
+  size: 174, 173
+  orig: 180, 200
+  offset: 2, 8
+  index: -1
+res/Eff_Missile_00029
+  rotate: true
+  xy: 353, 142
+  size: 174, 166
+  orig: 180, 200
+  offset: 2, 7
+  index: -1
+res/Eff_Missile_00030
+  rotate: false
+  xy: 841, 506
+  size: 176, 166
+  orig: 180, 200
+  offset: 2, 7
+  index: -1

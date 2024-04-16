@@ -1,0 +1,181 @@
+
+Eff_AddAtk_spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/PNG/3/1/buff_fire_b.0001
+  rotate: true
+  xy: 325, 163
+  size: 205, 155
+  orig: 379, 379
+  offset: 81, 121
+  index: -1
+1/PNG/3/1/buff_fire_b.0002
+  rotate: true
+  xy: 639, 172
+  size: 202, 155
+  orig: 379, 379
+  offset: 83, 122
+  index: -1
+1/PNG/3/1/buff_fire_b.0003
+  rotate: true
+  xy: 482, 170
+  size: 204, 155
+  orig: 379, 379
+  offset: 81, 122
+  index: -1
+1/PNG/3/1/buff_fire_b.0004
+  rotate: true
+  xy: 796, 172
+  size: 202, 154
+  orig: 379, 379
+  offset: 80, 124
+  index: -1
+1/PNG/3/1/buff_fire_b.0005
+  rotate: false
+  xy: 733, 15
+  size: 202, 155
+  orig: 379, 379
+  offset: 80, 124
+  index: -1
+1/PNG/3/1/buff_fire_b.0006
+  rotate: false
+  xy: 529, 10
+  size: 202, 158
+  orig: 379, 379
+  offset: 80, 121
+  index: -1
+1/PNG/3/1/buff_fire_b.0007
+  rotate: false
+  xy: 325, 2
+  size: 202, 159
+  orig: 379, 379
+  offset: 80, 121
+  index: -1
+1/PNG/3/1/buff_fire_b.0008
+  rotate: false
+  xy: 2, 468
+  size: 211, 159
+  orig: 379, 379
+  offset: 80, 121
+  index: -1
+1/PNG/3/1/buff_fire_b.0009
+  rotate: false
+  xy: 667, 537
+  size: 211, 160
+  orig: 379, 379
+  offset: 80, 121
+  index: -1
+1/PNG/3/1/buff_fire_b.0010
+  rotate: false
+  xy: 2, 306
+  size: 210, 160
+  orig: 379, 379
+  offset: 81, 121
+  index: -1
+1/PNG/3/1/buff_fire_b.0011
+  rotate: false
+  xy: 449, 536
+  size: 211, 160
+  orig: 379, 379
+  offset: 80, 121
+  index: -1
+1/PNG/3/1/buff_fire_b.0012
+  rotate: false
+  xy: 216, 533
+  size: 211, 160
+  orig: 379, 379
+  offset: 79, 121
+  index: -1
+1/PNG/3/1/buff_fire_b.0013
+  rotate: true
+  xy: 2, 95
+  size: 209, 161
+  orig: 379, 379
+  offset: 80, 121
+  index: -1
+1/PNG/3/1/buff_fire_b.0014
+  rotate: true
+  xy: 165, 95
+  size: 209, 158
+  orig: 379, 379
+  offset: 80, 123
+  index: -1
+1/PNG/3/1/buff_fire_b.0015
+  rotate: false
+  xy: 215, 370
+  size: 210, 161
+  orig: 379, 379
+  offset: 80, 120
+  index: -1
+1/PNG/3/1/buff_fire_b.0016
+  rotate: false
+  xy: 668, 858
+  size: 213, 161
+  orig: 379, 379
+  offset: 80, 120
+  index: -1
+1/PNG/3/1/buff_fire_b.0017
+  rotate: false
+  xy: 235, 858
+  size: 215, 161
+  orig: 379, 379
+  offset: 81, 120
+  index: -1
+1/PNG/3/1/buff_fire_b.0018
+  rotate: false
+  xy: 235, 695
+  size: 212, 161
+  orig: 379, 379
+  offset: 84, 120
+  index: -1
+1/PNG/3/1/buff_fire_b.0019
+  rotate: false
+  xy: 452, 698
+  size: 213, 161
+  orig: 379, 379
+  offset: 84, 120
+  index: -1
+1/PNG/3/1/buff_fire_b.0020
+  rotate: false
+  xy: 667, 699
+  size: 212, 157
+  orig: 379, 379
+  offset: 84, 120
+  index: -1
+1/PNG/3/1/buff_fire_b.0021
+  rotate: false
+  xy: 452, 861
+  size: 214, 158
+  orig: 379, 379
+  offset: 82, 120
+  index: -1
+1/PNG/3/1/buff_fire_b.0022
+  rotate: false
+  xy: 2, 629
+  size: 212, 159
+  orig: 379, 379
+  offset: 81, 120
+  index: -1
+1/PNG/3/1/buff_fire_b.0023
+  rotate: false
+  xy: 662, 376
+  size: 211, 159
+  orig: 379, 379
+  offset: 81, 120
+  index: -1
+1/PNG/3/1/buff_fire_b.0024
+  rotate: false
+  xy: 429, 376
+  size: 211, 158
+  orig: 379, 379
+  offset: 81, 121
+  index: -1
+""_gong/""_gong.00001
+  rotate: false
+  xy: 2, 790
+  size: 231, 229
+  orig: 379, 379
+  offset: 74, 75
+  index: -1

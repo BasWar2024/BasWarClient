@@ -1,0 +1,118 @@
+
+Eff_540000101.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_540000101_00001
+  rotate: false
+  xy: 380, 268
+  size: 117, 117
+  orig: 144, 160
+  offset: 14, 20
+  index: -1
+res/Eff_540000101_00002
+  rotate: true
+  xy: 2, 24
+  size: 126, 127
+  orig: 144, 160
+  offset: 9, 14
+  index: -1
+res/Eff_540000101_00003
+  rotate: true
+  xy: 131, 19
+  size: 126, 127
+  orig: 144, 160
+  offset: 9, 14
+  index: -1
+res/Eff_540000101_00004
+  rotate: true
+  xy: 260, 19
+  size: 126, 127
+  orig: 144, 160
+  offset: 9, 14
+  index: -1
+res/Eff_540000101_00005
+  rotate: true
+  xy: 2, 153
+  size: 119, 120
+  orig: 144, 160
+  offset: 16, 20
+  index: -1
+res/Eff_540000101_00006
+  rotate: false
+  xy: 242, 388
+  size: 115, 109
+  orig: 144, 160
+  offset: 17, 21
+  index: -1
+res/Eff_540000101_00007
+  rotate: false
+  xy: 5, 391
+  size: 117, 106
+  orig: 144, 160
+  offset: 15, 22
+  index: -1
+res/Eff_540000101_00008
+  rotate: false
+  xy: 124, 390
+  size: 116, 107
+  orig: 144, 160
+  offset: 10, 15
+  index: -1
+res/Eff_540000101_00009
+  rotate: false
+  xy: 2, 274
+  size: 122, 114
+  orig: 144, 160
+  offset: 6, 10
+  index: -1
+res/Eff_540000101_00010
+  rotate: false
+  xy: 255, 269
+  size: 123, 116
+  orig: 144, 160
+  offset: 5, 8
+  index: -1
+res/Eff_540000101_00011
+  rotate: false
+  xy: 359, 387
+  size: 128, 110
+  orig: 144, 160
+  offset: 2, 14
+  index: -1
+res/Eff_540000101_00012
+  rotate: false
+  xy: 126, 271
+  size: 127, 115
+  orig: 144, 160
+  offset: 0, 9
+  index: -1
+res/Eff_540000101_00013
+  rotate: false
+  xy: 124, 152
+  size: 128, 117
+  orig: 144, 160
+  offset: 0, 7
+  index: -1
+res/Eff_540000101_00014
+  rotate: false
+  xy: 254, 147
+  size: 129, 119
+  orig: 144, 160
+  offset: 0, 3
+  index: -1
+res/Eff_540000101_00015
+  rotate: false
+  xy: 2, 496
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_540000101_00000
+  rotate: false
+  xy: 2, 496
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

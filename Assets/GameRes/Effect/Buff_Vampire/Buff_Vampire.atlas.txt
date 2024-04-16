@@ -1,0 +1,174 @@
+
+Buff_Vampire.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Buff_Vampire_0000
+  rotate: true
+  xy: 99, 174
+  size: 77, 95
+  orig: 108, 120
+  offset: 17, 7
+  index: -1
+res/Buff_Vampire_0001
+  rotate: true
+  xy: 196, 174
+  size: 77, 95
+  orig: 108, 120
+  offset: 17, 7
+  index: -1
+res/Buff_Vampire_0002
+  rotate: true
+  xy: 293, 174
+  size: 77, 95
+  orig: 108, 120
+  offset: 17, 7
+  index: -1
+res/Buff_Vampire_0003
+  rotate: true
+  xy: 390, 174
+  size: 77, 95
+  orig: 108, 120
+  offset: 17, 7
+  index: -1
+res/Buff_Vampire_0004
+  rotate: true
+  xy: 2, 96
+  size: 77, 95
+  orig: 108, 120
+  offset: 17, 7
+  index: -1
+res/Buff_Vampire_0005
+  rotate: true
+  xy: 99, 95
+  size: 77, 95
+  orig: 108, 120
+  offset: 17, 7
+  index: -1
+res/Buff_Vampire_0006
+  rotate: true
+  xy: 196, 95
+  size: 77, 95
+  orig: 108, 120
+  offset: 17, 7
+  index: -1
+res/Buff_Vampire_0007
+  rotate: true
+  xy: 293, 95
+  size: 77, 95
+  orig: 108, 120
+  offset: 17, 7
+  index: -1
+res/Buff_Vampire_0008
+  rotate: true
+  xy: 99, 409
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0009
+  rotate: true
+  xy: 196, 409
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0010
+  rotate: true
+  xy: 293, 409
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0011
+  rotate: true
+  xy: 390, 409
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0012
+  rotate: true
+  xy: 2, 331
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0013
+  rotate: true
+  xy: 99, 331
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0014
+  rotate: true
+  xy: 196, 331
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0015
+  rotate: true
+  xy: 293, 331
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0016
+  rotate: true
+  xy: 390, 331
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0017
+  rotate: true
+  xy: 2, 253
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0018
+  rotate: true
+  xy: 99, 253
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0019
+  rotate: true
+  xy: 196, 253
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0020
+  rotate: true
+  xy: 293, 253
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0021
+  rotate: true
+  xy: 390, 253
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0022
+  rotate: true
+  xy: 2, 175
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1
+res/Buff_Vampire_0023
+  rotate: true
+  xy: 2, 409
+  size: 76, 95
+  orig: 108, 120
+  offset: 18, 7
+  index: -1

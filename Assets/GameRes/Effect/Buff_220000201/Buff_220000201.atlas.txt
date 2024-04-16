@@ -1,0 +1,118 @@
+
+Buff_220000201.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Buff_220000201_00000
+  rotate: true
+  xy: 238, 142
+  size: 116, 121
+  orig: 126, 140
+  offset: 9, 7
+  index: -1
+res/Buff_220000201_00016
+  rotate: true
+  xy: 238, 142
+  size: 116, 121
+  orig: 126, 140
+  offset: 9, 7
+  index: -1
+res/Buff_220000201_00002
+  rotate: false
+  xy: 119, 383
+  size: 116, 97
+  orig: 126, 140
+  offset: 9, 7
+  index: -1
+res/Buff_220000201_00004
+  rotate: false
+  xy: 355, 376
+  size: 115, 104
+  orig: 126, 140
+  offset: 9, 8
+  index: -1
+res/Buff_220000201_00006
+  rotate: false
+  xy: 120, 267
+  size: 116, 112
+  orig: 126, 140
+  offset: 7, 8
+  index: -1
+res/Buff_220000201_00008
+  rotate: false
+  xy: 2, 151
+  size: 116, 119
+  orig: 126, 140
+  offset: 7, 6
+  index: -1
+res/Buff_220000201_00010
+  rotate: false
+  xy: 120, 146
+  size: 116, 119
+  orig: 126, 140
+  offset: 7, 6
+  index: -1
+res/Buff_220000201_00012
+  rotate: true
+  xy: 354, 260
+  size: 114, 122
+  orig: 126, 140
+  offset: 8, 6
+  index: -1
+res/Buff_220000201_00014
+  rotate: true
+  xy: 2, 27
+  size: 117, 121
+  orig: 126, 140
+  offset: 8, 6
+  index: -1
+res/Buff_220000201_00018
+  rotate: false
+  xy: 2, 384
+  size: 115, 96
+  orig: 126, 140
+  offset: 10, 8
+  index: -1
+res/Buff_220000201_00020
+  rotate: false
+  xy: 237, 381
+  size: 116, 99
+  orig: 126, 140
+  offset: 9, 8
+  index: -1
+res/Buff_220000201_00022
+  rotate: false
+  xy: 2, 272
+  size: 116, 109
+  orig: 126, 140
+  offset: 8, 7
+  index: -1
+res/Buff_220000201_00024
+  rotate: true
+  xy: 238, 263
+  size: 116, 114
+  orig: 126, 140
+  offset: 7, 7
+  index: -1
+res/Buff_220000201_00026
+  rotate: true
+  xy: 125, 23
+  size: 117, 120
+  orig: 126, 140
+  offset: 7, 6
+  index: -1
+res/Buff_220000201_00028
+  rotate: true
+  xy: 247, 22
+  size: 117, 120
+  orig: 126, 140
+  offset: 7, 6
+  index: -1
+res/Buff_220000201_00030
+  rotate: true
+  xy: 361, 141
+  size: 117, 119
+  orig: 126, 140
+  offset: 8, 6
+  index: -1

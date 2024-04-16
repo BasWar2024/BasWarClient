@@ -1,0 +1,216 @@
+
+Antimattervehiclebody_spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bullet_MotorCycle/Bullet_MotorCycle_00000
+  rotate: false
+  xy: 653, 584
+  size: 156, 69
+  orig: 183, 71
+  offset: 27, 2
+  index: -1
+Bullet_MotorCycle/Bullet_MotorCycle_00002
+  rotate: true
+  xy: 422, 666
+  size: 158, 67
+  orig: 183, 71
+  offset: 23, 3
+  index: -1
+Bullet_MotorCycle/Bullet_MotorCycle_00004
+  rotate: true
+  xy: 422, 509
+  size: 155, 67
+  orig: 183, 71
+  offset: 26, 3
+  index: -1
+Bullet_MotorCycle/Bullet_MotorCycle_00006
+  rotate: false
+  xy: 658, 442
+  size: 156, 69
+  orig: 183, 71
+  offset: 25, 2
+  index: -1
+Bullet_MotorCycle/Bullet_MotorCycle_00008
+  rotate: false
+  xy: 491, 584
+  size: 160, 69
+  orig: 183, 71
+  offset: 22, 2
+  index: -1
+Bullet_MotorCycle/Bullet_MotorCycle_00010
+  rotate: false
+  xy: 491, 513
+  size: 159, 69
+  orig: 183, 71
+  offset: 21, 2
+  index: -1
+Bullet_MotorCycle/Bullet_MotorCycle_00012
+  rotate: false
+  xy: 811, 584
+  size: 153, 69
+  orig: 183, 71
+  offset: 29, 2
+  index: -1
+Bullet_MotorCycle/Bullet_MotorCycle_00014
+  rotate: false
+  xy: 652, 513
+  size: 157, 69
+  orig: 183, 71
+  offset: 25, 2
+  index: -1
+alpha_3x3
+  rotate: false
+  xy: 811, 539
+  size: 76, 43
+  orig: 77, 44
+  offset: 0, 0
+  index: -1
+body 2/body 2_00000
+  rotate: false
+  xy: 980, 1015
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+body 2/body 2_00001
+  rotate: false
+  xy: 530, 2
+  size: 163, 55
+  orig: 325, 263
+  offset: 98, 37
+  index: -1
+body 2/body 2_00002
+  rotate: false
+  xy: 421, 415
+  size: 235, 92
+  orig: 325, 263
+  offset: 46, 37
+  index: -1
+body 2/body 2_00003
+  rotate: false
+  xy: 402, 247
+  size: 242, 129
+  orig: 325, 263
+  offset: 39, 37
+  index: -1
+body 2/body 2_00004
+  rotate: true
+  xy: 2, 218
+  size: 242, 165
+  orig: 325, 263
+  offset: 39, 37
+  index: -1
+body/body_00000
+  rotate: false
+  xy: 247, 826
+  size: 242, 190
+  orig: 325, 263
+  offset: 39, 37
+  index: -1
+body/body_00001
+  rotate: false
+  xy: 491, 655
+  size: 250, 170
+  orig: 325, 263
+  offset: 32, 46
+  index: -1
+body/body_00002
+  rotate: false
+  xy: 169, 238
+  size: 231, 138
+  orig: 325, 263
+  offset: 36, 62
+  index: -1
+body/body_00003
+  rotate: false
+  xy: 2, 658
+  size: 250, 166
+  orig: 325, 263
+  offset: 32, 42
+  index: -1
+body/body_00004
+  rotate: false
+  xy: 736, 827
+  size: 242, 189
+  orig: 325, 263
+  offset: 39, 29
+  index: -1
+body/body_00005
+  rotate: false
+  xy: 2, 462
+  size: 208, 194
+  orig: 325, 263
+  offset: 57, 24
+  index: -1
+body/body_00006
+  rotate: false
+  xy: 530, 59
+  size: 163, 186
+  orig: 325, 263
+  offset: 82, 28
+  index: -1
+body/body_00007
+  rotate: false
+  xy: 212, 378
+  size: 207, 194
+  orig: 325, 263
+  offset: 63, 24
+  index: -1
+body/body_00008
+  rotate: false
+  xy: 491, 827
+  size: 243, 189
+  orig: 325, 263
+  offset: 46, 29
+  index: -1
+body/body_00009
+  rotate: true
+  xy: 254, 574
+  size: 250, 166
+  orig: 325, 263
+  offset: 46, 42
+  index: -1
+body/body_00010
+  rotate: true
+  xy: 390, 5
+  size: 231, 138
+  orig: 325, 263
+  offset: 60, 62
+  index: -1
+body/body_00011
+  rotate: false
+  xy: 743, 655
+  size: 250, 170
+  orig: 325, 263
+  offset: 46, 46
+  index: -1
+body/body_00012
+  rotate: false
+  xy: 2, 826
+  size: 243, 190
+  orig: 325, 263
+  offset: 46, 37
+  index: -1
+body/body_00013
+  rotate: true
+  xy: 196, 29
+  size: 207, 192
+  orig: 325, 263
+  offset: 63, 37
+  index: -1
+body/body_00014
+  rotate: true
+  xy: 646, 250
+  size: 163, 175
+  orig: 325, 263
+  offset: 82, 49
+  index: -1
+body/body_00015
+  rotate: true
+  xy: 2, 8
+  size: 208, 192
+  orig: 325, 263
+  offset: 57, 37
+  index: -1

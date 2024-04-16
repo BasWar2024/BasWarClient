@@ -1,0 +1,251 @@
+
+Eff_AtherDivisionDie.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dead_platform_2x2
+  rotate: false
+  xy: 435, 344
+  size: 241, 176
+  orig: 241, 176
+  offset: 0, 0
+  index: -1
+flame
+  rotate: false
+  xy: 289, 380
+  size: 144, 144
+  orig: 144, 144
+  offset: 0, 0
+  index: -1
+flame_up
+  rotate: true
+  xy: 232, 799
+  size: 104, 114
+  orig: 144, 144
+  offset: 20, 9
+  index: -1
+fog
+  rotate: true
+  xy: 678, 262
+  size: 252, 254
+  orig: 256, 256
+  offset: 3, 2
+  index: -1
+res/00
+  rotate: false
+  xy: 356, 904
+  size: 110, 84
+  orig: 150, 150
+  offset: 20, 0
+  index: -1
+res/01
+  rotate: false
+  xy: 468, 904
+  size: 110, 84
+  orig: 150, 150
+  offset: 20, 0
+  index: -1
+res/boob_00000
+  rotate: false
+  xy: 825, 896
+  size: 108, 92
+  orig: 150, 150
+  offset: 19, 0
+  index: -1
+res/boob_00001
+  rotate: false
+  xy: 2, 819
+  size: 115, 95
+  orig: 150, 150
+  offset: 12, 0
+  index: -1
+res/boob_00002
+  rotate: false
+  xy: 119, 809
+  size: 111, 98
+  orig: 150, 150
+  offset: 16, 0
+  index: -1
+res/boob_00003
+  rotate: false
+  xy: 348, 798
+  size: 111, 104
+  orig: 150, 150
+  offset: 17, 0
+  index: -1
+res/boob_00004
+  rotate: false
+  xy: 461, 788
+  size: 121, 111
+  orig: 150, 150
+  offset: 11, 0
+  index: -1
+res/boob_00005
+  rotate: false
+  xy: 858, 777
+  size: 121, 117
+  orig: 150, 150
+  offset: 14, 0
+  index: -1
+res/boob_00006
+  rotate: false
+  xy: 2, 686
+  size: 130, 121
+  orig: 150, 150
+  offset: 6, 0
+  index: -1
+res/boob_00007
+  rotate: false
+  xy: 134, 676
+  size: 127, 121
+  orig: 150, 150
+  offset: 12, 0
+  index: -1
+res/boob_00008
+  rotate: true
+  xy: 263, 675
+  size: 121, 126
+  orig: 150, 150
+  offset: 14, 0
+  index: -1
+res/boob_00009
+  rotate: true
+  xy: 519, 658
+  size: 124, 125
+  orig: 150, 150
+  offset: 12, 0
+  index: -1
+res/boob_00010
+  rotate: false
+  xy: 391, 663
+  size: 126, 123
+  orig: 150, 150
+  offset: 12, 0
+  index: -1
+res/boob_00011
+  rotate: true
+  xy: 646, 655
+  size: 124, 132
+  orig: 150, 150
+  offset: 14, 0
+  index: -1
+res/boob_00012
+  rotate: true
+  xy: 780, 650
+  size: 125, 135
+  orig: 150, 150
+  offset: 14, 0
+  index: -1
+res/boob_00013
+  rotate: true
+  xy: 2, 558
+  size: 126, 128
+  orig: 150, 150
+  offset: 14, 0
+  index: -1
+res/boob_00014
+  rotate: true
+  xy: 132, 547
+  size: 126, 139
+  orig: 150, 150
+  offset: 14, 0
+  index: -1
+res/boob_00015
+  rotate: true
+  xy: 273, 534
+  size: 127, 142
+  orig: 150, 150
+  offset: 13, 0
+  index: -1
+res/boob_00016
+  rotate: true
+  xy: 417, 526
+  size: 130, 148
+  orig: 150, 150
+  offset: 10, 1
+  index: -1
+res/boob_00017
+  rotate: true
+  xy: 702, 516
+  size: 132, 147
+  orig: 150, 150
+  offset: 8, 3
+  index: -1
+res/boob_00018
+  rotate: true
+  xy: 2, 412
+  size: 133, 147
+  orig: 150, 150
+  offset: 8, 3
+  index: -1
+res/boob_00019
+  rotate: false
+  xy: 567, 522
+  size: 133, 131
+  orig: 150, 150
+  offset: 9, 8
+  index: -1
+res/boob_00020
+  rotate: false
+  xy: 151, 397
+  size: 136, 135
+  orig: 150, 150
+  offset: 8, 7
+  index: -1
+res/boob_00021
+  rotate: false
+  xy: 584, 784
+  size: 136, 111
+  orig: 150, 150
+  offset: 8, 15
+  index: -1
+res/boob_00022
+  rotate: false
+  xy: 722, 781
+  size: 134, 113
+  orig: 150, 150
+  offset: 11, 22
+  index: -1
+res/boob_00023
+  rotate: false
+  xy: 851, 516
+  size: 137, 132
+  orig: 150, 150
+  offset: 9, 4
+  index: -1
+res/boob_00024
+  rotate: false
+  xy: 128, 909
+  size: 111, 79
+  orig: 150, 150
+  offset: 14, 42
+  index: -1
+res/boob_00025
+  rotate: false
+  xy: 241, 905
+  size: 113, 83
+  orig: 150, 150
+  offset: 13, 39
+  index: -1
+res/boob_00026
+  rotate: false
+  xy: 580, 901
+  size: 119, 87
+  orig: 150, 150
+  offset: 10, 35
+  index: -1
+res/boob_00027
+  rotate: false
+  xy: 701, 897
+  size: 122, 91
+  orig: 150, 150
+  offset: 8, 32
+  index: -1
+res/boob_00028
+  rotate: false
+  xy: 2, 916
+  size: 124, 72
+  orig: 150, 150
+  offset: 7, 31
+  index: -1

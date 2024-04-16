@@ -1,0 +1,132 @@
+
+Eff_310013001.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_310013001/Eff_310013001_00001
+  rotate: true
+  xy: 2, 2
+  size: 72, 75
+  orig: 144, 160
+  offset: 37, 42
+  index: -1
+res/Eff_310013001/Eff_310013001_00002
+  rotate: true
+  xy: 121, 12
+  size: 82, 88
+  orig: 144, 160
+  offset: 30, 35
+  index: -1
+res/Eff_310013001/Eff_310013001_00003
+  rotate: false
+  xy: 389, 151
+  size: 90, 94
+  orig: 144, 160
+  offset: 27, 32
+  index: -1
+res/Eff_310013001/Eff_310013001_00004
+  rotate: false
+  xy: 385, 19
+  size: 94, 99
+  orig: 144, 160
+  offset: 24, 29
+  index: -1
+res/Eff_310013001/Eff_310013001_00005
+  rotate: true
+  xy: 280, 20
+  size: 98, 103
+  orig: 144, 160
+  offset: 23, 27
+  index: -1
+res/Eff_310013001/Eff_310013001_00006
+  rotate: true
+  xy: 372, 385
+  size: 100, 106
+  orig: 144, 160
+  offset: 22, 25
+  index: -1
+res/Eff_310013001/Eff_310013001_00007
+  rotate: true
+  xy: 362, 247
+  size: 104, 111
+  orig: 144, 160
+  offset: 20, 22
+  index: -1
+res/Eff_310013001/Eff_310013001_00008
+  rotate: false
+  xy: 280, 120
+  size: 107, 118
+  orig: 144, 160
+  offset: 17, 18
+  index: -1
+res/Eff_310013001/Eff_310013001_00009
+  rotate: true
+  xy: 236, 240
+  size: 111, 124
+  orig: 144, 160
+  offset: 14, 15
+  index: -1
+res/Eff_310013001/Eff_310013001_00010
+  rotate: false
+  xy: 256, 353
+  size: 114, 132
+  orig: 144, 160
+  offset: 14, 11
+  index: -1
+res/Eff_310013001/Eff_310013001_00011
+  rotate: true
+  xy: 140, 96
+  size: 118, 138
+  orig: 144, 160
+  offset: 14, 8
+  index: -1
+res/Eff_310013001/Eff_310013001_00012
+  rotate: false
+  xy: 2, 344
+  size: 121, 141
+  orig: 144, 160
+  offset: 14, 6
+  index: -1
+res/Eff_310013001/Eff_310013001_00013
+  rotate: true
+  xy: 125, 358
+  size: 127, 129
+  orig: 144, 160
+  offset: 12, 18
+  index: -1
+res/Eff_310013001/Eff_310013001_00014
+  rotate: false
+  xy: 2, 214
+  size: 136, 128
+  orig: 144, 160
+  offset: 8, 19
+  index: -1
+res/Eff_310013001/Eff_310013001_00015
+  rotate: true
+  xy: 2, 76
+  size: 136, 117
+  orig: 144, 160
+  offset: 8, 33
+  index: -1
+res/Eff_310013001/Eff_310013001_00016
+  rotate: true
+  xy: 140, 216
+  size: 140, 94
+  orig: 144, 160
+  offset: 4, 35
+  index: -1
+res/Eff_310013001/Eff_310013001_00017
+  rotate: false
+  xy: 125, 355
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_310013001/Eff_310013001_00000
+  rotate: false
+  xy: 125, 355
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

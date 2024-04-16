@@ -1,0 +1,153 @@
+
+eff_LandHalo.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/6plg
+  rotate: false
+  xy: 302, 148
+  size: 268, 267
+  orig: 270, 270
+  offset: 1, 2
+  index: -1
+res/halo00
+  rotate: false
+  xy: 2, 416
+  size: 298, 298
+  orig: 300, 300
+  offset: 1, 1
+  index: -1
+res/halo01
+  rotate: true
+  xy: 2, 135
+  size: 279, 148
+  orig: 300, 300
+  offset: 11, 151
+  index: -1
+res/halo02
+  rotate: true
+  xy: 304, 739
+  size: 277, 298
+  orig: 300, 300
+  offset: 22, 1
+  index: -1
+res/halo03
+  rotate: false
+  xy: 302, 417
+  size: 298, 297
+  orig: 300, 300
+  offset: 1, 1
+  index: -1
+res/halo_id
+  rotate: false
+  xy: 2, 716
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+res/png_landhalo/png_LandHalo_00000
+  rotate: true
+  xy: 860, 432
+  size: 201, 66
+  orig: 270, 270
+  offset: 35, 0
+  index: -1
+res/png_landhalo/png_LandHalo_00001
+  rotate: true
+  xy: 927, 195
+  size: 235, 88
+  orig: 270, 270
+  offset: 18, 0
+  index: -1
+res/png_landhalo/png_LandHalo_00002
+  rotate: false
+  xy: 602, 523
+  size: 256, 110
+  orig: 270, 270
+  offset: 7, 0
+  index: -1
+res/png_landhalo/png_LandHalo_00003
+  rotate: true
+  xy: 152, 144
+  size: 270, 125
+  orig: 270, 270
+  offset: 0, 6
+  index: -1
+res/png_landhalo/png_LandHalo_00004
+  rotate: false
+  xy: 572, 290
+  size: 270, 125
+  orig: 270, 270
+  offset: 0, 27
+  index: -1
+res/png_landhalo/png_LandHalo_00005
+  rotate: false
+  xy: 572, 168
+  size: 270, 120
+  orig: 270, 270
+  offset: 0, 52
+  index: -1
+res/png_landhalo/png_LandHalo_00006
+  rotate: false
+  xy: 572, 51
+  size: 270, 115
+  orig: 270, 270
+  offset: 0, 77
+  index: -1
+res/png_landhalo/png_LandHalo_00007
+  rotate: false
+  xy: 279, 35
+  size: 270, 111
+  orig: 270, 270
+  offset: 0, 101
+  index: -1
+res/png_landhalo/png_LandHalo_00008
+  rotate: false
+  xy: 2, 27
+  size: 270, 106
+  orig: 270, 270
+  offset: 0, 125
+  index: -1
+res/png_landhalo/png_LandHalo_00009
+  rotate: false
+  xy: 602, 635
+  size: 269, 102
+  orig: 270, 270
+  offset: 1, 147
+  index: -1
+res/png_landhalo/png_LandHalo_00010
+  rotate: false
+  xy: 602, 430
+  size: 255, 91
+  orig: 270, 270
+  offset: 8, 169
+  index: -1
+res/png_landhalo/png_LandHalo_00011
+  rotate: true
+  xy: 844, 191
+  size: 237, 81
+  orig: 270, 270
+  offset: 17, 189
+  index: -1
+res/png_landhalo/png_LandHalo_00012
+  rotate: true
+  xy: 873, 803
+  size: 213, 63
+  orig: 270, 270
+  offset: 29, 207
+  index: -1
+res/png_landhalo/png_LandHalo_00013
+  rotate: true
+  xy: 844, 2
+  size: 187, 48
+  orig: 270, 270
+  offset: 42, 222
+  index: -1
+res/png_landhalo/png_LandHalo_00014
+  rotate: true
+  xy: 894, 20
+  size: 169, 40
+  orig: 270, 270
+  offset: 51, 230
+  index: -1

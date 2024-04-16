@@ -1,0 +1,146 @@
+
+Buff_EMP.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/buff_fire_b_00000
+  rotate: true
+  xy: 232, 495
+  size: 182, 211
+  orig: 252, 280
+  offset: 36, 29
+  index: -1
+res/buff_fire_b_00001
+  rotate: true
+  xy: 2, 322
+  size: 187, 228
+  orig: 252, 280
+  offset: 34, 11
+  index: -1
+res/buff_fire_b_00002
+  rotate: true
+  xy: 2, 131
+  size: 189, 227
+  orig: 252, 280
+  offset: 34, 11
+  index: -1
+res/buff_fire_b_00003
+  rotate: true
+  xy: 473, 294
+  size: 187, 227
+  orig: 252, 280
+  offset: 36, 10
+  index: -1
+res/buff_fire_b_00004
+  rotate: true
+  xy: 682, 483
+  size: 182, 228
+  orig: 252, 280
+  offset: 39, 10
+  index: -1
+res/buff_fire_b_00005
+  rotate: true
+  xy: 2, 511
+  size: 172, 228
+  orig: 252, 280
+  offset: 46, 12
+  index: -1
+res/buff_fire_b_00006
+  rotate: true
+  xy: 655, 667
+  size: 152, 206
+  orig: 252, 280
+  offset: 55, 38
+  index: -1
+res/buff_fire_b_00007
+  rotate: true
+  xy: 446, 671
+  size: 148, 207
+  orig: 252, 280
+  offset: 56, 40
+  index: -1
+res/buff_fire_b_00008
+  rotate: true
+  xy: 235, 679
+  size: 142, 209
+  orig: 252, 280
+  offset: 58, 38
+  index: -1
+res/buff_fire_b_00009
+  rotate: true
+  xy: 231, 104
+  size: 188, 244
+  orig: 252, 280
+  offset: 34, 21
+  index: -1
+res/buff_fire_b_00010
+  rotate: true
+  xy: 477, 103
+  size: 189, 242
+  orig: 252, 280
+  offset: 33, 23
+  index: -1
+res/buff_fire_b_00011
+  rotate: true
+  xy: 721, 103
+  size: 189, 241
+  orig: 252, 280
+  offset: 34, 24
+  index: -1
+res/buff_fire_b_00012
+  rotate: true
+  xy: 702, 294
+  size: 187, 239
+  orig: 252, 280
+  offset: 36, 24
+  index: -1
+res/buff_fire_b_00013
+  rotate: true
+  xy: 232, 301
+  size: 185, 239
+  orig: 252, 280
+  offset: 38, 26
+  index: -1
+res/buff_fire_b_00014
+  rotate: true
+  xy: 445, 488
+  size: 177, 235
+  orig: 252, 280
+  offset: 44, 28
+  index: -1
+res/buff_fire_b_00015
+  rotate: true
+  xy: 2, 828
+  size: 134, 233
+  orig: 252, 280
+  offset: 64, 29
+  index: -1
+res/buff_fire_b_00016
+  rotate: true
+  xy: 467, 821
+  size: 141, 239
+  orig: 252, 280
+  offset: 61, 31
+  index: -1
+res/buff_fire_b_00017
+  rotate: true
+  xy: 708, 821
+  size: 141, 234
+  orig: 252, 280
+  offset: 61, 34
+  index: -1
+res/buff_fire_b_00018
+  rotate: true
+  xy: 2, 685
+  size: 141, 231
+  orig: 252, 280
+  offset: 61, 36
+  index: -1
+res/buff_fire_b_00019
+  rotate: true
+  xy: 237, 823
+  size: 139, 228
+  orig: 252, 280
+  offset: 62, 38
+  index: -1

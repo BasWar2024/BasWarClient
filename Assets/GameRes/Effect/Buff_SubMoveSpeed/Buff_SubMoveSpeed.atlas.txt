@@ -1,0 +1,202 @@
+
+Buff_SubMoveSpeed.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Buff_Millipede_0001
+  rotate: false
+  xy: 94, 469
+  size: 69, 39
+  orig: 144, 160
+  offset: 41, 93
+  index: -1
+res/Buff_Millipede_0002
+  rotate: false
+  xy: 231, 464
+  size: 84, 44
+  orig: 144, 160
+  offset: 33, 88
+  index: -1
+res/Buff_Millipede_0003
+  rotate: false
+  xy: 2, 420
+  size: 89, 50
+  orig: 144, 160
+  offset: 30, 82
+  index: -1
+res/Buff_Millipede_0004
+  rotate: false
+  xy: 93, 409
+  size: 96, 56
+  orig: 144, 160
+  offset: 27, 76
+  index: -1
+res/Buff_Millipede_0005
+  rotate: false
+  xy: 191, 401
+  size: 100, 61
+  orig: 144, 160
+  offset: 23, 71
+  index: -1
+res/Buff_Millipede_0006
+  rotate: false
+  xy: 293, 395
+  size: 104, 65
+  orig: 144, 160
+  offset: 18, 67
+  index: -1
+res/Buff_Millipede_0007
+  rotate: false
+  xy: 399, 370
+  size: 109, 66
+  orig: 144, 160
+  offset: 15, 66
+  index: -1
+res/Buff_Millipede_0008
+  rotate: false
+  xy: 173, 320
+  size: 114, 79
+  orig: 144, 160
+  offset: 12, 53
+  index: -1
+res/Buff_Millipede_0009
+  rotate: false
+  xy: 2, 243
+  size: 118, 82
+  orig: 144, 160
+  offset: 10, 49
+  index: -1
+res/Buff_Millipede_0010
+  rotate: false
+  xy: 341, 186
+  size: 121, 94
+  orig: 144, 160
+  offset: 8, 37
+  index: -1
+res/Buff_Millipede_0011
+  rotate: false
+  xy: 123, 112
+  size: 123, 98
+  orig: 144, 160
+  offset: 6, 32
+  index: -1
+res/Buff_Millipede_0012
+  rotate: false
+  xy: 371, 83
+  size: 121, 101
+  orig: 144, 160
+  offset: 6, 28
+  index: -1
+res/Buff_Millipede_0013
+  rotate: false
+  xy: 248, 84
+  size: 121, 100
+  orig: 144, 160
+  offset: 6, 26
+  index: -1
+res/Buff_Millipede_0014
+  rotate: false
+  xy: 2, 131
+  size: 119, 97
+  orig: 144, 160
+  offset: 6, 26
+  index: -1
+res/Buff_Millipede_0015
+  rotate: false
+  xy: 228, 212
+  size: 111, 93
+  orig: 144, 160
+  offset: 12, 24
+  index: -1
+res/Buff_Millipede_0016
+  rotate: false
+  xy: 289, 307
+  size: 103, 86
+  orig: 144, 160
+  offset: 15, 17
+  index: -1
+res/Buff_Millipede_0017
+  rotate: false
+  xy: 122, 230
+  size: 104, 88
+  orig: 144, 160
+  offset: 15, 14
+  index: -1
+res/Buff_Millipede_0018
+  rotate: false
+  xy: 394, 282
+  size: 93, 86
+  orig: 144, 160
+  offset: 23, 10
+  index: -1
+res/Buff_Millipede_0019
+  rotate: false
+  xy: 87, 327
+  size: 84, 80
+  orig: 144, 160
+  offset: 27, 9
+  index: -1
+res/Buff_Millipede_0020
+  rotate: false
+  xy: 2, 343
+  size: 83, 75
+  orig: 144, 160
+  offset: 27, 10
+  index: -1
+res/Buff_Millipede_0021
+  rotate: true
+  xy: 452, 438
+  size: 70, 48
+  orig: 144, 160
+  offset: 38, 10
+  index: -1
+res/Buff_Millipede_0022
+  rotate: false
+  xy: 383, 462
+  size: 67, 46
+  orig: 144, 160
+  offset: 39, 12
+  index: -1
+res/Buff_Millipede_0023
+  rotate: false
+  xy: 317, 464
+  size: 64, 44
+  orig: 144, 160
+  offset: 40, 14
+  index: -1
+res/Buff_Millipede_0024
+  rotate: false
+  xy: 165, 467
+  size: 64, 41
+  orig: 144, 160
+  offset: 40, 15
+  index: -1
+res/Buff_Millipede_0025
+  rotate: false
+  xy: 45, 472
+  size: 47, 36
+  orig: 144, 160
+  offset: 42, 18
+  index: -1
+res/Buff_Millipede_0026
+  rotate: false
+  xy: 5, 485
+  size: 38, 23
+  orig: 144, 160
+  offset: 47, 26
+  index: -1
+res/Buff_Millipede_0027
+  rotate: false
+  xy: 2, 507
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Buff_Millipede_0000
+  rotate: false
+  xy: 2, 507
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

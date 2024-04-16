@@ -1,0 +1,132 @@
+
+Ui_Choose_Eff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ui_Choose_Eff/Ui_Choose_Eff_00000
+  rotate: true
+  xy: 325, 398
+  size: 95, 105
+  orig: 115, 115
+  offset: 9, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00001
+  rotate: true
+  xy: 325, 398
+  size: 95, 105
+  orig: 115, 115
+  offset: 9, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00002
+  rotate: true
+  xy: 103, 395
+  size: 98, 109
+  orig: 115, 115
+  offset: 7, 3
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00003
+  rotate: true
+  xy: 214, 395
+  size: 98, 109
+  orig: 115, 115
+  offset: 7, 3
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00004
+  rotate: false
+  xy: 2, 384
+  size: 99, 109
+  orig: 115, 115
+  offset: 7, 3
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00005
+  rotate: false
+  xy: 2, 273
+  size: 99, 109
+  orig: 115, 115
+  offset: 7, 3
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00006
+  rotate: false
+  xy: 2, 162
+  size: 99, 109
+  orig: 115, 115
+  offset: 7, 3
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00007
+  rotate: false
+  xy: 2, 51
+  size: 99, 109
+  orig: 115, 115
+  offset: 7, 3
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00008
+  rotate: true
+  xy: 325, 301
+  size: 95, 105
+  orig: 115, 115
+  offset: 9, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00009
+  rotate: true
+  xy: 103, 298
+  size: 95, 105
+  orig: 115, 115
+  offset: 9, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00010
+  rotate: true
+  xy: 317, 205
+  size: 94, 105
+  orig: 115, 115
+  offset: 10, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00011
+  rotate: true
+  xy: 103, 202
+  size: 94, 105
+  orig: 115, 115
+  offset: 10, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00012
+  rotate: true
+  xy: 210, 298
+  size: 95, 105
+  orig: 115, 115
+  offset: 9, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00013
+  rotate: true
+  xy: 210, 202
+  size: 94, 105
+  orig: 115, 115
+  offset: 10, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00014
+  rotate: false
+  xy: 317, 2
+  size: 93, 105
+  orig: 115, 115
+  offset: 10, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00015
+  rotate: true
+  xy: 317, 109
+  size: 94, 105
+  orig: 115, 115
+  offset: 9, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00016
+  rotate: true
+  xy: 103, 106
+  size: 94, 105
+  orig: 115, 115
+  offset: 10, 5
+  index: -1
+Ui_Choose_Eff/Ui_Choose_Eff_00017
+  rotate: true
+  xy: 210, 106
+  size: 94, 105
+  orig: 115, 115
+  offset: 10, 5
+  index: -1

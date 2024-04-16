@@ -1,0 +1,209 @@
+
+Eff_AddAtkSpeedAndMoveSpeed.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/2/1/buff_fire_b.0000
+  rotate: true
+  xy: 780, 34
+  size: 194, 134
+  orig: 481, 481
+  offset: 142, 197
+  index: -1
+1/3/1/buff_fire_b.0000
+  rotate: true
+  xy: 780, 34
+  size: 194, 134
+  orig: 481, 481
+  offset: 142, 197
+  index: -1
+1/2/1/buff_fire_b.0002
+  rotate: true
+  xy: 479, 824
+  size: 195, 150
+  orig: 481, 481
+  offset: 142, 182
+  index: -1
+1/3/1/buff_fire_b.0002
+  rotate: true
+  xy: 479, 824
+  size: 195, 150
+  orig: 481, 481
+  offset: 142, 182
+  index: -1
+1/2/1/buff_fire_b.0004
+  rotate: true
+  xy: 297, 495
+  size: 198, 150
+  orig: 481, 481
+  offset: 141, 183
+  index: -1
+1/3/1/buff_fire_b.0004
+  rotate: true
+  xy: 297, 495
+  size: 198, 150
+  orig: 481, 481
+  offset: 141, 183
+  index: -1
+1/2/1/buff_fire_b.0005
+  rotate: true
+  xy: 240, 172
+  size: 198, 151
+  orig: 481, 481
+  offset: 141, 183
+  index: -1
+1/3/1/buff_fire_b.0005
+  rotate: true
+  xy: 240, 172
+  size: 198, 151
+  orig: 481, 481
+  offset: 141, 183
+  index: -1
+1/2/1/buff_fire_b.0007
+  rotate: true
+  xy: 545, 178
+  size: 197, 148
+  orig: 481, 481
+  offset: 142, 186
+  index: -1
+1/2/1/buff_fire_b.0008
+  rotate: true
+  xy: 684, 428
+  size: 195, 147
+  orig: 481, 481
+  offset: 143, 188
+  index: -1
+1/2/1/buff_fire_b.0010
+  rotate: false
+  xy: 2, 2
+  size: 189, 129
+  orig: 481, 481
+  offset: 147, 194
+  index: -1
+1/2/1/buff_fire_b.0012
+  rotate: false
+  xy: 193, 4
+  size: 186, 127
+  orig: 481, 481
+  offset: 148, 197
+  index: -1
+1/2/1/buff_fire_b.0013
+  rotate: false
+  xy: 297, 376
+  size: 186, 117
+  orig: 481, 481
+  offset: 148, 207
+  index: -1
+1/2/1/buff_fire_b.0014
+  rotate: false
+  xy: 327, 712
+  size: 168, 107
+  orig: 481, 481
+  offset: 151, 200
+  index: -1
+1/3/1/buff_fire_b.0001
+  rotate: true
+  xy: 631, 825
+  size: 194, 148
+  orig: 481, 481
+  offset: 142, 183
+  index: -1
+1/3/1/buff_fire_b.0003
+  rotate: true
+  xy: 449, 514
+  size: 196, 149
+  orig: 481, 481
+  offset: 142, 183
+  index: -1
+1/3/1/buff_fire_b.0006
+  rotate: false
+  xy: 381, 19
+  size: 198, 151
+  orig: 481, 481
+  offset: 141, 184
+  index: -1
+1/3/1/buff_fire_b.0007
+  rotate: true
+  xy: 393, 176
+  size: 198, 150
+  orig: 481, 481
+  offset: 141, 185
+  index: -1
+1/3/1/buff_fire_b.0008
+  rotate: true
+  xy: 327, 821
+  size: 198, 150
+  orig: 481, 481
+  offset: 141, 186
+  index: -1
+1/3/1/buff_fire_b.0009
+  rotate: false
+  xy: 581, 28
+  size: 197, 148
+  orig: 481, 481
+  offset: 142, 188
+  index: -1
+1/3/1/buff_fire_b.0010
+  rotate: true
+  xy: 600, 625
+  size: 197, 148
+  orig: 481, 481
+  offset: 142, 189
+  index: -1
+1/3/1/buff_fire_b.0011
+  rotate: false
+  xy: 485, 377
+  size: 197, 135
+  orig: 481, 481
+  offset: 142, 191
+  index: -1
+1/3/1/buff_fire_b.0012
+  rotate: true
+  xy: 750, 627
+  size: 196, 135
+  orig: 481, 481
+  offset: 142, 192
+  index: -1
+1/3/1/buff_fire_b.0013
+  rotate: true
+  xy: 695, 230
+  size: 196, 134
+  orig: 481, 481
+  offset: 142, 194
+  index: -1
+1/3/1/buff_fire_b.0014
+  rotate: false
+  xy: 781, 884
+  size: 195, 135
+  orig: 481, 481
+  offset: 143, 194
+  index: -1
+1/3/1/buff_fire_b.0015
+  rotate: true
+  xy: 831, 232
+  size: 194, 133
+  orig: 481, 481
+  offset: 143, 196
+  index: -1
+""_""
+  rotate: false
+  xy: 2, 695
+  size: 323, 324
+  orig: 481, 481
+  offset: 78, 85
+  index: -1
+""_""
+  rotate: false
+  xy: 2, 372
+  size: 293, 321
+  orig: 481, 481
+  offset: 94, 80
+  index: -1
+""_""
+  rotate: false
+  xy: 2, 133
+  size: 236, 237
+  orig: 481, 481
+  offset: 123, 122
+  index: -1

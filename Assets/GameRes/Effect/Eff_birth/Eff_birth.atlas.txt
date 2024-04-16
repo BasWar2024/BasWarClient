@@ -1,0 +1,286 @@
+
+Eff_birth.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res_birth/birth_png_00001
+  rotate: true
+  xy: 187, 667
+  size: 33, 72
+  orig: 180, 420
+  offset: 68, 264
+  index: -1
+res_birth/birth_png_00002
+  rotate: true
+  xy: 99, 652
+  size: 48, 86
+  orig: 180, 420
+  offset: 68, 243
+  index: -1
+res_birth/birth_png_00003
+  rotate: false
+  xy: 542, 144
+  size: 71, 110
+  orig: 180, 420
+  offset: 55, 212
+  index: -1
+res_birth/birth_png_00004
+  rotate: true
+  xy: 770, 9
+  size: 79, 161
+  orig: 180, 420
+  offset: 47, 171
+  index: -1
+res_birth/birth_png_00005
+  rotate: true
+  xy: 819, 505
+  size: 81, 203
+  orig: 180, 420
+  offset: 46, 120
+  index: -1
+res_birth/birth_png_00006
+  rotate: false
+  xy: 905, 637
+  size: 81, 281
+  orig: 180, 420
+  offset: 46, 59
+  index: -1
+res_birth/birth_png_00007
+  rotate: true
+  xy: 2, 80
+  size: 83, 335
+  orig: 180, 420
+  offset: 45, 0
+  index: -1
+res_birth/birth_png_00008
+  rotate: true
+  xy: 203, 165
+  size: 84, 337
+  orig: 180, 420
+  offset: 45, 10
+  index: -1
+res_birth/birth_png_00009
+  rotate: true
+  xy: 466, 360
+  size: 86, 350
+  orig: 180, 420
+  offset: 44, 0
+  index: -1
+res_birth/birth_png_00010
+  rotate: false
+  xy: 668, 17
+  size: 100, 341
+  orig: 180, 420
+  offset: 36, 0
+  index: -1
+res_birth/birth_png_00011
+  rotate: false
+  xy: 97, 216
+  size: 104, 316
+  orig: 180, 420
+  offset: 36, 15
+  index: -1
+res_birth/birth_png_00012
+  rotate: true
+  xy: 99, 908
+  size: 114, 354
+  orig: 180, 420
+  offset: 32, 12
+  index: -1
+res_birth/birth_png_00013
+  rotate: true
+  xy: 2, 534
+  size: 116, 350
+  orig: 180, 420
+  offset: 31, 7
+  index: -1
+res_birth/birth_png_00014
+  rotate: true
+  xy: 455, 910
+  size: 112, 350
+  orig: 180, 420
+  offset: 35, 21
+  index: -1
+res_birth/birth_png_00015
+  rotate: false
+  xy: 354, 359
+  size: 110, 341
+  orig: 180, 420
+  offset: 37, 21
+  index: -1
+res_birth/birth_png_00016
+  rotate: true
+  xy: 99, 800
+  size: 106, 366
+  orig: 180, 420
+  offset: 40, 22
+  index: -1
+res_birth/birth_png_00017
+  rotate: false
+  xy: 467, 552
+  size: 103, 356
+  orig: 180, 420
+  offset: 41, 23
+  index: -1
+res_birth/birth_png_00018
+  rotate: false
+  xy: 705, 557
+  size: 101, 351
+  orig: 180, 420
+  offset: 41, 23
+  index: -1
+res_birth/birth_png_00019
+  rotate: true
+  xy: 307, 256
+  size: 101, 359
+  orig: 180, 420
+  offset: 37, 28
+  index: -1
+res_birth/birth_png_00020
+  rotate: false
+  xy: 911, 145
+  size: 97, 358
+  orig: 180, 420
+  offset: 37, 35
+  index: -1
+res_birth/birth_png_00021
+  rotate: true
+  xy: 99, 702
+  size: 96, 363
+  orig: 180, 420
+  offset: 38, 35
+  index: -1
+res_birth/birth_png_00022
+  rotate: false
+  xy: 2, 652
+  size: 95, 370
+  orig: 180, 420
+  offset: 39, 35
+  index: -1
+res_birth/birth_png_00023
+  rotate: false
+  xy: 2, 170
+  size: 93, 362
+  orig: 180, 420
+  offset: 41, 58
+  index: -1
+res_birth/birth_png_00024
+  rotate: false
+  xy: 818, 90
+  size: 91, 361
+  orig: 180, 420
+  offset: 43, 59
+  index: -1
+res_birth/birth_png_00025
+  rotate: false
+  xy: 572, 554
+  size: 88, 354
+  orig: 180, 420
+  offset: 45, 59
+  index: -1
+res_birth/birth_png_00026
+  rotate: false
+  xy: 808, 588
+  size: 95, 330
+  orig: 180, 420
+  offset: 38, 63
+  index: -1
+res_birth/birth_png_00027
+  rotate: false
+  xy: 203, 251
+  size: 102, 281
+  orig: 180, 420
+  offset: 38, 82
+  index: -1
+res_birth/birth_png_00028
+  rotate: true
+  xy: 466, 448
+  size: 102, 237
+  orig: 180, 420
+  offset: 38, 86
+  index: -1
+res_birth/birth_png_00029
+  rotate: true
+  xy: 807, 920
+  size: 102, 186
+  orig: 180, 420
+  offset: 38, 87
+  index: -1
+res_birth/birth_png_00030
+  rotate: true
+  xy: 705, 453
+  size: 102, 112
+  orig: 180, 420
+  offset: 38, 101
+  index: -1
+res_birth/birth_png_00031
+  rotate: true
+  xy: 933, 43
+  size: 100, 79
+  orig: 180, 420
+  offset: 40, 101
+  index: -1
+res_birth/birth_png_00032
+  rotate: false
+  xy: 339, 92
+  size: 98, 71
+  orig: 180, 420
+  offset: 41, 109
+  index: -1
+res_birth/birth_png_00033
+  rotate: false
+  xy: 339, 21
+  size: 93, 69
+  orig: 180, 420
+  offset: 44, 112
+  index: -1
+res_birth/birth_png_00034
+  rotate: true
+  xy: 439, 73
+  size: 90, 70
+  orig: 180, 420
+  offset: 46, 113
+  index: -1
+res_birth/birth_png_00035
+  rotate: false
+  xy: 511, 80
+  size: 83, 62
+  orig: 180, 420
+  offset: 46, 126
+  index: -1
+res_birth/birth_png_00036
+  rotate: true
+  xy: 596, 64
+  size: 78, 62
+  orig: 180, 420
+  offset: 49, 128
+  index: -1
+res_birth/birth_png_00037
+  rotate: false
+  xy: 511, 23
+  size: 63, 55
+  orig: 180, 420
+  offset: 56, 133
+  index: -1
+res_birth/birth_png_00038
+  rotate: false
+  xy: 261, 671
+  size: 52, 29
+  orig: 180, 420
+  offset: 59, 153
+  index: -1
+res_birth/birth_png_00039
+  rotate: false
+  xy: 315, 676
+  size: 20, 24
+  orig: 180, 420
+  offset: 90, 155
+  index: -1
+res_birth/birth_png_00040
+  rotate: false
+  xy: 464, 797
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

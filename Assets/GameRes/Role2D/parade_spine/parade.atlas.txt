@@ -1,0 +1,97 @@
+
+parade.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bin/Antimattervehicle
+  rotate: false
+  xy: 110, 216
+  size: 95, 94
+  orig: 139, 220
+  offset: 15, 86
+  index: -1
+bin/Grainoflighttanks
+  rotate: false
+  xy: 118, 312
+  size: 105, 89
+  orig: 139, 220
+  offset: 17, 82
+  index: -1
+bin/Hammer
+  rotate: true
+  xy: 357, 409
+  size: 101, 112
+  orig: 139, 220
+  offset: 24, 79
+  index: -1
+bin/Invisibleman
+  rotate: false
+  xy: 433, 312
+  size: 77, 95
+  orig: 139, 220
+  offset: 32, 91
+  index: -1
+bin/LitCavaliers
+  rotate: false
+  xy: 232, 282
+  size: 86, 130
+  orig: 139, 220
+  offset: 29, 84
+  index: -1
+bin/MotorCycle
+  rotate: true
+  xy: 320, 329
+  size: 78, 111
+  orig: 139, 220
+  offset: 31, 80
+  index: -1
+bin/NearTank
+  rotate: true
+  xy: 118, 403
+  size: 107, 112
+  orig: 139, 220
+  offset: 21, 83
+  index: -1
+bin/NuclearAircaft
+  rotate: false
+  xy: 2, 399
+  size: 114, 111
+  orig: 139, 181
+  offset: 12, 69
+  index: -1
+bin/Particlegunner
+  rotate: false
+  xy: 2, 198
+  size: 80, 109
+  orig: 139, 220
+  offset: 29, 88
+  index: -1
+bin/ShotGun
+  rotate: true
+  xy: 2, 309
+  size: 88, 106
+  orig: 139, 220
+  offset: 21, 87
+  index: -1
+bin/Sirius
+  rotate: true
+  xy: 429, 228
+  size: 82, 81
+  orig: 139, 220
+  offset: 31, 88
+  index: -1
+bin/SuicideAircraft
+  rotate: true
+  xy: 320, 249
+  size: 78, 107
+  orig: 139, 181
+  offset: 31, 69
+  index: -1
+bin/alien
+  rotate: true
+  xy: 232, 414
+  size: 96, 123
+  orig: 139, 220
+  offset: 19, 87
+  index: -1

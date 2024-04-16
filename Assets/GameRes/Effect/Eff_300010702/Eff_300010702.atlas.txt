@@ -1,0 +1,223 @@
+
+Eff_300010702.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_300010702/Bullet_ParticleBeamTower_00001
+  rotate: true
+  xy: 2, 2
+  size: 45, 132
+  orig: 90, 450
+  offset: 24, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00002
+  rotate: true
+  xy: 454, 25
+  size: 47, 194
+  orig: 90, 450
+  offset: 22, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00003
+  rotate: false
+  xy: 865, 273
+  size: 50, 263
+  orig: 90, 450
+  offset: 21, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00004
+  rotate: true
+  xy: 454, 74
+  size: 51, 365
+  orig: 90, 450
+  offset: 20, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00005
+  rotate: true
+  xy: 454, 538
+  size: 52, 450
+  orig: 90, 450
+  offset: 18, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00006
+  rotate: false
+  xy: 360, 119
+  size: 51, 450
+  orig: 90, 450
+  offset: 19, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00007
+  rotate: true
+  xy: 413, 243
+  size: 52, 450
+  orig: 90, 450
+  offset: 18, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00008
+  rotate: true
+  xy: 413, 190
+  size: 51, 450
+  orig: 90, 450
+  offset: 19, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00009
+  rotate: true
+  xy: 413, 297
+  size: 54, 450
+  orig: 90, 450
+  offset: 18, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00010
+  rotate: true
+  xy: 413, 353
+  size: 55, 450
+  orig: 90, 450
+  offset: 17, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00011
+  rotate: true
+  xy: 413, 410
+  size: 58, 450
+  orig: 90, 450
+  offset: 14, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00012
+  rotate: true
+  xy: 413, 470
+  size: 66, 450
+  orig: 90, 450
+  offset: 11, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00013
+  rotate: true
+  xy: 2, 49
+  size: 68, 450
+  orig: 90, 450
+  offset: 10, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00014
+  rotate: true
+  xy: 454, 592
+  size: 70, 450
+  orig: 90, 450
+  offset: 8, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00015
+  rotate: false
+  xy: 273, 119
+  size: 85, 450
+  orig: 90, 450
+  offset: 5, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00016
+  rotate: true
+  xy: 454, 937
+  size: 84, 450
+  orig: 90, 450
+  offset: 2, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00017
+  rotate: false
+  xy: 2, 119
+  size: 89, 450
+  orig: 90, 450
+  offset: 0, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00018
+  rotate: false
+  xy: 185, 571
+  size: 87, 450
+  orig: 90, 450
+  offset: 0, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00019
+  rotate: false
+  xy: 184, 119
+  size: 87, 450
+  orig: 90, 450
+  offset: 0, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00020
+  rotate: true
+  xy: 454, 845
+  size: 90, 440
+  orig: 90, 450
+  offset: 0, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00021
+  rotate: true
+  xy: 454, 753
+  size: 90, 440
+  orig: 90, 450
+  offset: 0, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00022
+  rotate: false
+  xy: 362, 576
+  size: 90, 445
+  orig: 90, 450
+  offset: 0, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00023
+  rotate: false
+  xy: 94, 571
+  size: 89, 450
+  orig: 90, 450
+  offset: 1, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00024
+  rotate: false
+  xy: 2, 571
+  size: 90, 450
+  orig: 90, 450
+  offset: 0, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00025
+  rotate: false
+  xy: 274, 571
+  size: 86, 450
+  orig: 90, 450
+  offset: 3, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00026
+  rotate: false
+  xy: 93, 119
+  size: 89, 450
+  orig: 90, 450
+  offset: 1, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00027
+  rotate: true
+  xy: 454, 664
+  size: 87, 441
+  orig: 90, 450
+  offset: 0, 1
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00028
+  rotate: true
+  xy: 413, 127
+  size: 61, 440
+  orig: 90, 450
+  offset: 16, 3
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00030
+  rotate: false
+  xy: 896, 934
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00000
+  rotate: false
+  xy: 896, 934
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_300010702/Bullet_ParticleBeamTower_00029
+  rotate: false
+  xy: 896, 934
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

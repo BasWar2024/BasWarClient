@@ -1,0 +1,13 @@
+
+Eff_230000103.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_Range_Ice.00057_00000
+  rotate: false
+  xy: 2, 2
+  size: 498, 498
+  orig: 819, 819
+  offset: 161, 160
+  index: -1

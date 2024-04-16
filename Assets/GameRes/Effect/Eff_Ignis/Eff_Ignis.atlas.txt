@@ -1,0 +1,230 @@
+
+Eff_Ignis.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_Tonitruum/Eff_Tonitruum_00000
+  rotate: false
+  xy: 2, 9
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00001
+  rotate: true
+  xy: 461, 456
+  size: 54, 49
+  orig: 100, 100
+  offset: 24, 1
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00002
+  rotate: true
+  xy: 453, 220
+  size: 60, 56
+  orig: 100, 100
+  offset: 23, 2
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00003
+  rotate: false
+  xy: 449, 153
+  size: 60, 65
+  orig: 100, 100
+  offset: 19, 1
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00004
+  rotate: true
+  xy: 374, 173
+  size: 66, 73
+  orig: 100, 100
+  offset: 16, 0
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00005
+  rotate: false
+  xy: 374, 91
+  size: 70, 80
+  orig: 100, 100
+  offset: 13, 0
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00006
+  rotate: false
+  xy: 381, 337
+  size: 78, 85
+  orig: 100, 100
+  offset: 10, 0
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00007
+  rotate: false
+  xy: 286, 223
+  size: 83, 91
+  orig: 100, 100
+  offset: 7, 0
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00008
+  rotate: false
+  xy: 99, 14
+  size: 95, 95
+  orig: 100, 100
+  offset: 2, 0
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00009
+  rotate: true
+  xy: 290, 326
+  size: 90, 89
+  orig: 100, 100
+  offset: 6, 0
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00010
+  rotate: true
+  xy: 198, 418
+  size: 92, 87
+  orig: 100, 100
+  offset: 5, 1
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00011
+  rotate: true
+  xy: 195, 214
+  size: 95, 89
+  orig: 100, 100
+  offset: 3, 0
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00012
+  rotate: true
+  xy: 99, 111
+  size: 97, 92
+  orig: 100, 100
+  offset: 2, 0
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00013
+  rotate: true
+  xy: 99, 311
+  size: 98, 96
+  orig: 100, 100
+  offset: 2, 0
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00014
+  rotate: false
+  xy: 2, 411
+  size: 97, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00015
+  rotate: true
+  xy: 2, 310
+  size: 99, 95
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00016
+  rotate: true
+  xy: 2, 111
+  size: 97, 95
+  orig: 100, 100
+  offset: 3, 1
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00017
+  rotate: true
+  xy: 2, 12
+  size: 97, 95
+  orig: 100, 100
+  offset: 3, 2
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00018
+  rotate: true
+  xy: 2, 210
+  size: 98, 97
+  orig: 100, 100
+  offset: 2, 1
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00019
+  rotate: true
+  xy: 101, 412
+  size: 98, 95
+  orig: 100, 100
+  offset: 0, 4
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00020
+  rotate: true
+  xy: 101, 213
+  size: 96, 92
+  orig: 100, 100
+  offset: 1, 4
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00021
+  rotate: true
+  xy: 193, 116
+  size: 95, 93
+  orig: 100, 100
+  offset: 5, 3
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00022
+  rotate: true
+  xy: 287, 418
+  size: 92, 86
+  orig: 100, 100
+  offset: 6, 3
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00023
+  rotate: true
+  xy: 197, 316
+  size: 94, 91
+  orig: 100, 100
+  offset: 6, 2
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00024
+  rotate: false
+  xy: 371, 241
+  size: 80, 83
+  orig: 100, 100
+  offset: 7, 2
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00025
+  rotate: true
+  xy: 375, 424
+  size: 86, 84
+  orig: 100, 100
+  offset: 9, 2
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00026
+  rotate: true
+  xy: 196, 29
+  size: 85, 84
+  orig: 100, 100
+  offset: 9, 2
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00027
+  rotate: false
+  xy: 288, 137
+  size: 84, 84
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00028
+  rotate: true
+  xy: 282, 29
+  size: 85, 74
+  orig: 100, 100
+  offset: 10, 5
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00029
+  rotate: true
+  xy: 358, 6
+  size: 83, 79
+  orig: 100, 100
+  offset: 8, 1
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00030
+  rotate: true
+  xy: 453, 282
+  size: 53, 57
+  orig: 100, 100
+  offset: 13, 5
+  index: -1
+res/Eff_Tonitruum/Eff_Tonitruum_00031
+  rotate: true
+  xy: 461, 418
+  size: 36, 38
+  orig: 100, 100
+  offset: 33, 24
+  index: -1

@@ -1,0 +1,20 @@
+
+Buff_AddAtkAndAtkSpeed.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff_fire_b.000
+  rotate: false
+  xy: 2, 2
+  size: 61, 130
+  orig: 256, 256
+  offset: 101, 64
+  index: -1
+buff_fire_b.001
+  rotate: false
+  xy: 2, 134
+  size: 93, 101
+  orig: 256, 256
+  offset: 82, 78
+  index: -1

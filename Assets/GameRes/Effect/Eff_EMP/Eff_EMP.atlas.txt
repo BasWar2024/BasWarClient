@@ -1,0 +1,216 @@
+
+Eff_EMP.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_EMP_0000
+  rotate: false
+  xy: 2, 8
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_EMP_0001
+  rotate: true
+  xy: 837, 7
+  size: 112, 78
+  orig: 410, 410
+  offset: 147, 167
+  index: -1
+res/Eff_EMP_0002
+  rotate: false
+  xy: 888, 138
+  size: 122, 87
+  orig: 410, 410
+  offset: 142, 162
+  index: -1
+res/Eff_EMP_0003
+  rotate: true
+  xy: 917, 379
+  size: 131, 94
+  orig: 410, 410
+  offset: 136, 160
+  index: -1
+res/Eff_EMP_0004
+  rotate: true
+  xy: 906, 227
+  size: 146, 106
+  orig: 410, 410
+  offset: 129, 154
+  index: -1
+res/Eff_EMP_0005
+  rotate: false
+  xy: 679, 8
+  size: 156, 111
+  orig: 410, 410
+  offset: 124, 150
+  index: -1
+res/Eff_EMP_0006
+  rotate: false
+  xy: 719, 121
+  size: 167, 118
+  orig: 410, 410
+  offset: 118, 150
+  index: -1
+res/Eff_EMP_0007
+  rotate: false
+  xy: 721, 241
+  size: 183, 132
+  orig: 410, 410
+  offset: 112, 140
+  index: -1
+res/Eff_EMP_0008
+  rotate: false
+  xy: 722, 375
+  size: 193, 135
+  orig: 410, 410
+  offset: 106, 139
+  index: -1
+res/Eff_EMP_0009
+  rotate: false
+  xy: 2, 11
+  size: 211, 151
+  orig: 410, 410
+  offset: 100, 130
+  index: -1
+res/Eff_EMP_0010
+  rotate: false
+  xy: 722, 512
+  size: 234, 167
+  orig: 410, 410
+  offset: 88, 122
+  index: -1
+res/Eff_EMP_0011
+  rotate: false
+  xy: 242, 337
+  size: 238, 169
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0012
+  rotate: false
+  xy: 2, 852
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0013
+  rotate: false
+  xy: 2, 680
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0014
+  rotate: false
+  xy: 242, 852
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0015
+  rotate: false
+  xy: 2, 508
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0016
+  rotate: false
+  xy: 242, 680
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0017
+  rotate: false
+  xy: 482, 852
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0018
+  rotate: false
+  xy: 2, 336
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0019
+  rotate: false
+  xy: 242, 508
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0020
+  rotate: false
+  xy: 482, 680
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0021
+  rotate: false
+  xy: 722, 852
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0022
+  rotate: false
+  xy: 2, 164
+  size: 238, 170
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0023
+  rotate: false
+  xy: 482, 509
+  size: 238, 169
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0024
+  rotate: false
+  xy: 722, 681
+  size: 238, 169
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0025
+  rotate: false
+  xy: 242, 166
+  size: 238, 169
+  orig: 410, 410
+  offset: 86, 121
+  index: -1
+res/Eff_EMP_0026
+  rotate: false
+  xy: 482, 338
+  size: 237, 169
+  orig: 410, 410
+  offset: 87, 121
+  index: -1
+res/Eff_EMP_0027
+  rotate: false
+  xy: 482, 172
+  size: 235, 164
+  orig: 410, 410
+  offset: 88, 124
+  index: -1
+res/Eff_EMP_0028
+  rotate: false
+  xy: 242, 2
+  size: 228, 162
+  orig: 410, 410
+  offset: 91, 125
+  index: -1
+res/Eff_EMP_0029
+  rotate: false
+  xy: 482, 29
+  size: 195, 141
+  orig: 410, 410
+  offset: 104, 135
+  index: -1

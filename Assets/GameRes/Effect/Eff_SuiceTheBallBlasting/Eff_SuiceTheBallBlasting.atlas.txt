@@ -1,0 +1,293 @@
+
+Eff_SuiceTheBallBlasting.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Eff_SuiceTheBallBlasting_00000
+  rotate: false
+  xy: 493, 509
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00001
+  rotate: false
+  xy: 230, 198
+  size: 9, 10
+  orig: 101, 112
+  offset: 44, 19
+  index: -1
+res/Eff_SuiceTheBallBlasting_00002
+  rotate: false
+  xy: 453, 192
+  size: 36, 36
+  orig: 101, 112
+  offset: 32, 11
+  index: -1
+res/Eff_SuiceTheBallBlasting_00003
+  rotate: false
+  xy: 295, 10
+  size: 49, 45
+  orig: 101, 112
+  offset: 26, 11
+  index: -1
+res/Eff_SuiceTheBallBlasting_00004
+  rotate: true
+  xy: 453, 230
+  size: 60, 57
+  orig: 101, 112
+  offset: 22, 7
+  index: -1
+res/Eff_SuiceTheBallBlasting_00005
+  rotate: false
+  xy: 364, 66
+  size: 64, 68
+  orig: 101, 112
+  offset: 20, 2
+  index: -1
+res/Eff_SuiceTheBallBlasting_00006
+  rotate: true
+  xy: 372, 143
+  size: 64, 74
+  orig: 101, 112
+  offset: 22, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00007
+  rotate: false
+  xy: 384, 209
+  size: 67, 76
+  orig: 101, 112
+  offset: 21, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00008
+  rotate: false
+  xy: 295, 57
+  size: 67, 77
+  orig: 101, 112
+  offset: 21, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00009
+  rotate: true
+  xy: 161, 290
+  size: 68, 78
+  orig: 101, 112
+  offset: 21, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00010
+  rotate: false
+  xy: 149, 21
+  size: 71, 79
+  orig: 101, 112
+  offset: 20, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00011
+  rotate: false
+  xy: 2, 18
+  size: 72, 79
+  orig: 101, 112
+  offset: 20, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00012
+  rotate: false
+  xy: 81, 184
+  size: 74, 79
+  orig: 101, 112
+  offset: 19, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00013
+  rotate: true
+  xy: 412, 436
+  size: 74, 79
+  orig: 101, 112
+  offset: 19, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00014
+  rotate: false
+  xy: 82, 265
+  size: 76, 80
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00015
+  rotate: false
+  xy: 2, 183
+  size: 77, 80
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00016
+  rotate: false
+  xy: 2, 347
+  size: 78, 80
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00017
+  rotate: false
+  xy: 82, 430
+  size: 78, 80
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00018
+  rotate: false
+  xy: 2, 265
+  size: 78, 80
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00019
+  rotate: false
+  xy: 82, 347
+  size: 77, 81
+  orig: 101, 112
+  offset: 19, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00020
+  rotate: true
+  xy: 162, 433
+  size: 77, 81
+  orig: 101, 112
+  offset: 19, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00021
+  rotate: false
+  xy: 2, 429
+  size: 78, 81
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00022
+  rotate: false
+  xy: 323, 287
+  size: 77, 75
+  orig: 101, 112
+  offset: 19, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00023
+  rotate: false
+  xy: 243, 287
+  size: 78, 75
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00024
+  rotate: false
+  xy: 230, 210
+  size: 78, 75
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00025
+  rotate: true
+  xy: 157, 184
+  size: 79, 71
+  orig: 101, 112
+  offset: 17, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00026
+  rotate: false
+  xy: 326, 364
+  size: 78, 71
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00027
+  rotate: false
+  xy: 406, 364
+  size: 78, 70
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00028
+  rotate: false
+  xy: 402, 292
+  size: 78, 70
+  orig: 101, 112
+  offset: 18, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00029
+  rotate: true
+  xy: 222, 103
+  size: 79, 71
+  orig: 101, 112
+  offset: 17, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00030
+  rotate: true
+  xy: 222, 22
+  size: 79, 71
+  orig: 101, 112
+  offset: 17, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00031
+  rotate: false
+  xy: 245, 364
+  size: 79, 71
+  orig: 101, 112
+  offset: 17, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00032
+  rotate: false
+  xy: 162, 360
+  size: 79, 71
+  orig: 101, 112
+  offset: 17, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00033
+  rotate: true
+  xy: 76, 101
+  size: 80, 71
+  orig: 101, 112
+  offset: 16, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00034
+  rotate: true
+  xy: 76, 19
+  size: 80, 71
+  orig: 101, 112
+  offset: 16, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00035
+  rotate: true
+  xy: 149, 102
+  size: 80, 71
+  orig: 101, 112
+  offset: 16, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00036
+  rotate: false
+  xy: 329, 438
+  size: 81, 72
+  orig: 101, 112
+  offset: 15, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00037
+  rotate: true
+  xy: 2, 99
+  size: 82, 72
+  orig: 101, 112
+  offset: 14, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00038
+  rotate: false
+  xy: 245, 437
+  size: 82, 73
+  orig: 101, 112
+  offset: 14, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00039
+  rotate: false
+  xy: 295, 136
+  size: 75, 72
+  orig: 101, 112
+  offset: 21, 0
+  index: -1
+res/Eff_SuiceTheBallBlasting_00040
+  rotate: true
+  xy: 310, 210
+  size: 75, 72
+  orig: 101, 112
+  offset: 21, 0
+  index: -1
