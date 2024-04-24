@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityAddressableImporter.Helper;
@@ -13,7 +13,7 @@ namespace UnityAddressableImporter {
         public const string kDefaultConfigObjectName = "addressableimportsettings";
         public const string kDefaultPath = "Assets/Editor/AddressableImportSettings.asset";
 
-        [Tooltip ("")]
+        [Tooltip ("""")]
         public bool allowGroupCreation = false;
 
         public List<AddressableImportRule> rules;
@@ -30,7 +30,7 @@ namespace UnityAddressableImporter {
                 return;
             }
             var dirty = false;
-            var emptyGroups = settings.groups.Where (x => x.entries.Count == 0 && !x.IsDefaultGroup ()).ToArray (); //
+            var emptyGroups = settings.groups.Where (x => x.entries.Count == 0 && !x.IsDefaultGroup ()).ToArray (); //""
             for (var i = 0; i < emptyGroups.Length; i++) {
                 dirty = true;
                 settings.RemoveGroup (emptyGroups[i]);
@@ -44,17 +44,17 @@ namespace UnityAddressableImporter {
             get {
                 AddressableImportSettings so;
                 // Try to locate settings via EditorBuildSettings.
-                if (!EditorBuildSettings.TryGetConfigObject (kDefaultConfigObjectName, out so)) //
+                if (!EditorBuildSettings.TryGetConfigObject (kDefaultConfigObjectName, out so)) //""
                 {
-                    //
+                    //""
                     AssetDatabase.CreateAsset (new AddressableImportSettings (), kDefaultPath);
                 }
                 // Try to locate settings via path.
-                so = AssetDatabase.LoadAssetAtPath<AddressableImportSettings> (kDefaultPath); //
+                so = AssetDatabase.LoadAssetAtPath<AddressableImportSettings> (kDefaultPath); //""
                 if (so != null) {
                     EditorBuildSettings.AddConfigObject (kDefaultConfigObjectName, so, true);
                 } else {
-                    Debug.LogWarning ("\n: " + kDefaultPath);
+                    Debug.LogWarning ("""，""。\n"": " + kDefaultPath);
                 }
 
                 return so;

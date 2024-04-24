@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEditor;
@@ -26,7 +26,7 @@ namespace UnityAddressableImporter.Helper.Internal {
             if (_methods == null) return;
             AddressableImporterMethodHandler.OnInspectorGUI (_target, _methods);
 
-            //
+            //""
             serializedObject.ApplyModifiedProperties ();
         }
 

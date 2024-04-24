@@ -14,12 +14,13 @@ using System.Reflection;
 using System.Linq;
 using UnityEngine.Events;
 using UnityEngine;
+using Battle;
 
-//DocXLua.doc
+//""Doc""《XLua"".doc》
 public static class XLuaConfig
 {
-    /***************lua***************/
-    //--------------begin lua----------------------------
+    /***************""lua""，""***************/
+    //--------------begin ""lua""----------------------------
     static List<string> systemExclude = new List<string> {
        "HideInInspector", "ExecuteInEditMode",
        "AddComponentMenu", "ContextMenu",
@@ -61,11 +62,18 @@ public static class XLuaConfig
        "UnityEngine.Animator","UnityEngine.StateMachineBehaviour",
        "UnityEngine.Human","UnityEngine.Joint",
        "UnityEngine.AssetBundle","UnityEngine.Cloth",
-       "UnityEngine.UI.DefaultControls","ScriptableTile"
+       "UnityEngine.UI.DefaultControls","ScriptableTile",
+        "UnityEngine.ClusterSerialization",
+       "UnityEngine.AudioSource",
+       "UnityEngine.LightingSettings",
+       "UnityEngine.CloudStreaming",
+       "UnityEngine.InputRegistering",
+       "UnityEngine.InputManagerEntry"
     };
 
     static List<string> customExclude = new List<string> {
        "MapEditor","ScriptableObjectUtility","test","ScriptableTile", "CreateOcean", "Battle", "GrayScaleCreator",
+        "LunarConsolePluginInternal",
     };
 
     static bool isSystemExcluded(string fullName)
@@ -97,7 +105,7 @@ public static class XLuaConfig
     {
        get
        {
-           List<string> namespaces = new List<string>() // 
+           List<string> namespaces = new List<string>() // ""
            {
                 "UnityEngine",
                 "UnityEngine.UI",
@@ -124,7 +132,7 @@ public static class XLuaConfig
        }
     }
 
-    //LuaCallCSharpdelegateCSharpCallLualuacallback
+    //""LuaCallCSharp""delegate""CSharpCallLua""，""lua""callback
     [CSharpCallLua]
     public static List<Type> CSharpCallLua
     {
@@ -163,9 +171,9 @@ public static class XLuaConfig
            return delegate_types.Where(t => t.BaseType == typeof(MulticastDelegate) && !hasGenericParameter(t) && !delegateHasEditorRef(t)).Distinct().ToList();
        }
     }
-    //--------------end lua----------------------------
+    //--------------end ""lua""----------------------------
 
-    /******************************/
+    /***************""***************/
     [Hotfix]
     static IEnumerable<Type> HotfixInject
     {
@@ -176,7 +184,7 @@ public static class XLuaConfig
                    select type);
        }
     }
-    //--------------begin -------------------------
+    //--------------begin ""-------------------------
     static bool hasGenericParameter(Type type)
     {
        if (type.IsGenericTypeDefinition) return true;
@@ -237,8 +245,8 @@ public static class XLuaConfig
        return method.GetParameters().Any(pinfo => typeHasEditorRef(pinfo.ParameterType));
     }
 
-    //C#Luadelegateinterface
-    // AssemblydelegateCSharpCallLuaHotfixdelegatelua function
+    //C#""Lua""（""），""delegate，interface
+    // ""Assembly""delegate""CSharpCallLua""，Hotfix""delegate""lua function""
     [CSharpCallLua]
     static IEnumerable<Type> AllDelegate
     {
@@ -259,14 +267,17 @@ public static class XLuaConfig
                 typeof(OnFingerDownDelegate),
                 typeof(OnFingerUpDelegate),
                 typeof(OnLongPressDelegate),
+                typeof(Action<int, float>),
+                typeof(Action<int, bool>),
+                typeof(Action<EntityBase>),
 
            };
            return allTypes;
        }
     }
-    //--------------end -------------------------
+    //--------------end ""-------------------------
 
-    //
+    //""
     [BlackList]
     public static List<List<string>> BlackList = new List<List<string>>()  {
                 new List<string>(){"System.Xml.XmlNodeList", "ItemOf"},

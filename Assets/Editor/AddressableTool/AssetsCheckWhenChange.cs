@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -12,12 +12,12 @@ namespace TKDotsFrame.Editor {
         public const string configPath = "Assets/Editor/AddressableTool/AssetsCheckWhenChangeConfig.asset";
         // public const string pattern = @"^([A-Za-z0-9]+|[A-Za-z]+|[A-Za-z]+_[A-Za-z]+|[A-Za-z]+_[0-9]+|[A-Za-z]+_[A-Za-z]+_[0-9]+|[A-Za-z]+_[A-Za-z]+_[A-Za-z]+|[A-Za-z]+_[A-Za-z]+_[A-Za-z]+_[0-9]+|[A-Za-z]+_[A-Za-z]+_[A-Za-z]+_[A-Za-z]+)$";
         public const string pattern = @"^\w{3,50}$";
-        // public const string tipsStr = "{0} \n A \n A_ \n A_A \n A_A_ \n A_A_A \n A_A_A_ \n  : {1}";
-        public const string tipsStr = " ";
+        // public const string tipsStr = """：{0} ""：\n A \n A_"" \n A_A \n A_A_"" \n A_A_A \n A_A_A_"" \n "" : {1}";
+        public const string tipsStr = """ """;
         static string[] configtempDetectionPaths;
 
         /// <summary>
-        /// 
+        /// ""、""
         /// </summary>
         /// <param name="path"></param>
         /// <param name="isfile"></param>
@@ -30,12 +30,12 @@ namespace TKDotsFrame.Editor {
             }
         }
         /// <summary>
-        /// 
+        /// ""、""
         /// </summary>
         /// <param name="filePath"></param>
         /// <returns></returns>
         public static bool IsTargetCheckFile (string filePath) {
-            //
+            //""
             bool isInCheckList = false;
             var config = GetAssetConfig ();
             if (config != null) {
@@ -49,7 +49,7 @@ namespace TKDotsFrame.Editor {
             return isInCheckList;
         }
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         /// <returns></returns>
         public static string[] GetAssetConfig () {
@@ -67,31 +67,31 @@ namespace TKDotsFrame.Editor {
     }
 
     /// <summary>
-    /// 1./,
-    /// 2.addressable 
-    /// 3.addressable 
+    /// 1.""、""/""，"",""
+    /// 2.""addressable ""
+    /// 3.""addressable ""
     /// </summary>
     public class AssetsCheckWhenChange : AssetPostprocessor {
-        public static bool isDirty = true; //
+        public static bool isDirty = true; //""
         public static List<string> DirtyList = new List<string> ();
         static AssetsCheckWhenChange () {
-            // Debug.LogError ("");
+            // Debug.LogError ("""");
         }
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
-        /// <param name="importedAssets">//</param>
-        /// <param name="deletedAssets"></param>
+        /// <param name="importedAssets">""/""/""</param>
+        /// <param name="deletedAssets">""</param>
+        /// ""：""，""
         /// 
+        /// ""    importedAssets   movedAssets
+        /// "" ""       ""         ""
+        /// ""       ""          ""
+        /// "" ""        ""          ""
+        /// ""        ""          ""
         /// 
-        ///     importedAssets   movedAssets
-        ///                  
-        ///                  
-        ///                    
-        ///                   
-        /// 
-        /// <param name="movedAssets"></param>
-        /// <param name="movedFromAssetPaths"></param>
+        /// <param name="movedAssets">""</param>
+        /// <param name="movedFromAssetPaths">""</param>
         static void OnPostprocessAllAssets (string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths) {
 
             foreach (string importedAssetPath in importedAssets) {
@@ -99,7 +99,7 @@ namespace TKDotsFrame.Editor {
             }
             // Debug.LogError ("importedAssets " + importedAssets.Length);
             foreach (var movedAssetPath in movedAssets) {
-                //
+                //""
                 if (Path.GetExtension (movedAssetPath) == "") continue;
                 CheckProcessing (movedAssetPath);
             }
@@ -109,16 +109,16 @@ namespace TKDotsFrame.Editor {
 
             if (AssetsImporterSystemSetting.IsTargetCheckFile (assetpath) && !AssetsCheckProcessingWindow.isTempListContains (assetpath)) {
 
-                //
+                //""
                 string fileName = Path.GetFileNameWithoutExtension (assetpath);
                 string fileExtension = Path.GetExtension (assetpath);
 
                 if (Regex.IsMatch (fileName, AssetsImporterSystemSetting.pattern)) {
-                    //
-                    Debug.Log ("<color=#9AFF7C>" + fileName + fileExtension + "   </color>");
+                    //""
+                    Debug.Log ("<color=#9AFF7C>" + fileName + fileExtension + "  "" </color>");
                 } else {
-                    //
-                    Debug.Log ("<color=#FF0000>" + fileName + fileExtension + "  </color>  ");
+                    //""
+                    Debug.Log ("<color=#FF0000>" + fileName + fileExtension + " "" </color>  ");
                     AssetsCheckProcessingWindow.AddToTempList (assetpath);
                     AssetsCheckProcessingWindow.CreateWindowOrProcessing (assetpath);
                 }
@@ -129,13 +129,13 @@ namespace TKDotsFrame.Editor {
             if (pathStrs.Length <= 0) return;
             // if (inProcessing) return;
 
-            // Debug.LogError (" pathStrs.length " + pathStrs.Length + " isMoveAsset " + isMoveAsset);
+            // Debug.LogError (""" pathStrs.length " + pathStrs.Length + " isMoveAsset " + isMoveAsset);
 
             int startIndex = 0;
-            //
+            //""
             EditorApplication.update = () => {
                 string assetpath = pathStrs[startIndex];
-                EditorUtility.DisplayProgressBar (": ", assetpath, (float) startIndex / (float) pathStrs.Length);
+                EditorUtility.DisplayProgressBar (""": ", assetpath, (float) startIndex / (float) pathStrs.Length);
 
                 CheckProcessing (assetpath);
 
@@ -145,7 +145,7 @@ namespace TKDotsFrame.Editor {
                     EditorApplication.update = null;
                     startIndex = 0;
                     AssetDatabase.Refresh ();
-                    // Debug.Log ("");
+                    // Debug.Log ("""");
                 }
             };
         }

@@ -7,7 +7,7 @@ using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.AddressableAssets.Settings.GroupSchemas;
 using UnityEngine;
 public class ProjectBuildPipeLine {
-    //android 
+    //""android ""
     public static void BuildAllAndroid () {
         var levels = new List<string> ();
         foreach (var scene in EditorBuildSettings.scenes) {
@@ -16,17 +16,17 @@ public class ProjectBuildPipeLine {
         }
         // EditorUserBuildSettings.SwitchActiveBuildTarget (BuildTargetGroup.Android, BuildTarget.Android);
 
-        //lua
+        //""lua""
         CustomBuildMode.CreateLuaScriptAssetKey ();
-        //
+        //""
         SetAddressableLocalBuild ();
-        // 
+        //"" ""
         AddressableAssetSettings.CleanPlayerContent (AddressableAssetSettingsDefaultObject.Settings.ActivePlayerDataBuilder);
-        //addressable 
+        //addressable ""
         AddressableAssetSettings.BuildPlayerContent ();
 
         var args = System.Environment.GetCommandLineArgs ();
-        string outPath = ""; //
+        string outPath = ""; //""
         foreach (var s in args) {
             if (s.Contains ("-outputpath:")) {
                 outPath = s.Split (':') [1];
@@ -34,24 +34,24 @@ public class ProjectBuildPipeLine {
             }
         }
         Directory.CreateDirectory (outPath);
-        //
+        //""
         EditorUserBuildSettings.exportAsGoogleAndroidProject = true;
-        //android 
+        //""android ""
         EditorUserBuildSettings.SwitchActiveBuildTarget (BuildTargetGroup.Android, BuildTarget.Android);
-        //
+        //""
         BuildPipeline.BuildPlayer (levels.ToArray (), outPath, BuildTarget.Android, BuildOptions.AcceptExternalModificationsToPlayer);
-        //apk test
+        //""apk test
         // BuildPipeline.BuildPlayer (levels.ToArray (), outPath, BuildTarget.Android, BuildOptions.None);
     }
-    //bundle
-    // [MenuItem ("Tools/")]
+    //""bundle""
+    // [MenuItem ("Tools/""")]
     public static void BuildPatchAndroid () {
 
         var settings = AddressableAssetSettingsDefaultObject.Settings;
         var profileId = settings.profileSettings.GetProfileId ("Build");
 
         var args = System.Environment.GetCommandLineArgs ();
-        var version = ""; //
+        var version = ""; //""
         var buildTarget = "Android";
         foreach (var s in args) {
             if (s.Contains ("-version:")) {
@@ -64,7 +64,7 @@ public class ProjectBuildPipeLine {
             }
         }
 
-        //
+        //""
         syncAddressableRemoteBuild(settings,profileId,buildTarget);
 
         //addressable OnUpdateBuild
@@ -78,7 +78,7 @@ public class ProjectBuildPipeLine {
         var settings = AddressableAssetSettingsDefaultObject.Settings;
         var profileId = settings.profileSettings.GetProfileId ("Build");
 
-        //
+        //""
         var buildPath = "[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]";
         var loadPath = "{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]";
         settings.profileSettings.SetValue (profileId, "LocalBuildPath", buildPath);
@@ -89,7 +89,7 @@ public class ProjectBuildPipeLine {
         settings.profileSettings.SetValue (profileId, "RemoteBuildPath", remoteBuildPath);
         settings.profileSettings.SetValue (profileId, "RemoteLoadPath", remoteLoadPath);
     }
-    // LocalBuildPath  remoteBuildPath 
+    //"" ""LocalBuildPath "" remoteBuildPath"" ""
     static void syncAddressableRemoteBuild(UnityEditor.AddressableAssets.Settings.AddressableAssetSettings settings,string profileId,string buildTarget = "Android"){
         var remoteBuildPath = "../clientpack/" + buildTarget;
         var remoteLoadPath = "http://81.69.12.6:4030/clientpack/" + buildTarget;

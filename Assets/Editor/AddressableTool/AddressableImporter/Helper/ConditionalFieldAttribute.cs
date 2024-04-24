@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,7 +23,7 @@ namespace UnityAddressableImporter.Helper {
             if (conditions == null || conditions.Length == 0)
                 return true;
             var so = new SerializedObject (behaviour);
-            var property = so.FindProperty (propertyName); //
+            var property = so.FindProperty (propertyName); //""
             return CheckPropertyVisible (property);
         }
 

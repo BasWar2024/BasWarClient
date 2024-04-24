@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-// 
+// ""
 struct ComponentInfo
 {
     public string name;
@@ -23,11 +23,11 @@ struct ComponentInfo
 
 public class UICodeMaker
 {
-    static readonly string kDefaultOutputPathCSharp = Application.dataPath + "/Script/Game/Logic/UI"; // 
-    static readonly string kDefaultOutputPathLua = Application.dataPath + "/Lua/UI"; // 
+    static readonly string kDefaultOutputPathCSharp = Application.dataPath + "/Script/Game/Logic/UI"; // ""
+    static readonly string kDefaultOutputPathLua = Application.dataPath + "/Lua/UI"; // ""
     static readonly Dictionary<string, Type> Cfg = new Dictionary<string, Type>()
         {
-            //  
+            // ""， ""
             { "btn", typeof(GameObject)},
             { "scbar", typeof(Scrollbar)},
             { "scRect", typeof(ScrollRect)},
@@ -44,13 +44,28 @@ public class UICodeMaker
             { "rtf", typeof(RectTransform)},
         };
 
-    //[MenuItem("Tools/UI/1.ViewLogicC#", false, 1)]
+    static readonly Dictionary<string, string> CfgTypeName = new Dictionary<string, string>()
+    {
+            { "Scrollbar", "UNITYENGINE_UI_SCROLLBAR"},
+            { "ScrollRect", "UNITYENGINE_UI_SCROLLRECT"},
+            { "Dropdown", "UNITYENGINE_UI_DROPDOWN"},
+            { "InputField", "UNITYENGINE_UI_INPUTFIELD"},
+            { "Slider", "UNITYENGINE_UI_SLIDER"},
+            { "Image", "UNITYENGINE_UI_IMAGE"},
+            { "RawImage", "UNITYENGINE_UI_RAWIMAGE"},
+            { "Toggle", "UNITYENGINE_UI_TOGGLE"},
+            { "Text", "UNITYENGINE_UI_TEXT"},
+            { "TextMeshProUGUI", "UNITYENGINE_UI_TEXTMESHPROUGUI" },
+            { "RectTransform", "UNITYENGINE_UI_RECTTRANSFORM"},
+        };
+
+    //[MenuItem("Tools/UI""/1.""View""Logic""（C#）", false, 1)]
     static void MakeCodeCSharp()
     {
         MakeCode(false);
     }
 
-    [MenuItem("Tools/UI/ViewLogicLua", false, 2)]
+    [MenuItem("Tools/UI""/""View""Logic""（Lua）", false, 2)]
     static void MakeCodeLua()
     {
         MakeCode(true);
@@ -58,15 +73,15 @@ public class UICodeMaker
 
     static void MakeCode(bool isLua)
     {
-        // 
+        // ""
         GameObject[] selGO = Selection.GetFiltered<GameObject>(SelectionMode.Assets);
         if (selGO == null || selGO.Length == 0)
         {
-            Debug.LogError("\"Resources/UI\" Prefab!");
+            Debug.LogError("""\"Resources/UI\" ""Prefab!");
             return;
         }
 
-        // 
+        // ""
         string choosePath = string.Empty;
         if(isLua)
         {
@@ -82,17 +97,17 @@ public class UICodeMaker
 
         foreach (GameObject GO in selGO)
         {
-            if (string.IsNullOrEmpty(AssetDatabase.GetAssetPath(GO))) // Hierarchy
+            if (string.IsNullOrEmpty(AssetDatabase.GetAssetPath(GO))) // ""Hierarchy""，""
             {
-                Debug.LogError("\"Resources/UI\" Prefab!");
+                Debug.LogError("""\"Resources/UI\" ""Prefab!");
                 return;
             }
 
-            // 
+            // ""
             List<ComponentInfo> totalInfo = new List<ComponentInfo>();
             ParseGameObject(GO.transform, "", totalInfo, true);
 
-            // ViewLogic
+            // ""View""Logic""
             if(isLua)
             {
                 MakeViewCodeLua(GO, choosePath, totalInfo);
@@ -107,7 +122,7 @@ public class UICodeMaker
         AssetDatabase.Refresh();
     }
 
-    // 
+    // ""
     static void ParseGameObject(Transform trans, string filePath, List<ComponentInfo> totalInfo, bool isRoot = false)
     {
         if (!isRoot)
@@ -144,40 +159,40 @@ public class UICodeMaker
             filePath += "/";
         }
 
-        // 
+        // ""
         for (int i = 0; i < trans.childCount; i++)
         {
             ParseGameObject(trans.GetChild(i), filePath, totalInfo);
         }
     }
 
-    // 
+    // ""
     static string FirstToLower(string str)
     {
         str = str.Substring(0, 1).ToLower() + str.Substring(1);
         return str;
     }
 
-    // 
+    // ""
     static string FirstToUpper(string str)
     {
         str = str.Substring(0, 1).ToUpper() + str.Substring(1);
         return str;
     }
 
-    // 
+    // ""
     static string ToUnderScore(string str)
     {
         if(str != null && str.Length > 0)
         {
             StringBuilder result = new StringBuilder();
-            // 
+            // ""
             result.Append(str.Substring(0, 1).ToLower());
-            // 
+            // ""
             for(int i = 1; i < str.Length; i++)
             {
                 string s = str.Substring(i, 1);
-                // 
+                // ""
                 if(s.Equals(s.ToUpper()))
                 {
                     result.Append("_");
@@ -193,7 +208,7 @@ public class UICodeMaker
         return "";
     }
 
-    // LuaView
+    // ""Lua""View""
     static void MakeViewCodeLua(GameObject GO, string folderPath, List<ComponentInfo> totalInfo)
     {
         FileStream viewFile = null;
@@ -213,7 +228,7 @@ public class UICodeMaker
             writer = new StreamWriter(viewFile);
             StringBuilder sb = new StringBuilder();
 
-            // 
+            // ""
             sb.Append("\n");
             sb.Append(viewFileClassName +" = class(\"" +  viewFileClassName +  "\")\n");
             sb.Append("\n");
@@ -224,7 +239,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // go
+            // ""go""
             for(int i = 0; i < totalInfo.Count; i++)
             {
                 if(totalInfo[i].type == "Transform")
@@ -237,7 +252,7 @@ public class UICodeMaker
                 }
                 else
                 {
-                    sb.Append("    self." + totalInfo[i].name + " = transform:Find(\"" + totalInfo[i].path + "\"):GetComponent(\"" + totalInfo[i].type + "\")\n");
+                    sb.Append("    self." + totalInfo[i].name + " = transform:Find(\"" + totalInfo[i].path + "\"):GetComponent(" + CfgTypeName[totalInfo[i].type] + ")\n");
                 }
                 writer.Write(sb);
                 sb.Remove(0, sb.Length);
@@ -251,11 +266,11 @@ public class UICodeMaker
 
             if(reCreate)
             {
-                Debug.Log(viewFilePath + "!");
+                Debug.Log(viewFilePath + """!");
             }
             else
             {
-                Debug.Log(viewFilePath + "!");
+                Debug.Log(viewFilePath + """!");
             }
         }
         catch(IOException ex)
@@ -276,7 +291,7 @@ public class UICodeMaker
         }
     }
 
-    // LuaLogic
+    // ""Lua""Logic""
     static void MakeLogicCodeLua(GameObject GO, string folderPath, List<ComponentInfo> totalInfo)
     {
         FileStream logicFile = null;
@@ -287,14 +302,14 @@ public class UICodeMaker
             string logicName = FirstToUpper(GO.name);
             string logicFilePath = folderPath + logicName + ".lua";
             string[] pathArr = folderPath.Split('/');
-            string folderName = pathArr[pathArr.Length - 2]; // : .../ui/folderName/
-            if(File.Exists(logicFilePath)) return; // Logic
+            string folderName = pathArr[pathArr.Length - 2]; // "": .../ui/folderName/
+            if(File.Exists(logicFilePath)) return; // ""Logic""
 
             logicFile = new FileStream(logicFilePath, FileMode.Create);
             writer = new StreamWriter(logicFile);
             StringBuilder sb = new StringBuilder();
 
-            // 
+            // ""
             sb.Append("\n");
             // sb.Append("module(\"ui\", package.seeall)\n");
             sb.Append("\n");
@@ -303,7 +318,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // ctor
+            // ctor""
             //sb.Append(logicName + ".ctor = function(self, name, args, onload)\n");
             sb.Append("function " + logicName + ":ctor(args, onload)\n");
             sb.Append("    ggclass.UIBase.ctor(self, args, onload)\n");
@@ -319,13 +334,13 @@ public class UICodeMaker
             // onAwake
             // sb.Append(logicName + ".onAwake = function(self)\n");
             sb.Append("function " + logicName + ":onAwake()\n");
-            sb.Append("    self.view = ggclass." + viewName + ".new(self.transform)\n\n");
+            sb.Append("    self.view = ggclass." + viewName + ".new(self.pnlTransform)\n\n");
             sb.Append("end\n");
             sb.Append("\n");
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // onShow
+            // onShow""
             // sb.Append(logicName + ".onShow = function(self, show)\n");
             sb.Append("function " + logicName + ":onShow()\n");
             sb.Append("    self:bindEvent()\n");
@@ -335,7 +350,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // onHide
+            // onHide""
             sb.Append("function " + logicName + ":onHide()\n");
             sb.Append("    self:releaseEvent()\n");
             sb.Append("\n");
@@ -344,7 +359,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // 
+            // ""
             // sb.Append(logicName + ".bindEvent = function(self)\n");
             sb.Append("function " + logicName + ":bindEvent()\n");
             sb.Append("    local view = self.view\n");
@@ -365,7 +380,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // 
+            // ""
             // sb.Append(logicName + ".releaseEvent = function(self)\n");
             sb.Append("function " + logicName + ":releaseEvent()\n");
             sb.Append("    local view = self.view\n");
@@ -385,7 +400,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // go
+            // ""go
             // sb.Append(logicName + ".onDestroy = function(self)\n");
             sb.Append("function " + logicName + ":onDestroy()\n");
             sb.Append("    local view = self.view\n");
@@ -394,7 +409,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // 
+            // ""
             for(int i = 0; i < totalInfo.Count; i++)
             {
                 if(totalInfo[i].name.StartsWith("btn") || totalInfo[i].name.StartsWith("Btn"))
@@ -412,7 +427,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            Debug.Log(logicFilePath + "!");
+            Debug.Log(logicFilePath + """!");
         }
         catch(IOException ex)
         {
@@ -433,7 +448,7 @@ public class UICodeMaker
         }
     }
 
-    // CSharpView
+    // ""CSharp""View""
     static void MakeViewCodeCSharp(GameObject GO, string folderPath, List<ComponentInfo> totalInfo)
     {
         FileStream viewFile = null;
@@ -451,7 +466,7 @@ public class UICodeMaker
             writer = new StreamWriter(viewFile);
             StringBuilder sb = new StringBuilder();
 
-            // 
+            // ""
             sb.Append("using UI.Ext;\n");
             sb.Append("using UnityEngine;\n");
             sb.Append("using UnityEngine.UI;\n\n");
@@ -460,7 +475,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // 
+            // ""
             for (int i = 0; i < totalInfo.Count; i++)
             {
                 writer.Write("    private " + totalInfo[i].type + " _" + FirstToLower(totalInfo[i].name) + ";\n");
@@ -468,7 +483,7 @@ public class UICodeMaker
                 sb.Remove(0, sb.Length);
             }
 
-            // 
+            // ""
             for (int i = 0; i < totalInfo.Count; i++)
             {
                 sb.Append("\n    public ");
@@ -494,17 +509,17 @@ public class UICodeMaker
                 sb.Remove(0, sb.Length);
             }
 
-            // 
+            // ""
             sb.Append("}");
             writer.Write(sb);
             sb.Remove(0, sb.Length);
             if (reCreate)
             {
-                Debug.Log(viewFilePath + "!");
+                Debug.Log(viewFilePath + """!");
             }
             else
             {
-                Debug.Log(viewFilePath + "!");
+                Debug.Log(viewFilePath + """!");
             }
 
         }
@@ -526,7 +541,7 @@ public class UICodeMaker
         }
     }
 
-    // CSharpLogic
+    // ""CSharp""Logic""
     static void MakeLogicCodeCSharp(GameObject GO, string folderPath, List<ComponentInfo> totalInfo)
     {
         FileStream logicFile = null;
@@ -535,13 +550,13 @@ public class UICodeMaker
         {
             string logicFilePath = folderPath + GO.name + "Logic.cs";
             string logicFileClassName = GO.name + "Logic";
-            if (File.Exists(logicFilePath)) return; // Logic
+            if (File.Exists(logicFilePath)) return; // ""Logic""
 
             logicFile = new FileStream(logicFilePath, FileMode.Create);
             writer = new StreamWriter(logicFile);
             StringBuilder sb = new StringBuilder();
 
-            // 
+            // ""
             sb.Append("using System;\n");
             sb.Append("using UnityEngine;\n\n");
             sb.Append("public class " + logicFileClassName + " : UIBase\n");
@@ -550,7 +565,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // Init
+            // ""Init""
             sb.Append("    public override UIBase Init(Action<GameObject> onLoaded = null)\n");
             sb.Append("    {\n");
             sb.Append("        uiInfo = new UIInfo(UILayer.Normal, UIShowMode.Normal);\n\n");
@@ -561,7 +576,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // BindUIEvent
+            // ""BindUIEvent""
             sb.Append("    protected override void BindUIEvent()\n");
             sb.Append("    {\n");
             for (int i = 0; i < totalInfo.Count; i++)
@@ -577,7 +592,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // OnClickBtn
+            // ""OnClickBtn""
             for (int i = 0; i < totalInfo.Count; i++)
             {
                 if(totalInfo[i].name.StartsWith("btn") || totalInfo[i].name.StartsWith("Btn"))
@@ -591,7 +606,7 @@ public class UICodeMaker
                 }
             }
 
-            // InitView
+            // ""InitView""
             sb.Append("    protected override void InitView()\n");
             sb.Append("    {\n");
             sb.Append("        View = _mod.AddComponent<" + GO.name + "View" + ">();\n");
@@ -599,7 +614,7 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // ReleaseEvent
+            // ""ReleaseEvent""
             sb.Append("    protected override void ReleaseEvent()\n");
             sb.Append("    {\n");
             for (int i = 0; i < totalInfo.Count; i++)
@@ -616,11 +631,11 @@ public class UICodeMaker
             writer.Write(sb);
             sb.Remove(0, sb.Length);
 
-            // 
+            // ""
             sb.Append("}");
             writer.Write(sb);
             sb.Remove(0, sb.Length);
-            Debug.Log(logicFilePath + "!");
+            Debug.Log(logicFilePath + """!");
         }
         catch (IOException ex)
         {

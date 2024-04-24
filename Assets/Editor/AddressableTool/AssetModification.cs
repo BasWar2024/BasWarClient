@@ -10,28 +10,28 @@ namespace TKDotsFrame.Editor {
 	public class AssetModification : UnityEditor.AssetModificationProcessor {
 
 		// /// <summary>
-		// ///    
+		// /// ""   ""
 		// /// </summary>
 		// /// <param name="path"></param>
 		// public static void OnWillCreateAsset (string path) {
-		// 	if (AssetsCheckProcessingWindow.IsHasUnIllegalAssets ()) { //
+		// 	if (AssetsCheckProcessingWindow.IsHasUnIllegalAssets ()) { //""
 		// 		AssetsCheckProcessingWindow.CreateWindowOrProcessing ();
-		// 		Debug.LogError ("");
+		// 		Debug.LogError ("""，""！");
 		// 	}
 		// }
 
 		// : UnityEditor.AssetModificationProcessor
 		/// <summary>
-		///   
+		/// ""  ""
 		/// </summary>
 		/// <param name="paths"></param>
 		/// <returns></returns>
 		public static string[] OnWillSaveAssets (string[] paths) {
 			List<string> result = new List<string> ();
 
-			if (AssetsCheckProcessingWindow.IsHasUnIllegalAssets ()) { //
+			if (AssetsCheckProcessingWindow.IsHasUnIllegalAssets ()) { //""
 				AssetsCheckProcessingWindow.CreateWindowOrProcessing ();
-				Debug.LogError ("");
+				Debug.LogError ("""，""！");
 				return result.ToArray ();
 			}
 
@@ -39,7 +39,7 @@ namespace TKDotsFrame.Editor {
 		}
 
 		/// <summary>
-		///   
+		/// ""  ""
 		/// </summary>
 		/// <param name="oldPath"></param>
 		/// <param name="newPath"></param>
@@ -48,9 +48,9 @@ namespace TKDotsFrame.Editor {
 
 			AssetMoveResult result = AssetMoveResult.DidNotMove;
 
-			if (AssetsCheckProcessingWindow.IsHasUnIllegalAssets ()) { //
+			if (AssetsCheckProcessingWindow.IsHasUnIllegalAssets ()) { //""
 				AssetsCheckProcessingWindow.CreateWindowOrProcessing ();
-				Debug.LogError ("");
+				Debug.LogError ("""，""！");
 				return result = AssetMoveResult.FailedMove;
 			}
 
@@ -58,16 +58,16 @@ namespace TKDotsFrame.Editor {
 		}
 
 		/// <summary>
-		///   	
+		/// ""  	""
 		/// </summary>
 		/// <param name="assetPath"></param>
 		/// <param name="option"></param>
 		/// <returns></returns>
 		public static AssetDeleteResult OnWillDeleteAsset (string assetPath, RemoveAssetOptions option) {
 
-			if (AssetsCheckProcessingWindow.IsHasUnIllegalAssets ()) { //
+			if (AssetsCheckProcessingWindow.IsHasUnIllegalAssets ()) { //""
 				AssetsCheckProcessingWindow.CreateWindowOrProcessing ();
-				Debug.LogError ("");
+				Debug.LogError ("""，""！");
 				return AssetDeleteResult.FailedDelete;
 			}
 
@@ -75,17 +75,17 @@ namespace TKDotsFrame.Editor {
 		}
 
 		/// <summary>
-		///   	
+		/// ""  	""
 		/// </summary>
 		/// <param name="assetPath"></param>
 		/// <param name="message"></param>
 		/// <returns></returns>
 		public static bool IsOpenForEdit (string assetPath, out string message) {
 
-			if (AssetsCheckProcessingWindow.IsHasUnIllegalAssets ()) { //
+			if (AssetsCheckProcessingWindow.IsHasUnIllegalAssets ()) { //""
 				AssetsCheckProcessingWindow.CreateWindowOrProcessing ();
-				Debug.LogError ("");
-				message = ",";
+				Debug.LogError ("""，""！");
+				message = """,""";
 				return false;
 			}
 

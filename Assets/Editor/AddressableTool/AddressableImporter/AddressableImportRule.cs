@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityAddressableImporter.Helper;
@@ -9,7 +9,7 @@ using UnityEngine.AddressableAssets;
 namespace UnityAddressableImporter {
 
     /// <summary>
-    /// 
+    /// ""
     /// </summary>
     public enum AddressableImportRuleMatchType {
         /// <summary>
@@ -17,18 +17,18 @@ namespace UnityAddressableImporter {
         /// *, matches any number of characters
         /// ?, matches a single character
         /// </summary>
-        [Tooltip (".\n\"*\" .\n\"?\" .")]
+        [Tooltip (""".\n\"*\" "".\n\"?\" "".")]
         Wildcard = 0,
 
         /// <summary>
         /// Regex pattern
         /// </summary>
-        [Tooltip ("")]
+        [Tooltip ("""")]
         Regex
     }
 
     /// <summary>
-    /// 
+    /// ""
     /// </summary>
     public enum LabelWriteMode {
         Add,
@@ -46,19 +46,19 @@ namespace UnityAddressableImporter {
         /// <summary>
         /// Path pattern.
         /// </summary>
-        [Tooltip ("Assets\n==The assets in this path will be processed.")]
+        [Tooltip ("""Assets""\n""==The assets in this path will be processed.")]
         public string path = string.Empty;
 
         /// <summary>
         /// Method used to parse the Path.
         /// </summary>
-        [Tooltip ("==The path parsing method.")]
+        [Tooltip ("""==The path parsing method.")]
         public AddressableImportRuleMatchType matchType;
 
         /// <summary>
         /// The group the asset will be added.
         /// </summary>
-        [Tooltip ("==The group name in which the Addressable will be added. Leave blank for the default group.")]
+        [Tooltip ("""，""==The group name in which the Addressable will be added. Leave blank for the default group.")]
         public string groupName = string.Empty;
 
         /// <summary>
@@ -73,7 +73,7 @@ namespace UnityAddressableImporter {
         /// <summary>
         /// Defines if labels will be added or replaced.
         /// </summary>
-        [Tooltip ("")]
+        [Tooltip ("""")]
         public LabelWriteMode LabelMode;
 
         /// <summary>
@@ -85,19 +85,19 @@ namespace UnityAddressableImporter {
         /// <summary>
         /// Group template to use. Default Group settings will be used if empty.
         /// </summary>
-        [Tooltip (",==Group template that will be applied to the Addressable Group. Leave none to use the Default Group's settings.")]
+        [Tooltip (""",""==Group template that will be applied to the Addressable Group. Leave none to use the Default Group's settings.")]
         public AddressableAssetGroupTemplate groupTemplate = null;
 
         /// <summary>
         /// Controls wether group template will be applied only on group creation, or also to already created groups.
         /// </summary>
-        [Tooltip ("==Defines if the group template will only be applied to new groups, or will also overwrite existing groups settings.")]
+        [Tooltip ("""，""==Defines if the group template will only be applied to new groups, or will also overwrite existing groups settings.")]
         public GroupTemplateApplicationMode groupTemplateApplicationMode = GroupTemplateApplicationMode.ApplyOnGroupCreationOnly;
 
         /// <summary>
         /// Simplify address.
         /// </summary>
-        [Tooltip ("==Simplify address to filename without extension.")]
+        [Tooltip ("""==Simplify address to filename without extension.")]
         [Label ("Address Simplified")]
         public bool simplified;
 
@@ -115,25 +115,25 @@ namespace UnityAddressableImporter {
         }
 
         /// <summary>
-        /// true
+        /// ""true
         /// </summary>
         public bool Match (string assetPath) {
             path = path.Trim ();
             if (string.IsNullOrEmpty (path))
                 return false;
-            if (matchType == AddressableImportRuleMatchType.Wildcard) { //
+            if (matchType == AddressableImportRuleMatchType.Wildcard) { //""
                 if (path.Contains ("*") || path.Contains ("?")) {
                     var regex = "^" + Regex.Escape (path).Replace (@"\*", ".*").Replace (@"\?", ".");
                     return Regex.IsMatch (assetPath, regex);
                 } else
                     return assetPath.StartsWith (path);
-            } else if (matchType == AddressableImportRuleMatchType.Regex) //
+            } else if (matchType == AddressableImportRuleMatchType.Regex) //""
                 return Regex.IsMatch (assetPath, path);
             return false;
         }
 
         /// <summary>
-        ///  
+        ///  ""
         /// Parse assetPath and replace all elements that match this.path regex
         /// with the groupName string.
         /// Returns null if this.path or groupName is empty.
@@ -157,7 +157,7 @@ namespace UnityAddressableImporter {
         /// Parse assetPath and replace all elements that match this.path regex
         /// with the addressReplacement string.
         /// Returns assetPath if this.path or addressReplacement is empty.
-        /// simplename
+        /// ""simplename
         /// </summary>
         public string ParseAddressReplacement (string assetPath) {
             if (string.IsNullOrWhiteSpace (path))
@@ -188,7 +188,7 @@ namespace UnityAddressableImporter {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         /// <value></value>
         public IEnumerable<string> labels {

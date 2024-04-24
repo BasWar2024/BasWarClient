@@ -1,4 +1,4 @@
-namespace UnityAddressableImporter.Helper.Internal {
+﻿namespace UnityAddressableImporter.Helper.Internal {
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
@@ -10,7 +10,7 @@ namespace UnityAddressableImporter.Helper.Internal {
     public static class AddressableImporterMethodHandler {
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         /// <param name="type"></param>
         /// <returns></returns>
@@ -32,7 +32,7 @@ namespace UnityAddressableImporter.Helper.Internal {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         /// <param name="target"></param>
         /// <param name="methods"></param>
@@ -45,33 +45,33 @@ namespace UnityAddressableImporter.Helper.Internal {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         /// <param name="target"></param>
         /// <param name="method"></param>
         private static void InvokeMethod (UnityEngine.Object target, MethodInfo method) {
             var result = method.Invoke (target, null);
-            if (result != null) { //
+            if (result != null) { //""
                 var message = string.Format ("{0} \nResult of Method '{1}' invocation on object {2}", result, method.Name, target.name);
                 Debug.Log (message, target);
             }
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         /// <param name="method"></param>
         /// <param name="member"></param>
         /// <returns></returns>
         private static bool IsValidMember (MethodInfo method, MemberInfo member) {
             if (method == null) {
-                Debug.LogError (string.Format ("Property <color=brown>{0}</color>.Reason:  EditorButtonAttribute!", member.Name));
+                Debug.LogError (string.Format ("Property <color=brown>{0}</color>.Reason: "" EditorButtonAttribute""!", member.Name));
                 Debug.LogWarning (string.Format ("Property <color=brown>{0}</color>.Reason: Member is not a method but has EditorButtonAttribute!", member.Name));
                 return false;
             }
 
             if (method.GetParameters ().Length > 0) {
-                Debug.LogError (string.Format ("Property <color=brown>{0}</color>.Reason:  EditorButtonAttribute", method.Name));
+                Debug.LogError (string.Format ("Property <color=brown>{0}</color>.Reason:  EditorButtonAttribute""", method.Name));
                 Debug.LogWarning (string.Format ("Method <color=brown>{0}</color>.Reason: Methods with parameters is not supported by EditorButtonAttribute!", method.Name));
                 return false;
             }
@@ -80,7 +80,7 @@ namespace UnityAddressableImporter.Helper.Internal {
         }
 
         /// <summary>
-        /// ButtonMethodAttribute
+        /// ""ButtonMethodAttribute""
         /// </summary>
         /// <param name="memberInfo"></param>
         /// <returns></returns>
@@ -91,7 +91,7 @@ namespace UnityAddressableImporter.Helper.Internal {
         /// <summary>
         /// "CamelCaseString" => "Camel Case String"
         /// COPY OF MyString.SplitCamelCase()
-        /// 
+        /// ""
         /// </summary>
         private static string SplitCamelCase (string camelCaseString) {
             if (string.IsNullOrEmpty (camelCaseString)) return camelCaseString;

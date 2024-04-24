@@ -12,7 +12,7 @@ namespace TKDotsFrame.Editor {
 
 #if !UNITY_EDITOR_OSX
     /// <summary>
-    /// 
+    /// ""
     /// </summary>
     public class GetScreenInfo {
 
@@ -38,12 +38,12 @@ namespace TKDotsFrame.Editor {
                 int height = 500;
                 window.position = new Rect (GetScreenInfo.GetScreenWidth () / 2 - width / 2, GetScreenInfo.GetScreenHeight () / 2 - height / 2, width, height);
 #endif
-                window.titleContent = new GUIContent ("");
-                //
+                window.titleContent = new GUIContent ("""");
+                //""
                 window.ShowPopup ();
-                //F
+                //""F
                 // AllUnIllegal = new Queue<string> ();
-                // Debug.LogError ("window");
+                // Debug.LogError ("""window");
             }
             if (string.IsNullOrEmpty (sourcePath)) {
                 return;
@@ -58,11 +58,11 @@ namespace TKDotsFrame.Editor {
             GUILayout.Space (20);
 
             if (AllUnIllegal != null && AllUnIllegal.Count > 0) {
-                //
+                //""
                 var sourcePath = AllUnIllegal.Peek ();
                 // Debug.LogError ("sourcePath " + sourcePath + " AllUnIllegal.length " + AllUnIllegal.Count);
-                EditorGUILayout.LabelField (": ", sourcePath, labelHeigh);
-                newFileName = EditorGUILayout.TextField (": ", newFileName, labelHeigh);
+                EditorGUILayout.LabelField (""": ", sourcePath, labelHeigh);
+                newFileName = EditorGUILayout.TextField (""": ", newFileName, labelHeigh);
                 var isFile = Path.GetExtension (sourcePath) != "";
                 if (Regex.IsMatch (newFileName, AssetsImporterSystemSetting.pattern)) {
                     var curFileName = Path.GetFileNameWithoutExtension (sourcePath);
@@ -78,10 +78,10 @@ namespace TKDotsFrame.Editor {
                             // Debug.LogError ("work??? ");
                         }
                     } else {
-                        EditorGUILayout.LabelField (" ========================== ", labelHeigh);
+                        EditorGUILayout.LabelField (" =============""============= ", labelHeigh);
                     }
                 } else {
-                    EditorGUILayout.LabelField (" ========================== ", labelHeigh);
+                    EditorGUILayout.LabelField (" =============""============= ", labelHeigh);
                 }
             } else {
 
@@ -118,7 +118,7 @@ namespace TKDotsFrame.Editor {
 
 #if !UNITY_EDITOR_OSX
         private void OnLostFocus () {
-            Debug.LogError (" ");
+            Debug.LogError (""" """);
             Focus ();
         }
 #endif

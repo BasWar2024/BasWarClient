@@ -14,7 +14,7 @@ using UnityEngine.ResourceManagement.ResourceProviders;
 
 [CreateAssetMenu (fileName = "CustomBuildMode.asset", menuName = "Addressables/Custom Builders/CustomBuildMode")]
 public class CustomBuildMode : BuildScriptPackedMode {
-    public override string Name { get { return "ab ablog"; } }
+    public override string Name { get { return """ab ""ab""log"""; } }
     protected override TResult DoBuild<TResult> (AddressablesDataBuilderInput builderInput, AddressableAssetsBuildContext aaContext) {
         TResult opResult = base.DoBuild<TResult> (builderInput, aaContext);
         var groups = aaContext.Settings.groups;
@@ -28,7 +28,7 @@ public class CustomBuildMode : BuildScriptPackedMode {
                         if (d != null) {
                             for (int k = 0; k < bundles.Count; k++) {
                                 if (d.BundleName == bundles[k]) {
-                                    Debug.Log (string.Format (" :<color=#FF0000> {0} </color> <color=#00FF00> {1} b</color> ,bundlename is : <color=#0000FF> {2} </color> ", groups[i].name, d.BundleSize, bundles[k]));
+                                    Debug.Log (string.Format (" "":<color=#FF0000> {0} </color>"" <color=#00FF00> {1} b</color> ,bundlename is : <color=#0000FF> {2} </color> ", groups[i].name, d.BundleSize, bundles[k]));
                                 }
                             }
                         }
@@ -43,7 +43,7 @@ public class CustomBuildMode : BuildScriptPackedMode {
     }
 
 
-    [MenuItem ("Assets/lua ")]
+    [MenuItem ("Assets/""lua """)]
     public static void CreateLuaScriptAssetKey ()
     {
 
@@ -80,7 +80,7 @@ public class CustomBuildMode : BuildScriptPackedMode {
 
     public static void BuildLuaGroup(string path)
     {
-        //  
+        //""  
         if (Directory.Exists(path))
         {
             var setting = AddressableAssetSettingsDefaultObject.Settings;
@@ -101,7 +101,7 @@ public class CustomBuildMode : BuildScriptPackedMode {
                 var splits = fullName.Split(new string[] { "/Assets/" }, System.StringSplitOptions.RemoveEmptyEntries);
 
                 if (splits.Length < 2)
-                    Debug.LogError("DirectoryName");
+                    Debug.LogError("DirectoryName""");
 
                 var address = $"Assets/{splits[1]}";
                 var group = setting.FindGroup("LuaScript");
@@ -109,7 +109,7 @@ public class CustomBuildMode : BuildScriptPackedMode {
                 AddAssetEntry(group, address, address);
             }
 
-            Debug.Log("LuaLuaScript");
+            Debug.Log("""Lua""LuaScript""");
         }
     }
 

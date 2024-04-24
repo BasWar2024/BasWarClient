@@ -9,35 +9,35 @@ using UnityEditor.AddressableAssets.Build;
 using UnityEditor.AddressableAssets.Settings;
 using UnityEngine;
 public class BuildingProjectProcessing {
-    // [MenuItem ("Tools//1.APK")]
+    // [MenuItem ("Tools/""/1.""APK")]
     // public static void BuildingProcessing () {
     //     if (Application.isPlaying) return;
-    //     //
+    //     //""
     //     string path = EditorPrefs.GetString ("BuildingFolderPath", "");
     //     path = EditorUtility.SaveFolderPanel ("BuildingFolderPath", path, "TrainArtsDEMO");
     //     if (path.Equals ("") || path == null) return;
     //     EditorPrefs.SetString ("BuildingFolderPath", path);
 
-    //     //clean 
+    //     //clean ""
     //     AddressableAssetSettings.CleanPlayerContent (AddressableAssetSettingsDefaultObject.Settings.ActivePlayerDataBuilder);
-    //     //addressable Group
+    //     //""addressable ""Group
     //     AddressableAssetSettings.BuildPlayerContent ();
 
     //     // // BuildScript
     //     // var res = AddressableAssetBuildResult.CreateResult<customBuilderRes> (null, 0, "errorString");
-    //     // //apk
+    //     // //""apk
     //     BuildPipeline.BuildPlayer (new string[] { "Assets/Scenes/Launcher.unity" }, path, BuildTarget.Android, BuildOptions.None);
 
     //     // processCommand (path + "/AS_All_EN_Train_MoPub/build/outputs/apk/release", path, path + "/AS_All_EN_Train_MoPub/gradlew.bat", "assembleDebug");
     // }
     static void PerExp () {
-        //clean 
+        //clean ""
         AddressableAssetSettings.CleanPlayerContent (AddressableAssetSettingsDefaultObject.Settings.ActivePlayerDataBuilder);
-        //addressable Group
+        //""addressable ""Group
         AddressableAssetSettings.BuildPlayerContent ();
     }
 
-    #region build
+    #region ""build""
     [InitializeOnLoadMethod]
     private static void Initialize () {
         BuildPlayerWindow.RegisterBuildPlayerHandler (BuildPlayerHandler);

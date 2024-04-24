@@ -13,7 +13,7 @@ using UnityEngine;
 public class LuaImporter : ScriptedImporter {
     public override void OnImportAsset (AssetImportContext ctx) {
         var luaTxt = File.ReadAllText (ctx.assetPath);
-        Debug.Log ("LuaPostprocessor lua  " + ctx.assetPath);
+        Debug.Log ("LuaPostprocessor ""lua "" " + ctx.assetPath);
         var assetsText = new TextAsset (luaTxt);
         ctx.AddObjectToAsset ("main obj", assetsText);
         ctx.SetMainObject (assetsText);

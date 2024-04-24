@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -14,7 +14,7 @@ namespace UnityAddressableImporter {
 
     public class AddressableImporter : AssetPostprocessor {
         static void OnPostprocessAllAssets (string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths) {
-            // 
+            // ""，""
             var isConfigurationPass =
                 (importedAssets.Length > 0 && importedAssets.All (x => x.StartsWith ("Assets/AddressableAssetsData"))) &&
                 (deletedAssets.Length > 0 && deletedAssets.All (x => x.StartsWith ("Assets/AddressableAssetsData")));
@@ -24,10 +24,10 @@ namespace UnityAddressableImporter {
 
             var settings = AddressableAssetSettingsDefaultObject.Settings;
             if (settings == null) {
-                //  AssetDatabase  
+                //""  ""AssetDatabase "" ""
                 if (!EditorApplication.isUpdating && !EditorApplication.isCompiling) {
-                    //
-                    Debug.LogWarningFormat ("[]  ,Window/Asset Management/Addressables Settings");
+                    //""
+                    Debug.LogWarningFormat ("[""]  "",Window/Asset Management/Addressables ""Settings");
                     Debug.LogWarningFormat ("[Addressables] settings file not found.\nPlease go to Menu/Window/Asset Management/Addressables, then click 'Create Addressables Settings' button.");
                 }
                 return;
@@ -35,13 +35,13 @@ namespace UnityAddressableImporter {
 
             var importSettings = AddressableImportSettings.Instance;
             if (importSettings == null) {
-                //
-                Debug.LogWarningFormat ("[]  , Project'Create > Addressable Assets > Import Settings'");
+                //""
+                Debug.LogWarningFormat ("[""]  "", Project""'Create > Addressable Assets > Import Settings'");
                 Debug.LogWarningFormat ("[AddressableImporter] import settings file not found.\nPlease go to Assets/AddressableAssetsData folder, right click in the project window and choose 'Create > Addressable Assets > Import Settings'.");
                 return;
             }
             if (importSettings.rules == null || importSettings.rules.Count == 0) {
-                Debug.LogWarningFormat ("[]  , ");
+                Debug.LogWarningFormat ("[""]  "", """);
                 Debug.LogWarningFormat ("[AddressableImporter] Lack rules, please add");
                 return;
             }
@@ -54,9 +54,9 @@ namespace UnityAddressableImporter {
             foreach (var importedAsset in importedAssets) {
                 if (importedAsset.Contains (".lua")) hasLua = true;
 
-                //           prefabStage==null  
+                //""           prefabStage==null  ""
                 if (prefabStage == null || prefabStage.prefabAssetPath != importedAsset) // Ignore current editing prefab asset.
-                    dirty |= ApplyImportRule (importedAsset, null, settings, importSettings); // |=
+                    dirty |= ApplyImportRule (importedAsset, null, settings, importSettings); // |=""
             }
 
             for (var i = 0; i < movedAssets.Length; i++) {
@@ -75,7 +75,7 @@ namespace UnityAddressableImporter {
                     var guid = AssetDatabase.AssetPathToGUID (deletedAsset);
                     if (!string.IsNullOrEmpty (guid) && settings.RemoveAssetEntry (guid)) {
                         dirty = true;
-                        Debug.LogErrorFormat ("[]  {0}", deletedAsset);
+                        Debug.LogErrorFormat ("[""]  ""{0}""", deletedAsset);
                         Debug.LogFormat ("[AddressableImporter] Entry removed for {0}", deletedAsset);
                     }
                 }
@@ -85,7 +85,7 @@ namespace UnityAddressableImporter {
                 AssetDatabase.SaveAssets ();
             }
             // if (hasLua) {
-            //     //.lua 
+            //     //"".lua ""
             //     CustomBuildMode.CreateLuaScriptAssetKey ();
             // }
 
@@ -96,7 +96,7 @@ namespace UnityAddressableImporter {
         }
 
         /// <summary>
-        /// 
+        /// ""
         /// </summary>
         /// <param name="assetPath"></param>
         /// <param name="movedFromAssetPath"></param>
@@ -105,7 +105,7 @@ namespace UnityAddressableImporter {
         /// <returns></returns>
         static bool ApplyImportRule (string assetPath, string movedFromAssetPath, AddressableAssetSettings settings, AddressableImportSettings importSettings) {
             var dirty = false;
-            if (TryGetMatchedRule (assetPath, importSettings, out var matchedRule)) { //
+            if (TryGetMatchedRule (assetPath, importSettings, out var matchedRule)) { //""
                 // Apply the matched rule.
                 var entry = CreateOrUpdateAddressableAssetEntry (settings, importSettings, matchedRule, assetPath);
                 if (entry != null) {
@@ -117,15 +117,15 @@ namespace UnityAddressableImporter {
                 }
 
                 dirty = true;
-            } else { // 
+            } else { //"" 
                 // If assetPath doesn't match any of the rules, try to remove the entry.
                 // But only if movedFromAssetPath has the matched rule, because the importer should not remove any unmanaged entries.
-                //    
+                //""  ""  ""
                 if (!string.IsNullOrEmpty (movedFromAssetPath) && TryGetMatchedRule (movedFromAssetPath, importSettings, out matchedRule)) {
                     var guid = AssetDatabase.AssetPathToGUID (assetPath);
                     if (settings.RemoveAssetEntry (guid)) {
                         dirty = true;
-                        Debug.LogFormat ("[]  {0}", assetPath);
+                        Debug.LogFormat ("[""]  ""{0}""", assetPath);
                         Debug.LogFormat ("[AddressableImporter] Entry removed for {0}", assetPath);
                     }
                 }
@@ -135,7 +135,7 @@ namespace UnityAddressableImporter {
         }
 
         /// <summary>
-        ///  
+        /// "" ""
         /// </summary>
         /// <param name="settings"></param>
         /// <param name="importSettings"></param>
@@ -151,33 +151,33 @@ namespace UnityAddressableImporter {
             AddressableAssetGroup group;
             var groupName = rule.ParseGroupReplacement (assetPath);
             bool newGroup = false;
-            if (!TryGetGroup (settings, groupName, out group)) { //
-                if (importSettings.allowGroupCreation) { //
+            if (!TryGetGroup (settings, groupName, out group)) { //""
+                if (importSettings.allowGroupCreation) { //""
                     //TODO Specify on editor which type to create.
-                    //
+                    //""
                     group = CreateAssetGroup<BundledAssetGroupSchema> (settings, groupName);
                     newGroup = true;
                 } else {
-                    Debug.LogErrorFormat ("[]  {0}   {1}. .", rule.groupName, assetPath);
+                    Debug.LogErrorFormat ("[""] "" {0} ""  ""：{1}. ""，""，"".", rule.groupName, assetPath);
                     Debug.LogErrorFormat ("[AddressableImporter] Failed to find group {0} when importing {1}. Please check if the group exists, then reimport the asset.", rule.groupName, assetPath);
                     return null;
                 }
             }
 
             // Set group settings from template if necessary
-            //
+            //""
             if (rule.groupTemplate != null && (newGroup || rule.groupTemplateApplicationMode == GroupTemplateApplicationMode.AlwaysOverwriteGroupSettings)) {
                 rule.groupTemplate.ApplyToAddressableAssetGroup (group);
             }
 
-            //guid
+            //""guid
             var guid = AssetDatabase.AssetPathToGUID (assetPath);
-            //
+            //""
             var entry = settings.CreateOrMoveEntry (guid, group);
 
             if (entry != null) {
                 // Apply address replacement if address is empty or path.
-                //
+                //""
                 if (string.IsNullOrEmpty (entry.address) ||
                     entry.address.StartsWith ("Assets/") ||
                     rule.simplified ||
@@ -196,7 +196,7 @@ namespace UnityAddressableImporter {
         }
 
         /// <summary>
-        ///   true   
+        /// ""  ""true  "" ""
         /// </summary>
         /// <param name="assetPath"></param>
         /// <param name="importSettings"></param>
@@ -219,7 +219,7 @@ namespace UnityAddressableImporter {
 
         /// <summary>
         /// Find asset group by given name. Return default group if given name is null.
-        ///   
+        /// ""  ""
         /// </summary>
         static AddressableAssetGroup GetGroup (AddressableAssetSettings settings, string groupName) {
             if (groupName != null)
@@ -231,7 +231,7 @@ namespace UnityAddressableImporter {
 
         /// <summary>
         /// Attempts to get the group using the provided <paramref name="groupName"/>.
-        ///   true  out    false
+        /// ""  ""true  out ""   ""false
         /// </summary>
         /// <param name="settings">Reference to the <see cref="AddressableAssetSettings"/></param>
         /// <param name="groupName">The name of the group for the search.</param>
@@ -247,7 +247,7 @@ namespace UnityAddressableImporter {
 
         /// <summary>
         /// Allows assets within the selected folder to be checked agains the Addressable Importer rules.
-        ///   
+        /// ""  ""
         /// </summary>
         public class FolderImporter {
             /// <summary>
@@ -302,7 +302,7 @@ namespace UnityAddressableImporter {
             }
 
             // Note that we pass the same path, and also pass "true" to the second argument.
-            //
+            //""
             [MenuItem ("Assets/AddressableImporter: Check Folder(s)", true)]
             private static bool ValidateCheckFoldersFromSelection () {
                 foreach (UnityEngine.Object obj in Selection.GetFiltered (typeof (UnityEngine.Object), SelectionMode.Assets)) {
