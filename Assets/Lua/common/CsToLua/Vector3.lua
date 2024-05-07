@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
---      Copyright (c) 2015 , (topameng) topameng@gmail.com
+--      Copyright (c) 2015 , ""(topameng) topameng@gmail.com
 --      All rights reserved.
 --
 --      Use, modification and distribution are subject to the "New BSD License"
@@ -592,10 +592,10 @@ function Vector3.RotateAroundAxis(v3,axis,angle)
     return q * v3
 end
 
---- 2D
---@param[type=Vector3] v3 (y)
---@param[type=float] angle ([0,360)),>0:,<0
---@return[type=Vector3] 
+--- ""2D""
+--@param[type=Vector3] v3 ""(""y"")
+--@param[type=float] angle ""(""[0,360)),>0:"",<0""
+--@return[type=Vector3] ""
 function Vector3.Rotate(v3,angle)
     --return Vector3.RotateAroundAxis(v3,Vector3.down,angle)
     local radian = angle * math.pi /  180.0

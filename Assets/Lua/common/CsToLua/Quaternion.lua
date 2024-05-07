@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
---      Copyright (c) 2015 , (topameng) topameng@gmail.com
+--      Copyright (c) 2015 , ""(topameng) topameng@gmail.com
 --      All rights reserved.
 --
 --      Use, modification and distribution are subject to the "New BSD License"
@@ -157,14 +157,14 @@ function Quaternion:SetNormalize()
     end
 end
 
---fromto
+--""from""to""
 function Quaternion.FromToRotation(from, to)
     local quat = Quaternion.New()
     quat:SetFromToRotation(from, to)
     return quat
 end
 
--- from  to, fromto forwardunity
+--"" from "" to"", ""from""to"" forward""unity""
 function Quaternion:SetFromToRotation1(from, to)
     local v0 = from:Normalize()
     local v1 = to:Normalize()
@@ -505,7 +505,7 @@ local function SanitizeEuler(euler)
 end
 
 --from http://www.geometrictools.com/Documentation/EulerAngles.pdf
---Order of rotations: YXZ, ZXY
+--Order of rotations: YXZ, ""ZXY""
 function Quaternion:ToEulerAngles()
     local x = self.x
     local y = self.y

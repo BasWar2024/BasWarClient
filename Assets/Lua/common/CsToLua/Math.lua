@@ -172,3 +172,7 @@ function math.atan16(a)
     end
 end
 
+function math.keepDecimal(decimal, num)
+    decimal = decimal or 0
+    return tonumber(string.format("%." .. decimal .. "f", num))
+end

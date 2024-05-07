@@ -1,3 +1,12 @@
 {
-    "Res": "1.1.1"
+    "state": "0", //"0""","1"""。""1,""，""state_1_notice""。
+    "state_1_notice": "game is in maintain, please wait",
+    "help_url": "https://beta.galaxyblitz.online/#download", // "","" go "" help "", ""go""download_url; ""help""help_url
+    "download_url": "https://beta.galaxyblitz.online/#download",
+    "hash_url": "http://www.baicu.com", //""hash_url,""
+    "json_url": "http://www.baicu.com", //""json_url
+    "res": "1.5.2.47",
+    //"" local("") androidGB(""android"") iosGB(""ios"")  androidGooglePlay(""googleplay)  iosAppstore(ios"")
+    //0=local, 1=alpha, 2=beta 3=release
+    "res_url": "http://www.galaxyblitz.org/alpha/androidGB/1.5.2.47/AA" //""
 }

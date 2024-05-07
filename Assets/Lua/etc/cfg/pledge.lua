@@ -1,7 +1,7 @@
--- cfgId                            int                              ID
--- expression                       string                           
--- minMit                           int                              MIT
--- maxMit                           int                              MIT
+-- cfgId                            int                              ""ID
+-- expression                       string                           ""
+-- minMit                           int                              ""MIT""
+-- maxMit                           int                              ""MIT""
 
 return {
 	[102] = {

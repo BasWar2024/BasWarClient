@@ -100,7 +100,7 @@ local function auto_id_map()
     end
 end
 
---xlua.hotfix
+--""xlua.hotfix""：""
 local function hotfix_ex(cs, field, func)
     assert(type(field) == 'string' and type(func) == 'function', 'invalid argument: #2 string needed, #3 function needed!')
     local function func_after(...)
@@ -118,7 +118,7 @@ local function bind(func, obj)
     end
 end
 
---luajitlua53|
+--""luajit，lua53""|""
 local enum_or_op = debug.getmetatable(CS.System.Reflection.BindingFlags.Public).__bor
 local enum_or_op_ex = function(first, ...)
     for _, e in ipairs({...}) do
@@ -127,7 +127,7 @@ local enum_or_op_ex = function(first, ...)
     return first
 end
 
--- description: C#delegate
+-- description: ""C#""delegate
 local function createdelegate(delegate_cls, obj, impl_cls, method_name, parameter_type_list)
     local flag = enum_or_op_ex(CS.System.Reflection.BindingFlags.Public, CS.System.Reflection.BindingFlags.NonPublic, 
         CS.System.Reflection.BindingFlags.Instance, CS.System.Reflection.BindingFlags.Static)

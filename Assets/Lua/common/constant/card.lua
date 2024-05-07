@@ -1,0 +1,4 @@
+constant.MAX_CARD_GROUP_COUNT = 4
+
+constant.CARD_GROUP_TYPE_ATK = 1
+constant.CARD_GROUP_TYPE_DEF = 2
