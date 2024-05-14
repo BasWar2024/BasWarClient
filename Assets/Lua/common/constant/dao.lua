@@ -1,0 +1,5 @@
+constant.DAO_DUTY_PRESIDENT = 9
+constant.DAO_DUTY_VICEPRESIDENT = 8
+constant.DAO_DUTY_ELITE = 1
+constant.DAO_DUTY_NORMAL = 0
+constant.DAO_DUTY_NONE = -1
