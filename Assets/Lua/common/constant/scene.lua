@@ -1,0 +1,9 @@
+
+constant.SCENE_LOGIN = 101
+constant.SCENE_BATTLE = 102
+constant.SCENE_PLANET = 103
+
+constant.SCENE_BASE = 1001
+constant.SCENE_GALAXY = 1002
+--constant.SCENE_STELLARSYSTEM = 1003
+--constant.SCENE_STELLAR = 1004

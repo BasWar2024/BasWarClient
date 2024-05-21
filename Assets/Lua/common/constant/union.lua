@@ -1,0 +1,8 @@
+constant.UNION_TYPE_ARMY_UNION = 1
+constant.UNION_TYPE_ARMY_SELF = 2
+
+constant.UNION_JOB_PRESIDENT = 9
+constant.UNION_JOB_VICEPRESIDENT = 8
+constant.UNION_JOB_ELITE = 7
+constant.UNION_JOB_NORMAL = 0
+constant.UNION_JOB_NONE = -1
