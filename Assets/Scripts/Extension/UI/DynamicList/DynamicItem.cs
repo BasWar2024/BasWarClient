@@ -8,14 +8,14 @@ public class DynamicItemData
 {
     public int index;
 
-    public string id; //id
+    public string id; //""，""，""id
 
-    // item
+    // ""item
     public float height = -1;
 }
 
-// item
-// todo : item(btngo)
+// ""item
+// todo : item""(btn""、go"")
 public class DynamicItem : MonoBehaviour
 {
     protected DynamicList _list;
@@ -38,7 +38,7 @@ public class DynamicItem : MonoBehaviour
     {
         get
         {
-            // todo ?
+            // todo ""?
             return _index != -1;
         }
     }
@@ -90,13 +90,13 @@ public class DynamicItem : MonoBehaviour
             t.TweenScale();
     }
 
-    // itemlist
+    // ""item""list
     public void SetList(DynamicList list)
     {
         _list = list;
     }
 
-    // item
+    // ""item
     public virtual void Refresh()
     {
     }

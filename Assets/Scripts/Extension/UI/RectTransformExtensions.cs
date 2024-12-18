@@ -62,12 +62,12 @@ public static class RectTransformExtensions
     }
 
      /// <summary>
-    /// 
+    /// ""
     /// </summary>
     /// <param name="source"></param>
-    /// <param name="allign"></param>
-    /// <param name="offsetX">x</param>
-    /// <param name="offsetY">y</param>
+    /// <param name="allign">""</param>
+    /// <param name="offsetX">x""</param>
+    /// <param name="offsetY">y""</param>
     public static void SetAnchor (this RectTransform source, AnchorPresets allign, int offsetX = 0, int offsetY = 0) {
         source.anchoredPosition = new Vector3 (offsetX, offsetY, 0);
 
@@ -176,10 +176,10 @@ public static class RectTransformExtensions
         }
     }
     /// <summary>
-    /// 
+    /// ""
     /// </summary>
     /// <param name="source"></param>
-    /// <param name="preset"></param>
+    /// <param name="preset">""</param>
     public static void SetPivot (this RectTransform source, PivotPresets preset) {
 
         switch (preset) {

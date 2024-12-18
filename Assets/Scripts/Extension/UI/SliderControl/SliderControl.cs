@@ -23,7 +23,7 @@ public class SliderControl : MonoBehaviour
     }
     public void OnPointerUp()
     {
-        // 
+        // ""，""
         float singleValue = 1 / (sliderCnt  - 1f);
         for (int i = 0; i < sliderCnt; i++)
         {

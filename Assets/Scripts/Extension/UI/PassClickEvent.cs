@@ -7,26 +7,26 @@ using System;
 
 public class PassClickEvent : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler
 {
-    // 
+    // ""
     public void OnPointerDown(PointerEventData eventData)
     {
         PassEvent(eventData, ExecuteEvents.pointerDownHandler);
     }
 
-    // 
+    // ""
     public void OnPointerUp(PointerEventData eventData)
     {
         PassEvent(eventData, ExecuteEvents.pointerUpHandler);
     }
 
-    // 
+    // ""
     public void OnPointerClick(PointerEventData eventData)
     {
         PassEvent(eventData, ExecuteEvents.pointerClickHandler);
         PassEvent(eventData, ExecuteEvents.submitHandler);
     }
 
-    // 
+    // ""
     public void  PassEvent<T>(PointerEventData data, ExecuteEvents.EventFunction<T> function)
         where T : IEventSystemHandler
     {
@@ -38,8 +38,8 @@ public class PassClickEvent : MonoBehaviour, IPointerClickHandler, IPointerDownH
             if(current != results[i].gameObject)
             {
                 ExecuteEvents.Execute(results[i].gameObject, data,function);
-                // RaycastAllugui
-                // ExecuteEvents.Executebreak
+                // RaycastAll""ugui""，""，
+                // ""ExecuteEvents.Execute""break""。
                 break;
             }
         }

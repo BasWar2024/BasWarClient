@@ -7,7 +7,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(LayoutGroup))]
 public class LayoutTween : MonoBehaviour
 {
-    //
+    //""
     public float _showDuration = 0.3f;
     public float _startScale = 0f;
     public float _nextScale = 1.2f;

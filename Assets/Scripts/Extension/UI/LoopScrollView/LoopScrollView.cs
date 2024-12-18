@@ -11,7 +11,6 @@ class ItemInfo
     public int dataIndex;
     public GameObject go;
     public RectTransform rect;
-
     public ItemInfo(GameObject go)
     {
         this.go = go;
@@ -24,48 +23,52 @@ enum ScrollDirection
     Vertical = 0,
     Horizontal = 1,
 }
-enum PosDir
+public enum PosDir
 {
-    Top = 0,
-    Bottom = 1,
+    None = 0,
+    Top = 1,
+    Bottom = -1,
+    // Left = 1,
+    // Right = -1,
 }
 
 public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    public float spancing = 0;
     public GameObject itemPrefab;
     public int dataCount = 0;
-    public int direction = 1;
+    public PosDir refreshDirection = PosDir.Top;
+    public bool isRefreshAsync = false;
 
-    // Start is called before the first frame update
+    public float spancing = 0;
+    public float top = 0;
+    public float bottom = 0;
+    
     ScrollRect _scrollRect = null;
     RectTransform _rectViewport = null;
     RectTransform _rectContent = null;
     RectTransform _rect = null;
+    RectTransform _rectPrefab;
     Action<GameObject, int> _renderHandler;
-    Action<GameObject, int> _renderSizeHandler;
+    Func<int, Vector2> _renderSizeHandler;
 
-    Dictionary<GameObject, ItemInfo> _dictItem;
+    Dictionary<GameObject, ItemInfo> _dictItem = new Dictionary<GameObject, ItemInfo>();
+    List<ItemInfo> _showingItemList = new List<ItemInfo>();
     Stack<ItemInfo> _itemPool = new Stack<ItemInfo>();
+    Vector2[] _arrDataIndex2Position;
 
-    int _beginDataIndex = 0;
-    int _endDataIndex = 0;
-
-    public bool isRefreshAsync = false;
+    int _beginDataIndex;
+    int _endDataIndex;
 
     void Awake()
     {
-        Init();
+        //Init();
+        //SetDataCount(dataCount);
     }
 
     void Start()
     {
-        
-        SetDataCount(dataCount);
-        //SetDataCount(30);
     }
 
-    // Update is called once per frame
     void Update()
     {
         UpdateItems();
@@ -76,22 +79,22 @@ public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         //Release();
     }
     
-    void Init()
+    public void Init()
     {
         _scrollRect = transform.GetComponent<ScrollRect>();
         _rectViewport = _scrollRect.viewport.GetComponent<RectTransform>();
         _rectContent = _scrollRect.content.GetComponent<RectTransform>();
         _rect = transform.GetComponent<RectTransform>();
-        _dictItem = new Dictionary<GameObject, ItemInfo>();
         _scrollRect.onValueChanged.AddListener(OnScrollValueChange);
+        _rectPrefab = itemPrefab.GetComponent<RectTransform>();
 
-        if (direction == 1)
+        if (refreshDirection == PosDir.Top)
         {
             _rectContent.anchorMin = new Vector2(0, 1);
             _rectContent.anchorMax = new Vector2(1, 1);
             _rectContent.pivot = new Vector2(0, 1);
         }
-        else
+        else if (refreshDirection == PosDir.Bottom)
         {
             _rectContent.anchorMin = new Vector2(0, 0);
             _rectContent.anchorMax = new Vector2(1, 0);
@@ -99,21 +102,110 @@ public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         }
     }
 
-    void InitList()
+    int GetDataIndexByContentPosition(Vector2 pos)
     {
+        for (int i = 0; i < _arrDataIndex2Position.Length; i++)
+        {
+            if (refreshDirection == PosDir.Top && pos.y > _arrDataIndex2Position[i].y + (int)refreshDirection * spancing)
+            {
+                return Mathf.Max(i, 1);
+            }
+            else if (refreshDirection == PosDir.Bottom && pos.y < _arrDataIndex2Position[dataCount - i - 1].y + (int)refreshDirection * spancing)
+            {
+                return Mathf.Min(dataCount, dataCount - i + 1);
+            }
+        }
+
+        if (refreshDirection == PosDir.Top)
+        {
+            return 0;
+        }
+        else
+        {
+            return dataCount;
+        }
+    }
+
+    public int GetFirstDataIndexByContentPosition()
+    {
+        float f = 0;
+        if (refreshDirection == PosDir.Top)
+        {
+            f = _rectContent.InverseTransformPoint(_rectViewport.position).y + _rectViewport.rect.height * (1 - _rectViewport.pivot.y);
+        }
+        else if (refreshDirection == PosDir.Bottom)
+        {
+            f = _rectContent.InverseTransformPoint(_rectViewport.position).y - _rectViewport.rect.height * _rectViewport.pivot.y;
+        }
+        return GetDataIndexByContentPosition(new Vector2(0, f));
+    }
+
+    public int GetLastDataIndexByContentPosition()
+    {
+        float f = 0;
+        if (refreshDirection == PosDir.Top)
+        {
+            f = _rectContent.InverseTransformPoint(_rectViewport.position).y - 
+                _rectViewport.rect.height * (1 - _rectViewport.pivot.y);
+        }
+        else if (refreshDirection == PosDir.Bottom)
+        {
+            f = _rectContent.InverseTransformPoint(_rectViewport.position).y + 
+                _rectViewport.rect.height * _rectViewport.pivot.y;
+        }
+        return GetDataIndexByContentPosition(new Vector2(0, f));
+    }
+
+    void InitList(bool isInitContentPosition)
+    {
+        isUpdateItems = false;
+        _scrollRect.StopMovement();
+        _rectContent.DOKill();
+        _arrDataIndex2Position = new Vector2[dataCount];
+        if (refreshDirection == PosDir.Top || refreshDirection == PosDir.Bottom) {
+            float _contentLenth = 0;
+            for (int i = 0; i < dataCount; i++)
+            {
+                //print(RenderItemSize(i + 1));
+                Vector2 size = RenderItemSize(i + 1);
+                if (refreshDirection == PosDir.Top)
+                {
+                    _arrDataIndex2Position[i] = new Vector2(0, -_contentLenth - top);
+                }
+                else if (refreshDirection == PosDir.Bottom)
+                {
+                    _arrDataIndex2Position[dataCount - i - 1] = new Vector2(0, _contentLenth + bottom);
+                }
+                
+                _contentLenth += size.y + spancing;
+            }
+            //_contentLenth -= spancing;
+            _contentLenth = Mathf.Max(_rectPrefab.rect.height, _contentLenth - spancing + top + bottom);
+
+            _rectContent.SetRectSizeY(_contentLenth);
+            if (isInitContentPosition || _contentLenth < _rectViewport.rect.height)
+            {
+                _rectContent.anchoredPosition = new Vector2(_rectContent.anchoredPosition.x, 0);
+            }
+            else if (_contentLenth > _rectViewport.rect.height && _contentLenth - Mathf.Abs(_rectContent.anchoredPosition.y) < _rectViewport.rect.height)
+            {
+                _rectContent.anchoredPosition = new Vector2(_rectContent.anchoredPosition.x, (int)refreshDirection * (_contentLenth - _rectViewport.rect.height));
+            }
+        }
+
         _beginDataIndex = dataCount + 1;
         _endDataIndex = 0;
-        _rectContent.anchoredPosition = new Vector2(_rectContent.anchoredPosition.x, 0);
-
-        if (direction == 1)
+        
+        if (refreshDirection == PosDir.Top)
         {
-            _beginDataIndex = 1;
+            _beginDataIndex = GetFirstDataIndexByContentPosition();
             InitTop2BottomByIndex(1);
         }
-        else if (direction == -1)
+        else if (refreshDirection == PosDir.Bottom)
         {
-            _endDataIndex = dataCount;
-            InitBottom2TopByIndex(_rectContent.childCount);
+            _endDataIndex = GetFirstDataIndexByContentPosition();
+            InitBottom2TopByIndex(_showingItemList.Count);
+            
         }
     }
     void RecycleAllItem()
@@ -129,9 +221,9 @@ public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         }
     }
 
-    void Refresh()
+    void Refresh(bool isInitContentPosition = false)
     {
-        InitList();
+        InitList(isInitContentPosition);
         if (isRefreshAsync)
         {
             isUpdateItems = true;
@@ -146,30 +238,30 @@ public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     void UpdateItems() {
         if (isUpdateItems)
         {
-            if (direction == 1)
+            if (refreshDirection == PosDir.Top)
             {
-                isUpdateItems = RefreshTop2Bottom(true);
+                isUpdateItems = RefreshTop2Bottom();
             }
-            else
+            else if(refreshDirection == PosDir.Bottom)
             {
-                isUpdateItems = RefreshBottom2Top(true);
+                isUpdateItems = RefreshBottom2Top();
             }
         }
     }
 
     void LoopRefreshVertical()
     {
-        if (direction == 1)
+        if (refreshDirection == PosDir.Top)
         {
-            if (RefreshTop2Bottom(true))
+            if (RefreshTop2Bottom())
             {
                 LoopRefreshVertical();
                 return;
             }
         }
-        else
+        else if(refreshDirection == PosDir.Bottom)
         {
-            if (RefreshBottom2Top(true))
+            if (RefreshBottom2Top())
             {
                 LoopRefreshVertical();
                 return;
@@ -180,58 +272,52 @@ public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     float lastValueY = 0;
     public void OnScrollValueChange(Vector2 vector)
     {
-        if (Math.Abs(vector.y - lastValueY) < 0.001)
+        if (Math.Abs(_rectContent.anchoredPosition.y - lastValueY) < 0.1)
         {
             return;
         }
-        //print("OnScrollValueChange" + " " + Convert.ToString(vector.y) + " " + (vector.y - lastValueY < 0));
-        if (vector.y - lastValueY < 0)
+        if (_rectContent.anchoredPosition.y - lastValueY > 0)
         {
-            RefreshTop2Bottom(direction == 1);
+            RefreshTop2Bottom();
         }
         else
         {
-            RefreshBottom2Top(direction == -1);
+            RefreshBottom2Top();
         }
-
-        lastValueY = vector.y;
+        lastValueY = _rectContent.anchoredPosition.y;
     }
 
     void InitTop2BottomByIndex(int index)
     {
-        int childCount = _rectContent.childCount;
-        if (childCount < index || childCount == 0 || index == 0) return;
-        ItemInfo item = _dictItem[_rectContent.GetChild(index - 1).gameObject];
+        int showingCount = _showingItemList.Count;
+        if (showingCount < index || showingCount == 0 || index == 0) return;
+        ItemInfo item = _showingItemList[index - 1];
+
         int dataIndex = _beginDataIndex + index - 1;
-        if (dataIndex > dataCount)
+        if (dataIndex > dataCount || dataIndex <= 0)
         {
             RecycleItem(item.go);
             InitTop2BottomByIndex(index);
         }
         else
         {
-            RenderItem(item.go, dataIndex);
-            RenderItemSize(item.go, dataIndex);
             _endDataIndex = dataIndex;
-            if (index == 1)
-            {
-                item.rect.anchoredPosition = new Vector2(0, 0);
-            }
-            else
-            {
-                ItemInfo lastItem = _dictItem[_rectContent.GetChild(index - 1 - 1).gameObject];
-                item.rect.anchoredPosition = new Vector2(0, lastItem.rect.anchoredPosition.y - (spancing + lastItem.rect.rect.height));
-            }
+            RenderItem(item.go, dataIndex);
+            item.rect.sizeDelta = RenderItemSize(dataIndex);
+            item.dataIndex = dataIndex;
+            //SetItemPosByIndex(index, PosDir.Bottom, true, item);
+            item.rect.anchoredPosition = _arrDataIndex2Position[dataIndex - 1];
             InitTop2BottomByIndex(index + 1);
         }
     }
 
     void InitBottom2TopByIndex(int index)
     {
-        int childCount = _rectContent.childCount;
-        if (childCount < index || childCount == 0 || index == 0) return;
-        ItemInfo item = _dictItem[_rectContent.GetChild(index - 1).gameObject];
-        int dataIndex = dataCount - (childCount - index);
+        int showingCount = _showingItemList.Count;
+        if (showingCount < index || showingCount == 0 || index == 0) return;
+        ItemInfo item = _showingItemList[index - 1];
+
+        int dataIndex = _endDataIndex - (showingCount - index);
         if (dataIndex < 1)
         {
             RecycleItem(item.go);
@@ -240,152 +326,135 @@ public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         else
         {
             _beginDataIndex = dataIndex;
-            if (index == childCount)
-            {
-                item.rect.anchoredPosition = new Vector2(0, 0);
-            }
-            else
-            {
-                ItemInfo lastItem = _dictItem[_rectContent.GetChild(index - 1 + 1).gameObject];
-                item.rect.anchoredPosition = new Vector2(0, lastItem.rect.anchoredPosition.y + (spancing + lastItem.rect.rect.height));
-            }
+            RenderItem(item.go, dataIndex);
+            item.rect.sizeDelta = RenderItemSize(dataIndex);
+            item.dataIndex = dataIndex;
+            //SetItemPosByIndex(index, PosDir.Top, true, item);
+            item.rect.anchoredPosition = _arrDataIndex2Position[dataIndex - 1];
             InitBottom2TopByIndex(index - 1);
         }
     }
 
-    public bool RefreshTop2Bottom(bool isSetContentSize)
+    public bool RefreshTop2Bottom()
     {
         if (_endDataIndex >= dataCount)
         {
             return false;
         }
-
-        RectTransform bottomRect = null;
-        if (_rectContent.transform.childCount > 0)
+        int showingCount = _showingItemList.Count;
+        ItemInfo bottomItem = null;
+        if (showingCount > 0)
         {
-            bottomRect = _rectContent.GetChild(_rectContent.childCount - 1).GetComponent<RectTransform>();
+            bottomItem = _showingItemList[showingCount - 1];
+        }
+        else
+        {
+            _beginDataIndex = 1;
         }
 
         bool isSet = false;
-        if (_rectContent.transform.childCount <= 0 || GetPosYBaseRect(_rectViewport, -1) - GetPosYBaseRect(bottomRect, -1) < 0)
+        if (showingCount <= 0 || GetPosYBaseRect(_rectViewport, -1) - GetPosYBaseRect(bottomItem.rect, -1) < 0)
         {
+            _endDataIndex++;
+            if (_endDataIndex < GetLastDataIndexByContentPosition())
+            {
+                Refresh();
+                return false;
+            }
+
             isSet = true;
             GetNewItem((item) =>
             {
-                _endDataIndex++;
-                item.go.transform.SetAsLastSibling();
                 RenderItem(item.go, _endDataIndex);
-                RenderItemSize(item.go, _endDataIndex);
+                item.rect.sizeDelta = RenderItemSize(_endDataIndex);
                 item.dataIndex = _endDataIndex;
-
-                if (bottomRect != null)
-                {
-                    item.rect.anchoredPosition = new Vector2(0, bottomRect.anchoredPosition.y - (spancing + bottomRect.rect.height));
-                }
-                else
-                {
-                    _beginDataIndex = 1;
-                    item.rect.anchoredPosition = new Vector2(0, 0);
-                }
-
-                if (isSetContentSize)
-                {
-                    float subLenth = GetPosYBaseRect(item.rect, -1) - GetPosYBaseRect(_rectContent, -1);
-                    _rectContent.SetRectSizeY(_rectContent.rect.height - subLenth + 1);
-                }
+                item.rect.anchoredPosition = _arrDataIndex2Position[_endDataIndex - 1];
                 return true;
-            });
+            }, PosDir.Bottom);
         }
-
-        if (CheckOutOfRange(_scrollRect.content.GetChild(0).gameObject))
+        if (CheckOutOfRange(_showingItemList[0].go, PosDir.Top))
         {
             _beginDataIndex += 1;
         }
         return isSet;
     }
 
-    public bool RefreshBottom2Top(bool isSetContentSize)
+    public bool RefreshBottom2Top()
     {
         if (_beginDataIndex <= 1)
         {
             return false;
         }
-
-        RectTransform topRect = null;
-        if (_rectContent.transform.childCount > 0)
+        int showingCount = _showingItemList.Count;
+        ItemInfo topItem = null;
+        if (showingCount > 0)
         {
-            topRect = _rectContent.GetChild(0).GetComponent<RectTransform>();
+            topItem = _showingItemList[0];
+        }
+        else
+        {
+            _endDataIndex = dataCount;
         }
 
         bool isSet = false;
-        if (_rectContent.transform.childCount <= 0 || GetPosYBaseRect(_rectViewport, 1) - GetPosYBaseRect(topRect, 1) > 0)
+        if (showingCount <= 0 || GetPosYBaseRect(_rectViewport, 1) - GetPosYBaseRect(topItem.rect, 1) > 0)
         {
+            _beginDataIndex--;
+            if (_beginDataIndex > GetFirstDataIndexByContentPosition()) {
+                Refresh();
+                return false;
+            }
+
             isSet = true;
             GetNewItem((item) =>
             {
-                _beginDataIndex = _beginDataIndex - 1;
-                item.go.transform.SetAsFirstSibling();
                 RenderItem(item.go, _beginDataIndex);
-                RenderItemSize(item.go, _beginDataIndex);
+                item.rect.sizeDelta = RenderItemSize(_beginDataIndex);
                 item.dataIndex = _beginDataIndex;
-
-                if (topRect != null)
-                {
-                    item.rect.anchoredPosition = new Vector2(0, topRect.anchoredPosition.y + (spancing + topRect.rect.height));
-                }
-                else
-                {
-                    _endDataIndex = dataCount;
-                    item.rect.anchoredPosition = new Vector2(0, 0);
-                }
-
-                if (isSetContentSize)
-                {
-                    float subLenth = GetPosYBaseRect(item.rect, 1) - GetPosYBaseRect(_rectContent, 1);
-                    _rectContent.SetRectSizeY(_rectContent.rect.height + subLenth + 1);
-                }
+                item.rect.anchoredPosition = _arrDataIndex2Position[_beginDataIndex - 1];
                 return true;
-            });
+            }, PosDir.Top);
         }
-
-        if (CheckOutOfRange(_rectContent.GetChild(_rectContent.childCount - 1).gameObject))
+        if (CheckOutOfRange(_showingItemList[_showingItemList.Count - 1].go, PosDir.Bottom))
         {
+
             _endDataIndex -= 1;
         }
         return isSet;
     }
 
-    void GetNewItem(Func<ItemInfo, bool> callBack, int index = -1)
+    void GetNewItem(Func<ItemInfo, bool> callBack, PosDir dirction)
     {
         ItemInfo item;
-        if (index > 0 && _rectContent.childCount >= index)
+        if (_itemPool.Count > 0)
         {
-            item = _dictItem[_rectContent.GetChild(index - 1).gameObject];
+            item = _itemPool.Pop();
         }
         else
         {
-            if (_itemPool.Count > 0)
+            item = new ItemInfo(Instantiate(itemPrefab));
+            item.go.transform.SetParentEx(_rectContent, false);
+        }
+        if (!_dictItem.ContainsKey(item.go))
+        {
+            _dictItem.Add(item.go, item);
+            if ((int)dirction == 1)
             {
-                item = _itemPool.Pop();
+                _showingItemList.Insert(0, item);
             }
             else
             {
-                item = new ItemInfo(Instantiate(itemPrefab));
-            }
-            if (!_dictItem.ContainsKey(item.go))
-            {
-                _dictItem.Add(item.go, item);
+                _showingItemList.Add(item);
             }
         }
-        item.go.transform.SetParentEx(_rectContent, false);
         item.go.transform.SetActiveEx(true);
-        if (direction == 1)
+        if (refreshDirection == PosDir.Top)
         {
             item.rect.anchorMax = new Vector2(0.5f, 1);
             item.rect.anchorMin = new Vector2(0.5f, 1);
             item.rect.pivot = new Vector2(0.5f, 1);
         }
-        else
+        else if(refreshDirection == PosDir.Bottom)
         {
             item.rect.anchorMax = new Vector2(0.5f, 0);
             item.rect.anchorMin = new Vector2(0.5f, 0);
@@ -394,15 +463,29 @@ public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         callBack(item);
     }
 
-    public bool CheckOutOfRange(GameObject go)
+    bool CheckOutOfRange(GameObject go, PosDir dir = PosDir.None)
     {
         if (!_dictItem.TryGetValue(go, out ItemInfo item))
         {
             return false;
         }
-        if (GetPosYBaseRect(item.rect, -1) > GetPosYBaseRect(_rectViewport, 1) || GetPosYBaseRect(item.rect, 1) < GetPosYBaseRect(_rectViewport, -1))
+
+        bool isRecycle;
+        if(dir == PosDir.Top)
+        {
+            isRecycle = GetPosYBaseRect(item.rect, -1) > GetPosYBaseRect(_rectViewport, 1);
+        }
+        else if(dir == PosDir.Bottom){
+            isRecycle = GetPosYBaseRect(item.rect, 1) < GetPosYBaseRect(_rectViewport, -1);
+        }
+        else{
+            isRecycle = GetPosYBaseRect(item.rect, -1) > GetPosYBaseRect(_rectViewport, 1) || GetPosYBaseRect(item.rect, 1) < GetPosYBaseRect(_rectViewport, -1);
+        }
+
+        if(isRecycle)
         {
             return RecycleItem(go);
+
         }
         return false;
     }
@@ -413,10 +496,10 @@ public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         {
             item = new ItemInfo(go);
         }
-        go.transform.SetParent(_rectViewport, false);
         go.transform.SetActiveEx(false);
         _itemPool.Push(item);
         _dictItem.Remove(go);
+        _showingItemList.Remove(item);
         return true;
     }
 
@@ -451,45 +534,102 @@ public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             }
         }
     }
-    //=============================================================
+
+    Vector2 GetJumpDataIndexPosition(int dataIndex) {
+        if (_arrDataIndex2Position.Length == 0){
+            return new Vector2(0, 0);
+        }
+
+        if (dataIndex < 1)
+        {
+            dataIndex = 1;
+        }
+        if (dataIndex > dataCount)
+        {
+            dataIndex = dataCount;
+        }
+
+        Vector2 itemPos = _arrDataIndex2Position[dataIndex - 1];
+        if (refreshDirection == PosDir.Top || refreshDirection == PosDir.Bottom)
+        {
+            if (_rectContent.rect.height < _rectViewport.rect.height)
+            {
+                return new Vector2(0, 0);
+            }
+
+            if (_rectContent.rect.height - Mathf.Abs(itemPos.y) > _rectViewport.rect.height)
+            {
+                return new Vector2(0, -itemPos.y);
+            }
+            else
+            {
+                return new Vector2(0, (int)refreshDirection * (_rectContent.rect.height - _rectViewport.rect.height));
+            }
+        }
+        return Vector2.zero;
+    }
+
+    //""=============================================================
     public void SetRenderHandler(Action<GameObject, int> renderHandler)
     {
         _renderHandler = renderHandler;
     }
 
-    public void SetRenderSizeHandler(Action<GameObject, int> renderSizeHandler)
+    public void SetRenderSizeHandler(Func<int, Vector2> renderSizeHandler)
     {
         _renderSizeHandler = renderSizeHandler;
     }
 
-    public void SetDataCount(int dataCount)
+    public void SetDataCount(int dataCount, bool isInitContentPosition = false)
     {
         this.dataCount = dataCount;
-        Refresh();
+        Refresh(isInitContentPosition);
     }
 
     public void Release()
     {
-        foreach (var item in _itemPool)
-        {
-            Destroy(item.go);
-        }
+        _renderHandler = null;
+        _renderSizeHandler = null;
+        // foreach (var item in _itemPool)
+        // {
+        //     Destroy(item.go);
+        // }
 
-        foreach (var item in _dictItem)
-        {
-            Destroy(item.Value.go);
-        }
+        // foreach (var item in _dictItem)
+        // {
+        //     Destroy(item.Value.go);
+        // }
+        // _showingItemList = new List<ItemInfo>();
     }
+
+    public void Jump2DataIndex(int dataIndex)
+    {
+        _rectContent.anchoredPosition = GetJumpDataIndexPosition(dataIndex);
+        Refresh(false);
+    }
+
+    public void Scroll2DataIndex(int dataIndex, float duration)
+    {
+        Vector2 pos = GetJumpDataIndexPosition(dataIndex);
+        _rectContent.DOAnchorPos(pos, duration);
+    }
+
     //=================================================================================
-    void RenderItemSize(GameObject go, int index)
+    Vector2 RenderItemSize(int dataIndex)
     {
-        //print("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" + index + " " + _beginDataIndex + " " + _endDataIndex + " " + dataCount);
-        _renderSizeHandler?.Invoke(go, index);
+        if (_renderSizeHandler != null)
+        {
+            return _renderSizeHandler(dataIndex);
+        }
+        else
+        {
+            return _rectPrefab.sizeDelta;
+        }
     }
 
-    void RenderItem(GameObject go, int index)
+    void RenderItem(GameObject go, int dataIndex)
     {
-        _renderHandler?.Invoke(go, index);
+        _renderHandler?.Invoke(go, dataIndex);
     }
     // ==================================================================================
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
@@ -498,6 +638,7 @@ public class LoopScrollView : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public void OnDrag(PointerEventData eventData)
     {
+        //GetFirstDataIndexByContentPosition();
     }
 
     public void OnEndDrag(PointerEventData eventData)

@@ -14,7 +14,7 @@ public class NotchedScreenComp : MonoBehaviour
 
     public float _originPosX = 0f;
     public UISide _side = UISide.Left;
-    //androidO
+    //androidO""，""
     public float _defaultPadding = 0f;
 
     private RectTransform _cachedTransform;
@@ -28,7 +28,7 @@ public class NotchedScreenComp : MonoBehaviour
     {
         _cachedTransform = GetComponent<RectTransform>();
 
-        if (Screen.orientation == ScreenOrientation.LandscapeLeft || Screen.orientation == ScreenOrientation.Landscape)//
+        if (Screen.orientation == ScreenOrientation.LandscapeLeft || Screen.orientation == ScreenOrientation.Landscape)//""
             _direction = ScreenOrientation.LandscapeLeft;
         else if (Screen.orientation == ScreenOrientation.LandscapeRight)
             _direction = ScreenOrientation.LandscapeRight;
@@ -43,7 +43,7 @@ public class NotchedScreenComp : MonoBehaviour
 
     void Update()
     {
-        //
+        //""
         if (_direction != Screen.orientation)
         {
             _direction = Screen.orientation;
@@ -75,7 +75,7 @@ public class NotchedScreenComp : MonoBehaviour
         get { return _tweeningType; }
     }
 
-    private void OnScreenRotate(bool calculate = false)  //
+    private void OnScreenRotate(bool calculate = false)  //""
     {
         if (_cachedTransform == null)
         {
@@ -224,7 +224,7 @@ public class NotchedScreenComp : MonoBehaviour
     {
         if (_direction == ScreenOrientation.Unknown)
         {
-            if (Screen.orientation == ScreenOrientation.LandscapeLeft || Screen.orientation == ScreenOrientation.Landscape)//
+            if (Screen.orientation == ScreenOrientation.LandscapeLeft || Screen.orientation == ScreenOrientation.Landscape)//""
                 _direction = ScreenOrientation.LandscapeLeft;
             else if (Screen.orientation == ScreenOrientation.LandscapeRight)
                 _direction = ScreenOrientation.LandscapeRight;
