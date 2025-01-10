@@ -1,0 +1,426 @@
+
+Bullet_300010601.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00000
+  rotate: false
+  xy: 188, 823
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00001
+  rotate: false
+  xy: 356, 840
+  size: 41, 30
+  orig: 205, 205
+  offset: 81, 84
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00002
+  rotate: false
+  xy: 660, 8
+  size: 81, 60
+  orig: 205, 205
+  offset: 60, 66
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00003
+  rotate: true
+  xy: 677, 175
+  size: 121, 90
+  orig: 205, 205
+  offset: 40, 47
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00004
+  rotate: false
+  xy: 759, 901
+  size: 162, 120
+  orig: 205, 205
+  offset: 17, 29
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00005
+  rotate: false
+  xy: 188, 669
+  size: 200, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00006
+  rotate: true
+  xy: 388, 437
+  size: 199, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00007
+  rotate: false
+  xy: 356, 872
+  size: 200, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00008
+  rotate: true
+  xy: 390, 638
+  size: 200, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00009
+  rotate: false
+  xy: 2, 872
+  size: 201, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00010
+  rotate: true
+  xy: 205, 820
+  size: 201, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00011
+  rotate: true
+  xy: 2, 669
+  size: 201, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00012
+  rotate: true
+  xy: 2, 266
+  size: 199, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00013
+  rotate: true
+  xy: 153, 266
+  size: 199, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00014
+  rotate: false
+  xy: 2, 115
+  size: 198, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00015
+  rotate: true
+  xy: 539, 437
+  size: 199, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00016
+  rotate: false
+  xy: 558, 872
+  size: 199, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00017
+  rotate: true
+  xy: 2, 467
+  size: 200, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00018
+  rotate: true
+  xy: 153, 467
+  size: 200, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00019
+  rotate: false
+  xy: 541, 721
+  size: 199, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00020
+  rotate: false
+  xy: 381, 286
+  size: 199, 149
+  orig: 205, 205
+  offset: 0, 11
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00021
+  rotate: false
+  xy: 582, 298
+  size: 185, 137
+  orig: 205, 205
+  offset: 6, 19
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00022
+  rotate: false
+  xy: 742, 744
+  size: 171, 126
+  orig: 205, 205
+  offset: 14, 26
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00023
+  rotate: false
+  xy: 690, 437
+  size: 155, 115
+  orig: 205, 205
+  offset: 22, 34
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00024
+  rotate: false
+  xy: 2, 10
+  size: 140, 103
+  orig: 205, 205
+  offset: 30, 41
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00025
+  rotate: false
+  xy: 768, 52
+  size: 125, 92
+  orig: 205, 205
+  offset: 38, 48
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00026
+  rotate: true
+  xy: 304, 552
+  size: 115, 82
+  orig: 205, 205
+  offset: 44, 54
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00027
+  rotate: true
+  xy: 304, 351
+  size: 111, 75
+  orig: 205, 205
+  offset: 44, 61
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00028
+  rotate: true
+  xy: 304, 247
+  size: 102, 69
+  orig: 205, 205
+  offset: 44, 67
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00029
+  rotate: true
+  xy: 298, 145
+  size: 100, 66
+  orig: 205, 205
+  offset: 44, 70
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00030
+  rotate: true
+  xy: 153, 756
+  size: 29, 27
+  orig: 205, 205
+  offset: 88, 89
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00031
+  rotate: true
+  xy: 153, 787
+  size: 37, 33
+  orig: 205, 205
+  offset: 84, 86
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00032
+  rotate: true
+  xy: 153, 826
+  size: 44, 43
+  orig: 205, 205
+  offset: 80, 81
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00033
+  rotate: false
+  xy: 144, 60
+  size: 53, 53
+  orig: 205, 205
+  offset: 76, 76
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00034
+  rotate: true
+  xy: 298, 78
+  size: 65, 64
+  orig: 205, 205
+  offset: 70, 70
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00035
+  rotate: false
+  xy: 646, 649
+  size: 77, 70
+  orig: 205, 205
+  offset: 64, 66
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00036
+  rotate: true
+  xy: 304, 464
+  size: 86, 81
+  orig: 205, 205
+  offset: 58, 60
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00037
+  rotate: true
+  xy: 199, 5
+  size: 95, 89
+  orig: 205, 205
+  offset: 55, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00038
+  rotate: true
+  xy: 366, 41
+  size: 107, 93
+  orig: 205, 205
+  offset: 49, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00039
+  rotate: false
+  xy: 907, 649
+  size: 114, 93
+  orig: 205, 205
+  offset: 46, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00040
+  rotate: true
+  xy: 470, 27
+  size: 122, 93
+  orig: 205, 205
+  offset: 41, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00041
+  rotate: true
+  xy: 375, 150
+  size: 134, 93
+  orig: 205, 205
+  offset: 36, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00042
+  rotate: true
+  xy: 582, 161
+  size: 135, 93
+  orig: 205, 205
+  offset: 35, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00043
+  rotate: true
+  xy: 915, 758
+  size: 141, 93
+  orig: 205, 205
+  offset: 32, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00044
+  rotate: false
+  xy: 857, 554
+  size: 148, 93
+  orig: 205, 205
+  offset: 29, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00045
+  rotate: true
+  xy: 769, 280
+  size: 155, 93
+  orig: 205, 205
+  offset: 25, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00046
+  rotate: true
+  xy: 202, 102
+  size: 162, 94
+  orig: 205, 205
+  offset: 22, 55
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00047
+  rotate: false
+  xy: 690, 554
+  size: 165, 93
+  orig: 205, 205
+  offset: 20, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00048
+  rotate: false
+  xy: 742, 649
+  size: 163, 93
+  orig: 205, 205
+  offset: 22, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00049
+  rotate: false
+  xy: 847, 459
+  size: 154, 93
+  orig: 205, 205
+  offset: 30, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00050
+  rotate: true
+  xy: 565, 28
+  size: 131, 93
+  orig: 205, 205
+  offset: 28, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00051
+  rotate: true
+  xy: 769, 146
+  size: 132, 93
+  orig: 205, 205
+  offset: 26, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00052
+  rotate: true
+  xy: 470, 151
+  size: 133, 93
+  orig: 205, 205
+  offset: 25, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00053
+  rotate: true
+  xy: 923, 902
+  size: 119, 93
+  orig: 205, 205
+  offset: 39, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00054
+  rotate: true
+  xy: 864, 346
+  size: 111, 92
+  orig: 205, 205
+  offset: 46, 56
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00055
+  rotate: true
+  xy: 864, 233
+  size: 111, 91
+  orig: 205, 205
+  offset: 46, 57
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00056
+  rotate: true
+  xy: 895, 122
+  size: 109, 91
+  orig: 205, 205
+  offset: 48, 57
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00057
+  rotate: false
+  xy: 895, 29
+  size: 102, 91
+  orig: 205, 205
+  offset: 55, 57
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00058
+  rotate: true
+  xy: 677, 70
+  size: 103, 89
+  orig: 205, 205
+  offset: 54, 57
+  index: -1
+res/Bullet_MicroBlackHole/MicroBlackHole_spine-idle_attack 8_00059_00059
+  rotate: false
+  xy: 541, 647
+  size: 103, 72
+  orig: 205, 205
+  offset: 54, 66
+  index: -1
