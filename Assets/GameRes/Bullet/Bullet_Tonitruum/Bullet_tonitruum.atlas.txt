@@ -1,0 +1,118 @@
+
+Bullet_tonitruum.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/Bullet_Tonitruum_00000
+  rotate: false
+  xy: 2, 386
+  size: 145, 64
+  orig: 150, 80
+  offset: 5, 8
+  index: -1
+1/Bullet_Tonitruum_00001
+  rotate: false
+  xy: 149, 386
+  size: 145, 64
+  orig: 150, 80
+  offset: 5, 8
+  index: -1
+1/Bullet_Tonitruum_00002
+  rotate: false
+  xy: 296, 386
+  size: 145, 64
+  orig: 150, 80
+  offset: 5, 8
+  index: -1
+1/Bullet_Tonitruum_00003
+  rotate: false
+  xy: 2, 319
+  size: 145, 65
+  orig: 150, 80
+  offset: 5, 8
+  index: -1
+1/Bullet_Tonitruum_00004
+  rotate: false
+  xy: 149, 316
+  size: 145, 68
+  orig: 150, 80
+  offset: 5, 8
+  index: -1
+1/Bullet_Tonitruum_00005
+  rotate: false
+  xy: 296, 316
+  size: 145, 68
+  orig: 150, 80
+  offset: 5, 7
+  index: -1
+1/Bullet_Tonitruum_00006
+  rotate: false
+  xy: 2, 243
+  size: 145, 74
+  orig: 150, 80
+  offset: 5, 6
+  index: -1
+1/Bullet_Tonitruum_00007
+  rotate: false
+  xy: 296, 238
+  size: 145, 76
+  orig: 150, 80
+  offset: 5, 0
+  index: -1
+1/Bullet_Tonitruum_00008
+  rotate: false
+  xy: 149, 239
+  size: 145, 75
+  orig: 150, 80
+  offset: 5, 3
+  index: -1
+1/Bullet_Tonitruum_00009
+  rotate: false
+  xy: 2, 164
+  size: 145, 77
+  orig: 150, 80
+  offset: 5, 1
+  index: -1
+1/Bullet_Tonitruum_00010
+  rotate: false
+  xy: 149, 160
+  size: 145, 77
+  orig: 150, 80
+  offset: 5, 1
+  index: -1
+1/Bullet_Tonitruum_00011
+  rotate: false
+  xy: 2, 84
+  size: 145, 78
+  orig: 150, 80
+  offset: 5, 2
+  index: -1
+1/Bullet_Tonitruum_00012
+  rotate: false
+  xy: 296, 77
+  size: 145, 80
+  orig: 150, 80
+  offset: 5, 0
+  index: -1
+1/Bullet_Tonitruum_00013
+  rotate: false
+  xy: 149, 79
+  size: 145, 79
+  orig: 150, 80
+  offset: 5, 1
+  index: -1
+1/Bullet_Tonitruum_00014
+  rotate: false
+  xy: 2, 2
+  size: 145, 80
+  orig: 150, 80
+  offset: 5, 0
+  index: -1
+1/Bullet_Tonitruum_00015
+  rotate: false
+  xy: 296, 159
+  size: 145, 77
+  orig: 150, 80
+  offset: 5, 3
+  index: -1

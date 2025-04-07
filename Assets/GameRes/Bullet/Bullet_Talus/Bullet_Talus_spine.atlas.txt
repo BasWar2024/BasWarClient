@@ -1,0 +1,97 @@
+
+Bullet_Talus_spine.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+res/Talus/Talus_00000
+  rotate: false
+  xy: 66, 70
+  size: 60, 61
+  orig: 100, 100
+  offset: 20, 18
+  index: -1
+res/Talus/Talus_00001
+  rotate: false
+  xy: 66, 7
+  size: 60, 61
+  orig: 100, 100
+  offset: 20, 18
+  index: -1
+res/Talus/Talus_00002
+  rotate: false
+  xy: 2, 68
+  size: 62, 63
+  orig: 100, 100
+  offset: 19, 17
+  index: -1
+res/Talus/Talus_00003
+  rotate: false
+  xy: 124, 191
+  size: 62, 63
+  orig: 100, 100
+  offset: 19, 17
+  index: -1
+res/Talus/Talus_00004
+  rotate: false
+  xy: 128, 128
+  size: 61, 61
+  orig: 100, 100
+  offset: 20, 18
+  index: -1
+res/Talus/Talus_00005
+  rotate: false
+  xy: 190, 66
+  size: 60, 60
+  orig: 100, 100
+  offset: 20, 18
+  index: -1
+res/Talus/Talus_00006
+  rotate: false
+  xy: 128, 65
+  size: 60, 61
+  orig: 100, 100
+  offset: 20, 18
+  index: -1
+res/Talus/Talus_00007
+  rotate: false
+  xy: 128, 2
+  size: 60, 61
+  orig: 100, 100
+  offset: 20, 18
+  index: -1
+res/Talus/Talus_00008
+  rotate: false
+  xy: 2, 3
+  size: 62, 63
+  orig: 100, 100
+  offset: 19, 17
+  index: -1
+res/Talus/Talus_00009
+  rotate: false
+  xy: 188, 191
+  size: 62, 63
+  orig: 100, 100
+  offset: 19, 17
+  index: -1
+res/Talus/Talus_00010
+  rotate: false
+  xy: 191, 128
+  size: 60, 61
+  orig: 100, 100
+  offset: 20, 18
+  index: -1
+res/Talus/Talus_00011
+  rotate: false
+  xy: 190, 4
+  size: 60, 60
+  orig: 100, 100
+  offset: 20, 18
+  index: -1
+res/Talus_body/Talus_body_00001
+  rotate: false
+  xy: 2, 133
+  size: 120, 121
+  orig: 200, 200
+  offset: 40, 37
+  index: -1
